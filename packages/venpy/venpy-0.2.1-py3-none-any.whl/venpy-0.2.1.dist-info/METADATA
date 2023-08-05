@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: venpy
+Version: 0.2.1
+Summary: Python utilities that Venky likes
+Project-URL: homepage, https://github.com/indigoviolet/venpy
+Author-email: Venky Iyer <indigoviolet@gmail.com>
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+TODO: see README.org for now
