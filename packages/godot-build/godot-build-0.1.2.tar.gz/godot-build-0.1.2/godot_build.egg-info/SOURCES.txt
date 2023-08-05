@@ -1,0 +1,11 @@
+README.md
+setup.py
+godot_build/__init__.py
+godot_build/config.py
+godot_build/gdbuild.py
+godot_build/godot.py
+godot_build.egg-info/PKG-INFO
+godot_build.egg-info/SOURCES.txt
+godot_build.egg-info/dependency_links.txt
+godot_build.egg-info/entry_points.txt
+godot_build.egg-info/top_level.txt
