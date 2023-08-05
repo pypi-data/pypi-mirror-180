@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+provider_switch/__init__.py
+provider_switch/exceptions.py
+provider_switch/provider_collection.py
+provider_switch/provider_switch_handler.py
+provider_switch.egg-info/PKG-INFO
+provider_switch.egg-info/SOURCES.txt
+provider_switch.egg-info/dependency_links.txt
+provider_switch.egg-info/requires.txt
+provider_switch.egg-info/top_level.txt
