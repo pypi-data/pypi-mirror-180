@@ -1,0 +1,16 @@
+apscale/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apscale/__main__.py,sha256=kWPlHzBJlyPEQuiASUIKT7JF1-sbGFTMZemBzh2M2Qo,5969
+apscale/a_create_project.py,sha256=my6pqCyRptXAuKfnL4Rh5zZUJ1eBX3Ho9VYEXvVDGYQ,3858
+apscale/b_pe_merging.py,sha256=IPdt8xGRCRGiN-Ae6WnoCc-2cGElO5toYRK0jJshmIw,5952
+apscale/c_primer_trimming.py,sha256=IUwtap6_rwtXm3W1IMIZEEH7A_GpSl1azSHpAaQ6n7U,5298
+apscale/d_quality_filtering.py,sha256=o90xNkFqqLVfwQgJozV_FdJsVcO-jbAybety-hPCUYk,5827
+apscale/e_dereplication_pooling.py,sha256=_E0HKKwrr7ymuO1FrLdFCIvw3hUKiLHgTmhSNqqCmZo,9315
+apscale/f_otu_clustering.py,sha256=xJp-DHxDHob07Cvlv0BXW3RREFQ8907SkaS_djLoXVM,14431
+apscale/g_denoising.py,sha256=38E6_idnQoGZ3V1Nb5PsWcn2FaGq5IonoZ0Ssb_0fTs,14334
+apscale/h_lulu_filtering.py,sha256=Vi2QCwawIAOkoF9NvvIHFvyy16X6_S5a-G6HAgjuDiA,18280
+apscale-1.5.6.dist-info/LICENSE,sha256=QAa_qnzaX1TcOxVUHdPZxa90IfBiMfE_vwoySBMzkeM,1093
+apscale-1.5.6.dist-info/METADATA,sha256=lZR7F6D9vVhs2Jadx-bVRBEOgBfb7OoqXT4EMn4g5PU,8994
+apscale-1.5.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+apscale-1.5.6.dist-info/entry_points.txt,sha256=B6gcP4KGQB_6mOCln6WG_I5invmq8Ot7PaLFWJzfv_0,50
+apscale-1.5.6.dist-info/top_level.txt,sha256=QmNkw9SnlUhWQtpRopjzf5xSQkBYd1R1-fFLBBResAw,8
+apscale-1.5.6.dist-info/RECORD,,
