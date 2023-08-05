@@ -1,0 +1,10 @@
+hatch_vcs/__about__.py,sha256=3vhBbS5NCJBlq1J-AVqe48RrBdDN1zYG1Z24xqYzWIA,118
+hatch_vcs/__init__.py,sha256=2YJprupq71Qtt23AD9LVILXA8-Px4eWWGoDPcelcus8,96
+hatch_vcs/build_hook.py,sha256=FuSBkMtatw6qu0QCiexB24TTmcyekSyxgvll_MFj0QU,1690
+hatch_vcs/hooks.py,sha256=bD4Kjl7wrB0vQf80AeyGwKElgvru_4aqRHudRbDIFjA,381
+hatch_vcs/version_source.py,sha256=eQQVYW4UivjpeEUsdout5gytPbfAzej-4hJEoLbkIMg,2414
+hatch_vcs-0.2.1.dist-info/METADATA,sha256=QJQcWpqWSG7CK08ddR9wBiS7fdMruuJFG5ch98lWLe8,6272
+hatch_vcs-0.2.1.dist-info/WHEEL,sha256=cdcF4Fbd0FPtw2EMIOwH-3rSOTUdTCeOSXRMD1iLUb8,105
+hatch_vcs-0.2.1.dist-info/entry_points.txt,sha256=p105TyFQWdP_nR0TorNNJjwF-e27LU7yrJ7pzsQlBLg,30
+hatch_vcs-0.2.1.dist-info/licenses/LICENSE.txt,sha256=EXqlAG2EdVYvBEQqsG3SpMUBrzp3JV6uDe7x8MJJmho,1088
+hatch_vcs-0.2.1.dist-info/RECORD,,
