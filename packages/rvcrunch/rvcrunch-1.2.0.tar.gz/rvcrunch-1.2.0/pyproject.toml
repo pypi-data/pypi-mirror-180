@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rvcrunch"
+version = "1.2.0"
+authors = [
+  { name="Ed Howard", email="exfhoward@protonmail.com" },
+]
+description = "RvTools Analysis Tool"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["pandas", "numpy"]
+
+[project.urls]
+"Homepage" = "https://github.com/shapedthought/rvcrunchcli"
+"Bug Tracker" = "https://github.com/shapedthought/rvcrunchcli/issues"
