@@ -1,0 +1,4 @@
+include a_pandas_ex_csv_plus/requirements.txt
+include a_pandas_ex_csv_plus/thirdparty.json
+include a_pandas_ex_csv_plus/README.MD
+include a_pandas_ex_csv_plus/LICENSE
