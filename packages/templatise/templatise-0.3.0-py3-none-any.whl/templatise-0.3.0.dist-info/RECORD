@@ -1,0 +1,12 @@
+templatise/__init__.py,sha256=YTg8IhR6M6NCh185Uffpx3-m9DvOGlVYftYNXGW6WTA,19
+templatise/actions.py,sha256=SAJYBjiZaU5o0L12sPsaUq467sC9nKk3Z7PCH5XdhVk,1138
+templatise/configuration.py,sha256=-pGMrF7vqNb9fyhPafVaMc_k-zGbn0LGl1DOGW9lbXc,2995
+templatise/git.py,sha256=uvXYjAOVpO6gpLOof8KtHnnaCJkunNoRmHunLrfMZyE,999
+templatise/initialise.py,sha256=3Ru5ovk0rz0qkzVEtVKXlebG8XkVErYPe68s0jdx0Wg,2762
+templatise/licence.py,sha256=5fD1TWubDTbJhQ4Cw8AQA9peCxpKaAa_fTB_ndf5rOI,1335
+templatise/project_name.py,sha256=_MZd-aSoziCiYt8ylvAQNBsps0bkhcOD1-AYLqBUWeE,948
+templatise-0.3.0.dist-info/entry_points.txt,sha256=zHVJl4Ibe8jaLYwarDVbQp5rUp9U3PxDpUL53fRQSWw,57
+templatise-0.3.0.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+templatise-0.3.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+templatise-0.3.0.dist-info/METADATA,sha256=vn9R4E0UaLj1Z6WOsqnFc4XcPWsuo4rvu4v3ajkypIw,3502
+templatise-0.3.0.dist-info/RECORD,,
