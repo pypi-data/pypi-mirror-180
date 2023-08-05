@@ -1,0 +1,2 @@
+[console_scripts]
+jackdaw = jackdaw.__main__:main
