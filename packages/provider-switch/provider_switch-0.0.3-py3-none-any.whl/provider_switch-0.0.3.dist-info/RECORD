@@ -1,0 +1,9 @@
+provider_switch/__init__.py,sha256=49WVfbUGNqZFFYyIOI_XJxUohgyWo11veAcw2uUgXpQ,83
+provider_switch/exceptions.py,sha256=QagezcFBj5xT4sLHlBY4yJDJeEw8e-imNEP5kVkZ8Bw,1474
+provider_switch/provider_collection.py,sha256=XAS_IV-honuQxoQ8KmYtiv3tc8sjBkvyN7zwmExiZ7s,3507
+provider_switch/provider_switch_handler.py,sha256=gcg9k_u7vEHWWOwIjlQGPlDXuasfHMVXobYF8dBIFFs,9059
+provider_switch-0.0.3.dist-info/LICENSE.txt,sha256=vh_NsDnltjh3acwawQcxKUIYTDJfZ6_HUs5P-RP-Bjk,1057
+provider_switch-0.0.3.dist-info/METADATA,sha256=84-f8rw0YmriBU6R6MPMM8gfPlX4pxk0FeR8XeOtJVQ,398
+provider_switch-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+provider_switch-0.0.3.dist-info/top_level.txt,sha256=UZJpgi_TEwIvgaa00iQDjIamd_2XUTECLgaVikBkr8c,16
+provider_switch-0.0.3.dist-info/RECORD,,
