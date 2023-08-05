@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0", "pytest>=7.0.1", "numpy>=1.20.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autodiff-cs107-bjmms"
+version = "0.0.1"
+authors = [
+  { name="Martin Reyes Holguin", email="mreyes@college.harvard.edu" },
+  { name="Marcos Rios Contreras", email="mrioscontreras@college.harvard.edu" },
+  { name="Sergio Jara Reynoso", email="sjarareynoso@college.harvard.edu" },
+  { name="Yumi Yi", email="yumiyi@college.harvard.edu"},
+  { name="Brian Medrano", email="brianmedrano@college.harvard.edu"},
+]
+description = "Package for automatic differentiation"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Mathematics"
+]
+
+[tool.pytest.ini_options]
+pythonpath = [
+    "src/autodiff"
+]
+
+[project.urls]
+"Homepage" = "https://harvard-iacs.github.io/2022-CS107/"
