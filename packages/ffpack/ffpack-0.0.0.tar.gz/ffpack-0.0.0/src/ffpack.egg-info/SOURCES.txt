@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/ffpack/__init__.py
+src/ffpack/__main__.py
+src/ffpack.egg-info/PKG-INFO
+src/ffpack.egg-info/SOURCES.txt
+src/ffpack.egg-info/dependency_links.txt
+src/ffpack.egg-info/top_level.txt

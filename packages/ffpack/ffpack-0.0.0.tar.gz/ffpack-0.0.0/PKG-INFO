@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ffpack
+Version: 0.0.0
+Summary: Fatigue and fracture package
+Author: Dongping Zhu
+Project-URL: Homepage, https://github.com/dpzhuX/ffpack
+Project-URL: Bug Tracker, https://github.com/dpzhuX/ffpack/issues
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Fatigue and fracture package
