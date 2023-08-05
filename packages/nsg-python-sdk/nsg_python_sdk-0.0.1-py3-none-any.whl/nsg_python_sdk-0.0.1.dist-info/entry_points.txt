@@ -1,0 +1,3 @@
+[console_scripts]
+nsgsdk = bin.nsgsdk:process_request
+nsgsdktest = bin.nsgsdktest:run_test
