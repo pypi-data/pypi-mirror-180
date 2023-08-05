@@ -1,0 +1,16 @@
+attrs>=18.1
+clldutils>=3.5
+pycdstar>=1.0.0
+
+[dev]
+build
+flake8
+tox
+twine
+wheel>=0.36
+
+[test]
+coverage>=4.2
+pytest-cov
+pytest-mock
+pytest>=3.6
