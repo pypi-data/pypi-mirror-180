@@ -1,0 +1,13 @@
+pytest
+pytest-cov
+sacrebleu==1.5.1
+tornado
+soundfile
+pandas
+requests
+pytest-flake8
+textgrid
+tqdm
+pyyaml
+bitarray==2.6.0
+soundfile
