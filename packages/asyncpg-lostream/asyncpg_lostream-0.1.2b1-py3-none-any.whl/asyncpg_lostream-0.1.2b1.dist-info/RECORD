@@ -1,0 +1,8 @@
+asyncpg_lostream/__init__.py,sha256=joeX074BhPfkzmHGnVYkPAMU5-KVqz7Uij1LJ2H6wDY,116
+asyncpg_lostream/__version__,sha256=JmhSNPgWVm8mnu0Aw-gRUrXcCWRzxZrkHLBGh26PTZY,7
+asyncpg_lostream/lostream.py,sha256=KHO6GUhq2ccSjzYpvTvkCstBBKx6pPOPBBjBEqBfgcs,9985
+asyncpg_lostream-0.1.2b1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+asyncpg_lostream-0.1.2b1.dist-info/METADATA,sha256=uux2iXyAYMp21qiGHAOkEwfldUPRpuECNXNRe8zQ01A,5549
+asyncpg_lostream-0.1.2b1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+asyncpg_lostream-0.1.2b1.dist-info/top_level.txt,sha256=RLL2ui1WTdpl1PUYIX3hAE4SS1BVEbltBTQeGBemTHw,17
+asyncpg_lostream-0.1.2b1.dist-info/RECORD,,
