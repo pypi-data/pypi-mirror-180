@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: enterprise-outliers
+Version: 1.0.0
+Summary: Outlier analysis
+Home-page: https://github.com/nanograv/enterprise_outliers
+Author: Stephen R. Taylor, Paul T. Baker, Jeffrey S. Hazboun, Sarah Vigeland
+Author-email: srtaylor@caltech.edu
+License: MIT
+Keywords: gravitational-wave,black-hole binary,pulsar-timing arrays
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+License-File: AUTHORS.rst
