@@ -1,0 +1,4 @@
+requests
+zipfile
+plistlib
+github3
