@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: spoonbill-framework
+Version: 0.0.1a0
+Summary: A key-value store with different backends
+Home-page: https://www.xdss.io
+Author: Yonatan Alexander
+Author-email: jonathan@xdss.io
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
+
+UNKNOWN
+
