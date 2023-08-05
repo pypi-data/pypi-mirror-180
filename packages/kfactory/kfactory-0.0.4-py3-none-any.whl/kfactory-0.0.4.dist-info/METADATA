@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: kfactory
+Version: 0.0.4
+Summary: KLayout API implementation of gdsfactory
+Author-email: gdsfactory community <contact@gdsfactory.com>
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: klayout (>=0.27.11)
+Requires-Dist: scipy
+Requires-Dist: ruamel.yaml
+Requires-Dist: cachetools (>=5.2.0)
+Provides-Extra: dev
+Requires-Dist: black (>=21) ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: commitizen ; extra == 'dev'
+Requires-Dist: gitpython ; extra == 'dev'
+Requires-Dist: pylsp-mypy ; extra == 'dev'
+Requires-Dist: types-cachetools ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: docutils (==0.17.1) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: sphinxcontrib-video ; extra == 'docs'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'docs'
+Requires-Dist: sphinx-book-theme (==0.3.3) ; extra == 'docs'
+Requires-Dist: sphinx-click ; extra == 'docs'
+Requires-Dist: sphinx-copybutton ; extra == 'docs'
+Requires-Dist: sphinx-markdown-tables (==0.0.46) ; extra == 'docs'
+Requires-Dist: myst-parser ; extra == 'docs'
+Requires-Dist: matplotlib ; extra == 'docs'
+Requires-Dist: nbsphinx ; extra == 'docs'
+Requires-Dist: autodoc-pydantic ; extra == 'docs'
+
