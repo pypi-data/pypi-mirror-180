@@ -1,0 +1,76 @@
+# ------------------------------------------------------------------------------
+# This is generated from {{url}}
+# To run this code, please install SDK by this command:
+# pip install "mldesigner[pipeline]>=0.0.0b5" --upgrade
+# More detailed guide to set up your environment: TODO(2027847):Complete TODO in helloworld_pipeline_job_with_deep_reference
+# ------------------------------------------------------------------------------
+
+{% if contain_float_or_number %}
+# All the value would be passed as string format when you submit a pipeline,
+# therefore we put all the float and integer in quotation marks in this file.
+{% endif %}
+
+{% for import in azure_ai_ml_imports %}
+{{import}}
+{% endfor %}
+{% if component_import %}
+from components import (
+{% for func_name in component_import %}
+    {{func_name}},
+{% endfor %}
+)
+{% endif %}
+
+
+# define pipeline
+{% if dsl_pipeline_param_assignments %}
+@dsl.pipeline(
+{% for name, val in dsl_pipeline_param_assignments.items() %}
+    {{name}}={{val}},
+{% endfor %}
+)
+{% else %}
+@dsl.pipeline()
+{% endif %}
+{% if pipeline_param_defines %}
+def {{pipeline_func_name}}(
+{% for name, val in pipeline_param_defines.items() %}
+    {% if val %}
+    {{name}}={{val}},
+    {% else %}
+    {{name}},
+    {% endif %}
+{% endfor %}
+):
+{% else %}
+def {{pipeline_func_name}}():
+{% endif %}
+    {% for component_str in component_node_strs %}
+    {{ component_str|indent(4) }}
+    {% endfor %}
+    {% if pipeline_outputs %}
+    return {
+        {% for name, val in pipeline_outputs.items() %}
+        '{{name}}': {{val}},
+        {% endfor %}
+    }
+    {% endif %}
+
+
+# create a pipeline
+{% if pipeline_param_assignments %}
+pipeline_job = {{pipeline_func_name}}(
+{% for name, val in pipeline_param_assignments.items() %}
+    {{name}}={{val}},
+{% endfor %}
+)
+{% else %}
+pipeline_job = {{pipeline_func_name}}()
+{% endif %}
+
+pipeline_job.experiment_name = "{{pipeline_entity.experiment_name}}"
+pipeline_job.description = "{{pipeline_entity.description}}"
+pipeline_job.tags = {{pipeline_entity.tags}}
+{% if pipeline_compute %}
+pipeline_job.settings.default_compute = "{{pipeline_compute}}"
+{% endif %}
