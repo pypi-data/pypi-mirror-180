@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: pytest-keep-together
+Version: 1.0.0
+Summary: Pytest plugin to customize test ordering by running all 'related' tests together
+Project-URL: Homepage, https://github.com/hugo-viana/pytest-keep-together
+Project-URL: Bug Tracker, https://github.com/hugo-viana/pytest-keep-together/issues
+Author-email: Hugo Viana <hugosemianoviana@gmail.com>
+License-File: LICENSE
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Requires-Python: >=3.7
+Requires-Dist: pytest
+Description-Content-Type: text/markdown
+
+# pytest-keep-together
+Pytest plugin to customize test ordering by running all "related" tests together.
+
+# Usage
+
+TBD
+
+# Installation
+
+Create a new virtual environment, activate it and install development requirements:
+
+```
+pip install requirements_dev.txt
+```
+
+# Development best-practices
+
+Every commit must be checked with flake8 and mypy:
+
+```
+flake8
+```
+
+```
+mypy .
+```
+
+# Build and distribute a new version
+
+## Build package
+
+```
+py -m build
+```
+
+## Publish new version to test PyPi
+
+```
+py -m twine upload --repository testpypi dist/*
+```
+
+## Publish new version to PyPi (production)
+
+```
+py -m twine upload dist/*
+```
