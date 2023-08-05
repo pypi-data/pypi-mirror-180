@@ -1,0 +1,13 @@
+cs.deco>=20221106.1
+cs.fsm>=20221118
+cs.gvutils>=20221207
+cs.logutils>=20220531
+cs.pfx>=20221118
+cs.py.func>=20221207
+cs.queues>=20221207
+cs.resources>=20221118
+cs.result>=20221207
+cs.seq>=20221118
+cs.threads>=20221207
+icontract
+typeguard
