@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+pyproject.toml
+fastapi_dataclass_battery/__init__.py
+fastapi_dataclass_battery/dataclasses.py
+fastapi_dataclass_battery/fastapi.py
+fastapi_dataclass_battery.egg-info/PKG-INFO
+fastapi_dataclass_battery.egg-info/SOURCES.txt
+fastapi_dataclass_battery.egg-info/dependency_links.txt
+fastapi_dataclass_battery.egg-info/requires.txt
+fastapi_dataclass_battery.egg-info/top_level.txt

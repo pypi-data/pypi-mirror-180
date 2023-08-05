@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: fastapi_dataclass_battery
+Version: 0.0.1
+Summary: Simple library that adds the ability to use slots with pydantic dataclasses and allows to bypass the response validation.
+Author-email: Egor Stakhovsky <y.stakhovsky@gmail.com>
+Project-URL: Homepage, https://github.com/stakhovsky/fastapi-dataclass-battery
+Project-URL: Bug Tracker, https://github.com/stakhovsky/fastapi-dataclass-battery/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# fastapi-dataclass-battery
+
+Simple library that adds the ability to use slots with pydantic dataclasses and allows to bypass the response validation.
+
+See examples for details and usage.
