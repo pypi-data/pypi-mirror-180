@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/roation_ip/__init__.py
+src/roation_ip/rotation_ip.py
+src/rotation_ip.egg-info/PKG-INFO
+src/rotation_ip.egg-info/SOURCES.txt
+src/rotation_ip.egg-info/dependency_links.txt
+src/rotation_ip.egg-info/requires.txt
+src/rotation_ip.egg-info/top_level.txt

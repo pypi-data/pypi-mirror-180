@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: rotation_ip
+Version: 0.0.1
+Summary: Change IP In Http Request
+Author-email: Anish <anishshakthivelnadar@gmail.com>
+Project-URL: Homepage, https://github.com/Anish0612/rotation_ip
+Project-URL: Bug Tracker, https://github.com/Anish0612/rotation_ip/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# rotation_ip
+
+A Python library that changes the request library's IP address by automatically establishing a connection with a free proxy
