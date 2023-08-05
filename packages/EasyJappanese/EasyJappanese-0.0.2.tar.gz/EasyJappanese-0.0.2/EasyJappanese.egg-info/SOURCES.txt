@@ -1,0 +1,10 @@
+setup.py
+EasyJappanese.egg-info/PKG-INFO
+EasyJappanese.egg-info/SOURCES.txt
+EasyJappanese.egg-info/dependency_links.txt
+EasyJappanese.egg-info/requires.txt
+EasyJappanese.egg-info/top_level.txt
+easyjapanese/__init__.py
+easyjapanese/complete.py
+easyjapanese/easy.py
+easyjapanese/regular.py
