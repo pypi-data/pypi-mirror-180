@@ -1,0 +1,16 @@
+example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example/anime.py,sha256=Rp0at49QMrFQd3yriW2Cjt7fLDa6rfl3NKym8jYrTdQ,2438
+osusume/__init__.py,sha256=FkSRlH4Q5v0jW4lXicdfoqQGtRx6xpM1L5ohAcNZHYw,137
+osusume/base.py,sha256=f5uZeCAt_pTLGVimoPthYJ-CYGWQJumDhnEtSREqkzQ,4551
+osusume/core.py,sha256=QE-z1seBOVTqWSQmWYIBtIAgQQWGYvF8a0j7W7E6vx4,3527
+osusume/embed.py,sha256=FFFLok2zrM66WH7M5h6PFOpM9ykP7qMpgv-TTorB3sg,493
+osusume/extract.py,sha256=fvlk0BOlfgnG5YYMHQAlc9JMyXSu7k0d1ik9gDs9kQ0,784
+osusume/generate.py,sha256=LK99tF3oNJh9_AGioqKOXq4ZCWj4vC21su8FN96m9gY,2047
+osusume/version.py,sha256=4se2-QRIPsQy0Qla6DZQFQ90RVImEWlZaaA4AT2r29U,18
+osusume/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+osusume/util/text.py,sha256=2M8mj-sz2mHgeeilNHGbRmQUkF8XTWT7xd0_ujCPun0,1601
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+osusume-1.0.0.dist-info/METADATA,sha256=y-f2rnRza3LNQVS6vxFUTwpbMTt9dpvsahSffZHQ7RE,15808
+osusume-1.0.0.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+osusume-1.0.0.dist-info/licenses/LICENSE,sha256=9Y6H0HVG_aViw1w6QjJsW05NEIZa1MvRE9_LX8wrkr8,11351
+osusume-1.0.0.dist-info/RECORD,,
