@@ -1,0 +1,14 @@
+requests
+requests-toolbelt
+six>=1.9
+certifi
+python-dateutil
+
+[develop]
+coverage
+pytest
+pytest-instafail
+
+[test]
+coverage
+pytest
