@@ -1,0 +1,8 @@
+# A general purpose AI model 
+
+'''
+from avinash_ai import analyze_your_query
+
+response = analyze_your_query("What is 2+2 ?")
+print(response)
+'''
