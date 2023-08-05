@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+feris_first_pypi_package/Binomialdistribution.py
+feris_first_pypi_package/Gaussiandistribution.py
+feris_first_pypi_package/Generaldistribution.py
+feris_first_pypi_package/__init__.py
+feris_first_pypi_package.egg-info/PKG-INFO
+feris_first_pypi_package.egg-info/SOURCES.txt
+feris_first_pypi_package.egg-info/dependency_links.txt
+feris_first_pypi_package.egg-info/not-zip-safe
+feris_first_pypi_package.egg-info/top_level.txt
