@@ -1,0 +1,7 @@
+setup.py
+acellera_sygmund.egg-info/PKG-INFO
+acellera_sygmund.egg-info/SOURCES.txt
+acellera_sygmund.egg-info/dependency_links.txt
+acellera_sygmund.egg-info/not-zip-safe
+acellera_sygmund.egg-info/requires.txt
+acellera_sygmund.egg-info/top_level.txt
