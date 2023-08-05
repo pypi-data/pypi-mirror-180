@@ -1,0 +1,8 @@
+setup.py
+dictManipulate/__init__.py
+dictManipulate/dictManipulate.py
+dictManipulate.egg-info/PKG-INFO
+dictManipulate.egg-info/SOURCES.txt
+dictManipulate.egg-info/dependency_links.txt
+dictManipulate.egg-info/not-zip-safe
+dictManipulate.egg-info/top_level.txt
