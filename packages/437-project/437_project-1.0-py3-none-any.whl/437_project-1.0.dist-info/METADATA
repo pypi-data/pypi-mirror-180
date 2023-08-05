@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: 437-project
+Version: 1.0
+Summary: desc
+Home-page: https://github.com/tianakk/437-project
+Author: yousseffarouk
+Author-email: mail@mail.com
+License: Personal
+Project-URL: Source, https://github.com/tianakk/437-project
+Requires-Python: >=3
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Requires-Dist: prettytable
+
+desc
