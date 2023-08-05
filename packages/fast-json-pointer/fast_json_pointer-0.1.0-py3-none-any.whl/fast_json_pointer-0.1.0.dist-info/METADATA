@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: fast-json-pointer
+Version: 0.1.0
+Summary: Implements RFC 6901 JSON pointers, and json-schema draft relative pointer resolution.
+Home-page: https://github.com/SlowAPI/py-json-pointer
+License: GNU Lesser General Public License v3.0
+Author: Tristan Sweeney
+Author-email: sweeneytri@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Documentation, https://py-json-pointer.readthedocs.io/en/latest/
+Project-URL: Repository, https://github.com/SlowAPI/py-json-pointer
+Description-Content-Type: text/markdown
+
+# py-json-pointer
+Implements RFC 6901 JSON pointers, and json-schema draft relative pointer resolution.
+
+[![Documentation Status](https://readthedocs.org/projects/py-json-pointer/badge/?version=latest)](https://py-json-pointer.readthedocs.io/en/latest/?badge=latest)
+![PyPI - Downloads](https://img.shields.io/pypi/dw/fast-json-pointer)
+![PyPI - License](https://img.shields.io/pypi/l/fast-json-pointer)
