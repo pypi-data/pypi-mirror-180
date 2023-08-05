@@ -1,0 +1,6 @@
+#+TITLE: Test
+
+* echo "HI"
+* # BEGIN_PARALLEL
+* echo "LOL"
+* # END_PARALLEL
