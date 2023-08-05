@@ -1,0 +1,16 @@
+zenodoclient/__init__.py,sha256=zSATkLb2LGgjO_R5asXHTnVvWhGQLyMVEjxlaNrJPRo,61
+zenodoclient/__main__.py,sha256=5aUeu5jOFCtWizOARbMl5N2DPRk1Hx74BM9RQdEHwug,1355
+zenodoclient/api.py,sha256=igSWC-VNLRh2AAlYSzKCdrMc2KRwmTHwi-LMbGjIEnc,9867
+zenodoclient/catalog.py,sha256=P4uTeMU18OwKGocMY4yob0vcJBK2RCpZcEpmYP7tu8k,711
+zenodoclient/models.py,sha256=o6GRZOzRc_Y0B7XDYX25dqw4GEZodSVpG3J0DygunWE,10796
+zenodoclient/oai.py,sha256=KCwTERzzEQcL5fVBbvIf_zsMKnZb-FxlHyu81anZyBo,3617
+zenodoclient/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zenodoclient/commands/refresh.py,sha256=8be7EcoQwHK4t8c4xPHMJ_tCcwno4K4oHgcW4jRPJS0,243
+zenodoclient/commands/update.py,sha256=bE592_cqIP0TOS7jY8jKKaSSAQV_Sq-VBUT01bFhHpg,773
+zenodoclient/commands/updatepeople.py,sha256=Nenj0VC-NtPyVNoSSmdP83GlLGvYArPcgfaN7TcD6Ms,1384
+zenodoclient-0.5.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+zenodoclient-0.5.0.dist-info/METADATA,sha256=VjpCPDnZdTbMHYUr1w4Cn7cK4lsGtxCbySaWCILEaBQ,3439
+zenodoclient-0.5.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+zenodoclient-0.5.0.dist-info/entry_points.txt,sha256=-tppF5EFrark3OLSgbD3y_SNeL6LfP-J5na3lGZ1k88,55
+zenodoclient-0.5.0.dist-info/top_level.txt,sha256=J57P1-Qlf9C1dhJ2uOcBfET3JL5cV7Ripz5_kHfZZuk,13
+zenodoclient-0.5.0.dist-info/RECORD,,
