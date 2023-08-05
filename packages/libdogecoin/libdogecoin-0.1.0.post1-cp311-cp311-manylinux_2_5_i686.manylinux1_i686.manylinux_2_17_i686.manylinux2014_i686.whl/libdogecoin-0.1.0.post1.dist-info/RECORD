@@ -1,0 +1,9 @@
+libdogecoin.cpython-311-i386-linux-gnu.so,sha256=UWyGz8BEifU5X3uNsyydolbILlQb5z1vfrHMqPEK24Y,1803112
+libdogecoin-0.1.0.post1.dist-info/METADATA,sha256=7ooyE5chCppzB1MKLYteuGKwcdJirIy6efhjXVQGMPg,7709
+libdogecoin-0.1.0.post1.dist-info/top_level.txt,sha256=Pe2AiF2DRAmeEmE8BSHYtvZAinXVVvkLl5tx3VWJWyU,18
+libdogecoin-0.1.0.post1.dist-info/RECORD,,
+libdogecoin-0.1.0.post1.dist-info/WHEEL,sha256=WLTPc_GHFbuN3HX-zm7eGba-SQDm2uzJuERaV028lQ0,217
+libdogecoin-0.1.0.post1.dist-info/LICENSE,sha256=EY_A4VocQFFGvoJZAf9NwAC7ZKdUBaJC1bPRnZVY0vE,1160
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/address_test.py,sha256=pWPYX6LZJoGcMfjYF-aKleFgbAWiH-sOpvym42kN6ZM,6114
+tests/transaction_test.py,sha256=KGLOAt_czREHrBr2n0GliiXMbA1UNsypEBr9M3427vE,18068
