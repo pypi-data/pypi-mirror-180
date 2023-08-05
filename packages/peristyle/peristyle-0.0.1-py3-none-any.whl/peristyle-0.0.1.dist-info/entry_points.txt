@@ -1,0 +1,3 @@
+[console_scripts]
+peristyle = peristyle.__main__:main
+
