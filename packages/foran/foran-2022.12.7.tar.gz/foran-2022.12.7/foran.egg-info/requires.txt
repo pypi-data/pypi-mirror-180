@@ -1,0 +1,12 @@
+GitPython>=3.1.29
+typer>=0.7.0
+
+[dev]
+black
+coverage
+flake8
+hypothesis
+mypy
+pytest
+pytest-cov
+pytest-flake8
