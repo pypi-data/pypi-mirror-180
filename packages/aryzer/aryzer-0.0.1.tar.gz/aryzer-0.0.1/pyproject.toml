@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "aryzer"
+version = "0.0.1"
+authors = [
+  { name="Jan Bernoth", email="jan.bernoth@uni-potsdam.de" },
+]
+description = "Learn from trainingsdata a classifier to label article"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://gitup.uni-potsdam.de/innohs/train-articleclassifier"
+"Bug Tracker" = "https://gitup.uni-potsdam.de/innohs/train-articleclassifier/-/issues"

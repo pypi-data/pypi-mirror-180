@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Article-Analyzer
+Version: 0.1
+Summary: Learn from trainingsdata a classifier to label article
+Home-page: UNKNOWN
+Author: Jan Bernoth
+Author-email: jan.bernoth@uni-potsdam.de
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+# Train Article classifier
+
+This project is an experimental project to test the use of test classification algorithms.
+

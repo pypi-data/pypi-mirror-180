@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+Article_Analyzer.egg-info/PKG-INFO
+Article_Analyzer.egg-info/SOURCES.txt
+Article_Analyzer.egg-info/dependency_links.txt
+Article_Analyzer.egg-info/top_level.txt
