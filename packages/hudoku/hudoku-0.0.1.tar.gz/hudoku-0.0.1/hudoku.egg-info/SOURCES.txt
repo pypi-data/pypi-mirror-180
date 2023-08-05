@@ -1,0 +1,6 @@
+setup.py
+hudoku.egg-info/PKG-INFO
+hudoku.egg-info/SOURCES.txt
+hudoku.egg-info/dependency_links.txt
+hudoku.egg-info/not-zip-safe
+hudoku.egg-info/top_level.txt
