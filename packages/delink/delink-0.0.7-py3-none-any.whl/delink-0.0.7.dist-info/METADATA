@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: delink
+Version: 0.0.7
+Summary: delink ios remote client
+Home-page: http://icode.baidu.com/repos/baidu/baiduinputqa/delink_ios_remote_client/tree/master
+Author: zhangpei04
+Author-email: zhangpei04@baidu.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: logzero (~=1.7.0)
+Requires-Dist: watchdog (~=2.2.0)
+Requires-Dist: logger (~=1.4)
+Requires-Dist: psutil (~=5.9.4)
+
+delink ios remote client
+
