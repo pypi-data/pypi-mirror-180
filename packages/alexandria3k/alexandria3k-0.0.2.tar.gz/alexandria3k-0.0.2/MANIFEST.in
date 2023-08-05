@@ -1,0 +1,3 @@
+exclude notes.txt *.swp *.db Session.vim
+foo
+recursive-exclude src/alexandria3k/data *
