@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: PyEarthData
+Version: 1.0.4
+Summary: Python Package for grabbing earth surface and atmosphere data
+Home-page: https://github.com/ayushanand18/PyEarthData
+Author: Ayush Anand
+License: MIT
+Project-URL: Documentation, https://github.com/ayushanand18/PyEarthData
+Project-URL: Bug Tracker, https://github.com/ayushanand18/PyEarthData
+Project-URL: Source Code, https://github.com/ayushanand18/PyEarthData
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyEarthData
+Simulating concentration of gases through atmospheric data and analysing its affect on Marine Species.
+
+## introduction
+A python package for simulating concentration of gases through atmospheric data and analysing its affect on  Marine Species.
+
+author: ayush anand
