@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: unique_id_generator
+Version: 0.0.4
+Summary: Unique ID Generator
+Home-page: https://github.com/hoangperry/system-design-implementation/tree/master/unique-id-generator
+Author: Hoang N. Truong
+Author-email: hoang@hoang.tech
+Keywords: python,first package
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+
+An implementation for System Design Interview books
