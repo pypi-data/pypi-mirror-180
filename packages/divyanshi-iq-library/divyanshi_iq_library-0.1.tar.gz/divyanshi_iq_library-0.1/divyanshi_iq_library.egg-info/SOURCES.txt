@@ -1,0 +1,8 @@
+setup.py
+divyanshi_iq_library/__init__.py
+divyanshi_iq_library/divyanshi_iq_library.py
+divyanshi_iq_library.egg-info/PKG-INFO
+divyanshi_iq_library.egg-info/SOURCES.txt
+divyanshi_iq_library.egg-info/dependency_links.txt
+divyanshi_iq_library.egg-info/not-zip-safe
+divyanshi_iq_library.egg-info/top_level.txt
