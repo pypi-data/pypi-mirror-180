@@ -1,0 +1,2 @@
+[console_scripts]
+tmxutil = tmxutil.cli:entrypoint
