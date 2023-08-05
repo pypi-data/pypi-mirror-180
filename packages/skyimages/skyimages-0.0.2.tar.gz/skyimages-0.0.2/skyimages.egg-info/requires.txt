@@ -1,0 +1,8 @@
+torch
+torchvision
+requests
+tqdm
+h5py
+pandas
+
+[dev]
