@@ -1,0 +1,5 @@
+PyGObject
+pulsectl
+
+[:python_version < "3.8"]
+importlib-metadata

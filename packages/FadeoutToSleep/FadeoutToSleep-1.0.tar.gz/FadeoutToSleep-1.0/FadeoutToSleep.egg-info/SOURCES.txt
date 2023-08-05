@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+FadeoutToSleep.egg-info/PKG-INFO
+FadeoutToSleep.egg-info/SOURCES.txt
+FadeoutToSleep.egg-info/dependency_links.txt
+FadeoutToSleep.egg-info/entry_points.txt
+FadeoutToSleep.egg-info/requires.txt
+FadeoutToSleep.egg-info/top_level.txt
+fadeouttosleep/fadeouttosleep.py
+fadeouttosleep/Glade/FadeoutToSleep.glade

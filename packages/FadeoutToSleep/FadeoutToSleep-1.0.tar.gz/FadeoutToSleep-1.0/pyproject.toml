@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "FadeoutToSleep"
+version = "1.0"
+authors = [
+  { name="TekMiikka" },
+]
+description = "A program to fade out volume linearly and put the computer to sleep."
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: Multimedia :: Sound/Audio :: Mixers",
+    "Intended Audience :: End Users/Desktop",
+]
+
+keywords = [
+    'sleep',
+    'standby',
+    'volume',
+    'GTK',
+    'glade',
+]
+
+requires-python = ">=3.4"
+
+dependencies = [
+    'PyGObject',
+    'pulsectl',
+    'importlib-metadata; python_version < "3.8"',
+]
+
+[project.gui-scripts]
+FadeoutToSleep = "fadeouttosleep.fadeouttosleep:mymain"
+
+[project.urls]
+"Homepage" = "https://github.com/tekmiikka/fadeouttosleep"
+
+[tool.setuptools]
+include-package-data = true
+
