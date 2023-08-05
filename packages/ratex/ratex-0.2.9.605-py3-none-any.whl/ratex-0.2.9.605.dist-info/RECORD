@@ -1,0 +1,16 @@
+ratex/__init__.py,sha256=m6bAb1GZjC4DZ33woCwix61sbf1SY6D9M5aWfi541cw,198
+ratex/adjust.py,sha256=ND6P9NhBENhHVjOv3GZFrplGX9GXLUUYin3c8lfQVpQ,753
+ratex/build.py,sha256=OKFLzrdTsun5zQAAPm5oLf38z-LPhO1tRyRMI2vifHQ,4611
+ratex/errors.py,sha256=lMs2IgVpbrKs_Pf5Smj2jZcnUoynU2l55FgH2LqObAg,436
+ratex/flex.py,sha256=VK44zZ8I7j2gYR_L2kcz0cUHoEPuSeQ0UVTQMQVMuH4,390
+ratex/header.py,sha256=jpNWHOVJbEjugjJEhkHMHK44cMhytNilCmgRR-ArH8A,292
+ratex/list.py,sha256=BXNohCutNbR59gikZygi9cOaQsxsWJaZJ-zMDvIsuS4,772
+ratex/packages.py,sha256=pp1jG9UdgPPHdgKQ9KgZ88nnul5oa_4ECaY25Kjiups,407
+ratex/space.py,sha256=br8wAwbA8NvHuPONmR_mAb_auyApj2M7zbh0PZfE298,261
+ratex/table.py,sha256=4yNEAavz0xiuVmMtRcVtIDwkavyb5uJe5huvYePTANE,1740
+ratex/text.py,sha256=fv61_jc3t0Tpgcl0kW4Y4QUTffC9YFrhYY7CSbmro50,810
+ratex-0.2.9.605.dist-info/LICENSE,sha256=8BbcxB83Qe_z4bhrHnWANRoPh8v-r6PZ6HvS0e-eY1I,1116
+ratex-0.2.9.605.dist-info/METADATA,sha256=WT9kvSwkbIyRk4lZbysgVgyC4_1SJmPpupQqMzbCbcQ,3512
+ratex-0.2.9.605.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ratex-0.2.9.605.dist-info/top_level.txt,sha256=FK8wxIzKp0PXxUZ7LvgNGQJvdYJCqNvjF2Dcc2YaZmY,6
+ratex-0.2.9.605.dist-info/RECORD,,
