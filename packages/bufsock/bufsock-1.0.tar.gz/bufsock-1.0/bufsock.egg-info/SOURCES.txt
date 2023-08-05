@@ -1,0 +1,7 @@
+COPYING
+bufsock.py
+setup.py
+bufsock.egg-info/PKG-INFO
+bufsock.egg-info/SOURCES.txt
+bufsock.egg-info/dependency_links.txt
+bufsock.egg-info/top_level.txt

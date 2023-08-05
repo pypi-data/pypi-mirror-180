@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: bufsock
+Version: 1.0
+Summary: A buffered socket module
+Home-page: http://stromberg.dnsalias.org/~strombrg/bufsock
+Author: Daniel Richard Stromberg
+Author-email: strombrg@gmail.com
+License: UCI (BSD-like)
+Platform: Cross platform
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+License-File: COPYING
+
+
+A module for doing socket I/O in a greatly simplified manner.
