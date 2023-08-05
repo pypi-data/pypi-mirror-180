@@ -1,0 +1,7 @@
+LICENSE
+pyproject.toml
+webtilities.py
+webtilities.egg-info/PKG-INFO
+webtilities.egg-info/SOURCES.txt
+webtilities.egg-info/dependency_links.txt
+webtilities.egg-info/top_level.txt
