@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: robologs
+Version: 0.0.1a0
+Summary: robologs is an open source library of containerized data transformations for the robotics and drone communities
+License: Apache-2.0
+Author: roboto.ai
+Author-email: info@roboto.ai
+Requires-Python: >=3.8.2,<4.0.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+
