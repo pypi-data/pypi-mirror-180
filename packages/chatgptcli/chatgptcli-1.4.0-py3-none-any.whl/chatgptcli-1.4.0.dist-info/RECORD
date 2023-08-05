@@ -1,0 +1,11 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatgptcli/__init__.py,sha256=ATKAG92FJvCPrbcRa77Q3HyqBsENC-K8fsLVe7RNmx4,64
+chatgptcli/main.py,sha256=vz5Jlp2hMFesvcd8NnugRQjhO5f1BjQ2Vp3BLTp2slA,4535
+chatgptcli/classes/chat.py,sha256=a-IIEQIHEybpQMMrI6aY3KRzVBsYBWq3u8IlQMvzbG0,2109
+chatgptcli/classes/openai.py,sha256=7OzNLv7yAfVRshhLZh-zx23G_6hhOS-s9hJH3k9ic8s,11444
+chatgptcli/classes/spinner.py,sha256=2bdl9bcalRuz3KtC8iAw3KWSxW5gZ26_OPB0ui4E8VU,1233
+chatgptcli-1.4.0.dist-info/LICENSE,sha256=x4SWFNvRPDM9AGezRcLDM_TOCA2-p9psMOSDnAHZDOU,1059
+chatgptcli-1.4.0.dist-info/METADATA,sha256=Hp4whiNdL9qtHfC6vzH_ZvEzWM020ztb51DEr8fVxeg,738
+chatgptcli-1.4.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+chatgptcli-1.4.0.dist-info/top_level.txt,sha256=pZtE4TBe0ABvB1wdxjXA3tmgdcHv7HqdwIQOthGNM6A,20
+chatgptcli-1.4.0.dist-info/RECORD,,
