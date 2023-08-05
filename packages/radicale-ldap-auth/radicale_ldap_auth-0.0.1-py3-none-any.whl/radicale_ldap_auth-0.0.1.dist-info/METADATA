@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: radicale-ldap-auth
+Version: 0.0.1
+Summary: Плагин авторизации в radicale под доменными пользователями
+Home-page: https://github.com/viktor-gorinskiy/radicale_ldap_auth
+Author: Viktor Gorinskiy
+Author-email: viktor@gorinskiy.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pyasn1-modules (==0.2.8)
+Requires-Dist: pyasn1 (==0.4.8)
+Requires-Dist: python-ldap (==3.4.3)
+
+UNKNOWN
+
+
