@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: phatgpt
+Version: 0.0.8
+Summary: A simple terminal interface for chatgpt
+Home-page: https://github.com/th3r00t/phatgpt
+Author: th3r00t
+Author-email: admin@mylt.dev
+License: GPL3
+Keywords: chatgpt ai
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Environment :: Console
+Classifier: Natural Language :: English
+License-File: LICENSE
+License-File: LICENSE.txt
+
+
+Terminal based interface for chatgpt. I have attempted to mimic
+the playgrounds current implementation as closely as possible. in order to use
+the script you will need an api key for chatgpt.
+
+You can get a key here https://openai.com/api/
+
+set your api key to the enviroment variable OPENAI_API_KEY
