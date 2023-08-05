@@ -1,0 +1,8 @@
+pyramid
+pyramid_tm
+requests
+SQLAlchemy
+zope.interface
+zope.sqlalchemy
+python-slugify
+inflect
