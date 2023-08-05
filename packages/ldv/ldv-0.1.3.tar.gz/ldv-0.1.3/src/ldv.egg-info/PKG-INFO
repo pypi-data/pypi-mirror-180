@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ldv
+Version: 0.1.3
+Summary: Light Data Versioning
+Home-page: https://github.com/martinnorin/ldv
+Author: Martin Norin
+Author-email: ldv@martinnorin.se
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: ALL
+Provides-Extra: AWS
+Provides-Extra: LISTENER
+Provides-Extra: CLI
+
+# ldv
+Light Data Versioning
+
+Ldv is a tool for version tracking big files on a remote storage and storing digest files together with code that uses the big files.
+A digest file is a small file containing information about the file to version track. The information includes file size in bytes, timestamp of version, hexdigest (the version number), and local and remote filepaths.
+
+Ldv can be run from the command line or from code, using the APIs of the package.
+
+Ldv has no external dependencies on other programs, e.g. Git.

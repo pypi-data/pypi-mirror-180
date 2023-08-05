@@ -1,0 +1,14 @@
+
+[ALL]
+boto3
+watchdog
+click
+
+[AWS]
+boto3
+
+[CLI]
+click
+
+[LISTENER]
+watchdog
