@@ -1,0 +1,3 @@
+[console_scripts]
+tw-source-list=tw_source_finder.scripts.get_simple_source_list:main
+
