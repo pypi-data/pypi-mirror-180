@@ -1,0 +1,3 @@
+[console_scripts]
+latextomd=latexcornouaille.cli:main
+
