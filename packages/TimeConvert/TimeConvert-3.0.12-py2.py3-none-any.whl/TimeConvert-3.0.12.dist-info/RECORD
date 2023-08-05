@@ -1,0 +1,11 @@
+TimeConvert/__init__.py,sha256=MC8k8GuaeAYRp3NxWd5p26geh22cowqlmcZd0CBrl98,398
+TimeConvert/convert.py,sha256=juVgWpOGqh62xguSkuBcYfmj6Oz9XwxJ-YQyA1ssKeo,69306
+TimeConvert/isoweek.py,sha256=7jZ2OWxDEAQY1Rhynjg96mWSB2IjjSbKC2HhxEqiJcw,6423
+TimeConvert/month.py,sha256=n4SnpKFE51ewPtiWxqjDwMJPFh605Crp59_LaNEcVZ4,10946
+TimeConvert/quarter.py,sha256=bA4Lfm15bBgyRE7Uekq1Oyf2LUV0sHIBvRrG2zRm0yw,2157
+TimeConvert/stopwatch.py,sha256=cYhkUxEB_p5JrwMvQLP4q2i4E02sUHP4qIXW7xp43N4,9186
+TimeConvert/week.py,sha256=AEs6tXAsw-Qz1MtdKunW3zNeTwzeEWnaO06voBl2Nxs,1593
+TimeConvert-3.0.12.dist-info/METADATA,sha256=7pksK2tWSbGek8HsPkICuMWosXmodJz_0c3JueUypm8,1741
+TimeConvert-3.0.12.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+TimeConvert-3.0.12.dist-info/top_level.txt,sha256=tSqgh7_R-u6Jq-dHLEqEEdmuHwgYU7sOHVCpEA9IWbk,12
+TimeConvert-3.0.12.dist-info/RECORD,,
