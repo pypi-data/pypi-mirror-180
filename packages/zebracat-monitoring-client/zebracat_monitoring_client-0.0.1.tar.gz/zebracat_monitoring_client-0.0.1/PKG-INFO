@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: zebracat_monitoring_client
+Version: 0.0.1
+Summary: monitoring client package
+Project-URL: Homepage, https://github.com/zebracatai/monitor_pip
+Project-URL: Bug Tracker, https://github.com/zebracatai/monitor_pip/issues
+Author-email: Erfan Tarighi <erfan@zebracat.ai>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Monitoring Package
+
+This is monitoring client package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+just use it for Zebracat monitoring server
