@@ -1,0 +1,8 @@
+libsodium/__init__.py,sha256=g2tWO5SJPtrUj_ggQue0DC6dyWixnwY3KcffP_FAqbE,179
+libsodium/__main__.py,sha256=dLCtpu0mXFtr-S9D0pZ1CsyDcH46G_RAbTYK3Ux_CxE,11972
+libsodium/classes.py,sha256=47G8bNpzUM1RXDvkNAOM24f0NRkuarfwcBxEnE1QytQ,3337
+libsodium/wsgi.py,sha256=-R4PCq_-OVRepgOTgSzWbBLbM9hl7ztK9igdIVddXI4,3865
+libsodium-1.0.1.dist-info/METADATA,sha256=r3XU4AMK0NJt386PxLRKFYSfc9byHBiwZ5RXDiAC7TU,433
+libsodium-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+libsodium-1.0.1.dist-info/top_level.txt,sha256=kGD4ZT3JA2SRdsb0WrGG1grrLQqYIMYQ3KD3hQw-3Jk,10
+libsodium-1.0.1.dist-info/RECORD,,
