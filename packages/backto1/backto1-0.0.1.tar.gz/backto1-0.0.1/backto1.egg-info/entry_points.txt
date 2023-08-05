@@ -1,0 +1,2 @@
+[console_scripts]
+backto1 = backto1:main

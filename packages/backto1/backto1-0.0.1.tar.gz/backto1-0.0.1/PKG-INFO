@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: backto1
+Version: 0.0.1
+Summary: A small command line tool for converting openLCA 2 JSON packages back to version 1.
+Project-URL: Homepage, https://github.com/msrocka/backto1
+Project-URL: Bug Tracker, https://github.com/msrocka/backto1/issues
+Keywords: openLCA,life cycle assessment,LCA
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Utilities
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# backto1
+
+`backto1` is a small command line tool for converting JSON export packages
+from openLCA 2 back to the version 1 format.
+
+## Usage
+You need to have Python >= 3.11 installed in order to run this tool. It can
+be installed then via `pip`:
+
+```bash
+$ pip install backto1
+```
+
+To see if it is correctly installed, run
+
+```bash
+$ backto1 help
+
+# or
+
+$ python -m backto1 help
+```
+
+The usage is quite simple, you pass an openLCA 2 package as input into the
+tool and optionally, after the `-o` flag the path of the output file that should
+be created (by default the output is stored under `[input file]_backto1.zip`):
+
+```bash
+backto1 -o [output file] [input file]
+```
