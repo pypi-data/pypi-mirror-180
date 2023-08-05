@@ -1,0 +1,7 @@
+setup.py
+acellera_acerescore.egg-info/PKG-INFO
+acellera_acerescore.egg-info/SOURCES.txt
+acellera_acerescore.egg-info/dependency_links.txt
+acellera_acerescore.egg-info/not-zip-safe
+acellera_acerescore.egg-info/requires.txt
+acellera_acerescore.egg-info/top_level.txt
