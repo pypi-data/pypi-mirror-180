@@ -1,0 +1,4 @@
+requests
+tls-client
+bs4
+lxml
