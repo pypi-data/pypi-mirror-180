@@ -1,0 +1,13 @@
+README.md
+setup.py
+detect-birdname-txt/__init__.py
+detect-birdname-txt/bird_detection.py
+detect-birdname-txt/exim.py
+detect-birdname-txt/experiments.py
+detect-birdname-txt/main_.py
+detect-birdname-txt/preprocess.py
+detect_birdnames.egg-info/PKG-INFO
+detect_birdnames.egg-info/SOURCES.txt
+detect_birdnames.egg-info/dependency_links.txt
+detect_birdnames.egg-info/requires.txt
+detect_birdnames.egg-info/top_level.txt
