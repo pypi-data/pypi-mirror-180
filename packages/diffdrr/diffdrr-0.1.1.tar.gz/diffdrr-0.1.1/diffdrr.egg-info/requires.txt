@@ -1,0 +1,4 @@
+pytorch
+pydicom
+matplotlib
+seaborn
