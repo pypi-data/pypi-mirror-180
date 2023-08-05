@@ -1,0 +1,12 @@
+potyk_doc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+potyk_doc/content_disposition.py,sha256=vMZE5jKajG_iJFhJDSrwQDchPtKmfTG59AW6-j_jjSQ,1917
+potyk_doc/money.py,sha256=PMqwOLb06qAENoYi9qM3PSG3_CUrt2-qzEbX954eYHM,94
+potyk_doc/translation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+potyk_doc/translation/_num2t4ru.py,sha256=xtYDw6xVes_0NKAYnGiwB0NHUXBwol7F2OpwTokaNJo,3222
+potyk_doc/translation/case.py,sha256=EKoQPtm3ONbbqrH8pqpQAYthjlCBK8zKzofB04Z1I6I,216
+potyk_doc/translation/dt.py,sha256=OIk24ur10HoBIlpIQC-WXwkUTN8Td7kY4bnL_E118dQ,2696
+potyk_doc/translation/money.py,sha256=Dbi-IHXjhgTAPv3KOblP882gaA2aAa6T3rkEkSXiqNo,5849
+potyk_doc/translation/number.py,sha256=Nz9El0OnZuE9QfvKDJ55xa05XubYmMJrcmJt9kMcvDk,255
+potyk_doc-0.2.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+potyk_doc-0.2.0.dist-info/METADATA,sha256=s4aAEYgq4Tl5YZHFe9XWl2acPtkm2HSGGUr5Vn0qIPg,281
+potyk_doc-0.2.0.dist-info/RECORD,,
