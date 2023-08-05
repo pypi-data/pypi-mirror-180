@@ -1,0 +1,6 @@
+ccxt>=2.2.79
+tenacity
+pandas
+trade-lib
+PyYAML
+redis
