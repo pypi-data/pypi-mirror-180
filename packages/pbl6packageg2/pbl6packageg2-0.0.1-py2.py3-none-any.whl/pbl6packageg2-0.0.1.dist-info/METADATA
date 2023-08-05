@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pbl6packageg2
+Version: 0.0.1
+Summary: PBL6
+Home-page: https://github.com/banhmysuawx/PBL6-BE
+Author: Group2
+License: MIT
+Keywords: django,djangorestframework,drf,rest-client
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## CI Deployment
+
+1. Update `setup.py` with new version
+2. Update `CHANGELOG.md` with description of new version
+2. Create new tag with same version
+
+```
+git tag v0.4.1 -m "v0.4.1"
+git push --tags
+```
+
+3. Create new release using GitHub Web Site. Github action will run automatically to deploy to PyPi.
+
+## Manual Deployment
+
+```bash
+pip install -r requirements-build.txt
+
+python setup.py sdist bdist_wheel
+twine check dist/*
+# Publish
+twine upload dist/*
+```
