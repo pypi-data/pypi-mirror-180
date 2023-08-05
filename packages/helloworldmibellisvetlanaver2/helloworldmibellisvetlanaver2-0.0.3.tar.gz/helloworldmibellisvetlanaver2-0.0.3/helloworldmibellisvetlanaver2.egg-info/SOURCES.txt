@@ -1,0 +1,4 @@
+helloworldmibellisvetlanaver2.egg-info/PKG-INFO
+helloworldmibellisvetlanaver2.egg-info/SOURCES.txt
+helloworldmibellisvetlanaver2.egg-info/dependency_links.txt
+helloworldmibellisvetlanaver2.egg-info/top_level.txt
