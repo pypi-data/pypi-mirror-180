@@ -1,0 +1,11 @@
+bugfinder/__init__.py,sha256=ogv-_5sTs-UldXOhcxLgq2JSjMOr_VT6zUVeGm_4XO8,1450
+bugfinder/asrsummary.py,sha256=9NON4fHTZBdODDrXUNGe2fsRjyugwp-s8HEwE7Fh6-0,7997
+bugfinder/auth.py,sha256=IDCEoB-RI_Kf_xhkkBugQb082bhGciak5KeboXpePZs,1891
+bugfinder/sql.py,sha256=XXxqX8iSs8yG16eudkV_YrgGzx1lwDp8WLuBMet_YXE,2977
+bugfinder/utils.py,sha256=HsTFSisgdiLIToGYvSzaE7p53zUAm_QyfEKBAEmMHNg,213
+bugfinder/base/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bugfinder-0.0.9.dist-info/METADATA,sha256=zkB-ibdLLllxz0ii-u5JobrM0SeMu_1pGimeRVoNovY,466
+bugfinder-0.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bugfinder-0.0.9.dist-info/entry_points.txt,sha256=xLtcAO4Djt128NhLlVgDFLR3eywxhTCgYaFyEt0vqGk,248
+bugfinder-0.0.9.dist-info/top_level.txt,sha256=rYaY5e2sOErUyQmLjPWjiVgH73oBpSb-4yFggHjKGZc,10
+bugfinder-0.0.9.dist-info/RECORD,,
