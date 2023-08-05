@@ -1,0 +1,3 @@
+recursive-include peristyle *
+global-exclude *.py[cod]
+include VERSION

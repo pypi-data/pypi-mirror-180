@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: peristyle
+Version: 0.0.1
+Summary: Create styles and themes for Python desktop applications
+Home-page: https://github.com/pyrustic/peristyle
+Author: Johnny Silverhand
+Author-email: rusticalex@yahoo.com
+Maintainer: Johnny Silverhand
+Maintainer-email: rusticalex@yahoo.com
+License: MIT
+Keywords: application,pyrustic
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Visit [Pyrustic](https://pyrustic.github.io)
+
+

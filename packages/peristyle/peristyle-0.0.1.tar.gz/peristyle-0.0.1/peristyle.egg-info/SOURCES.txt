@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+pyproject.toml
+setup.cfg
+setup.py
+peristyle/__init__.py
+peristyle/__main__.py
+peristyle.egg-info/PKG-INFO
+peristyle.egg-info/SOURCES.txt
+peristyle.egg-info/dependency_links.txt
+peristyle.egg-info/entry_points.txt
+peristyle.egg-info/not-zip-safe
+peristyle.egg-info/top_level.txt
+tests/__init__.py
