@@ -1,0 +1,11 @@
+MexcClient/Enums/__init__.py,sha256=cIMRwJGSiHRRjvBrW28yrPQ66Pg0C8C66gG2qwEAX8A,37
+MexcClient/Enums/enums.py,sha256=jBSTl2Ap9I0v8Ht5oriWim-ZNau91Nnv1MC5pRnxupg,473
+MexcClient/Utils/Signature/__init__.py,sha256=6GMWcRONFSlACTqNpofx8TgN-5HnAGw192Uzq9dEtvU,42
+MexcClient/Utils/Signature/signature.py,sha256=F17us_1kQ5LStOEpQUEdSvg8JORimRTSaKapkxHxZtU,162
+MexcClient/Utils/Signature/test_signature.py,sha256=loBsurHPaKVd1xyD9l-axEtNfzaeutgr8s7eRyHRhpA,376
+MexcClient/Utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MexcClient/__init__.py,sha256=Kd8kwVaWAyYzGvjld_libZaXVDFhDnD1_gG4XVV2ESg,31
+MexcClient/client.py,sha256=ZfVmhs-RkItup1idmM-HoGX5eFgI2aJ1FqdDZ_Cc1fQ,7569
+mexcapiclient-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+mexcapiclient-0.1.1.dist-info/METADATA,sha256=Ltqimeq5ij4wkO4ViXMFPQNzjwSIpGJZSl6yGxDUgu8,5236
+mexcapiclient-0.1.1.dist-info/RECORD,,
