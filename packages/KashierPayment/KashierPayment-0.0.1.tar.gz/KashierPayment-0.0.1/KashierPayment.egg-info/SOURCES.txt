@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+KashierPayment/__init__.py
+KashierPayment.egg-info/PKG-INFO
+KashierPayment.egg-info/SOURCES.txt
+KashierPayment.egg-info/dependency_links.txt
+KashierPayment.egg-info/top_level.txt
