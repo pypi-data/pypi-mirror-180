@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: aryzer
+Version: 0.0.1
+Summary: Learn from trainingsdata a classifier to label article
+Project-URL: Homepage, https://gitup.uni-potsdam.de/innohs/train-articleclassifier
+Project-URL: Bug Tracker, https://gitup.uni-potsdam.de/innohs/train-articleclassifier/-/issues
+Author-email: Jan Bernoth <jan.bernoth@uni-potsdam.de>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Train Article classifier
+
+This project is an experimental project to test the use of test classification algorithms.
