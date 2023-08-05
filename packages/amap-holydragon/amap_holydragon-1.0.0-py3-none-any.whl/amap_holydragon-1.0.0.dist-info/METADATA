@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: amap_holydragon
+Version: 1.0.0
+Summary: A CLI tool to scan IP address or domain name.
+Project-URL: Homepage, https://github.com/holydragon57/amap
+Project-URL: Bug Tracker, https://github.com/holydragon57/amap/issues
+Author-email: Zhang Jian <alexwayne.zj@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Example Package
+
+## Introduction
+
+AMAP is command line interface tool similar to the famous NMAP. It scans an IP address or domain name to find active ports and related information.
+
+It uses FOFA AMAP API to implement the function.
+
+## Usage & Options
+
+Usage:
+
+  amap <ip_address_or_domain_name> [options]
+
+Options:
+
+  -h --help  Show help information
+
+  -n --nmap  Use nmap tool to scan
+
+## Information
+
+* Python version >= 3.7 is required to run `subprocess.run()`
+* Package `docopt` is required as a CLI builder
