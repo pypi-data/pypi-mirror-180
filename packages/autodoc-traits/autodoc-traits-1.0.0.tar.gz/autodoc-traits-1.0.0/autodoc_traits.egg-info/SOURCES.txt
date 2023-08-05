@@ -1,0 +1,14 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+RELEASE.md
+pyproject.toml
+setup.py
+autodoc_traits/__init__.py
+autodoc_traits/autodoc_traits.py
+autodoc_traits.egg-info/PKG-INFO
+autodoc_traits.egg-info/SOURCES.txt
+autodoc_traits.egg-info/dependency_links.txt
+autodoc_traits.egg-info/requires.txt
+autodoc_traits.egg-info/top_level.txt
