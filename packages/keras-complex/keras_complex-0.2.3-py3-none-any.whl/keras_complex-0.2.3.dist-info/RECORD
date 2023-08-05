@@ -1,0 +1,14 @@
+complexnn/__init__.py,sha256=xhxCQ2RggylBQOz4DSSM5jhDdlrFywTuePXZjsgwfQo,765
+complexnn/bn.py,sha256=ZAtZ0oKfzJzqUdxC8brU_f2CxZkiAzjRPa7kwe2BqL4,22438
+complexnn/conv.py,sha256=3MZ72fySmIik9v61NvdDIWRIbh4XDGIDzIbQjIOMZdo,49592
+complexnn/dense.py,sha256=yqixtPLODNgxJJsL6DRIcvCS0S63QMs9pYbrLcF02ks,8984
+complexnn/fft.py,sha256=jRxQ8OYm-1IYG-s7Vfazg5VwBzLRCNjiVq0TJF5GZW8,4315
+complexnn/init.py,sha256=vmJBWQ5LB-9pzryJIWbAToMYhxmwv1nKGS2Az1bTmhM,11108
+complexnn/norm.py,sha256=F-o0Mg-40446pFdb7sU8V_0YeSq3pZCnzCVLbHbSPgA,10983
+complexnn/pool.py,sha256=_pMGnXMsyLR5gQcnykDKtFOoqAcMqhKiCUCJhm8kNEM,5318
+complexnn/utils.py,sha256=dvJ5vLkB5zz-lByJF7bYXkAeb4wr5aM11nN2Ex5kC9Q,3935
+keras_complex-0.2.3.dist-info/LICENSE.md,sha256=9TITBGK8FsYGH4bkFN6QMCuY9Q__o1wOgg9Z5hvzZ7g,2578
+keras_complex-0.2.3.dist-info/METADATA,sha256=DvsJpCO3x4MUDYLZOv26WyyXTAVR6ACYnLkR1gJW6Fs,4639
+keras_complex-0.2.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+keras_complex-0.2.3.dist-info/top_level.txt,sha256=7jq5yDsvUs6xa_fdkxfTRhr13wdjSS-bMPIv4OdLRIg,10
+keras_complex-0.2.3.dist-info/RECORD,,
