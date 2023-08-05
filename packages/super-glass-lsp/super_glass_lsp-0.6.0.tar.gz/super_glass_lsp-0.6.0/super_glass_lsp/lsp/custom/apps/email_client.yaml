@@ -1,0 +1,222 @@
+version: 2
+
+defaults: &defaults
+  # The "on" switch. This is the key requirement for making the editor/LSP client turn on
+  # these features.
+  root_markers: ["inbox.md"]
+
+configs:
+  inbox:
+    <<: *defaults
+    lsp_feature: workspace_edit
+    # Period is optional. If it is set then Super Glass calls it every `period` amount of time.
+    period: 60
+    timeout: 15
+    command: |
+      width=18
+      json="$(himalaya --output json list)"
+      count="$(echo $json | jq length)"
+      head1=" ID |   Subject          |       From         |           Actions        "
+      head2="----|--------------------|--------------------|--------------------------"
+      output="$head1\n$head2"
+      for i in `seq 0 "$((count - 1))"`
+      do
+        id=$(echo "$json" | jq --raw-output ".[$i].id")
+        subject=$(echo "$json" | jq --raw-output ".[$i].subject" | head -c $width)
+        sender=$(echo "$json" | jq --raw-output ".[$i].sender" | head -c $width)
+        buttons="{View} {Archive} {Delete}"
+        line=" $id  | $(printf '%-'$width's' "$subject") | $(printf '%-'$width's' "$sender") | $buttons"
+        output="$output\n$line"
+      done
+      echo "TextDocumentEdit {workspace_root}/inbox.md 0:0,-1:-1"
+      echo "# Inbox\n"
+      echo "{New} {Refresh}"
+      echo "$output"
+    parsing:
+      formats:
+        # `kind`: TextDocumentEdit | CreateFile | RenameFile | DeleteFile
+        # `uri`: Text document URI
+        # Settting end_line and end_char each to `-1` signifies replacing the whole document
+        # `range` (only for TextDocumentEdit): start_line,start_char:end_line,end_char
+        # `text_edit`: All remaining lines
+        # TODO: perhaps this could be made a default formatter?
+        - "{kind} {uri} {start_line}:{start_char},{end_line}:{end_char}\n{text_edit}"
+        - "{kind} {uri} {new_name}"
+        - "{kind} {uri}"
+
+  inbox_buttons:
+    <<: *defaults
+    lsp_feature: goto_definition
+    command:
+      # * Here's a good candidate for "work progress start" notification
+      - |
+        id=$(echo "{line}" | sed 's@^[^0-9]*\([0-9]\+\).*@\1@')
+
+        if [ "{word}" == "{Refresh}" ]; then
+          echo "call inbox"
+        fi
+
+        if [ "{word}" == "{View}" ]; then
+          echo "call read_email $id"
+        fi
+
+        if [ "{word}" == "{Archive}" ]; then
+          echo "call archive_email $id"
+        fi
+
+        if [ "{word}" == "{Delete}" ]; then
+          echo "call delete_email $id"
+        fi
+
+        if [ "{word}" == "{New}" ]; then
+          echo "call new_email"
+        fi
+
+        if [ "{word}" == "{Send}" ]; then
+          echo "call send_email new"
+        fi
+      # * Here's a good candidate for "work progress end" notification
+
+      # * Also a notification to say that whatever just happened was successful
+
+      # * TODO: create new token {previous exit code}
+
+      - |
+        id=$(echo "{line}" | sed 's@^[^0-9]*\([0-9]\+\).*@\1@')
+
+        if [ "{word}" == "{View}" ]; then
+          echo "{workspace_root}/$id.mime 0:0,0:0"
+        fi
+
+        if [ "{word}" == "{Archive}" ]; then
+          echo "{workspace_root}/inbox.md 0:0,0:0"
+        fi
+
+        if [ "{word}" == "{Delete}" ]; then
+          echo "{workspace_root}/inbox.md 0:0,0:0"
+        fi
+
+        if [ "{word}" == "{New}" ]; then
+          echo "{workspace_root}/new.mime 0:0,0:0"
+        fi
+
+        if [ "{word}" == "{Send}" ]; then
+          echo "{workspace_root}/inbox.md 0:0,0:0"
+        fi
+
+      # Noops for other buttons right? Other than show the result of LSP Progress or something
+
+    parsing:
+      formats:
+        - "{uri} {range}" # that's the default so not necessarily needed
+
+  # We'd know it was a new email by the name of the file? Eg; new.mime? Or put them in drafts folder?
+  new_email:
+    <<: *defaults
+    lsp_feature: workspace_edit
+    # `callable` allows this config to be called by either a LSP `workspace/executeCommand` request from
+    # the client or this LSP server itself using the `call <command> <args>` convention. Typically you
+    # can offer the user this command in a code action. The command name is derived from the Super Glass
+    # app name amd YAML config ID. So `himalaya/read_email` in this case.
+    command: |
+      touch {workspace_root}/new.mime
+      echo "TextDocumentEdit {workspace_root}/new.mime 0:0,-1:-1"
+      echo "{Send}
+
+      From:
+      To:
+      Subject:
+      : Write the email after this line
+      "
+
+  send_email:
+    <<: *defaults
+    lsp_feature: workspace_edit
+    piped: true # Isn't that default anyway
+    timeout: 15
+    command: |
+      cat - | sed -e 's/: Write the email after this line//' | tail -n +3 | himalaya send
+      echo "DeleteFile {workspace_root}/{args}.mime 0:0,0:0"
+
+  reply_email:
+    <<: *defaults
+    lsp_feature: workspace_edit
+    command: |
+      # Create new email (shared code with new_email?) using quoted (>) body of existing email
+      # I think the reply body could be copied from the file, rather than re-downloading it?
+      # `cat inbox/{id}.mime > drafts/{id}.md | tee prepend >`
+      echo "TextDocumentEdit {workspace_root}/{args}.mime 0:0,0:0"
+      echo "$text"
+
+  read_email:
+    <<: *defaults
+    lsp_feature: workspace_edit
+    command: |
+      touch {workspace_root}/{args}.mime
+      text="$(himalaya read {args})"
+      echo "TextDocumentEdit {workspace_root}/{args}.mime 0:0,-1:-1"
+      echo "$text"
+
+  archive_email:
+    <<: *defaults
+    lsp_feature: workspace_edit
+    command:
+      - |
+        himalaya move {args} Archive >&2
+        echo "call inbox"
+      - |
+        echo "DeleteFile {workspace_root}/{args}.mime 0:0,0:0"
+
+  # TODO: Confirmation. Edit the button to be a warning "⚠️", with a diagnostic that says "Are you sure?"
+  delete_email:
+    <<: *defaults
+    lsp_feature: workspace_edit
+    command:
+      - |
+        himalaya delete {args} >&2
+        echo "call inbox"
+      - |
+        echo "DeleteFile {workspace_root}/{args}.mime 0:0,0:0"
+
+
+# Potential inbox.md
+#
+# Actions: [Reply] [Archive]
+#
+# MIME-Version: 1.0
+# Content-Type: multipart/mixed; boundary=frontier
+#
+# This is a message with multiple parts in MIME format.
+# --frontier
+# Content-Type: text/plain
+#
+# This is the body of the message.
+# --frontier
+# Content-Type: application/octet-stream
+# Content-Transfer-Encoding: base64
+#
+# PGh0bWw+CiAgPGhlYWQ+CiAgPC9oZWFkPgogIDxib2R5PgogICAgPHA+VGhpcyBpcyB0aGUg
+# Ym9keSBvZiB0aGUgbWVzc2FnZS48L3A+CiAgPC9ib2R5Pgo8L2h0bWw+Cg==
+# --frontier--
+#
+
+# Code Action design:
+#   inbox_actions:
+#     <<: *defaults
+#     lsp_feature: code_actions
+#     # `file`
+#     # `range`
+#     # `context`
+#     # https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/#codeActionParams
+#     command: |
+#       id=$(cat {file} | get line from {range} | grep [:num:]) # pseudo code!
+#       # If server can't send unsolicited `Location`, then maybe make a "button" to trigger the opening of the
+#       # new email?
+#       echo "New himalaya/new_email"
+#       if [[ $id ]]; then
+#         echo "Read himalaya/read_email $id"
+#         echo "Archive himalaya/archive_email $id"
+#       fi
+#     parsing:
+#       formats:
+#         - "{title} {command} {args}" # that's the default so not necessarily needed
