@@ -1,0 +1,17 @@
+attrs>=18.2
+bs4
+clldutils>=3.5
+requests
+
+[dev]
+build
+flake8
+tox
+twine
+wheel>=0.36
+
+[test]
+coverage>=4.2
+pytest-cov
+pytest-mock
+pytest>=3.6
