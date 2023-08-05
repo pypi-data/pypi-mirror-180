@@ -1,0 +1,13 @@
+dap/__init__.py,sha256=m6kyaNpwBcP1XYcqrelX2oS3PJuOnElOcRdBa9pEb8c,22
+dap/__main__.py,sha256=vSikg3sshXSy1xigT5zpWT0Ig3vbNvqPRYIgaXU43Dc,7576
+dap/api.py,sha256=06oyCSavLEIeK8JxoDg0EcvNyroXYQ2PqMS0kU5s8Ak,15327
+dap/arguments.py,sha256=LE7Trk5w_gtpewzoIyYuFjWT9mvm3IBBhfaflRuUOSE,3268
+dap/dap_error.py,sha256=Anfa5LuRnYLWTBOV2fyKuVP5GUM6Sw7Bou0U_jaslog,2907
+dap/dap_types.py,sha256=m58h22qt1mlaioTve4SI560ufnngo58rw-5Cs6puTGY,15273
+instructure_dap_client-0.2.2.dist-info/LICENSE,sha256=qVxzsts2xBBMUVzqD8nfURotsHfB9H_e3hWHd7D030Y,1074
+instructure_dap_client-0.2.2.dist-info/METADATA,sha256=yYEz7D4SUEvPB91dgtb7VWKvNWMTMBl4VNWZFfoStj0,6176
+instructure_dap_client-0.2.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+instructure_dap_client-0.2.2.dist-info/entry_points.txt,sha256=wa0zsr_hk1Aug4JpnfaUzHCzShBL38FVhkufNjJtaqc,51
+instructure_dap_client-0.2.2.dist-info/top_level.txt,sha256=hmmpavS4QgDBVRMa4uwoJkEnO32PW8FveKyoiTVVkgo,4
+instructure_dap_client-0.2.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+instructure_dap_client-0.2.2.dist-info/RECORD,,
