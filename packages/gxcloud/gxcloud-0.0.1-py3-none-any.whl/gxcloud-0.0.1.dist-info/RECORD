@@ -1,0 +1,15 @@
+govdelivery/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+govdelivery/authorization.py,sha256=-o7qsQTbVQTMTl0dcu7WG3GL6E2otvcLCFnpbe5-zNA,258
+govdelivery/bulletins.py,sha256=EnuvgFzbJ8FPt_1ihPzDFPLR7f18lPTlvNOUxg5QZD0,1981
+govdelivery/categories.py,sha256=P8jVMjt-GpDDQ5YbR3GcNO7CaaOdsQ1-ar3I8uP6wF0,2690
+govdelivery/subscriptions.py,sha256=YtWJxZVeGu-1i0T6m3QmdGn4jVnG53W26DNFJEi5C8Q,3364
+govdelivery/topics.py,sha256=klfCQUqhtVdb_GRP0PwI9w1BMmk1ehv16IxQYhOP2hU,1948
+opencities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opencities/authorization.py,sha256=ne7u4o31BdYmwnoYxcpZHELaP0sRdFJf1SbyaO51LwY,1144
+opencities/files.py,sha256=Q3f9Z_ZoKvEvE7Nff0XK-aHtwWIxwrTB0KhNDwLFmJo,5240
+opencities/pages.py,sha256=lxDDeedQicmx3Lfst7KPpym6B6n25dk6R-AK6VMuXc4,3490
+gxcloud-0.0.1.dist-info/LICENSE,sha256=sl1bz6yfzk8jHpowoxxE0u3mbgKIxXkGWLmH-Zc2R2s,1052
+gxcloud-0.0.1.dist-info/METADATA,sha256=WRgIX_8YEniBWED5XTnR4rZEoocWpT1J39m_hD9sCuo,700
+gxcloud-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+gxcloud-0.0.1.dist-info/top_level.txt,sha256=fH6oJRyx_9bRfJSPVvq2AdEeWUwSCyR5ZB7e6JSJb6E,23
+gxcloud-0.0.1.dist-info/RECORD,,
