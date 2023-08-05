@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: dbscan
+Version: 0.0.10
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6,<4
+License-File: LICENSE
+Requires-Dist: numpy (<2,>=1.19.2)
+Provides-Extra: example
+Requires-Dist: scikit-learn ; extra == 'example'
+Requires-Dist: matplotlib ; extra == 'example'
+Provides-Extra: scikit-learn
+Requires-Dist: scikit-learn ; extra == 'scikit-learn'
+
+UNKNOWN
+
