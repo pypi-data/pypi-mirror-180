@@ -1,0 +1,12 @@
+timescaleutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timescaleutils/logger.py,sha256=H3VLlgWOHfEwa3McsFpBEg2mqyqe0-QRtUHLVLIGnxg,1082
+timescaleutils/main.py,sha256=ozqUwlsbGQvcPuv72CYmMQn3fVMsMQxseMvNqdJHYAY,1482
+timescaleutils/timescale.py,sha256=1BJ4q2yip8L2os6OVj8CYf3a2FTn4IJ4-BK8vugPAx8,37153
+timescaleutils/constants/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timescaleutils/constants/app_conf.py,sha256=9IG6_69nanU-tooAgWtqFl1PtCapgXoVYcPyz04EUA4,1289
+timescaleutils/constants/datatypes.py,sha256=exh2PeNWH8gc32a_a56m3yCmwn_5OURAm138jT9x_8c,551
+timescaleutils-0.2.1.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+timescaleutils-0.2.1.dist-info/METADATA,sha256=bc3kVMpm5Q-Tz6YWzIK68Gq1G4YtqgAXd3mbYbUpSno,6603
+timescaleutils-0.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+timescaleutils-0.2.1.dist-info/top_level.txt,sha256=3GlvEVY09jovAdVbMLqDvXAy9J4bfZjzZ4KGm3WbChc,15
+timescaleutils-0.2.1.dist-info/RECORD,,
