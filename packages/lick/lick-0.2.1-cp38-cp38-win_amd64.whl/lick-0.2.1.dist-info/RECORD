@@ -1,0 +1,10 @@
+lick/__init__.py,sha256=FZKUxfQOsZVZE6fd_JwQAOGql6AUUJw_zPWRRmQVtRI,97
+lick/__version__.py,sha256=7VyHp48OUTQQUylqTtD2KYmDnZ1N5qU2-WFiy4BFYEo,23
+lick/lick.py,sha256=OIXTKNQZHIKUnJw0EgwCM0gFjh2nIKmIquArMG92Z5I,7084
+lick/_vendor/vectorplot/core.cp38-win_amd64.pyd,sha256=Ear21hpthuXQD_LRj2g4GrCF9h-vux6uqr3LYN-hz20,155136
+lick-0.2.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+lick-0.2.1.dist-info/METADATA,sha256=TNL4VEO6Z7KIRsTIOTEGLUtzL0o9RN6SkTUYQ9F3PAA,2746
+lick-0.2.1.dist-info/WHEEL,sha256=b_PH-i_F2xFYDXcROE5vpDbWUcY020I0eLFvEIYA9Pc,100
+lick-0.2.1.dist-info/entry_points.txt,sha256=htA8ypbyM6Y5dPIhFVbzczFqcdrsbEGPgeK1K2N_-VU,40
+lick-0.2.1.dist-info/top_level.txt,sha256=OamAjU-xaiaKmBZ4J_2cg0Q55ERMn9L8QeoA8hWn2os,5
+lick-0.2.1.dist-info/RECORD,,
