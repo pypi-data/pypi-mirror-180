@@ -1,0 +1,70 @@
+/inspect/static/{% extends "base.html" %}
+
+{% block style %}
+.nav-link {
+    color: #337ab7;
+}
+.list-group-item {
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-left-radius: unset;
+    border-top-right-radius: unset;
+    cursor: pointer;
+}
+.list-group-item:first-child {
+    border-top-left-radius: unset;
+    border-top-right-radius: unset;
+}
+.list-group-item:last-child {
+    border-bottom-right-radius: unset;
+    border-bottom-left-radius: unset;
+}
+
+.table>:not(caption)>*>* {
+    border-bottom-width: 0;
+    border-top-width: 1px;
+}
+
+
+pre {
+    margin: 0 0 10px;
+    padding: 9.5px;
+    font-size: 13px;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: pre-wrap !important;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+
+
+
+{% end style %}
+
+{% block body %}
+<div class="row">
+
+    <div class="col-md">
+        <div class="request-records" style="margin-top: 10px;">
+            <h3 style="margin-bottom: 10px;">
+                <button class="btn btn-outline-secondary" style="float: right !important;" onclick="recorder.clearRecords()">Clear</button>
+                All Requests
+            </h3>
+            <div class="list-group requestList" id="requestList">
+                <!--records display area-->
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md" id="recordDetail">
+        <!--Request Detail-->
+    </div>
+
+</div>
+{% end body %}
+{% block script %}
+    <script src='/inspect/static/pretty_json/underscore.min.js' type="text/javascript"></script>
+    <script src='/inspect/static/pretty_json/backbone.min.js' type="text/javascript"></script>
+    <script src='/inspect/static/pretty_json/pretty_json.js' type="text/javascript"></script>
+    <script src='/inspect/static/inspect.js' type="text/javascript"></script>
+{% end script %}

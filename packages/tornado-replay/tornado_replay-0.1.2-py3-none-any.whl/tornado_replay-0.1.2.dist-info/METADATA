@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tornado-replay
+Version: 0.1.2
+Summary: A tool to replay request with tornado in development.
+Author: Jackson Li
+Author-email: tomy0608@foxmail.com
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Debuggers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic (~=1.9.2)
+Requires-Dist: tornado (>=6.0)
+
+# Tornado-Replay
