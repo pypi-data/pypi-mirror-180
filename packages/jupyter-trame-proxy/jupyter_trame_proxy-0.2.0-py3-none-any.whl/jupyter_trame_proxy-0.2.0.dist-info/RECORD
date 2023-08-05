@@ -1,0 +1,9 @@
+jupyter_trame_proxy/__init__.py,sha256=Jzj-W2lLXUZvvsxFJghNAvz5Nb0L4p95XmJdgBcxbuY,1240
+jupyter_trame_proxy/icons/logo.svg,sha256=1aEbw5b5MdjnOGsRVrvQG-EteSAsmYv-WjYCWXeo_1w,5320
+jupyter_trame_proxy/share/launch_trame.sh,sha256=6WItybxkF45jSPEf8Pu2K_y4QUDkxK_A2La3zUWjR9E,640
+jupyter_trame_proxy-0.2.0.dist-info/LICENSE,sha256=Q4UTqQB3UI7bKnUSb_UhI27hVK1D3rrGUxKphZGL--E,1569
+jupyter_trame_proxy-0.2.0.dist-info/METADATA,sha256=VksUBIe2BJcBH2MPhJ2lbO1yX-QEmFoPcFQW_Asqsl4,2315
+jupyter_trame_proxy-0.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+jupyter_trame_proxy-0.2.0.dist-info/entry_points.txt,sha256=dZlJAS6RwcIk2rBLQMw0__mAybuCQTZVo_N_bRnCtBY,70
+jupyter_trame_proxy-0.2.0.dist-info/top_level.txt,sha256=Ey_WTzTnguJw0tXhHanpI03PTkwOy15bdr2BoVC4fpw,20
+jupyter_trame_proxy-0.2.0.dist-info/RECORD,,
