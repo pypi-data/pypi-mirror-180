@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: kclvm-py
+Version: 0.4.4
+Summary: KCLVM
+Home-page: https://kcl-lang.github.io/
+Author: KCL Authors
+Author-email: 
+License: Apache License 2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: PyYAML (==5.4)
+Requires-Dist: lark-parser (==0.11.3)
+Requires-Dist: filelock (==3.6.0)
+Requires-Dist: yapf (==0.29.0)
+Requires-Dist: pypeg2 (==2.15.2)
+Requires-Dist: protobuf (==3.19.5)
+Requires-Dist: schema
+Requires-Dist: ruamel.yaml
+Requires-Dist: toml
+Requires-Dist: numpydoc
+Requires-Dist: pygls (==0.10.3)
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: gunicorn (==20.1.0)
+Requires-Dist: parsy (==1.3.0)
+Requires-Dist: wasmer (==1.0.0)
+Requires-Dist: wasmer-compiler-cranelift (==1.0.0)
+Requires-Dist: pyopenssl (==21.0.0)
+
+A constraint-based record & functional language mainly used in configuration and policy scenarios.
