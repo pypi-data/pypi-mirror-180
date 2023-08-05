@@ -1,0 +1,7 @@
+sshclient/__init__.py,sha256=WGqha-xYDA7SZz8hZSjpvUd3tWCWPaibxF4R089OlEY,40
+sshclient/sshclient.py,sha256=QpQpOwZIFyHSMweDTPW7ctQtOv0kvsBS9HCYROuR-rA,4620
+sshclient_malbizer-1.0.0.data/scripts/sshclient-send.py,sha256=vDgMiLu95S3bVUrbNiFmfAV3Ij881y6Wf9gF7u4XGBI,1522
+sshclient_malbizer-1.0.0.dist-info/METADATA,sha256=wvtHxOUL1S5-0AcV-gP1_UcSOtor7_h6GZrlJ-wyT6k,672
+sshclient_malbizer-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sshclient_malbizer-1.0.0.dist-info/top_level.txt,sha256=xJb-tjW3dO5oJ6__jtocVix9DxnysOI9jCzDzNaFGus,10
+sshclient_malbizer-1.0.0.dist-info/RECORD,,
