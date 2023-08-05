@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: termkeymonitor
+Version: 1.0.1
+Summary: Display pressed keys in the terminal
+Home-page: https://gitlab.com/nobodyinperson/termkeymonitor
+Author: Yann Buechau
+Author-email: nobodyinperson@posteo.de
+License: GPLv3
+Keywords: cli
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+Provides-Extra: textual
+
+# ⌨️  Terminal Key Monitor 📟
+
+Show pressed keys in the terminal. Useful e.g. when recording [asciinema screencasts](https://asciinema.org).
+
+
+# 📥 Installation
+
+```bash
+# from PyPI
+pip install termkeymonitor
+# directly from GitLab
+pip install git+https://gitlab.com/nobodyinperson/termkeymonitor.git
+```
+
+# ❓ Usage
+
+```bash
+# use any of the below commands to invoke
+termkeymonitor
+python -m termkeymonitor
+python3 -m termkeymonitor
+python3 -m termkeymonitor.simple
+```
+
+## 🎥 Screencast
+
+[![asciicast](https://asciinema.org/a/543365.svg)](https://asciinema.org/a/543365)
