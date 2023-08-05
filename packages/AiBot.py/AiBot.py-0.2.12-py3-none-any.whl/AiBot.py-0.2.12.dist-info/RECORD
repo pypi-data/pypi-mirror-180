@@ -1,0 +1,11 @@
+AiBot/AndroidBot.py,sha256=d05jznzYDuFykxNJwi-giCCm4rmI4KbwC8tcCf1FWy0,46646
+AiBot/WebBot.py,sha256=jpoWvNWuNJZZlycfLBkI8eRhgHUYfTgznGHfr5IMNrc,8005
+AiBot/WinBot.py,sha256=b4c5ICLM1x1700dvOVmFCKLkziG7uSTevCg-551sqOc,35566
+AiBot/__init__.py,sha256=Fnv3rgl6okrjvB3M_2dSjrH6YInxkRKkHrwtCOMzIBE,114
+AiBot/__version__.py,sha256=7PIYGYpIlC6HkMFQovd6EXsZLBtblBI5p4Qg7rcE4Fs,64
+AiBot/_loguru_format.py,sha256=n1zg0NJmOWuB5V-ADrSR6GlwsEv_tlb2Oc06xxkC_2E,5044
+AiBot.py-0.2.12.dist-info/LICENSE,sha256=PufEtkm3g2iPEYbJqg2lDjMQJ1FMm_oUPyeYPiN4PHE,1056
+AiBot.py-0.2.12.dist-info/METADATA,sha256=tKuJJ0_X6ORUizgs9uiJ0CV4cZeDWJecukHkJHnC5YY,282
+AiBot.py-0.2.12.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+AiBot.py-0.2.12.dist-info/top_level.txt,sha256=Uz3DB5MaigDo8_yPQ0bRvIB9GYqV9wsp8-Bx_VMTyx4,6
+AiBot.py-0.2.12.dist-info/RECORD,,
