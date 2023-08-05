@@ -1,0 +1,9 @@
+LICENCE
+README.md
+setup.py
+dispie/__init__.py
+dispie.egg-info/PKG-INFO
+dispie.egg-info/SOURCES.txt
+dispie.egg-info/dependency_links.txt
+dispie.egg-info/requires.txt
+dispie.egg-info/top_level.txt
