@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chatgptcli"
+version = "1.4.0"
+authors = [
+  { name="Gautam Veldanda", email="veldandaga@outlook.com" },
+]
+description = "The command line wrapper for ChatGPT by OpenAI"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "tls-client",
+  "requests",
+  "colorama",
+  "svglib",
+  "bs4",
+  "reportlab"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/veldandaga/chatgptcli"
+"Bug Tracker" = "https://github.com/veldandaga/chatgptcli/issues"
