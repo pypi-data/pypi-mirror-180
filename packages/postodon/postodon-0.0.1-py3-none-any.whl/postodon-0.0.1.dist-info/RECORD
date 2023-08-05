@@ -1,0 +1,9 @@
+postodon/__init__.py,sha256=xbfvBwrU6t86Nyg_btT6e8zXjjicp18-v8MhVdUBJHc,457
+postodon/select_post.py,sha256=iBKstC-P0Yf5o4cFa5VwVr-NG6Wp1RZg39e0J2p5AnM,1953
+postodon/submit_post.py,sha256=NRIhrlPy2A2QdsUhnYV9jMTA2O9uLwmnMEvD-A25vl0,521
+postodon-0.0.1.dist-info/LICENSE,sha256=i4VeCKj_T8LXxlMflwUOiXWOYE_4NjnQjmH6NNW6S2o,11339
+postodon-0.0.1.dist-info/METADATA,sha256=5c4rQa7-OyRCY24c6Rre8vZp5H7u6jzhMAe8A7Y7gEM,3081
+postodon-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+postodon-0.0.1.dist-info/entry_points.txt,sha256=cTCFCNkTCAE8mE30PmhwRlDS5jLdVC4yFf5QrFgzIAM,43
+postodon-0.0.1.dist-info/top_level.txt,sha256=dP5ZwVxdO0BloOpdPOXL8u29C7hvcZ9Ex36rcva3TXA,9
+postodon-0.0.1.dist-info/RECORD,,
