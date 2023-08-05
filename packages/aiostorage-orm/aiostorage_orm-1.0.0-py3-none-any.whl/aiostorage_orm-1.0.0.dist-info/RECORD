@@ -1,0 +1,12 @@
+storage_orm/__init__.py,sha256=K0mZiVMAxlgE1jjUPbEqL-arE-FHjj1a96I0gkHq8o0,336
+storage_orm/exceptions.py,sha256=52qD9sIXxObjjheplVQwC9CHhp8WsMWZPLBIhBQsaLk,108
+storage_orm/operation_result.py,sha256=auxsYnzkBprjjNmoCG4pVRhq__I5ixd4mqVdlRGNWb4,956
+storage_orm/storage_item.py,sha256=358tBBtngCAn5Cl9yNS1W0Zfmxu13CjXZHIAF5cx3Mo,2012
+storage_orm/storage_orm.py,sha256=hWcrZuVwcbykJKdSpHfg4hbyC51NllABfo7SBczDEDQ,933
+storage_orm/redis_impl/__init__.py,sha256=g2fogkLgQpaSFuuq-nuI2NSsQKFijkN-gz9EXbT1Wnc,66
+storage_orm/redis_impl/redis_item.py,sha256=xQdfYwPP2PWtfygpvq_o-GzV3I7ahEz4cN8NyD-0vxc,16957
+storage_orm/redis_impl/redis_orm.py,sha256=ymmTj3i9p2lPVHNSoNx7moLveZhDTgW1ggiGEWW1nno,3313
+aiostorage_orm-1.0.0.dist-info/METADATA,sha256=kh7Y_4GYMhkAnelFQlhgd8zNq1IyaBSvFPFhc1yHNOs,10811
+aiostorage_orm-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aiostorage_orm-1.0.0.dist-info/top_level.txt,sha256=OEA-Joh9cX_aoQVzZsO3ZHDLTaUrAyLJPaZOV-0ZkDY,12
+aiostorage_orm-1.0.0.dist-info/RECORD,,
