@@ -1,0 +1,3 @@
+[console_scripts]
+masnet.download = masnet.download:main
+
