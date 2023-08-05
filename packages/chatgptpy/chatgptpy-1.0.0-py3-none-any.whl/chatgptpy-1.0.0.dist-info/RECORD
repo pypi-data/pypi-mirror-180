@@ -1,0 +1,12 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pychatgpt/__init__.py,sha256=xgfKA6MDq1vRLnDQ0tsKKmx9ZkXlpd3voMfohyljzf0,61
+pychatgpt/main.py,sha256=S2PhuIM0VzpzD3cdc4JlvRD-cF34OGHDqB54QL5n2b8,7233
+pychatgpt/classes/chat.py,sha256=Oninvulh3B29ctdQ6zvoAo84rZDYz627y2oijlOFFNI,2473
+pychatgpt/classes/exceptions.py,sha256=-7lcoBuNmvyZTHhrrTIN5XsGuWYy7nT0VWAAXTn2c3g,351
+pychatgpt/classes/openai.py,sha256=5vHb5tACyFY6eJYr4WDuAAehhaGKN-8Yq-KXNELebxY,17540
+pychatgpt/classes/spinner.py,sha256=HO6Xdmx_eFj2Sijp2McnGg8E5ptiIQ5-Mj81WYLWWiQ,1317
+chatgptpy-1.0.0.dist-info/LICENSE,sha256=Vbj8Tk5-MAA8vILKIMpAcMCIUFP5zrLqMecTnnFxbQU,1077
+chatgptpy-1.0.0.dist-info/METADATA,sha256=Wbex6_SP9s6PRo8mbu_n1ZItnYwfGlY76jWTW2IKc6g,5418
+chatgptpy-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+chatgptpy-1.0.0.dist-info/top_level.txt,sha256=KEOAq_Ka2SPphrgIQGKy0LAaL74iyd1Qup45IFtoOQs,19
+chatgptpy-1.0.0.dist-info/RECORD,,
