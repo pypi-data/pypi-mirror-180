@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cobrakbase
+Version: 0.3.0
+Summary: KBase interface for COBRApy
+Home-page: https://github.com/Fxe/cobrakbase
+Author: Filipe Liu
+Author-email: fliu@anl.gov
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# cobrakbase
+KBase Interface for COBRApy
