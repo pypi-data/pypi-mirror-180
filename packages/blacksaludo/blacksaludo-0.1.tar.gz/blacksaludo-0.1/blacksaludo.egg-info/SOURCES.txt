@@ -1,0 +1,6 @@
+README.md
+setup.py
+blacksaludo.egg-info/PKG-INFO
+blacksaludo.egg-info/SOURCES.txt
+blacksaludo.egg-info/dependency_links.txt
+blacksaludo.egg-info/top_level.txt

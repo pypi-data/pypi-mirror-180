@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: blacksaludo
+Version: 0.1
+Summary: Esta es la descripcion de mi paquete
+Home-page: https://github.com/BlackByted/BlackS
+Download-URL: https://github.com/BlackByted/BlackS/tarball/0.1
+Author: BlackByteD
+Author-email: 
+License: MIT
+Keywords: testing,logging,example
+Description-Content-Type: text/markdown
+
+#este archivo describe el proyecto
+
+from saludob import Saludo
+
+
+
+saludo = Saludo(nombre="Black")
+
+
+print(saludo.saludo_black())
