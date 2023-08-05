@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+NOTICE
+README.md
+setup.cfg
+setup.py
+zadarapyV2.egg-info/PKG-INFO
+zadarapyV2.egg-info/SOURCES.txt
+zadarapyV2.egg-info/dependency_links.txt
+zadarapyV2.egg-info/not-zip-safe
+zadarapyV2.egg-info/requires.txt
+zadarapyV2.egg-info/top_level.txt
