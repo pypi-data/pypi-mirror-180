@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+spiderwws/__init__.py
+spiderwws/www.py
+spiderwws.egg-info/PKG-INFO
+spiderwws.egg-info/SOURCES.txt
+spiderwws.egg-info/dependency_links.txt
+spiderwws.egg-info/top_level.txt
