@@ -1,0 +1,9 @@
+vs2dpy/__init__.py,sha256=uuuqwStlz26kSgSwPZiYWz96A0xCuh99_ix3ZVookkk,51
+vs2dpy/model.py,sha256=vSBs45TJXjzy8Kl3J_LuiqNCKiQ6SRzzFxGun8nesLk,55338
+vs2dpy/read.py,sha256=GD-l4WxpuPh4H4TjQdd2phNY-1GBGCyO_DHTltrwB9Q,5134
+vs2dpy/utils.py,sha256=6KKO_O19U_GMFNntckZNhg73Vip0ZtDzYbbo3-6bnK8,6529
+vs2dpy-0.3.0.dist-info/LICENSE,sha256=xGIpCt-i5PO3dvTnFomRokWfwuKU050T692xBVCMRBQ,1068
+vs2dpy-0.3.0.dist-info/METADATA,sha256=5ZA00-gYF5oH0YIZY6Hn4M56vSynEDh7vVIp9_kG35Y,2221
+vs2dpy-0.3.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+vs2dpy-0.3.0.dist-info/top_level.txt,sha256=OvYbNcxo0gaSDgoLF2UV5NuHx3-7gJmR65FfAXgwwiw,7
+vs2dpy-0.3.0.dist-info/RECORD,,
