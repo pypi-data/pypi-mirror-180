@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: miritools
+Version: 4.0.5
+Summary: "MIRI JWST convenience tools for analysis and data manipulation"
+Home-page: https://github.com/ccossou/miritools
+Author: "Christophe Cossou"
+Author-email: "ccossou@gmail.com"
+Platform: ["Linux"
+Platform: "Mac OS X"]
+Requires-Python: >=3.7
+License-File: LICENCE
+Requires-Dist: pytest
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: photutils
+Requires-Dist: astropy
+Requires-Dist: scipy
+Requires-Dist: tabulate
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-automodapi ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+
