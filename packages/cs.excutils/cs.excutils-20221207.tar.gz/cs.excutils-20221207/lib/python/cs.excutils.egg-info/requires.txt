@@ -1,0 +1,3 @@
+cs.deco>=20221106.1
+cs.logutils>=20220531
+cs.py.func>=20221207
