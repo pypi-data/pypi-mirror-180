@@ -1,0 +1,73 @@
+# https://python-poetry.org/docs/pyproject/
+
+[tool.poetry]
+name = "cloack"
+version = "0.1.0"
+description = "A Python package to truncate dates and times."
+authors = ["João Palmeiro <jm.palmeiro@campus.fct.unl.pt>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/joaopalmeiro/cloack"
+# https://python-poetry.org/docs/pyproject/#classifiers
+# https://github.com/python-poetry/poetry-core/blob/1.3.2/src/poetry/core/packages/package.py#L293
+# https://github.com/python-poetry/poetry-core/blob/1.3.2/src/poetry/core/spdx/license.py#L6
+# https://pypi.org/classifiers/
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+# https://github.com/pypi/warehouse/blob/main/warehouse/templates/packaging/detail.html
+# https://github.com/pypi/warehouse/blob/main/package.json#L20
+# https://github.com/FortAwesome/Font-Awesome/tree/5.13.0/js-packages/@fortawesome/fontawesome-free
+# https://fontawesome.com/v5/search?o=r&m=free
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/joaopalmeiro/cloack/issues"
+"Changelog" = "https://github.com/joaopalmeiro/cloack/blob/main/CHANGELOG.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+# https://python-poetry.org/docs/managing-dependencies/#dependency-groups
+[tool.poetry.group.dev.dependencies]
+black = "*"
+isort = "*"
+# https://github.com/mschmieder/python-kacl
+# https://github.com/mschmieder/python-kacl#config-file
+python-kacl = "*"
+pytest = "*"
+# https://pytest-cov.readthedocs.io/en/latest/readme.html#installation
+pytest-cov = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+# isort . --show-config or poetry run isort . --show-config
+[tool.isort]
+profile = "black"
+# https://pycqa.github.io/isort/docs/configuration/options.html#src-paths
+src_paths = ["cloack", "tests"]
+
+[tool.black]
+target-version = ["py37", "py38", "py39", "py310"]
+
+# https://docs.pytest.org/en/stable/reference/customize.html#pyproject-toml
+# https://pytest-cov.readthedocs.io/en/latest/config.html
+# https://pytest-cov.readthedocs.io/en/latest/reporting.html
+# https://github.com/pytest-dev/pytest-cov/blob/master/setup.py#L132
+# https://github.com/nedbat/coveragepy/blob/master/setup.py#L119 + https://coverage.readthedocs.io/en/stable/config.html
+# https://github.com/woltapp/wolt-python-package-cookiecutter/blob/master/%7B%7Bcookiecutter.project_slug%7D%7D/pyproject.toml#L71
+[tool.pytest.ini_options]
+addopts = """\
+    --cov cloack \
+    --cov tests \
+    --cov-report term-missing \
+    --no-cov-on-fail \
+"""
+
+[tool.coverage.report]
+fail_under = 100
