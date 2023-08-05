@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: nv-framework
+Version: 1.24.11
+Summary: A Python-based robot-focused framework.
+Home-page: https://github.com/unmnd
+Author: UNMND, Ltd.
+Author-email: callum@unmnd.com
+License: GPL-3.0-or-later
+Requires-Python: >=3.8
+License-File: COPYING
