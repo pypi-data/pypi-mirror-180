@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: nedry
+Version: 2.1.0
+Summary: A self-hosted discord bot with a modular plugin system
+Home-page: http://github.com/eriknyquist/nedry
+Author: Erik Nyquist
+Author-email: eknyquist@gmail.com
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: twitch-python
+Requires-Dist: versionedobj (>=2.0.1)
+Requires-Dist: discord.py (==1.7.3)
+Requires-Dist: discord (==1.7.3)
+Requires-Dist: nltk
+
+UNKNOWN
+
+
