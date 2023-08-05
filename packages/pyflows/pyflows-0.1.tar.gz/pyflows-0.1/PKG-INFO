@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: pyflows
+Version: 0.1
+Summary: python链式工具
+Home-page: https://github.com/huangtaosdt/pyflows
+Author: TaoHuang
+Author-email: 294319556@qq.com
+License: MIT
+Download-URL: https://github.com/huangtaosdt/pyflows/archive/refs/tags/v_01.tar.gz
+Description: UNKNOWN
+Keywords: PYTHON
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
