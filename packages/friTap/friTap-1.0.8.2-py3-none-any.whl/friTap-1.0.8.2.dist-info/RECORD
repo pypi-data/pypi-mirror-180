@@ -1,0 +1,17 @@
+create_standalone_release/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+create_standalone_release/android.py,sha256=4mJs9mbtb7trWeJkIcxl5hQ_Q6_dyIEvftT4QPYFxqM,4732
+create_standalone_release/createRelease.py,sha256=qVa3onkYFCyyabpqxZ6UpVK-jNujzdHzSyEWMj1v_9Q,1314
+create_standalone_release/friTap_release_template.py,sha256=qwK_ubTXVz_Fs2bx9LR-O5k1-1gzxtHRxBu5Vhsjad8,17019
+create_standalone_release/pcap.py,sha256=J7cYqiNcREP35mViqCQbAt-4XGAVO0uTwsSAXrk6558,12305
+friTap/__init__.py,sha256=sjm44lf873vYueUbmHDMDK73CFOcnvUcarnCO_5-hy0,172
+friTap/_ssl_log.js,sha256=dG6M1wHzYicQkmouew66ZFO1A4QfkY1tAC5_dg2ZxTs,277550
+friTap/_ssl_log_legacy.js,sha256=KQupAxGyDKoyHfrl79IlKKWC0kVewljb0ibpgPlLxSM,326903
+friTap/android.py,sha256=4mJs9mbtb7trWeJkIcxl5hQ_Q6_dyIEvftT4QPYFxqM,4732
+friTap/friTap.py,sha256=2cy-jO5wih_Xt0Jnz4qpY7XAeXQzfW5Sq5Dx-SOGfi0,17078
+friTap/pcap.py,sha256=1LkQVwnMsNZBnkHD2ilw4CvW5RyG59V7qIff4LJJIPM,12325
+friTap-1.0.8.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+friTap-1.0.8.2.dist-info/METADATA,sha256=iQYhNvb47IBhvmKXhlx7soic5M-pGdh_lVpYd61HE1U,5916
+friTap-1.0.8.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+friTap-1.0.8.2.dist-info/entry_points.txt,sha256=1Y-ClaaUVbaohyAFpfaYtMlcDEHrR3juhxcM_3SDNco,46
+friTap-1.0.8.2.dist-info/top_level.txt,sha256=4TA18Ld9VUffcrTJTX5KyhSUHKlluDtERFCByg3Wrwo,33
+friTap-1.0.8.2.dist-info/RECORD,,
