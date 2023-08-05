@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: caishengxiang
+Version: 0.1.6
+Summary: tools for caishengxiang
+Home-page: https://github.com/caishengxiang/caishengxiang
+Author: caishengxiang
+Author-email: wancheng3833@163.com
+License: UNKNOWN
+Keywords: caishengxiang
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Requires-Dist: pytest
+
+UNKNOWN
+
