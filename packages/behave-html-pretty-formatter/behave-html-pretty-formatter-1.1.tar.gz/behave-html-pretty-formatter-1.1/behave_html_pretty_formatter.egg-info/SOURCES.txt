@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+behave_html_pretty_formatter/__init__.py
+behave_html_pretty_formatter/html_pretty.py
+behave_html_pretty_formatter/script.js
+behave_html_pretty_formatter/script.min.js
+behave_html_pretty_formatter/theme.css
+behave_html_pretty_formatter/theme.min.css
+behave_html_pretty_formatter.egg-info/PKG-INFO
+behave_html_pretty_formatter.egg-info/SOURCES.txt
+behave_html_pretty_formatter.egg-info/dependency_links.txt
+behave_html_pretty_formatter.egg-info/requires.txt
+behave_html_pretty_formatter.egg-info/top_level.txt
