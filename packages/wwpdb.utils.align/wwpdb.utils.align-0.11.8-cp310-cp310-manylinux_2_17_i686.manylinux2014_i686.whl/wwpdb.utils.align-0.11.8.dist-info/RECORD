@@ -1,0 +1,11 @@
+wwpdb.utils.align-0.11.8.dist-info/WHEEL,sha256=iq0ipPLG8LzHqa8Xrv2BuUBNqLZHVn6SGh2noGMIZcY,148
+wwpdb.utils.align-0.11.8.dist-info/top_level.txt,sha256=VOqoBkidtXKrZLpILya7wxsJEvv6Yt6xTThKoW9TBG4,6
+wwpdb.utils.align-0.11.8.dist-info/METADATA,sha256=Z10EUkbK7OSB2C6rSvE8060Hf1j9dZvqDUUUpojEKPw,1053
+wwpdb.utils.align-0.11.8.dist-info/RECORD,,
+wwpdb.utils.align-0.11.8.dist-info/LICENSE,sha256=VWLxXn8PvwE6ptB7BxQbpErZ9iyxodApO5MYZ2yZ2jk,552
+wwpdb/__init__.py,sha256=jv2YF__bseklT3OWEzlqJ5qE24c4aWd5F4r0TTjOrWQ,65
+wwpdb/utils/__init__.py,sha256=jv2YF__bseklT3OWEzlqJ5qE24c4aWd5F4r0TTjOrWQ,65
+wwpdb/utils/align/SequenceExamples.py,sha256=NsCfsulM29pexpP2HDzYL3DTxqsTgJy6kCYkI_6vSxU,62033
+wwpdb/utils/align/alignlib.cpython-310-i386-linux-gnu.so,sha256=-Q3zgtTyOLwaYNYQsAcIOtuUKcGCoKj5k4U5EFbQDvI,317948
+wwpdb/utils/align/SequenceReferenceData.py,sha256=OIYdIJ177SLnblW8RJKTehMjAMYq4v6vXJak6j6crMk,1834
+wwpdb/utils/align/__init__.py,sha256=Qt9ChX0cT9hcRVaZLKdmvSaKS2ptnfzEyU8sDeW2iJ8,156
