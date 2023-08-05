@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: kfactory
+Version: 0.0.4
+Summary: KLayout API implementation of gdsfactory
+Author-email: gdsfactory community <contact@gdsfactory.com>
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Provides-Extra: dev
+Provides-Extra: docs
+License-File: LICENSE
