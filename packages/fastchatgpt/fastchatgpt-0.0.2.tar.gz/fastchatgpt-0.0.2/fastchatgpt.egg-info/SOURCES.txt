@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+fastchatgpt/__init__.py
+fastchatgpt/__main__.py
+fastchatgpt/bots/BaseBot.py
+fastchatgpt/bots/ChatGPT.py
+fastchatgpt/bots/__init__.py
+fastchatgpt/utils/__init__.py
+fastchatgpt/utils/config.py
+fastchatgpt/utils/misc.py
+fastchatgpt/utils/registry.py
+fastchatgpt/utils/show_typing.py
+fastchatgpt/utils/utils.py
