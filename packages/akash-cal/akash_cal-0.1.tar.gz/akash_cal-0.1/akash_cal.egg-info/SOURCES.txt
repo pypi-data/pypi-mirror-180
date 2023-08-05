@@ -1,0 +1,6 @@
+setup.py
+akash_cal.egg-info/PKG-INFO
+akash_cal.egg-info/SOURCES.txt
+akash_cal.egg-info/dependency_links.txt
+akash_cal.egg-info/not-zip-safe
+akash_cal.egg-info/top_level.txt
