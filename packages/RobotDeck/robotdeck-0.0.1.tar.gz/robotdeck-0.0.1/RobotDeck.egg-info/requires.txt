@@ -1,0 +1,6 @@
+pillow
+pyside6
+pyautogui
+opencv-python
+pyperclip
+robotframework

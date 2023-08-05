@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: RobotDeck
+Version: 0.0.1.8
+Summary: RobotDeck
+Home-page: https://perdu.com
+Author: Ant Solutions SRL
+Author-email: info@ant-solutions.be
+License: Copyright - All Rights Reserved
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Copyright
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# RobotDeck

@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "RobotDeck"
+version = "0.0.1"
+description = "A simple testing framework based on Robot & PyAutoGUI"
+readme = "README.md"
+requires-python = ">=3.7"
+
+authors = [
+  { name="Maxime Gilles", email="mgilles@ant-solutions.be" },
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "opencv-python",
+  "robotframework",
+  "pyautogui",
+  "pyside6"
+]
+
+[project.urls]
+"Homepage" = "http://ant-solutions.be/"
+"Bug Tracker" = "http://ant-solutions.be/"
