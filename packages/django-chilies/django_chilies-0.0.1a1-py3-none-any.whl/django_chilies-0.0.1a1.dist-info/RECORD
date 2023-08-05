@@ -1,0 +1,17 @@
+django_chilies/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_chilies/celery.py,sha256=33sl71EuQ5IoWCu5Ivmwio6RkccikEzz7a9zPomBIW8,2460
+django_chilies/consts.py,sha256=v64PoZukI_-gtrtAnZIytKOd7S5eZD4KDqKuNVF096k,105
+django_chilies/controllers.py,sha256=xYneNSB_D6LKVS9BkZ846vJ2RGQ0F9Me5Gv2Fz8OYqs,8903
+django_chilies/errors.py,sha256=gprROJR5ttvEceyMxu3w7nf2UmrfbwVBFvy6q3NAEb8,3341
+django_chilies/middlewares.py,sha256=9G5GmnOXUv_W5zGGz5YqZ7Pjq9lspeRWJXaPNLJ5E6Y,4827
+django_chilies/models.py,sha256=yzbk8Q343FyStyMOk1ANPH0idSh1CFlh_ZS1bA6zw3o,16729
+django_chilies/serializers.py,sha256=7Zvl8-Yxy6RREYk1x0H5q2Vp0sVJw8KXkKpA8FOS9Bc,5717
+django_chilies/settings.py,sha256=gOyUDiID2IGXt9YhIJYAUV2Rd-iuB7Cp-h--TTUqsA8,1134
+django_chilies/trackers.py,sha256=fH8cixDLmxW5fODi3KhyJsUKuqj8OB7Jr2AkgoGfDnU,19311
+django_chilies/utils.py,sha256=KP4_o8i29zuCLev8LzdWucQHPiywKVxj-G43ZH9utgA,3014
+django_chilies/writers.py,sha256=fJaNb7Aq1umO8vQJamgmdlp_xEwmK4-tS47UxrJZEvY,1621
+django_chilies-0.0.1a1.dist-info/LICENSE,sha256=KdJB14fncbIJGHyNhdQvqr_Uyx6q7OnCoy1lRcSKSzM,1069
+django_chilies-0.0.1a1.dist-info/METADATA,sha256=RVghHJuKFd_QiSSOwSfBaGWRnBZyuIcaqIn1O6L6YUQ,707
+django_chilies-0.0.1a1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+django_chilies-0.0.1a1.dist-info/top_level.txt,sha256=L-BW_ISjmyh1s7t4mqXnEAr-Bfb1xdhrU7JPPad0GM0,15
+django_chilies-0.0.1a1.dist-info/RECORD,,
