@@ -1,0 +1,13 @@
+setup.py
+tracking_data/__init__.py
+tracking_data/dataset.py
+tracking_data/dataset_error.py
+tracking_data.egg-info/PKG-INFO
+tracking_data.egg-info/SOURCES.txt
+tracking_data.egg-info/dependency_links.txt
+tracking_data.egg-info/requires.txt
+tracking_data.egg-info/top_level.txt
+tracking_data/datarow/__init__.py
+tracking_data/datarow/annotation.py
+tracking_data/datarow/datarow.py
+tracking_data/datarow/datarow_error.py
