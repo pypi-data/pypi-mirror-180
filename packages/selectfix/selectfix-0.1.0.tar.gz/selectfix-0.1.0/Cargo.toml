@@ -1,0 +1,15 @@
+[package]
+name = "selectfix"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "selectfix"
+crate-type = ["cdylib"]
+
+[dependencies]
+indexmap = ">=1.6, <1.8"
+pyo3 = { version = "0.17.1", features = ["extension-module", "indexmap"] }
+ordered-float = "3.1.0"
+anyhow = "1.0.66"
