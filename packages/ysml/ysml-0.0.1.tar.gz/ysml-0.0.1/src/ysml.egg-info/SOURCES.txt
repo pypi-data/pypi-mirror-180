@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ysml/__init__.py
+src/ysml.egg-info/PKG-INFO
+src/ysml.egg-info/SOURCES.txt
+src/ysml.egg-info/dependency_links.txt
+src/ysml.egg-info/top_level.txt

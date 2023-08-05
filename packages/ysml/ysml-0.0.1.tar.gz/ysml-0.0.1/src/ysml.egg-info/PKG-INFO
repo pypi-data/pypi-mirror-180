@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ysml
+Version: 0.0.1
+Summary: YSML Python library
+Home-page: https://github.com/yupdates/ysml-py
+Author: Reed Bend Software, Inc.
+Author-email: tim@yupdates.com
+Project-URL: Tracker, https://github.com/yupdates/ysml-py/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# YSML Python library
+
+A Python library for parsing, manipulating, and converting YSML.
