@@ -1,0 +1,17 @@
+{
+    "files" : [
+        "RobotDeck.py",
+        "TestManager.py",
+        "Theme.py",
+        
+        "VirtualUserInterface.py",
+        "AssetLibrary.py",
+
+        "Interface/Scripts/Defines.js",
+
+        "Interface/Components/ThemedLabel.qml",
+
+        "Interface/TestManager.qml",
+        "Interface/AssetManager.qml"
+    ]
+}

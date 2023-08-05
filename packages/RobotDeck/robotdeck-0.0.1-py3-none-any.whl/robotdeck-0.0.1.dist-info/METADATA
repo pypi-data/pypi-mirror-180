@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: RobotDeck
+Version: 0.0.1
+Summary: A simple testing framework based on Robot & PyAutoGUI
+Project-URL: Homepage, http://ant-solutions.be/
+Project-URL: Bug Tracker, http://ant-solutions.be/
+Author-email: Maxime Gilles <mgilles@ant-solutions.be>
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: opencv-python
+Requires-Dist: pyautogui
+Requires-Dist: pyside6
+Requires-Dist: robotframework
+Description-Content-Type: text/markdown
+
+# RobotDeck
+
+This is RobotDeck. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
