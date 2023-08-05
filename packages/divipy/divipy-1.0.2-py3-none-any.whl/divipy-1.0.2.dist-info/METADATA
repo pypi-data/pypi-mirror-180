@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: divipy
+Version: 1.0.2
+Summary: Perfect and Cool package for developers.
+Author-email: Pandaxyz <contact@tourble.org>
+Project-URL: Homepage, https://github.com/Pandaxyz-xd/divipy
+Project-URL: Bug Tracker, https://github.com/Pandaxyz-xd/divipy/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Divipy
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Divipy
+
+```diff
+pip install -i https://test.pypi.org/simple/ divipy
+```
+
+## Import
+
+```python
+import divipy
+```
+
+## Use
+
+```python
+from divipy import sum
+sum(1,50)
+
+# >> 51
+```
+[View more examples](https://github.com/pandaxyz-xd/divipy/examples)
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
