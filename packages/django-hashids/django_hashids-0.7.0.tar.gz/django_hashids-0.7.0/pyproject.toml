@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "django-hashids"
+version = "0.7.0"
+readme = "README.md"
+description = "Non-intrusive hashids library for Django"
+homepage = "https://github.com/ericls/django-hashids"
+repository = "https://github.com/ericls/django-hashids"
+keywords = ["django", "hashids", "hashid"]
+authors = ["Shen Li <dustet@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.6.2,<4"
+hashids = ">=1.0.2"
+
+[tool.poetry.dev-dependencies]
+django = "^3.0.7"
+pytest = "^6.2.5"
+black = "^22.0.3"
+pytest-django = "^4.5.2"
+pytest-cov = "^3.0.0"
+flake8 = "^3.8.3"
+isort = "^4.3.21"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
