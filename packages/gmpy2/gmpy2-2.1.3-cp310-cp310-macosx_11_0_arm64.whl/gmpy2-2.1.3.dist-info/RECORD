@@ -1,0 +1,12 @@
+gmpy2-2.1.3.dist-info/RECORD,,
+gmpy2-2.1.3.dist-info/WHEEL,sha256=eKsqltxboaz7GOtugUvyM_YdId8c0DWeUFKvJbaZVUI,110
+gmpy2-2.1.3.dist-info/COPYING.LESSER,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+gmpy2-2.1.3.dist-info/COPYING,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+gmpy2-2.1.3.dist-info/top_level.txt,sha256=Sm6GYEILtBPk_gjz0sngTjx5Jmn4ebtxebdkQVOJgRQ,6
+gmpy2-2.1.3.dist-info/METADATA,sha256=V2kNWdyCG5tkU2Vm3tqGp7yNnnrHAScx0QyhvSmQIlE,2730
+gmpy2/gmpy2.cpython-310-darwin.so,sha256=9ylB3T6lFtjRuF975O9VnGLCx9s8G_yoCXKzAlL0m3g,573744
+gmpy2/gmpy2.pxd,sha256=82qHB21P0I5k8RvJFfzvtmo-FySLjAn2cPB3AjleuOI,4681
+gmpy2/__init__.pxd,sha256=3p7VoE0x5rWxOB14O8pCEOClR6A33VQ-1mywaNeOflM,27
+gmpy2/__init__.py,sha256=ZyDwU83iYXXCxMP6HHdOnGwihl5AEZxHzeWKJQ1ssMM,381
+gmpy2/gmpy2.h,sha256=TUvxYXDSEhcMdx9BQrytd3a1974wDYd__R8Y6WqyNrg,20632
+gmpy2/.dylibs/libgmp.10.dylib,sha256=2NnIK5ORK_1AjjIEuHPyAHqz518zahMBDC7vnrGuI5A,468352
