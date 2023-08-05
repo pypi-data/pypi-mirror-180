@@ -1,0 +1,10 @@
+griffe
+plum-dispatch
+sphobjinv
+tabulate
+importlib-metadata
+
+[dev]
+pytest
+jupyterlab
+jupytext
