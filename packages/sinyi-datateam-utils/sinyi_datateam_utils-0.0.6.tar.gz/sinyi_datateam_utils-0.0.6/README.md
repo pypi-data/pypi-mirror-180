@@ -1,0 +1,58 @@
+# Introduction 
+Sinyi Datateam common module (for databricks environment)
+
+# Version
+sinyi-datateam-utils - 0.0.3
+
+# Getting Started
+1.	Installation process - Module has already installed in databricks cluster
+2.	Latest releases - https://pypi.org/project/sinyi-datateam-utils/0.0.3/
+
+# Use Guideline
+
+## sinyi-utils module
+module tree structure:
+```
+.
+├── __init__.py
+├── db_connector.py
+└── format_tool.py
+```
+
+### format_tool
+``` python
+from sinyi_utils.format_tool import AESCrypto, roc_era_to_ad, Road8
+```
+1. AESCrypto: google decrypt & encrypt
+    - method : same as sinyi module
+
+2. roc_era_to_ad : transfer Chinese date to AD
+    Example:
+    ```python
+    roc_era_to_ad('0801122')
+
+    # Out: '19911122'
+    ```
+3. Road8
+    - method : same as sinyi module
+
+### db_connector
+```python
+from sinyi_utils.db_connector import upload_blob_from_memory, DW001Connector, AzureADSConnector...
+```
+1. MssqlConnector : connector to all kinds of db
+    - method : same as previous sinyi module
+2. upload_blob_from_memory : Uploads a file to google cloud storage(bucket)
+    Example:
+    ```python
+    content_type = 'text/csv'
+    bucket_name = 'format_address_file'
+    destination_blob_name = 'CL011F.csv'
+    contents = CL011[['id','address']].to_csv(index=False, header=False)
+    # upload to bucket
+    upload_blob_from_memory(bucket_name, contents, destination_blob_name, content_type)
+    ```
+
+# Contribute
+TODO: Explain how other users and developers can contribute to make your code better. 
+
