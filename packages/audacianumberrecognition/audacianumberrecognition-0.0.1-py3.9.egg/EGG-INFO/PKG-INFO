@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: audacianumberrecognition
+Version: 0.0.1
+Summary: Audacia Recognition Number
+Home-page: https://gitlab.com/audaciastudio/audacianumberrecognition
+Author: Audacia
+Author-email: audacia@unisimonbolivar.edu.co
+Project-URL: Bug Tracker, https://gitlab.com/audaciastudio/audacianumberrecognition
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE

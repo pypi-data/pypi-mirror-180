@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/audacianumberrecognition/AudaciaNumberRecognition.py
+src/audacianumberrecognition/__init__.py
+src/audacianumberrecognition.egg-info/PKG-INFO
+src/audacianumberrecognition.egg-info/SOURCES.txt
+src/audacianumberrecognition.egg-info/dependency_links.txt
+src/audacianumberrecognition.egg-info/top_level.txt
