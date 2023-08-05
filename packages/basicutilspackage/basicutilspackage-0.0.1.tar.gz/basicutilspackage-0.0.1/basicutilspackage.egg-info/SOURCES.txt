@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+basicutilspackage.egg-info/PKG-INFO
+basicutilspackage.egg-info/SOURCES.txt
+basicutilspackage.egg-info/dependency_links.txt
+basicutilspackage.egg-info/top_level.txt
+config/__init__.py
+config/env_config.py
+email_helper/__init__.py
+email_helper/config_email.py
