@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: zebracat_monitoring_client
+Version: 0.0.6
+Summary: monitoring client package
+Project-URL: Homepage, https://github.com/zebracatai/monitor_pip
+Project-URL: Bug Tracker, https://github.com/zebracatai/monitor_pip/issues
+Author-email: Erfan Tarighi <erfan@zebracat.ai>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Monitoring Package
+
+This is monitoring client package.
+just use it for Zebracat monitoring server
+
+```python
+from zebracat_monitoring_client.client import ZebraClient
+cli = ZebraClient(
+        sensor_id="1",
+        server_address="<address>:<port>",
+        schema="http"
+    )
+
+handler = cli.get_handler()
+handler.info("hi")
+cli.send(value="100")
+```
