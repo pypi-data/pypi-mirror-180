@@ -1,0 +1,17 @@
+isolate_cloud/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+isolate_cloud/auth/__init__.py,sha256=EUOrQ8_z09tA6aziALzYFtyXyqH18siF7ynpGRUeW38,1784
+isolate_cloud/auth/auth0.py,sha256=v-SgO3S_9O7z14JFa3lBpHvsc-1io8GaC8PmotII6gM,3478
+isolate_cloud/auth/local.py,sha256=HFWJhLaLLgqD6X5nm77e0938Vi7BUpUW7IVsgjPIGGg,1079
+isolate_cloud/ca.pem,sha256=eN6_OuLJho-_6Fx3MwQEOprfjkdMw1VlBE_JCzf0ci0,1814
+isolate_cloud/cli.py,sha256=NkvQrtb_8dM4hpLP1YACF1b0frmjJgKJGNnpJbFWLoo,344
+isolate_cloud/definitions/__init__.py,sha256=tRFPvZi4VS18CeXo-oV2y2ifYGAVv4GbulVF2ah7xEQ,576
+isolate_cloud/definitions/controller.proto,sha256=_tjssGw6WsEH1ssAMZlmzFrGoA9ITtg52dfL2O_iccY,4449
+isolate_cloud/definitions/controller_pb2.py,sha256=EJnBPDeKH1pbAsyEAKusaALnZrxX61-HVj3TIoFrUXU,6000
+isolate_cloud/definitions/controller_pb2.pyi,sha256=nDniNxi8DskrWvqIb7rqpzORHlfLYfkiz8FapaDXFf8,15339
+isolate_cloud/definitions/controller_pb2_grpc.py,sha256=9Ek2TJ59rj9W_jkuIW_JdN4wMPTBhXfUsReYEVKek_k,12466
+isolate_cloud/flags.py,sha256=psi-BIiUMpBINlhe_Fm2ruSamlz6h_CHog4vdKEVnbA,67
+isolate_cloud/sdk.py,sha256=OEVNufoJvPNGy5KuZED2ONPdmmmo5N9_egaDhhcZcZQ,5541
+isolate_cloud-0.0.7.dist-info/entry_points.txt,sha256=v5ZdYAuSF6ZElkjn1sX0IMLsxZNIrYFthIRC1iqMS8k,55
+isolate_cloud-0.0.7.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+isolate_cloud-0.0.7.dist-info/METADATA,sha256=TDly-CCQP9kBOnyWajAW8ilFp8TjULEIhz0GuTeRFns,690
+isolate_cloud-0.0.7.dist-info/RECORD,,
