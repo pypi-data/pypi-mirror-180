@@ -1,0 +1,7 @@
+setup.py
+acellera_pdfreport.egg-info/PKG-INFO
+acellera_pdfreport.egg-info/SOURCES.txt
+acellera_pdfreport.egg-info/dependency_links.txt
+acellera_pdfreport.egg-info/not-zip-safe
+acellera_pdfreport.egg-info/requires.txt
+acellera_pdfreport.egg-info/top_level.txt
