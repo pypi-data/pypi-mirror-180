@@ -1,0 +1,13 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pychatgpt/__init__.py,sha256=JPoJUcc-XuyeoUmdCg3bQI2LxuhilozCztPNMqA_vtw,60
+pychatgpt/main.py,sha256=tfP9dHo65gaDSqdh27VD2hvJY28NbOd9BWXJYASQlHw,7014
+pychatgpt/classes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pychatgpt/classes/chat.py,sha256=yN6zuac3TuOpdh39Iho28fBeDfJvWZgHlNAJk3DvM3U,2759
+pychatgpt/classes/exceptions.py,sha256=-7lcoBuNmvyZTHhrrTIN5XsGuWYy7nT0VWAAXTn2c3g,351
+pychatgpt/classes/openai.py,sha256=OjzCmrdFWUHH5tpo7cQc7xCqTHx64fagjjPoZBOznJg,17475
+pychatgpt/classes/spinner.py,sha256=HO6Xdmx_eFj2Sijp2McnGg8E5ptiIQ5-Mj81WYLWWiQ,1317
+chatgptpy-1.0.2.dist-info/LICENSE,sha256=Vbj8Tk5-MAA8vILKIMpAcMCIUFP5zrLqMecTnnFxbQU,1077
+chatgptpy-1.0.2.dist-info/METADATA,sha256=gdAKhbvVnhcjYpS9xYnNgheVQfLiVwF7rjDbaqfnCK8,6208
+chatgptpy-1.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+chatgptpy-1.0.2.dist-info/top_level.txt,sha256=KEOAq_Ka2SPphrgIQGKy0LAaL74iyd1Qup45IFtoOQs,19
+chatgptpy-1.0.2.dist-info/RECORD,,
