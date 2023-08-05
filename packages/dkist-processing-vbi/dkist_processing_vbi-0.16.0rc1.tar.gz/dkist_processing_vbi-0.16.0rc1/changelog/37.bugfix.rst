@@ -1,0 +1,1 @@
+Fix incorrect DINDEX3 values in L1 data.

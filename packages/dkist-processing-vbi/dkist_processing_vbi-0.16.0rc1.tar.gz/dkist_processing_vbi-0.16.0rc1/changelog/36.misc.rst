@@ -1,0 +1,1 @@
+Use a Hann window to smooth out hard mosaic edges in the browse movie. Purely aesthetic.

@@ -1,0 +1,1 @@
+If data include an aborted mosaic at the last DSPS repeat then drop that mosaic from the L1 dataset.
