@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "wasd3r-sdk"
+version = "0.0.2"
+description = "Wasd3r standard dev kit"
+authors = ["Aaron <aaron@wasd3r.xyz>"]
+maintainers = ["Aaron <aaron@wasd3r.xyz>"]
+readme = "README.md"
+packages = [{include = "wasd3r"}]
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+black = "22.10.0"
+flake8 = "^6.0.0"
+aptos-sdk = { version = "^0.4.1", optional = true }
+isort = "5.10.1"
+pytest = "7.2.0"
+
+[tool.poetry.extras]
+aptos = ["aptos-sdk"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+addopts = "-ra -q"
+testpaths = [
+    "**/tests",
+]
