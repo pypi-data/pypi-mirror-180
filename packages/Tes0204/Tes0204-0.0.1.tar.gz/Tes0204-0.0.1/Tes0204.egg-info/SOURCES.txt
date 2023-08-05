@@ -1,0 +1,7 @@
+setup.py
+Tes0204.egg-info/PKG-INFO
+Tes0204.egg-info/SOURCES.txt
+Tes0204.egg-info/dependency_links.txt
+Tes0204.egg-info/top_level.txt
+libname/__init__.py
+libname/hello.py
