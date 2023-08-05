@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: hashsoup
+Version: 0.1.0.post1
+Summary: A Python library for handling hash structures, useful for serialization & length extension attacks
+Author-email: Hyunsik Jeong <jhs7jhs@naver.com>
+Project-URL: Homepage, https://github.com/hyunsikjeong/hashsoup
+Project-URL: Bug Reports, https://github.com/hyunsikjeong/hashsoup/issues
+Project-URL: Source, https://github.com/hyunsikjeong/hashsoup
+Keywords: hash,length-extension,serialization
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+# hashsoup
+

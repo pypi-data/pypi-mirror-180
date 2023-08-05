@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/hashsoup/__init__.py
+src/hashsoup/hasher.py
+src/hashsoup/md2.py
+src/hashsoup/md4.py
+src/hashsoup/md5.py
+src/hashsoup/utils.py
+src/hashsoup.egg-info/PKG-INFO
+src/hashsoup.egg-info/SOURCES.txt
+src/hashsoup.egg-info/dependency_links.txt
+src/hashsoup.egg-info/requires.txt
+src/hashsoup.egg-info/top_level.txt
