@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: hadoop_util
+Version: 0.1
+Summary: hadoop命令行工具python版
+Home-page: https://github.com/huangtaosdt/hadoop_util
+Author: TaoHuang
+Author-email: 294319556@qq.com
+License: MIT
+Download-URL: https://github.com/huangtaosdt/hadoop_util/archive/refs/tags/v_01.tar.gz
+Description: UNKNOWN
+Keywords: HADOOP,HDFS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
