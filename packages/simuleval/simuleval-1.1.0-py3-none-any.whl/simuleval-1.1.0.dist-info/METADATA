@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: simuleval
+Version: 1.1.0
+Author: Xutai Ma
+Requires-Python: >3.7.0
+License-File: LICENSE
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Requires-Dist: sacrebleu (==1.5.1)
+Requires-Dist: tornado
+Requires-Dist: soundfile
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: pytest-flake8
+Requires-Dist: textgrid
+Requires-Dist: tqdm
+Requires-Dist: pyyaml
+Requires-Dist: bitarray (==2.6.0)
+
