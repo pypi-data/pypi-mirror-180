@@ -1,0 +1,7 @@
+MJOLNIRGui
+MJOLNIRGui\src
+MJOLNIRGui\src\build
+MJOLNIRGui\src\build\settings
+MJOLNIRGui\src\freeze
+MJOLNIRGui\src\freeze\windows
+MJOLNIRGui\src\freeze\windows\MJOLNIR
