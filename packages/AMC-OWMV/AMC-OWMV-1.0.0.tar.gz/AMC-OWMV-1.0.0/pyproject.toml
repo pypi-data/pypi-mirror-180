@@ -1,0 +1,22 @@
+[project]
+name = "AMC-OWMV"
+version = "1.0.0"
+description = "Produce Antimony Files and Graphs using a browser GUI"
+authors = [{ name = "Olivia Walsh", email = "owalsh@uw.edu" }, { name = "Matthew Van Ginneken", email = "mattcvang@gmail.com" }]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.9"
+
+dependencies = [
+    "tellurium",
+    "flask",
+    "wtforms",
+    "matplotlib.pyplot",
+]
+
+[project.urls]
+Homepage = "https://github.com/MatthewVanG/AMC-OWMVG"
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
