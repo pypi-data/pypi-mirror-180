@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "fast-json-pointer"
+version = "0.2.0"
+description = "Implements RFC 6901 JSON pointers, and json-schema draft relative pointer resolution."
+authors = ["Tristan Sweeney <sweeneytri@gmail.com>"]
+license = "GNU Lesser General Public License v3.0"
+repository = "https://github.com/SlowAPI/py-json-pointer"
+documentation = "https://py-json-pointer.readthedocs.io/en/latest/"
+readme = "README.md"
+
+packages = [
+    { include = "fast_json_pointer", from="src" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.dev-dependencies]
+black = "^22.10.0"
+isort = "^5.10.1"
+mypy = "^0.991"
+Sphinx = "^5.3.0"
+pytest = "^7.2.0"
+pytest-cov = "^4.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
