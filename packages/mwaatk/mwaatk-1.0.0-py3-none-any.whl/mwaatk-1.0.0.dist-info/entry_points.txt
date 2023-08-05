@@ -1,0 +1,3 @@
+[console_scripts]
+mwaatk=mwaatk.toolkit:cli_script
+
