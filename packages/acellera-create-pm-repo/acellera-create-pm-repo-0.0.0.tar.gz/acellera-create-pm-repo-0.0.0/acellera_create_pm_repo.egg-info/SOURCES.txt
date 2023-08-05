@@ -1,0 +1,7 @@
+setup.py
+acellera_create_pm_repo.egg-info/PKG-INFO
+acellera_create_pm_repo.egg-info/SOURCES.txt
+acellera_create_pm_repo.egg-info/dependency_links.txt
+acellera_create_pm_repo.egg-info/not-zip-safe
+acellera_create_pm_repo.egg-info/requires.txt
+acellera_create_pm_repo.egg-info/top_level.txt
