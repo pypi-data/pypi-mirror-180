@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "simpletimer-kafka"
+version = "0.1.7"
+description = ""
+authors = ["Mathias Ho"]
+readme = "README.md"
+packages = [{include = "simpletimer"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+kafka-python = "^2.0.2"
+confluent-kafka = "^1.9.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
