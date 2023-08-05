@@ -1,0 +1,8 @@
+melon_translate_client/__init__.py,sha256=UVAPLek_Von7OKhSBmpkW7o-hK-mE4zrMXRLHK3dlHA,50
+melon_translate_client/_client.py,sha256=YuJNeXslM8mRn-j9m25t8P5-_RPFT7MvpTni98MSukY,15112
+melon_translate_client/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+melon_translate_client/tests/test_client.py,sha256=KHWdvgUmNB-1qbvQp4rVv2xforq8NcCsLvX1gGVrhto,11574
+melon_translate_client/utils/logging.py,sha256=O-srnsXzctxAWnXtRiVmZ6Ssi70sveUmbTACLkTxg04,318
+melon_translate_client-0.9.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+melon_translate_client-0.9.1.dist-info/METADATA,sha256=j3voqU0tkLsTiUMifDnf_Eup4D2GGiUElzxeDpJtxBw,646
+melon_translate_client-0.9.1.dist-info/RECORD,,
