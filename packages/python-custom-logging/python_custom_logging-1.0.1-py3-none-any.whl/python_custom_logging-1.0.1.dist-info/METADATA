@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: python-custom-logging
+Version: 1.0.1
+Summary: Package to create log files with using TimedRotatingFileHandler
+Author: Pankaj Kalal
+Author-email: pankajgkalal@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# python_custom_logging
+
+logpath = "YOUR LOG PATH/LOG_FILE_NAME.log"<br/>
+loggername = "YOUR LOGGER NAME"<br/>
+logformat = ("%(asctime)s [%(levelname)s]: %(lineno)d : %(message)s ") --YOUR LOG FORMAT<br/>
+log_level = logging.INFO -- YOUR LOG LEVEL<br/>
+logfilehandlertime = "H"  -- logfilehandlertime  (H,M,S)<br/>
+interval = 1  -  intreval of time 1 hour,1 sec ,1 minutes<br/>
+backupCount=0  file we keep of logs if 0 mean all log file will  be there and if set to 2 then latest 2 log file will  be there and rest will be deleted<br/>
+
+
+**Create obj before use**
+
+from python_custom_logging import *
+
+logging_config_obj=python_custom_logging(logpath,loggername,logformat,log_level,logfilehandlertime,interval,backupCount).create_log()
+
+For Example:
+
+logging_config_obj.info('YOUR  LOGS')
+
+logging_config_obj.error('YOUR  LOGS')
+
+
