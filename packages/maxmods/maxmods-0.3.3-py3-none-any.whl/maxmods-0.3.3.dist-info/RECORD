@@ -1,0 +1,12 @@
+maxmods/__init__.py,sha256=jKaj6R2u0zQ1gq4EjtOc4pojVZS-TvzQZ_OrPjM7aQc,100
+maxmods/auth/__init__.py,sha256=sJj3NP0ymPclc70YOXhPvel0a6vBO7fmvka2gB7_tpA,181
+maxmods/auth/auth_backend/__cert_maker__.py,sha256=P49rav_XqQnTN0Mj0T6oeFbfIyUlvBwVcaMtrJSM04w,4399
+maxmods/auth/auth_backend/__init__.py,sha256=vPU2x_v4940ZeoNCJVvIZJ_CVSUk5TDjITP5za-xSFI,91
+maxmods/auth/auth_backend/__main__.py,sha256=qlwfhiIe4DV4HPD77USh8c7tTLEh_6LOxEhzY50j6Ts,11317
+maxmods/menu/__init__.py,sha256=8U13sxjQXkF2lZqvEAzWo_yvcjKp7xWELqHjMILOIxU,158
+maxmods/menu/__main__.py,sha256=PDKF1sDx50hrVT-I5PddViOR7ga6RlQ8o3M8uk13zYY,5886
+maxmods-0.3.3.dist-info/LICENSE,sha256=jIbAYRe6iHGv6IvsLDDhdxvEPSDGs-CEiPLZyuFDG8c,1065
+maxmods-0.3.3.dist-info/METADATA,sha256=NBN-4bzqfea4SyYnOankg0zYt_5kWljbhnoiyCY1TR0,1364
+maxmods-0.3.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+maxmods-0.3.3.dist-info/top_level.txt,sha256=clzzi5w0_JY88NsY9BC-Z3j6LR8xrLghnEBRJhyLEd0,8
+maxmods-0.3.3.dist-info/RECORD,,
