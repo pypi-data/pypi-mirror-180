@@ -1,0 +1,16 @@
+numpy
+numba
+tqdm
+
+[dev]
+bumpver
+pip-tools
+build
+twine
+matplotlib
+ipython
+
+[testing]
+pytest
+scipy
+scikit-learn

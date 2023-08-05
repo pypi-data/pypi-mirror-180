@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/subpair/__init__.py
+src/subpair/__main__.py
+src/subpair/cosine.py
+src/subpair/minimize.py
+src/subpair.egg-info/PKG-INFO
+src/subpair.egg-info/SOURCES.txt
+src/subpair.egg-info/dependency_links.txt
+src/subpair.egg-info/requires.txt
+src/subpair.egg-info/top_level.txt
