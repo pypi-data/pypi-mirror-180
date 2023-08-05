@@ -1,0 +1,5 @@
+# @package _global_
+project_name: ${oc.env:EKORPKIT_PROJECT,ekorpkit-project}
+project_dir: ${.path.project}
+task_name: default-task
+workspace_root: ${alt:${oc.env:EKORPKIT_WORKSPACE_ROOT,null},${.path.home}/.ekorpkit}
