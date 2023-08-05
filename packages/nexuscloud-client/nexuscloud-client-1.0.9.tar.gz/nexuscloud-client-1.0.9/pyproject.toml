@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nexuscloud-client"
+version = "1.0.9"
+authors = [
+  { name="Cisco Nexus Cloud Team", email="nexuscloud@cisco.com" },
+]
+description = "Cisco Nexus Cloud"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://www.intersight.com/nexuscloud"
