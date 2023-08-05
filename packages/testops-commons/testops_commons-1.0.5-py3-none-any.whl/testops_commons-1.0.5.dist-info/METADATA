@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: testops-commons
+Version: 1.0.5
+Summary: TestOps Commons Python
+Home-page: https://github.com/katalon-studio/testops-commons-python
+Author: Katalon, LLC. (https://www.katalon.com)
+Author-email: info@katalon.io
+License: UNKNOWN
+Keywords: Katalon,TestOps
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: testops-api
+Requires-Dist: jsonpickle
+
+# Katalon TestOps Commons Python
+TestOps Commons for Python language.
+
+## Usage
+- module name: *testops-commons*
+- install lastest version from pypi:
+  ```
+  python3 -m pip install testops-commons
+  ```
+- *testops-config.json* file will be read from the root of python project. File here is a sample for testing purpose.
+
+## Development
+### Setup Prerequisites
+- python >= 3.6
+- install requirements:
+  ```
+  python3 -m pip install -r requirements.txt
+  ```
+### Local Run
+- install as local module:
+  ```
+  python3 -m pip install setup.py
+  ```
+
+
