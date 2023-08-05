@@ -1,0 +1,190 @@
+Metadata-Version: 2.1
+Name: desmos2python
+Version: 0.1.0.dev3
+Summary: seamless conversion between Desmos LaTeX equations and executable Python code.
+Home-page: https://github.com/rocapp/desmos2python
+Author: Robert Ahlroth Capps
+Author-email: Robert Ahlroth Capps <rcapps@teladochealth.com>
+License: MIT License
+        
+        Copyright (c) 2022 Robbie Capps
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/rocapp/desmos2python
+Project-URL: Issue Tracker, https://github.com/rocapp/desmos2python/issues
+Project-URL: Source Code, https://github.com/rocapp/desmos2python
+Keywords: desmos,graphing calculator,conversion,convert to python,mathematical modeling
+Platform: Windows
+Platform: macOS
+Platform: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.8.10
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+desmos2python
+=============
+
+seamless conversion between Desmos LaTeX equations & executable Python
+code.
+
+Notes
+-----
+
+Currently known to be compatible with ``python3.8`` (working on
+expanding compatibility)
+
+Definitely recommend using a virtual environment, e.g. via docker or
+conda.
+
+Install
+-------
+
+``python3 -m pip install desmos2python``
+
+Examples
+--------
+
+``make_latex_parser`` high-level API Example:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+   from desmos2python import make_latex_parser
+
+   # loads the example defined in 'resources/latex_json/ex.json'
+   dlp = make_latex_parser(fpath='ex')
+
+   # print the raw latex lines
+   print(dlp.lines.lines)
+   # output:
+   # ['E\\left(x\\right)=\\frac{1}{1+\\exp\\left(-2x\\right)}',
+   # '\\alpha_{m}=1',
+   # 'F\\left(x\\right)=E\\left(\\alpha_{m}\\cdot\\left(1+\\alpha_{m}\\right)\\cdot x \\right)']
+
+   # print sympy-converted lines
+   print(dlp.sympy_lines.lines)
+   # output:
+   # ['E\\left(x\\right)=\\frac{1}{1+\\exp\\left(-2x\\right)}',
+   #  '\\alpha_{m}=1',
+   #  'F\\left(x\\right)=E\\left(\\alpha_{m}\\cdot\\left(1+\\alpha_{m}\\right)\\cdot x \\right)']
+
+   # print the rendered template (executable python code)
+   print(dlp.pycode_string)
+   # """desmosmodelns namespace definition."""
+   # 
+   # class DesmosModelNS(object):
+   # 
+   #     def __init__(self, **kwds):
+   #     
+   #         self._alpha_m = 1
+   #     
+   #         #: ! update parameters on construction
+   #         if len(kwds) > 0:
+   #             for k in kwds:
+   #                 setattr(self, '_'+k if '_' != k[0] else k, kwds.get(k))
+   #         self.setup_equations()
+   # 
+   # 
+   #     @property
+   #     def alpha_m(self):
+   #         return self._alpha_m
+   #     @alpha_m.setter
+   #     def alpha_m(self, new):
+   #         self._alpha_m = new
+   #         #: ! re-init equations
+   #         self.setup_equations()
+   # 
+   # 
+   #     def setup_equations(self):
+   #         #: Define vectorized functions (instance-level)
+   # 
+   #         self.E = np.vectorize(self._E, cache=True, excluded="self")
+   # 
+   #         self.F = np.vectorize(self._F, cache=True, excluded="self")
+   # 
+   # 
+   #     #: Constants
+   # 
+   #     pi = 3.141592653589793
+   # 
+   # 
+   #     #: Parameters:
+   #     params = tuple(( 'alpha_m', ))
+   # 
+   #     #: (Functions) State Equations:
+   #     output_keys = tuple((
+   #               
+   #               'E', 
+   #             
+   #               
+   #               'F', 
+   #             ))
+   # 
+   #     def _E(self, x):
+   #         globals().update(vars(self))
+   #         alpha_m = self.alpha_m
+   #         return 1/(1 + np.exp(-2*x))
+   # 
+   #     def _F(self, x):
+   #         globals().update(vars(self))
+   #         alpha_m = self.alpha_m
+   #         return E(alpha_m*x*(alpha_m + 1))
+   # 
+   # 
+   # 
+   # def get_desmos_ns():
+   #     return DesmosModelNS
+   # 
+
+   # finally, save the rendered python to disk
+   # saves to this path by default: `$HOME/.desmos2python/models/ex.d2p.py`
+   output_path = dlp.export_model()
+   print(output_path)
+
+``DesmosLatexParser`` API Example:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+   import desmos2python as d2p
+
+   # `file` contains a JSON-formatted list of latex equations
+   # loads the example defined in 'resources/latex_json/ex.json'
+   dlp = d2p.DesmosLatexParser(file='ex.json')
+
+   # `pycode_string` contains the ready-to-eval Desmos model namespace 
+   print(dlp.pycode_string)
+
+   # Instantiate a model namespace
+   # The attributes define any formulas, parameters from the specified Desmos graph
+   dmn = dlp.DesmosModelNS()
+
+   # for example, evaluate the function E(x) over the domain x=(1, 2, 3)
+   result = dmn.E([1, 2, 3])
+   print(result)
+
+   # see ./tests for more examples!
