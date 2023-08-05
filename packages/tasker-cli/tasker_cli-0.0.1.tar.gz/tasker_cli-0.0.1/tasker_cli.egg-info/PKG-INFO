@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: tasker-cli
+Version: 0.0.1
+Summary: A small library to create pretty tables to track tasks status on the terminal.
+Author-email: Rafael Moret <rafaelmoretgalan@gmail.com>
+Project-URL: Homepage, https://github.com/r-moret/tasker_cli
+Project-URL: Bug Tracker, https://github.com/r-moret/tasker_cli/issues
+Keywords: terminal,cli,tasks,tracker,rich
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Tasker-CLI
+Is a small library to create tables in rich format on the terminal to track the status of the processes your script is running.
