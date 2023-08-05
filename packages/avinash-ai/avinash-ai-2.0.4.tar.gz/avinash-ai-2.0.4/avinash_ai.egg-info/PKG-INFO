@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: avinash-ai
+Version: 2.0.4
+Summary: Build your own ML
+Description-Content-Type: text/markdown
+
+# A general purpose AI model 
+
+```
+export OPENAI_API_KEY=<openai api key>
+```
+
+```python
+from avinash_ai.analyzer import analyze_your_query
+
+response = analyze_your_query("What is 2+2 ?")
+print(response)
+```

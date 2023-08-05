@@ -1,0 +1,10 @@
+README.md
+setup.py
+avinash_ai/__init__.py
+avinash_ai/analyze_your_query.py
+avinash_ai/analyzer.py
+avinash_ai.egg-info/PKG-INFO
+avinash_ai.egg-info/SOURCES.txt
+avinash_ai.egg-info/dependency_links.txt
+avinash_ai.egg-info/requires.txt
+avinash_ai.egg-info/top_level.txt
