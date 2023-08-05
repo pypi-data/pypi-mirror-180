@@ -1,0 +1,10 @@
+koffi/__init__.py,sha256=a6ot9u7W28gNr2PLXK-zefbJWsLxqa2nqlPNbesgfCo,21
+koffi/koffi.py,sha256=GD3X9Hn29DwI-lue1BxQgze8chwMNoNVn-mJ5-0UeyE,11505
+koffi_tools/__init__.py,sha256=5guoHAYXLzF2UAtNSSCYPb7uHfMrizNdyVUK_UYLR2s,61
+koffi_tools/image_metadata.py,sha256=RBXhLm6OrZVmb7v-rbO-rsLx7Qf9HaJCGUgMpnX8fEc,8069
+koffi_tools/potential_source.py,sha256=ZxdoTnyyxxARnuGP2BrGQywxKJds749jGZUJZKplTwE,1907
+KOFFI-0.1.1.dist-info/LICENSE,sha256=H3CiNX7PNdzIezrU4g3-H4ZELqkxTINLkaS7wqAvgt4,1524
+KOFFI-0.1.1.dist-info/METADATA,sha256=mLLHYjoF9HMirJ65yuOVMz_2SzJ91MFA6omqDTQmDe8,295
+KOFFI-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+KOFFI-0.1.1.dist-info/top_level.txt,sha256=e3ZbzpTP8b_vnf6GH2BnQTEB5oaHqVTmC9YseVnVAUk,18
+KOFFI-0.1.1.dist-info/RECORD,,
