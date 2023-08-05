@@ -1,0 +1,4 @@
+jupyterhub>=1.3
+bcrypt
+onetimepass
+boto3
