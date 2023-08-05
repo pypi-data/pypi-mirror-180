@@ -1,0 +1,8 @@
+caped_ai/__init__.py,sha256=PcmaZeAvYFm3Wg-phDEEXzMwC62BahoUnwcjeizm_CA,143
+caped_ai/_version.py,sha256=q7osgG4euuEkESW9kvf9ZmD8VY687MXGk0Sqd5qpOHM,20
+caped_ai/oneat.py,sha256=QiLMwCM1gqZlr7NgCuWTB5qMzqGfgI51Vft75hdRZAI,1896
+caped_ai/vollseg.py,sha256=RRiEsbkwk8rTJFq4UZvOdmQ2ORSZnki17H_B4fAXDNc,835
+caped_ai-1.0.2.dist-info/METADATA,sha256=m3xDvzXEHZCb82g_EYVMVD1be_U-eQgW813AVU3VP60,6687
+caped_ai-1.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+caped_ai-1.0.2.dist-info/top_level.txt,sha256=-7Mr84olHNLnS3Vc6CMPssrJxX-XbKt1SISpHs2Q6zU,9
+caped_ai-1.0.2.dist-info/RECORD,,
