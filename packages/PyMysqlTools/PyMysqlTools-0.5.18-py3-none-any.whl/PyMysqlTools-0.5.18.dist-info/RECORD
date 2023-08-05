@@ -1,0 +1,13 @@
+PyMysqlTools/ClauseGenerator.py,sha256=n7LkYldmtlUulo50yJNNK84ey1SihoXr-BYg8Bl3DJY,2805
+PyMysqlTools/PlanExecutor.py,sha256=1pO73kPh8GiYTnxQmTsuJa-1oXootF-CgpPmcFmtxY4,4255
+PyMysqlTools/PyMysqlTools.py,sha256=elRBm9gpPKgSesjeo8LF-OEM357OlCYEQieT4PBugN8,27875
+PyMysqlTools/ResultSet.py,sha256=zVKsgkzlkqDC6gB32CIUJ7Zesit7MtkAZYlwTV45Hq4,3378
+PyMysqlTools/SqlActuator.py,sha256=a691jEBQNo-0f5RBLH_B6wz7k51AQg2fNKdgEf9HS2Q,1249
+PyMysqlTools/SqlGenerator.py,sha256=EZGTgFtNkCCOvS-8Nyc8PBlUV11t1ktR6gojH43hkG4,3597
+PyMysqlTools/__init__.py,sha256=RNl01ycnZZieBL9EdgDImsoQG6i5k0bjlDzQx1hOfZQ,1241
+PyMysqlTools/config.py,sha256=grayLVsDpbptqHA6Lo9ge7rEMy1WH1qYIPaQq5_IJE0,105
+PyMysqlTools-0.5.18.dist-info/LICENSE,sha256=69U-u2yzvOnE6uAXNYnU7SULskwdiLiZoS6NR0R2S1w,1083
+PyMysqlTools-0.5.18.dist-info/METADATA,sha256=n4r04Nw4WJ_6KyJArzTxMEI0nP8PshGXMvLaCIIuork,2565
+PyMysqlTools-0.5.18.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+PyMysqlTools-0.5.18.dist-info/top_level.txt,sha256=dhtHq9-VITNHWHzQC4sN5PZqV47mM3ZX4WYuPWnxhkM,13
+PyMysqlTools-0.5.18.dist-info/RECORD,,
