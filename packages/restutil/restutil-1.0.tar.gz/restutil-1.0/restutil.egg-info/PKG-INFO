@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: restutil
+Version: 1.0
+Summary: Rest Util Tools
+Home-page: https://github.com/adions025/restutil
+Download-URL: https://github.com/adions025/restutil
+Author: Adonis González
+Author-email: adions025@gmail.com
+Keywords: Restful,Rest,Util,Tools
+License-File: LICENSE
+
+This is Tool implementation

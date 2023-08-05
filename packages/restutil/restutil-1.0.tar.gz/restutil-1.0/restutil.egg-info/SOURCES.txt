@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+restutil/__init__.py
+restutil/dictionary.py
+restutil.egg-info/PKG-INFO
+restutil.egg-info/SOURCES.txt
+restutil.egg-info/dependency_links.txt
+restutil.egg-info/top_level.txt
