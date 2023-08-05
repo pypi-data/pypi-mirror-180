@@ -1,0 +1,9 @@
+sigc/__init__.py,sha256=k736Czd0gBoxlYPmuEDWT-Gd0NeK2ROpNsNK7EYV80o,377
+sigc/core.py,sha256=l7oYmRHop8h2TIzzNSdSlPJmHU7ZPxxWUdzvbmyBdwo,3016
+sigc/resources/KEGG_metabolism_nc.gmt,sha256=dU9gxTVRZEn2AaNDUfi-CEar6Nhv0AgMd8TWzqwGkmI,21439
+sigc/resources/REACTOME_metabolism.gmt,sha256=t8XKg1EmPkvjM3CeU6ev3g8BGZACBUXhUYS7RXGArmI,44688
+sigc-0.1.13.dist-info/LICENSE,sha256=-Dn5CRFJr10mldUu-nFIscHUGpGDxNXzHX4Ozk86qeQ,1064
+sigc-0.1.13.dist-info/METADATA,sha256=sX-WJHbeq3IvmHTORvNXeem8yCz3YsJgqO45Aq-E7UY,444
+sigc-0.1.13.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sigc-0.1.13.dist-info/top_level.txt,sha256=JDjTr_rDjyVWYUx85kY6cCcYVR9sUv9dg4U3jJ39RIc,5
+sigc-0.1.13.dist-info/RECORD,,
