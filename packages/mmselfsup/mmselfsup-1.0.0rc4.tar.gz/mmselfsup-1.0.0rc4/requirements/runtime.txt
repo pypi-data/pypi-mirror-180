@@ -1,0 +1,12 @@
+attrs
+einops
+future
+matplotlib
+mmcls>=1.0.0rc4
+numpy
+packaging
+scikit-learn
+scipy
+six
+tensorboard
+tqdm
