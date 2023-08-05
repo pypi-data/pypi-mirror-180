@@ -1,0 +1,6 @@
+setup.py
+lfu.egg-info/PKG-INFO
+lfu.egg-info/SOURCES.txt
+lfu.egg-info/dependency_links.txt
+lfu.egg-info/not-zip-safe
+lfu.egg-info/top_level.txt
