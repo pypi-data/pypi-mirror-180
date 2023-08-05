@@ -1,0 +1,6 @@
+README.md
+setup.py
+unique_id_generator.egg-info/PKG-INFO
+unique_id_generator.egg-info/SOURCES.txt
+unique_id_generator.egg-info/dependency_links.txt
+unique_id_generator.egg-info/top_level.txt
