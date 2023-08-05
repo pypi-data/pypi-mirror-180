@@ -1,0 +1,7 @@
+docopt
+jsonpickle
+numpy
+Cython
+epam.indigo
+ctfile
+Pebble
