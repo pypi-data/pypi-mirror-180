@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: airdistance
+Version: 1.0
+License-File: LICENSE
+
+This package calculates the air distance between two points. You should provide it with the latitude and longitude of the first and second point. 

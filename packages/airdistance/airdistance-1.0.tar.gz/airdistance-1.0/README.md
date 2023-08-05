@@ -1,0 +1,1 @@
+This package calculates the air distance between two points. You should provide it with the latitude and longitude of the first and second point. 
