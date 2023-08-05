@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: Juan_Cuadrado_Test_B
+Version: 0.1.0
+Summary: Check Version Library Comparison Library
+Author: Juan Pablo Cuadrado
+License: MIT
+License-File: LICENCE.txt
+
+Check if a library version is equal, greater or less than other

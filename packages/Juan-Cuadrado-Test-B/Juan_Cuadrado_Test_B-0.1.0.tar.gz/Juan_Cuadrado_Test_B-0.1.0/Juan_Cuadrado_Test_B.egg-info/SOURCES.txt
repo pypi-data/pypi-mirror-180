@@ -1,0 +1,8 @@
+LICENCE.txt
+README.md
+setup.py
+Juan_Cuadrado_Test_B.egg-info/PKG-INFO
+Juan_Cuadrado_Test_B.egg-info/SOURCES.txt
+Juan_Cuadrado_Test_B.egg-info/dependency_links.txt
+Juan_Cuadrado_Test_B.egg-info/requires.txt
+Juan_Cuadrado_Test_B.egg-info/top_level.txt
