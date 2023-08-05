@@ -1,0 +1,10 @@
+tds2stac/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tds2stac/constants.py,sha256=m6ZnVa8pSIU5YekZMK5jQNvxBAzNbs07_61kX5jHIfQ,307
+tds2stac/funcs.py,sha256=dx3DjUjZnK8xDHqWw9miAJNOtk2E-OzMaRFPsF8BVfA,1675
+tds2stac/tds2stac.py,sha256=9Zhj8Q1YN0Sc7F4o3uwx2xh58gT26O2NBjhdyMVL6AY,17745
+tds2stac-1.0.4.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tds2stac-1.0.4.dist-info/METADATA,sha256=1S7xEnadgvmnQy84TphuY_RBKOhrOHIgymAR6Pj3AfU,5009
+tds2stac-1.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tds2stac-1.0.4.dist-info/entry_points.txt,sha256=TUcDVsntOzRFav5M7FmJU3mRIjbG4rt2A_oC2q0cYvI,48
+tds2stac-1.0.4.dist-info/top_level.txt,sha256=geoEaVEBf9anfJrc1QiUOOUqkGYMSd3DKXT6SZpeDSM,9
+tds2stac-1.0.4.dist-info/RECORD,,
