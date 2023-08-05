@@ -1,0 +1,16 @@
+dapp_manager/__init__.py,sha256=kID0eSjEFtw5flvlkMo_7yUxIp6LfkamXoa3n1GMs-k,97
+dapp_manager/__main__.py,sha256=G3MvmfYBvIOZMEiVGcX6wnu2AEAoKfTRPi-3NpKue_M,5132
+dapp_manager/autocomplete/__init__.py,sha256=oW9wS7hLP0duy1v3dCSxjBHp_70nCDcgqFMn43UDBZU,1269
+dapp_manager/autocomplete/scripts/.dapp-manager.bash,sha256=N2B11p31P6Lu-sipTK5gtoAcV9dTbZIpCitvhrKRmVg,633
+dapp_manager/autocomplete/scripts/.dapp-manager.fish,sha256=NqK0Zzg-dKDhUosAlqHq5FPwXwaIh4-PFJ3XkycRvV8,701
+dapp_manager/autocomplete/scripts/.dapp-manager.zsh,sha256=Y2zEa4xoUbw75VwjPpQazru5wqSSGKio7GS06X3ZTTM,1010
+dapp_manager/dapp_manager.py,sha256=Sqm19Dw7yGNlVLqofAOcGq3PIHYMyXAcwnn0Wcqk5HQ,6527
+dapp_manager/dapp_starter.py,sha256=7Lk-pZn9yWh1f9d4vZk4BXpTPY7gzRfZuiD5tBsIwds,3369
+dapp_manager/exceptions.py,sha256=9sdCQ-GRMDA8Av0gf-Ul1-PTc1yyY3LVZzXoEvz1XJU,1669
+dapp_manager/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dapp_manager/storage.py,sha256=5yIogODClHD1dZ74VqOIwbLFlhiv6bprTft9_BVzY8A,2921
+dapp_manager-0.0.0a3.dist-info/entry_points.txt,sha256=VcIUrlIGSIw-cAinzVD6NJAo3nCJywpT2q2U1l_VM0E,59
+dapp_manager-0.0.0a3.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+dapp_manager-0.0.0a3.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+dapp_manager-0.0.0a3.dist-info/METADATA,sha256=WgfS4SHafk_vUdtn6CxqtY2nKt255G7Y4AIDgU0SspI,8580
+dapp_manager-0.0.0a3.dist-info/RECORD,,
