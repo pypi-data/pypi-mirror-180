@@ -1,0 +1,20 @@
+[project]
+name = "console-table"
+version = "1.0.1"
+authors = [
+  { name="Elozor Bruce", email="coolcoder613@outlook.com" },
+]
+description = "Print tables on the console from csv files."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/coolcoder613eb/table"
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
