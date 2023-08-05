@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableLogAssertion shallow renders the advanced table log HTML structure 1`] = `
+<TableBaseAssertion
+  columns={
+    Array [
+      Object {
+        "cellRendererFramework": [Function],
+        "comparator": [Function],
+        "field": "Description",
+        "filterParams": Object {
+          "excelMode": "windows",
+        },
+        "headerName": "Description",
+      },
+      Object {
+        "cellRendererFramework": [Function],
+        "comparator": [Function],
+        "field": "Data",
+        "filterParams": Object {
+          "excelMode": "windows",
+        },
+        "headerName": "Data",
+      },
+    ]
+  }
+  rows={
+    Array [
+      Object {
+        "Data": Object {
+          "inner": false,
+          "link": "https://www.google.com",
+          "new_window": true,
+          "title": "Google",
+          "type": "link",
+        },
+        "Description": "External Link",
+      },
+      Object {
+        "Data": Object {
+          "inner": true,
+          "link": "/",
+          "new_window": true,
+          "title": "Home",
+          "type": "link",
+        },
+        "Description": "Internal Link",
+      },
+      Object {
+        "Data": Object {
+          "display": "60%",
+          "type": "formattedValue",
+          "value": 0.6,
+        },
+        "Description": "Formatted Value - 0.6",
+      },
+      Object {
+        "Data": Object {
+          "display": "8%",
+          "type": "formattedValue",
+          "value": 0.08,
+        },
+        "Description": "Formatted Value - 0.08",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`TableLogAssertion shallow renders the table log HTML structure 1`] = `
+<TableBaseAssertion
+  columns={
+    Array [
+      Object {
+        "cellRendererFramework": [Function],
+        "comparator": [Function],
+        "field": "age",
+        "filterParams": Object {
+          "excelMode": "windows",
+        },
+        "headerName": "age",
+      },
+      Object {
+        "cellRendererFramework": [Function],
+        "comparator": [Function],
+        "field": "name",
+        "filterParams": Object {
+          "excelMode": "windows",
+        },
+        "headerName": "name",
+      },
+    ]
+  }
+  rows={
+    Array [
+      Object {
+        "age": 32,
+        "name": "Bob",
+      },
+      Object {
+        "age": 24,
+        "name": "Susan",
+      },
+      Object {
+        "age": 67,
+        "name": "Rick",
+      },
+    ]
+  }
+/>
+`;

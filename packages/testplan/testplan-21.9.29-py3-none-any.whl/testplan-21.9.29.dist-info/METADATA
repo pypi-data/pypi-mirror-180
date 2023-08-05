@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: testplan
+Version: 21.9.29
+Summary: Testplan testing framework
+Home-page: https://github.com/morganstanley/testplan
+Author: 
+Author-email: eti-testplan@morganstanley.com
+Requires-Python: >=3.7
+License-File: LICENSE.md
+License-File: NOTICE.rst
+Requires-Dist: sphinx (<2)
+Requires-Dist: sphinx-rtd-theme
+Requires-Dist: setuptools
+Requires-Dist: pytest
+Requires-Dist: py
+Requires-Dist: psutil
+Requires-Dist: schema
+Requires-Dist: pytz
+Requires-Dist: lxml
+Requires-Dist: python-dateutil
+Requires-Dist: reportlab
+Requires-Dist: marshmallow (==3.11.1)
+Requires-Dist: termcolor
+Requires-Dist: colorama
+Requires-Dist: pyzmq
+Requires-Dist: terminaltables
+Requires-Dist: pyparsing
+Requires-Dist: cycler
+Requires-Dist: requests (>=2.4.3)
+Requires-Dist: flask (>2.0.0)
+Requires-Dist: werkzeug (<2.2.0,>2.0.0)
+Requires-Dist: flask-restx
+Requires-Dist: cheroot
+Requires-Dist: boltons
+Requires-Dist: validators (==0.14.0)
+Requires-Dist: Pillow
+Requires-Dist: plotly
+Requires-Dist: rpyc
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: memoization
+Requires-Dist: coverage
+

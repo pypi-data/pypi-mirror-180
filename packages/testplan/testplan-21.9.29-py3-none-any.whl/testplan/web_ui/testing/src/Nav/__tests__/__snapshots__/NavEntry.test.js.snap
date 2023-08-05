@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavEntry shallow renders the correct HTML structure 1`] = `
+<div
+  className="d-flex justify-content-between align-items-center"
+  style={
+    Object {
+      "height": "1.5em",
+      "userSelect": "none",
+    }
+  }
+>
+  <Badge
+    className="entryIcon_9gb3m5-o_O-passedBadge_1isorc2-o_O-badge_1nusemj"
+    color="secondary"
+    pill={true}
+    tag="span"
+    title="testplan"
+  >
+    TP
+  </Badge>
+  <div
+    className="entryName_1ocij4b-o_O-passed_1kh4m98"
+    title="entry description - passed"
+  >
+    entry name
+  </div>
+  <div
+    className="entryIcons_jqmit5"
+  >
+    <i
+      className="entryIcon_9gb3m5"
+      title="passed/failed testcases"
+    >
+      <span
+        className="passed_1kh4m98"
+      >
+        0
+      </span>
+      /
+      <span
+        className="failed_11es5k7"
+      >
+        0
+      </span>
+    </i>
+  </div>
+</div>
+`;
+
+exports[`NavEntry when prop status="failed" name div and Badge have correct styles 1`] = `
+<div
+  className="d-flex justify-content-between align-items-center"
+  style={
+    Object {
+      "height": "1.5em",
+      "userSelect": "none",
+    }
+  }
+>
+  <Badge
+    className="entryIcon_9gb3m5-o_O-failedBadge_1i8mqax-o_O-badge_1nusemj"
+    color="secondary"
+    pill={true}
+    tag="span"
+    title="testplan"
+  >
+    TP
+  </Badge>
+  <div
+    className="entryName_1ocij4b-o_O-failed_11es5k7"
+    title="entry description - failed"
+  >
+    entry name
+  </div>
+  <div
+    className="entryIcons_jqmit5"
+  >
+    <i
+      className="entryIcon_9gb3m5"
+      title="passed/failed testcases"
+    >
+      <span
+        className="passed_1kh4m98"
+      >
+        0
+      </span>
+      /
+      <span
+        className="failed_11es5k7"
+      >
+        0
+      </span>
+    </i>
+  </div>
+</div>
+`;
+
+exports[`NavEntry when prop status="xfail" name div and Badge have correct styles 1`] = `
+<div
+  className="d-flex justify-content-between align-items-center"
+  style={
+    Object {
+      "height": "1.5em",
+      "userSelect": "none",
+    }
+  }
+>
+  <Badge
+    className="entryIcon_9gb3m5-o_O-unstableBadge_1e6avok-o_O-badge_1nusemj"
+    color="secondary"
+    pill={true}
+    tag="span"
+    title="testplan"
+  >
+    TP
+  </Badge>
+  <div
+    className="entryName_1ocij4b-o_O-unstable_17i2uy2"
+    title="entry description - xfail"
+  >
+    entry name
+  </div>
+  <div
+    className="entryIcons_jqmit5"
+  >
+    <i
+      className="entryIcon_9gb3m5"
+      title="passed/failed testcases"
+    >
+      <span
+        className="passed_1kh4m98"
+      >
+        0
+      </span>
+      /
+      <span
+        className="failed_11es5k7"
+      >
+        0
+      </span>
+    </i>
+  </div>
+</div>
+`;
