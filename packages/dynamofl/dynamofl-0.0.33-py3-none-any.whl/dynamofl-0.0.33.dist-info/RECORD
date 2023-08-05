@@ -1,0 +1,10 @@
+dynamofl/Base.py,sha256=5REurvohgd5NboRK2_UrNbkLolnxBgoUzimTBgU6ng4,1305
+dynamofl/Datasource.py,sha256=rkSN6XY40jokyWQklEVTi2at163v05BYFdvLbd_xLyQ,921
+dynamofl/Project.py,sha256=ft5AcV0-rRKMWxZJJW2bmJJ3HfyStACK1DnMvUg41SI,5552
+dynamofl/__init__.py,sha256=qJLEe3btzkRPov_wyNkfHbA53WzgJLaJQFIiPfyJtYU,25
+dynamofl/src.py,sha256=JHS9WOSaZyhzyV_hw1-Vnuwk9B-_FKR142Bg7cajBDo,13524
+dynamofl/worker.py,sha256=dkMeL-fj1RyOW-drxcN-DhJZQo7HexIzRZLGD1VOBMA,2567
+dynamofl-0.0.33.dist-info/METADATA,sha256=U8lGEyKfpF5KbTvkVEjHSGu_oKteZOIozqLmthb9uls,208
+dynamofl-0.0.33.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dynamofl-0.0.33.dist-info/top_level.txt,sha256=lt0ffkYG01BqMj4BuBHKh4shgq0GcDd0gWMOgTtV73s,9
+dynamofl-0.0.33.dist-info/RECORD,,
