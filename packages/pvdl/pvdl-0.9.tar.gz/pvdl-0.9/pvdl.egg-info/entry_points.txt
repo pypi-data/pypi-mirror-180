@@ -1,0 +1,2 @@
+[console_scripts]
+pvdl = pvdl.pvdl:main
