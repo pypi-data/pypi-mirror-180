@@ -1,0 +1,10 @@
+LICENSE
+LICENSE.txt
+README.md
+setup.py
+bin/phatgpt
+phatgpt.egg-info/PKG-INFO
+phatgpt.egg-info/SOURCES.txt
+phatgpt.egg-info/dependency_links.txt
+phatgpt.egg-info/requires.txt
+phatgpt.egg-info/top_level.txt
