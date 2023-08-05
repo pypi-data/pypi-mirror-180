@@ -1,0 +1,9 @@
+papermerge_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+papermerge_cli/main.py,sha256=djQVlZrV34qv9TjMJEihK_1ZekDlzcnzpWM1e1EohrY,4293
+papermerge_cli/rest.py,sha256=AJPI1gNzT1R9XozZqHXj0jUH5nlHlMRUSEF7R0PwsqA,9526
+papermerge_cli/utils.py,sha256=GaTNTOIKZv83iGpRvzRDV3jahY-yNsJxqvRE19b5oZI,76
+papermerge_cli-0.2.0.dist-info/entry_points.txt,sha256=dzIoo87SgX6vCUib9RoQFVv6XYmKu4Al-rN40uVIRoA,58
+papermerge_cli-0.2.0.dist-info/LICENSE,sha256=QS3et3AAqhcV7pmQgUo2TAw__BlbVuqElqp1_EIWQPs,10231
+papermerge_cli-0.2.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+papermerge_cli-0.2.0.dist-info/METADATA,sha256=uzOC0fzbgZqyGAs15tmrON_0OF_TfO443B-NO1xhkaQ,3297
+papermerge_cli-0.2.0.dist-info/RECORD,,
