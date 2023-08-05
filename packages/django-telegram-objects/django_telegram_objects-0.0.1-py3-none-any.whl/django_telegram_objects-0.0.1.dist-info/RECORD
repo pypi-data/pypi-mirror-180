@@ -1,0 +1,15 @@
+telegram_objects/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+telegram_objects/admin.py,sha256=XDQcznHaTbQYGhQLdfjyKdawKoS1hE0E7aNfxEKxSls,1035
+telegram_objects/api.py,sha256=6THg2mBVQrTAGfBaKBH5BACOC6KfyMGRstefWqOR1k4,8798
+telegram_objects/help_text.py,sha256=MmzQ_mK_UCaUDux1IRIC2ijNIlKQlZk-dbA0_BXl4Fg,106398
+telegram_objects/models.py,sha256=xtxNbhNJFxhOCFX_1LJ4vxOPBhy1YOf_nsFgRTVIV8s,174479
+telegram_objects/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+telegram_objects/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+telegram_objects/management/commands/get_updates.py,sha256=bYknqpaiW_LDwy5g40MC5xDaYbuTs49RSdUpzdEoVWE,722
+telegram_objects/migrations/0001_initial.py,sha256=mnucOgkMO7qnoB78PPlxqKLGrO6xK2NHJ4EOV_01MwA,203505
+telegram_objects/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_telegram_objects-0.0.1.dist-info/LICENSE,sha256=ZxWB7zVcOG11Qo-OQTqgxJEJc4tCLsJlMoTs2ISmORg,1505
+django_telegram_objects-0.0.1.dist-info/METADATA,sha256=esrV6NDt-eY7eijjEfsXPVB2HQNgZW6ZhBort_ne43o,3910
+django_telegram_objects-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+django_telegram_objects-0.0.1.dist-info/top_level.txt,sha256=CP2kj0MjCO_ohqJRYPE6H4OVpiB8qsCnhXkFAA3qHnc,17
+django_telegram_objects-0.0.1.dist-info/RECORD,,
