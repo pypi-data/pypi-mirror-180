@@ -1,0 +1,10 @@
+README.md
+setup.py
+ggspy/__init__.py
+ggspy/__version__.py
+ggspy/ggs.py
+ggspy.egg-info/PKG-INFO
+ggspy.egg-info/SOURCES.txt
+ggspy.egg-info/dependency_links.txt
+ggspy.egg-info/requires.txt
+ggspy.egg-info/top_level.txt
