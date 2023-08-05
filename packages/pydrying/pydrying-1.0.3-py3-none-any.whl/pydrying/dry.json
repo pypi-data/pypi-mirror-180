@@ -1,0 +1,118 @@
+{
+    "thin_layer": {
+        "material": {},
+        "air": {},
+        "m": {
+            "label": "shape",
+            "default": 0,
+            "unit": ""
+        },
+        "n": {
+            "label": "mesh size",
+            "unit": "",
+            "default": 100
+        },
+        "L": {
+            "label": "caracteristic length",
+            "unit": "m",
+            "default": 1e-2
+        },
+        "h": {
+            "label": "heat transfer coefficient",
+            "unit": "W/m2/K",
+            "default": 25
+        },
+        "tmax": {
+            "label": "drying time",
+            "default": 3600,
+            "unit": "s"
+        },
+        "t0": {
+            "label": "start time",
+            "default": 0,
+            "unit": "s"
+        },
+        "t_eval": {
+            "label": "points of evaluation of solution",
+            "default": []
+        },
+        "res": {
+            "T": {
+                "label": "material temperature",
+                "unit": "°C",
+                "default": []
+            },
+            "X": {
+                "label": "moisture content",
+                "unit": "dry basis",
+                "default": []
+            },
+            "t": {
+                "label": "drying time",
+                "unit": "s",
+                "default": []
+            }
+        }
+    },
+    "air": {
+        "pvsat": {
+            "label": "partial vapor pressure",
+            "default": "null",
+            "unit": "Pa"
+        },
+        "RH": {
+            "label": "relative humidity",
+            "default": 1e-3,
+            "unit": ""
+        },
+        "T": {
+            "label": "temperature",
+            "default": 100,
+            "unit": "degC"
+        }
+    },
+    "material": {
+        "rhos": {
+            "label": "density",
+            "default": 1000,
+            "unit": "kg/m3",
+            "callable": false
+        },
+        "Tinit": {
+            "label": "initila temperature",
+            "default": 20,
+            "unit": "degC",
+            "callable": false
+        },
+        "Xinit": {
+            "label": "initila moisture",
+            "default": 1,
+            "unit": "db",
+            "callable": false
+        },
+        "Cps": {
+            "label": "specific heat",
+            "default": 1000,
+            "unit": "J/kg/K",
+            "callable": false
+        },
+        "Lambda": {
+            "label": "thermal conductivity",
+            "unit": "W/m/K",
+            "default": null,
+            "callable": true
+        },
+        "Diff": {
+            "label": "moisture diffusion",
+            "unit": "m2/s",
+            "default": null,
+            "callable": true
+        },
+        "aw": {
+            "label": "water activity",
+            "unit": "",
+            "default": null,
+            "callable": true
+        }
+    }
+}
