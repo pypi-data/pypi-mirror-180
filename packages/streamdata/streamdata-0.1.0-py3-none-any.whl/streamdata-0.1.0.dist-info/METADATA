@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: streamdata
+Version: 0.1.0
+Summary: This package provides sreaming data of machine. streamdata package is designed to get streaming information of machine. Information includes machine information, Core information, RAM information, CPU frequency information, CPU utilization information and battery status information for the current time. we are calling this as streaming data because we are printing the information after every mentioned time interval by user.
+Author: Sayali shelke
+Author-email: Sayali.shelke@ilink-systems.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: License.txt
+
