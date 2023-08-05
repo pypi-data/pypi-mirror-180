@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+xfpip/__init__.py
+xfpip/wp.py
+xfpip.egg-info/PKG-INFO
+xfpip.egg-info/SOURCES.txt
+xfpip.egg-info/dependency_links.txt
+xfpip.egg-info/requires.txt
+xfpip.egg-info/top_level.txt
+其他/pip开源包制作.md
+其他/模拟用户.py

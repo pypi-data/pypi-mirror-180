@@ -1,0 +1,5 @@
+dist
+xfpip.egg-info
+build
+.idea
+其他/.venv
