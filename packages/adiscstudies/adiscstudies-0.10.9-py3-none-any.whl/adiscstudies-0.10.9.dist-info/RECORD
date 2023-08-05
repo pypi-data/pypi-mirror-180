@@ -1,0 +1,17 @@
+adiscstudies/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+adiscstudies/entities.tsv,sha256=tnHNLBIQWfKCvFqEg0TXxxkE-UdwyT840FunqIR-SCQ,18515
+adiscstudies/fields.tsv,sha256=kuqOcpMhgDbeu8vNr2WoBIL7O6BzLyxuHDrhi2_xAks,10117
+adiscstudies/properties.tsv,sha256=A6XGBPWcq22Prbp863ndkam7rccOd3hyowpTM13LgyA,8984
+adiscstudies/schema.owl,sha256=4PWs9OqB-V5KlrcAnDPJhKNUO0pF5OieFqnz-vz7-eM,123321
+adiscstudies/schema.sql,sha256=6ni7ZPpVL6ZAJq1ydQagj3BitW9S7lBsk7qfSVEfl0Y,95918
+adiscstudies/schema_with_labels.sql,sha256=P7h8wadWdLFxWODhgFsPMGv--uq1nfxCvt3TLZq3EII,96922
+adiscstudies/tables.tsv,sha256=Uklbice2SgS4XIXkWnAGVRj7JeEJZPGbqm2J66PBPzY,2800
+adiscstudies/values.tsv,sha256=ctU7w9ytjwvde8yi3r6mBeC7bU1_WDdShMko3F_yu9k,3914
+adiscstudies/verbalizations.txt.jinja,sha256=WtgetM1nn92s3qW9Auo3sBNYq1mlXyzyT0i8dt21sG0,4680
+adiscstudies/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+adiscstudies/scripts/adiscstudies.py,sha256=E2241KUcrpB03Qb588oIEwIiRCH-xO6QYjz4EV4pa-A,341
+adiscstudies-0.10.9.dist-info/METADATA,sha256=aYkECpJK_IxLg_9Rp6VDiCNA--ebwuAVx7LZKmd1R7U,3505
+adiscstudies-0.10.9.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+adiscstudies-0.10.9.dist-info/entry_points.txt,sha256=kaK4SiHc_ixrnt_z5LrUoo4o2PSpysmagRb6ng5IJPw,80
+adiscstudies-0.10.9.dist-info/top_level.txt,sha256=IKqwI3yNI5PG5tVDzHzZn4ZYy3kjmQXHgnuy4YGFm7g,13
+adiscstudies-0.10.9.dist-info/RECORD,,
