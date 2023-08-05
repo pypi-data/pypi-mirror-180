@@ -1,0 +1,3 @@
+requests
+testops-api>=1.0.2
+jsonpickle
