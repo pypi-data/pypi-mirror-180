@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: venpy
+Version: 0.2.3
+Summary: Python utilities that Venky likes
+Project-URL: Homepage, https://github.com/indigoviolet/venpy
+Author-email: Venky Iyer <indigoviolet@gmail.com>
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.8
+Requires-Dist: snoop
+Requires-Dist: typing-extensions
+Requires-Dist: wrapt
+Description-Content-Type: text/markdown
+
+TODO: see README.org for now
