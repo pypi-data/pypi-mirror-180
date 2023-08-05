@@ -1,0 +1,34 @@
+{
+    "unit": "LearnReadOrientationModel",
+    "tags": [
+        "snv_calling"
+    ],
+    "executor": "gatk",
+    "sub_executor": "LearnReadOrientationModel",
+    "inputs": {
+        "f1r2_files": ""
+    },
+    "outputs": {
+        "artifact_prior_table": "${Tumor}_lrom.tar.gz"
+    },
+    "parameters": [
+        {
+            "name": "f1r2_files",
+            "desc": [
+                "One or more .tar.gz containing outputs of CollectF1R2Counts  This argument must be",
+                "specified at least once. Required."
+            ],
+            "flag": "-I",
+            "long_flag": "--input",
+            "type": "mflist",
+            "required": true
+        },
+        {
+            "name": "artifact_prior_table",
+            "desc": "tar.gz of artifact prior tables  Required.",
+            "flag": "-O",
+            "long_flag": "--output",
+            "required": true
+        }
+    ]
+}

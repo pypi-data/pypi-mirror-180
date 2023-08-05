@@ -1,0 +1,56 @@
+{
+    "unit": "FilterMutectCalls",
+    "tags": [
+        "snv_calling"
+    ],
+    "executor": "gatk",
+    "sub_executor": "FilterMutectCalls",
+    "inputs": {
+        "variant_vcf_file": "",
+        "contamination_table_file": "",
+        "ob_priors": "",
+        "reference": "${env:hg38_fa}"
+    },
+    "outputs": {
+        "filtered_vcf_file": "${Tumor}.filter.vcf.gz"
+    },
+    
+    "parameters": [
+        {
+            "name": "filtered_vcf_file",
+            "desc": "The output filtered VCF file",
+            "flag": "-O",
+            "long_flag": "--output"
+        },
+        {
+            "name": "reference",
+            "desc": "Reference sequence file",
+            "flag": "-R",
+            "long_flag": "--reference",
+            "required": true
+        },
+        {
+            "name": "variant_vcf_file",
+            "desc": "A VCF file containing variants",
+            "flag": "-V",
+            "long_flag": "--variant",
+            "required":true
+        },
+        {
+            "name": "contamination_table_file",
+            "desc": "Tables containing contamination information.  This argument may be specified 0 or more times",
+            "long_flag": "--contamination-table"
+        },
+        {
+            "name": "ob_priors",
+            "desc": [
+                "One or more .tar.gz files containing tables of prior artifact probabilities for the read",
+                "orientation filter model, one table per tumor sample  This argument may be specified 0 or",
+                "more times. Default value: null."
+            ],
+            "flag": "--ob-priors",
+            "long_flag": "--orientation-bias-artifact-priors",
+            "type": "mflist"
+        }
+    ]
+}

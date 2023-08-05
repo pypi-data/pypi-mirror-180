@@ -1,0 +1,23 @@
+{
+    "unit": "cat",
+    "tags": [
+        "sys"
+    ],
+    "executor": "cat",
+    "inputs": {
+        "targets": []
+    },
+    "outputs": {
+        "dest": "${TaskName}.out"
+    },
+    "parameters": [
+        {
+            "name": "targets",
+            "type": "list"
+        },
+        {
+            "name": "dest",
+            "flag": ">"
+        }
+    ]
+}

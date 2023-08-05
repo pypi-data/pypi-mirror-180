@@ -1,0 +1,57 @@
+{
+    "unit": "bwamem2",
+    "tags": [
+        "snv_calling"
+    ],
+    "executor": "bwamem2",
+    "sub_executor": "mem",
+    "desc": "run `bwa mem` to get help doc",
+    "inputs": {
+        "in1_fq": "",
+        "in2_fq": "",
+        "idxbase": ""
+    },
+    "outputs": {
+        "samfile": "${SampleID}.raw.sam"
+    },
+    "parameters": [
+        {
+            "name": "verbosity_level",
+            "desc": "verbosity level: 1=error, 2=warning, 3=message, 4+=debugging [3]",
+            "flag": "-v",
+            "type": "int",
+            "default": 3
+        },
+        {
+            "name": "num_threads",
+            "desc": "number of threads [1]",
+            "flag": "-t",
+            "type": "int",
+            "default": 1
+        },
+        {
+            "name": "use_soft_clipping",
+            "desc": "use soft clipping for supplementary alignments",
+            "flag": "-Y",
+            "type": "bool"
+        },
+        {
+            "name": "read_group_header",
+            "desc": "read group header line such as '@RG\tID:foo\tSM:bar' [null]",
+            "flag": "-R"
+        },
+        {
+            "name": "idxbase"
+        },
+        {
+            "name": "in1_fq"
+        },
+        {
+            "name": "in2_fq"
+        },
+        {
+            "name": "samfile",
+            "flag": ">"
+        }
+    ]
+}

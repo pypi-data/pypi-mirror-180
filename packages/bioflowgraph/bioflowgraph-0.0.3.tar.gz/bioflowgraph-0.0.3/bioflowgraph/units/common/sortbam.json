@@ -1,0 +1,80 @@
+{
+    "unit": "sortbam",
+    "tags": [
+        "snv_calling"
+    ],
+    "executor": "gatk",
+    "sub_executor": "SortSam",
+    "inputs": {
+        "input_file": "",
+        "temp_dir": "${OutputDir}/tmp_${TaskName}"
+    },
+    "outputs": {
+        "output_file": "${TaskName}.sort.bam"
+    },
+    "parameters": [
+        {
+            "name": "input_file",
+            "desc": "Input BAM or SAM file to sort.  Required.",
+            "flag": "-I",
+            "long_flag": "--INPUT",
+            "required": true
+        },
+        {
+            "name": "output_file",
+            "desc": "Sorted BAM or SAM output file.  Required.",
+            "flag": "-O",
+            "long_flag": "--OUTPUT",
+            "required": true
+        },
+        {
+            "name": "sort_order",
+            "desc": [
+                "Sort order of output file.   Required. queryname (Sorts according to the readname. This",
+                "will place read-pairs and other derived reads (secondary and supplementary) adjacent to",
+                "each other. Note that the readnames are compared lexicographically, even though they may",
+                "include numbers. In paired reads, Read1 sorts before Read2.)",
+                "coordinate (Sorts primarily according to the SEQ and POS fields of the record. The",
+                "sequence will sorted according to the order in the sequence dictionary, taken from from",
+                "the header of the file. Within each reference sequence, the reads are sorted by the",
+                "position. Unmapped reads whose mates are mapped will be placed near their mates. Unmapped",
+                "read-pairs are placed after all the mapped reads and their mates.)",
+                "duplicate (Sorts the reads so that duplicates reads are adjacent. Required that the",
+                "mate-cigar (MC) tag is present. The resulting will be sorted by library, unclipped 5-prime",
+                "position, orientation, and mate's unclipped 5-prime position.)"
+            ],
+            "flag": "-SO",
+            "long_flag": "--SORT_ORDER",
+            "required": true
+        },
+        {
+            "name": "temp_dir",
+            "desc": [
+                "One or more directories with space available to be used by this program for temporary",
+                "storage of working files  This argument may be specified 0 or more times. Default value:",
+                "null."
+            ],
+            "long_flag": "--TMP_DIR",
+            "default": null
+            
+        },
+        {
+            "name": "create_index",
+            "desc":[
+                "Whether to create an index when writing VCF or coordinate sorted BAM output.  Default",
+                "value: false. Possible values: {true, false}"
+            ],
+            "long_flag": "--CREATE_INDEX",
+            "default": "false"
+        },
+        {
+            "name": "create_md5_file",
+            "desc": [
+                "Whether to create an MD5 digest for any BAM or FASTQ files created.    Default value:",
+                "false. Possible values: {true, false}"
+            ],
+            "long_flag": "--CREATE_MD5_FILE",
+            "default": "false"
+        }
+    ]
+}

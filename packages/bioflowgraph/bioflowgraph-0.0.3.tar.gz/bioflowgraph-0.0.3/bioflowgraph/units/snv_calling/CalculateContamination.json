@@ -1,0 +1,38 @@
+{
+    "unit": "CalculateContamination",
+    "tags": [
+        "snv_calling"
+    ],
+    "executor": "gatk",
+    "sub_executor": "CalculateContamination",
+    "inputs": {
+        "input_table": "",
+        "matched_normal_input_table": ""
+    },
+    "outputs": {
+        "output_table": "${Tumor}_contamination.table"
+    },
+    "parameters": [
+        {
+            "name": "input_table",
+            "desc": "The input table",
+            "flag": "-I",
+            "long_flag": "--input",
+            "required": true
+        },
+        {
+            "name": "output_table",
+            "desc": "The output table",
+            "flag": "-O",
+            "long_flag": "--output",
+            "required": true
+        },
+        {
+            "name": "matched_normal_input_table",
+            "desc": "The matched normal input table",
+            "flag": "-matched",
+            "long_flag": "--matched-normal",
+            "default": null
+        }
+    ]
+}

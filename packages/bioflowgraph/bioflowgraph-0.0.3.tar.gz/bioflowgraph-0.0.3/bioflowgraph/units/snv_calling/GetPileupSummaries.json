@@ -1,0 +1,48 @@
+{
+    "unit": "GetPileupSummaries",
+    "tags": [
+        "snv_calling"
+    ],
+    "executor": "gatk",
+    "sub_executor": "GetPileupSummaries",
+    "inputs": {
+        "input_files": "",
+        "variant_vcf_file": "${env:hg38_vcf_gz}",
+        "genomic_intervals": "${env:hg38_vcf_gz}"
+    },
+    "outputs": {
+        "table_file": "${SampleID}_GetPileupSummaries.table"
+    },
+    "parameters": [
+        {
+            "name": "input_files",
+            "desc": "BAM/SAM/CRAM file containing reads  This argument must be specified at least once.",
+            "flag": "-I",
+            "long_flag": "--input",
+            "type": "mflist",
+            "required": true
+        },
+        {
+            "name": "variant_vcf_file",
+            "desc": "A VCF file containing variants and allele frequencies",
+            "flag": "-V",
+            "long_flag": "--variant",
+            "required": true
+        },
+        {
+            "name": "genomic_intervals",
+            "desc": "One or more genomic intervals over which to operate  This argument must be specified at least once",
+            "flag": "-L",
+            "long_flag": "--intervals",
+            "type": "mflist",
+            "required": true
+        },
+        {
+            "name": "table_file",
+            "desc": "The output table",
+            "flag": "-O",
+            "long_flag": "--output",
+            "required": true
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "unit": "annovar",
+    "tags": [
+        "snv_calling"
+    ],
+    "executor": "perl",
+    "sub_executor": "${env:annovar}/table_annovar.pl",
+    "inputs": {
+        "variant_vcf_file": "",
+        "database": ""
+    },
+    "outputs": {
+        
+    },
+    "parameters": [
+        {
+            "name": "variant_vcf_file",
+            "desc": "query file"
+        },
+        {
+            "name": "database",
+            "desc": "database location"
+        },
+        {
+            "name": "buildver",
+            "desc": "genome build version (default: hg18)",
+            "long_flag": "--buildver",
+            "default": "hg18"
+        },
+        {
+            "name": "output_prefix",
+            "desc": "output file name prefix",
+            "long_flag": "--outfile"
+        },
+        {
+            "name": "remove",
+            "desc": [
+                "remove all temporary files. By default, all temporary files will",
+                "be kept for user inspection, but this will easily clutter the",
+                "directory."
+            ],
+            "flag": "--remove",
+            "type": "bool"
+        },
+        {
+            "name": "protocol",
+            "desc": [
+                "comma-delimited string specifying annotation protocol. These",
+                "strings typically represent database names in ANNOVAR."
+            ],
+            "flag": "--protocol"
+        },
+        {
+            "name": "operation",
+            "desc": [
+                "comma-delimited string specifying type of operation. These",
+                "strings can be g (gene), r (region) or f (filter)."
+            ],
+            "flag": "--operation"
+        },
+        {
+            "name": "nastring",
+            "desc": [
+                "string to display when a score is not available. By default,",
+                "empty string is printed in the output file."
+            ],
+            "flag": "--nastring"
+        },
+        {
+            "name": "vcfinput",
+            "desc": [
+                "specify that input is in VCF format and output will be in VCF",
+                "format. if you want to generate a tab-delimited output or",
+                "comma-delimited output file, you must use convert2annovar to",
+                "generate an ANNOVAR input file first."
+            ],
+            "flag": "--vcfinput",
+            "type": "bool"
+        },
+        {
+            "name": "polish",
+            "desc": [
+                "polish the protein notation for indels (such as p.G12Vfs*2) by",
+                "re-calculating the protein sequence after a mutation is",
+                "introduced in coding_change.pl"
+            ],
+            "flag": "--polish",
+            "type": "bool"
+        }
+    ]
+}

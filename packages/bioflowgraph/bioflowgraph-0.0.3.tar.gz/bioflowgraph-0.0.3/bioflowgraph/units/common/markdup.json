@@ -1,0 +1,80 @@
+{
+    "unit": "markdup",
+    "tags": [
+        "snv_calling"
+    ],
+    "executor": "gatk",
+    "sub_executor": "MarkDuplicates",
+    "inputs": {
+        "input_file": ""
+    },
+    "outputs": {
+        "output_file": "${SampleID}.marked_duplicates.bam",
+        "metrics_file": "${SampleID}.marked_dup_metrics.txt"
+    },
+    "parameters": [
+        {
+            "name": "input_file",
+            "desc": "One or more input SAM or BAM files to analyze. Must be coordinate sorted.  This argument must be specified at least once. Required.",
+            "flag": "-I",
+            "long_flag": "--INPUT",
+            "required": true
+        },
+        {
+            "name": "output_file",
+            "desc": "The output file to write marked records to  Required.",
+            "flag": "-O",
+            "long_flag": "--OUTPUT",
+            "required": true
+        },
+        {
+            "name": "metrics_file",
+            "desc": "File to write duplication metrics to  Required.",
+            "flag": "-M",
+            "long_flag": "--METRICS_FILE",
+            "required": true
+        },
+        {
+            "name": "assume_sort_order",
+            "desc": [
+                "If not null, assume that the input file has this order even if the header says otherwise.",
+                "Default value: null. Possible values: {unsorted, queryname, coordinate, duplicate,",
+                "unknown}  Cannot be used in conjunction with argument(s) ASSUME_SORTED (AS)"
+            ],
+            "long_flag": "--ASSUME_SORT_ORDER",
+            "default": null
+        },
+        {
+            "name": "validation_stringency",
+            "desc": [
+                "Validation stringency for all SAM files read by this program.  Setting stringency to",
+                "SILENT can improve performance when processing a BAM file in which variable-length data",
+                "(read, qualities, tags) do not otherwise need to be decoded.  Default value: STRICT.",
+                "Possible values: {STRICT, LENIENT, SILENT}"
+            ],
+            "long_flag": "--VALIDATION_STRINGENCY",
+            "default": "STRICT"
+        },
+        {
+            "name": "optical_duplicate_pixel_distance",
+            "desc": [
+                "The maximum offset between two duplicate clusters in order to consider them optical",
+                "duplicates. The default is appropriate for unpatterned versions of the Illumina platform.",
+                "For the patterned flowcell models, 2500 is moreappropriate. For other platforms and",
+                "models, users should experiment to find what works best.  Default value: 100."
+            ],
+            "flag": "--OPTICAL_DUPLICATE_PIXEL_DISTANCE",
+            "type": "int",
+            "default": 100
+        },
+        {
+            "name": "create_md5_file",
+            "desc": [
+                "Whether to create an MD5 digest for any BAM or FASTQ files created.    Default value:",
+                "false. Possible values: {true, false}"
+            ],
+            "flag": "--CREATE_MD5_FILE",
+            "default": "false"
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "unit": "mutect2",
+    "tags": [
+        "snv_calling"
+    ],
+    "executor": "gatk",
+    "sub_executor": "Mutect2",
+    "inputs": {
+        "input_files": [],
+        "reference": "${env:hg38_fa}"
+    },
+    "outputs": {
+        "variant_file": "${TaskName}_tumor.raw.vcf.gz",
+        "f1r2_file": "${TaskName}_tumor.f1r2.tar.gz"
+    },
+    "parameters": [
+        {
+            "name": "input_files",
+            "desc": "BAM/SAM/CRAM file containing reads  This argument must be specified at least once.",
+            "flag": "-I",
+            "long_flag": "--input",
+            "type": "mflist",
+            "required": true
+        },
+        {
+            "name": "variant_file",
+            "desc": "File to which variants should be written",
+            "flag": "-O",
+            "long_flag": "--output",
+            "required": true
+        },
+        {
+            "name": "reference",
+            "desc": "Reference sequence file  Required.",
+            "flag": "-R",
+            "long_flag": "--reference",
+            "required": true
+        },
+        {
+            "name": "f1r2_file",
+            "desc": "If specified, collect F1R2 counts and output files into this tar.gz file  Default value: null.",
+            "long_flag": "--f1r2-tar-gz",
+            "default": null
+        },
+        {
+            "name": "tumor_sample_name",
+            "desc": "BAM sample name of tumor.  May be URL-encoded as output by GetSampleName with -encode argument.  Default value: null.",
+            "flag": "-tumor",
+            "long_flag": "--tumor-sample",
+            "default": null
+        },
+        {
+            "name": "normal_sample_name",
+            "desc": [
+                "BAM sample name of normal(s), if any.  May be URL-encoded as output by GetSampleName with",
+                "-encode argument.  This argument may be specified 0 or more times. Default value: null."
+            ],
+            "flag": "-normal",
+            "long_flag": "--normal-sample",
+            "default": null
+        },
+        {
+            "name": "native_pair_hmm_threads",
+            "desc": "How many threads should a native pairHMM implementation use  Default value: 4.",
+            "flag": "--native-pair-hmm-threads",
+            "type": "int",
+            "default": 4
+        }
+    ]
+}

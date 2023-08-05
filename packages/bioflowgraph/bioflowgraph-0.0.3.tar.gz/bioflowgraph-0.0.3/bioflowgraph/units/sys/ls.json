@@ -1,0 +1,32 @@
+{
+    "unit": "ls",
+    "tags": [
+        "sys"
+    ],
+    "executor": "ls",
+    "inputs": {
+        "target": ""
+    },
+    "outputs": {
+        "dest": "${TaskName}.out"
+    },
+    "parameters": [
+        {
+            "name": "use_long_listing",
+            "type": "bool",
+            "flag": "-l",
+            "default": false
+        },
+        {
+            "name": "target"
+        },
+        {
+            "name": "dest",
+            "flag": ">"
+        },
+        {
+            "name": "stderr",
+            "flag": "2>"
+        }
+    ]
+}

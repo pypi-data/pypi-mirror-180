@@ -1,0 +1,21 @@
+{
+    "unit": "cp",
+    "tags": [
+        "sys"
+    ],
+    "executor": "cp",
+    "inputs": {
+        "source": []
+    },
+    "outputs": {
+        "dest": "${TaskName}.out"
+    },
+    "parameters": [
+        {
+            "name": "source"
+        },
+        {
+            "name": "dest"
+        }
+    ]
+}

@@ -1,0 +1,108 @@
+syntax = "proto3";
+
+message GenericGrpcResponse {
+    int32   errcode     = 1; // 启动状态：SUCCESS (0), FAILED (1)
+    string  message     = 2; // 错误消息，默认为 'ok'
+    string  data        = 3;
+}
+
+message GenericGrpcRequest {
+    string data = 1;
+}
+
+service TaskGraph {
+    /* 基于声明文件运行一个任务图
+    
+    request.data: 
+    ```
+    {
+        # 任务图的配置
+        graph_config: SARecord
+        # 启动参数，传递给 TaskPolling 实例
+        running_params: SARecord
+        restore: bool
+    }
+    ```
+
+    response.data
+    ```
+    {
+        status: int
+        graph_name: string
+    }
+    ```
+    */
+    rpc RunTaskGraph(GenericGrpcRequest) returns (GenericGrpcResponse) {}
+
+
+    /* 查询该服务器上所有的任务图
+    request.data: `None`
+
+    response.data: `TaskGraphInfo[]`
+    */
+    rpc GetTaskGraphList(GenericGrpcRequest) returns (GenericGrpcResponse) {}
+
+    /* 获取某个任务图的相关信息
+    request.data:
+    ```
+    {
+        graph_name: string
+        keys: string[]
+    }
+    ```
+
+    response.data:
+    ```
+    {
+        key1: any,
+        key2: any,
+        ...
+    }
+    ```
+    */
+    rpc GetTaskGraph(GenericGrpcRequest) returns (GenericGrpcResponse) {}
+
+    /* 取回某个任务的某个结果文件
+    request.data:
+    ```
+    {
+        graph_name: string
+        task_name: string
+        output_key: string
+    }
+    ```
+
+    response.data:
+    ```
+    {
+        type: 'plain' | 'tsv' | 'binary'
+        data: any
+    }
+    ```
+    */
+    rpc GetTaskOutput(GenericGrpcRequest) returns (GenericGrpcResponse) {}
+
+    /* 删除任务图
+    request.data
+    ```
+    {
+        graph_name: string
+    }
+    ```
+
+    response.data
+    ```
+    {
+        errcode: int
+        message: string
+    }
+    ```
+    */
+    rpc DeleteTaskGraph(GenericGrpcRequest) returns (GenericGrpcResponse) {}
+
+    /** 获取压缩包
+    request.data.task: string
+    request.data.keys: string[] 
+    */
+    // rpc GetZipdata(GenericGrpcRequest) returns () {}
+}
