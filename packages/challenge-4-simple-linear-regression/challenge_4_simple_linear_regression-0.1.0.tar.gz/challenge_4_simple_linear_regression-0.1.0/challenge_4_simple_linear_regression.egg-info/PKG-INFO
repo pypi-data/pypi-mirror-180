@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: challenge-4-simple-linear-regression
+Version: 0.1.0
+Summary: Challenge 4 Simple Linear Regression Model
+Home-page: https://github.com/zedki7/challenge_4_simple_linear_regression
+Author: Zakaria BABAOUSMAIL
+Author-email: z.babaousmail@esi-sba.dz
+License: MIT license
+Keywords: challenge_4_simple_linear_regression
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+====================================
+Challenge 4 Simple Linear Regression
+====================================
+
+
+.. image:: https://img.shields.io/pypi/v/challenge_4_simple_linear_regression.svg
+        :target: https://pypi.python.org/pypi/challenge_4_simple_linear_regression
+
+.. image:: https://img.shields.io/travis/zedki7/challenge_4_simple_linear_regression.svg
+        :target: https://travis-ci.com/zedki7/challenge_4_simple_linear_regression
+
+.. image:: https://readthedocs.org/projects/challenge-4-simple-linear-regression/badge/?version=latest
+        :target: https://challenge-4-simple-linear-regression.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+Challenge 4 Simple Linear Regression Model
+
+
+* Free software: MIT license
+* Documentation: https://challenge-4-simple-linear-regression.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2022-12-07)
+------------------
+
+* First release on PyPI.

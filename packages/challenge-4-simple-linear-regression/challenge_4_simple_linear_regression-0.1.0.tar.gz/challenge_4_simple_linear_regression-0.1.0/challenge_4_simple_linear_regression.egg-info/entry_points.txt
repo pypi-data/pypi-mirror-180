@@ -1,0 +1,2 @@
+[console_scripts]
+challenge_4_simple_linear_regression = challenge_4_simple_linear_regression.cli:main
