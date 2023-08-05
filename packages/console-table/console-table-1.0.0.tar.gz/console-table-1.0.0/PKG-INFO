@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: console-table
+Version: 1.0.0
+Summary: Print tables on the console from csv files.
+Author-email: Elozor Bruce <coolcoder613@outlook.com>
+Project-URL: Homepage, https://github.com/coolcoder613eb/table
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# table
+make tables of data in the console
+## example
+test.csv
+```csv
+1,2,3
+2,4,6
+3,6,9
+```
+`C:\Users\User>py -m table test.csv --style 5`  
+output:
+```
+╭───┬───┬───╮
+│ 1 │ 2 │ 3 │
+├───┼───┼───┤
+│ 2 │ 4 │ 6 │
+├───┼───┼───┤
+│ 3 │ 6 │ 9 │
+╰───┴───┴───╯
+```
