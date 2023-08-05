@@ -1,0 +1,4 @@
+tensorflow
+sphinx>=1.8
+sphinxcontrib-apidoc
+sphinxcontrib-bibtex
