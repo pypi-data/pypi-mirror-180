@@ -1,0 +1,44 @@
+
+This program was written by Dan Stromberg <strombrg@gmail.com> while on
+the clock for The University of CA, Irvine, hence it is owned by UCI.
+
+UCI requires a BSD-like license:
+
+   This software is the proprietary property of The Regents of the University
+   of California ("The Regents") Copyright (c) 1993-2006 The Regents of the
+   University of California, Irvine campus. All Rights Reserved.
+
+     * Redistributions of source code must retain the above copyright notice,
+       this list of conditions and the following disclaimer.
+     * Redistributions in binary form must reproduce the above copyright
+       notice, this list of conditions and the following disclaimer in the
+       documentation and/or other materials provided with the distribution.
+     * Neither the name of The Regents nor the names of its contributors may
+       be used to endorse or promote products derived from this software
+       without specific prior written permission.
+
+   The end-user understands that the program was developed for research
+   purposes and is advised not to rely exclusively on the program for any
+   reason.
+
+   THE SOFTWARE PROVIDED IS ON AN "AS IS" BASIS, AND THE REGENTS AND
+   CONTRIBUTORS HAVE NO OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES,
+   ENHANCEMENTS, OR MODIFICATIONS. THE REGENTS AND CONTRIBUTORS SPECIFICALLY
+   DISCLAIM ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING BUT NOT LIMITED TO,
+   THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+   PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS
+   BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL,
+   EXEMPLARY OR CONSEQUENTIAL DAMAGES, INCLUDING BUT NOT LIMITED TO
+   PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES, LOSE OF USE, DATA OR PROFITS,
+   OR BUSINESS INTERRUPTION, HOWEVER CAUSED AND UNDER ANY THEORY OF LIABILITY
+   WHETHER IN CONTRACT, STRICT LIABILITY OR TORT (INCLUDING NEGLIGENCE OR
+   OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE AND ITS
+   DOCUMENTATION, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+   --------------------------------------------------------------------------
+
+   This software should never have been distributed under the GPL - not
+   because the GPL is a bad license, but because it was UCI's property from
+   the beginning, so they should have the choice of what license to
+   distribute it under
+
