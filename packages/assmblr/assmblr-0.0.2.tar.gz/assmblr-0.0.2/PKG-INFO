@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: assmblr
+Version: 0.0.2
+Summary: Tools for assembling classes in a concise, performant way
+Author: Alyce
+Author-email: Alyceosbourne@outlook.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+### Assmblr
+___
+ Simple to use class building tools to make your life easier. The goal is to dry up code by providing generics of common functions and utilities.
+___
+
+Currently includes: 
+- Strict type enforcement
