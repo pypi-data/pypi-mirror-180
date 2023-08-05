@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: jeremysnakeoil
+Version: 0.0.3
+Summary: Util for commonly used functions
+Author: Jeremy Woo
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+
+# install dependencies
+pip install pipdeptree
+pip install twine 
+
+# build your python codebase
+python setup.py sdist bdist_wheel
+
+# publish to pypi
+python -m twine upload dist/*

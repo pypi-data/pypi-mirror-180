@@ -1,0 +1,9 @@
+setup.py
+snakeoil/src/jeremysnakeoil.egg-info/PKG-INFO
+snakeoil/src/jeremysnakeoil.egg-info/SOURCES.txt
+snakeoil/src/jeremysnakeoil.egg-info/dependency_links.txt
+snakeoil/src/jeremysnakeoil.egg-info/top_level.txt
+snakeoil/src/jeremysnakeoil.egg-info/PKG-INFO
+snakeoil/src/jeremysnakeoil.egg-info/SOURCES.txt
+snakeoil/src/jeremysnakeoil.egg-info/dependency_links.txt
+snakeoil/src/jeremysnakeoil.egg-info/top_level.txt
