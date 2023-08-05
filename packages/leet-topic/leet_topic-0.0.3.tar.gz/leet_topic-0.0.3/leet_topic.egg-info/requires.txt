@@ -1,0 +1,6 @@
+pandas<2.0.0,>=1.0.0
+bokeh==2.4.3
+sentence_transformers==2.2.0
+umap-learn==0.5.3
+hdbscan==0.8.28
+scikit-learn==1.0.2
