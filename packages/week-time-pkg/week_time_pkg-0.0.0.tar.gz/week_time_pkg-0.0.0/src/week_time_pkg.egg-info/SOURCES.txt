@@ -1,0 +1,7 @@
+pyproject.toml
+src/week_time_pkg/__init__.py
+src/week_time_pkg/weektime_properties.py
+src/week_time_pkg.egg-info/PKG-INFO
+src/week_time_pkg.egg-info/SOURCES.txt
+src/week_time_pkg.egg-info/dependency_links.txt
+src/week_time_pkg.egg-info/top_level.txt
