@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: eiffellib
+Version: 2.4.0
+Summary: Python library for sending and receiving Eiffel events
+Home-page: https://github.com/eiffel-community/eiffel-pythonlib
+Author: Tobias Persson
+Author-email: tobiaspn@axis.com
+License: Apache License, Version 2.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: Apache Software License
+License-File: LICENSE.txt
+License-File: AUTHORS.rst
+Requires-Dist: jsonschema (<4,>=3.0.0)
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+Provides-Extra: rabbitmq
+Requires-Dist: pika (<2,>=1.0.1) ; extra == 'rabbitmq'
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+
