@@ -1,0 +1,9 @@
+README.md
+setup.py
+437_project.egg-info/PKG-INFO
+437_project.egg-info/SOURCES.txt
+437_project.egg-info/dependency_links.txt
+437_project.egg-info/requires.txt
+437_project.egg-info/top_level.txt
+tests/__init__.py
+tests/test_generator.py
