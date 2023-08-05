@@ -1,0 +1,2 @@
+[console_scripts]
+kline-redis = kline_redis.cli:main
