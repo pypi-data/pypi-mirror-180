@@ -1,0 +1,9 @@
+dataqualityreport/__init__.py,sha256=gClrsUe5tbeMq_E4FwKpT7aVFO28W_Mws3EEBwSy1KE,650
+dataqualityreport/data_utils.py,sha256=jxCCgD20rR6Y0AQaUENDvODvhPdo6X4wjzezrSOPUJM,6272
+dataqualityreport/dataqualityreport.py,sha256=xLNoWlf0EYvDn73vmKu68kmX9Cy7D0ZXedArv_z2Dl8,13718
+dataqualityreport/tabulate.py,sha256=3K0e9McwiHbfNcP8ksWFlzX9tL4HrAX1wryaIm3gdpI,6954
+dataqualityreport/viz.py,sha256=_rZ77sP1imZWLC-Ty-0niHFC4k9GRr88bU_YxQbMWNQ,7260
+dataqualityreport-0.0.4.dist-info/LICENSE.txt,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+dataqualityreport-0.0.4.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+dataqualityreport-0.0.4.dist-info/METADATA,sha256=TVc-Ri4XnLTNFcPSsU8QandRaXW2Y7RiiZUmP9qk2_w,781
+dataqualityreport-0.0.4.dist-info/RECORD,,
