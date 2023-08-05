@@ -1,0 +1,2 @@
+[console_scripts]
+py_boilerplate = python_project_boilerplate.python_project_boilerplate:create_project_structure

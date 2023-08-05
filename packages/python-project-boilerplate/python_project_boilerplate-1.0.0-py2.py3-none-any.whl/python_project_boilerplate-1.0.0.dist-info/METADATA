@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: python-project-boilerplate
+Version: 1.0.0
+Summary: Package to create data python_project_structure
+Author: Pankaj Kalal
+Author-email: pankajgkalal@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+This library created folder structure in python.
+You can use this package as command  -> py_boilerplate <YOUR FOLDER NAME>.
+
+main.py -> Here is the main file of your code.<br/>
+Config -> This is for all your config files.<br/>
+Docs -> Put all your Docs in this folder.<br/>
+Logs -> In this folder all your logs will be maintained.<br/>
+src -> All your source codes will be kept here.<br/>
+Utility -> All your utility code will be kept here.<br/>
+
+
