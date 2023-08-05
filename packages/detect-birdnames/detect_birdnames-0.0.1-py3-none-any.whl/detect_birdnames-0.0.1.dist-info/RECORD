@@ -1,0 +1,10 @@
+detect-birdname-txt/__init__.py,sha256=51a94-n6v47DkLfhFM_etQvPsBGLV3s1Z5v96AxDOBM,81
+detect-birdname-txt/bird_detection.py,sha256=ARsdEZgOx7MvkI1-aEawyCayQvHt6P6FNe26qm52ywI,450
+detect-birdname-txt/exim.py,sha256=oE01ZdRoL3vjkP80kFoAFNPBLh0QUDXQPfCYJzj1ILo,342
+detect-birdname-txt/experiments.py,sha256=aGd8IxNw8_TAa3lLy7c8Y1Hdi8-YXASEXpA5-ipLo4U,396
+detect-birdname-txt/main_.py,sha256=p0XpMNok3smKe8VVCmVTmPVGxIAwWde4T81ud7fmncY,2807
+detect-birdname-txt/preprocess.py,sha256=QqUKTtysljmJLPlhNbh7XhWt_rZiDtZt6u_YkssFKs8,3639
+detect_birdnames-0.0.1.dist-info/METADATA,sha256=s8RMdqyVdikKBPCxN2c0O5S5QpknQeg4wethoK7QQR4,725
+detect_birdnames-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+detect_birdnames-0.0.1.dist-info/top_level.txt,sha256=2mJbRNNEUTMHwhOCaGMC9tZugGDy7e9JUKmmpmbVAtg,20
+detect_birdnames-0.0.1.dist-info/RECORD,,
