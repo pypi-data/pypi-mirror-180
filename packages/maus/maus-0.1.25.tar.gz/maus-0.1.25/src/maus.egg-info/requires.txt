@@ -1,0 +1,2 @@
+attrs>=21.4.0
+marshmallow>=3.18.0
