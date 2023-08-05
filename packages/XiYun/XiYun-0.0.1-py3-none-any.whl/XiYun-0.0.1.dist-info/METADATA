@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: XiYun
+Version: 0.0.1
+Summary: GUI项目
+Home-page: https://github.com/BigDataFounder/XiYun
+Author: 凉笙
+Author-email: author@example.com
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# 分发包的详细介绍文件
