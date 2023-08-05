@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: monster-chat-server
+Version: 1.0.1
+Summary: MMMMonsterChat server application
+Author: KTo ETo
+Author-email: kto@lovetou.ru
+Requires-Dist: PyQt5
+Requires-Dist: sqlalchemy
+Requires-Dist: pycryptodome
+Requires-Dist: pycryptodomex
+
