@@ -1,0 +1,79 @@
+[tool.poetry]
+name = "dapp-manager"
+version = "0.0.0a3"
+description = "Golem dapp-manager - run decetralized apps on the Golem Network using a 'docker-compose'-like interface"
+authors = ["Golem Factory <contact@golem.network>"]
+license = "LGPL-3.0"
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+  "Natural Language :: English",
+  "Programming Language :: Python :: 3.8",
+  "Topic :: Software Development",
+  "Topic :: System :: Distributed Computing",
+]
+repository = "https://github.com/golemfactory/dapp-manager"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+psutil = "^5.9"
+appdirs = "^1.4"
+click = "^8.1"
+dapp-runner = "^0.0.0a3"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1"
+mypy = "^0.942"
+poethepoet = "^0.13"
+pytest = "^7.1"
+pytest-cov = "^3.0.0"
+liccheck = "^0.7.2"
+
+[tool.poetry.scripts]
+dapp-manager = "dapp_manager.__main__:main"
+
+[[tool.poetry.source]]
+name = "testpypi"
+url = "https://test.pypi.org/simple/"
+default = false
+secondary = true
+
+[tool.liccheck]
+authorized_licenses = [
+  "bsd",
+  "new bsd",
+  "bsd license",
+  "apache 2",
+  "apache",
+  "Apache Software",
+  "MPL-2.0",
+  "Mozilla Public License 2.0 (MPL 2.0)",
+  "MIT",
+  "LGPL",
+  "LGPL-3.0-or-later",
+  "GNU Lesser General Public License v3 or later (LGPLv3+)",
+  "GNU Lesser General Public License v3 (LGPLv3)",
+  "Python Software Foundation",
+  "ISC",
+  "ISC License (ISCL)",
+]
+unauthorized_licenses = [
+  "gpl v3"
+]
+
+[tool.poe.tasks]
+codestyle = "black --check --diff ."
+typecheck  = "mypy --install-types --non-interactive --ignore-missing-imports --check-untyped-defs --warn-unused-ignores --show-error-codes ."
+_liccheck_export = "poetry export -f requirements.txt -o .requirements.txt"
+_liccheck_verify = "liccheck -r .requirements.txt"
+liccheck = ["_liccheck_export", "_liccheck_verify"]
+check = ["codestyle", "typecheck", "liccheck"]
+unittest = "pytest --cov --cov-report html --cov-report term  -sv tests"
+test = ["unittest", "check"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
