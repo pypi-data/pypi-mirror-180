@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: miritools
+Version: 4.0.5
+Summary: "MIRI JWST convenience tools for analysis and data manipulation"
+Home-page: https://github.com/ccossou/miritools
+Author: "Christophe Cossou"
+Author-email: "ccossou@gmail.com"
+Platform: ["Linux"
+Platform: "Mac OS X"]
+Requires-Python: >=3.7
+Provides-Extra: docs
+License-File: LICENCE
