@@ -1,0 +1,8 @@
+honorific/__init__.py,sha256=asboQWRKM7kcxab9iQMfPBkaGNu_csXgrTfflep9wWw,39
+honorific/dicts/honoratives.txt,sha256=8HYkHtpyjvTGfZQpP3yJVm7ni7GDf1DQ-glAEKITIkE,280
+honorific/dicts/your_plur.txt,sha256=W79hCjQc3A4PL-or89bGGjyEEtFkfilcQQnEz25IDV4,301
+honorific/dicts/your_sing.txt,sha256=U_mFPAdRdlmUamnjYhWGGLAsR9dF-LPI2CZ4W3JDmAM,343
+honorific/honorific.py,sha256=G56ZFBnHR3fIeTamVSSgIefzDiDYe9v6M0ES_r6CID0,11403
+honorific-0.1.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+honorific-0.1.1.dist-info/METADATA,sha256=__tBlDrVdOaLuHdM5URKCRgFMg6abenAUZpow19LyTY,594
+honorific-0.1.1.dist-info/RECORD,,
