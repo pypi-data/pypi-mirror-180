@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/autodiff/__init__.py
+src/autodiff/auto_diff.py
+src/autodiff/dual_numbers.py
+src/autodiff/functions.py
+src/autodiff_cs107_bjmms.egg-info/PKG-INFO
+src/autodiff_cs107_bjmms.egg-info/SOURCES.txt
+src/autodiff_cs107_bjmms.egg-info/dependency_links.txt
+src/autodiff_cs107_bjmms.egg-info/top_level.txt
