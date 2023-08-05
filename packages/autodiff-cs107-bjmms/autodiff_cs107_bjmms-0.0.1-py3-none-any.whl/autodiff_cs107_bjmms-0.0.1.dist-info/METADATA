@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: autodiff-cs107-bjmms
+Version: 0.0.1
+Summary: Package for automatic differentiation
+Author-email: Martin Reyes Holguin <mreyes@college.harvard.edu>, Marcos Rios Contreras <mrioscontreras@college.harvard.edu>, Sergio Jara Reynoso <sjarareynoso@college.harvard.edu>, Yumi Yi <yumiyi@college.harvard.edu>, Brian Medrano <brianmedrano@college.harvard.edu>
+Project-URL: Homepage, https://harvard-iacs.github.io/2022-CS107/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![.github/workflows/test.yml](https://code.harvard.edu/CS107/team46/actions/workflows/test.yml/badge.svg)](https://code.harvard.edu/CS107/team46/actions/workflows/test.yml)
+[![.github/workflows/coverage.yml](https://code.harvard.edu/CS107/team46/actions/workflows/coverage.yml/badge.svg)](https://code.harvard.edu/CS107/team46/actions/workflows/coverage.yml)
+
+The following package is used to evaluate all order derivatives and extensions for any type of single or multivariate functions.
+
+## Installation and Setup
+
+Install the package via a package manager such as pip or download manually at LINK: MISSING!
+
+```shell
+$python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps autodiff-cs107-bjmms
+```
+
+Once installed, create a new python script, import the package, and make an instance of the Differentiator class.
+
+```python
+import autodiff as ad
+
+#Instantiate differentiator class
+diff = ad.Differentiator()
+```
+
+### Directory structure
+
+Our code is organized into the following structure. The .yml files are the continuous integration files that run tests and check coverage for our package. The documentation can be found in the docs folder. The source code is broken down into three modules, functions, dual_numbers and auto_diff. The tests are split into two frameworks, in the first we test the differentiation structure and in the second we test the functions and the dual number algebra. Finally we have our essential package files.
+
+<pre>
+|-----.github
+|   |
+|   |-----workflows
+|      |
+|      |-----coverage.yml
+|      |-----test.yml
+|-----docs
+|  |
+|  |-----documentation.ipynb
+|  |-----milestone1.ipynb
+|  |-----milestone2.md
+|-----src
+|  |
+|  |-----autodiff
+|     |
+|     |----- __init__.py
+|     |----- functions.py
+|     |----- dual_numbers.py
+|     |----- auto_diff.py
+|-----tests
+|  |
+|  |-----check_coverage.sh
+|  |-----run_tests.sh 
+|  |-----test_auto_diff.py
+|  |-----test_dual_numbers.py
+|-----.gitignore
+|-----LICENSE
+|-----README.md
+|-----pyproject.toml
+
+## Broader Impact and Inclusivity Statement
+
+#### Broader Impact
+There are various broader impacts and implications of our software that we must be aware of. In an ideal world, our code will be used as intended, an open-source automatic differentiator that any user can implement and alter for their specific needs. If there are ways to make the software better, we hope that users will share their knowledge to better the software. That, however, might not be the case in the real world. The danger of an open-source software is that users could then take the software and alter it in devious ways that could hurt other users, such as changing the code so that it produces incorrect outputs. Luckily, there are checks and balances through GitHub and the history of merges, but there is also the issue of redistribution of our software under a different name. This could pose a problem if the redistributor is more popular and then begins to sell our software as it takes away from our ethical stance that there should be no barriers to use this software. 
+
+#### Software Inclusivity
+Our aim for our software was that there should be no barrier for developers to contribute to our code base; however, there are various subtle barriers that we acknowledge. First, there is a barrier for users who are non-native English speakers as the documentation is entirely written in English as well as the code. This poses a problem because developers that do not know English are instantly left out and the literal manual they must look to is out of their reach.  Furthermore, when dealing with push and pull request approvals, there are currently only computer science students on the administrative side, so if it came down to better documentation, for example, we would probably pay little attention to grammar, which could make it difficult for someone who is new to reading code and may rely heavily on the documentation.  Python’s Diversity Statement is full of buzz words but no specifics. Within our group, we would like to introduce different types of programmers, with backgrounds from English majors to bootcamp graduates. We believe this would be the best way to ensure software inclusivity as this software is used by many members across the world. 
