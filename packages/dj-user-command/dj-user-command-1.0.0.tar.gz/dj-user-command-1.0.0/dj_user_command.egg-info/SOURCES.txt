@@ -1,0 +1,7 @@
+setup.py
+dj-user-command/manage.py
+dj_user_command.egg-info/PKG-INFO
+dj_user_command.egg-info/SOURCES.txt
+dj_user_command.egg-info/dependency_links.txt
+dj_user_command.egg-info/requires.txt
+dj_user_command.egg-info/top_level.txt
