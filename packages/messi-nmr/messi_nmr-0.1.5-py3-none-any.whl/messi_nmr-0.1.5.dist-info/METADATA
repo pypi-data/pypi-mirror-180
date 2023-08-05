@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: messi-nmr
+Version: 0.1.5
+Summary: Multi Ensamble Strategy for Structural Identification (MESSI). Developed by Sarotti Lab
+License: MIT
+Author: María M. Zanardi & Ariel M. Sarotti
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.23.5)
+Requires-Dist: openpyxl (>=3.0.10)
+Requires-Dist: pandas (>=1.5.2)
+Requires-Dist: scikit-learn (>=1.1.3)
+Requires-Dist: scipy (>=1.9.3)
+Requires-Dist: sklearn (>=0.0.post1)
+Requires-Dist: tk (>=0.1.0)
+Description-Content-Type: text/markdown
+
+# messi_nmr
+
+Multi Ensamble Strategy for Structural Identification (MESSI). Developed by Sarotti Lab
+
+## Installation
+
+```bash
+$ pip install messi_nmr
+```
+
+## Usage
+
+- TODO
+
+## Contributing
+
+Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+
+## License
+
+`messi_nmr` was created by María M. Zanardi & Ariel M. Sarotti. It is licensed under the terms of the MIT license.
+
+## Credits
+
+`messi_nmr` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+
