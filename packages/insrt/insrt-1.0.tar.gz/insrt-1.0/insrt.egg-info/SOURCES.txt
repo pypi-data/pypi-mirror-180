@@ -1,0 +1,10 @@
+setup.py
+insrt.egg-info/PKG-INFO
+insrt.egg-info/SOURCES.txt
+insrt.egg-info/dependency_links.txt
+insrt.egg-info/top_level.txt
+package/__init__.py
+package/__main__.py
+package/insrt.py
+package/tests/__init__.py
+package/tests/test_insrt_func.py
