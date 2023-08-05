@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+simple_fpdf/__init__.py
+simple_fpdf.egg-info/PKG-INFO
+simple_fpdf.egg-info/SOURCES.txt
+simple_fpdf.egg-info/dependency_links.txt
+simple_fpdf.egg-info/requires.txt
+simple_fpdf.egg-info/top_level.txt
