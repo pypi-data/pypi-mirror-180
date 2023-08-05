@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+cosmospdf/__init__.py
+cosmospdf/pdf2text.py
+cosmospdf.egg-info/PKG-INFO
+cosmospdf.egg-info/SOURCES.txt
+cosmospdf.egg-info/dependency_links.txt
+cosmospdf.egg-info/top_level.txt
