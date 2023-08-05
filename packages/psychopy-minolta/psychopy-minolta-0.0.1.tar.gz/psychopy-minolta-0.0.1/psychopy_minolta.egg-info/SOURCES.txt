@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+psychopy_minolta/__init__.py
+psychopy_minolta/minolta.py
+psychopy_minolta.egg-info/PKG-INFO
+psychopy_minolta.egg-info/SOURCES.txt
+psychopy_minolta.egg-info/dependency_links.txt
+psychopy_minolta.egg-info/requires.txt
+psychopy_minolta.egg-info/top_level.txt
