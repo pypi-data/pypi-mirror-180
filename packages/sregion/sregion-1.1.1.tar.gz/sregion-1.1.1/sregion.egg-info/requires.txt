@@ -1,0 +1,8 @@
+numpy
+astropy
+shapely
+descartes
+
+[test]
+pytest>=5.1
+flake8
