@@ -1,0 +1,8 @@
+xmltodict
+click
+imagingreso
+matplotlib
+numpy
+pandas
+scipy
+python-dotenv
