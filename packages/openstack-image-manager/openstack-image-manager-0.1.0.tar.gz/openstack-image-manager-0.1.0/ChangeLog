@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+v0.1.0
+------
+
+* Rename oim -> openstack\_image\_manager (#439)
