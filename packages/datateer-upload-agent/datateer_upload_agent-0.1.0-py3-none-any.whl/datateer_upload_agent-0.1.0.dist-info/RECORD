@@ -1,0 +1,10 @@
+datateer_upload_agent/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datateer_upload_agent/config.py,sha256=rEImhps5h7-uHbKtYk-KYGnZbsmkt0oDuI92ItOnmnc,1335
+datateer_upload_agent/constants.py,sha256=Bg1Wa4pEgjKZBRK5pXS2SfIESgd_Iss2ndtU-Wj-F0w,484
+datateer_upload_agent/main.py,sha256=brz_oanPdnp6ksZZpD9qzpitZxKslYTW8LH-bKJ9kqs,4141
+datateer_upload_agent/upload.py,sha256=_divQ_-fxSiOF1iXfQ2yhPcS7U4x4WIq3deVFzBZ0fk,1061
+datateer_upload_agent-0.1.0.dist-info/entry_points.txt,sha256=Y5O4X2Ntr8ecLl3g_YCdqzQCeRKoxzQDBw31J25kuL4,59
+datateer_upload_agent-0.1.0.dist-info/LICENSE,sha256=HnH1CDXo6mm9jG7PuIieFyDOzXDbeweL3873ny4E95U,1065
+datateer_upload_agent-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+datateer_upload_agent-0.1.0.dist-info/METADATA,sha256=vaP8gvtVs1TV_UI22QTQLjGmC4YbQLBeNc8z2ZKs1Xg,644
+datateer_upload_agent-0.1.0.dist-info/RECORD,,
