@@ -1,0 +1,10 @@
+prefect_bitbucket/__init__.py,sha256=sQGCIqal0PxJFHcqLfjeavaGnxVibVOO3xg_lxPcKcE,296
+prefect_bitbucket/_version.py,sha256=omj13n8H_k3Zg6Vxy5QOWhjxl2rHGszFNnjmfI-tOZw,497
+prefect_bitbucket/credentials.py,sha256=mew4CmjPHnOIiTCaNqMmPX84BXt5Q6WsB9-pAZdOLj4,1685
+prefect_bitbucket/repository.py,sha256=jByz5xkvFX6PDfNY_C2SHhws0mtzg_SQvaDl4zAiXcQ,6821
+prefect_bitbucket-0.1.0.dist-info/LICENSE,sha256=tLKlrmr0sOnPybm5TUmA2SBT-cYajF3kILQME85pqpQ,11356
+prefect_bitbucket-0.1.0.dist-info/METADATA,sha256=j2E-t7kRW25oCMsJo7Vzfh3GFCiEwvjnmHzkNbqjPgQ,8026
+prefect_bitbucket-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+prefect_bitbucket-0.1.0.dist-info/entry_points.txt,sha256=XB3u8PFWHnLR3K5Txla-0hahwU08nPBmAxcXmXKQpFc,60
+prefect_bitbucket-0.1.0.dist-info/top_level.txt,sha256=yYFHH5yL4cMKQwCL1T2GAZ6VMpZbq4s_lTwrgE5KOLM,18
+prefect_bitbucket-0.1.0.dist-info/RECORD,,
