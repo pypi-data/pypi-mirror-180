@@ -1,0 +1,4 @@
+[console_scripts]
+mci=modpack_ch_installer.main:cli
+modpackchinstaller=modpack_ch_installer.main:cli
+
