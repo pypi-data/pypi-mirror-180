@@ -1,0 +1,9 @@
+webapp/__init__.py,sha256=OU5DQAwnVjEWjeemAtYU0MCrOwol-DjkuwCtqTYmbgk,114
+webapp/antimonyTools.py,sha256=jaS3BNHVhFmaGwwrR7QHQhF1BZeQKr5Hz4E4CIwCIfw,5740
+webapp/forms.py,sha256=EoTRfedNnD0ekw7utlNCFqv6BY5utyUuSuoP1_0XbDs,1332
+webapp/routes.py,sha256=3dU5NjW-MPy8JKFk5oabJhNTFg-7ZZj0IxoBWPeOvyg,1975
+AMC_OWMV-1.0.1.dist-info/LICENSE,sha256=5TQwbVmho4MKzy0GDHWsCNU_1xMOIEowH-simW2GXGs,1089
+AMC_OWMV-1.0.1.dist-info/METADATA,sha256=gvkNUD1lCqDDafrkfFnyo34I6rS1JI-cQ0O05TkLxWA,2654
+AMC_OWMV-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+AMC_OWMV-1.0.1.dist-info/top_level.txt,sha256=FluN9ddVmDHI8eL-EMh0zrPOgFdldN3exKdQsIHnlzI,7
+AMC_OWMV-1.0.1.dist-info/RECORD,,
