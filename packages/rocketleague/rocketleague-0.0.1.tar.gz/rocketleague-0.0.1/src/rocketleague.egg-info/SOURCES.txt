@@ -1,0 +1,6 @@
+pyproject.toml
+src/rocketleague/__init__.py
+src/rocketleague.egg-info/PKG-INFO
+src/rocketleague.egg-info/SOURCES.txt
+src/rocketleague.egg-info/dependency_links.txt
+src/rocketleague.egg-info/top_level.txt
