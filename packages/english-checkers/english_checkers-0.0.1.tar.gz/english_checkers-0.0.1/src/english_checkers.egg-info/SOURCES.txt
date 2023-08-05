@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/checkers/__init__.py
+src/checkers/board.py
+src/checkers/game.py
+src/checkers/move.py
+src/english_checkers.egg-info/PKG-INFO
+src/english_checkers.egg-info/SOURCES.txt
+src/english_checkers.egg-info/dependency_links.txt
+src/english_checkers.egg-info/not-zip-safe
+src/english_checkers.egg-info/requires.txt
+src/english_checkers.egg-info/top_level.txt

@@ -1,0 +1,34 @@
+[project]
+name = "english_checkers"
+version = "0.0.1"
+description = "The English chekers game simulation package"
+readme = "README.rst"
+requires-python = ">=3.10"
+authors = [
+  {email = "rodionyudenko@gmail.com"},
+  {name = "Rodion Iudenko"},
+]
+maintainers = [
+  {name = "Rodion Iudenko", email = "rodionyudenko@gmail.com"}
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3 :: Only",
+]
+license = {file = "LICENSE.txt"}
+
+[project.urls]
+homepage = "http://github.com/yud-warrior/checkers"
+documentation = "http://github.com/yud-warrior/checkers"
+repository = "http://github.com/yud-warrior/checkers.git"
+
+[build-system]
+requires = [
+    "setuptools>=61.0",
+]
+build-backend = "setuptools.build_meta"
