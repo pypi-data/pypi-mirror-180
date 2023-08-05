@@ -1,0 +1,10 @@
+sdk_temp_1207/dynbatch/__init__.py,sha256=fnAb4HK00of2SQNCORPJ22KmQHxQCR7lmklHPAa0uf0,127
+sdk_temp_1207/dynbatch/base.py,sha256=VvPtvwr2Qs7Tn5QXbIbGtPLdF-JcpwMH5pq3VyMbjsI,1235
+sdk_temp_1207/dynbatch/batch.py,sha256=QLV0ccxUdjDdILAKJjxI8ux7XXt0esdVbWNb0uSX26w,11096
+sdk_temp_1207/rlog/__init__.py,sha256=h-LxNjo5-jSmDV4Qr4RLs10AouXHC5fPbIcBxUKrKsU,4829
+sdk_temp_1207/rlog/eventhub.py,sha256=HHbeDQCdK8yIgaDGVkfDsDI5o0n0BA9rQuFT4jSYtJg,8238
+sdk_temp_1207/rlog/log.py,sha256=ekvfq2g7CY7vgbqtVtO6J0K8DcCax0TuQ3clczf460w,6311
+sdk_temp_1207/rlog/logimp.py,sha256=epx0dFSEA7Z0dZ18flkkG4DbYHNmggFirwALfwy42Zw,7412
+sdk_temp_1207-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+sdk_temp_1207-0.1.0.dist-info/METADATA,sha256=Yzd_77At70MPWTS94T10FMpV26SXGuZ2XsHPrSnIC1k,5430
+sdk_temp_1207-0.1.0.dist-info/RECORD,,
