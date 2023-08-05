@@ -1,0 +1,3 @@
+[console_scripts]
+messi=messi_nmr.messi_nmr:main
+
