@@ -1,0 +1,2 @@
+[console_scripts]
+wandb2numpy = wandb2numpy.command_line:main

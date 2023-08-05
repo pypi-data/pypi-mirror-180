@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: wandb2numpy
+Version: 0.1
+Summary: Library to export data from WandB to numpy arrays or csv files.
+Home-page: 
+Author: Kolja Bauer
+Author-email: kolja.bauer@gmail.com
