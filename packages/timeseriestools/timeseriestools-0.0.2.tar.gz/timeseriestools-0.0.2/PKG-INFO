@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: timeseriestools
+Version: 0.0.2
+Summary: Create Tearsheets with timeseries.tools
+Project-URL: Homepage, https://timeseries.tools
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: pandas
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+timeseriestools
+
+```
+from timeseriestools import TimeseriesTools
+import pandas as pd
+
+tst = TimeseriesTools()
+tst.login("info@timeseries.tools", "some-password")
+
+
+s = pd.Series(index=["2020-01-01", "2020-01-02", "2020-01-03"], data=[1, 2, 3])
+s.index = pd.to_datetime(s.index)
+
+tst.create_tearsheet(s)
+
+
+
+```
