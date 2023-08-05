@@ -1,0 +1,4 @@
+hello_world_mibellisvetlana.egg-info/PKG-INFO
+hello_world_mibellisvetlana.egg-info/SOURCES.txt
+hello_world_mibellisvetlana.egg-info/dependency_links.txt
+hello_world_mibellisvetlana.egg-info/top_level.txt
