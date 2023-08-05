@@ -1,0 +1,8 @@
+check_tftp/__init__.py,sha256=00ba16NTtYEnaZWEu56cXQK6iXN2DaQyue3kBHvl5EU,122
+check_tftp/__main__.py,sha256=S6zQHgMqqlkg4P7xhkn8A_EISFdRFMYOaXZh7EdNWk8,7634
+check_tftp-0.2.1.data/scripts/check_tftp,sha256=b0rk5Ze8NS6Zu-OXnZNpZI6MROWjVrkNmXB30njLXxE,97
+check_tftp-0.2.1.dist-info/LICENSE,sha256=kMbBeLgucZz_ZIP9CrwWxdugIjid8LlH1sLBV3JYxIA,1133
+check_tftp-0.2.1.dist-info/METADATA,sha256=lzdCWiiKk2vSVVBwn2kFrr-ANWlSUcuxqTkQGMRw8Ns,3798
+check_tftp-0.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+check_tftp-0.2.1.dist-info/top_level.txt,sha256=Aa9HOorrZuYDLWcxVPZqHnsQwXAGujTximqmI886c9o,11
+check_tftp-0.2.1.dist-info/RECORD,,
