@@ -1,0 +1,3 @@
+[console_scripts]
+delink = delink.__main__:main
+
