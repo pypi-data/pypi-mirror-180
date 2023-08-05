@@ -1,0 +1,1 @@
+An AI that can be close competitor of google.
