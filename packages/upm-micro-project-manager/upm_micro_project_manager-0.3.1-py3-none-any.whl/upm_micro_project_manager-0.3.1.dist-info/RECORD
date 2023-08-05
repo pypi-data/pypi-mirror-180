@@ -1,0 +1,11 @@
+upm/__init__.py,sha256=p6vGDUt29WOTVo9uNViYLm1ipmADiJwDZ1ErUiPow-g,425
+upm/cli.py,sha256=krUSN8CO6JCTuvv-9Gh5MVaFikOdFzdilNMaEAC4ppg,3036
+upm/config.py,sha256=vMfMK_-QWOFJKFOyhpTMLcSCXhxTPFCWV4flxGeAHok,1358
+upm/template.py,sha256=iA3xMAV4t0NNicC1hTHd2NgtGIA7GNM5v5rKdC8OrSw,5460
+upm/upm.py,sha256=t8RPom37jsqYSgQXTUmmTRaNWAfzQRBvWVwlK05g3cc,2663
+upm_micro_project_manager-0.3.1.dist-info/LICENSE,sha256=EHAUKKvC1CprBW_Dc8wFf0XexkwlKr0qw6ukPtoGelg,1491
+upm_micro_project_manager-0.3.1.dist-info/METADATA,sha256=jj9AImCx28qYO_AuGc_4mBIRmkH83nw_n7LIFlqBwtA,5279
+upm_micro_project_manager-0.3.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+upm_micro_project_manager-0.3.1.dist-info/entry_points.txt,sha256=B0W-0-VAU6FgEXW61LdS4GabGY7D06S1dzvrhueD_Xk,37
+upm_micro_project_manager-0.3.1.dist-info/top_level.txt,sha256=11U8AqJeeTpaSBuvOlSpAhpRbpylgrOK_y3OjeW6Xoc,4
+upm_micro_project_manager-0.3.1.dist-info/RECORD,,
