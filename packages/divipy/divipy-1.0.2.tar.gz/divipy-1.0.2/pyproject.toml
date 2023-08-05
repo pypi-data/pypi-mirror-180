@@ -1,0 +1,18 @@
+[project]
+name = "divipy"
+version = "1.0.2"
+authors = [
+  { name="Pandaxyz", email="contact@tourble.org" },
+]
+description = "Perfect and Cool package for developers."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Pandaxyz-xd/divipy"
+"Bug Tracker" = "https://github.com/Pandaxyz-xd/divipy/issues"

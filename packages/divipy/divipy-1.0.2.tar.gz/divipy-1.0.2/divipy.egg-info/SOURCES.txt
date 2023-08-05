@@ -1,0 +1,7 @@
+README.md
+divipy.py
+pyproject.toml
+divipy.egg-info/PKG-INFO
+divipy.egg-info/SOURCES.txt
+divipy.egg-info/dependency_links.txt
+divipy.egg-info/top_level.txt
