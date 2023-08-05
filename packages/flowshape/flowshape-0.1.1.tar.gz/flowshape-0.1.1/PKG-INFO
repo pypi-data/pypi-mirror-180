@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: flowshape
+Version: 0.1.1
+Summary: Placeholder
+Project-URL: Homepage, https://bitbucket.org/pgmsembryogenesis/flowshape/
+Project-URL: Bug Tracker, https://bitbucket.org/pgmsembryogenesis/flowshape/issues
+Author-email: Casper van Bavel <casper.vanbavel@kuleuven.be>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# FlowShape
+This package provides functionality for the analysis of cell shape using the spherical harmonics decomposition.
