@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+OSLogManagement/OSLogManagement.py
+OSLogManagement/__init__.py
+OSLogManagement/__main__.py
+OSLogManagement.egg-info/PKG-INFO
+OSLogManagement.egg-info/SOURCES.txt
+OSLogManagement.egg-info/dependency_links.txt
+OSLogManagement.egg-info/requires.txt
+OSLogManagement.egg-info/top_level.txt
