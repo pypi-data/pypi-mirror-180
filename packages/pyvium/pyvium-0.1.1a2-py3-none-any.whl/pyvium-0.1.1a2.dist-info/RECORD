@@ -1,0 +1,9 @@
+pyvium/__init__.py,sha256=b15RCJ67pTp0Tr-C2qNi92AO-LVABqIkqyZhSKU4xS8,52
+pyvium/core.py,sha256=e2tavhDtLPGrR6OyJ-jZXtv1uyTPWghbLcmQLRzNu-Y,21352
+pyvium/IVIUM_remdriver.dll,sha256=Q5pDFKuxKaQMX6kFWy0QzuhM6sKsOzUzy_4V3KGkdHc,5130086
+pyvium/Ivium_remdriver64.dll,sha256=2q1zEkTDbsrPB6B2YZd4T0Aqhe4CmLlUwfYTXJ708yM,2185216
+pyvium/pyvium.py,sha256=PnZtCF6CBuM1gewGN0Bw95oYutSomqMDajzKyaagIJ4,8734
+pyvium-0.1.1a2.dist-info/LICENSE,sha256=jNBs6_7KtcKtyHDB0EzJP3VhVKReik6GALNce9_F3pY,618
+pyvium-0.1.1a2.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+pyvium-0.1.1a2.dist-info/METADATA,sha256=5m9QbMDqeF61vcMwFw2I4fe_IcG-7PPUODX598EBEO8,2122
+pyvium-0.1.1a2.dist-info/RECORD,,
