@@ -1,0 +1,9 @@
+_datasketches.cp36-win_amd64.pyd,sha256=46jG9BE60iIFt-XJ1K_hw7IULrGeS3A3GbtrZONt5jk,1016320
+datasketches/PySerDe.py,sha256=It0oMipHwNj6l3s93oiCSVmHsB8-SYLnv_rU8MS0zro,3678
+datasketches/__init__.py,sha256=Wi-gYPhJ9Cdd0igNtkBwUjMqrughZn1T4fYQi3iy8YY,883
+datasketches-4.0.0.dist-info/LICENSE,sha256=UjJhUE55RolsFnPXfECprUdVD0ZxLnWoECo0aNr5Zh4,18630
+datasketches-4.0.0.dist-info/METADATA,sha256=xQETrNVE8OwBp1MTTvfd6VGunwZ39ZGfMFdKqUUeP3Q,5211
+datasketches-4.0.0.dist-info/NOTICE,sha256=o_PjayDpMgRK1YAYOrJ67hXeJgPn7vP8tsPS49WxWLY,401
+datasketches-4.0.0.dist-info/WHEEL,sha256=zukbZftcRdNfJ55Q_RYV9JZ3uVyqWKyq-wDJbmszs_U,101
+datasketches-4.0.0.dist-info/top_level.txt,sha256=0D8iOW-DuNfzbJMXlFvmnwXNkCYjJ4yU_N6ejntrIV0,13
+datasketches-4.0.0.dist-info/RECORD,,
