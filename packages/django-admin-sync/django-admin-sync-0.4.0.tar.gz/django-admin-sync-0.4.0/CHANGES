@@ -1,0 +1,19 @@
+0.4.0
+-----
+* add inspect button
+* new Protocol for easier customization
+
+
+0.3.0
+-----
+* allow configuration to get credentials
+
+
+0.2.0
+-----
+* add PROTOCOL suppport
+
+
+0.1.0
+-----
+* Initial Release
