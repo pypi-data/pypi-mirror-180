@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+src/get_folder_file/__init__.py
+src/get_folder_file/get_file_list.py
+src/get_folder_file.egg-info/PKG-INFO
+src/get_folder_file.egg-info/SOURCES.txt
+src/get_folder_file.egg-info/dependency_links.txt
+src/get_folder_file.egg-info/requires.txt
+src/get_folder_file.egg-info/top_level.txt
