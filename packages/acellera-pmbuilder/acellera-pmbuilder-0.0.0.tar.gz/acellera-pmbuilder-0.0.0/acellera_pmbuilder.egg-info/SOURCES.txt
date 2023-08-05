@@ -1,0 +1,7 @@
+setup.py
+acellera_pmbuilder.egg-info/PKG-INFO
+acellera_pmbuilder.egg-info/SOURCES.txt
+acellera_pmbuilder.egg-info/dependency_links.txt
+acellera_pmbuilder.egg-info/not-zip-safe
+acellera_pmbuilder.egg-info/requires.txt
+acellera_pmbuilder.egg-info/top_level.txt
