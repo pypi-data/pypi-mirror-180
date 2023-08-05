@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: delink
+Version: 0.0.5
+Summary: delink ios remote client
+Home-page: http://icode.baidu.com/repos/baidu/baiduinputqa/delink_ios_remote_client/tree/master
+Author: zhangpei04
+Author-email: zhangpei04@baidu.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: logzero
+Requires-Dist: watchdog
+Requires-Dist: logger
+Requires-Dist: psutil
+
+### iOS远程调试
+域名：`http://${agentIP}:${agentPort}`
+请求地址：`/ios/debug/proxy`
+返回数据：
+```json
+{
+  "data": {
+    "ip": "10.138.35.248",
+    "port": 8858,
+    "proxyId": "delink::slave::ios:debug::proxy::51"
+  },
+  "code": 200,
+  "msg": "请求成功"
+}
+```
+
+### 参考文档
+[点击查看文档](http://wsfdl.com/python/2015/09/06/Python%E5%BA%94%E7%94%A8%E7%9A%84%E6%89%93%E5%8C%85%E5%92%8C%E5%8F%91%E5%B8%83%E4%B8%8A.html)
+### 客户端脚本运行(必须为管理员),不再使用设备后，需要control + c退出服务
+`sudo python3 __main__.py -u ff4d2fd0e61cda14c776454d56abc59d1e3d2777 conn -A=10.138.35.248 -P=8858`
+
+### 客户端脚本恢复环境命令(必须为管理员)
+`sudo python3 __main__.py conn_reset`
+
+### delink客户端日志
+
+##### 可支持远程iOS链接并调试
+

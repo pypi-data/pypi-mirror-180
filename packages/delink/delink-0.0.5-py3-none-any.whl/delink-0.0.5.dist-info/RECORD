@@ -1,0 +1,9 @@
+delink/__init__.py,sha256=GGQQnBmqrktizXzYXzR7Be3fGsThB3UMnEsv4LiV-Vw,146
+delink/__main__.py,sha256=QOXT7425yqvUyMcA4zoG10P0JaEpAFvr_05BqvJy3rg,2767
+delink/_version.py,sha256=iYO3IdPs0J7e37HvMLnzgv3xxrHtD-TVAHD5kzn8BzU,245
+delink/ios_client.py,sha256=1DIgjwIi2jTas_dja8S1x86nzK7dLBESgSm0wD-WeRA,22018
+delink/ios_watchdog.py,sha256=Whtk4zJ-_H-nld9-mt7VANobNsIeU7cJbpIxk7ecFfQ,5643
+delink-0.0.5.dist-info/METADATA,sha256=qvF4V7s4EnYuRXcL3Pva3LVOvFDVaZyE7IBZRK3zCuU,1283
+delink-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+delink-0.0.5.dist-info/top_level.txt,sha256=7XoNrubVbRB3LVbAYJI0bYt0RjTXR8YTAXjy761E1gE,7
+delink-0.0.5.dist-info/RECORD,,
