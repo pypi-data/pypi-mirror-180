@@ -1,0 +1,11 @@
+extracto/__init__.py,sha256=2CSQMD_JKIyZOHQnRTMDCOtcV_zAahI52KqLQQGPRgo,108
+extracto/annotate.py,sha256=CO8CYNTVGzIaWdf5qifqoqQaz_fmJ-SSCLNCWrg3iXc,3253
+extracto/equals.py,sha256=QIHyNEMaloqGgdhBnvom5A5MtMs2nsJ6-x9f_Hagz1w,2160
+extracto/extract.py,sha256=Hufhoa4-VhpHagBfmzLt0yE5aF2Q3riFxRsEonBy198,3432
+extracto/infer.py,sha256=Z4fzFBqg2cpRDKC9zwMlpglpEL75iOfr6bVCshuWtzY,12154
+extracto/selectors.py,sha256=7u6x70JMmwavFQU7EICk3aKsYykvZN-MGM61wcUX_xw,10569
+extracto-0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+extracto-0.1.dist-info/METADATA,sha256=KaGtchW_gSeHGGu6MG3oAOtw7qO_SHvhjFTIjjQcPGo,3892
+extracto-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+extracto-0.1.dist-info/top_level.txt,sha256=tdL9_mXrA0SumpajIh1bweYdn7bjrfOSQJZ6RIbozac,9
+extracto-0.1.dist-info/RECORD,,
