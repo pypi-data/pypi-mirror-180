@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.py
+scTOP.egg-info/PKG-INFO
+scTOP.egg-info/SOURCES.txt
+scTOP.egg-info/dependency_links.txt
+scTOP.egg-info/requires.txt
+scTOP.egg-info/top_level.txt
+sctop/__init__.py
+sctop/sctop.py
+sctop/databases/data_MC20-KO22.h5
+sctop/databases/metadata_MC20-KO22.csv
