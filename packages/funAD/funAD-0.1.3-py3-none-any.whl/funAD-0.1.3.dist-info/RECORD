@@ -1,0 +1,11 @@
+funAD/__init__.py,sha256=dgRW2THnWAYHwnL62aR4O7iLNK-ScSj1jvT-UOnFyI0,223
+funAD/__main__.py,sha256=m5ZQAicE-hmD21_ueknMVGiPlnUyIgjBn5foAX2WYEQ,87
+funAD/dual_number.py,sha256=rj738-uMb0AcdXs3BIgeY19ZP01NuCCocpuWWm71I-4,11896
+funAD/function.py,sha256=_AALSk4XLltKouMOvaI7e8IVfUSkvBBeYWlrLhpLcl8,3980
+funAD/operations.py,sha256=B3BSndWYrEZglTmHCEa6UITIgLGISvx5KwBT_Fid99g,5122
+funAD/optimizers.py,sha256=BZhl2RYjxuw2tveDOGqg6P2CKuEb29zKzri-NoucLPs,3985
+funAD-0.1.3.dist-info/LICENSE,sha256=k4Txu4_a4tlrDfvBpQ0SO5PMDmoPjvsF0kHNER48JXg,1542
+funAD-0.1.3.dist-info/METADATA,sha256=R8EqaU8PuMEpEfACyTWWBqHDvG6A6LZFfgV_qZvEMuo,2064
+funAD-0.1.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+funAD-0.1.3.dist-info/top_level.txt,sha256=xJP9kUoFMWNMDdod9tnqpwrmmst1Fhahwlnguz5abD8,6
+funAD-0.1.3.dist-info/RECORD,,
