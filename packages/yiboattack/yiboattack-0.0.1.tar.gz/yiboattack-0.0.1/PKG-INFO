@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: yiboattack
+Version: 0.0.1
+Summary: TAILab = T.+AI+Lab
+Home-page: https://github.com/tqthooo2021/Create-Own-Python-Package
+Author: TAILab
+Author-email: 1152036203@qq.com
+License: UNKNOWN
+Description: 
+        TAILab = T. + AI + Lab
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
