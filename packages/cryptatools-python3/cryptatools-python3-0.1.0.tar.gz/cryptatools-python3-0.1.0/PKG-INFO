@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: cryptatools-python3
+Version: 0.1.0
+Summary: Python Binding of the library and cryptanalysis tool 'cryptatools'.
+Home-page: https://github.com/gogo2464/cryptatools
+Author: gogo2464
+Author-email: gogo246475@gmail.com
+Keywords: cryptatools
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown

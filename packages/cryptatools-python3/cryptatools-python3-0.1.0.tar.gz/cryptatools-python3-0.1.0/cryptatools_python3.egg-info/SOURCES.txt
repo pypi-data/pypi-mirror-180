@@ -1,0 +1,13 @@
+README.md
+setup.py
+cryptatools-core/bindings/python3/cryptatools-core/python3_bindings.py
+cryptatools-core/bindings/python3/cryptatools-core/uniffi_cryptatools.dll
+cryptatools-core/bindings/python3/cryptatools-core/cryptography/encryption/monoalphabetic_cipher/caesar_number.py
+cryptatools-core/bindings/python3/cryptatools-core/cryptography/encryption/transpositional_ciphers/columnar_transposition.py
+cryptatools-core/bindings/python3/cryptatools-core/utils/alphabets.py
+cryptatools_python3.egg-info/PKG-INFO
+cryptatools_python3.egg-info/SOURCES.txt
+cryptatools_python3.egg-info/dependency_links.txt
+cryptatools_python3.egg-info/not-zip-safe
+cryptatools_python3.egg-info/requires.txt
+cryptatools_python3.egg-info/top_level.txt
