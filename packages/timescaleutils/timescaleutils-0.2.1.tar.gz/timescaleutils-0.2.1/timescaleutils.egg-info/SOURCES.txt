@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+timescaleutils/__init__.py
+timescaleutils/logger.py
+timescaleutils/main.py
+timescaleutils/timescale.py
+timescaleutils.egg-info/PKG-INFO
+timescaleutils.egg-info/SOURCES.txt
+timescaleutils.egg-info/dependency_links.txt
+timescaleutils.egg-info/requires.txt
+timescaleutils.egg-info/top_level.txt
+timescaleutils/constants/__init__.py
+timescaleutils/constants/app_conf.py
+timescaleutils/constants/datatypes.py
