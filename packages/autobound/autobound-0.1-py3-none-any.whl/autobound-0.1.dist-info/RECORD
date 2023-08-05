@@ -1,0 +1,12 @@
+autobound/__init__.py,sha256=Lgf9keBX7aG_JEFt6UYSyiFKcm-BYGtmk9ohpQhYpyk,20
+autobound/enclosure_arithmetic.py,sha256=GjRdK1gaI8feaGsl1SDq6ztA_oXgBzvD8BEQ8uBYG0M,17791
+autobound/interval_arithmetic.py,sha256=-8FtkHZl0wcIT8V-yqzX5oZFaoNKgXP_7hKqVV9qT6w,13170
+autobound/polynomials.py,sha256=PXGXODGlnIRmjgip8-frnCMm0UFef_mhmuCj_nlVGNQ,9775
+autobound/primitive_enclosures.py,sha256=2j2n6E1NclTtcVD1w9AxYcN9WdSIQV64NvfxNGfyJyo,10727
+autobound/types.py,sha256=hKzDI9u-veZQlAzrQ3Qn5GX48PkF717KwL1TyzOW1M0,23192
+autobound/jax/__init__.py,sha256=pk7K0HQg7K8lUV4Afpuh3A3Ixsa_udDjkRUU0TnrUpU,703
+autobound/jax/jax_bound.py,sha256=rfh7_FjfA0CUhxzK-ishhJCf3dot6v4MfSMQNz3u6LU,16365
+autobound-0.1.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+autobound-0.1.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+autobound-0.1.dist-info/METADATA,sha256=2ml7ukag4yNyy48KzEDJPvzL_3Ho5MjA8oRNVKW3J0w,2548
+autobound-0.1.dist-info/RECORD,,
