@@ -1,0 +1,9 @@
+wasm_cli_runner/__init__.py,sha256=_1n1G-sYjRwojZweER4iD7i472OSeI8Siev1O0QsZFU,78
+wasm_cli_runner/__main__.py,sha256=L7IQNZGwknlWCDl8fxaB7urFj1cU29AI0DfG3Dp8oZI,92
+wasm_cli_runner/VERSION,sha256=axN4nkPlSFY0Uz3hamXYup00xMl1hYi2ZYBUNfgOsRU,5
+wasm_cli_runner/version.py,sha256=ntxX0pTdxTYHW4CaahdVkUbJGnywd3RnAz18aJHzEsU,254
+wasm_cli_runner/wasm_cli_runner.py,sha256=JwjZjycAbLNUFdAJtO0FCfR98ZFDULuTLX17svtM8Hs,5099
+wasm_cli_runner-0.0.1.dist-info/LICENSE,sha256=IJIJ9GcT0pa4wT_hkR6nCjhH6QplPgWR3AeoO65jkB8,1094
+wasm_cli_runner-0.0.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+wasm_cli_runner-0.0.1.dist-info/METADATA,sha256=Gq4gNOeVWZSJIvWW4789fvnlriLz092EcVfDFbMOcHM,1326
+wasm_cli_runner-0.0.1.dist-info/RECORD,,
