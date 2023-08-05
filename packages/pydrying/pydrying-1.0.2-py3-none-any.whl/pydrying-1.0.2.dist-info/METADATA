@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: pydrying
+Version: 1.0.2
+Summary: Drying simulation of solid products
+Author: Hedi ROMDHANA
+Author-email: hedi.romdhana@agroparistech.fr
+License: GPLv3
+Keywords: drying simulation solid finte volume
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Testing
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: SALib
+Requires-Dist: CoolProp
+
+# Welcome to `pydrying` module!
+
+`pydring` is a Python package intended to simulate the drying process. The simulation programs in this module are based on multiphysical and dynamic modeling of the drying phenomena (heat, mass & momentum transfer, and deformation of the drying product). The resolution of drying equations is based on the numerical method of finite volumes. This module calculates the drying kinetics of any solid product. The modeling of drying kinetics is essential in most transformation processes, such as the food industry (sugar industry, biomass refinery, fodder processing, etc.)
+
+## Installation
+WaterOptim runs under Python 3.6+. To install it with [pip](https://pip.pypa.io/en/stable/), run the following:
+`pip install pydrying`
+To upgrade it with [pip](https://pip.pypa.io/en/stable/), run the following:
+`pip install --upgrade pydrying`
+## Basic usage

@@ -1,0 +1,39 @@
+{
+    "moist_air": {
+        "T": {
+            "label": "dry temperature",
+            "unit": "degC",
+            "default": null
+        },
+        "Tw": {
+            "label": "dry temperature",
+            "unit": "degC",
+            "default": null
+        },
+        "Td": {
+            "label": "dew temperature",
+            "unit": "degC",
+            "default": null
+        },
+        "H": {
+            "label": "enthalpy",
+            "unit": "kJ/kg",
+            "default": null
+        },
+        "Y": {
+            "label": "moisture content",
+            "unit": "g/kg",
+            "default": null
+        },
+        "RH": {
+            "label": "relative humidity",
+            "unit": "%",
+            "default": null
+        },
+        "p": {
+            "label": "pressure",
+            "unit": "bar",
+            "default": 1.013
+        },
+    }
+}
