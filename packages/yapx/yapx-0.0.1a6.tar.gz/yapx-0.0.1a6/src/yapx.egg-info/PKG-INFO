@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: yapx
+Version: 0.0.1a6
+Home-page: https://codeberg.org/Fresh2dev/yapx
+Author: donald
+Author-email: hello@Fresh2.dev
+Project-URL: Repository, https://codeberg.org/Fresh2dev/yapx
+Project-URL: Issues, https://codeberg.org/Fresh2dev/yapx/issues
+Project-URL: Documentation, https://www.Fresh2.dev/code/r/yapx/i/docs
+Project-URL: Changelog, https://www.Fresh2.dev/code/r/yapx/i/docs/changelog
+Project-URL: Funding, https://www.Fresh2.dev/tip
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: build
+Provides-Extra: docs
+Provides-Extra: dev
+Provides-Extra: tests
+Provides-Extra: pydantic
+License-File: LICENSE
+
+# yapx
+
+|               |                                           |
+| ------------- | ----------------------------------------- |
+| Repo          | https://codeberg.org/Fresh2dev/yapx       |
+| Repo Mirror   | https://www.Fresh2.dev/code/r/yapx        |
+| Documentation | https://www.Fresh2.dev/code/r/yapx/i/docs |
+| Funding       | https://www.Fresh2.dev/tip                |
+
+---
+
+## Build
+
+```sh
+myke py-mkdocs
+```
+
+## Deploy
+
+```sh
+myke stack-up
+```
