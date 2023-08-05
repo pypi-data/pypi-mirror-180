@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+__init__.py
+assertions.py
+functions.py
+setup.py
+apiComs.egg-info/PKG-INFO
+apiComs.egg-info/SOURCES.txt
+apiComs.egg-info/dependency_links.txt
+apiComs.egg-info/requires.txt
+apiComs.egg-info/top_level.txt
