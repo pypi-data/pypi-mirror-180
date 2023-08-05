@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: bertagent
+Version: 0.0.6.post0.dev1
+Summary: bertagent helpers
+Home-page: https://github.com/bertagent/bertagent
+Author: The Bertagent Development Team
+Author-email: enchanted.stardust@protonmail.com
+License: GNU General Public License v3 or later (GPLv3+)
+Project-URL: Bug Tracker, https://github.com/bertagent/bertagent/issues
+Project-URL: Documentation, https://github.com/bertagent/bertagent/docs
+Project-URL: Source Code, https://github.com/bertagent/bertagent
+Keywords: bertagent,helpers
+Platform: any
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Topic :: Scientific/Engineering
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: transformers (>=4.17.0)
+Requires-Dist: huggingface-hub (>=0.5.1)
+Requires-Dist: datasets (>=2.1.0)
+Requires-Dist: pandas (>=1.4.2)
+
+UNKNOWN
+
