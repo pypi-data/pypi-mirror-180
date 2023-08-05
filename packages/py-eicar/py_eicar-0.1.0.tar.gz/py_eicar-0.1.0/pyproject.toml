@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "py-eicar"
+version = "0.1.0"
+description = "pypi eicar"
+authors = ["matthew.gill <matthew.gill@servicenow.com>"]
+license = "UNLICENSE"
+readme = "README.md"
+packages = [{include = "py_eicar"}]
+
+[tool.poetry.dependencies]
+python = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
