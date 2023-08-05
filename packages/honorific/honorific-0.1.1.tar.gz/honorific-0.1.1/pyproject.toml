@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "honorific"
+version = "0.1.1"
+description = ""
+authors = ["Artem Snegirev <a.snegirev@promo-bot.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+spacy = "^3.4.3"
+pymorphy2 = "^0.9.1"
+twine = "^4.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
