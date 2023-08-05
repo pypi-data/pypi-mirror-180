@@ -1,0 +1,584 @@
+Metadata-Version: 2.1
+Name: timescaleutils
+Version: 0.2.0
+Summary: Utility for TimescaleDB
+Author: Knowledge Lens
+Author-email: kayef.ahamad@knowledgelens.com
+License: BSD 2-clause
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytz
+Requires-Dist: sqlalchemy
+Requires-Dist: setuptools
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+<link rel="stylesheet" href="https://assets.readthedocs.org/static/css/readthedocs-doc-embed.css" type="text/css" />
+
+<style>
+    a.src-href {
+        float: right;
+    }
+    p.attr {
+        margin-top: 0.5em;
+        margin-left: 1em;
+    }
+    p.func-header {
+        background-color: gainsboro;
+        border-radius: 0.1em;
+        padding: 0.5em;
+        padding-left: 1em;
+    }
+    table.field-table {
+        border-radius: 0.1em
+    }
+</style>Importing modules
+
+<table class="docutils field-list field-table" frame="void" rules="none">
+    <col class="field-name" />
+    <col class="field-body" />
+    <tbody valign="top">
+        
+    </tbody>
+</table>
+
+
+
+##C:\.Users.kayef.ahamad.PycharmProjects.timeScaleUtils.timescaleutils.timescale.**TimeScaleUtilsException**
+
+
+
+
+
+<table class="docutils field-list field-table" frame="void" rules="none">
+    <col class="field-name" />
+    <col class="field-body" />
+    <tbody valign="top">
+        
+    </tbody>
+</table>
+
+
+
+
+
+##C:\.Users.kayef.ahamad.PycharmProjects.timeScaleUtils.timescaleutils.timescale.**TimeScaleUtils**
+
+<p class="func-header">
+    <i>class</i> C:\.Users.kayef.ahamad.PycharmProjects.timeScaleUtils.timescaleutils.timescale.<b>TimeScaleUtils</b>(<i>def __init__(self</i>) 
+</p>
+
+A Utility Class for TimeScale DB.
+
+<table class="docutils field-list field-table" frame="void" rules="none">
+    <col class="field-name" />
+    <col class="field-body" />
+    <tbody valign="top">
+        
+    </tbody>
+</table>
+
+
+
+####Methods
+
+
+
+<p class="func-header">
+    <i></i> <b>generate_md</b>(<i>self</i>) 
+</p>
+
+The generate_md function takes a BeautifulSoup object and returns a string of ReST formatted text.
+The function uses the sklearn compiler to convert the soup into ReST, and writes it to an output file.
+
+:param self: Reference the object itself
+:return: A string of the markdown file
+:doc-author: Trelent
+
+<table class="docutils field-list field-table" frame="void" rules="none">
+    <col class="field-name" />
+    <col class="field-body" />
+    <tbody valign="top">
+        
+    </tbody>
+</table>
+
+
+
+
+
+<p class="func-header">
+    <i></i> <b>enable_timescale</b>(<i>self</i>) 
+</p>
+
+The enable_timescale function enables the Timescale Extension in Postgres.
+It returns True if successful, False otherwise.
+
+:param self: Access the class attributes
+:return: True if the timescale extension is enabled, false otherwise
+
+<table class="docutils field-list field-table" frame="void" rules="none">
+    <col class="field-name" />
+    <col class="field-body" />
+    <tbody valign="top">
+        
+    </tbody>
+</table>
+
+
+
+
+
+<p class="func-header">
+    <i></i> <b>check_timescale</b>(<i>self</i>) 
+</p>
+
+The check_timescale function checks if the Timescale Extension is enabled or not.
+It returns True if it is enabled else False.
+
+:param self: Allow the method to reference attributes that are defined in the class
+:return: True if timescale extension is enabled else false
+:doc-author: Trelent
+
+<table class="docutils field-list field-table" frame="void" rules="none">
+    <col class="field-name" />
+    <col class="field-body" />
+    <tbody valign="top">
+        
+    </tbody>
+</table>
+
+
+
+
+
+<p class="func-header">
+    <i></i> <b>create_table</b>(<i>self, tbl_name, table_data</i>) 
+</p>
+
+The create_table function creates a table in the database.
+It takes two arguments, tbl_name and table_data.
+tbl_name is the name of the table to be created and should be a string.
+table_data is data for each column in the new table as a list of lists with three elements per list:
+the column name, data type, and size (e.g., [['id', 'bigint', 0], ['names', 'varchar(200)']).
+
+:param tbl_name: string
+:param table_data: dict [{"column": 'id', "datatype": "bigint", "length": "0"},{"column": 'names',
+"datatype": "varchar", "length": "200"},{"column": 'date_time', "datatype": "timestamp", "length": "0"}]
+:param self: Access variables that belongs to the class :return: True if the table is created :doc-author:
+Trelent
+
+<table class="docutils field-list field-table" frame="void" rules="none">
+    <col class="field-name" />
+    <col class="field-body" />
+    <tbody valign="top">
+        
+    </tbody>
+</table>
+
+
+
+
+
+<p class="func-header">
+    <i></i> <b>create_index</b>(<i>self, tbl_name, is_unique: Literal[True, False], columns </i>) 
+</p>
+
+The create_index function creates an index on a table in the Postgres database.
+The function takes three arguments: tbl_name, is_unique, and columns. The tbl_name argument is a string that specifies the name of the table you want to create an index on (e.g., 'users'). The is_unique argument should be True if you want to create a unique index (e.g., UNIQUE INDEX). Finally, columns should be a list of strings where each element in the list represents one column that will be included in your index.
+
+:param tbl_name:
+:param columns:
+:param self: Access variables that belong to the class
+:param is_unique:Literal[True: Create unique index
+:return: True if the index is created else false
+:doc-author: Trelent
+
+<table class="docutils field-list field-table" frame="void" rules="none">
+    <col class="field-name" />
+    <col class="field-body" />
+    <tbody valign="top">
+        
+    </tbody>
+</table>
+
+
+
+
+
+<p class="func-header">
+    <i></i> <b>check_unique</b>(<i>self, tbl_name</i>) 
+</p>
+
+The check_unique function checks if a unique index is available in the table.
+It takes two arguments, tbl_name which is the name of the table and returns True if
+the unique index exists else False.
+
+:param tbl_name:
+:param self: Access variables that belongs to the class
+:return: True if the unique index exists else false
+:doc-author: Trelent
+
+<table class="docutils field-list field-table" frame="void" rules="none">
+    <col class="field-name" />
+    <col class="field-body" />
+    <tbody valign="top">
+        
+    </tbody>
+</table>
+
+
+
+
+
+<p class="func-header">
+    <i></i> <b>create_hypertable</b>(<i>self, tbl_name, column_name</i>) 
+</p>
+
+The create_hypertable function creates a hypertable in Postgres.
+The function takes two arguments: tbl_name and column_name.
+tbl_name is the name of the table to be created as a hypertable, while column_name is the name of the time-based partitioning
+column for that table.
+
+:param self: Access variables that belong to the class
+:param tbl_name: Specify the table that you want to create a hypertable for
+:param column_name: Specify the name of the column that will be used to partition the table
+:return: True if the table is created else returns false
+:doc-author: Trelent
+
+<table class="docutils field-list field-table" frame="void" rules="none">
+    <col class="field-name" />
+    <col class="field-body" />
+    <tbody valign="top">
+        
+    </tbody>
+</table>
+
+
+
+
+
+<p class="func-header">
+    <i></i> <b>selectgroupdata</b>(<i>self, select_type: Literal['avg', 'cols', 'sum', 'max', 'min', 'arr_agg', 'all'], timerange, condition, group_by, order_by, columns, limit</i>) 
+</p>
+
+The selectgroupdata function is used to select data from the table.
+It takes in a number of parameters, and returns a list of dictionaries.
+The first parameter is the type of data you want to select: avg, sum, min, max or all (all selects every column).
+The second parameter is optional - if not specified it will return all rows between start and end times (inclusive).
+If you do specify a range then only those rows within that time range will be returned. The third parameter allows you to filter by columns using where clauses.
+
+:param self: Access variables that belongs to the class
+:param select_type:Literal[&quot;avg&quot;: Select the average, sum, min, max values from the table
+:param &quot;cols&quot;: Select all columns from the table
+:param &quot;sum&quot;: Select the sum of a column
+:param &quot;max&quot;: Select the maximum value from a column
+:param &quot;min&quot;: Select the minimum value from a column
+:param &quot;arr_agg&quot;: Select the array_aggregate function from the database
+:param &quot;all&quot;]: Select all columns from the table
+:param group_by: Group the data by a column
+:param timerange: Specify the time range that you want to select
+Format : {"start":"2022-11-01 12:00:00","end":"2022-11-02 12:00:00"}Specify the time range that you want to select
+:param condition: Filter the data
+Format : {"name": "orwhere/where", "condition": {"column2": "value2"}} Filter the data
+Format : {"name": "orwhere/where", "condition": {"column2": "value2"}}
+:param order_by: Order the data
+:param columns: Specify which columns you want to select
+:param limit: Limit the number of rows returned
+:return: The data that is selected from the table
+:doc-author: Trelent
+
+<table class="docutils field-list field-table" frame="void" rules="none">
+    <col class="field-name" />
+    <col class="field-body" />
+    <tbody valign="top">
+        
+    </tbody>
+</table>
+
+
+
+
+
+<p class="func-header">
+    <i></i> <b>insert</b>(<i>self, dataset</i>) 
+</p>
+
+The insert function takes a dataset as an argument. The dataset is a list of dictionaries, where each dictionary
+is one row in the table. The insert function will iterate over the rows and insert them into the database.
+
+:param dataset:
+:param self: Reference the class instance
+:return: The number of rows inserted
+:doc-author: Trelent
+
+<table class="docutils field-list field-table" frame="void" rules="none">
+    <col class="field-name" />
+    <col class="field-body" />
+    <tbody valign="top">
+        
+    </tbody>
+</table>
+
+
+
+
+
+<p class="func-header">
+    <i></i> <b>delete</b>(<i>self, where</i>) 
+</p>
+
+The delete function is used to delete data from the Postgres table.
+It takes in a dictionary as an argument, where the keys are column names and values are row values.
+If no condition is specified, it will delete all rows from the table.
+
+:param self: Access variables that belongs to the class
+:param where: Specify the condition of the data that needs to be deleted
+:return: True if the data is deleted else false
+:doc-author: Trelent
+
+<table class="docutils field-list field-table" frame="void" rules="none">
+    <col class="field-name" />
+    <col class="field-body" />
+    <tbody valign="top">
+        
+    </tbody>
+</table>
+
+
+
+
+
+<p class="func-header">
+    <i></i> <b>average</b>(<i>self, *args</i>) 
+</p>
+
+The average function is used to get the average of a column in the database.
+It takes in 4 parameters: timerange, where and orwhere.
+start and end are strings that represent dates in YYYY-MM-DD format.
+where is a dictionary containing columns as keys and values as values for those columns.
+orwhere is also a dictionary containing columns as keys and values for those columns.
+
+:param timerange: Specify the time range that you want to select
+Format : {"start":"2022-11-01 12:00:00","end":"2022-11-02 12:00:00"}
+:param condition: Filter the data
+Format : {"name": "orwhere/where", "condition": {"column2": "value2"}}
+:param order_by:
+:param group_by:
+:param columns:
+:param limit:
+:param self: Access variables that belongs to the class
+:return: The average value of the values' column
+:doc-author: Trelent
+
+<table class="docutils field-list field-table" frame="void" rules="none">
+    <col class="field-name" />
+    <col class="field-body" />
+    <tbody valign="top">
+        
+    </tbody>
+</table>
+
+
+
+
+
+<p class="func-header">
+    <i></i> <b>sum</b>(<i>self, *args</i>) 
+</p>
+
+The sum function takes a column name and returns the sum of all values in that column.
+The function can also take an optional start parameter, which will be used to filter the results by date_time greater than or equal to it.
+Similarly, end is another optional parameter that allows you to filter by date_time less than or equal to it.
+
+:param self: Access variables that belongs to the class
+:param timerange: Filter the data between a time range
+Format : {"start":"2022-11-01 12:00:00","end":"2022-11-02 12:00:00"}
+:param condition: Filter the data
+Format : {"name": "orwhere/where", "condition": {"column2": "value2"}}
+:param order_by: Order the results by a particular column
+:param group_by: Group the results by a column
+:param columns: Select the columns that you want to return
+:param limit: Limit the number of results returned
+:return: The sum of the values in a column
+:doc-author: Trelent
+
+<table class="docutils field-list field-table" frame="void" rules="none">
+    <col class="field-name" />
+    <col class="field-body" />
+    <tbody valign="top">
+        
+    </tbody>
+</table>
+
+
+
+
+
+<p class="func-header">
+    <i></i> <b>all</b>(<i>self, *args</i>) 
+</p>
+
+The all function is used to get all the data from the database.
+
+
+:param timerange: Filter the data between a time range
+Format : {"start":"2022-11-01 12:00:00","end":"2022-11-02 12:00:00"}
+:param condition: Filter the data
+Format : {"name": "orwhere/where", "condition": {"column2": "value2"}}
+:param order_by: Order the data by a column
+:param group_by: Group the results by a column
+:param columns: Add extra column name to be fetched
+:param limit: Limit the number of rows returned
+:return: A list of average datas based on conditions
+:doc-author: Trelent
+
+<table class="docutils field-list field-table" frame="void" rules="none">
+    <col class="field-name" />
+    <col class="field-body" />
+    <tbody valign="top">
+        
+    </tbody>
+</table>
+
+
+
+
+
+<p class="func-header">
+    <i></i> <b>columns</b>(<i>self, *args</i>) 
+</p>
+
+The columns function takes in a list of column names and returns the data from those columns.
+The function also allows for filtering, sorting, grouping and limiting.
+
+
+:param self: Access variables that belongs to the class
+:param timerange: Select the data between a specific time range
+Format : {"start":"2022-11-01 12:00:00","end":"2022-11-02 12:00:00"}
+:param condition: Filter the data
+Format : {"name": "orwhere/where", "condition": {"column2": "value2"}}
+:param order_by: Sort the data
+:param group_by: Group the data by a column
+:param columns: Specify the columns that you want to fetch
+:param limit: Limit the number of rows returned
+:return: A list of columns
+:doc-author: Trelent
+
+<table class="docutils field-list field-table" frame="void" rules="none">
+    <col class="field-name" />
+    <col class="field-body" />
+    <tbody valign="top">
+        
+    </tbody>
+</table>
+
+
+
+
+
+<p class="func-header">
+    <i></i> <b>min</b>(<i>self, *args</i>) 
+</p>
+
+The min function returns the minimum value of a column in a table.
+The function takes up to three arguments:
+1) The name of the table to query.
+2) A filter condition that specifies which rows should be included in the result set.
+This argument is optional, and if omitted all rows will be included in the result set.
+
+:param self: Access variables that belongs to the class
+:param timerange: Specify the time range that you want to select
+Format : {"start":"2022-11-01 12:00:00","end":"2022-11-02 12:00:00"}
+:param condition: Filter the data
+Format : {"name": "orwhere/where", "condition": {"column2": "value2"}}
+:param order_by: Sort the data in ascending or descending order
+:param group_by: Group the data by a column
+:param columns: Fetch extra columns
+:param limit: Limit the number of rows returned
+:return: The minimum value of the column specified in the query
+:doc-author: Trelent
+
+<table class="docutils field-list field-table" frame="void" rules="none">
+    <col class="field-name" />
+    <col class="field-body" />
+    <tbody valign="top">
+        
+    </tbody>
+</table>
+
+
+
+
+
+<p class="func-header">
+    <i></i> <b>max</b>(<i>self, *args</i>) 
+</p>
+
+The max function is used to get the maximum value of a column based on conditions.
+The function takes in 6 parameters: timerange, condition, order_by and group_by.
+start and end are strings that represent the time period for which data should be fetched.
+where is a dictionary that contains columns as keys and values as values for those columns.
+orwhere is also a dictionary with same format as where, but it only accepts one key-value pair per column name unlike where which can accept multiple pairs under one column name (column names are unique).  The function returns all results from max
+
+:param timerange: Specify the time range that you want to select
+Format : {"start":"2022-11-01 12:00:00","end":"2022-11-02 12:00:00"}
+:param condition: Filter the data
+Format : {"name": "orwhere/where", "condition": {"column2": "value2"}}
+:param self: Access variables that belongs to the class
+:param order_by: Sort the result
+:param group_by: Group the data by a column
+:param columns: Fetch extra columns
+:param limit: Limit the number of rows returned
+:return: The maximum value of the specified column in a table
+:doc-author: Trelent
+
+<table class="docutils field-list field-table" frame="void" rules="none">
+    <col class="field-name" />
+    <col class="field-body" />
+    <tbody valign="top">
+        
+    </tbody>
+</table>
+
+
+
+
+
+<p class="func-header">
+    <i></i> <b>array_agg</b>(<i>self, *args</i>) 
+</p>
+
+Sub Function for getting group datas in List.
+
+:return:
+:param condition: Filter the data
+Format : {"name": "orwhere/where_and", "condition": {"column2": "value2"}}
+:param timerange: Specify the time range that you want to select
+Format : {"start":"2022-11-01 12:00:00","end":"2022-11-02 12:00:00"}
+:param order_by: (List) Order By Column Name ASC/DESC.
+-- Format : ["column_name","desc"]
+:param group_by: (String) Group By Column Name
+:param columns: (List) Add extra Column Name to be fetched.
+-- Format : ["column_1","column_2","column_3"]
+:param limit: (List) For adding Limit.
+-- Format : [limit,offset]
+:return: List of group datas based on conditions.
+
+<table class="docutils field-list field-table" frame="void" rules="none">
+    <col class="field-name" />
+    <col class="field-body" />
+    <tbody valign="top">
+        
+    </tbody>
+</table>
+
