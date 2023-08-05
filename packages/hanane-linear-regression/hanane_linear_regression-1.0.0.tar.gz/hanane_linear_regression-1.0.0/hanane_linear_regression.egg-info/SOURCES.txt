@@ -1,0 +1,9 @@
+LICENCE.TXT
+README.md
+setup.py
+hanane_linear_regression/__init__.py
+hanane_linear_regression/linear_regression.py
+hanane_linear_regression.egg-info/PKG-INFO
+hanane_linear_regression.egg-info/SOURCES.txt
+hanane_linear_regression.egg-info/dependency_links.txt
+hanane_linear_regression.egg-info/top_level.txt
