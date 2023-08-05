@@ -1,0 +1,9 @@
+[opentelemetry_instrumentor]
+__main__=redhat_opentelemetry_contrib.script_instrumentor:ScriptInstrumentor
+
+[opentelemetry_metrics_exporter]
+file=redhat_opentelemetry_contrib.file_exporters:FileMetricExporter
+
+[opentelemetry_traces_exporter]
+file=redhat_opentelemetry_contrib.file_exporters:FileSpanExporter
+
