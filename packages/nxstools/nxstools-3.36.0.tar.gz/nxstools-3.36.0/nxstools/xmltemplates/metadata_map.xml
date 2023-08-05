@@ -1,0 +1,12 @@
+<?xml version='1.0'?>
+<definition>
+  <group type="NXentry" name="$var.entryname#'scan'$var.serialno">
+    <group type="NXinstrument" name="instrument">
+      <group type="NXparameters" name="nxsfileinfo_parameters">
+	<field type="NX_FLOAT" name="copymap">
+	  <strategy mode="INIT"/>{"scientificMetadata.instrument":null,"scientificMetadata.sample":null,"scientificMetadata.instrument_name":"scientificMetadata.instrument.name.value","scientificMetadata.sample_name":"scientificMetadata.sample.name.value"}
+	</field>
+      </group>
+    </group>
+  </group>
+</definition>
