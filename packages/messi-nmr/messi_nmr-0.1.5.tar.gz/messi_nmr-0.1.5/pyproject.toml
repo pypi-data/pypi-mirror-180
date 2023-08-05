@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "messi_nmr"
+version = "0.1.5"
+description = "Multi Ensamble Strategy for Structural Identification (MESSI). Developed by Sarotti Lab"
+authors = ["María M. Zanardi & Ariel M. Sarotti"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+scipy = ">=1.9.3"
+numpy = ">=1.23.5"
+openpyxl = ">=3.0.10"
+sklearn = ">=0.0.post1"
+tk = ">=0.1.0"
+pandas = ">=1.5.2"
+scikit-learn = ">=1.1.3"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.plugins."messi.main"]
+messi = "messi_nmr.messi_nmr:main"
+
+[tool.poetry.scripts]
+messi = "messi_nmr.messi_nmr:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
