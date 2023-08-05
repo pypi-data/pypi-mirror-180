@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: micropython-dgus
+Version: 0.0.1
+Summary: DGUS library for micropython
+Home-page: https://github.com/octopuslab-cz/micropython-dgus
+Author: Petr Kracik
+Author-email: petrkr@petrkr.net
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# micropython-dgus
+
+TODO:
+ - reate some documentation, for now check test.py as example
+ - do not raise exception if there are more messages in buffer, instead try to process all of them
