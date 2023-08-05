@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: serialzy
+Version: 0.0.5
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: ʎzy developers
+License: LICENSE
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+License-File: LICENSE
+License-File: AUTHORS
+Requires-Dist: packaging (>=21.3)
+Requires-Dist: typing-extensions (>=4.4.0)
+
+UNKNOWN
+
