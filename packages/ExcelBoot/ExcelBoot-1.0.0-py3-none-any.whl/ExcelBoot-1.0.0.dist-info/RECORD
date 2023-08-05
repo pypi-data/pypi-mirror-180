@@ -1,0 +1,11 @@
+ExcelBoot/__init__.py,sha256=DlgImIO6-7ZMjPtyJHnXeAclyaXS-VReVUKn8tMaw2E,396
+ExcelBoot/boot.py,sha256=AcZ0Bb6kEuzHVSmZ8ftwHRvDuEB3ZYbp9CSnIvprkq4,28148
+ExcelBoot/color2rgb.py,sha256=4-Kh9H4M3p6bs3P9KcFo7w21A3JHHS1Y5RKJjoS_fn4,6349
+ExcelBoot/db.py,sha256=uj9anBWLVoTQyMnJoaXtvXDvcC-d7H8bcrt9Kyx-RRo,2984
+ExcelBoot/df_col_mapper.py,sha256=xaAZq8DnoWst0tBA3yUz_QZ503Z70OJ3NodSt-U8nhk,3182
+ExcelBoot/styleable_wrapper.py,sha256=IdxiHVBGzi9dYKehzy27fVb6rxq2NC9LDixRhqbHkKs,4055
+ExcelBoot-1.0.0.dist-info/METADATA,sha256=dmjBbvHPy4HL5UdaPWcmHub2NT457Y3198R_ciATzdU,11730
+ExcelBoot-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ExcelBoot-1.0.0.dist-info/entry_points.txt,sha256=4Egw2DjB8ejBfGqC7qnzibZrQ5I0JBPe2qDM1jrLcZg,50
+ExcelBoot-1.0.0.dist-info/top_level.txt,sha256=OceHcPDUYHH39Q3AAKb6AUPLuY_8LbZpWxpSMovDQ3w,10
+ExcelBoot-1.0.0.dist-info/RECORD,,
