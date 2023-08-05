@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+autobote/__init__.py
+autobote/android.py
+autobote/web.py
+autobote/web_cloud.py
+autobote/windows.py
+autobote/windows_cloud.py
+autobote.egg-info/PKG-INFO
+autobote.egg-info/SOURCES.txt
+autobote.egg-info/dependency_links.txt
+autobote.egg-info/top_level.txt
