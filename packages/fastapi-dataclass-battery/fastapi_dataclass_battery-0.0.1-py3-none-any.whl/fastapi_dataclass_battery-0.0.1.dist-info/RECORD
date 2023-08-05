@@ -1,0 +1,8 @@
+fastapi_dataclass_battery/__init__.py,sha256=DsAHdxLC16H2VjdFOU5tBx2xT9VnNQ-XbTS24fRCa_w,22
+fastapi_dataclass_battery/dataclasses.py,sha256=5hhL9Qt_buRqlVYM_iHf3kwj1TD6lpFZyieaH4wIukw,7842
+fastapi_dataclass_battery/fastapi.py,sha256=SxWGobDxjcxMvU4nzMSmu6H5G1Jz4IcYwY5IQrwn7s8,3368
+fastapi_dataclass_battery-0.0.1.dist-info/LICENSE.md,sha256=sLvBonQXRrp2NWwWS3S8w15PZTohKUcM16xsrvUd3uI,1561
+fastapi_dataclass_battery-0.0.1.dist-info/METADATA,sha256=ncAfSbw_LdU1yqk4qdnrR7geNrRiwsQsM7Os5hzz9NA,844
+fastapi_dataclass_battery-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+fastapi_dataclass_battery-0.0.1.dist-info/top_level.txt,sha256=o5zNQFWQGyqNU5dOYROuxiJdr8BhpYCWjjVgPM4eb7U,26
+fastapi_dataclass_battery-0.0.1.dist-info/RECORD,,
