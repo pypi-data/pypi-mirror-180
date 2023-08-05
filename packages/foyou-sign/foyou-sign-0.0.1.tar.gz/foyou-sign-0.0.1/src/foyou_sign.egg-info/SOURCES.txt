@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/foyou_sign/__init__.py
+src/foyou_sign.egg-info/PKG-INFO
+src/foyou_sign.egg-info/SOURCES.txt
+src/foyou_sign.egg-info/dependency_links.txt
+src/foyou_sign.egg-info/entry_points.txt
+src/foyou_sign.egg-info/top_level.txt

@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: foyou-sign
+Version: 0.0.1
+Summary: python pypi package example
+Home-page: https://github.com/foyoux/foyou-sign
+Author: foyou
+Author-email: yimi.0822@qq.com
+License: GPL-3.0
+Project-URL: Source, https://github.com/foyoux/foyou-sign
+Project-URL: Bug Tracker, https://github.com/foyoux/foyou-sign/issues
+Keywords: python pypi package example
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Environment :: Console
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.7.*
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# foyou-sign
+
+apk 签名相关
+
+[![python version](https://img.shields.io/pypi/pyversions/foyou-sign)](https://pypi.org/project/foyou-sign/)  [![Downloads](https://static.pepy.tech/personalized-badge/foyou-sign?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads)](https://pepy.tech/project/foyou-sign)
+
+## 设计一下
+
+```shell
+pykeytool
+
+pykeytool -h/--help
+
+pysign -v/--version
+
+pysign -p/--password <密码> -a/--alias <别名> -y/--year <多少年的有效期> -n/--name <First and Last Name> --org <Organization> --city <City or Locality> --state-or-province <州或省> --country-code <国家代码>
+```
+
