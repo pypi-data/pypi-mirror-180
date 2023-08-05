@@ -1,0 +1,3 @@
+[pyang.plugin]
+jnc = pyang_jnc:pyang_plugin_init
+

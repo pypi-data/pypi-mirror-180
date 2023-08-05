@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pyang-jnc
+Version: 1.1.0
+Summary: Pyang plugin generating classes for Java NETCONF Client
+Home-page: https://github.com/tail-f-systems/JNC/
+Author: Tail-f, a Cisco company
+Author-email: nyat_support@cisco.com
+License: Apache-2.0
+Keywords: NETCONF CLI client
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: System :: Networking :: Monitoring
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Java
+Requires-Dist: pyang
+
+JNC Pyang plugin
+================
+
+Pyang plugin for generating Java classes for the JNC library.  See the `JNC
+GitHub page <https://github.com/tail-f-systems/JNC/>`__ for more details.
+
+
+
