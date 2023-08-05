@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: jackdaw
+Version: 0.4.1
+Summary: Gathering shiny things from your domain
+Home-page: https://github.com/skelsec/jackdaw
+Author: Tamas Jos
+Author-email: info@skelsecprojects.com
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: asyauth (>=0.0.4)
+Requires-Dist: asysocks (>=0.2.2)
+Requires-Dist: minikerberos (>=0.3.2)
+Requires-Dist: aiosmb (>=0.4.2)
+Requires-Dist: msldap (>=0.4.1)
+Requires-Dist: winacl (>=0.1.5)
+Requires-Dist: sqlalchemy (>=1.4)
+Requires-Dist: tqdm
+Requires-Dist: networkx
+Requires-Dist: websockets
+Requires-Dist: python-igraph
+Requires-Dist: aiosqlite
+Requires-Dist: colorama ; platform_system == "Windows"
+
