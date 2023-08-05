@@ -1,0 +1,15 @@
+nudisxs/__about__.py,sha256=tcTE7G1_tGq5vqrGkFTYv986sz3ebNRnnkAmNlkF0rE,122
+nudisxs/__init__.py,sha256=rRpdD8ZbQZiaaUJpr9Z3k_JLpjnCIHIRcM5cpB9FUB0,100
+nudisxs/_nudisxs.cpython-310-darwin.so,sha256=4e5gUhsknAQfy2f6TOBerN681lMOfCsTBClNUEfrg20,164920
+nudisxs/disxs.py,sha256=2rEDv3VnK9nrQpYw1h3rUt892eOBCPkE-sTVQ-b_cpo,8204
+nudisxs/libDISxs.dylib,sha256=rdtmFl9ZmORD2JthacJu3wN_11R5gXCPNqRt-TUTciI,105056
+nudisxs/tests/__init__.py,sha256=rRpdD8ZbQZiaaUJpr9Z3k_JLpjnCIHIRcM5cpB9FUB0,100
+nudisxs/tests/test_cubepy.py,sha256=BLwgMe8tKaN1e9X4YjGrDsYw14o8BNhR5E7AuSl7AXo,1176
+nudisxs/tests/test_dis.py,sha256=FT8y0x25h0G5SqCwKfL3x56D4htkVCGgW3nY5r20RXc,2512
+nudisxs/tests/test_dis_kinematics.py,sha256=_6QtCMAI6rGSfxOlrvZwsKvxDtdMKzu3N-IE5ROH8JU,501
+nudisxs/tests/test_dis_total.py,sha256=nxPPTq-thjM_qAxT4FAsmbqN-MC1ugl1r-OoD6TD-ng,820
+nudisxs-1.0.6.dist-info/LICENSE.txt,sha256=cI-CCvousts_YJOiVktippLAMG-32JCBbuwWTONTA9k,1092
+nudisxs-1.0.6.dist-info/METADATA,sha256=AclOP7Bgfx8hdjm4SrUQJzwGls90Y6QiPZ_xNsDEk4w,2406
+nudisxs-1.0.6.dist-info/WHEEL,sha256=5KDqCDFRQbXPpf0hXo7vEV1XUwc06NdxhFznNOmKbmc,105
+nudisxs-1.0.6.dist-info/top_level.txt,sha256=t9wxLIUvYafWk324BQGDG9-dfvLlKXdDuPo7SwHj3yo,22
+nudisxs-1.0.6.dist-info/RECORD,,
