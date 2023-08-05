@@ -1,0 +1,17 @@
+tqdm
+lxml
+numpy
+astropy
+astroquery
+geos
+shapely
+matplotlib
+descartes
+pyyaml
+scikit-image
+sregion
+pysiaf
+
+[test]
+pytest>=5.1
+flake8
