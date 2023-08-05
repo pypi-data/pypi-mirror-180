@@ -1,0 +1,5 @@
+click
+
+[tests]
+coverage
+pytest
