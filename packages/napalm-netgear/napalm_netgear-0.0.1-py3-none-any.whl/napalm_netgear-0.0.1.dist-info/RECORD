@@ -1,0 +1,8 @@
+napalm_netgear/__init__.py,sha256=-bteNdgVv5noGrqYq-KKOQCN-iHjS_rtWxkPyvr_VIo,86
+napalm_netgear/netgear.py,sha256=3Xo7M9SgMq1tPFsjcXtKBy-t8gxhtTibpIi8SJ76Bwo,13441
+napalm_netgear/parser.py,sha256=KTYuduGZ37mzF4PzOr99xvxIN3-yTdq61c6miHBoEs4,8536
+napalm_netgear-0.0.1.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+napalm_netgear-0.0.1.dist-info/METADATA,sha256=zFgLlF3_FYNTJmVyO16qV9RS6n2vOB3dNPIGVQW1y18,2203
+napalm_netgear-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+napalm_netgear-0.0.1.dist-info/top_level.txt,sha256=Vv7WV6AWVqWUSnzS8hR1-i36HIg1iJevlqC_sRJPTbg,15
+napalm_netgear-0.0.1.dist-info/RECORD,,
