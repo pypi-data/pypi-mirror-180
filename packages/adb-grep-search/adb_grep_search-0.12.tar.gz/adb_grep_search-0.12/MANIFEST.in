@@ -1,0 +1,4 @@
+include adb_grep_search/requirements.txt
+include adb_grep_search/thirdparty.json
+include adb_grep_search/README.MD
+include adb_grep_search/LICENSE

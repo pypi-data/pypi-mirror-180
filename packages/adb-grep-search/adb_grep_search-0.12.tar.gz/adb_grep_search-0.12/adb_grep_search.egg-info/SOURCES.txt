@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+adb_grep_search/LICENSE
+adb_grep_search/README.MD
+adb_grep_search/__init__.py
+adb_grep_search/requirements.txt
+adb_grep_search/thirdparty.json
+adb_grep_search.egg-info/PKG-INFO
+adb_grep_search.egg-info/SOURCES.txt
+adb_grep_search.egg-info/dependency_links.txt
+adb_grep_search.egg-info/requires.txt
+adb_grep_search.egg-info/top_level.txt
