@@ -1,0 +1,10 @@
+qiskit
+qiskit-terra>=0.22
+grpcio
+protobuf
+numpy
+
+[dev]
+grpcio-tools
+black
+pre-commit
