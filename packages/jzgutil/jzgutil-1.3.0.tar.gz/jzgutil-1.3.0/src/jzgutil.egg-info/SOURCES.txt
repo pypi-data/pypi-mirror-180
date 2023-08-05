@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/jzgutil/__init__.py
+src/jzgutil/gangutil.py
+src/jzgutil.egg-info/PKG-INFO
+src/jzgutil.egg-info/SOURCES.txt
+src/jzgutil.egg-info/dependency_links.txt
+src/jzgutil.egg-info/requires.txt
+src/jzgutil.egg-info/top_level.txt
