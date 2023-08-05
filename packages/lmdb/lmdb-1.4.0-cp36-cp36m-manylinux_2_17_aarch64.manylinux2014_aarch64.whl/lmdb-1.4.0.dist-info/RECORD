@@ -1,0 +1,11 @@
+lmdb/__init__.py,sha256=Z5hlTWw_YsM8DCLpJHT7YndZwPRsTUgQVIOgWGERV3Q,1710
+lmdb/__main__.py,sha256=BGmvbVFVpOzuVtimLe_rG8Yo5-oY2kLjObL-vwzffvI,861
+lmdb/_config.py,sha256=aaI1ZvaFzSHHKVrN7S3mMpVQz-9bXP2C-E5Emwz6aNk,247
+lmdb/cpython.cpython-36m-aarch64-linux-gnu.so,sha256=-ieHL5uqnNfn-Tyk-iyAcXGabaXHZpKBP_hEFDushV8,779128
+lmdb/cffi.py,sha256=A2MkoB2IUnO1_tYpZk0jJR4FbryQknKU6WEZvwDVDq0,92210
+lmdb/tool.py,sha256=UMDg6vq8ewJxYKSAuUTRAYFpnDQN3YijOOyjofRAF7w,19675
+lmdb-1.4.0.dist-info/METADATA,sha256=MtTGPLdW2q2Q5zXu3I7fTiX8DgYAQ8dz4RmREBboGrw,1184
+lmdb-1.4.0.dist-info/top_level.txt,sha256=qOkC5Hl6beBqEvdM6eZ-XU2LK4zbo3QHaTOUeHIc7s4,13
+lmdb-1.4.0.dist-info/RECORD,,
+lmdb-1.4.0.dist-info/WHEEL,sha256=ZPo-cudG-FPYxyq1LXmKAMnRyaidvTmBVvSIj1CJfHY,152
+lmdb-1.4.0.dist-info/LICENSE,sha256=MQ_iXIWKlRX8jI19HySmfJSW-EqR4KDkHqmXWxNx5Wk,2214
