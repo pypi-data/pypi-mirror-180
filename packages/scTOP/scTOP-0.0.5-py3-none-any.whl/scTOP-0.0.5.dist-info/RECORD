@@ -1,0 +1,9 @@
+sctop/__init__.py,sha256=Xa4BqAcJZinDD9SA9knwQJP6GDeUvSoN4EiFOIJUlGI,22
+sctop/sctop.py,sha256=8Tn6CY2fCBoU4vKX0IbDqglppCSalj1U_QMl4XBxDts,6831
+sctop/databases/data_MC20-KO22.h5,sha256=ydtNPu93cu7x4gcMmSL4VhTHn9CCxPDTD-Dtw-BFG6A,52808020
+sctop/databases/metadata_MC20-KO22.csv,sha256=Gw54CWDqL0cAYo9lMxcQfwWn9U434WzOoglTNo6lyGs,114198
+scTOP-0.0.5.dist-info/LICENSE.txt,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+scTOP-0.0.5.dist-info/METADATA,sha256=4Wcw8gonH6XULJeYRrZ7lTDAR-YYkpTtyKW_cMOKho0,2499
+scTOP-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+scTOP-0.0.5.dist-info/top_level.txt,sha256=VvxGdVVYsTIKPBOXZBQF336lYUAESImb5BiVIGi7GKQ,6
+scTOP-0.0.5.dist-info/RECORD,,
