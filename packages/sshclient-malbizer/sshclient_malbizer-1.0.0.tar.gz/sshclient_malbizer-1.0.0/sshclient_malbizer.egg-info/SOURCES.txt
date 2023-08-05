@@ -1,0 +1,10 @@
+setup.py
+bin/sshclient-send.py
+sshclient/__init__.py
+sshclient/sshclient.py
+sshclient_malbizer.egg-info/PKG-INFO
+sshclient_malbizer.egg-info/SOURCES.txt
+sshclient_malbizer.egg-info/dependency_links.txt
+sshclient_malbizer.egg-info/not-zip-safe
+sshclient_malbizer.egg-info/requires.txt
+sshclient_malbizer.egg-info/top_level.txt
