@@ -1,0 +1,69 @@
+name: oct2py
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    # Run weekly
+    # * is a special character in YAML so you have to quote this string
+    - cron: "0 0 * * 0"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8, 3.9, "3.10", "3.11"]
+      fail-fast: false
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: jupyterlab/maintainer-tools/.github/actions/base-setup@v1
+      - name: Install Octave
+        run: |
+          sudo apt-get update
+          sudo apt-get install -qq octave octave-signal liboctave-dev
+      - name: Generate coverage report
+        run: |
+          pip install hatch; xvfb-run --auto-servernum hatch run cover:test
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          file: ./coverage.xml
+          flags: unittests
+          name: codecov-umbrella
+          fail_ci_if_error: true
+
+  check_release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: jupyterlab/maintainer-tools/.github/actions/base-setup@v1
+      - uses: jupyter-server/jupyter_releaser/.github/actions/check-release@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: jupyterlab/maintainer-tools/.github/actions/base-setup@v1
+      - run: pip install hatch; hatch run docs:build
+
+  pre-commit:
+    name: pre-commit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: jupyterlab/maintainer-tools/.github/actions/base-setup@v1
+      - uses: jupyterlab/maintainer-tools/.github/actions/pre-commit@v1
+
+  check_links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v3
+      - uses: jupyterlab/maintainer-tools/.github/actions/base-setup@v1
+      - uses: jupyterlab/maintainer-tools/.github/actions/check-links@v1

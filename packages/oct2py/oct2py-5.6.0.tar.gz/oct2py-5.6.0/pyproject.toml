@@ -1,0 +1,112 @@
+[build-system]
+requires = ["hatchling>=1.5"]
+build-backend = "hatchling.build"
+
+[project]
+name = "oct2py"
+dynamic = ["version"]
+description = "'Python to GNU Octave bridge --> run m-files from python.'"
+license = {text = "MIT"}
+authors = [{name = "Steven Silvester", email = "steven.silvester@ieee.org"}]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy >=1.12",
+    "scipy >=0.17",
+    "octave_kernel >= 0.34.0",
+]
+readme = "README.rst"
+
+[project.urls]
+homepage = "https://github.com/blink1073/oct2py"
+documentation = "https://blink1073.github.io/oct2py"
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "pandas",
+    "nbconvert",
+    "pytest-timeout",
+    "pre-commit",
+]
+docs = [
+    "sphinx",
+    "sphinx-bootstrap-theme",
+    "myst_parser",
+    "sphinx_rtd_theme"
+]
+
+[tool.jupyter-releaser.hooks]
+before-build-python = ["sudo apt-get update", "sudo apt-get install -qq octave octave-signal liboctave-dev"]
+before-check-links = ["sudo apt-get update", "sudo apt-get install -qq octave octave-signal liboctave-dev"]
+
+[tool.hatch.version]
+path = "oct2py/_version.py"
+
+[tool.hatch.envs.docs]
+features = ["docs"]
+[tool.hatch.envs.docs.scripts]
+build = "make -C docs html SPHINXOPTS='-W'"
+
+[tool.hatch.envs.test]
+features = ["test"]
+[tool.hatch.envs.test.scripts]
+test = "python -m pytest -vv {args}"
+nowarn = "python -m pytest -vv -W default {args}"
+
+[tool.hatch.envs.cover]
+features = ["test"]
+dependencies = ["coverage", "pytest-cov"]
+[tool.hatch.envs.cover.env-vars]
+ARGS = "--doctest-modules -l --cov-report html --cov-report=xml --cov=oct2py -vv"
+[tool.hatch.envs.cover.scripts]
+test = "python -m pytest $ARGS --cov-fail-under 90 {args}"
+
+[tool.pytest.ini_options]
+testpaths = "oct2py"
+addopts= "-raXs  --durations 10 --color=yes --doctest-modules"
+doctest_optionflags = "NORMALIZE_WHITESPACE IGNORE_EXCEPTION_DETAIL"
+timeout = 300
+# Restore this setting to debug failures
+# timeout_method = "thread"
+filterwarnings= [
+  # Fail on warnings
+  "error",
+  # Ignore our own user warnings
+  "ignore:Using deprecated:UserWarning:oct2py",
+  "ignore:Key - value pairs:UserWarning:oct2py",
+  "module:Jupyter is migrating its paths:DeprecationWarning",
+]
+
+[tool.flake8]
+ignore = "E501, W503, E402"
+builtins = "\"c, get_config\""
+exclude = [
+    ".cache",
+    ".github",
+    "docs",
+]
+enable-extensions = "\"G\""
+extend-ignore = [
+    "G001",
+    "G002",
+    "G004",
+    "G200",
+    "G201",
+    "G202",
+    "E203",
+]
+per-file-ignores = [
+    "tests/*: B011",
+    "F841",
+]
