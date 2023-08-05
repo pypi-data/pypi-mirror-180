@@ -1,0 +1,10 @@
+requests
+json
+urllib
+uuid
+hmac
+hashlib
+base64
+xml
+lxml
+xmltodict

@@ -1,0 +1,19 @@
+[build-system]
+requires = ['setuptools>=60.2.0']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'gxcloud'
+version = '0.1.0'
+authors = [
+    { name='Zac Thiel', email='zac.thiel@granicus.com'}
+]
+description = 'A python package for using the OpenCities API'
+readme = 'README.md'
+requires-python = '>=3.8'
+dependencies = ['requests', 'json', 'urllib', 'uuid', 'hmac', 'hashlib', 'base64', 'xml', 'lxml', 'xmltodict']
+classifiers = [
+    'Programming Language :: Python :: 3',
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: OS Independent'
+]
