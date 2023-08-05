@@ -1,0 +1,38 @@
+[project]
+name = "ctfbox"
+version = "1.12.2"
+description = "A box for CTF challenges with some sugar functions, Just enjoy it"
+authors = [
+    { name = "Syclover" },
+    { name = "Longlone", email = "toloveu29@gmail.com" },
+    { name = "pjx", email = "pjx3231@163.com" },
+    { name = "lingze", email = "lingze.wl@gmail.com" },
+    { name = "F4ded", email = "452584023@qq.com" },
+    { name = "AFKL", email = "afkl1919@qq.com" },
+]
+dependencies = [
+    "requests<3.0.0,>=2.25.1",
+    "PyJWT<3.0.0,>=2.0.1",
+]
+requires-python = ">=3.7"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+homepage = "https://github.com/WAY29/ctfbox"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "icecream<3.0.0,>=2.0.0",
+]
+
+[tool.pdm.scripts.publish]
+shell = "pdm build && twine upload dist/*"
+
+[build-system]
+requires = [
+    "pdm-pep517",
+]
+build-backend = "pdm.pep517.api"
