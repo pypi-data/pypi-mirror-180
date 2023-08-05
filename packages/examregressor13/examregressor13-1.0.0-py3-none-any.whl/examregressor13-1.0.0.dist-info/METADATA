@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: examregressor13
+Version: 1.0.0
+Summary: examan
+Home-page: http://pypi.python.org/pypi/examregressor13/
+Author: karim
+Author-email: k.zaghlaoui@esi-sba.dz
+License: LICENSE.txt
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+# package_name
+
+
+## Installation
+
+
+```bash
+```
+
+## Usage
+
+```python
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
