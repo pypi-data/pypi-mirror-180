@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+seaborn
+
+[dev]
+black
+isort
+pip-tools
