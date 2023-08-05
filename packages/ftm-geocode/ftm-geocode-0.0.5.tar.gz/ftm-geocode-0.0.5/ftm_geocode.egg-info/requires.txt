@@ -1,0 +1,14 @@
+dataset
+fingerprints
+followthemoney
+geopy
+lazy_import
+pycountry
+pydantic
+pyicu
+structlog
+typer
+zavod
+
+[postal]
+postal
