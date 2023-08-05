@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: dsmanager
+Version: 1.0.1
+Summary: 
+Author: Rayane AMROUCHE
+Requires-Python: >=3.8,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: SharePlum (>=0.5.1,<0.6.0)
+Requires-Dist: azure-common (>=1.1.28,<2.0.0)
+Requires-Dist: azure-storage-blob (>=12.14.0,<13.0.0)
+Requires-Dist: azure-storage-common (>=2.1.0,<3.0.0)
+Requires-Dist: dash (>=2.6.2,<3.0.0)
+Requires-Dist: explainerdashboard (>=0.4.0,<0.5.0)
+Requires-Dist: ipython (>=8.5.0,<9.0.0)
+Requires-Dist: numexpr (>=2.8.3,<3.0.0)
+Requires-Dist: numpy (>=1.23.3,<2.0.0)
+Requires-Dist: openpyxl (>=3.0.10,<4.0.0)
+Requires-Dist: optuna (>=3.0.3,<4.0.0)
+Requires-Dist: pandas (>=1.5.0,<2.0.0)
+Requires-Dist: paramiko (>=2.12.0,<3.0.0)
+Requires-Dist: pickle-mixin (>=1.0.2,<2.0.0)
+Requires-Dist: python-dotenv (>=0.21.0,<0.22.0)
+Requires-Dist: scikit-learn (>=1.1.2,<2.0.0)
+Requires-Dist: shap (>=0.41.0,<0.42.0)
+Requires-Dist: snowflake-connector-python (>=2.8.0,<3.0.0)
+Requires-Dist: snowflake-sqlalchemy (>=1.4.2,<2.0.0)
+Requires-Dist: sqlalchemy (>=1.4.41,<2.0.0)
+Requires-Dist: sweetviz (>=2.1.4,<3.0.0)
