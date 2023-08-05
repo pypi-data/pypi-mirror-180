@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pytest-ui-failed-screenshot-allure
+Version: 1.0
+Summary: UI自动测试失败时自动截图，并将截图加入到Allure测试报告中
+Home-page: https://github.com/Jakilo1996/PytestUIFailedScreenshotAllure
+Author: Jakilo
+Classifier: Framework :: Pytest
+Requires-Python: >=3
