@@ -1,0 +1,9 @@
+checkers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+checkers/board.py,sha256=rujTA0rUjw1gQwHZ9RlhYkPlszb7qo_ls9KY4HANmgM,4807
+checkers/game.py,sha256=Z3YGQbdny3TCjFqDJh2FUxUT5hPnE7CH-x_ZW-V0PF0,20047
+checkers/move.py,sha256=BzgoBSRaMLzHF_8j_7PT58vjARi-bZZ0RHMitmD-dp4,2429
+english_checkers-0.0.1.dist-info/LICENSE.txt,sha256=288MSVczYqLGSTcJbL1QzhD33Iij5alS5ZaLbJkncgM,1068
+english_checkers-0.0.1.dist-info/METADATA,sha256=6fASe_CbloEw11ux6zYGCdlAk2ih7-e5eAvuMNA8NHU,2458
+english_checkers-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+english_checkers-0.0.1.dist-info/top_level.txt,sha256=8EKKMMP-hVkkipi6Ku3DgjhWAZA7KalJKTNc5BpZP1E,9
+english_checkers-0.0.1.dist-info/RECORD,,
