@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: tlfi
+Version: 0.0.3
+Summary: TLFi command-line interface
+Home-page: https://git.dece.space/Dece/TLFi
+Author: dece
+Author-email: shgck@pistache.land
+License: GPLv3
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: blessings (~=1.6)
+
+TLFi
+====
+
+http://atilf.atilf.fr/

@@ -1,0 +1,2 @@
+[console_scripts]
+tlfi = tlfi.__main__:main
