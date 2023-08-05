@@ -1,0 +1,12 @@
+boston_logger/__init__.py,sha256=clWLtOW0wNjABt3PT9Gz21RB9X-JPPh0isWaEG6lJJE,198
+boston_logger/config.py,sha256=OuSCpFpewwD1NwID6_xf223eMW7lxztAbl2OYnzoEiY,1244
+boston_logger/context_managers.py,sha256=NBkvBfBBlhdfbGRT_hquJtZHPQ3Tjm3VsjGhYf3zHkc,9595
+boston_logger/logger.py,sha256=9hMPH27aAiCfgYlT8rjAWgrKwDmZ4McJyfwtHMJ1GNU,5002
+boston_logger/middleware.py,sha256=gkln_dylWu_4ZUvYj3Dmz8-ZlU70nuvgVkd8F1uIsHc,2436
+boston_logger/requests_monkey_patch.py,sha256=ZQogt6FVarxteXV5lGxi20Y6YZqF70El1vgmQ5TtcjA,896
+boston_logger/sensitive_paths.py,sha256=-G6rkKRaLr6D843i_Ut9HDnXMEmHdYpN1BrytwEJq1Q,7132
+boston_logger-1.3.0.dist-info/LICENSE,sha256=VNmKkHT8K6yB47695hHV4aFxDb2h59IQWpbi-XM4dnE,746
+boston_logger-1.3.0.dist-info/METADATA,sha256=55QPrGKlaaS5KMzDS6IEOwMRs0ZY-l4AEoKFaL-12Zw,8553
+boston_logger-1.3.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+boston_logger-1.3.0.dist-info/top_level.txt,sha256=h5Eru1aRbmWc9iV3RI7ZIamCrNCvgLtkRHEkLrDCixA,14
+boston_logger-1.3.0.dist-info/RECORD,,
