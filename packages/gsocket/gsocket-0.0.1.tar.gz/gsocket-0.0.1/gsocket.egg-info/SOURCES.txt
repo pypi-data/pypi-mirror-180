@@ -1,0 +1,13 @@
+MANIFEST.in
+setup.py
+gsocket/README.md
+gsocket/__init__.py
+gsocket/client.py
+gsocket/receiver.py
+gsocket/sender.py
+gsocket/server.py
+gsocket/singal.py
+gsocket.egg-info/PKG-INFO
+gsocket.egg-info/SOURCES.txt
+gsocket.egg-info/dependency_links.txt
+gsocket.egg-info/top_level.txt
