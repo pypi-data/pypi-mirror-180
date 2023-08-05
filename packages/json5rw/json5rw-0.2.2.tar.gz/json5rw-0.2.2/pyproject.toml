@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "json5rw"
+version = "0.2.2"
+description = "A tool for JSON5 I/O"
+authors = ["Andy Zhang <andy@nwsoft.tk>"]
+readme = "README.md"
+packages = [
+    { include = "json5rw/" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
