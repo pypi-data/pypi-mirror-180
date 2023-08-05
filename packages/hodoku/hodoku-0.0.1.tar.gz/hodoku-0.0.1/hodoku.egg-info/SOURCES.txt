@@ -1,0 +1,6 @@
+setup.py
+hodoku.egg-info/PKG-INFO
+hodoku.egg-info/SOURCES.txt
+hodoku.egg-info/dependency_links.txt
+hodoku.egg-info/not-zip-safe
+hodoku.egg-info/top_level.txt
