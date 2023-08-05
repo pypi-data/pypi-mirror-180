@@ -1,0 +1,150 @@
+<div class="request-data" style="margin-top: 10px;">
+    <h3 class="request-uri" id="requestUri">{{record.method}} {{record.path}}</h3>
+    <div id="request">
+        <ul class="nav nav-tabs" id="" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="request-summary" data-bs-toggle="tab"
+                        data-bs-target="#requestSummary"
+                        type="button" role="tab" aria-controls="requestSummary" aria-selected="true">Summary
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="request-headers" data-bs-toggle="tab"
+                        data-bs-target="#requestHeaders"
+                        type="button" role="tab" aria-controls="requestHeaders" aria-selected="false">Headers
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="request-raw" data-bs-toggle="tab" data-bs-target="#requestRaw"
+                        type="button" role="tab" aria-controls="requestRaw" aria-selected="false">Raw
+                </button>
+            </li>
+            <span class="pull-right" style="margin-left: auto">
+                <span class="btn-group">
+                    <button type="button" class="btn btn-success" onclick="recorder.replayRequest({{ record.json() }})">Replay</button>
+                    <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item disabled" href="#">Replay With Modification</a></li>
+                    </ul>
+                </span>
+            </span>
+        </ul>
+        <div class="tab-content" id="requestBody">
+            <div class="tab-pane fade show active" id="requestSummary" role="tabpanel" aria-labelledby="request-summary">
+                {% if record.request.queries %}
+                <div id="requestQuery">
+                    <h6 id="params">Query Params</h6>
+                    <table class="table">
+                        {% for k, v in record.request.queries.items() %}
+                            {% for x in v %}
+                            <tr>
+                                <th class="queryKey">{{ k }}</th>
+                                <td class="queryValue">
+                                    {% if x %}
+                                    {{ x }}
+                                    {% else %}
+                                    <small class="text-muted">no value</small>
+                                    {% end if %}
+                                </td>
+                            </tr>
+                            {% end for %}
+                        {% end for %}
+                    </table>
+                </div>
+                {% end if %}
+
+                {% if record.request.string_body %}
+                <div>
+                    <h6 id="length">{{record.request.headers.get('Content-Length', '')}} bytes
+                        {{record.request.headers.get('Content-Type', '')}}</h6>
+                    <span id="requestBodyContent">
+                    <!--request body content here-->
+                    </span>
+                </div>
+                {% end if %}
+            </div>
+            <div class="tab-pane fade" id="requestHeaders" role="tabpanel" aria-labelledby="request-headers">
+                <div id="Headers">
+                    <h6>Headers</h6>
+                    <table class="table">
+                        {% for k, v in record.request.headers.items() %}
+                        <tr>
+                            <th class="key">{{k}}</th>
+                            <td class="value">
+                                {% if v %}
+                                {{ v }}
+                                {% else %}
+                                <small class="text-muted">no value</small>
+                                {% end if %}
+                            </td>
+                        </tr>
+                        {% end for %}
+                    </table>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="requestRaw" role="tabpanel" aria-labelledby="request-raw">
+                <pre>{{ record.request_raw }}</pre>
+            </div>
+        </div>
+    </div>
+</div>
+<hr style="margin: 40px 0 20px;">
+<div class="response-data">
+    <h3 class="response-status">{{record.status_code}} {{record.reason}}</h3>
+    <div id="response">
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="response-summary" data-bs-toggle="tab"
+                        data-bs-target="#responseSummary"
+                        type="button" role="tab" aria-controls="responseSummary" aria-selected="true">Summary
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="response-headers" data-bs-toggle="tab" data-bs-target="#responseHeaders"
+                        type="button" role="tab" aria-controls="responseHeaders" aria-selected="false">Headers
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="response-raw" data-bs-toggle="tab" data-bs-target="#responseRaw"
+                        type="button" role="tab" aria-controls="responseRaw" aria-selected="false">Raw
+                </button>
+            </li>
+        </ul>
+        <div class="tab-content" id="responseBody">
+            <div class="tab-pane fade show active" id="responseSummary" role="tabpanel" aria-labelledby="response-summary">
+                {% if record.response.string_body %}
+                <div>
+                    <h6>{{record.response.headers.get('Content-Length', '')}} bytes {{record.response.headers.get('Content-Type', '')}}</h6>
+                    <span id="responseBodyContent">
+                    <!--request body content here-->
+                    </span>
+                </div>
+                {% end if %}
+            </div>
+            <div class="tab-pane fade" id="responseHeaders" role="tabpanel" aria-labelledby="response-headers">
+                <div>
+                    <h6>Headers</h6>
+                    <table class="table">
+                        {% for k, v in record.response.headers.items() %}
+                        <tr>
+                            <th class="key">{{k}}</th>
+                            <td class="value">
+                                {% if v %}
+                                {{ v }}
+                                {% else %}
+                                <small class="text-muted">no value</small>
+                                {% end if %}
+                            </td>
+                        </tr>
+                        {% end for %}
+                    </table>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="responseRaw" role="tabpanel" aria-labelledby="response-raw">
+                <pre>{{ record.response_raw }}</pre>
+            </div>
+        </div>
+    </div>
+</div>
