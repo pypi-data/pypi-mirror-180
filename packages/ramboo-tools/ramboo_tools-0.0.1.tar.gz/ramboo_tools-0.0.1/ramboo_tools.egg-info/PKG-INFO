@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ramboo-tools
+Version: 0.0.1
+Summary: "RAMBOO's tools"
+Home-page: https://github.com/RAMBOO1990/RAMBOO-tools
+Author: RAMBOO
+Author-email: ramboooo@126.com
+License: UNKNOWN
+Description: "RAMBOO's useful tool-kit, more information: https://github.com/RAMBOO1990/RAMBOO-tools"
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: dev
+Provides-Extra: test
