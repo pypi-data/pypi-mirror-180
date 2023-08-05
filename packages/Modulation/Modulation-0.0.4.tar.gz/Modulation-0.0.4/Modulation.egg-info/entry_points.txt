@@ -1,0 +1,2 @@
+[console_scripts]
+modulation = modulation.entry_points.cli:main
