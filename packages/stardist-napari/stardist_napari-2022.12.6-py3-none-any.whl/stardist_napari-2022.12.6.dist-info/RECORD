@@ -1,0 +1,17 @@
+stardist_napari/__init__.py,sha256=BhrZB19ixBW5cpjjwSm7ycfkgEox9rPmjn07L0IhVOU,470
+stardist_napari/_dock_widget.py,sha256=epS5rSh_yi-_vqmOKSGzzXAIFK6KHlMwlNzYat6eMgA,66011
+stardist_napari/_sample_data.py,sha256=myxPrNGGgNNG2rE_1KanArgqnusaJlhKvvMbPEylcoQ,370
+stardist_napari/_version.py,sha256=-PK3ZxjdOHpbVkJu7iUQOaU0CLRG2y327F69D8jU9GI,48
+stardist_napari/napari.yaml,sha256=t9mnmb6gQ1ueg_HthIHmjYbJeKm_WyP0t6yypfoa40s,965
+stardist_napari/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stardist_napari/_tests/conftest.py,sha256=BkXZrK2-EmKMiIxdEMwxAPQhqjrtwXbHSMShQTYH05g,852
+stardist_napari/_tests/test_run.py,sha256=SudLnOV3CgjupyT4wxezoWHY6Jf0McwhYecyTqT28-M,5972
+stardist_napari/_tests/test_samples.py,sha256=I38YR1R91ZN46DzrKDNxPtEPVe8qwOyssUWQlFuqODs,272
+stardist_napari/_tests/test_ui.py,sha256=kX-yC9L1W9kG1RlY8-BAKEh9OEqW_dI3-G2xOF-wklY,658
+stardist_napari/resources/stardist_logo_napari.png,sha256=HEOwgINusODLaruB5rbW8TJiylqH1gJ9-N4_6QBCAcI,15945
+stardist_napari-2022.12.6.dist-info/LICENSE.txt,sha256=_zxNLL4tP5et9p-v_jwmCT_Am_SxNEPW3Y-GGk0zgbE,1532
+stardist_napari-2022.12.6.dist-info/METADATA,sha256=cPFZMEmDSGTPIACCh6d1CMMTTCFEMIpazQrL7VnXz14,15490
+stardist_napari-2022.12.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+stardist_napari-2022.12.6.dist-info/entry_points.txt,sha256=erEueqXBA7fNQ0TVqo5Qy-v4GK7RZp7ZlLi9aLxY7R4,64
+stardist_napari-2022.12.6.dist-info/top_level.txt,sha256=U3mYVeX6h2ih0AFM0f_1JUVJXkcnfOAJx_r1L6MP4io,16
+stardist_napari-2022.12.6.dist-info/RECORD,,
