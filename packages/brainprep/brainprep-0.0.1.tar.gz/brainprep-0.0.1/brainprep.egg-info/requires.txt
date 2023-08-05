@@ -1,0 +1,10 @@
+fire
+matplotlib
+nibabel
+nilearn>=0.9.2
+numpy
+pandas
+progressbar2
+requests
+scikit-learn
+seaborn
