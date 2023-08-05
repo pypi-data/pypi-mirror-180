@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/chatgptpy.egg-info/PKG-INFO
+src/chatgptpy.egg-info/SOURCES.txt
+src/chatgptpy.egg-info/dependency_links.txt
+src/chatgptpy.egg-info/requires.txt
+src/chatgptpy.egg-info/top_level.txt
+src/pychatgpt/__init__.py
+src/pychatgpt/main.py
+src/pychatgpt/classes/__init__.py
+src/pychatgpt/classes/auth.py
+src/pychatgpt/classes/chat.py
+src/pychatgpt/classes/spinner.py
