@@ -1,0 +1,18 @@
+include *.txt
+include *.md
+include *.pkl
+recursive-include ./forecast_model/*
+
+include forecast_model/datasets/CADUSD.csv
+include forecast_model/trained_models/*.pkl
+include forecast_model/VERSION
+include forecast_model/config.yml
+
+include ./requirements.txt
+include ./requirements/requirements.txt
+include ./requirements/test_requirements.txt
+exclude *.log
+exclude *.cfg
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]

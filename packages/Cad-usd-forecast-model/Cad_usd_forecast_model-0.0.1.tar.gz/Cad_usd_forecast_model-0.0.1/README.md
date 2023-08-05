@@ -1,0 +1,34 @@
+This package contains the pipeline of the ML model - forecast_model, the requirements, tests as well as other set up files.
+
+You can install this package and use the forecast_model to predict the future price of CAD-USD exchange.
+
+Find below the description of the different components & their respective uses:
+
+A. forecast_model: This is the main module of this package. It contains a number of sub modules and files.
+  1. config: Contains 'core.py' which is used to set the configuration for all the variables & file paths needed to run the package. The variables are listed in the config.yml file
+  2. datasets: This contains the original dataset used to train the model
+  3. processing: This contains other modules such as:
+      - data_manager: contains functions which can be used to load a dataset from the datasets module, and save, load or remove a trained model.
+      - preprocessing: contains functions necessary to transform raw data into the format expected by the trained model. Hence, this module is the preprocessing pipeline for this model.
+  4. trained_models: This module contains the latest version of the trained forecast_model
+  5. connfig.yml: Contains names of all the variables & file paths used in the model
+  6. forecast.py: for forecasting CADUSD Price
+  7. train_pipeline.py: for training the forecast_model
+  8. VERSION: for setting the version of the model
+
+B. Requirements: contains dependencies required to use or test the package
+C. tests: contains scripts for testing the package
+  1. conftest.py - contains a fixture fxn which is used to provide forecast period to the other test.
+  2. test_prediction.py - used to test the predition fucntion of forecast_model
+D. Manifest.in: contains instructions for what to include or exclude when building the package
+E. pyproject.toml: this file contains basic dependencies for setting up the package and also the configuration options for pytest.
+F. tox.ini: this file contains the settings for using tox for automated test but I didnt use tox to test this package.
+
+Testing:
+
+- Because my model using Prophet and prophet can not be installed without g++ compiler, I could not test this package with tox and so I used pytest on the cmd
+
+
+How to use this package:
+**To run the different files and test the modules, I created a conda environment for this project, installed all the dependencies in the requirements.txt except prophet. and then followed the steps in this link to install prophet. https://stackoverflow.com/questions/53178281/installing-fbprophet-python-on-windows-10
+** If testing or using the package file on your computer, you have to add the directory to your PYTHONPATH, So that python can find it. Search for 'andrei' on https://stackoverflow.com/questions/3402168/permanently-add-a-directory-to-pythonpath . If you don't do this, python will not be able to find the package and so will not be able to run the import statements

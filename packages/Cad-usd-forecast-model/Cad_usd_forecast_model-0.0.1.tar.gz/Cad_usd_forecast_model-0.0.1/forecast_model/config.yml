@@ -1,0 +1,45 @@
+#This file will hold the names of all the variables & file paths used in the model
+
+# Package Overview
+package_name: forecast_model
+
+# Data Files
+#I'm putting the whole training data as one file
+training_data_file: CADUSD.csv
+
+#set the pipeline variables
+#****pls come back to this, because you have to change it****#
+pipeline_name: forecast_model
+pipeline_save_file: forecast_model_output_v
+
+
+#Columns you want to drop from the training Data
+columns_to_drop:
+  - Adj Close
+  - Volume
+  - Low
+  - Open
+  - High
+
+#Columns to rename
+columns_to_rename:
+  Date: ds
+  Close: y
+
+#column to be set to datetime
+column_to_datetime: ds
+
+#set index for train/test split
+split_index: 1124
+
+#set dataset freq
+data_freq: B
+
+#Set future period for testing the forecast_model
+future_period: 180
+
+#Set target for the original value
+original_target_name: y
+
+#Set target for the original value
+predicted_target_name: yhat
