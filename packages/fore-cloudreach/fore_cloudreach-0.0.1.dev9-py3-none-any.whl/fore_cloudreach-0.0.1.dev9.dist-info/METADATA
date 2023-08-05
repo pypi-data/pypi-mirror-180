@@ -1,0 +1,129 @@
+Metadata-Version: 2.1
+Name: fore-cloudreach
+Version: 0.0.1.dev9
+Summary: package to ingest data in Google Sheets file for FInOps reporting
+Author-email: Cloudreach <nikolay.tonev@cloudreach.com>
+Project-URL: Homepage, https://github.com/cloudreach/finops-reporter/browse
+Project-URL: Bug Tracker, https://github.com/cloudreach/finops-reporter/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: MacOS X
+Classifier: Development Status :: 2 - Pre-Alpha
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: google-api-python-client
+Requires-Dist: google-auth-httplib2
+Requires-Dist: google-auth-oauthlib
+Requires-Dist: flask
+Requires-Dist: requests
+Requires-Dist: pathlib
+Requires-Dist: pandas
+
+# FORE stand for `Fin Ops REporter`
+
+## Autentication and authorization Overview
+This package will be published on PyPi as downloadable package.
+The main purpose of it is to Oauth2 authenticate a user of the Jupiter Notebook (**JpN**) that will need access to Google Sheets application. The security context is the current macOS user who use the Jupiter notebook and is logged in with Google's account.
+In order to ustilize the Google's Sheets API the JpN code would need to:
+</br>
+
+- enable Google Sheet API in the GCP project where the application is registered.
+- install the package `fore` from PyPi;
+- recieve a file `credentials.json` from her line manager and copy it to `~/crgoauth` folder. This file contains the JpN application's credentials. The security context for the credentials is `https://www.googleapis.com/auth/spreadsheets`;
+- Logging in the Cloudreach's google account and in the prompted window authorized the JpN application to access the Google Sheets API.
+</br>
+
+As of the initial version, the authentication of the user is performed over the Google's SignIn of the currently logged user in the Google account in the browser.
+The authentication token is stored in a subfolder `crgoauth` in the current user's folder on the local machine (macOS tested). For every authentication attempt the token will be taken from the file from that location only.
+
+In order to work with Google's Sheets API, a credentials file is required as well as outcome of registering this library as desktop application in Google Cloud.
+The `credentials` file is always sought in the subfolder `crgoauth` of the current user's folder on the local machine. 
+
+TODO [dev]: to implemnt posibility to store the token and application credentials into Secret MAnager.   
+
+
+### HowTos
+
+* Import customer's report data from pandas' DataFrame:
+    - using the fore_cloudreach library in Jupyter notebook:
+
+example-1:
+
+```python
+
+    !pip install fore_cloudreach
+
+    import fore_cloudreach as fc
+
+    try:
+        ing = fc.Ingester("<customers_map>")
+        rsl = ing.load_from_df("customer", <data_frame>)
+        
+        print(rsl)
+
+    except Exception as err:
+        print("An exception raised: {err}!")
+```
+
+where:
+
+- <`customers_map`> is the file ID from the URL of a Google's Sheets file containing the mapping between a customer and its report file ID.
+</br>
+
+    *Example:*
+    </br>
+    *The file ID to pickup from the file URL*
+    ![ID from URL](docs/url-img.png)
+    and then:
+    ```python
+        ing = fc.Ingester("1FE0KDANyCLk_zhyxCsIGPR4ifaktD9xMt...")
+    ```
+    The mapping file format:
+    ![cstumer map sample](docs/cst-map.jpeg)
+    
+    **IMPORTANT !!!**
+    The customer mapping tab sheet MUST be named <`Map`>!
+
+
+- <`customer`> is one of customer name or customer id (as string) as it is used in the mapping file described above.
+
+- <`data_frame`> - is pandas Data Frame with the data to be uploaded in the customers report sheet.
+
+----
+
+example-2:
+1. Install the library
+
+```python
+    pip install fore_cloudreach
+
+    # on Jupyter notebook:
+    ! pip install fore_cloudreach
+```
+
+2. Import and usage
+
+```python
+    
+    import fore_cloudreach as fc
+
+    # ... Acquire the customer's reports data into pandas Data Frame or CSV file
+    #        
+    # ... create an Ingester object by next statement
+    # where `mapping_file_id` is the unique file ID from the URL of the Google Sheets file. This must be a configuration file that maps 
+    # the customers to their Google Sheets report file per each customer.
+
+    ing = fc.Ingester(mapping_file_id="1fL3rZDj8tCP4povb3E2x_WmkqNmfEZIR...")
+
+    # to load the report from pandas DF run the following code, where you need:
+    # the customer name (str) and the data set as pandas Data Frame
+    rsl = ing.load_report(customer="<customer_name>", data=df)
+
+    # to load the report from CSV file run the following code, where you need:
+    # the customer name (str) and the data = string as relative path to the CSV file     
+    rsl2 = ing.load_report(customer="<customer_name>", data="docs/samples/aws_ec2_rightsizing.Csv")
+
+    # the returned result will show a summary of a successful import
+```
