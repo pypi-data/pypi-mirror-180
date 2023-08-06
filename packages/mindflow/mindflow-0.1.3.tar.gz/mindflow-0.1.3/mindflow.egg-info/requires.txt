@@ -1,0 +1,6 @@
+requests
+revChatGPT
+bs4
+chardet
+pyperclip
+gitpython
