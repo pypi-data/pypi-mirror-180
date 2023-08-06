@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+Supervised/Classification.py
+Supervised/__init__.py
+iMathLogic.egg-info/PKG-INFO
+iMathLogic.egg-info/SOURCES.txt
+iMathLogic.egg-info/dependency_links.txt
+iMathLogic.egg-info/requires.txt
+iMathLogic.egg-info/top_level.txt
