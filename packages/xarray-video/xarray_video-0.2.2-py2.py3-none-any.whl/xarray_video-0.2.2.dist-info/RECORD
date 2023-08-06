@@ -1,0 +1,13 @@
+xarray_video/__init__.py,sha256=ivXVz_qZI14kJGNowwjie0zAzUcqi72cK1ghm8eKYsc,360
+xarray_video/backend.py,sha256=vzBGEBLujunun6oWyho6N4xYqNYDGi6VdfBa6Q5cS00,6858
+xarray_video/exceptions.py,sha256=2E66r0Sp_u4YvaHYFbQnAhxmBZiHME8dGrET_A1iS7E,228
+xarray_video/videoarray.py,sha256=61yBp8F16zeZuRIpkNtqyqR_fqUwZa2bf2PEkz_De_A,3839
+xarray_video/videodataset.py,sha256=1LZdBdhc_Y2EYW55GtG5HH91Su-vur94TOSZzbmNJuo,2602
+xarray_video/codecs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xarray_video/codecs/mp4.py,sha256=Wd4lGY40WaCs090e_b93PEP9jsqz7FAbqopC1mgbtuU,1903
+xarray_video-0.2.2.dist-info/AUTHORS.rst,sha256=owq2ru6N7W01DQVcyuCK-KPqGi1c4JnUT1Mtows-GYk,151
+xarray_video-0.2.2.dist-info/LICENSE,sha256=9TNIfaKqH9yZMeZWMeSFbnSfj1RdunCl5kJfUGa25gE,1077
+xarray_video-0.2.2.dist-info/METADATA,sha256=-hrTdo-dZb8UfYz_p69CHzhNXdkblEsQ1aHSlfXtcF0,2523
+xarray_video-0.2.2.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+xarray_video-0.2.2.dist-info/top_level.txt,sha256=ec7_Gu_IIEg-CofnSXvP51RAWs9JCp_pLVesvm4wSW0,13
+xarray_video-0.2.2.dist-info/RECORD,,
