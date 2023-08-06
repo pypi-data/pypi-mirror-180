@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+psychopy_bbtk/__init__.py
+psychopy_bbtk.egg-info/PKG-INFO
+psychopy_bbtk.egg-info/SOURCES.txt
+psychopy_bbtk.egg-info/dependency_links.txt
+psychopy_bbtk.egg-info/top_level.txt
