@@ -1,0 +1,10 @@
+codegpt/codegpt.py,sha256=DeJVwyZPiU7xfPLj5L8jUQB5pW6R5KTa5hgaX0Hc_Hg,945
+codegpt/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codegpt/commands/refactor.py,sha256=pA-vsH2xPeaRTjSX0kwRRDOtWmjT1dgqm4gA4-E3rlg,6550
+codegpt/commands/todos.py,sha256=fwaDbYxUK-h3ykD4iaQpTgnoBuCzmHOjNMm4AqAEe70,3333
+codegpt/commands/unsafe.py,sha256=C1_fabYlPB_xR9WQGEJ75FbTfivxz1h9aLJPPTKKte0,1766
+codegpt-0.1.2.dist-info/entry_points.txt,sha256=6q4qkaYXLCtbsKWKZLAW_Pxgfy9aTSSAKV1MtSHDY8s,47
+codegpt-0.1.2.dist-info/LICENSE.txt,sha256=5hIgqbE30VuRyp7FfWzCRzGDB8qGGri7TTt6-CI-nKQ,35148
+codegpt-0.1.2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+codegpt-0.1.2.dist-info/METADATA,sha256=koPJgcbI_QmdIdF4QS6ln9rQpyUo3r-69RSLQg9KoaY,2967
+codegpt-0.1.2.dist-info/RECORD,,
