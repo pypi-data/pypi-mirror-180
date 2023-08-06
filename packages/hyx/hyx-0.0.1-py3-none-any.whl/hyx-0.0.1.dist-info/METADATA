@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: hyx
+Version: 0.0.1
+Summary: Lightweight fault tolerance primitives for your modern Python microservices
+Project-URL: Homepage, https://github.com/roma-glushko/hyx
+Author-email: Roman Glushko <roman.glushko.m@gmail.com>
+Requires-Python: <4.0,>=3.9
+Description-Content-Type: text/markdown
+
+# Hyx
+
+🧘‍♀️Lightweight fault tolerance primitives for your modern Python microservices.
