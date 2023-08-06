@@ -1,0 +1,2 @@
+[console_scripts]
+drug-db = drug_database.cli:app
