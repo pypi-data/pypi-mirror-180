@@ -1,0 +1,2 @@
+[console_scripts]
+rename = rename:run
