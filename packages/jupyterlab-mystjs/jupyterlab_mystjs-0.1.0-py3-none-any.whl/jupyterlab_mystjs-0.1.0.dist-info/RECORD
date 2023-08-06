@@ -1,0 +1,15 @@
+jupyterlab_mystjs/__init__.py,sha256=BogIwxzqrzytHaSUVGV6LEuFmleycJSeTBKdNuSnwM8,160
+jupyterlab_mystjs/_version.py,sha256=rYFJGHLcYRirJN5qI2JUFuTcuC27neSaEP55OutWLVM,195
+jupyterlab_mystjs-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-mystjs/package.json,sha256=5X2Cl3eP_pT18ONBgeqhqdAWbFTUOagV793DE_0Ag3U,3831
+jupyterlab_mystjs-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-mystjs/static/671.ad7c922023de3fc3ddbf.js,sha256=rXySICPeP8Pdv3rO26RUk_f6aqQiwjuXtSD2VjhaQzM,3244
+jupyterlab_mystjs-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-mystjs/static/747.8dcd8758063fed7b173c.js,sha256=jc2HWAY_7XsXPGyxygBUQMYfGw_D1z_8JIJGsAHeV3I,6786
+jupyterlab_mystjs-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-mystjs/static/948.d9d2ce8890b53de4d627.js,sha256=Y-spE6cxR1SqUMe6UrHtJcTw6sRo_Lq7Ep-Y0fYnMQ4,577633
+jupyterlab_mystjs-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-mystjs/static/948.d9d2ce8890b53de4d627.js.LICENSE.txt,sha256=AMewz2oSj7FsgB3-ImhwaUMHV59W_WDgThsL1AH-syA,371
+jupyterlab_mystjs-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-mystjs/static/remoteEntry.c1ff92d5c8dcd0f90643.js,sha256=wf-S1cjc0PkGQ7M515wznh34YOrLlYnOUYTez8GXCuE,7694
+jupyterlab_mystjs-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-mystjs/static/style.js,sha256=DR4XZ04VF31QA8xqiS3zM2XSlhMnIJugBMOOqK3zbEU,160
+jupyterlab_mystjs-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-mystjs/static/third-party-licenses.json,sha256=lCN-L159_6wGt0WDUoQ0TrN_TsPolnHWdPQIMu3SQkQ,93362
+jupyterlab_mystjs-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-mystjs/install.json,sha256=t9Qmz75nVD8fyDcX8BJp2I2kxHHqwzy4idftyib_xzI,195
+jupyterlab_mystjs-0.1.0.dist-info/METADATA,sha256=nCjFobmfPFnnNlJLOZVkSpVPMnnZpwspjDpF4xgSMEw,5414
+jupyterlab_mystjs-0.1.0.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+jupyterlab_mystjs-0.1.0.dist-info/licenses/LICENSE,sha256=MgUP4j6OhTaKiVw3fffLP3HkwDUBzjEUj-5C-ISJcB0,1096
+jupyterlab_mystjs-0.1.0.dist-info/RECORD,,
