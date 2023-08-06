@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: application-tracker
+Version: 0.1.0
+Summary: A simple CLI to save and view job applications.
+License: MIT
+Author: Jamie Fraser
+Author-email: jamie.fraser19@btinternet.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Requires-Dist: shellingham (>=1.5.0,<2.0.0)
+Requires-Dist: typer (>=0.7.0,<0.8.0)
+Description-Content-Type: text/markdown
+
+# Job Application Tracker
+A simple command line interface to track job applications.
+Built using [Typer](https://github.com/tiangolo/typer). This project
+was an exercise in basic software development, testing, and packaging. Tutorials followed:
+<br />
+* [https://realpython.com/command-line-interfaces-python-argparse/](https://realpython.com/command-line-interfaces-python-argparse/)
+* [https://realpython.com/pypi-publish-python-package/#prepare-your-package-for-publication](https://realpython.com/pypi-publish-python-package/#prepare-your-package-for-publication)
