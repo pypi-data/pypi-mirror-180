@@ -1,0 +1,17 @@
+LICENCE
+README.md
+setup.py
+RubiDark/Device.py
+RubiDark/WebAdress.py
+RubiDark/__init__.py
+RubiDark/clines_ph_web.py
+RubiDark/copyright.py
+RubiDark/encoder.py
+RubiDark/rubika.py
+RubiDark/send_server.py
+RubiDark.egg-info/PKG-INFO
+RubiDark.egg-info/SOURCES.txt
+RubiDark.egg-info/dependency_links.txt
+RubiDark.egg-info/not-zip-safe
+RubiDark.egg-info/requires.txt
+RubiDark.egg-info/top_level.txt
