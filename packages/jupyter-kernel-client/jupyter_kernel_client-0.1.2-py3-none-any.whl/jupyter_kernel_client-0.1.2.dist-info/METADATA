@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: jupyter_kernel_client
+Version: 0.1.2
+Summary: jupyter kernel websocket client
+Project-URL: Source, https://github.com/Wh1isper/jupyter_kernel_client
+Author-email: Wh1isper <9573586@qq.com>
+License: BSD 3-Clause License
+License-File: LICENSE
+Keywords: fastapi,jupyter,pluggy,plugins,server
+Requires-Python: >=3.7
+Requires-Dist: aiohttp
+Requires-Dist: nbformat
+Provides-Extra: test
+Requires-Dist: ipykernel; extra == 'test'
+Requires-Dist: jupyter-server<2; extra == 'test'
+Requires-Dist: mypy; extra == 'test'
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-asyncio; extra == 'test'
+Requires-Dist: pytest-env; extra == 'test'
+Requires-Dist: requests; extra == 'test'
+Requires-Dist: types-setuptools; extra == 'test'
+Requires-Dist: websockets; extra == 'test'
+Description-Content-Type: text/markdown
+
+# jupyter_kernel_client
