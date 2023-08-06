@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ksubscribe
+Version: 1.0.0
+Summary: Subscription library for Python Coders
+Home-page: 
+Author: Osman Onur KUZUCU
+Author-email: kuzucu48@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ksubscribe
+Python-Event-Based-Programming-Methodology
