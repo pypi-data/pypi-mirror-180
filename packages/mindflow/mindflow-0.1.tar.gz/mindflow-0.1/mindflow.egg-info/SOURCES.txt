@@ -1,0 +1,7 @@
+setup.py
+mindflow.egg-info/PKG-INFO
+mindflow.egg-info/SOURCES.txt
+mindflow.egg-info/dependency_links.txt
+mindflow.egg-info/entry_points.txt
+mindflow.egg-info/requires.txt
+mindflow.egg-info/top_level.txt
