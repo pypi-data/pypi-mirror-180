@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "discordsimplimised"
+version = "1.3"
+authors = [
+  { name="Sheep26", email="crabeykiller@gmail.com" },
+]
+description = "discordsimplimised is a made to make making a discord bot easier to make"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "discord",
+    'discord.py',
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Sheep26/discord-simplimised"
+"Bug Tracker" = "https://github.com/Sheep26/discord-simplimised/issues"

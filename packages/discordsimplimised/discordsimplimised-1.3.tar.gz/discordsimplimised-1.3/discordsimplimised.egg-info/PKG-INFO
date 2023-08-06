@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: discordsimplimised
+Version: 1.3
+Summary: discordsimplimised is a made to make making a discord bot easier to make
+Author-email: Sheep26 <crabeykiller@gmail.com>
+Project-URL: Homepage, https://github.com/Sheep26/discord-simplimised
+Project-URL: Bug Tracker, https://github.com/Sheep26/discord-simplimised/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# `discordsimplimised`
+
+The `discordsimplimised` is used to make making a discord bot easier.
+
+usage for discord-simplimised.example
+
+import discordsimplimised
+discordsimplimised.example(token)

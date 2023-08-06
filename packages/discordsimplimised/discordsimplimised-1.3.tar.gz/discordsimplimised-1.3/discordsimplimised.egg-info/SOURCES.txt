@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+discordsimplimised.egg-info/PKG-INFO
+discordsimplimised.egg-info/SOURCES.txt
+discordsimplimised.egg-info/dependency_links.txt
+discordsimplimised.egg-info/requires.txt
+discordsimplimised.egg-info/top_level.txt
+scr/discordsimplimised/__init_.py
+scr/discordsimplimised/discordsimplimised.py
+scr/discordsimplimised/example.py
