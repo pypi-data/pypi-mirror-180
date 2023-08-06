@@ -1,0 +1,5 @@
+docstring_inheritance
+typeguard
+dbis-relational-calculus>=0.3.0
+dbis-exc-manager
+Jinja2
