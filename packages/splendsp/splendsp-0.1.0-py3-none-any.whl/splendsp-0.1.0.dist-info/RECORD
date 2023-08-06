@@ -1,0 +1,15 @@
+splendsp/__init__.py,sha256=BElq2DsdDs6rewY_fOLTIKhHHMVb99lp-VIJZZXY-E0,83
+splendsp/_version.py,sha256=6phs_teiMFXlYjRZHHJJHElOwXq2XLUA2bDPY9cA4bQ,176
+splendsp/cut/__init__.py,sha256=mqdCNCg1I0OVM9kjX_z2P-BAGurCpBudHF1chKRIp9Q,20
+splendsp/cut/_cut.py,sha256=MRvnyEhasQAcU0wXiFIuTnlDgnlnTlEkYgFR6q_8MRA,28326
+splendsp/dsp/__init__.py,sha256=cBNzR338ScgIZv2-lUUwpxI2GMTprZmOli1mAkvEn6A,120
+splendsp/dsp/_de_pileup.py,sha256=spnIl5FnV8GqjgliNDpRCI5JbUXh9JcshI2Tu_LXukE,10421
+splendsp/dsp/_fitting.py,sha256=5nuEHRA0tgr9FHyG_4r5tRRll6rr5xWyIfjEa-YAveU,60035
+splendsp/dsp/_noise.py,sha256=K2m__8jQjbel1WJR7Tx7mwPOZX4NxlAYYiJLT6TzYM0,3671
+splendsp/dsp/_of_pileup.py,sha256=VwVmiGLbYS0vm8fnq6COQGsKQRddA-eRC43TY2pG9TI,7843
+splendsp/dsp/_utils.py,sha256=yFR8Af40_AUHW5ARMeAMZJhaxpelId5NdiKBX17b2Sk,4136
+splendsp-0.1.0.dist-info/LICENSE,sha256=iTsl7iLvCvE2sXA5ey24kKz6PzjNeIS6QKhTl4Hlk4E,1079
+splendsp-0.1.0.dist-info/METADATA,sha256=ECQyXD3MnvRGhmtBQoaKE42WseZFcZqGS8-GmMgYBds,1078
+splendsp-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+splendsp-0.1.0.dist-info/top_level.txt,sha256=AEbyxMjvdPKE5_XOA94AytNivH3dTg_UXyi1mFqwoWI,9
+splendsp-0.1.0.dist-info/RECORD,,
