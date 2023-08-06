@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: python-homework
+Version: 0.1
+Author: Puppy_4.1
+Author-email: 910554043@qq.com
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+
+this is a package with midterm and final assignments 
