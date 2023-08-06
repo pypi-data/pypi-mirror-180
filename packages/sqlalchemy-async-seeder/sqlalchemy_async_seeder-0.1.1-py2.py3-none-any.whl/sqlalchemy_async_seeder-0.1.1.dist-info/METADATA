@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sqlalchemy-async-seeder
+Version: 0.1.1
+Summary: Please refer to the documentation provided in the README.md
+Author-email: Novoseltcev Stanislav <novoseltcev.stanislav@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Home, https://github.com/novoseltcev/sqlalchemy-async-seeder
+
+# sqlalchemy-async-seeder
+
+## Description
+This is a simple library to seed your database with async SQLAlchemy session.
+
