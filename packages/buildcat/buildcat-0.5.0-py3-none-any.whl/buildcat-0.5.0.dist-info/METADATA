@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: buildcat
+Version: 0.5.0
+Summary: Lightweight, flexible render farm based on RQ and Redis.
+Author-email: "Timothy M. Shead" <tim@shead-custom-design.com>
+Maintainer-email: "Timothy M. Shead" <tim@shead-custom-design.com>
+Requires-Python: >=3.8
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Multimedia :: Graphics :: 3D Rendering
+Classifier: Topic :: System :: Distributed Computing
+Requires-Dist: arrow
+Requires-Dist: blessings
+Requires-Dist: redis
+Requires-Dist: rq
+Requires-Dist: tqdm
+Requires-Dist: behave ; extra == "all"
+Requires-Dist: coverage ; extra == "all"
+Requires-Dist: ipython ; extra == "all"
+Requires-Dist: nbsphinx ; extra == "all"
+Requires-Dist: sphinx >= 3.5 ; extra == "all"
+Requires-Dist: sphinx-argparse ; extra == "all"
+Requires-Dist: sphinx-gallery < 0.11 ; extra == "all"
+Requires-Dist: sphinx_rtd_theme ; extra == "all"
+Requires-Dist: sphinx-tabs ; extra == "all"
+Requires-Dist: ipython ; extra == "doc"
+Requires-Dist: nbsphinx ; extra == "doc"
+Requires-Dist: sphinx >= 3.5 ; extra == "doc"
+Requires-Dist: sphinx-argparse ; extra == "doc"
+Requires-Dist: sphinx-gallery < 0.11 ; extra == "doc"
+Requires-Dist: sphinx_rtd_theme ; extra == "doc"
+Requires-Dist: sphinx-tabs ; extra == "doc"
+Project-URL: Chat, https://github.com/shead-custom-design/buildcat/discussions
+Project-URL: Coverage, https://coveralls.io/r/shead-custom-design/buildcat
+Project-URL: Documentation, https://buildcat.readthedocs.io
+Project-URL: Issue Tracker, https://github.com/shead-custom-design/buildcat/issues
+Project-URL: Regression Tests, https://travis-ci.org/shead-custom-design/buildcat
+Project-URL: Source, https://github.com/shead-custom-design/buildcat
+Provides-Extra: all
+Provides-Extra: doc

@@ -1,0 +1,3 @@
+[console_scripts]
+buildcat=buildcat.cli:main
+
