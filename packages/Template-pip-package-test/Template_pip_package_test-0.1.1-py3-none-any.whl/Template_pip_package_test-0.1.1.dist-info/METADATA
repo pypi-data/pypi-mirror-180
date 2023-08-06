@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: Template-pip-package-test
+Version: 0.1.1
+Summary: Useful towel-related stuff.
+Home-page: https://pypi.org/project/Template-pip-package-test/
+Author: saurav
+Author-email: sausol.solanki@gmail.com
+License-File: LICENSE.txt
+Requires-Dist: flask
+
+# sd-cicd
+
+![build](https://github.com/sauravsolanki/sd-cicd/actions/workflows/python-publish.yml/badge.svg?branch=main)
+
