@@ -1,0 +1,6 @@
+[console_scripts]
+brun = chinillaclvm_tools.cmds:brun
+opc = chinillaclvm_tools.cmds:opc
+opd = chinillaclvm_tools.cmds:opd
+read_ir = chinillaclvm_tools.cmds:read_ir
+run = chinillaclvm_tools.cmds:run
