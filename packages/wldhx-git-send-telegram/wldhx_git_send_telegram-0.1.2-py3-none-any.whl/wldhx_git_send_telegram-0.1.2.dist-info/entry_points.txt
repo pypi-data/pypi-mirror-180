@@ -1,0 +1,3 @@
+[console_scripts]
+git-send-telegram=git_send_telegram:main
+
