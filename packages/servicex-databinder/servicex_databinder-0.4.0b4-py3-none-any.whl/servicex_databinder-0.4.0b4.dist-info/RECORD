@@ -1,0 +1,15 @@
+servicex_databinder/__init__.py,sha256=bcN83q1SFwprocidtEUwqCNnv3mgkV82LD2gbmte_lI,194
+servicex_databinder/configuration.py,sha256=Cgskq2ruP9h3jQsxj4E5fZig6sde-JeVr4vHkjv-XZI,4265
+servicex_databinder/frontend.py,sha256=wwl4xFHsQDmr3a81EKMGrGxu8VJSJImX5ZfaFdpESm8,3135
+servicex_databinder/get_servicex_data.py,sha256=GLEqfXmNZV6GMtWeXrnn24H9GXvlunMw3lI8qoOXCeM,4976
+servicex_databinder/old_frontend.py,sha256=wwl4xFHsQDmr3a81EKMGrGxu8VJSJImX5ZfaFdpESm8,3135
+servicex_databinder/old_output.py,sha256=Aw57BgUTHBpYdVPHN-6rceGW_jt0uoZNe3Rf0x8e_zs,14312
+servicex_databinder/output.py,sha256=Aw57BgUTHBpYdVPHN-6rceGW_jt0uoZNe3Rf0x8e_zs,14312
+servicex_databinder/output_handler.py,sha256=agvi3BZ_v6-X6h7Y2hVbg7jodSFJahZxNGpKgg52Ams,9296
+servicex_databinder/request.py,sha256=tPnWNG2teluFjm-YVFFq7G2nUQf08sDcYyauJtG7ksg,4604
+servicex_databinder/servicex_databinder.py,sha256=UwdB5pvjbDtTIlNHINIatIF9gONcc5Gila-QbNob5k8,1487
+servicex_databinder-0.4.0b4.dist-info/LICENSE,sha256=a-7TN0zLj1o2CcBMDEFuC6ltc44pBGE0piYshGG7I_M,1521
+servicex_databinder-0.4.0b4.dist-info/METADATA,sha256=LQ9gkgGhqCvSqTFAQGwZszigwzuEFxyTVqJzPOUO4Dk,9431
+servicex_databinder-0.4.0b4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+servicex_databinder-0.4.0b4.dist-info/top_level.txt,sha256=J4WH4jsQ5LRRQvyi5TCg6OYpVOBK-9yU_bliPjZzY0s,20
+servicex_databinder-0.4.0b4.dist-info/RECORD,,
