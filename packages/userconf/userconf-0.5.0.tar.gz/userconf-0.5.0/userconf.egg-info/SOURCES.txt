@@ -1,0 +1,13 @@
+README.md
+setup.py
+src/userconf/__init__.py
+src/userconf/files.py
+src/userconf/settings.py
+src/userconf/validation.py
+test/test_files.py
+test/test_root.py
+test/test_settings.py
+userconf.egg-info/PKG-INFO
+userconf.egg-info/SOURCES.txt
+userconf.egg-info/dependency_links.txt
+userconf.egg-info/top_level.txt
