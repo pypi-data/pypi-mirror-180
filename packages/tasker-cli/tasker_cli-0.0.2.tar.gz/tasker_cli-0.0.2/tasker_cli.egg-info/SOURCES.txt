@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tasker_cli/__init__.py
+tasker_cli/table.py
+tasker_cli.egg-info/PKG-INFO
+tasker_cli.egg-info/SOURCES.txt
+tasker_cli.egg-info/dependency_links.txt
+tasker_cli.egg-info/requires.txt
+tasker_cli.egg-info/top_level.txt
