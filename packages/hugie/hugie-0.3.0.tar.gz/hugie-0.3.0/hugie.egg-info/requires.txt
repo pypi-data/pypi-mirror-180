@@ -1,0 +1,12 @@
+typer
+wasabi
+requests
+pydantic
+srsly
+
+[dev]
+pre-commit
+pytest
+mkdocs-material
+build
+twine
