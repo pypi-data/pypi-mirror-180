@@ -1,0 +1,35 @@
+import dataclasses
+import json
+from pathlib import Path
+
+from helix_personmatching.logics.match_score import MatchScore
+from helix_personmatching.matchers.matcher import Matcher
+
+
+def test_exact_match() -> None:
+    data_dir: Path = Path(__file__).parent.joinpath("./")
+
+    with open(data_dir.joinpath("patient1.json")) as file:
+        resource1_json = file.read()
+
+    with open(data_dir.joinpath("patient2.json")) as file:
+        resource2_json = file.read()
+
+    matcher = Matcher()
+
+    score: MatchScore = matcher.match(
+        source_json=resource1_json, target_json=resource2_json
+    )
+
+    assert score.matched is True
+
+    assert score.total_score == 87.76455026455027
+
+    score_dict = dataclasses.asdict(score)
+
+    print(json.dumps(score_dict, default=str))
+
+    with open(data_dir.joinpath("expected_scores.json")) as file:
+        expected_scores = json.loads(file.read())
+
+    assert score_dict == expected_scores
