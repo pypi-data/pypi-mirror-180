@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pipTutorial/__init__.py
+pipTutorial/__main__.py
+pipTutorial/funcs.py
+pipTutorial.egg-info/PKG-INFO
+pipTutorial.egg-info/SOURCES.txt
+pipTutorial.egg-info/dependency_links.txt
+pipTutorial.egg-info/requires.txt
+pipTutorial.egg-info/top_level.txt
