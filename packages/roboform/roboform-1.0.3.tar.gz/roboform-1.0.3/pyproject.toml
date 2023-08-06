@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "roboform"
+version = "1.0.3"
+authors = [
+    { name="Gabriele Sorci", email="gabrielesorci.25@gmail.com" }
+]
+description = "Bot that automatically fills out forms"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+]
+dependencies = [
+    "selenium==4.2.0",
+    "toml==0.10.2",
+    "webdriver-manager==3.8.5"
+]
+
+[project.optional-dependencies]
+tests = [
+  "pytest==7.2.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/gab-25/roboform"
+"Bug Tracker" = "https://github.com/gab-25/roboform/issues"
+
+[project.scripts]
+roboform = "roboform.__main__:main"

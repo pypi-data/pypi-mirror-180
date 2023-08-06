@@ -1,0 +1,6 @@
+selenium==4.2.0
+toml==0.10.2
+webdriver-manager==3.8.5
+
+[tests]
+pytest==7.2.0

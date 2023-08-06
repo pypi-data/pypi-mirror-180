@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: roboform
+Version: 1.0.3
+Summary: Bot that automatically fills out forms
+Author-email: Gabriele Sorci <gabrielesorci.25@gmail.com>
+Project-URL: Homepage, https://github.com/gab-25/roboform
+Project-URL: Bug Tracker, https://github.com/gab-25/roboform/issues
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: tests
+License-File: LICENSE
+
+# roboform
