@@ -1,0 +1,9 @@
+sphinxcontrib/eval/__init__.py,sha256=z9yCVt8ogVU_wFiJAoCrncDGBtFNwjikPPeCZJ31D4A,1565
+sphinxcontrib/eval/_version.py,sha256=LMm5XNCiIX0-d8PhBu6GowizEsy50WYpNYJ8Jet6s64,176
+sphinxcontrib/eval/myst.py,sha256=efefDmPN0vQG-dbrc9Wmpb7sVEtlHVl_5qX8dcxFB0E,233
+sphinxcontrib/eval/rst.py,sha256=jjwRoK4g5Za0nVQnG6tpqQ5CXxKnhgBdtEfilIP7EW8,209
+sphinxcontrib/eval/utils.py,sha256=LeDFkWfJIFbnET3Glyh5vCwzIL7Nn_bk6ekoBVdM8NI,2202
+sphinxcontrib_eval-0.0.1.dist-info/METADATA,sha256=2Snk5xfgAUV8UNJkJYmw1YZWe4VGuXLyfsMwYbc2Vs4,9452
+sphinxcontrib_eval-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sphinxcontrib_eval-0.0.1.dist-info/top_level.txt,sha256=VJrV3_vaiKQVgVpR0I1iecxoO0drzGu-M0j40PVP2QQ,14
+sphinxcontrib_eval-0.0.1.dist-info/RECORD,,
