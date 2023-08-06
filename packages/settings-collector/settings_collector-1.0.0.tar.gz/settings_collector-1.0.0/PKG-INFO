@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: settings-collector
+Version: 1.0.0
+Summary: Package for collecting settings from various sources
+Project-URL: Homepage, https://github.com/vsego/settings-collector
+Project-URL: Bug Tracker, https://github.com/vsego/settings-collector/issues
+Author-email: Vedran Sego <vsego@vsego.org>
+Keywords: configuration,django,environment,flask,frameworks,packages,settings
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Bottle
+Classifier: Framework :: CherryPy
+Classifier: Framework :: Django
+Classifier: Framework :: Flask
+Classifier: Framework :: Pyramid
+Classifier: Framework :: TurboGears
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
