@@ -1,0 +1,87 @@
+[project]
+classifiers = [
+ "Environment :: Console",
+ "Development Status :: 3 - Alpha",
+ "Intended Audience :: Developers",
+ "Natural Language :: English",
+ "Operating System :: OS Independent",
+ "Programming Language :: Python :: 3 :: Only",
+ "Programming Language :: Python :: 3",
+ "Programming Language :: Python :: 3.10",
+ "Programming Language :: Python :: 3.6",
+ "Programming Language :: Python :: 3.7",
+ "Programming Language :: Python :: 3.8",
+ "Programming Language :: Python :: 3.9",
+ "Programming Language :: Python :: Implementation :: CPython",
+ "Programming Language :: Python :: Implementation :: PyPy",
+ "Programming Language :: Python",
+ "Topic :: Software Development",
+ "Topic :: Text Processing",
+ "Typing :: Typed",
+]
+dynamic = [
+ "version",
+]
+description = "A generic formatter"
+name = "genericformat"
+readme = "README.md"
+requires-python = ">=3.6"
+[[project.authors]]
+name = "Waylon Walker"
+email = "waylon@waylonwalker.com"
+
+[build-system]
+requires = [
+ "hatchling>=1.4.1",
+]
+build-backend = "hatchling.build"
+
+[tool.hatch.envs.default]
+dependencies = [
+ "black",
+ "flake8",
+ "isort",
+ "pytest",
+ "pytest-cov",
+ "seed-isort-config",
+]
+
+
+[project.license]
+file = "LICENSE"
+
+[project.scripts]
+genericformat = "genericformat.__main__:main"
+
+[tool.hatch.envs.default.scripts]
+cov = "pytest --cov-report=term-missing --cov-config=pyproject.toml --cov=genericformat --cov=tests"
+no-cov = "cov --no-cov"
+lint = "flake8 genericformat"
+format = "black --check genericformat"
+sort-imports = "isort genericformat"
+build-docs = "genericformat build"
+lint-test = [
+ "lint",
+ "format",
+ "seed-isort-config",
+ "sort-imports",
+ # "cov",
+]
+test-lint = "lint-test"
+
+[project.urls]
+Source = "https://github.com/waylonwalker/genericformat"
+
+[tool.hatch.version]
+path = "genericformat/__about__.py"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+ "/.github",
+]
+
+[tool.hatch.build.targets.wheel]
+
+[tool.isort]
+profile = "black"
+known_third_party = []
