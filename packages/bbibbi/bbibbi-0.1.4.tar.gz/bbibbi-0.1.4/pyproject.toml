@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "bbibbi"
+version = "0.1.4"
+description = "My own very simple python service locator"
+authors = ["sagnol <samcom@naver.com>"]
+readme = "README.rst"
+homepage = "https://github.com/sagnol/bbibbi"
+repository = "https://github.com/sagnol/bbibbi"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.8",
+    "Operating System :: OS Independent",
+]
+packages = [
+    { include = "bbibbi" },
+    { include = "bbibbi/__init__.pyi" },
+    { include = "bbibbi/py.typed" },
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.2.0"
+pytest-cov = "^4.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
