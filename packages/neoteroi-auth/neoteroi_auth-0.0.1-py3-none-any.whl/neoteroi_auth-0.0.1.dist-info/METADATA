@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: neoteroi-auth
+Version: 0.0.1
+Summary: Placeholder project to rename guardpost to neoteroi-auth
+Project-URL: Homepage, https://github.com/Neoteroi/GuardPost
+Project-URL: Bug Tracker, https://github.com/Neoteroi/GuardPost/issues
+Author-email: Roberto Prevato <roberto.prevato@gmail.com>
+License-File: LICENSE
+Keywords: authentication,authorization,claims,identity,strategy
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Neoteroi Auth
+Placeholder project to rename `guardpost` to `neoteroi-auth` and adopt PEP 420.
