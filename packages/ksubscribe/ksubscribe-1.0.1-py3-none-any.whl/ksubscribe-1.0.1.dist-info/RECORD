@@ -1,0 +1,10 @@
+code/__init__.py,sha256=zQkdUJwujujpRsiCRaDK8E3ZxfqIWXd9yf5-i3MUU28,170
+code/ksubscribe.py,sha256=9g7VzV2isjb5nPv9bA0EfPYgw0-dG-vV-GIwy68oDUs,1968
+ksubscribe/__init__.py,sha256=X62ERlzoCPiYUttlqLRDpfBRbUVUWmcKuTY9_pUsh3Q,2973
+ksubscribe/helper.py,sha256=9g7VzV2isjb5nPv9bA0EfPYgw0-dG-vV-GIwy68oDUs,1968
+ksubscribe/ksubscribe.py,sha256=9g7VzV2isjb5nPv9bA0EfPYgw0-dG-vV-GIwy68oDUs,1968
+ksubscribe-1.0.1.dist-info/LICENSE,sha256=TGvvFZVVRnY6aoObbfshK1L44QtOM0vmPXBPYudog84,1074
+ksubscribe-1.0.1.dist-info/METADATA,sha256=O-pgUZvRjM-yfNayDJ2u5kECnk_-A2DGvslSzeIC2HA,1149
+ksubscribe-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ksubscribe-1.0.1.dist-info/top_level.txt,sha256=YwRqTTd45u9VKr0NHHqVoGL7lEoXFBKVvYg7GKz3POg,11
+ksubscribe-1.0.1.dist-info/RECORD,,
