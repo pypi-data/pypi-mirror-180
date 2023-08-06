@@ -1,0 +1,21 @@
+urllib3<2,>=1.9
+
+[doc]
+sphinx<6,>=3.5
+crate-docs-theme
+
+[sqlalchemy]
+sqlalchemy<1.5,>=1.0
+geojson<3,>=2.5.0
+
+[sqlalchemy:python_version < "3.9"]
+backports.zoneinfo<1
+
+[test]
+tox<4,>=3
+zope.testing<5,>=4
+zope.testrunner<6,>=5
+zc.customdoctests<2,>=1.0.1
+createcoverage<2,>=1
+stopit<2,>=1.1.2
+flake8<5,>=4
