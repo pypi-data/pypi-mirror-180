@@ -1,0 +1,9 @@
+micropack/BUILD,sha256=Nf7BYWWe1USoFEIsIiEVZ8sa05J5FPkMJ-UIMDLrU8o,17
+micropack/__init__.py,sha256=AbMqidTabGb6rSu7ZtACVC7WTLg8k3u2AWj82pdV8yA,172
+micropack/buffer.py,sha256=0cQl-OW7awOTmokKG-cKWyF5Q3uwwRqB4b37F9Y5Cqs,3371
+micropack/io.py,sha256=0Nc4jBBxxRyy5wxEZug2lor6d5YvP_kZHdTu9qCZ_y0,977
+micropack/protocol.py,sha256=xeyAnqW5dLxS4ynQDzUTpVczPSKKmswKZEElD9tJ3eM,2462
+micropack-0.1.1.dev0.dist-info/LICENSE,sha256=hKd8opuM3Fn_dHu1Y12ef3N8C5TnRn7VdfaDabFeWJc,1073
+micropack-0.1.1.dev0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+micropack-0.1.1.dev0.dist-info/METADATA,sha256=qJ8eghdWON77UmqGtqycTZdzNdmWaq7GHMgPILuXDhw,1680
+micropack-0.1.1.dev0.dist-info/RECORD,,

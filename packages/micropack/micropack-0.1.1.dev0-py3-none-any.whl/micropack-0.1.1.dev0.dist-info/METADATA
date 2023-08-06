@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: micropack
+Version: 0.1.1.dev0
+Summary: Lightweight JSON serialisation and diff-patching tool for bandwitdth constained applications
+Home-page: https://github.com/CrispyCrafter/micropack
+License: MIT
+Keywords: iot,diff,json,micropython,msgpack,patch,lora,OTA,jsondiff
+Author: Bernard Greyling
+Author-email: bpgreyling@gmail.com
+Requires-Python: >=3.3,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: MicroPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Repository, https://github.com/CrispyCrafter/micropack
+Description-Content-Type: text/markdown
+
+<img width=80% 
+src="https://user-images.githubusercontent.com/29259177/203023707-0a5a84eb-de45-482b-a8e5-d6b22c4f09df.png"
+style="margin-left: auto; margin-right: auto;display: block;">
+
+###
+ Lightweight JSON serialisation and diff-patching tool for bandwitdth constained applications
+
+![image](https://user-images.githubusercontent.com/29259177/203046086-1c4e36f3-8a81-42b9-bed0-232f970ed90a.png)
+
