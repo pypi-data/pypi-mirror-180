@@ -1,0 +1,12 @@
+LICENCE
+README.md
+setup.py
+messi_nmr/__init__.py
+messi_nmr/__main__.py
+messi_nmr/messi_nmr.py
+messi_nmr.egg-info/PKG-INFO
+messi_nmr.egg-info/SOURCES.txt
+messi_nmr.egg-info/dependency_links.txt
+messi_nmr.egg-info/entry_points.txt
+messi_nmr.egg-info/requires.txt
+messi_nmr.egg-info/top_level.txt
