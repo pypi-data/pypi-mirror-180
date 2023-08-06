@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sublate"
+version = "0.3"
+description = ""
+authors = ["Jonathan Esposito <jonathan@esposito.page>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+jinja2 = "^3.1.2"
+pyyaml = "^6.0"
+
+[tool.poetry.scripts]
+sublate = 'sublate:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
