@@ -1,0 +1,15 @@
+numpy
+
+[doc]
+sphinx
+m2r2
+sphinx_py3doc_enhanced_theme
+nbsphinx
+nbsphinx-link
+
+[gui]
+ipywidgets
+jupyter
+matplotlib
+ipympl
+py3dmol
