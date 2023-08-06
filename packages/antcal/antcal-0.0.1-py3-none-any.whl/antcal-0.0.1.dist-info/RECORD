@@ -1,0 +1,13 @@
+antcal/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+antcal/dra/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+antcal/dra/api.py,sha256=BUfqOOmZs-xz9FCctlCGwtir744Vm3F7RAMuNPvqmXQ,476
+antcal/dra/dr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+antcal/dra/dr/cli.py,sha256=6CKhXCworSWD10tPHpeSLc0iwn7sJb3Lqo7WRdo2LnA,1295
+antcal/dra/dr/cyl.py,sha256=YLEx3CZ1S66c7J4v1gVxg_OWZXWwYh46uBndRWFoDIY,225
+antcal/dra/dr/hemi.py,sha256=UUO_xTqLppv5VKe5FNAatcrDG-6R_BRKK0ybGs998tk,230
+antcal/dra/dr/rect.py,sha256=OFBIru5MI34vl7cVD115dGnHRbbCZ4UdvsRGceNlcRA,7885
+antcal/dra/dr/ring.py,sha256=4SoQsxLq8ElGJiWpUduWPdtYL82U3beNQzumDRk7CYk,214
+antcal-0.0.1.dist-info/METADATA,sha256=RyAW8YA9kdpwqRPpcPWayOILS7ClFFvnEPWiT4dxxHc,4645
+antcal-0.0.1.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+antcal-0.0.1.dist-info/licenses/LICENSE,sha256=hdNvhaI6Ribj_2erWXMoY6VZ3lI0PFCoaLWi29-_8hQ,2637
+antcal-0.0.1.dist-info/RECORD,,
