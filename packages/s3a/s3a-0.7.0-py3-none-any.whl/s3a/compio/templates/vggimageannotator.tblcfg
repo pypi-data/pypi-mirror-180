@@ -1,0 +1,8 @@
+fields:
+  region_shape_attributes:
+    type: 'complexxyvertices'
+    value: []
+  filename:
+    value: ''
+  region_id:
+    value: 0
