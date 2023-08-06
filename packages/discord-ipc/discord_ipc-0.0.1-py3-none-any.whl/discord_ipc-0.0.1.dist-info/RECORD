@@ -1,0 +1,9 @@
+discord/ext/ipc/__init__.py,sha256=SWEciPjeOYZKHruX4SnitfOuhrpbQjKtaPOQicYsSLw,53
+discord/ext/ipc/client.py,sha256=bRZnRcOYTHHhURLcNulrU3JzrseB6gMicbACbXPKJGM,739
+discord/ext/ipc/errors.py,sha256=G-7ky9wXAUkNJxO0xjK4oFDSm1ZT6L-mZwUbGdW3Cm4,97
+discord/ext/ipc/server.py,sha256=LUefF-yHbKYsagIPoCGWtYlefGijCwEd27Z71P9zQzQ,3240
+discord_ipc-0.0.1.dist-info/LICENSE,sha256=-EYBO0eOSX4drXJTm_ho13sFnC7EwIXXLc1wir86mjo,1068
+discord_ipc-0.0.1.dist-info/METADATA,sha256=bnXrZA608ZITLMg36e_sc-yUTv3RMVrBsmNQiAo-C1A,341
+discord_ipc-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+discord_ipc-0.0.1.dist-info/top_level.txt,sha256=fJkrNbR-_8ubMBUcDEJBcfkpECrvSEmMrNKgvLlQFoM,8
+discord_ipc-0.0.1.dist-info/RECORD,,
