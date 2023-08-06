@@ -1,0 +1,32 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aya-mixer"
+version = "1.0.0"
+description = "mixing high school tests"
+readme = "README.md"
+authors = [{ name = "Chi", email = "chinguyen.dev@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["mix", "test"]
+dependencies = [
+    "beautifulsoup4"
+]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+Homepage = "https://github.com/ayaderaghul/mixer"
+
+[project.scripts]
+mix = "mixer.__main__:main"

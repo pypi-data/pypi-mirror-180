@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/aya_mixer.egg-info/PKG-INFO
+src/aya_mixer.egg-info/SOURCES.txt
+src/aya_mixer.egg-info/dependency_links.txt
+src/aya_mixer.egg-info/entry_points.txt
+src/aya_mixer.egg-info/requires.txt
+src/aya_mixer.egg-info/top_level.txt
+src/mixer/__main__.py
+test/test_many.py

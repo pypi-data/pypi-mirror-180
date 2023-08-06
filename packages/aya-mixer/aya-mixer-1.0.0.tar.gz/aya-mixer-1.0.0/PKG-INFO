@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: aya-mixer
+Version: 1.0.0
+Summary: mixing high school tests
+Author-email: Chi <chinguyen.dev@gmail.com>
+Project-URL: Homepage, https://github.com/ayaderaghul/mixer
+Keywords: mix,test
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+# mixer09122022
+
+
+`mixer2` is the version that works. 
+
+`mixer3` is for refactoring attempts.
+
+## mixer2
+
+`test_many.py` is whether the program lives.
+
+it inputs `de_chua_tron_091122.html` and output N (4) tests `de_da_tron_{id}.html` with all the answers written in `cau_tra_loi.docx`
+
+## notes
+
+
+-    libre to save docx as html (not export) (to preserve all the images of equations and subscripts)
+-    python to mix and output the tests (in html) with its answers (`docx`)
+-    libre writer to save html as docx, then export to pdf to preserve all the images
+- input needs to be formatted in a particular way (as in `de_chua_tron_091122.docx`
+
+## code logic
+
+- input `html` and read into a `BeautifulSoup` document
+- get the questions into an array. `shuffle` the array N times
+- traverse the question array with a `for` loop: process the question along the way (add bold title, pack images, shuffle answers)
+- output to 4 `html` files, output the answers to one file (with timestamp and testID)
+
+## further consideration
+ questions with answers are tabulated or not. and are html tags which can be stored in a database for further web app development.
+# test
+# test
