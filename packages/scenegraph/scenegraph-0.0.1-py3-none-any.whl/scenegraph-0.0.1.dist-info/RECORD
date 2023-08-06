@@ -1,0 +1,15 @@
+scenegraph/__init__.py,sha256=egh8c-kO3jxZD66W2Ds-lmQlsSeB-88W_2StGP0GW6E,356
+scenegraph/algo.py,sha256=5OrQ4apHWQshb2FWw_SQgkqCFH3gJWkPnn7DDyIClZc,2348
+scenegraph/io.py,sha256=_8Y5SKtmWlJW1AnDcXyG1VgH4v1R_YD1lrCf458yEjs,5490
+scenegraph/scene.py,sha256=qil7XTo0Y23MirBQly0p2wOYe8kGUiJKMzOyuzuTYqc,4304
+scenegraph/shape.py,sha256=KXeSiXHfKgrJY7YXtHTi_6rZZVY8Mmo9EmHgzfkZj6c,653
+scenegraph/transfo.py,sha256=QD98B4VdBFKY7MH77h7Vg9nLbln4qdNjxLFXUvLIsr8,4168
+scenegraph/triangle.py,sha256=gNF91A_aX9HIB7xd_T9KCl4JcgkBsz-hI1nHiTNcM-E,1282
+scenegraph/triangle_set.py,sha256=tflXSpnxUGWOCm4s-hxWMJEKHCg76aX_CpNypKsNq8s,2162
+scenegraph/version.py,sha256=_SeY2WYuua6lHMV43QqKLsur7Q_MVkQGSrz-TIwZvMs,367
+scenegraph-0.0.1.dist-info/AUTHORS.rst,sha256=qi6rztgOfqpfDHVM9Wy9GT6PevR5iw1q2z-OHqtkLkE,316
+scenegraph-0.0.1.dist-info/LICENSE,sha256=8mluVEVU5FGmJ1_8b2ClHrZB7S51lPClhHJu6rZlVeE,20838
+scenegraph-0.0.1.dist-info/METADATA,sha256=3PSsvmfWZJzR0ASve0CARJYyidgG7Umz5-QxHSYvyhM,2029
+scenegraph-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+scenegraph-0.0.1.dist-info/top_level.txt,sha256=BWB8xLYzFtb054YkdHoiw2lKClqXWzFvcD2_7wI7RkI,11
+scenegraph-0.0.1.dist-info/RECORD,,

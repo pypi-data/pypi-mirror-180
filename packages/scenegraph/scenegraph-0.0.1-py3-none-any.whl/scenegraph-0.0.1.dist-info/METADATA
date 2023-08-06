@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: scenegraph
+Version: 0.0.1
+Summary: Simple organisation of shapes in space
+Home-page: https://gitlab.com/revesansparole/scenegraph
+Author: revesansparole
+Author-email: revesansparole@gmail.com
+License: cc_by_nc
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: numpy
+
+========================
+scenegraph
+========================
+
+.. {# pkglts, doc
+
+.. image:: https://revesansparole.gitlab.io/scenegraph/_images/badge_doc.svg
+    :alt: Documentation status
+    :target: https://revesansparole.gitlab.io/scenegraph/
+
+.. image:: https://revesansparole.gitlab.io/scenegraph/_images/badge_pkging_pip.svg
+    :alt: PyPI version
+    :target: https://pypi.org/project/scenegraph/0.0.1/
+
+.. image:: https://revesansparole.gitlab.io/scenegraph/_images/badge_pkging_conda.svg
+    :alt: Conda version
+    :target: https://anaconda.org/revesansparole/scenegraph
+
+.. image:: https://badge.fury.io/py/scenegraph.svg
+    :alt: PyPI version
+    :target: https://badge.fury.io/py/scenegraph
+
+.. #}
+.. {# pkglts, glabpkg, after doc
+
+main: |main_build|_ |main_coverage|_
+
+.. |main_build| image:: https://gitlab.com/revesansparole/scenegraph/badges/main/pipeline.svg
+.. _main_build: https://gitlab.com/revesansparole/scenegraph/commits/main
+
+.. |main_coverage| image:: https://gitlab.com/revesansparole/scenegraph/badges/main/coverage.svg
+.. _main_coverage: https://gitlab.com/revesansparole/scenegraph/commits/main
+.. #}
+
+Simple organisation of shapes in space
+
+
+
+=======
+History
+=======
+
+creation (2022-09-20)
+------------------------
+
+* First release on PyPI.
