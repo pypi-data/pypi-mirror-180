@@ -1,0 +1,1 @@
+Fixed crash of fit caused by incorrectly set value of I_clear/I_sys if `remove_I_trend` option was set to `False`.
