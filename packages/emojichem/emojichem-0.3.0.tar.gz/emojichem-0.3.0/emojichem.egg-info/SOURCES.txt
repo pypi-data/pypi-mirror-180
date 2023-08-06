@@ -1,0 +1,10 @@
+README.md
+setup.py
+emojichem/__init__.py
+emojichem/data.py
+emojichem/version.py
+emojichem.egg-info/PKG-INFO
+emojichem.egg-info/SOURCES.txt
+emojichem.egg-info/dependency_links.txt
+emojichem.egg-info/requires.txt
+emojichem.egg-info/top_level.txt
