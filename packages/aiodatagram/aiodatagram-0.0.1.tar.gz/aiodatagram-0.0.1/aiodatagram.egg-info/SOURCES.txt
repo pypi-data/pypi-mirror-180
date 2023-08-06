@@ -1,0 +1,11 @@
+README.md
+setup.py
+./aiodatagram/__init__.py
+./aiodatagram/broadcast.py
+./aiodatagram/client.py
+./aiodatagram/endpoint.py
+./aiodatagram/types.py
+aiodatagram.egg-info/PKG-INFO
+aiodatagram.egg-info/SOURCES.txt
+aiodatagram.egg-info/dependency_links.txt
+aiodatagram.egg-info/top_level.txt

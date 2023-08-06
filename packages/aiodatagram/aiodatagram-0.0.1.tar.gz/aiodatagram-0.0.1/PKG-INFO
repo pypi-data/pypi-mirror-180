@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: aiodatagram
+Version: 0.0.1
+Summary: A set of utilities to handle UDP in the asyncio context
+Author: Mikhael Khrustik
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# AsyncIO Datagram Utils
+
+A set of utilities to handle UDP in the asyncio context.
+
+## Installation
+
+```sh
+pip install aiodatagram
+```
