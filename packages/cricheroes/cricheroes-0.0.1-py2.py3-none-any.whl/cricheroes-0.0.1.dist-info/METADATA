@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: cricheroes
+Version: 0.0.1
+Summary: Python APIs to fetch and store team data from cricheroes.in  
+Home-page: https://github.com/pupattan/cricheroes
+Author: pattap
+Author-email: pulak.pattanayak@gmail.com
+License: MIT
+License-File: LICENSE
+
