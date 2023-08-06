@@ -1,0 +1,5 @@
+[fips_sect]
+activate = 1
+conditional-errors = 1
+security-checks = 1
+module-mac = F8:05:87:97:E9:CD:D3:0E:B4:45:C3:39:5E:D1:8F:A1:7D:D8:5C:6C:6C:9E:33:D2:76:9D:F0:4A:0F:D7:89:08
