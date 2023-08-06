@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "test"
+    ],
+    "python.analysis.extraPaths": [
+        "test"
+    ],
+    "python.linting.pylintPath": "test",
+    "markdownlint.config": {
+        "MD033": false
+    }
+}
