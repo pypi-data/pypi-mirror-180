@@ -1,0 +1,6 @@
+docstring_inheritance
+typeguard
+dbis-relational-algebra>=1.1.1
+dbis-exc-manager
+Jinja2
+pathlib
