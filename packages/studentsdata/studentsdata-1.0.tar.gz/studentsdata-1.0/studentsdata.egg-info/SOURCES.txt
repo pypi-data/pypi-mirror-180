@@ -1,0 +1,8 @@
+setup.py
+studentsdata/__init__.py
+studentsdata/studentsdata.py
+studentsdata.egg-info/PKG-INFO
+studentsdata.egg-info/SOURCES.txt
+studentsdata.egg-info/dependency_links.txt
+studentsdata.egg-info/not-zip-safe
+studentsdata.egg-info/top_level.txt
