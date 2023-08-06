@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: rgbmatch
+Version: 0.0.1
+Summary: Close RGB Colors
+License: The Unlicense
+Keywords: rgb
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+
+rgbmatch
+========
+
+Usage
+-----
+
+```python
+from rgbmatch import closest_rgb
+
+rgbmatch.closest_rgb(
+    (0,0,0),
+    [
+        (95,110,5),
+        (4,4,4),
+        (100,100,100)
+    ]
+)
+
+# (4, 4, 4)
+```
+
+Call ``help(closest_rgb)`` for more information.
+
+
+Links
+-----
+
+- [Repository](https://github.com/phoenixr-codes/rgbmatch/)
+- [PyPI](https://pypi.org/project/rgbmatch)
