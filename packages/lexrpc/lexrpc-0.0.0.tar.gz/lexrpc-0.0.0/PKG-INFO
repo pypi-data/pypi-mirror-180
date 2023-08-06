@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: lexrpc
+Version: 0.0.0
+Summary: Python implementation of AT Protocol's XRPC + Lexicon
+Home-page: https://github.com/snarfed/lexrpc
+Author: Ryan Barrett
+Author-email: lexrpc@ryanb.org
+License: Public domain
+Keywords: XRPC,Lexicon,AT Protocol,ATP
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: Public Domain
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# lexrpc
+Python implementation of [AT Protocol](https://atproto.com/)'s [XRPC](https://atproto.com/specs/xrpc) + [Lexicon](https://atproto.com/guides/lexicon).
