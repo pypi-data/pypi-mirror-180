@@ -1,0 +1,6 @@
+setup.py
+src/randompass/jeremyrandompassword.egg-info/PKG-INFO
+src/randompass/jeremyrandompassword.egg-info/SOURCES.txt
+src/randompass/jeremyrandompassword.egg-info/dependency_links.txt
+src/randompass/jeremyrandompassword.egg-info/top_level.txt
+src/randompass/jeremyrandompassword.egg-info/SOURCES.txt
