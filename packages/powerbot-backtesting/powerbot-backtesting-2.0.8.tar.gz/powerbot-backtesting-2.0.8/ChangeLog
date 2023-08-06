@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+2.0.8
+-----
+
+* Add GB block products to the constants.py (#44)
