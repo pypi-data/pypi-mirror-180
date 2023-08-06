@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: toml-env-conf
+Version: 0.1.1
+Summary: 
+Home-page: https://github.com/sa-/toml_env_conf
+Author: sa-
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: mergedeep (>=1.3.4,<2.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Project-URL: Documentation, https://github.com/sa-/toml_env_conf/blob/main/README.md
+Project-URL: Repository, https://github.com/sa-/toml_env_conf
