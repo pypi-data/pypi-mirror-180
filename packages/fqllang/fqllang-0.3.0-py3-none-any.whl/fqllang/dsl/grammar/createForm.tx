@@ -1,0 +1,35 @@
+
+CreateForm:
+	'create' 'form' formName=ID '(' dataSpecList*=DataSpec[','] ')' |
+	'create' 'form' formName=ID 'using' ID '(' dataSpecList*=DataSpec[','] ')'
+;
+
+DataSpec:
+	DataDefinition |
+	DataReference
+;
+        
+DataDefinition:
+	//dataName=ID 'using' ID dataType=DataType notNull?='not null' unique?='unique' |
+	dataName=ID dataType=DataType notNull?='not null' unique?='unique'
+;
+
+DataType:
+	'NUMBER' | 'BOOLEAN' | 'TEXT'
+;
+
+DataReference:
+	dataName=ID 'references' refCardinality=RefCardinality? refPath=RefPath
+;
+
+
+RefCardinality:
+	INT |
+	INT '..' INT |
+	INT '..' 'many'
+;
+
+RefPath:
+	STRING
+;
+
