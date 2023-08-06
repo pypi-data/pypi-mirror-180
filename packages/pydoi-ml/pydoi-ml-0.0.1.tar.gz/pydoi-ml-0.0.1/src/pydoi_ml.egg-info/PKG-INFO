@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pydoi-ml
+Version: 0.0.1
+Author-email: NPSingh <flipflopguy.me@gmail.com>
+Keywords: deeplearning,research,models
+Description-Content-Type: text/markdown
+
+# pydoi-ml
+Support package for doi-ml

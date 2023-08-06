@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/evolution/__init__.py
+src/evolution/strategies.py
+src/pydoi_ml.egg-info/PKG-INFO
+src/pydoi_ml.egg-info/SOURCES.txt
+src/pydoi_ml.egg-info/dependency_links.txt
+src/pydoi_ml.egg-info/top_level.txt
