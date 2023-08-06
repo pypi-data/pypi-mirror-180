@@ -1,0 +1,12 @@
+LICENSE,sha256=SpF2pV8vFz85Fu3tskjrx97H5XBcsiskhjhd1JiRrPM,1060
+wiki_fetch/__init__.py,sha256=7Mp8iqklf3_AKmDXbtfWFufmP2NUURhE5CXW4A0vn-c,22
+wiki_fetch/__main__.py,sha256=R3CAnjbInCsPLy18jvOWzEsiNNkvAu-0MXqCUA1lH0w,716
+wiki_fetch/driver.py,sha256=PuZPfRaI7w6KLSn_PpPBiD-FW0sjbfc7mf-8iEtDzHw,2802
+wiki_fetch/generic.py,sha256=e4_4CpmKrx_uuNNUfDU5ACH17qkg67PSqjZvaNR-tNE,3049
+wiki_fetch/parser.py,sha256=WfVEEEOO9sKR7cYLPtR2kqf5lqNISL5nJ0Smbag_mx8,3079
+wiki_fetch/parts.py,sha256=ey84MRe3Yq_tciQ0u5FdUx1HdC7aAj7hWwuYQB4u5As,9614
+wiki_fetch-0.0.0.dist-info/entry_points.txt,sha256=Iqg52ZfACizni25TjSjUboewWJ4GW5H29Te28JxNDM4,54
+wiki_fetch-0.0.0.dist-info/LICENSE,sha256=SpF2pV8vFz85Fu3tskjrx97H5XBcsiskhjhd1JiRrPM,1060
+wiki_fetch-0.0.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+wiki_fetch-0.0.0.dist-info/METADATA,sha256=QJdrE1Yq0IKepnyEeWHmWDBcEfYPNWo10oh5MvTg7A4,6093
+wiki_fetch-0.0.0.dist-info/RECORD,,
