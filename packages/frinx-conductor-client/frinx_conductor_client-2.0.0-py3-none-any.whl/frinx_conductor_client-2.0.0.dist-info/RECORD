@@ -1,0 +1,8 @@
+conductor/ConductorWorker.py,sha256=yM0I4yi0AAoD4u_efqa4_J5Ukel-zLfv73oU-nGxipY,7389
+conductor/FrinxConductorWrapper.py,sha256=ItzlUyj6Snoh3r6SeYOZ84_wzjy3kqWB-WLG7Y3Vysk,9035
+conductor/__init__.py,sha256=kyCs53xWKgzY_PayPmrMcK0cujvXZb-GCitDSVvwpg0,732
+conductor/conductor.py,sha256=q4Qq80q6-93odGsZVtTCXRxXCq5EqS9bPtIHoqWk9dw,12720
+frinx_conductor_client-2.0.0.dist-info/METADATA,sha256=2E7VB1dSXEO7HbnnI4svXxXLpCTvcxgrhWk0d3chNBI,282
+frinx_conductor_client-2.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+frinx_conductor_client-2.0.0.dist-info/top_level.txt,sha256=ACqGaWjZ5nhL2KbVWL_Ccs6Hl5dYEleOv1Le5NoCwks,10
+frinx_conductor_client-2.0.0.dist-info/RECORD,,
