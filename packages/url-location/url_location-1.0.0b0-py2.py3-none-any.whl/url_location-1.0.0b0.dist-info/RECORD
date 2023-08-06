@@ -1,0 +1,11 @@
+url_location/__init__.py,sha256=ghz45LKa-F3812BzNaC4u2lN4BVac8854Ffsaert9aM,449
+url_location/service/URLLocation.py,sha256=7PNbMgJ36nxqj6dxmxd_u1JArvbiI89rM02FYurjCEs,2865
+url_location/service/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+url_location/utils/Countries.py,sha256=4FvQjXPw_kSLG8qXcJzRnhxycsxjgBIHH3A004ph1hQ,44375
+url_location/utils/Logger.py,sha256=ZwxiMTx3SHsTlIn4JmeWhozcph5kkjcIlsQ99gi9R8Y,703
+url_location/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+url_location-1.0.0b0.dist-info/LICENSE,sha256=RLihqppZIYmhRjcR_VuL_vCh4TQW06MkcEL3Iiemzsg,1078
+url_location-1.0.0b0.dist-info/METADATA,sha256=uls0VBt2X6_HBPHySo83X8X6KsQLk70OeMPLHGrURWc,1357
+url_location-1.0.0b0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+url_location-1.0.0b0.dist-info/top_level.txt,sha256=79Km0N0x8d7CTSArovpnjCGg2BWqHc04n21q6-ZTbRU,13
+url_location-1.0.0b0.dist-info/RECORD,,
