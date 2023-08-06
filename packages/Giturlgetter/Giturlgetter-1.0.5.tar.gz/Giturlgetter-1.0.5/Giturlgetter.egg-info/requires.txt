@@ -1,0 +1,4 @@
+PyGithub
+requests
+pyfiglet
+python-dotenv
