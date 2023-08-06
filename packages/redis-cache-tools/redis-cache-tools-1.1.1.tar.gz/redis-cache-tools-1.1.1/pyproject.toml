@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "redis-cache-tools"
+version = "1.1.1"
+description = "redis-cache-tools is a pythonic interface for creating a cache over redis."
+authors = ["It provides simple decorators that can be added to any function to cache its return values."]
+readme = "readme.md"
+packages = [{include = "redis_cache"}]
+
+
+homepage = "https://500apps.com"
+repository = "https://500apps.com"
+keywords = ["redis-cache-tools"]
+classifiers = [
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Quality Assurance",
+]
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+redis = ">=4.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
