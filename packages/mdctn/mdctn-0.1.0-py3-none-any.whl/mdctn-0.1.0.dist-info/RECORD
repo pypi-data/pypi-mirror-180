@@ -1,0 +1,6 @@
+mdctn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mdctn/imdct.py,sha256=3C9qj0xU2LpfR062PGiXM0WdsFR7f7uW1EbGs569HuE,1794
+mdctn/mdct.py,sha256=rfjiI_Gt9IhfITVRZGpFiAwwLf88YdCRx63V5tbpIgo,2011
+mdctn-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+mdctn-0.1.0.dist-info/METADATA,sha256=BeVaa3vZIbhOvk22xyzNttHS1NqeedQqgXn3ejm72IA,1424
+mdctn-0.1.0.dist-info/RECORD,,
