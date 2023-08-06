@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: invokeftp
+Version: 0.0.1
+Summary: Small library to perform FTP uploading/downloading similarly to PS' Invoke-WebRequest
+Home-page: https://github.com/ehuff007/InvokeFTP/
+Author: ehuff007
+Author-email: ehuff007@gmail.com
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: ipaddress
+
+# InvokeFTP
