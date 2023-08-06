@@ -1,0 +1,340 @@
+import { Component, OnInit, ViewChild, TemplateRef } from "@angular/core";
+
+import { FormGroup } from "@angular/forms";
+import { FormlyFieldConfig } from "@ngx-formly/core";
+import { UploadState } from "ngx-uploadx";
+
+import { FormlyService } from "@rapydo/services/formly";
+import { ApiService } from "@rapydo/services/api";
+import { NotificationService } from "@rapydo/services/notification";
+import { environment } from "@rapydo/../environments/environment";
+import { Schema, SchemaType } from "@rapydo/types";
+
+import * as moment from "moment";
+
+// === @swimlane/ngx-datatable/src/types/column-mode.type
+enum ColumnMode {
+  standard = "standard",
+  flex = "flex",
+  force = "force",
+}
+
+@Component({
+  templateUrl: "sink.html",
+})
+export class SinkComponent implements OnInit {
+
+  public form1 = new FormGroup({});
+  public fields1: FormlyFieldConfig[] = [];
+  public model1: any = {};
+
+  // Used by horizontal-form
+  public form2 = new FormGroup({});
+  public fields2: FormlyFieldConfig[] = [];
+  public model2: any = {};
+
+  // Used by ngx-upload
+  public upload_options: any;
+  public upload_progress: number = 0;
+  public upload_speed: number = 0;
+
+  // Used by ngx-datatable
+  public ColumnMode = ColumnMode;
+  public table_data: Array<any> = [];
+  public columns: Array<any> = [];
+  @ViewChild("namesCell", { static: false })
+  public namesCell: TemplateRef<any>;
+
+  // Used to test the autocomplete 
+  public form3 = new FormGroup({});
+  public fields3: FormlyFieldConfig[] = [];
+  public model3: any = {};
+
+  // Used to test the multi-value autocomplete
+  public form4 = new FormGroup({});
+  public fields4: FormlyFieldConfig[] = [];
+  public model4: any = {};
+
+  // Used to test the autocomplete with preloaded data
+  public form5 = new FormGroup({});
+  public fields5: FormlyFieldConfig[] = [];
+  public model5: any = {};
+
+  public data: any = null;
+
+  constructor(private formly: FormlyService, private api: ApiService, private notify: NotificationService) {}
+
+  ngOnInit() {
+    this.fields1 = this.get_fields(null);
+    this.fields2 = this.get_fields(["form-field-horizontal"]);
+
+    if (this.upload_options == null) {
+      // In case of authenticated endpoint, you can add the token to the upload_options
+      // token: this.auth.getToken(),
+      this.upload_options = {
+        endpoint: environment.backendURI + "/api/tests/chunkedupload",
+        allowedTypes:
+          "text/plain,application/zip,multipart/x-zip",
+        multiple: false,
+        autoUpload: true,
+      };
+    }
+
+    this.api.put<Schema[]>("/api/tests/autocomplete", { get_schema: true }).subscribe(
+      (response) => {
+        let data = this.formly.json2Form(response, {});
+        this.fields3 = data.fields;
+      },
+      (error) => {
+        this.notify.showError(error);
+      }
+    );
+
+    this.api.post<Schema[]>("/api/tests/autocomplete", { get_schema: true }).subscribe(
+      (response) => {
+        let data = this.formly.json2Form(response, {});
+        this.fields4 = data.fields;
+      },
+      (error) => {
+        this.notify.showError(error);
+      }
+    );
+
+    this.api.post<Schema[]>("/api/tests/autocomplete", { get_schema: true }).subscribe(
+      (response) => {
+        let model = {
+          "elements": [
+            {
+              "my_id": "CSK",
+              "my_label": "Charlie Smith the Kid",
+            },
+            {
+              "my_id": "JWR",
+              "my_label": "Jack Williams the Ripper",
+            }
+          ]
+        }
+        let data = this.formly.json2Form(response, model);
+        this.fields5 = data.fields;
+        this.model5 = data.model;
+      },
+      (error) => {
+        this.notify.showError(error);
+      }
+    );
+
+  }
+
+  public ngAfterViewInit(): void {
+
+    this.table_data = [
+      {"shortname": "AAA", "fullname": "Aardvark Ant Alpaca", extra: "1"},
+      {"shortname": "BBB", "fullname": "Buffalo Bear Bobcat", extra: "2"},
+      {"shortname": "CCC", "fullname": "Cheetah Cow Caracal", extra: "3"},
+    ];
+
+    this.columns = [
+      { name: "Shortname", prop: "shortname", flexGrow: 0.5 },
+      { name: "Fullname", prop: "fullname", flexGrow: 1.5, cellTemplate: this.namesCell,},
+    ];
+  }
+
+  private get_fields(wrappers) {
+
+    const now = new Date();
+
+    const schema: Schema[] = [
+      {
+        label: "Username",
+        description: "email",
+        key: "email",
+        required: true,
+        type: SchemaType.EMAIL,
+      },
+      {
+        label: "Password",
+        description: "password",
+        key: "password",
+        required: true,
+        type: SchemaType.PASSWORD,
+      },
+      {
+        label: "Date",
+        description: "date",
+        key: "date",
+        required: false,
+        type: SchemaType.DATETIME,
+        min: new Date().setFullYear(now.getFullYear() - 1),
+        max: new Date().setFullYear(now.getFullYear() + 2),
+      },
+      {
+        label: "URL",
+        description: "url",
+        key: "url",
+        required: true,
+        type: SchemaType.URL,
+      },
+      {
+        label: "Text",
+        description: "text",
+        key: "text",
+        required: false,
+        type: SchemaType.STRING,
+        min: 4,
+        max: 6
+      },
+      {
+        label: "Number",
+        description: "number",
+        key: "number",
+        required: false,
+        type: SchemaType.NUMBER,
+        min: 1,
+        max: 9
+      },
+      {
+        label: "Boolean",
+        description: "boolean",
+        key: "boolean",
+        required: false,
+        type: SchemaType.BOOLEAN,
+      },
+      {
+        label: "Select",
+        description: "This is a select",
+        key: "select",
+        required: true,
+        type: SchemaType.STRING,
+        options: {
+          "first-key": "This is the first option",
+          "second-key": "This is the second one",
+          "third-key": "And this the third",
+        }
+      },
+      {
+        label: "MultiSelect",
+        description: "This is a multi-select",
+        key: "multiselect",
+        required: true,
+        type: SchemaType.STRING_ARRAY,
+        options: {
+          dog: "Canis familiaris",
+          cat: "Felix catus",
+          cow: "Bos taurus",
+          horse: "Equus caballus",
+          sheep: "Ovis aries",
+          pig: "Sus scrofa domesticus",
+        }
+      },
+      {
+        label: "Radio1",
+        key: "radio1",
+        required: false,
+        type: SchemaType.RADIO,
+        options: [
+          {
+            value: "opt1",
+            label: "Option1",
+          },
+          {
+            value: "opt2",
+            label: "Option2",
+          },
+        ]
+      },
+      {
+        label: "Radio2",
+        key: "radio2",
+        required: false,
+        type: SchemaType.RADIO,
+        options: [
+          {
+            value: "opt3",
+            label: "Option3",
+            description: "Description 3"
+          },
+          {
+            value: "opt4",
+            label: "Option4",
+            description: "Description 4"
+          },
+        ]
+      }
+    ];
+
+    let data = this.formly.json2Form(schema, {});
+
+    if (wrappers) {
+      for (let idx in data.fields) {
+        data.fields[idx].wrappers = wrappers;
+      }
+    }
+
+    return data.fields;
+  }
+
+  submit1() {
+    this.data = null;
+    if (!this.form1.valid) {
+      return false;
+    }
+
+    this.data = this.model1;
+  }
+
+  submit2() {
+    this.data = null;
+    if (!this.form2.valid) {
+      return false;
+    }
+
+    this.data = this.model2;
+  }
+
+  submit3() {
+    this.data = null;
+    if (!this.form3.valid) {
+      return false;
+    }
+
+    this.data = this.model3;
+  }
+
+  submit4() {
+    this.data = null;
+    if (!this.form4.valid) {
+      return false;
+    }
+
+    this.data = this.model4;
+  }
+
+  submit5() {
+    this.data = null;
+    if (!this.form5.valid) {
+      return false;
+    }
+
+    this.data = this.model5;
+  }
+
+  onUpload(item: UploadState) {
+    this.upload_progress = item.progress;
+    this.upload_speed = item.speed;
+    if (
+      item.progress == 100 &&
+      item.remaining == 0 &&
+      item.status == "complete"
+    ) {
+      this.notify.showSuccess("Upload completed");
+      this.upload_progress = -1;
+    }
+  }
+
+  public onDatatableActivate(event: any) {
+    if (event.type === "click") {
+      event.cellElement.blur();
+    }
+  }
+
+}

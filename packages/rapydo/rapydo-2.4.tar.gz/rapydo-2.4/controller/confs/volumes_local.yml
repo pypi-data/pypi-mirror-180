@@ -1,0 +1,21 @@
+version: "3.9"
+
+volumes:
+  secrets:
+    driver: local
+  rabbitdata:
+    driver: local
+  sqldata:
+    driver: local
+  graphdata:
+    driver: local
+  data_imports:
+    driver: local
+  pureftpd:
+    driver: local
+  ssl_certs:
+    driver: local
+  flower_db:
+    driver: local
+  redisdata:
+    driver: local

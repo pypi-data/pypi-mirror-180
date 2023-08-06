@@ -1,0 +1,20 @@
+version: "3.9"
+
+services:
+  backend:
+    ports:
+      - ${BACKEND_PORT}:${FLASK_DEFAULT_PORT}
+
+  postgres:
+    ports:
+      - ${ALCHEMY_PORT}:${ALCHEMY_PORT}
+
+  neo4j:
+    ports:
+      - ${NEO4J_EXPOSED_WEB_INTERFACE_PORT}:${NEO4J_WEB_INTERFACE_PORT}
+      - 7687:7687
+
+  rabbit:
+    ports:
+      - ${RABBITMQ_PORT}:${RABBITMQ_PORT}
+      - ${RABBITMQ_MANAGEMENT_PORT}:${RABBITMQ_MANAGEMENT_PORT}
