@@ -1,0 +1,3 @@
+[psychopy.experiment.components]
+EnvGratingComponent = psychopy_visionscience:EnvGratingComponent
+NoiseStimComponent = psychopy_visionscience:NoiseStimComponent
