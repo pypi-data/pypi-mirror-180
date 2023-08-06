@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sanic_pika
+Version: 0.1.0
+Summary: sanic pika
+Home-page: https://github.com/JiehuiSun/sanic_pika
+Author: huihui
+Author-email: sunjiehuimail@foxmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Framework :: AsyncIO
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+sanic asyncio pika rabbitMQ
+
