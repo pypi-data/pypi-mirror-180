@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: lib-yacht
+Version: 0.0.1
+Summary: Email will be sent to the provided email 
+Home-page: 
+Author: Stephen Angelo
+Author-email: x21220123@student.ncirl.ie
+Keywords: lib_yacht
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
