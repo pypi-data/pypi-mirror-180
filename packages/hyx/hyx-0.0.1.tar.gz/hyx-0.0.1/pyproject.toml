@@ -1,0 +1,23 @@
+[project]
+name = "hyx"
+description = "Lightweight fault tolerance primitives for your modern Python microservices"
+authors = [
+    { name = "Roman Glushko", email = "roman.glushko.m@gmail.com" },
+]
+requires-python = ">=3.9,<4.0"
+license = "MIT"
+readme = "README.md"
+dynamic = ["version"]
+
+dependencies = [
+]
+
+[project.urls]
+Homepage = "https://github.com/roma-glushko/hyx"
+
+[tool.hatch.version]
+path = "hyx/__init__.py"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
