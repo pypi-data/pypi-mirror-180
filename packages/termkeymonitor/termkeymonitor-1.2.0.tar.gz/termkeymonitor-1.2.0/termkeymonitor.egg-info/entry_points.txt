@@ -1,0 +1,2 @@
+[console_scripts]
+termkeymonitor = termkeymonitor.simple:cli
