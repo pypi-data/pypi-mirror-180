@@ -1,0 +1,7 @@
+setup.py
+analyze_the_shit_out_of_me.egg-info/PKG-INFO
+analyze_the_shit_out_of_me.egg-info/SOURCES.txt
+analyze_the_shit_out_of_me.egg-info/dependency_links.txt
+analyze_the_shit_out_of_me.egg-info/top_level.txt
+analyze_the_shit_outof_me/__init__.py
+analyze_the_shit_outof_me/twitter_analysis.py
