@@ -1,0 +1,3 @@
+[console_scripts]
+experiment=experiment.__main__:main
+
