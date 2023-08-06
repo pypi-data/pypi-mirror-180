@@ -1,0 +1,33 @@
+"""
+    This module will get the json from file paths
+"""
+import json
+from os.path import exists as file_exists
+from reva.exception import FileNotExistsError
+
+class JsonFileGetter:
+    """
+    This class will get the json files from paths
+    """
+
+    def get_file_by_path(self, file_path: str) -> dict:
+        """
+        This function will get json file by path
+        """
+        if not file_exists(file_path):
+            raise FileNotExistsError(
+                "Config file does not exists, please configure the json file at path =>" + file_path
+            )
+        with open(file_path, "r", encoding="utf-8") as file:
+            data = json.load(file)
+        return data
+
+
+    def get_file_by_paths(self, file_paths : list) -> list:
+        """
+            THis function will return list of json files
+        """
+        result = []
+        for file_path in file_paths:
+            result.append(self.get_file_by_path(file_path))
+        return result
