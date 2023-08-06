@@ -1,0 +1,18 @@
+[project]
+name = "auto34diff"
+version = "0.1.0"
+description = "CS107 project from team 34"
+authors = [
+    {name = "team34"},
+]
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.7"
+
+dependencies = [
+    "numpy",
+]
+
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.2,<4"]
