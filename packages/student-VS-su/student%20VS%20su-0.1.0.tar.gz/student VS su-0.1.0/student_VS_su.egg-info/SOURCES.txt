@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+student VS su/__init__.py
+student VS su/__version__.py
+student VS su/core.py
+student_VS_su.egg-info/PKG-INFO
+student_VS_su.egg-info/SOURCES.txt
+student_VS_su.egg-info/dependency_links.txt
+student_VS_su.egg-info/top_level.txt

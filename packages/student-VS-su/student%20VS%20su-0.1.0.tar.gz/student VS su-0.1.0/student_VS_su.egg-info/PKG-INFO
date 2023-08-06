@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: student-VS-su
+Version: 0.1.0
+Summary: 被su击碎，或是击碎su！
+Home-page: 
+Author: 张陈绮、吴婉青、郑思瑶
+Author-email: 723288712@qq.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+📦 setup.py (for humans)
+======================
+│  LICENSE
+│  MANIFEST.in
+│  README.md
+│  setup.py
+│
+└─condition_chain
+        core.py
+        __init__.py
+        __version__.py
+
