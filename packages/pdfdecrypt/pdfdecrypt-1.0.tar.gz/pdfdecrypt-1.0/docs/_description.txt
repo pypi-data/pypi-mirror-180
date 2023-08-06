@@ -1,0 +1,10 @@
+
+``pdfdecrypt`` is a command line tool and a Python library to
+remove passwords from PDF documents.  It will read the encrypted
+document, ask for the password and write the decrypted document
+without touching any internal structure.
+
+.. Emacs config:
+ Local Variables:
+ mode: rst
+ End:

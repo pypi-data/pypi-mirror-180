@@ -1,0 +1,12 @@
+
+General Options
+--------------------
+
+--version        Show program's version number and exit
+-h, --help       Show help message and exit
+
+
+.. Emacs config:
+ Local Variables:
+ mode: rst
+ End:

@@ -1,0 +1,7 @@
+
+* ``pdfdecrypt some-encrypted.pdf same-but-decrypted.pdf``
+
+  Decrypts the file  ``some-encrypted.pdf``
+  into the file ``same-but-decrypted.pdf``.
+
+.. include:: _common_definitions.txt
