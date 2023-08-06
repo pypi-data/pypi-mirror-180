@@ -1,0 +1,4 @@
+colorama
+ping3
+tqdm
+functools
