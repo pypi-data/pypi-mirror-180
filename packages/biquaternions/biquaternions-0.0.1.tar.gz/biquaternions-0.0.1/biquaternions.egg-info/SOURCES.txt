@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+biquaternions/__init__.py
+biquaternions/biquaternions.py
+biquaternions.egg-info/PKG-INFO
+biquaternions.egg-info/SOURCES.txt
+biquaternions.egg-info/dependency_links.txt
+biquaternions.egg-info/requires.txt
+biquaternions.egg-info/top_level.txt
