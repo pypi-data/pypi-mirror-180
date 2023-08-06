@@ -1,0 +1,8 @@
+PySide6
+numpy
+colorspacious
+
+[dev]
+pytest
+coverage
+space-tracer
