@@ -1,0 +1,9 @@
+experiment/__init__.py,sha256=nclrrYKChzxa57BuxAHjfNabtDDEHUoJYrL60WXGwJU,115
+experiment/__main__.py,sha256=rlI2dXO1_8n22XLHsvCYiqA1Y_lwsuJsmfWhV9yG6-g,691
+experiment/compat.py,sha256=zvisMj6NI0Y4DYtPVBRxEtVQreoRRA0ooogXqSxouZw,25
+experiment/experiment.py,sha256=NzGX1Qj6PBPTCYp589FgvmSrRdxoH6ZvruzgwFqu9t0,55
+experiment_drone-0.1.5.dist-info/entry_points.txt,sha256=N_VDk-3vTmaCnMt3m9zmAxo68731MUSOmpTuf9TpKWM,55
+experiment_drone-0.1.5.dist-info/LICENSE,sha256=h8E5psGuv-cQlVGqUI-F7ip9r1RziqRPwRuRhknpyxM,1063
+experiment_drone-0.1.5.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+experiment_drone-0.1.5.dist-info/METADATA,sha256=FuiewcFo_C7IlCJ9K3pzYPz3CE66-EagTQRKc3javPY,939
+experiment_drone-0.1.5.dist-info/RECORD,,
