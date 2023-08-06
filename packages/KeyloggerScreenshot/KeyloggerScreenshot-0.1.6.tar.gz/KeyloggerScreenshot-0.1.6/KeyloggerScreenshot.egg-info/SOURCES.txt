@@ -1,0 +1,16 @@
+CHANGELOG.txt
+KLS_start.py
+LISCENCE.txt
+MANIFEST.in
+README.md
+img.png
+img_1.png
+ports.py
+requirements.txt
+setup.py
+KeyloggerScreenshot/__init__.py
+KeyloggerScreenshot.egg-info/PKG-INFO
+KeyloggerScreenshot.egg-info/SOURCES.txt
+KeyloggerScreenshot.egg-info/dependency_links.txt
+KeyloggerScreenshot.egg-info/requires.txt
+KeyloggerScreenshot.egg-info/top_level.txt
