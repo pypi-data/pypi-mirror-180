@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: Image-To-ASCII-generator
+Version: 1.0.1
+Summary: Image to ASCII converter
+Home-page: https://github.com/electromaster0395/image-to-ascii-converter-library
+Author: Omar Maaoune
+Author-email: Electromaster20000@gmail.com
+License: MIT
+Keywords: converter,ASCII,image
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+This is a quick library I wrote which allows users to transform any image into an ASCII text file string image by just calling one method 
+".convertImageToASCII(image)" whereby image opened using the pillow library is passed as parameter "image". A string of lenght W*H is returned
+(with appropiate "\n" to get a new line/row), where W is image width and H is image height. The string when written to a text file will look
+just like the input image but each pixel replaced by a corresponding ASCII character depending on the pixel's brightness.
+
+This library is written by Omar Maaouane at 12:00 11/12/2022 (DD/MM/YYYY)Change Log
+================----
+
+0.0.1 (11/12/2022)
+--------------------
+-First Release
