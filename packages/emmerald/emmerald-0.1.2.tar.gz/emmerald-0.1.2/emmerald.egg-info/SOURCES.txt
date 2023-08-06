@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+emmerald/EMM.py
+emmerald/__init__.py
+emmerald/definitions.py
+emmerald/pandas_utils.py
+emmerald/utils.py
+emmerald.egg-info/PKG-INFO
+emmerald.egg-info/SOURCES.txt
+emmerald.egg-info/dependency_links.txt
+emmerald.egg-info/requires.txt
+emmerald.egg-info/top_level.txt
+tests/__init__.py
+tests/test_queues.py
