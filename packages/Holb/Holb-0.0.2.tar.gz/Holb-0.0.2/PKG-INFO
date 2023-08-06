@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: Holb
+Version: 0.0.2
+Home-page: https://github.com/Slava-git/holb.git
+Author: Viacheslav Hodlevskyi
+Author-email: slavagodlevsky86@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Holb
+
+## Installation and updating
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Toolbox like below. 
+Rerun this command to check for and install  updates .
+```bash
+```
+
+## Usage
+Provide a path to resized image.
+
+#### Demo of some of the features:
+
+```python
+import  features
+
+image = "image/path/"
+
+body_pose_landmarks = features.CalculatePoseLandmarks()
+face_landmarks= features.LandmarkDetection()
+
+# clases initialization
+smile = features.SmileCLassification()
+histogram = features.CalculateHistogram()
+blurr = features.CalculateBlurr()
+eyes = features.EyeRate()
+face_visibility = features.FaceVisibility()
+face_direction = features.CalcualteDirection()
+posture = features.PostureDetection()
+hands = features.HandDetection()
+legs = features.LegDetection()
+arm = features.ArmDetection()
+clothes = features.ClothesSegmentation()
+gaze_eye_direction = features.GazeDetection()
+shot_size = features.ShotSizeDetection()
+model_side = features.ModelSideDetection()
+move = features.MoveDetection()
+
+# make predictions
+results = body_pose_landmarks.pose_landmarks(image)
+shape = face_landmarks.shape(image)
+smile_pred = smile.detect(shape)
+light_predict = histogram.detect(image)
+blur_pred = blurr.calculate_variance(image)
+eye_state_pred = eyes.detect(shape)
+direct_pred = face_direction.detect(shape)
+face_visib_pred = face_visibility.detect(results, smile_pred)
+posture_pred = posture.detect(results)
+hands_pred = hands.detect(results)
+legs_pred = legs.detect(results)
+arm_pred = arm.detect(results)
+mask_arr, clothes_pred = clothes.detect(image)
+gaze_eye_pred = gaze_eye_direction.detect(image, shape)
+model_state = move.detect(hands_pred, legs_pred)
+shot_pred = shot_size.detect(results, mask_arr)
+side_pred = model_side.detect(results, smile_pred)
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
