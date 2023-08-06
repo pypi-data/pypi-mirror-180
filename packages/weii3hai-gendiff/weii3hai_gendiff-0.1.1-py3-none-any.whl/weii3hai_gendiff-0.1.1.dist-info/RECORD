@@ -1,0 +1,14 @@
+gendiff/__init__.py,sha256=4v9sw01aJ9h54V0BhTwedvDG4K5CCcepXfoQBUko2GY,302
+gendiff/difference_finder.py,sha256=CeIr85wVLw-fcnUd5eVzSUDq1UU_rj64nPMU6siEDJw,1308
+gendiff/engine.py,sha256=iLw1nen8RyXFKN8w6k8-9QFnllUyzBXU0MhAx1LbttE,940
+gendiff/file_reader.py,sha256=TKEGWpHRaMYpgUi8K9WXarAFr6IdfW_0c-O4VTLamDE,288
+gendiff/formatter/__init__.py,sha256=_z5NTc9yUMro1iLXfJptaa789KsE75kgIY-v6TwPGZE,11
+gendiff/formatter/json.py,sha256=HCnBUX9ifSDCAo5EIEzUPhJWR3_LenXGES_K4ybq-kI,1102
+gendiff/formatter/plain.py,sha256=saOThQewfV1J1h4UIgk5LeYWd9zzcCYCKHus23aEbMQ,1717
+gendiff/formatter/stylish.py,sha256=o9OasLEQSH6pyqel7mcntHBJAJDIavtbPgVSbcc3-zQ,2155
+gendiff/scripts/__init__.py,sha256=Ki-7LIW69po7WomTszac9vGSZkTsm7UGTpZ5kZNCC3Y,53
+gendiff/scripts/gendiff.py,sha256=mdWXHCj5dKb3qvxTP4BelQzX8jEfoDD5QgWup7qCCPg,727
+weii3hai_gendiff-0.1.1.dist-info/entry_points.txt,sha256=nXaTQaTlRlq0fI90zzcmDhSm9iq5kLrLcVP7MshXK1E,56
+weii3hai_gendiff-0.1.1.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+weii3hai_gendiff-0.1.1.dist-info/METADATA,sha256=3VwvaSwxh7kknlmWrcXz_cYWXooDQwfP8_BlSlIwS9c,1562
+weii3hai_gendiff-0.1.1.dist-info/RECORD,,
