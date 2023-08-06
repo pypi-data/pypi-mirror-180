@@ -1,0 +1,10 @@
+autodiff30/__init__.py,sha256=T0FyuoS8qnKtqXee6-SZmbGOPi83Hx9oWhR-EFdR0-I,490
+autodiff30/ad.py,sha256=nA54QhCBHDQwmaPt9lRy0IDh5lHpXUO3-zrsCNRZxNw,3413
+autodiff30/dual.py,sha256=pgX-sEMQj9aJ65AdRy34rfWzHaTZ1Nv7GSLZ9Lb0Tgg,10868
+autodiff30/functions.py,sha256=I5buwLjHobk3rij3rsAifXwgP_xX8qDSkw-lHLIjShM,6171
+autodiff30/optimization.py,sha256=wSskML20pvPgYyuk6m-TDcz_xLX4Y_pf91kKoSzByJs,2817
+autodiff30-0.0.5.dist-info/LICENCE,sha256=a8mg-HY6FQM0KWeICptBA-5DGRW7V043oU0FmkLuvo8,1533
+autodiff30-0.0.5.dist-info/METADATA,sha256=RGPg0551fADAXUUIFELQdcCKBnZnYORRaN8HKh49g0w,886
+autodiff30-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+autodiff30-0.0.5.dist-info/top_level.txt,sha256=QxGbnYeuPeFHNfG9Bpj5Qj2Q_i8CVYjDTWr_adxGkMI,11
+autodiff30-0.0.5.dist-info/RECORD,,
