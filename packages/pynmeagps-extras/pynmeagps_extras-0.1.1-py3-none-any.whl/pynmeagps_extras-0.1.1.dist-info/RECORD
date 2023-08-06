@@ -1,0 +1,8 @@
+pynmeagps_extras/__init__.py,sha256=4ugKuBQpJmakM8sbhnAnDiZNWmQ31bbU_3Szso5GUog,222
+pynmeagps_extras/messages/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pynmeagps_extras/messages/bestposmessage.py,sha256=pTM3-5nA-swrdOQ9E1kqzn7AOn0-274RftUzVEX_Nx8,7073
+pynmeagps_extras/messages/headingmessage.py,sha256=lMR5ZPoyEXOfqlnKoIm8oqnmWMBlv2LjTtLWe4Kzino,6399
+pynmeagps_extras/nmeareaderextras.py,sha256=tk9DQLxSBjmTIaCmP5qIeSXmuOvY0Ejh0gMtR7DaV5w,817
+pynmeagps_extras-0.1.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+pynmeagps_extras-0.1.1.dist-info/METADATA,sha256=5t8XQwSi9hRd7b_fsKK5v6cClx1kti9g8jZep2W2jUM,313
+pynmeagps_extras-0.1.1.dist-info/RECORD,,
