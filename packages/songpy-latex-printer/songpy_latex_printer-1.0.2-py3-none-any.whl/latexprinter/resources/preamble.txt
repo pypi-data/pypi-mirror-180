@@ -1,0 +1,31 @@
+\documentclass[a5paper]{leadsheet}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+
+\usepackage{leadsheets}
+\DeclareTranslation{Polish}{leadsheets/chorus}{Ref.}
+
+\defleadsheetstranslation{Polish}{of}{z}
+\defleadsheetstranslation{Polish}{page}{}
+
+\definesongtitletemplate{kamuzo}{
+\pagebreak[2]
+\section*{\songproperty{counter}.\\* \songproperty{title}}
+}
+
+\setleadsheets{
+title-template = kamuzo,
+smash-chords=true,
+align-chords=c
+}
+
+\setchords{
+  minor={lowercase},
+  output-notation=german,
+  input-notation=german
+}
+
+\begin{document}
+\pagenumbering{arabic}
