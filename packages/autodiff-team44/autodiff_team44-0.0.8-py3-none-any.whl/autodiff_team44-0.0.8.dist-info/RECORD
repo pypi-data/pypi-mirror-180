@@ -1,0 +1,9 @@
+autodiff_team44/__init__.py,sha256=rCHJqB2QuhS4GMVvHVOqSIzH7iDX_58zd4PRxkmSzVA,67
+autodiff_team44/ad.py,sha256=d7Ay_LrH6eBaVPJZxt5CBhauuK2JIhQJOhLv2e-nYYM,11819
+autodiff_team44/functions.py,sha256=Sce67J-JbcUQEmhdi7qLTn__nrN5_EE0W_4IpUpUf9s,3189
+autodiff_team44/variable.py,sha256=YJ5KFLKCkktafO0R9M_FhqMgLNYTpyCjhacJ2pBPXpE,7922
+autodiff_team44-0.0.8.dist-info/LICENSE,sha256=ygAjwVOQyEeNOD2f7GsepaBR3bSpxlk15QMYRt1CvdY,1134
+autodiff_team44-0.0.8.dist-info/METADATA,sha256=Ew3umsDbHy0F5thWq_ZreI0Q1Ax4DuKkpD_6vCq6j-Y,1361
+autodiff_team44-0.0.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+autodiff_team44-0.0.8.dist-info/top_level.txt,sha256=rKmw9n-hz84EH0z6ljsDhUKGyACdqhEGfKrlVuG20Xw,16
+autodiff_team44-0.0.8.dist-info/RECORD,,
