@@ -1,0 +1,14 @@
+rssdk-0.8.dist-info/top_level.txt,sha256=CKISofHSTJF6Am95ZU6MDQI2o0MVCfP6EGdDo4ogxcc,6
+rssdk-0.8.dist-info/METADATA,sha256=NYMAEMC80wIPQ5KJPt2C4GUVN3YQNgwOfunTH91Scos,3698
+rssdk-0.8.dist-info/LICENSE,sha256=jN9-mMJKp7dDUAaSnXewzPsi-bQRVSNWCaMSkLNKiZw,1073
+rssdk-0.8.dist-info/RECORD,,
+rssdk-0.8.dist-info/WHEEL,sha256=-vbRX7Hgem6uUwWYl2DJU2pl4yXZdF3CNLBWFTb8sBU,109
+rssdk.libs/libstdc++-8baf04f9.so.6.0.28,sha256=7dHa2sV5CgWXjdC4QqxbCNsm-pN9kkmNNqxtn5AaAvs,2428960
+rssdk.libs/libgcc_s-8b50eaaa.so.1,sha256=aEf1qbEV-lDljbUGr6ql8FAfnxyJlKTeEsHNdrBlAHM,101648
+rssdk/rsdio.cpython-38-i386-linux-gnu.so,sha256=SEolSEBMhJerzHnMUO3KZ0G7wDpIbtlWCoCR9nXMfX4,1766576
+rssdk/rspoe.cpython-38-i386-linux-gnu.so,sha256=F210ATfDn-OmsoYSIQnuzPn7YL7SQDJBB0Fd5nsu7Dc,1348480
+rssdk/rsdio.pyi,sha256=vbcQB99ELcQQXIq02p_0c19meiP1ZgB1UEmKo1dQN2o,463
+rssdk/__init__.py,sha256=7v3sftVk5RHDI6pivIKa98BOxB6O6pfuWDzh15WT2x4,663
+rssdk/_version.py,sha256=cHxYANu5vkqounSJOjbSrow39D9kAynsTuD-vgFjPwY,171
+rssdk/rspoe.pyi,sha256=ErxHOlZHSDgh7aw34fHP4m18V7Gf67z-Tci3kywOdkY,283
+rssdk/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
