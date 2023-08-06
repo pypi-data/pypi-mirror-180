@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: ratnumbers
+Version: 0.0.3
+Summary: Dummy Package to Test Github CI/CD on python projects/packaging
+Author: Mert Kurttutan
+Author-email: kurttutan.mert@gmail.com
+Maintainer-email: Mert Kurttutan <kurttutan.mert@gmail.com>
+Project-URL: homepage, https://github.com/mert-kurttutan/github-experiment
+Project-URL: repository, https://github.com/mert-kurttutan/github-experiment
+Keywords: python,Experimental
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# github-experiments
+
+
+## About the project
+
+This repository is to experiment/test github and github CI/CD features
+new
+Try colab link
+Intro
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mert-kurttutan/torchview/blob/main/docs/example_introduction.ipynb)
