@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: BlackLager
+Version: 1.0.0
+Summary: Python API & client shell for sending encrypted messages to Meshtastic devices
+Home-page: https://github.com/black-lager/python
+Author: Black Lager Developers
+Author-email: mkrizek@dons.usfca.edu, kadd8@gmail.com
+License: GPL-3.0-only
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: tunnel
+License-File: LICENSE.txt
+
+# Meshtastic Python
+
+## Overview
+
+A Python client for use with Meshtastic devices.
+Provides different interfaces, Black-Lager uses serial-interface (cable) to establish a communication channel betwen radio and user machines.
+It's also acts as an API interface to communicate among readios. 
+
+**[Documentation/API Reference](https://python.meshtastic.org/)**
+
+
+
