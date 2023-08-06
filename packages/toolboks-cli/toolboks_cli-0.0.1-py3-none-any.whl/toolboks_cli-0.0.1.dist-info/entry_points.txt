@@ -1,0 +1,2 @@
+[console_scripts]
+tb-conf = toolboks_cli:main.toolboks_config
