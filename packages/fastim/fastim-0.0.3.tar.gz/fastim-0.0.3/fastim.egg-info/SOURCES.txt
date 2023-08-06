@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+fastim/__init__.py
+fastim/import.py
+fastim.egg-info/PKG-INFO
+fastim.egg-info/SOURCES.txt
+fastim.egg-info/dependency_links.txt
+fastim.egg-info/top_level.txt
