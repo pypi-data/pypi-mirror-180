@@ -1,0 +1,10 @@
+wcdeetlist
+wcdeetlist/crawler
+wcdeetlist/crawler/islands
+wcdeetlist/crawler/items
+wcdeetlist/crawler/items/dragon
+wcdeetlist/parser
+wcdeetlist/parser/islands/heroic_race
+wcdeetlist/parser/items
+wcdeetlist/parser/items/dragon
+wcdeetlist/tools
