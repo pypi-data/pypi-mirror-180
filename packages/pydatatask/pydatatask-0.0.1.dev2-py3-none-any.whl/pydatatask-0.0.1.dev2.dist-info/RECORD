@@ -1,0 +1,13 @@
+pydatatask/__init__.py,sha256=u4h4B7EKc9QC4gKGqlEdFh3ggQVT8zcGXmk0qFdoaCw,196
+pydatatask/main.py,sha256=jF8_vsurE4cAiKQPqZydddpsNsL_L9Wa-0OWRpOH73g,10355
+pydatatask/pipeline.py,sha256=elhoYRzBVaXtNxm-gOgO23mI5t_z-MLAwAWILjgiu0A,3212
+pydatatask/pod_manager.py,sha256=UpwCsOWTHVBIihfxEi0D_cAWMFnE27IvXpuxAGapyRg,4990
+pydatatask/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydatatask/repository.py,sha256=mClN8LpoLwEQqNKglFRaR6JmYndYHxZte47x1i0_7UA,28844
+pydatatask/session.py,sha256=H-yyinP_MDypIEQoHTUhiuCg4ykyy-Hhdn-Bkqrt2Ko,1299
+pydatatask/task.py,sha256=UJz62Bh4ne2BdHT8EDOcpAnVEqxZYTNO7iJRkfsiIPw,20257
+pydatatask-0.0.1.dev2.dist-info/LICENSE,sha256=ntoW9ONPxlmDk8VwaJ2DL-SxQmZOqMOn2FU1_-NQmeE,1054
+pydatatask-0.0.1.dev2.dist-info/METADATA,sha256=qwN1WjlSKHzf2pWROmry7WVCTMazfgzilNtP32_6tYQ,1188
+pydatatask-0.0.1.dev2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pydatatask-0.0.1.dev2.dist-info/top_level.txt,sha256=xvopfGo_2tDmpANJ8CEX2E1F1LatD4e_cZH9PQilwvI,11
+pydatatask-0.0.1.dev2.dist-info/RECORD,,
