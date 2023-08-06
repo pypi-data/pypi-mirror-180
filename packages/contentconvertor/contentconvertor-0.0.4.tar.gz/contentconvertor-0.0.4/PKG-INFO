@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: contentconvertor
+Version: 0.0.4
+Summary: Converts content from Twitter to a png image that can be uploaded to Instagram
+Author-email: Léo Leducq <iziatask@gmail.com>
+Project-URL: GitHub, https://github.com/leoleducq/Content-Convertor
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: French
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Content-Convertor
+
+## Quick Start
+1. Créer un fichier credentials.json à la racine du projet.  
+Il doit avoir cette forme :  
+```
+{  
+    "CONSUMER_KEY" : "",
+    "CONSUMER_SECRET" : "",
+    "BEARER_TOKEN" : "",
+    "ACCESS_TOKEN" : "",
+    "ACCESS_TOKEN_SECRET" : ""
+}
+```
+2. Lancer le script avec la commande `python3 main.py`
+3. Rentrer le nom d'utilisateur de la personne dont on veut récupérer les tweets (sans le @).
+4. Rentrer le nombre de tweets à récupérer.
