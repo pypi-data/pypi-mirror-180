@@ -1,0 +1,7 @@
+setup.py
+ZefroinLibrary/__init__.py
+ZefroinLibrary/zfunct.py
+ZefroinLibrary.egg-info/PKG-INFO
+ZefroinLibrary.egg-info/SOURCES.txt
+ZefroinLibrary.egg-info/dependency_links.txt
+ZefroinLibrary.egg-info/top_level.txt
