@@ -1,0 +1,6 @@
+setup.py
+vijayCal0204/__init__.py
+vijayCal0204.egg-info/PKG-INFO
+vijayCal0204.egg-info/SOURCES.txt
+vijayCal0204.egg-info/dependency_links.txt
+vijayCal0204.egg-info/top_level.txt
