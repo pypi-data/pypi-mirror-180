@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: investing-tickets-scrapper
+Version: 0.0.2
+Summary: Scraps stocks tickets from "Investing.com" using Selenium
+Home-page: UNKNOWN
+Author: Lucas Rocha
+Author-email: lucasrocha.png@gmail.com
+License: UNKNOWN
+Keywords: python,tickers,index,stocks,exchange,investing
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pandas (>=1.3.3)
+Requires-Dist: selenium (>=4.1.3)
+Requires-Dist: beautifulsoup4 (>=4.4.1)
+
+# investing-tickets-scrapper
+#### IN WORK!
+#### This package scraps all tickets available from "investing.com" site
+
+
