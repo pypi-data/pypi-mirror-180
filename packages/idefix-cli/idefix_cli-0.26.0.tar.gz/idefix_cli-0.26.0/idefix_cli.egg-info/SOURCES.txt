@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+idefix_cli/__init__.py
+idefix_cli/_commons.py
+idefix_cli/_main.py
+idefix_cli.egg-info/PKG-INFO
+idefix_cli.egg-info/SOURCES.txt
+idefix_cli.egg-info/dependency_links.txt
+idefix_cli.egg-info/entry_points.txt
+idefix_cli.egg-info/requires.txt
+idefix_cli.egg-info/top_level.txt
