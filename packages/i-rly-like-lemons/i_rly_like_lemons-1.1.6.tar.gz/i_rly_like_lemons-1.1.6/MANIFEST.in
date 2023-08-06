@@ -1,0 +1,2 @@
+recursive-include i_rly_like_lemons\*.py
+recursive-include i_rly_like_lemons\plug in words\*.txt
