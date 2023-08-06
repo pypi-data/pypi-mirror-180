@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-multi-chatgpt
+Version: 0.0.3
+Summary: multi session chatGPT plugin
+Home-page: UNKNOWN
+Author: Chrisyy
+Author-email: 1017975501@qq.com
+License: UNKNOWN
+Keywords: noneBot,ChatGPT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: revChatGPT
+Requires-Dist: nonebot-plugin-apscheduler
+
+multi session chatGPT plugin
+
