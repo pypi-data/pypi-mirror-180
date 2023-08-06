@@ -1,0 +1,6 @@
+imageio==2.21.1
+rospkg
+opencv-python
+rich
+numpy
+open3d
