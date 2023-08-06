@@ -1,0 +1,7 @@
+License.txt
+setup.py
+mkpyez/__init__.py
+mkpyez.egg-info/PKG-INFO
+mkpyez.egg-info/SOURCES.txt
+mkpyez.egg-info/dependency_links.txt
+mkpyez.egg-info/top_level.txt
