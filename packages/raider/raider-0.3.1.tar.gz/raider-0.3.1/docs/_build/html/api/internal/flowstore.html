@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FlowStore &mdash; raider 0.3.0 documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/assets/jsonview.bundle.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/libs/html/datatables.min.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/common.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/layouts.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/styles.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/modern.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/sphinx_highlight.js"></script>
+        <script src="../../_static/assets/jsonview.bundle.js"></script>
+        <script src="../../_static/assets/jsonview_loader.js"></script>
+        <script src="../../_static/sphinx-needs/libs/html/datatables.min.js"></script>
+        <script src="../../_static/sphinx-needs/libs/html/datatables_loader.js"></script>
+        <script src="../../_static/sphinx-needs/libs/html/sphinx_needs_collapse.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Projects" href="project.html" />
+    <link rel="prev" title="Config" href="config.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> raider
+          </a>
+              <div class="version">
+                0.3.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Overview</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/raider.html">What is Raider</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/install.html">Installing Raider</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/faq.html">Frequently asked questions</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/prerequisites.html">Prerequisites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/reddit.html">Reddit authentication</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/keycloak.html">KeyCloak OAuth setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/juiceshop.html">Juiceshop setup</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Examples</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../examples/writing_custom_operations.html">Writing Custom Operations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../examples/writing_custom_plugins.html">Writing Custom Plugins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../examples/writing_macros.html">Writing Macros</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case Studies</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../case_studies/architecture.html">Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../case_studies/lisp.html">Why LISP/Hylang?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../case_studies/macros.html">What are macros and how to use them?</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">API Reference</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../cli.html">CLI reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user.html">User facing API reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../macros.html">Macros reference</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../internal.html">Internal API reference</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="raider.html">Raider</a></li>
+<li class="toctree-l2"><a class="reference internal" href="config.html">Config</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">FlowStore</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#raider.flowstore.FlowStore"><code class="docutils literal notranslate"><span class="pre">FlowStore</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#raider.flowstore.FlowStore.__init__"><code class="docutils literal notranslate"><span class="pre">FlowStore.__init__()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.flowstore.FlowStore.add_flow"><code class="docutils literal notranslate"><span class="pre">FlowStore.add_flow()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.flowstore.FlowStore.add_flowgraph"><code class="docutils literal notranslate"><span class="pre">FlowStore.add_flowgraph()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.flowstore.FlowStore.__getitem__"><code class="docutils literal notranslate"><span class="pre">FlowStore.__getitem__()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.flowstore.FlowStore.get_flow_id_by_name"><code class="docutils literal notranslate"><span class="pre">FlowStore.get_flow_id_by_name()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.flowstore.FlowStore.get_flow_id_by_flow"><code class="docutils literal notranslate"><span class="pre">FlowStore.get_flow_id_by_flow()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.flowstore.FlowStore.get_flow_name_by_flow"><code class="docutils literal notranslate"><span class="pre">FlowStore.get_flow_name_by_flow()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.flowstore.FlowStore.get_flow_name_by_id"><code class="docutils literal notranslate"><span class="pre">FlowStore.get_flow_name_by_id()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.flowstore.FlowStore.get_flow_index"><code class="docutils literal notranslate"><span class="pre">FlowStore.get_flow_index()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.flowstore.FlowStore.is_flow"><code class="docutils literal notranslate"><span class="pre">FlowStore.is_flow()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.flowstore.FlowStore.is_flowgraph"><code class="docutils literal notranslate"><span class="pre">FlowStore.is_flowgraph()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.flowstore.FlowStore.keys"><code class="docutils literal notranslate"><span class="pre">FlowStore.keys</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.flowstore.FlowStore.values"><code class="docutils literal notranslate"><span class="pre">FlowStore.values</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.flowstore.FlowStore.run_flow"><code class="docutils literal notranslate"><span class="pre">FlowStore.run_flow()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.flowstore.FlowStore.run_flowgraph"><code class="docutils literal notranslate"><span class="pre">FlowStore.run_flowgraph()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="project.html">Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="search.html">Search</a></li>
+<li class="toctree-l2"><a class="reference internal" href="structures.html">Structures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="utils.html">utils</a></li>
+<li class="toctree-l2"><a class="reference internal" href="logger.html">Logger</a></li>
+<li class="toctree-l2"><a class="reference internal" href="parsers.html">Parsers</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">raider</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a></li>
+          <li class="breadcrumb-item"><a href="../internal.html">Internal API reference</a></li>
+      <li class="breadcrumb-item active">FlowStore</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/api/internal/flowstore.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-raider.flowstore">
+<span id="flowstore"></span><h1>FlowStore<a class="headerlink" href="#module-raider.flowstore" title="Permalink to this heading"></a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="raider.flowstore.FlowStore">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">FlowStore</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pconfig</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/flowstore.html#FlowStore"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.flowstore.FlowStore" title="Permalink to this definition"></a></dt>
+<dd><dl class="py method">
+<dt class="sig sig-object py" id="raider.flowstore.FlowStore.__init__">
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pconfig</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/flowstore.html#FlowStore.__init__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.flowstore.FlowStore.__init__" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.flowstore.FlowStore.add_flow">
+<span class="sig-name descname"><span class="pre">add_flow</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/flowstore.html#FlowStore.add_flow"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.flowstore.FlowStore.add_flow" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.flowstore.FlowStore.add_flowgraph">
+<span class="sig-name descname"><span class="pre">add_flowgraph</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/flowstore.html#FlowStore.add_flowgraph"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.flowstore.FlowStore.add_flowgraph" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.flowstore.FlowStore.__getitem__">
+<span class="sig-name descname"><span class="pre">__getitem__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/flowstore.html#FlowStore.__getitem__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.flowstore.FlowStore.__getitem__" title="Permalink to this definition"></a></dt>
+<dd><p>Getter to return a Flow by the name.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.flowstore.FlowStore.get_flow_id_by_name">
+<span class="sig-name descname"><span class="pre">get_flow_id_by_name</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">flow_name</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/flowstore.html#FlowStore.get_flow_id_by_name"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.flowstore.FlowStore.get_flow_id_by_name" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.flowstore.FlowStore.get_flow_id_by_flow">
+<span class="sig-name descname"><span class="pre">get_flow_id_by_flow</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">flow</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/flowstore.html#FlowStore.get_flow_id_by_flow"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.flowstore.FlowStore.get_flow_id_by_flow" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.flowstore.FlowStore.get_flow_name_by_flow">
+<span class="sig-name descname"><span class="pre">get_flow_name_by_flow</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">flow</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/flowstore.html#FlowStore.get_flow_name_by_flow"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.flowstore.FlowStore.get_flow_name_by_flow" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.flowstore.FlowStore.get_flow_name_by_id">
+<span class="sig-name descname"><span class="pre">get_flow_name_by_id</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">flow_id</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/flowstore.html#FlowStore.get_flow_name_by_id"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.flowstore.FlowStore.get_flow_name_by_id" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the flow name given its number.</p>
+<p>Each authentication step is given an index based on its position
+in the “_authentication” list. This function returns the name of
+the Flow based on its position in this list.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>flow_id</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code>) – An integer with the index of the flow.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A string with the name of the Flow in the position “flow_id”.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.flowstore.FlowStore.get_flow_index">
+<span class="sig-name descname"><span class="pre">get_flow_index</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/flowstore.html#FlowStore.get_flow_index"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.flowstore.FlowStore.get_flow_index" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the index of the flow given its name.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>An integer with the index of the Flow with the specified “name”.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.flowstore.FlowStore.is_flow">
+<span class="sig-name descname"><span class="pre">is_flow</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/flowstore.html#FlowStore.is_flow"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.flowstore.FlowStore.is_flow" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.flowstore.FlowStore.is_flowgraph">
+<span class="sig-name descname"><span class="pre">is_flowgraph</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/flowstore.html#FlowStore.is_flowgraph"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.flowstore.FlowStore.is_flowgraph" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="raider.flowstore.FlowStore.keys">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">keys</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#raider.flowstore.FlowStore.keys" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="raider.flowstore.FlowStore.values">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">values</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#raider.flowstore.FlowStore.values" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code>[<code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.flowstore.FlowStore.run_flow">
+<span class="sig-name descname"><span class="pre">run_flow</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pconfig</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">flow_id</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/flowstore.html#FlowStore.run_flow"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.flowstore.FlowStore.run_flow" title="Permalink to this definition"></a></dt>
+<dd><p>Runs one authentication Flow.</p>
+<p>First, the Flow object of the specified flow is identified,
+then the related HTTP request is processed, sent, the response
+is received, and the operations are run on the Flow.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>flow_id</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]) – A string or an integer identifying the authentication flow
+to run. If it’s a string, it’s the name of the Flow, and if
+it’s an integer, it’s the index of the Flow object in the
+“_authentication” variable.</p></li>
+<li><p><strong>config</strong> – A Config object with the global Raider settings.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Optionally, this function returns a string with the name of
+the next Flow in the authentication process.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.flowstore.FlowStore.run_flowgraph">
+<span class="sig-name descname"><span class="pre">run_flowgraph</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pconfig</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">test</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/flowstore.html#FlowStore.run_flowgraph"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.flowstore.FlowStore.run_flowgraph" title="Permalink to this definition"></a></dt>
+<dd><p>Runs all authentication flows.</p>
+<p>This function will run all authentication flows for the
+specified User and will take into account the supplied Config
+for things like the user agent and the web proxy to use.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>user</strong> – A User object containing the credentials and where the user
+specific data will be stored.</p></li>
+<li><p><strong>config</strong> – A Config object with the global Raider settings.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="config.html" class="btn btn-neutral float-left" title="Config" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="project.html" class="btn btn-neutral float-right" title="Projects" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, OWASP.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

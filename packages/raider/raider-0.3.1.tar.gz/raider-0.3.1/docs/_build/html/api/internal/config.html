@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Config &mdash; raider 0.3.0 documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/assets/jsonview.bundle.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/libs/html/datatables.min.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/common.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/layouts.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/styles.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/modern.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/sphinx_highlight.js"></script>
+        <script src="../../_static/assets/jsonview.bundle.js"></script>
+        <script src="../../_static/assets/jsonview_loader.js"></script>
+        <script src="../../_static/sphinx-needs/libs/html/datatables.min.js"></script>
+        <script src="../../_static/sphinx-needs/libs/html/datatables_loader.js"></script>
+        <script src="../../_static/sphinx-needs/libs/html/sphinx_needs_collapse.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="FlowStore" href="flowstore.html" />
+    <link rel="prev" title="Raider" href="raider.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> raider
+          </a>
+              <div class="version">
+                0.3.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Overview</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/raider.html">What is Raider</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/install.html">Installing Raider</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/faq.html">Frequently asked questions</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/prerequisites.html">Prerequisites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/reddit.html">Reddit authentication</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/keycloak.html">KeyCloak OAuth setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/juiceshop.html">Juiceshop setup</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Examples</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../examples/writing_custom_operations.html">Writing Custom Operations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../examples/writing_custom_plugins.html">Writing Custom Plugins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../examples/writing_macros.html">Writing Macros</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case Studies</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../case_studies/architecture.html">Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../case_studies/lisp.html">Why LISP/Hylang?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../case_studies/macros.html">What are macros and how to use them?</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">API Reference</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../cli.html">CLI reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user.html">User facing API reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../macros.html">Macros reference</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../internal.html">Internal API reference</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="raider.html">Raider</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Config</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#raider.config.Config"><code class="docutils literal notranslate"><span class="pre">Config</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#raider.config.Config.proxy"><code class="docutils literal notranslate"><span class="pre">Config.proxy</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.config.Config.verify"><code class="docutils literal notranslate"><span class="pre">Config.verify</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.config.Config.loglevel"><code class="docutils literal notranslate"><span class="pre">Config.loglevel</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.config.Config.user_agent"><code class="docutils literal notranslate"><span class="pre">Config.user_agent</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.config.Config.active_project"><code class="docutils literal notranslate"><span class="pre">Config.active_project</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.config.Config.project_config"><code class="docutils literal notranslate"><span class="pre">Config.project_config</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.config.Config.logger"><code class="docutils literal notranslate"><span class="pre">Config.logger</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.config.Config.__init__"><code class="docutils literal notranslate"><span class="pre">Config.__init__()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.config.Config.write_config_file"><code class="docutils literal notranslate"><span class="pre">Config.write_config_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.config.Config.print_config"><code class="docutils literal notranslate"><span class="pre">Config.print_config()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="flowstore.html">FlowStore</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project.html">Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="search.html">Search</a></li>
+<li class="toctree-l2"><a class="reference internal" href="structures.html">Structures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="utils.html">utils</a></li>
+<li class="toctree-l2"><a class="reference internal" href="logger.html">Logger</a></li>
+<li class="toctree-l2"><a class="reference internal" href="parsers.html">Parsers</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">raider</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a></li>
+          <li class="breadcrumb-item"><a href="../internal.html">Internal API reference</a></li>
+      <li class="breadcrumb-item active">Config</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/api/internal/config.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-raider.config">
+<span id="config"></span><h1>Config<a class="headerlink" href="#module-raider.config" title="Permalink to this heading"></a></h1>
+<p>Config class holding global Raider configuration.</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="raider.config.Config">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">Config</span></span><a class="reference internal" href="../../_modules/raider/config.html#Config"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.config.Config" title="Permalink to this definition"></a></dt>
+<dd><p>Class dealing with global Raider configuration.</p>
+<p>A Config object will contain all the information necessary to run
+Raider. It will define global configurations like the web proxy and
+the logging level, but also the data defined in the active project
+configuration files.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="raider.config.Config.proxy">
+<span class="sig-name descname"><span class="pre">proxy</span></span><a class="headerlink" href="#raider.config.Config.proxy" title="Permalink to this definition"></a></dt>
+<dd><p>An optional string to define the web proxy to relay the traffic
+through.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="raider.config.Config.verify">
+<span class="sig-name descname"><span class="pre">verify</span></span><a class="headerlink" href="#raider.config.Config.verify" title="Permalink to this definition"></a></dt>
+<dd><p>A boolean flag which will let the requests library know whether
+to check the SSL certificate or ignore it.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="raider.config.Config.loglevel">
+<span class="sig-name descname"><span class="pre">loglevel</span></span><a class="headerlink" href="#raider.config.Config.loglevel" title="Permalink to this definition"></a></dt>
+<dd><p>A string used by the logging library to define the desired
+logging level.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="raider.config.Config.user_agent">
+<span class="sig-name descname"><span class="pre">user_agent</span></span><a class="headerlink" href="#raider.config.Config.user_agent" title="Permalink to this definition"></a></dt>
+<dd><p>A string which will be used as the user agent in HTTP requests.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="raider.config.Config.active_project">
+<span class="sig-name descname"><span class="pre">active_project</span></span><a class="headerlink" href="#raider.config.Config.active_project" title="Permalink to this definition"></a></dt>
+<dd><p>A string defining the current active project.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="raider.config.Config.project_config">
+<span class="sig-name descname"><span class="pre">project_config</span></span><a class="headerlink" href="#raider.config.Config.project_config" title="Permalink to this definition"></a></dt>
+<dd><p>A dictionary containing all of the local variables defined in
+the active project’s hy configuration files.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="raider.config.Config.logger">
+<span class="sig-name descname"><span class="pre">logger</span></span><a class="headerlink" href="#raider.config.Config.logger" title="Permalink to this definition"></a></dt>
+<dd><p>A logging.RootLogger object used for debugging.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.config.Config.__init__">
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/config.html#Config.__init__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.config.Config.__init__" title="Permalink to this definition"></a></dt>
+<dd><p>Initializes the Config object.</p>
+<p>Retrieves configuration from “common.hy” file, or populates it
+with the default values if it doesn’t exist.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.config.Config.write_config_file">
+<span class="sig-name descname"><span class="pre">write_config_file</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/config.html#Config.write_config_file"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.config.Config.write_config_file" title="Permalink to this definition"></a></dt>
+<dd><p>Writes global configuration to common.hy.</p>
+<p>Gets the current configuration from the Config object and writes
+them in hylang format in the “common.hy” file.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.config.Config.print_config">
+<span class="sig-name descname"><span class="pre">print_config</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/config.html#Config.print_config"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.config.Config.print_config" title="Permalink to this definition"></a></dt>
+<dd><p>Prints current configuration.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="raider.html" class="btn btn-neutral float-left" title="Raider" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="flowstore.html" class="btn btn-neutral float-right" title="FlowStore" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, OWASP.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

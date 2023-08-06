@@ -1,0 +1,13 @@
+from raider import Raider
+import argparse
+
+def add_config_parser(parser) -> None:
+    config_parser = subparsers.add_parser("config", help="Configure Raider")
+
+def run_config_command():
+    raider = Raider()
+    print("Configured projects:")
+    for item in list_projects():
+        print("  - " + item)
+        for hyfile in list_hyfiles(item):
+            print("    + " + hyfile)

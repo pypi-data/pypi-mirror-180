@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects &mdash; raider 0.3.0 documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/assets/jsonview.bundle.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/libs/html/datatables.min.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/common.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/layouts.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/styles.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/modern.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/sphinx_highlight.js"></script>
+        <script src="../../_static/assets/jsonview.bundle.js"></script>
+        <script src="../../_static/assets/jsonview_loader.js"></script>
+        <script src="../../_static/sphinx-needs/libs/html/datatables.min.js"></script>
+        <script src="../../_static/sphinx-needs/libs/html/datatables_loader.js"></script>
+        <script src="../../_static/sphinx-needs/libs/html/sphinx_needs_collapse.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Search" href="search.html" />
+    <link rel="prev" title="FlowStore" href="flowstore.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> raider
+          </a>
+              <div class="version">
+                0.3.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Overview</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/raider.html">What is Raider</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/install.html">Installing Raider</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/faq.html">Frequently asked questions</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/prerequisites.html">Prerequisites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/reddit.html">Reddit authentication</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/keycloak.html">KeyCloak OAuth setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/juiceshop.html">Juiceshop setup</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Examples</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../examples/writing_custom_operations.html">Writing Custom Operations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../examples/writing_custom_plugins.html">Writing Custom Plugins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../examples/writing_macros.html">Writing Macros</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case Studies</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../case_studies/architecture.html">Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../case_studies/lisp.html">Why LISP/Hylang?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../case_studies/macros.html">What are macros and how to use them?</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">API Reference</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../cli.html">CLI reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user.html">User facing API reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../macros.html">Macros reference</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../internal.html">Internal API reference</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="raider.html">Raider</a></li>
+<li class="toctree-l2"><a class="reference internal" href="config.html">Config</a></li>
+<li class="toctree-l2"><a class="reference internal" href="flowstore.html">FlowStore</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Projects</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#raider.projects.ProjectConfig"><code class="docutils literal notranslate"><span class="pre">ProjectConfig</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#raider.projects.ProjectConfig.__init__"><code class="docutils literal notranslate"><span class="pre">ProjectConfig.__init__()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.projects.ProjectConfig.proxy"><code class="docutils literal notranslate"><span class="pre">ProjectConfig.proxy</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.projects.ProjectConfig.use_proxy"><code class="docutils literal notranslate"><span class="pre">ProjectConfig.use_proxy</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.projects.ProjectConfig.verify"><code class="docutils literal notranslate"><span class="pre">ProjectConfig.verify</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.projects.ProjectConfig.user_agent"><code class="docutils literal notranslate"><span class="pre">ProjectConfig.user_agent</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.projects.ProjectConfig.loglevel"><code class="docutils literal notranslate"><span class="pre">ProjectConfig.loglevel</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.projects.ProjectConfig.active_user"><code class="docutils literal notranslate"><span class="pre">ProjectConfig.active_user</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#raider.projects.Project"><code class="docutils literal notranslate"><span class="pre">Project</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#raider.projects.Project.name"><code class="docutils literal notranslate"><span class="pre">Project.name</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.projects.Project.base_url"><code class="docutils literal notranslate"><span class="pre">Project.base_url</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.projects.Project.config"><code class="docutils literal notranslate"><span class="pre">Project.config</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.projects.Project.users"><code class="docutils literal notranslate"><span class="pre">Project.users</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.projects.Project.active_user"><code class="docutils literal notranslate"><span class="pre">Project.active_user</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.projects.Project.__init__"><code class="docutils literal notranslate"><span class="pre">Project.__init__()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.projects.Project.load"><code class="docutils literal notranslate"><span class="pre">Project.load()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.projects.Project.write_session_file"><code class="docutils literal notranslate"><span class="pre">Project.write_session_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.projects.Project.load_session_file"><code class="docutils literal notranslate"><span class="pre">Project.load_session_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.projects.Project.write_project_file"><code class="docutils literal notranslate"><span class="pre">Project.write_project_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.projects.Project.print"><code class="docutils literal notranslate"><span class="pre">Project.print()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.projects.Project.print_hyfile"><code class="docutils literal notranslate"><span class="pre">Project.print_hyfile()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.projects.Project.print_flow"><code class="docutils literal notranslate"><span class="pre">Project.print_flow()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.projects.Project.print_flowgraph"><code class="docutils literal notranslate"><span class="pre">Project.print_flowgraph()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.projects.Project.hyfiles"><code class="docutils literal notranslate"><span class="pre">Project.hyfiles</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#raider.projects.Projects"><code class="docutils literal notranslate"><span class="pre">Projects</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#raider.projects.Projects.__init__"><code class="docutils literal notranslate"><span class="pre">Projects.__init__()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.projects.Projects.search_projects"><code class="docutils literal notranslate"><span class="pre">Projects.search_projects()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.projects.Projects.search_hyfiles"><code class="docutils literal notranslate"><span class="pre">Projects.search_hyfiles()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#raider.projects.Projects.search_flows"><code class="docutils literal notranslate"><span class="pre">Projects.search_flows()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="search.html">Search</a></li>
+<li class="toctree-l2"><a class="reference internal" href="structures.html">Structures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="utils.html">utils</a></li>
+<li class="toctree-l2"><a class="reference internal" href="logger.html">Logger</a></li>
+<li class="toctree-l2"><a class="reference internal" href="parsers.html">Parsers</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">raider</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a></li>
+          <li class="breadcrumb-item"><a href="../internal.html">Internal API reference</a></li>
+      <li class="breadcrumb-item active">Projects</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/api/internal/project.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-raider.projects">
+<span id="projects"></span><h1>Projects<a class="headerlink" href="#module-raider.projects" title="Permalink to this heading"></a></h1>
+<p>Project classes holding project configuration.</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="raider.projects.ProjectConfig">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">ProjectConfig</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">config</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/projects.html#ProjectConfig"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.projects.ProjectConfig" title="Permalink to this definition"></a></dt>
+<dd><dl class="py method">
+<dt class="sig sig-object py" id="raider.projects.ProjectConfig.__init__">
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">config</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/projects.html#ProjectConfig.__init__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.projects.ProjectConfig.__init__" title="Permalink to this definition"></a></dt>
+<dd><p>Initializes the Config object.</p>
+<p>Retrieves configuration from “common.hy” file, or populates it
+with the default values if it doesn’t exist.</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="raider.projects.ProjectConfig.proxy">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">proxy</span></span><a class="headerlink" href="#raider.projects.ProjectConfig.proxy" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="raider.projects.ProjectConfig.use_proxy">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">use_proxy</span></span><a class="headerlink" href="#raider.projects.ProjectConfig.use_proxy" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="raider.projects.ProjectConfig.verify">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">verify</span></span><a class="headerlink" href="#raider.projects.ProjectConfig.verify" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="raider.projects.ProjectConfig.user_agent">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">user_agent</span></span><a class="headerlink" href="#raider.projects.ProjectConfig.user_agent" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="raider.projects.ProjectConfig.loglevel">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">loglevel</span></span><a class="headerlink" href="#raider.projects.ProjectConfig.loglevel" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="raider.projects.ProjectConfig.active_user">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">active_user</span></span><a class="headerlink" href="#raider.projects.ProjectConfig.active_user" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="raider.projects.Project">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">Project</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">gconfig</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">project</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/projects.html#Project"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.projects.Project" title="Permalink to this definition"></a></dt>
+<dd><p>Class holding all the project related data.</p>
+<p>This class isn’t supposed to be used directly by the user, instead
+the Raider class should be used, which will deal with the
+Project class internally.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="raider.projects.Project.name">
+<span class="sig-name descname"><span class="pre">name</span></span><a class="headerlink" href="#raider.projects.Project.name" title="Permalink to this definition"></a></dt>
+<dd><p>A string with the name of the application.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="raider.projects.Project.base_url">
+<span class="sig-name descname"><span class="pre">base_url</span></span><a class="headerlink" href="#raider.projects.Project.base_url" title="Permalink to this definition"></a></dt>
+<dd><p>A string with the base URL of the application.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="raider.projects.Project.config">
+<span class="sig-name descname"><span class="pre">config</span></span><a class="headerlink" href="#raider.projects.Project.config" title="Permalink to this definition"></a></dt>
+<dd><p>A Config object with Raider global configuration plus the
+variables defined in hy configuration files related to the
+Project.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="raider.projects.Project.users">
+<span class="sig-name descname"><span class="pre">users</span></span><a class="headerlink" href="#raider.projects.Project.users" title="Permalink to this definition"></a></dt>
+<dd><p>A UserStore object generated from the “_users” variable set in
+the hy configuration files for the project.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="raider.projects.Project.active_user">
+<span class="sig-name descname"><span class="pre">active_user</span></span><a class="headerlink" href="#raider.projects.Project.active_user" title="Permalink to this definition"></a></dt>
+<dd><p>A User object pointing to the active user inside the “users”
+object.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.projects.Project.__init__">
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">gconfig</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">project</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/projects.html#Project.__init__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.projects.Project.__init__" title="Permalink to this definition"></a></dt>
+<dd><p>Initializes the Project object.</p>
+<p>Sets up the environment necessary to test the specified
+application.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>project</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – A string with the name of the application to be
+initialized. If not supplied, the last used application will
+be selected</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.projects.Project.load">
+<span class="sig-name descname"><span class="pre">load</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/projects.html#Project.load"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.projects.Project.load" title="Permalink to this definition"></a></dt>
+<dd><p>Loads project settings.</p>
+<p>Goes through all the “.hy” files in the project directory,
+evaluates them all, and returns the created locals, making them
+available to the rest of Raider.</p>
+<p>Files are loaded in alphabetical order, and objects created in
+one of them will be available to the next one, eliminating the
+need to use imports. This allows the user to split the
+configuration files however it makes sense, and Raider doesn’t
+impose any restrictions on those files.</p>
+<p>All “.hy” files in the project directory are evaluated, which
+could be considered unsafe and could cause all kinds of security
+issues, but Raider assumes the user knows what they’re doing and
+will not copy/paste hylang code from untrusted sources.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A dictionary as returned by the locals() function. It contains
+all of the locally defined objects in the “.hy” configuration
+files.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.projects.Project.write_session_file">
+<span class="sig-name descname"><span class="pre">write_session_file</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/projects.html#Project.write_session_file"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.projects.Project.write_session_file" title="Permalink to this definition"></a></dt>
+<dd><p>Saves session data.</p>
+<p>Saves user related session data in a file for later use. This
+includes cookies, headers, and other data extracted using
+Plugins.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.projects.Project.load_session_file">
+<span class="sig-name descname"><span class="pre">load_session_file</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/projects.html#Project.load_session_file"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.projects.Project.load_session_file" title="Permalink to this definition"></a></dt>
+<dd><p>Loads session data.</p>
+<p>If session data was saved with write_session_file() this
+function will load this data into existing <a class="reference internal" href="../user/user.html#raider.user.User" title="raider.user.User"><code class="xref py py-class docutils literal notranslate"><span class="pre">User</span></code></a> objects.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.projects.Project.write_project_file">
+<span class="sig-name descname"><span class="pre">write_project_file</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/projects.html#Project.write_project_file"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.projects.Project.write_project_file" title="Permalink to this definition"></a></dt>
+<dd><p>Writes the project settings.</p>
+<p>For now only the active user is saved, so that the next time the
+project is used, there’s no need to specify the user manually.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.projects.Project.print">
+<span class="sig-name descname"><span class="pre">print</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">spacing</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/projects.html#Project.print"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.projects.Project.print" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.projects.Project.print_hyfile">
+<span class="sig-name descname"><span class="pre">print_hyfile</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">hyfile</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">spacing</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/projects.html#Project.print_hyfile"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.projects.Project.print_hyfile" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.projects.Project.print_flow">
+<span class="sig-name descname"><span class="pre">print_flow</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">flow</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">spacing</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/projects.html#Project.print_flow"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.projects.Project.print_flow" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.projects.Project.print_flowgraph">
+<span class="sig-name descname"><span class="pre">print_flowgraph</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">flowgraph</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">test</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">spacing</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/projects.html#Project.print_flowgraph"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.projects.Project.print_flowgraph" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="raider.projects.Project.hyfiles">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">hyfiles</span></span><a class="headerlink" href="#raider.projects.Project.hyfiles" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="raider.projects.Projects">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">Projects</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">config</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">active_project</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/projects.html#Projects"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.projects.Projects" title="Permalink to this definition"></a></dt>
+<dd><p>Class storing Raider projects.</p>
+<p>This class inherits from DataStore, and converts the values into
+Project objects.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.projects.Projects.__init__">
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">config</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">active_project</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/projects.html#Projects.__init__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.projects.Projects.__init__" title="Permalink to this definition"></a></dt>
+<dd><p>Initializes a Projects object.</p>
+<p>Given a list of Project objects, create the Projects DataStore
+containing them.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>projects</strong> – A list of Project objects to be added to the Projects
+DataStore.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.projects.Projects.search_projects">
+<span class="sig-name descname"><span class="pre">search_projects</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">search</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/projects.html#Projects.search_projects"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.projects.Projects.search_projects" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.projects.Projects.search_hyfiles">
+<span class="sig-name descname"><span class="pre">search_hyfiles</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">results</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">search</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/projects.html#Projects.search_hyfiles"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.projects.Projects.search_hyfiles" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.projects.Projects.search_flows">
+<span class="sig-name descname"><span class="pre">search_flows</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">results</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">search_flows</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">search_flowgraphs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/projects.html#Projects.search_flows"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.projects.Projects.search_flows" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="flowstore.html" class="btn btn-neutral float-left" title="FlowStore" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="search.html" class="btn btn-neutral float-right" title="Search" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, OWASP.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

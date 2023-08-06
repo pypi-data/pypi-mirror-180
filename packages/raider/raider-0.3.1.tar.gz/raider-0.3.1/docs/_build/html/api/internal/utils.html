@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>utils &mdash; raider 0.3.0 documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/assets/jsonview.bundle.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/libs/html/datatables.min.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/common.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/layouts.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/styles.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/modern.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/sphinx_highlight.js"></script>
+        <script src="../../_static/assets/jsonview.bundle.js"></script>
+        <script src="../../_static/assets/jsonview_loader.js"></script>
+        <script src="../../_static/sphinx-needs/libs/html/datatables.min.js"></script>
+        <script src="../../_static/sphinx-needs/libs/html/datatables_loader.js"></script>
+        <script src="../../_static/sphinx-needs/libs/html/sphinx_needs_collapse.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Logger" href="logger.html" />
+    <link rel="prev" title="Structures" href="structures.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> raider
+          </a>
+              <div class="version">
+                0.3.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Overview</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/raider.html">What is Raider</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/install.html">Installing Raider</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/faq.html">Frequently asked questions</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/prerequisites.html">Prerequisites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/reddit.html">Reddit authentication</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/keycloak.html">KeyCloak OAuth setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/juiceshop.html">Juiceshop setup</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Examples</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../examples/writing_custom_operations.html">Writing Custom Operations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../examples/writing_custom_plugins.html">Writing Custom Plugins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../examples/writing_macros.html">Writing Macros</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case Studies</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../case_studies/architecture.html">Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../case_studies/lisp.html">Why LISP/Hylang?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../case_studies/macros.html">What are macros and how to use them?</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">API Reference</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../cli.html">CLI reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user.html">User facing API reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../macros.html">Macros reference</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../internal.html">Internal API reference</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="raider.html">Raider</a></li>
+<li class="toctree-l2"><a class="reference internal" href="config.html">Config</a></li>
+<li class="toctree-l2"><a class="reference internal" href="flowstore.html">FlowStore</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project.html">Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="search.html">Search</a></li>
+<li class="toctree-l2"><a class="reference internal" href="structures.html">Structures</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">utils</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#raider.utils.colored_text"><code class="docutils literal notranslate"><span class="pre">colored_text()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#raider.utils.default_user_agent"><code class="docutils literal notranslate"><span class="pre">default_user_agent()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#raider.utils.get_config_dir"><code class="docutils literal notranslate"><span class="pre">get_config_dir()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#raider.utils.get_config_file"><code class="docutils literal notranslate"><span class="pre">get_config_file()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#raider.utils.get_project_dir"><code class="docutils literal notranslate"><span class="pre">get_project_dir()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#raider.utils.get_project_file"><code class="docutils literal notranslate"><span class="pre">get_project_file()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#raider.utils.import_raider_objects"><code class="docutils literal notranslate"><span class="pre">import_raider_objects()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#raider.utils.hy_dict_to_python"><code class="docutils literal notranslate"><span class="pre">hy_dict_to_python()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#raider.utils.py_dict_to_hy_list"><code class="docutils literal notranslate"><span class="pre">py_dict_to_hy_list()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#raider.utils.create_hy_expression"><code class="docutils literal notranslate"><span class="pre">create_hy_expression()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#raider.utils.serialize_hy"><code class="docutils literal notranslate"><span class="pre">serialize_hy()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#raider.utils.eval_file"><code class="docutils literal notranslate"><span class="pre">eval_file()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#raider.utils.eval_project_file"><code class="docutils literal notranslate"><span class="pre">eval_project_file()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#raider.utils.list_projects"><code class="docutils literal notranslate"><span class="pre">list_projects()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#raider.utils.list_hyfiles"><code class="docutils literal notranslate"><span class="pre">list_hyfiles()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#raider.utils.match_tag"><code class="docutils literal notranslate"><span class="pre">match_tag()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#raider.utils.parse_json_filter"><code class="docutils literal notranslate"><span class="pre">parse_json_filter()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#raider.utils.colored_hyfile"><code class="docutils literal notranslate"><span class="pre">colored_hyfile()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="logger.html">Logger</a></li>
+<li class="toctree-l2"><a class="reference internal" href="parsers.html">Parsers</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">raider</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a></li>
+          <li class="breadcrumb-item"><a href="../internal.html">Internal API reference</a></li>
+      <li class="breadcrumb-item active">utils</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/api/internal/utils.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-raider.utils">
+<span id="utils"></span><h1>utils<a class="headerlink" href="#module-raider.utils" title="Permalink to this heading"></a></h1>
+<p>Functions that are used within Raider.</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="raider.utils.colored_text">
+<span class="sig-name descname"><span class="pre">colored_text</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">text</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">color</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/utils.html#colored_text"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.utils.colored_text" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="raider.utils.default_user_agent">
+<span class="sig-name descname"><span class="pre">default_user_agent</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/utils.html#default_user_agent"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.utils.default_user_agent" title="Permalink to this definition"></a></dt>
+<dd><p>Gets the default user agent.</p>
+<p>Gets the current version of Raider and creates the user agent
+string.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A string with the user agent.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="raider.utils.get_config_dir">
+<span class="sig-name descname"><span class="pre">get_config_dir</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/utils.html#get_config_dir"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.utils.get_config_dir" title="Permalink to this definition"></a></dt>
+<dd><p>Gets the configuration directory.</p>
+<p>Returns the path of the directory with the Raider configuration
+files.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A string with the path of the configuration directory.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="raider.utils.get_config_file">
+<span class="sig-name descname"><span class="pre">get_config_file</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filename</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/utils.html#get_config_file"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.utils.get_config_file" title="Permalink to this definition"></a></dt>
+<dd><p>Gets the configuration file.</p>
+<p>Given the file name, it returns the path of this file in the Raider
+configuration directory.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>filename</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – A string with the name of the file to look up for in the main
+configuration directory.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A string with the path of the file.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="raider.utils.get_project_dir">
+<span class="sig-name descname"><span class="pre">get_project_dir</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">project</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/utils.html#get_project_dir"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.utils.get_project_dir" title="Permalink to this definition"></a></dt>
+<dd><p>Gets the directory of the project.</p>
+<p>Given the name of the project, returns the path to the directory
+containing the configuration files for this project.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>project</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – A string with the name of the project.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A string with the path of the directory where the config files for
+the project are located.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="raider.utils.get_project_file">
+<span class="sig-name descname"><span class="pre">get_project_file</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">project</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">filename</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/utils.html#get_project_file"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.utils.get_project_file" title="Permalink to this definition"></a></dt>
+<dd><p>Gets a file from a project.</p>
+<p>Given the project name and the file name, it returns the path to
+that file.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>project</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – A string with the name of the project.</p></li>
+<li><p><strong>filename</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – A string with the file name.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>The path of the file in the project directory.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="raider.utils.import_raider_objects">
+<span class="sig-name descname"><span class="pre">import_raider_objects</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/utils.html#import_raider_objects"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.utils.import_raider_objects" title="Permalink to this definition"></a></dt>
+<dd><p>Imports Raider objects to use inside hy configuration files.</p>
+<p>To make Raider objects visible inside hy files without using
+separate imports, this function does the imports and returns the
+locals() which is later used when evaluating hy files.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>, <code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code>]</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A dictionary with the locals() containing all the Raider objects
+that can be used in hy files.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="raider.utils.hy_dict_to_python">
+<span class="sig-name descname"><span class="pre">hy_dict_to_python</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">hy_dict</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/utils.html#hy_dict_to_python"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.utils.hy_dict_to_python" title="Permalink to this definition"></a></dt>
+<dd><p>Converts a hy dictionary to a python dictionary.</p>
+<p>When creating dictionaries in hylang using :parameters they become
+hy.models.Keyword objects. This function converts them to normal python
+dictionaries.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>hy_dict</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">Keyword</span></code>, <code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code>]) – A dictionary created in hy, which uses hy.models.Keyword instead of
+simple strings as keys.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>, <code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code>]</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A dictionary with the same elements only with hy.models.Keyword keys
+converted into normal strings.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="raider.utils.py_dict_to_hy_list">
+<span class="sig-name descname"><span class="pre">py_dict_to_hy_list</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/utils.html#py_dict_to_hy_list"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.utils.py_dict_to_hy_list" title="Permalink to this definition"></a></dt>
+<dd><p>Converts a python dictionary to a hylang list.</p>
+<p>In hy, dictionaries are created out of lists, and this function
+converts a normal python dictionary to a list made out of hy symbols
+that will be later used to create the hy dictionary.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>data</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>, <code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code>]) – A python dictionary with the data to convert.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code>[<code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">String</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">Symbol</span></code>]]</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A list with hy objects that can be used to create a hy dictionary.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="raider.utils.create_hy_expression">
+<span class="sig-name descname"><span class="pre">create_hy_expression</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">variable</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/utils.html#create_hy_expression"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.utils.create_hy_expression" title="Permalink to this definition"></a></dt>
+<dd><p>Creates a hy expression.</p>
+<p>Raider configuration is saved in hy format, and this function
+creates the assignments in this format.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>variable</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – A string with the name of the variable to be created.</p></li>
+<li><p><strong>value</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code>[<code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code>, <code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code>], <code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code>[<code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code>]]) – The value of the variable.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A string with the valid hy expression.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="raider.utils.serialize_hy">
+<span class="sig-name descname"><span class="pre">serialize_hy</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">form</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/utils.html#serialize_hy"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.utils.serialize_hy" title="Permalink to this definition"></a></dt>
+<dd><p>Serializes hy expression.</p>
+<p>This function serializes the supplied hy expression and returns it
+in a string format, so that it can be later saved in a file.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>form</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">Expression</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">Symbol</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">Integer</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">Keyword</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">String</span></code>]) – A hy expression to convert to a string.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A string with the serialized form.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="raider.utils.eval_file">
+<span class="sig-name descname"><span class="pre">eval_file</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filename</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">shared_locals</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/utils.html#eval_file"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.utils.eval_file" title="Permalink to this definition"></a></dt>
+<dd><p>Evaluate hy file.</p>
+<p>This function evaluates all the content inside the supplied hy file,
+and returns the created locals() so that it can be later used for
+other files.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>filename</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – A string with the file name to be evaluated.</p></li>
+<li><p><strong>shared_locals</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>, <code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code>]]) – A dictionary with the locals() that will be considered when
+evaluating the file.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>, <code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code>]</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A dictionary with the updated locals() after evaluating the hy
+file.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="raider.utils.eval_project_file">
+<span class="sig-name descname"><span class="pre">eval_project_file</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">project</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">filename</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">shared_locals</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/utils.html#eval_project_file"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.utils.eval_project_file" title="Permalink to this definition"></a></dt>
+<dd><p>Evaluate a hy file from a project.</p>
+<p>This function evaluates the specified file inside the project and
+returns the locals() which are updated after evaluating the file.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>project</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – A string with the name of the project.</p></li>
+<li><p><strong>filename</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – A string with the file name to be evaluated.</p></li>
+<li><p><strong>shared_locals</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>, <code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code>]) – A dictionary of locals() to be included when evaluating the
+file.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>, <code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code>]</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A dictionary of locals() updated after evaluating the file.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="raider.utils.list_projects">
+<span class="sig-name descname"><span class="pre">list_projects</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/utils.html#list_projects"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.utils.list_projects" title="Permalink to this definition"></a></dt>
+<dd><p>List existing projects.</p>
+<p>This function returns the list of projects that have been
+configured in Raider.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A list with the strings of the project found in the
+configuration directory.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="raider.utils.list_hyfiles">
+<span class="sig-name descname"><span class="pre">list_hyfiles</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">project</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/utils.html#list_hyfiles"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.utils.list_hyfiles" title="Permalink to this definition"></a></dt>
+<dd><p>List hyfiles for a project.</p>
+<p>This function returns the list of hyfiles that have been
+configured in Raider for the provided project.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>project</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – A string with the project name.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A list with the strings of the project found in the
+configuration directory.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="raider.utils.match_tag">
+<span class="sig-name descname"><span class="pre">match_tag</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">html_tag</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">attributes</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/utils.html#match_tag"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.utils.match_tag" title="Permalink to this definition"></a></dt>
+<dd><p>Tells if a tag matches the search.</p>
+<p>This function checks whether the supplied tag matches the
+attributes. The attributes is a dictionary, and the values are
+treated as a regular expression, to allow checking for tags that
+don’t have a static value.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>html_tag</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Tag</span></code>) – A bs4.element.Tag object with the tag to be checked.</p></li>
+<li><p><strong>attributes</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]) – A dictionary of attributes to check whether they match with the tag.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A boolean saying whether the tag matched with the attributes or not.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="raider.utils.parse_json_filter">
+<span class="sig-name descname"><span class="pre">parse_json_filter</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">raw</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/utils.html#parse_json_filter"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.utils.parse_json_filter" title="Permalink to this definition"></a></dt>
+<dd><p>Parses a raw JSON filter and returns a list with the items.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>raw</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – A string with the expected JSON filter.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A list with all items found in the filter.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="raider.utils.colored_hyfile">
+<span class="sig-name descname"><span class="pre">colored_hyfile</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filename</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/utils.html#colored_hyfile"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.utils.colored_hyfile" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="structures.html" class="btn btn-neutral float-left" title="Structures" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="logger.html" class="btn btn-neutral float-right" title="Logger" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, OWASP.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

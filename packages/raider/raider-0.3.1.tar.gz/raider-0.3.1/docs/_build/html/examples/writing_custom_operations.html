@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Writing Custom Operations &mdash; raider 0.3.0 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/assets/jsonview.bundle.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sphinx-needs/libs/html/datatables.min.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sphinx-needs/common.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sphinx-needs/layouts.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sphinx-needs/styles.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sphinx-needs/modern.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+        <script src="../_static/assets/jsonview.bundle.js"></script>
+        <script src="../_static/assets/jsonview_loader.js"></script>
+        <script src="../_static/sphinx-needs/libs/html/datatables.min.js"></script>
+        <script src="../_static/sphinx-needs/libs/html/datatables_loader.js"></script>
+        <script src="../_static/sphinx-needs/libs/html/sphinx_needs_collapse.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Writing Custom Plugins" href="writing_custom_plugins.html" />
+    <link rel="prev" title="Juiceshop setup" href="../tutorials/juiceshop.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> raider
+          </a>
+              <div class="version">
+                0.3.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Overview</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../overview/raider.html">What is Raider</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/install.html">Installing Raider</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/faq.html">Frequently asked questions</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/prerequisites.html">Prerequisites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/reddit.html">Reddit authentication</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/keycloak.html">KeyCloak OAuth setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/juiceshop.html">Juiceshop setup</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Examples</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Writing Custom Operations</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#raider.operations.Operation"><code class="docutils literal notranslate"><span class="pre">Operation</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#raider.operations.Operation.function"><code class="docutils literal notranslate"><span class="pre">Operation.function</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#raider.operations.Operation.flags"><code class="docutils literal notranslate"><span class="pre">Operation.flags</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#raider.operations.Operation.action"><code class="docutils literal notranslate"><span class="pre">Operation.action</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#raider.operations.Operation.otherwise"><code class="docutils literal notranslate"><span class="pre">Operation.otherwise</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#raider.operations.Operation.__init__"><code class="docutils literal notranslate"><span class="pre">Operation.__init__()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#raider.operations.Operation.run"><code class="docutils literal notranslate"><span class="pre">Operation.run()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#raider.operations.Operation.run_conditional"><code class="docutils literal notranslate"><span class="pre">Operation.run_conditional()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#raider.operations.Operation.needs_response"><code class="docutils literal notranslate"><span class="pre">Operation.needs_response</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#raider.operations.Operation.needs_userdata"><code class="docutils literal notranslate"><span class="pre">Operation.needs_userdata</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#raider.operations.Operation.is_conditional"><code class="docutils literal notranslate"><span class="pre">Operation.is_conditional</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#raider.operations.Operation.will_append"><code class="docutils literal notranslate"><span class="pre">Operation.will_append</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="writing_custom_plugins.html">Writing Custom Plugins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="writing_macros.html">Writing Macros</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case Studies</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../case_studies/architecture.html">Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../case_studies/lisp.html">Why LISP/Hylang?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../case_studies/macros.html">What are macros and how to use them?</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">API Reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../api/cli.html">CLI reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/user.html">User facing API reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/macros.html">Macros reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/internal.html">Internal API reference</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">raider</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a></li>
+      <li class="breadcrumb-item active">Writing Custom Operations</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/examples/writing_custom_operations.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-raider.operations">
+<span id="writing-custom-operations"></span><h1>Writing Custom Operations<a class="headerlink" href="#module-raider.operations" title="Permalink to this heading"></a></h1>
+<p id="operations-api">In case the existing operations are not enough, the user can write
+their own to add the new functionality. Those new operations should be
+written in the project’s configuration directory in a “.hy” file. To
+do this, a new class has to be defined, which will inherit from
+<em>Raider</em>’s Operation class:</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="raider.operations.Operation">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">Operation</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">function</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">flags</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">action</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">otherwise</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/raider/operations.html#Operation"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.operations.Operation" title="Permalink to this definition"></a></dt>
+<dd><p>Parent class for all operations.</p>
+<p>Each Operation class inherits from here.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="raider.operations.Operation.function">
+<span class="sig-name descname"><span class="pre">function</span></span><a class="headerlink" href="#raider.operations.Operation.function" title="Permalink to this definition"></a></dt>
+<dd><p>A callable function to be executed when the operation is run.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="raider.operations.Operation.flags">
+<span class="sig-name descname"><span class="pre">flags</span></span><a class="headerlink" href="#raider.operations.Operation.flags" title="Permalink to this definition"></a></dt>
+<dd><p>An integer with the flags which define the behaviour of the
+Operation. For now only two flags are allowed: NEEDS_RESPONSE
+and IS_CONDITIONAL. If NEEDS_RESPONSE is set, the HTTP response
+will be sent to the “function” for further processing. If
+IS_CONDITIONAL is set, the function should return a boolean, and
+if the return value is True the Operation inside “action” will
+be run next, if it’s False, the one from the “otherwise” will be
+run.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="raider.operations.Operation.action">
+<span class="sig-name descname"><span class="pre">action</span></span><a class="headerlink" href="#raider.operations.Operation.action" title="Permalink to this definition"></a></dt>
+<dd><p>An Operation object that will be run if the function returns
+True. Will only be used if the flag IS_CONDITIONAL is set.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="raider.operations.Operation.otherwise">
+<span class="sig-name descname"><span class="pre">otherwise</span></span><a class="headerlink" href="#raider.operations.Operation.otherwise" title="Permalink to this definition"></a></dt>
+<dd><p>An Operation object that will be run if the function returns
+False. Will only be used if the flag IS_CONDITIONAL is set.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.operations.Operation.__init__">
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">function</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">flags</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">action</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">otherwise</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/raider/operations.html#Operation.__init__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.operations.Operation.__init__" title="Permalink to this definition"></a></dt>
+<dd><p>Initializes the Operation object.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>function</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Callable</span></code>[<code class="xref py py-data docutils literal notranslate"><span class="pre">...</span></code>, <code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code>]) – A callable function to be executed when the operation is run.</p></li>
+<li><p><strong>flags</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code>) – An integer with the flags that define the behaviour of this
+Operation.</p></li>
+<li><p><strong>action</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code>[<a class="reference internal" href="#raider.operations.Operation" title="raider.operations.Operation"><code class="xref py py-class docutils literal notranslate"><span class="pre">Operation</span></code></a>, <code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code>[<a class="reference internal" href="#raider.operations.Operation" title="raider.operations.Operation"><code class="xref py py-class docutils literal notranslate"><span class="pre">Operation</span></code></a>], <code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code>]) – An Operation object that will be run when the function
+returns True.</p></li>
+<li><p><strong>otherwise</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code>[<a class="reference internal" href="#raider.operations.Operation" title="raider.operations.Operation"><code class="xref py py-class docutils literal notranslate"><span class="pre">Operation</span></code></a>, <code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code>[<a class="reference internal" href="#raider.operations.Operation" title="raider.operations.Operation"><code class="xref py py-class docutils literal notranslate"><span class="pre">Operation</span></code></a>], <code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code>]) – An Operation object that will be run when the function
+returns False.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.operations.Operation.run">
+<span class="sig-name descname"><span class="pre">run</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pconfig</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">response</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/raider/operations.html#Operation.run"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.operations.Operation.run" title="Permalink to this definition"></a></dt>
+<dd><p>Runs the Operation.</p>
+<p>Runs the defined Operation, considering the “flags” set.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>response</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Response</span></code>) – A requests.models.Response object with the HTTP response to
+be passed to the operation’s “function”.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>An optional string with the name of the next flow.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.operations.Operation.run_conditional">
+<span class="sig-name descname"><span class="pre">run_conditional</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">response</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/raider/operations.html#Operation.run_conditional"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.operations.Operation.run_conditional" title="Permalink to this definition"></a></dt>
+<dd><p>Runs a conditional operation.</p>
+<p>If the IS_CONDITIONAL flag is set, run the Operation’s
+“function” and if True runs the “action” next, if it’s False
+runs the “otherwise” Operation instead.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>response</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Response</span></code>) – A requests.models.Response object with the HTTP response to
+be passed to the operation’s “function”.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>An optional string with the name of the next flow.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="raider.operations.Operation.needs_response">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">needs_response</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">bool</span></em><a class="headerlink" href="#raider.operations.Operation.needs_response" title="Permalink to this definition"></a></dt>
+<dd><p>Returns True if the NEEDS_RESPONSE flag is set.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="raider.operations.Operation.needs_userdata">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">needs_userdata</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">bool</span></em><a class="headerlink" href="#raider.operations.Operation.needs_userdata" title="Permalink to this definition"></a></dt>
+<dd><p>Returns True if the NEEDS_USERDATA flag is set.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="raider.operations.Operation.is_conditional">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">is_conditional</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">bool</span></em><a class="headerlink" href="#raider.operations.Operation.is_conditional" title="Permalink to this definition"></a></dt>
+<dd><p>Returns True if the IS_CONDITIONAL flag is set.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="raider.operations.Operation.will_append">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">will_append</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">bool</span></em><a class="headerlink" href="#raider.operations.Operation.will_append" title="Permalink to this definition"></a></dt>
+<dd><p>Returns True if the WILL_APPEND flag is set.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../tutorials/juiceshop.html" class="btn btn-neutral float-left" title="Juiceshop setup" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="writing_custom_plugins.html" class="btn btn-neutral float-right" title="Writing Custom Plugins" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, OWASP.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

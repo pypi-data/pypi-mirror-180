@@ -1,0 +1,6 @@
+(setv _users [{:username "admin"
+              :password "T4g6e4XIPxEG50iiuCpeoKhUom7L9n0xjaZoN9lRyqG8t2Dv"}
+             {:username "daniel"
+              :password "Ktqcp25hDgnm"}
+             {:username "nonexistent_user"
+              :password "Ktqcp25hDgnm"}])

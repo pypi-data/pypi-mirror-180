@@ -1,0 +1,100 @@
+(setv _base_url "https://rss.digeex.de/")
+
+
+(setv csrf_token
+      (Regex
+        :name "csrf_token"
+        :regex "const __csrf_token = \"([^\"]+)\""))
+
+(setv username (Variable "username"))
+(setv password (Variable "password"))
+(setv ttrss_sid (Cookie "ttrss_sid"))
+(setv mfa_code (Prompt "MFA"))
+
+(setv login
+      (Flow
+        :request
+        (Request
+          :method "POST"
+          :path "/public.php"
+          :data
+          {"op" "login"
+           "login" username
+           "password" password
+           "profile" 0}
+          )
+        :outputs
+        [ttrss_sid]
+        :operations
+        [(Http
+           :status 200 ;; ttrss responds with 200 when MFA is enabled
+           :action
+           [(Print "Multi-factor authentication is enabled.")
+            (NextStage "multi_factor")]
+           :otherwise
+           [(Print "Multi-factor authentication is disabled.")
+            (NextStage "main_page")])]))
+        
+        
+(setv multi_factor
+      (Flow
+        :request
+        (Request
+          :method "POST"
+          :path "/public.php"
+          :data
+          {"op" "login"
+           "login" username
+           "password" password
+           "bw_limit" ""
+           "safe_mode" ""
+           "remember_me" ""
+           "profile" 0
+           "otp" mfa_code})
+        :outputs [ttrss_sid]
+        :operations [(NextStage "main_page")]))
+               
+(setv main_page
+      (Flow
+        :request
+        (Request
+          :path "/"
+          :method "GET"
+          :cookies [ttrss_sid])
+        :outputs [csrf_token]
+        :operations [(Grep
+                       :regex "Incorrect username or password"
+                       :action (Print "Login failed")
+                       :otherwise (Print "Login succeeded"))]))
+
+
+(setv get_feeds
+      (Flow
+        :request
+        (Request
+          :path "/backend.php"
+          :method "POST"
+          :cookies [ttrss_sid]
+          :data
+          {"op" "feeds"
+           "method" "view"
+           "feed" -4  ;; -4 ~ All articles
+           "view_mode" "adaptive"
+           "order_by" "default"
+           "cat" "false"
+           "csrf_token" csrf_token})
+        :operations
+        [(Print.body)])) ;; Print the JSON body with the list of feeds
+
+(setv get_labels
+      (Flow
+        :request
+        (Request
+          :path "/backend.php"
+          :method "GET"
+          :cookies [ttrss_sid]
+          :data
+          {"op" "pref-labels"
+           "method" "getlabeltree"})
+        :operations
+        [(Print.body)])) ;; Print the JSON body with the list of labels

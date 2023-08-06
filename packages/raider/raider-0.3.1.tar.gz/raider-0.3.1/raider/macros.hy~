@@ -1,0 +1,2 @@
+(defmacro with-baseurl [path]
+  `(do (Combine base_url ~path)))
