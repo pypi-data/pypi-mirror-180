@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pgworkload/__init__.py
+src/pgworkload/builtin_workloads.py
+src/pgworkload/main.py
+src/pgworkload/simplefaker.py
+src/pgworkload/util.py
+src/pgworkload.egg-info/PKG-INFO
+src/pgworkload.egg-info/SOURCES.txt
+src/pgworkload.egg-info/dependency_links.txt
+src/pgworkload.egg-info/entry_points.txt
+src/pgworkload.egg-info/requires.txt
+src/pgworkload.egg-info/top_level.txt

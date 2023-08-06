@@ -1,0 +1,2 @@
+[console_scripts]
+pgworkload = pgworkload.main:main

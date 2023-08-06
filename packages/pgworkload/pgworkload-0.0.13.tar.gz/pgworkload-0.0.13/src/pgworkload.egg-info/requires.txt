@@ -1,0 +1,7 @@
+psycopg
+psycopg-binary
+numpy
+tabulate
+pandas
+pyyaml
+prometheus_client
