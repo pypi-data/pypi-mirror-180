@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "splitnetwork"
+version = "1.0.0"
+description = "split the network"
+authors = ["DynJax <devinceding@qq.com>"]
+license = "GPL 3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+prettytable = "^3.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
