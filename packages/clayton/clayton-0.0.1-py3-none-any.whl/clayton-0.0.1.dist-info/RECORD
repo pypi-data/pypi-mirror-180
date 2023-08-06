@@ -1,0 +1,16 @@
+clayton/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+clayton/rng/__init__.py,sha256=BixVcKu_G6GGgNXDMFCac4RO8FgnrQLO6d74jWx1okI,784
+clayton/rng/archimedean.py,sha256=NIBa2wanxd9ITvMLJkh6MQjg_ytI4gBUY5Agj0zOjFk,12079
+clayton/rng/base.py,sha256=cmQZotSNEbetcqFavslCknmp19fCA9wFFU7e07g72Cw,20932
+clayton/rng/elliptical.py,sha256=oUDwA18UN58OWCHr6e9CuyFpulkqOp3AXyP4op5EbWk,2269
+clayton/rng/evd.py,sha256=6MQhNNtdZTYds2wbWJSBrN6ZfDoyaihb8WilWIAZJo8,32202
+clayton/rng/monte_carlo.py,sha256=JbTiYQYNmcSNb_fjCwVpbucLVD7Z9rZE5WUfvOpLVtY,8134
+clayton/rng/utils.py,sha256=bPNMWZmOIhDv3n37Jc4AZ2Fnrlq4KpQsV_3lJyykkEA,4465
+clayton/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clayton/tests/test_archimedean.py,sha256=S5TxT20NROA7BoFjdn4z3sYBIxtU9VYo1jpQ4IdOUpc,8772
+clayton/tests/test_base.py,sha256=SswX65hN1jXH7pc8BGK3DBu6d5t0-7PGREP7MkqarTY,1994
+clayton/tests/test_evd.py,sha256=CLLlfLClWCyMpU-A0C1nZL6YL-zpTUN7_P99yVvDwUY,6110
+clayton-0.0.1.dist-info/METADATA,sha256=2n0dCrWaXOrCMrI_cRl76UiD-XYJgORgQGXTdZ37Upo,1449
+clayton-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+clayton-0.0.1.dist-info/top_level.txt,sha256=BRmqrgNaIuCSPnAV4tLYy2nZ2mZQAAFHPe6dHeP1nYM,8
+clayton-0.0.1.dist-info/RECORD,,
