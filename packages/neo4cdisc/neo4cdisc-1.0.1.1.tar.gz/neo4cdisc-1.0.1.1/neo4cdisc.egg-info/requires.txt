@@ -1,0 +1,2 @@
+tab2neo
+jupyter==1.0.0
