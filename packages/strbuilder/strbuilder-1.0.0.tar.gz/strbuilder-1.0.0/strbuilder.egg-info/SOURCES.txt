@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+strbuilder.egg-info/PKG-INFO
+strbuilder.egg-info/SOURCES.txt
+strbuilder.egg-info/dependency_links.txt
+strbuilder.egg-info/top_level.txt
