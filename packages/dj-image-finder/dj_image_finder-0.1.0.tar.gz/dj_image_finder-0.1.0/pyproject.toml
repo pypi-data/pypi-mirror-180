@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "dj-image-finder"
+version = "0.1.0"
+description = ""
+authors = ["dongjin2008 <dkim@icsparis.fr>"]
+readme = "README.md"
+packages = [{include = "dj_image_finder"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1.3"
+google-search-results = "^2.4.1"
+keyboard = "^0.13.5"
+climage = "^0.1.3"
+getkey = "^0.6.5"
+
+[tool.poetry.scripts]
+djsearch = "dj_image_finder.__init__:image"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
