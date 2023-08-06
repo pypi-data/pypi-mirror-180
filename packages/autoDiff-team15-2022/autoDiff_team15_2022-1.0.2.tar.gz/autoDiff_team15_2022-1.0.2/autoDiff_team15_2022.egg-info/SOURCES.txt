@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+autoDiff_team15_2022.egg-info/PKG-INFO
+autoDiff_team15_2022.egg-info/SOURCES.txt
+autoDiff_team15_2022.egg-info/dependency_links.txt
+autoDiff_team15_2022.egg-info/requires.txt
+autoDiff_team15_2022.egg-info/top_level.txt
