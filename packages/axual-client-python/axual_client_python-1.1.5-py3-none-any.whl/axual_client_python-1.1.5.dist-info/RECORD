@@ -1,0 +1,17 @@
+axualclient/__init__.py,sha256=joAqYlolWm7m1algaNSGUXK4Pr8IeONhIbxDhYYCcNo,587
+axualclient/avro.py,sha256=Mz8ZpqqoOaL-A3Wcchd6SMpJY8kUImBiZl_7Rq9OZbw,4688
+axualclient/axual_consumer.py,sha256=ZNfdJSd6QJPRrrZ9HDvK-xvE-ImVs-BV1b0NNjWEb-4,13677
+axualclient/axual_producer.py,sha256=4D3E3gl4kbD9Oe2-U-B3tbv3n1ugG3ySmlmKsr4W1D4,10467
+axualclient/consumer.py,sha256=equeDzBjsQ-hDF6N8yvnu8gX2QJmQGpHvoTkwNxV3BM,2633
+axualclient/deserializing_consumer.py,sha256=uSV52soonoPZe7NVzqSGN8_blc1egu6c0oM8htXxCCM,3922
+axualclient/discovery.py,sha256=Uz_fpWIuWOcHw5FwgPhsl2JP2l3zbEaYFHQC69DTGLA,8646
+axualclient/exception.py,sha256=5WZMP2gTcoMArTLsZHCQ7BlUQVBMFA3Yb8N2IEtsGv4,667
+axualclient/patterns.py,sha256=hF_AV1vbVKY88yHkbTELoUboQx4VM8SclUt_dSmHA5Y,5424
+axualclient/producer.py,sha256=AngjjDlDy3dTzAeYK3UoC4R8mlk1aO67AG9IezJyt7I,2213
+axualclient/serializing_producer.py,sha256=-OlqtrfDyzrLxXSTnu4tzHipgKZ9qeoFV_yX6GMUk-8,3622
+axualclient/util.py,sha256=frFtYFh4dNW8LS30kE4A1GXmJXVnqshuKcnrBDw1rr8,2614
+axualclient/version.py,sha256=xAUeTxwvX554z50lhDGdim2Vc4CB6HnMPsr8_H-KdUY,826
+axual_client_python-1.1.5.dist-info/LICENSE,sha256=F5_rfZW0-9RT_mwjgySzlHmXtIY8J1236ODKMNIQbtI,11340
+axual_client_python-1.1.5.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+axual_client_python-1.1.5.dist-info/METADATA,sha256=RP8atGj7iCy8_GFmR3OkyaHWbnJCOTiSC1VUa9K4_c4,11163
+axual_client_python-1.1.5.dist-info/RECORD,,
