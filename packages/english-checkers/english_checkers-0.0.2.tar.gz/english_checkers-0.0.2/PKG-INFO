@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: english_checkers
+Version: 0.0.2
+Summary: The English chekers game simulation package
+Author: Rodion Iudenko
+Author-email: rodionyudenko@gmail.com
+Maintainer-email: Rodion Iudenko <rodionyudenko@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2022 yud-warrior
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: homepage, http://github.com/yud-warrior/checkers
+Project-URL: documentation, http://github.com/yud-warrior/checkers
+Project-URL: repository, http://github.com/yud-warrior/checkers.git
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.10
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
+License-File: LICENSE.txt
+
+========
+Сheckers
+========
+The package realizes `English chekers
+<https://en.wikipedia.org/wiki/English_draughts>`_ game simulation.
+
+Basic usage
+-----------
+
+Let's create a game with RandomAI:
+
+.. code-block:: python
+    
+    from checkers.game import Game, GameState, Color
+    from checkers.move import Move
+    from checkers.ai.random_ai import RandomAI
+    
+    def main():
+        size = 8
+        game = Game(size)
+        ai_color = Color.WHITE
+        ai = RandomAI(size, ai_color)
+        if ai_color == Color.BLACK:
+            move = None
+        while game.state == GameState.UNFINISHED:
+            print(game.board)
+            print('b:', game.black_count, 'w:', game.white_count)
+            print(game.turn)
+    
+            if game.turn == ai_color:
+                move = ai.make_move(move)
+            else:
+                moves = game.get_all_moves()
+                for i, move in enumerate(moves):
+                    print(i + 1, ':', move)
+                print('Input number of the move for move:')
+                try:
+                    move_number = int(input().strip())
+                except ValueError:
+                    print('Wrong input. Number of the move must be int')
+                try:
+                    move = moves[move_number - 1]
+                except IndexError:
+                    print('Wrong move')
+                    continue
+            game.make_move(move)
+        else:
+            print(game.board)
+            print(game.state)
+    
+    
+    if __name__ == '__main__':
+        main()
+
