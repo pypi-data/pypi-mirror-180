@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: aiodatastore
+Version: 0.1.2
+Summary: Low level and high performance asyncio client for Google Datastore REST API
+Project-URL: Homepage, https://github.com/umax/aiodatastore
+Project-URL: Source, https://github.com/umax/aiodatastore
+Project-URL: Changelog, https://github.com/umax/aiodatastore/blob/main/CHANGELOG.md
+Author-email: Max Usachev <maxusachev@gmail.com>
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: AsyncIO
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Requires-Dist: gcloud-aio-auth<5.0.0,>=3.1.0
+Description-Content-Type: text/markdown
+
+[![Package version](https://badge.fury.io/py/aiodatastore.svg)](https://pypi.org/project/aiodatastore/)
+[![Supported Versions](https://img.shields.io/pypi/pyversions/aiodatastore.svg)](https://pypi.org/project/aiodatastore)
+[![Test](https://github.com/umax/aiodatastore/actions/workflows/test.yml/badge.svg)](https://github.com/umax/aiodatastore/actions/workflows/test.yml)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+# aiodatastore
+
+__aiodatastore__ is a low level and high performance asyncio client for [Google Datastore REST API](https://cloud.google.com/datastore/docs/reference/data/rest). Inspired by [gcloud-aio](https://github.com/talkiq/gcloud-aio/blob/master/datastore) library, thanks!
+
+Key advantages:
+
+- lazy properties loading (that's why it fast, mostly)
+
+- explicit value types for properties (no types guessing)
+
+- strictly following REST API data structures
