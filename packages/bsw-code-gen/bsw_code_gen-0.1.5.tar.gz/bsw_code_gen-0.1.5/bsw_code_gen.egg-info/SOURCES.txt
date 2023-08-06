@@ -1,0 +1,11 @@
+README.md
+setup.py
+bsw_code_gen/__init__.py
+bsw_code_gen/bsw_code_gen.py
+bsw_code_gen/main.py
+bsw_code_gen.egg-info/PKG-INFO
+bsw_code_gen.egg-info/SOURCES.txt
+bsw_code_gen.egg-info/dependency_links.txt
+bsw_code_gen.egg-info/entry_points.txt
+bsw_code_gen.egg-info/requires.txt
+bsw_code_gen.egg-info/top_level.txt
