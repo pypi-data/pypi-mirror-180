@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: topologika
+Version: 2022.12
+Summary: Localized topological data analysis
+Home-page: https://github.com/sci-visus/topologika
+Author: Pavol Klacansky
+Author-email: pavol@klacansky.com
+Requires-Python: >=3.11
+License-File: LICENSE
+Requires-Dist: numpy (>=1.13)
+
