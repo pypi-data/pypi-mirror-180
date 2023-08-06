@@ -1,0 +1,8 @@
+pandas
+
+[test]
+pytest
+pytest-cov
+pytest-sugar
+coveralls
+numpy
