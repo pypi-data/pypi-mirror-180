@@ -1,0 +1,4 @@
+[console_scripts]
+pwoc = papers_without_code.bin.pwoc:main
+pwoc-server = papers_without_code.bin.pwoc_server:main
+pwoc-web-app = papers_without_code.bin.pwoc_app:main
