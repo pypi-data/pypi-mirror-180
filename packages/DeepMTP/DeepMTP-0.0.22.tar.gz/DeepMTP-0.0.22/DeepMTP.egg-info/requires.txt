@@ -1,0 +1,16 @@
+liac-arff
+matplotlib
+matplotlib-inline
+more-itertools
+numpy
+pandas
+pillow
+prettytable
+scikit-learn
+scikit-multilearn
+scipy
+wandb
+wget
+tensorboard
+streamlit
+tqdm
