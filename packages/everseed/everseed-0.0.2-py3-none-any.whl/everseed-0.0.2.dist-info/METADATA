@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: everseed
+Version: 0.0.2
+Summary: a tool for seeding lots of torrents forever
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Author-email: Vivek Revankar <vivek@master-hax.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: bencode-py==4.0.0
+Requires-Dist: prompt-toolkit==3.0.36
+Requires-Dist: pyrosimple==2.4.0
+Description-Content-Type: text/markdown
+
+# everseed
