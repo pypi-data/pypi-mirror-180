@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: proton_db_api
+Version: 0.1
+Summary: Simple unofficial ProtonDB API for python
+Home-page: https://github.com/vovsss/proton_db_api
+Author: vovsss
+Author-email: vova4ka@internet.ru
+License: MIT
+License-File: LICENSE
+
+# proton_db_api
+Simple unofficial async ProtonDB API for Python 3.11+

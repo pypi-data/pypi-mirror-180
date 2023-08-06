@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+proton_db/__init__.py
+proton_db/protondb.py
+proton_db/requestable.py
+proton_db/classes/__init__.py
+proton_db/classes/game.py
+proton_db_api.egg-info/PKG-INFO
+proton_db_api.egg-info/SOURCES.txt
+proton_db_api.egg-info/dependency_links.txt
+proton_db_api.egg-info/not-zip-safe
+proton_db_api.egg-info/top_level.txt
