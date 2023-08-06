@@ -1,0 +1,8 @@
+README.md
+setup.py
+jwt_flask_authentication/__init__.py
+jwt_flask_authentication/auth.py
+jwt_flask_authentication.egg-info/PKG-INFO
+jwt_flask_authentication.egg-info/SOURCES.txt
+jwt_flask_authentication.egg-info/dependency_links.txt
+jwt_flask_authentication.egg-info/top_level.txt
