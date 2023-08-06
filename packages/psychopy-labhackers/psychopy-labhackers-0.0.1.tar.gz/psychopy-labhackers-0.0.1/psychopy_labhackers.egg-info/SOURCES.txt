@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+psychopy_labhackers/__init__.py
+psychopy_labhackers/labhackers.py
+psychopy_labhackers.egg-info/PKG-INFO
+psychopy_labhackers.egg-info/SOURCES.txt
+psychopy_labhackers.egg-info/dependency_links.txt
+psychopy_labhackers.egg-info/requires.txt
+psychopy_labhackers.egg-info/top_level.txt
