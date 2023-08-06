@@ -1,0 +1,2 @@
+[console_scripts]
+horsephrase = horsephrase.__main__:main
