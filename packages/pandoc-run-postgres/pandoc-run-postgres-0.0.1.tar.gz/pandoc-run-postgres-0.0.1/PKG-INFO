@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pandoc-run-postgres
+Version: 0.0.1
+Summary: Execute SQL queries inside a markdown document
+Author-email: Damien Clochard <damien.clochard@dalibo.com>
+Project-URL: Homepage, https://github.com/daamien/pandoc-run-postgres
+Project-URL: Bug Tracker, https://github.com/daamien/pandoc-run-postgres/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
