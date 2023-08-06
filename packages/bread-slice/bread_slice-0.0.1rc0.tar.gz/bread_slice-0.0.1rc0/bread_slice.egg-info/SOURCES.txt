@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+bread_slice/__init__.py
+bread_slice/__main__.py
+bread_slice/bot.py
+bread_slice.egg-info/PKG-INFO
+bread_slice.egg-info/SOURCES.txt
+bread_slice.egg-info/dependency_links.txt
+bread_slice.egg-info/top_level.txt
