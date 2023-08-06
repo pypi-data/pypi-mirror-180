@@ -1,0 +1,10 @@
+dnevniklib/__init__.py,sha256=Ege8vAviHKfymuECv2MiXn-QgRYWRlkSta2dVOKFB7o,211
+dnevniklib/errors.py,sha256=9WazqWwQ5H7QnSzDm5rLRMwKGLOQAF0mSgrmAVqKUA0,303
+dnevniklib/homeworks.py,sha256=0ulgmB8idYkSQMBCLm4aCCH48S7CH1Yb7HizLsHqylo,965
+dnevniklib/marks.py,sha256=GG4qN3bQaC1VNSQi4pQCXn0nJRcvijRiGBb_Npbn1OI,1834
+dnevniklib/school.py,sha256=uw7Vaxdrn0_BMhZPFKAcZLl2N1K_Z025vrhL6nx-mA8,461
+dnevniklib/user.py,sha256=2l4yA5NsG2OwfUQ4gEmq1g6WbJZa3tx6BG5DAPJyROo,1880
+dnevniklib-0.4.dist-info/METADATA,sha256=mIZHWkptKZknyeoiDo9AaY5PEulqeuJ9_RzhZRZXNd4,2124
+dnevniklib-0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dnevniklib-0.4.dist-info/top_level.txt,sha256=MnqtE1hAoTohgSvZ53bdPfKcVq4obKcUMcfEHSSuA-w,11
+dnevniklib-0.4.dist-info/RECORD,,
