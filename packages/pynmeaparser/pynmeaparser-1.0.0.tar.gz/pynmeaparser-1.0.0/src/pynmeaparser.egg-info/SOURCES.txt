@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/pynmeaparser/__init__.py
+src/pynmeaparser.egg-info/PKG-INFO
+src/pynmeaparser.egg-info/SOURCES.txt
+src/pynmeaparser.egg-info/dependency_links.txt
+src/pynmeaparser.egg-info/top_level.txt
