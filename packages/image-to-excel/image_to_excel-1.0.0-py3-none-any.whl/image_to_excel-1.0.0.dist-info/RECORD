@@ -1,0 +1,17 @@
+LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+image_to_excel/VERSION,sha256=6d2FB_S_DG9CRY5BrqgzrQvT9hJycjNe7pv01YVB7Wc,6
+image_to_excel/__init__.py,sha256=8PPMYtJiVOhPlA1nbOTzwEz4rhYlwvuJ_vcefrQU4j4,549
+image_to_excel/__main__.py,sha256=7xjqWoZJwosBAyNx2WtBT_Gdai6jOTSnCwJZ22ulJEI,150
+image_to_excel/_helpers/__init__.py,sha256=mgf6sli1qw2zHO3ZxjHOGr5P3z1z5OztoNCaeM2unoQ,261
+image_to_excel/_helpers/nice_logger.py,sha256=tE2Y5i2-5fN25S_JIxnw0DN1lEdlWKpWQLe8o7Zujzo,3918
+image_to_excel/base.py,sha256=wPK3eqXFeAsQkzV2a3P6YMzuxZL83HxZnKr1ji0MRbg,2975
+image_to_excel/cli.py,sha256=-eEFFSBaChUZKXRy1c0sSnulUxWPLsPkW05vF4UH8kI,1357
+image_to_excel/core/__init__.py,sha256=BG2sAHG_QypLMG-2r7IcPOUCENfCQwSLAGcBAAZP23M,48
+image_to_excel/core/excel.py,sha256=azyJqVtjmmzyTsi8oTZuzpuzNyzqNAlAWpEuMcOgB3c,1795
+image_to_excel/core/image.py,sha256=xNKPpng8Vri8XZF0sb6zjOD6b9AN4V1NTxOn7Dna75M,1838
+image_to_excel/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image_to_excel-1.0.0.dist-info/entry_points.txt,sha256=DG-lpR-SMsE-FdmljAt6WJQw8V5KtSqBAu0zTEZon8Y,58
+image_to_excel-1.0.0.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+image_to_excel-1.0.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+image_to_excel-1.0.0.dist-info/METADATA,sha256=L9eaavrW2peYSPM9UII0ac417khJnIgCp7Ceu22EGLI,1794
+image_to_excel-1.0.0.dist-info/RECORD,,
