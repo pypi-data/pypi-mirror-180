@@ -1,0 +1,5 @@
+requests
+azure-storage-blob
+azure-storage-file-share
+azure-core
+future-fstrings
