@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+with_2_2.py
+with_2_5.py
+with_2_6.py
+with_3_3.py
+with_brython.py
+with_skulpt_2.py
+with_skulpt_3.py
+with_transcrypt.js
+with_as_a_function.egg-info/PKG-INFO
+with_as_a_function.egg-info/SOURCES.txt
+with_as_a_function.egg-info/dependency_links.txt
+with_as_a_function.egg-info/top_level.txt
