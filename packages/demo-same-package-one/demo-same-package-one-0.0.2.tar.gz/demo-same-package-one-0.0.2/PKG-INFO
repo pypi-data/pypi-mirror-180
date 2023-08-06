@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: demo-same-package-one
+Version: 0.0.2
+Summary: a test for multi packages on the same namespace
+Home-page: UNKNOWN
+Author: @muuusiiik
+Author-email: muuusiiikd@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# OVERVIEW
+* a experiment for verifying if two pypi packages can have the same {namespace} or not
+
+# STRUCTURE
+* PACKAGES
+  * one : demo_same_package/one.py
+  * two : demo_same_package/two.py
+
+# THIS PACKAGE
+* one
+
+
+### EXPECTATION
+* PACKAGE INSTALLATION
+``` bash
+pip install demo-same-package-one
+pip install demo-same-package-two
+```
+
+* EXPECTED RESULTS
+  * the source code would be
+    * demo_same_package/
+      - one
+      - two
+
+
+

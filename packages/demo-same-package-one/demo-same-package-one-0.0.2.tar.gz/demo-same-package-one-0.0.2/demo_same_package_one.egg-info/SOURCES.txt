@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+demo_same_package/__init__.py
+demo_same_package/one.py
+demo_same_package_one.egg-info/PKG-INFO
+demo_same_package_one.egg-info/SOURCES.txt
+demo_same_package_one.egg-info/dependency_links.txt
+demo_same_package_one.egg-info/namespace_packages.txt
+demo_same_package_one.egg-info/top_level.txt
