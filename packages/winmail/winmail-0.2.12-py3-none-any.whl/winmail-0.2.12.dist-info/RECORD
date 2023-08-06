@@ -1,0 +1,14 @@
+winmail/Api_1_2.py,sha256=eUWBZqWk_jOl9iT77BYl1XN0wV54Ou-c7cPSx2MfLxc,14874
+winmail/ComApi.py,sha256=iM-BVISuzKTrixfODdpZNT-itKLfJTMZwoagv7aE8tE,4032
+winmail/OpenApi.py,sha256=tso4AC2XYrJj9gE9f2DYUqg1wlwTPdvAlUHE2o10DSU,6839
+winmail/Winmail.py,sha256=8qRp4n841U1jG8i0BH0gc5m2oBaxuG2k-dm-bqs4o4g,26241
+winmail/__init__.py,sha256=x0CS-TWxtR7Hdb5Q0sWW_Ww9C2LcbhLCzzQisD6uI6g,273
+winmail/utils/MysqlClass.py,sha256=0gm9GGCU_0c37MdORnogWWsYdsWW5S64yCc_ke5KToU,1983
+winmail/utils/Other.py,sha256=ez0jz3g-HcD5J4wqUlZzwUdMT7wflWR7v9jpmdC9l3s,577
+winmail/utils/PostgreClass.py,sha256=7k4KAg0MdR1QT70iEOnZUzWJ9py2mhemRFPWg2qzgmA,1822
+winmail/utils/SqliteClass.py,sha256=zZrfKSPADHEY_7dazwZNu9XJmN3kgXanPXa06gr7HlQ,1728
+winmail/utils/__init__.py,sha256=fnBThfIuXcBHIkYsicFl2AdvRY_3iCZzqJUMflwXAYA,296
+winmail-0.2.12.dist-info/METADATA,sha256=bThObmi93cP56OAf0NPTR89cVDMW9O-avmfy7NZQbQE,5614
+winmail-0.2.12.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+winmail-0.2.12.dist-info/top_level.txt,sha256=uTByJGkKn9OyBL5iF3MzuuyHr6ebXz4rO1QB2QtLFBk,8
+winmail-0.2.12.dist-info/RECORD,,
