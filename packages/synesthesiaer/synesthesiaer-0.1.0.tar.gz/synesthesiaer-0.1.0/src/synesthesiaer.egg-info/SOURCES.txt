@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+ciexyzjv.csv
+pyproject.toml
+src/synesthesiaer/__init__.py
+src/synesthesiaer/main.py
+src/synesthesiaer.egg-info/PKG-INFO
+src/synesthesiaer.egg-info/SOURCES.txt
+src/synesthesiaer.egg-info/dependency_links.txt
+src/synesthesiaer.egg-info/top_level.txt
