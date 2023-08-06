@@ -1,0 +1,18 @@
+[project]
+name = "cowEncryption"
+version = "0.1"
+authors = [
+  { name="Muhammad Latif Harkat", email="latipharkat176@gmail.com" },
+]
+description = "This library is used for Encryption your code"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Latip176/cowEncryption"
+"Bug Tracker" = "https://github.com/Latip176/cowEncryption/issues"

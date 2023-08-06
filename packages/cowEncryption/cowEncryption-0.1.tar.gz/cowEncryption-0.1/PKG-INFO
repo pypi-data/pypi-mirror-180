@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: cowEncryption
+Version: 0.1
+Summary: This library is used for Encryption your code
+Home-page: https://github.com/Latip176/cowEncryption
+Download-URL: https://github.com/Latip176/cowEncryption/archive/cowEncryption.tar.gz
+Author: Muhammad Latif Harkat
+Author-email: Muhammad Latif Harkat <latipharkat176@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/Latip176/cowEncryption
+Project-URL: Bug Tracker, https://github.com/Latip176/cowEncryption/issues
+Keywords: cowEncryption,Cow Encryption,Python Encryption,Latip176,Encryption,Muhammad Latif Harkat
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS
+
+## cowEncryption
+The documentation of library cowEncryption
+
+### Installtion
+You can install cowEncryption by running the following command:
+```
+pip install cowEncryption
+```
+
+### Upgrade
+You can upgrade cowEncryption by running the following command:
+```
+pip install cowEncryption --upgrade
+```
+
+### Usage
+```PYTHON
+from cowEncryption import savior
+
+#your name / path file project
+file = "example.py"
+
+#Encryption
+Encrypt = savior.Encryption(file, jenis="file").encPrem()
+
+#check status
+print(Encrypt)
+```
+
+### Function
+1. To Encrypt your project files to keep them safe from thieves
+2. Protect your project files from thieves
+3. Shorten your coding
+
+### License
+The MIT License (MIT). Please see [License File](https://github.com/Latip176/cowEncryption/blob/main/LICENSE) for more information.
+
+## Authors
+You can visit [authors page](https://github.com/Latip176/cowEncryption/blob/main/AUTHORS) 

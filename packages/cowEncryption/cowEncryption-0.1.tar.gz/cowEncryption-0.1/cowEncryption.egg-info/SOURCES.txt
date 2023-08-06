@@ -1,0 +1,12 @@
+AUTHORS
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+cowEncryption.egg-info/PKG-INFO
+cowEncryption.egg-info/SOURCES.txt
+cowEncryption.egg-info/dependency_links.txt
+cowEncryption.egg-info/top_level.txt
+src/cowEncryption/savior.py
+src/cowEncryption/settings.py
