@@ -1,0 +1,3 @@
+[console_scripts]
+mepe=mepe.main:main
+
