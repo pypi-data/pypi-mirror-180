@@ -1,0 +1,121 @@
+# Maze Generation & Solving
+Generate/Solve Maze of any dimension using DFS and search algorithms like, Dijkstra, etc.
+
+
+## Features
+- Create maze of different sizes.
+- Solve maze using path finding algorithm like Dijkstra(adding more later).
+
+
+## Usage
+This module provides 2 functions, create(...) and search(...). Both of these functions require some parameter that needs to be given by the user.
+s start by ng the module, depending on what kind of project it is:
+```py
+import importlib
+mgs = importlib.import_module("maze-generator-and-solver.main")
+```
+
+### Generate/Create a maze
+There are 2 ways of using the create(...) function to generate a maze, both of them return same structure so you can use either of them as per the need.
+```py
+#definition:
+create(width=3, height=3, cellSize=1) # width (default: 3), height (default: 3), cellsize (default: 1)
+```
+
+- The create(...) function returns 2 structure, one is a simple 1D Array and the other one is a custom Graph structure.
+  - The array contains maze/grid index in the order they should be visited (including bactracked indexes). This is useful if you want to create some kind of animation to create a maze.
+  - The Graph, as the name suggest, will return an object that has a Map object(adjList). This Map object maps all the index connected to each other.
+
+NOTE: create(...) use randomized DFS, so a (3x3) maze created on your system might return some different values.
+```py
+#use:
+maze = create(3, 3) # to create a maze of (3 x 3) grid
+maze = create(90, 90, 30) # to create a maze of (3 x 3) grid
+print(maze)
+''' output of both the function call will be similar to this:
+  {
+    "mazeArr": [0,3,6,7,8,5,2,1,4,1,2,5,8,7,6,3,0],
+    "mazeGraph": {
+        "v": 9,
+        "AdjList": {},
+        "length": 9
+    }
+  }
+'''
+
+maze = create(3, 5) # to create a maze of (3 x 5) grid
+maze = create(90, 150, 30) # to create a maze of (3 x 5) grid
+print(maze)
+''' output of both the function call will similar to this
+  {
+    "mazeArr": [0,3,4,7,6,9,12,13,10,11,14,11,8,5,2,1,2,5,8,11,10,13,12,9,6,7,4,3,0],
+    "mazeGraph": {
+        "v": 15,
+        "AdjList": {},
+        "length": 15
+    }
+  }
+'''
+
+# all these functions return the same structures, an array and a Graph object
+```
+click <a href="#example">here</a> or scroll down to get a better understanding with the help of an example
+
+### Solve the maze
+To search/solve the maze use the search(...) function,
+```py
+#definition:
+search(graph, root, target, searchAlgoId=1)
+''' graph: the graph object returned by 'create(...) function', root: starting index,
+ target: ending index, searchAlgoId: the id the search algorithm being used (default: 1[dijkstra]) '''
+```
+
+- The search(...) function returns a custom Stack object, it contains the array(stackArray) that will provide the solution / path to take from root(0) to target(8).
+```py
+#use:
+# 'maze' was defined above when create function was called
+path = mgs.search(maze["mazeGraph"], 0, maze["mazeGraph"].v-1) # retuns a stack object that contains the solution/path
+print(path)
+'''
+output of a 3x3 maze will be similar to:
+[0,1,4,7,8]
+output of a 3x5 maze will be similar to:
+[0,3,6,7,8,11,14]
+'''
+```
+click <a href="#example">here</a> or scroll down to get a better understanding with the help of an example
+
+#### Search Algorithm IDs
+<table>
+  <tr>
+    <th>Algorithm ID</th>
+    <th>Search Algorithm</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Dijkstra</td>
+  </tr>
+</table>
+More algorithms will be added soon ;P
+
+
+## Example
+Taking this (3x3)maze as an example. on the left(unsolved) and on the right, you can see it is solved.
+<img alt="maze" src="https:#github.com/0-harshit-0/maze/blob/b3db9ca4a223457e2abaa2037a0676aaf55486b8/assets/maze-npm.png?raw=true" />
+
+NOTE: create(...) use randomized DFS, so a (3x3) maze created on your system might return some different values.
+
+create:
+```py
+maze = mgs.create(3, 3)
+print(maze["mazeArray"])
+# mazeArray: [0,1,4,5,8,7,6,3,6,7,8,5,2,5,4,1,0]
+```
+search: 
+```py
+path = mgs.search(maze.mazeGraph, 0, maze.mazeGraph.v-1)
+print(path["stackArray"])
+#stackArray: [0,1,4,5,8]
+```
+
+That's it, you are ready to create and solve maze :smile:. You can play with a working maze generator/solver (using py) at https:#0-harshit-0.github.io/maze
