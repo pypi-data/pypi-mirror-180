@@ -1,0 +1,2 @@
+[psychopy.experiment.components]
+ioLabsButtonBoxComponent = psychopy_iolabs:ioLabsButtonBoxComponent
