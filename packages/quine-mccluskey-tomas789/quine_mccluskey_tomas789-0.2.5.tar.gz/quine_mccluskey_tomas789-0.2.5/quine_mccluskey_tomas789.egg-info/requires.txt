@@ -1,0 +1,6 @@
+
+[test]
+pytest>=6.0
+flake8
+black
+pylint
