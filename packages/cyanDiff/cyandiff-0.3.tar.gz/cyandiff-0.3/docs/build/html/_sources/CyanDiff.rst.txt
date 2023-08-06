@@ -1,0 +1,41 @@
+CyanDiff package
+================
+
+Submodules
+----------
+
+CyanDiff.ad\_helpers module
+---------------------------
+
+.. automodule:: CyanDiff.ad_helpers
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+CyanDiff.ad\_overloads module
+-----------------------------
+
+.. automodule:: CyanDiff.ad_overloads
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :special-members:
+   :exclude-members: __dict__,__weakref__
+
+CyanDiff.ad\_types module
+-------------------------
+
+.. automodule:: CyanDiff.ad_types
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :special-members:
+   :exclude-members: __dict__,__weakref__
+
+Module contents
+---------------
+
+.. automodule:: CyanDiff
+   :members:
+   :undoc-members:
+   :show-inheritance:

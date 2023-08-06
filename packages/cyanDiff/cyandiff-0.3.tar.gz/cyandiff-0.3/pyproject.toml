@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cyanDiff"
+version = "0.3"
+authors = [
+  { name="Chris Zhu", email="chriszhu@college.harvard.edu" },
+  { name="Andrew Zhang", email="andrew_zhang1@college.harvard.edu" },
+  { name="Nithin Kavi", email="nithinkavi@college.harvard.edu" },
+  { name="Yingzhi He", email="yingzhi_he@gsd.harvard.edu" },
+  
+]
+description = "AD package for CS107 final project"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
