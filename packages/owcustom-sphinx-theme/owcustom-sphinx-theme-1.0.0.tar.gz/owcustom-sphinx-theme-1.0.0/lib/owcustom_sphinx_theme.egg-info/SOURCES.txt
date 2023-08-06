@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+lib/owcustom/sphinx/theme/VERSION
+lib/owcustom/sphinx/theme/__init__.py
+lib/owcustom/sphinx/theme/footer.html
+lib/owcustom/sphinx/theme/theme.conf
+lib/owcustom/sphinx/theme/static/css/owcustom.css
+lib/owcustom/sphinx/theme/static/js/theme.js
+lib/owcustom_sphinx_theme.egg-info/PKG-INFO
+lib/owcustom_sphinx_theme.egg-info/SOURCES.txt
+lib/owcustom_sphinx_theme.egg-info/dependency_links.txt
+lib/owcustom_sphinx_theme.egg-info/entry_points.txt
+lib/owcustom_sphinx_theme.egg-info/requires.txt
+lib/owcustom_sphinx_theme.egg-info/top_level.txt

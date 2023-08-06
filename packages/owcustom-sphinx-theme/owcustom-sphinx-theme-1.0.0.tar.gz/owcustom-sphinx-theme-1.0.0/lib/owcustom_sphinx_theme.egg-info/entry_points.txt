@@ -1,0 +1,2 @@
+[sphinx.html_themes]
+owcustom-sphinx-theme = owcustom.sphinx.theme
