@@ -1,0 +1,13 @@
+horsephrase/__init__.py,sha256=rMuf_THbE2SJM2suZxneUGApNMyc6TjtsldM_pvyedc,104
+horsephrase/__main__.py,sha256=8EplAD_XS8wHA0D_IoaOff_S0yrg71upIqfPljD3--8,4076
+horsephrase/_guess_guess.py,sha256=1Zg4hycAuBWowg7c-4-_lzjVSQfocoVWGXFFrZRsNWQ,2463
+horsephrase/_implementation.py,sha256=gD1bzEMNvTSYv8PDAz8wZC_ldUL-mx-klNwq_MSNs9E,1027
+horsephrase/_regen_words.py,sha256=9MSz1hmozrFV63udrJc8dqIkjq-Z4hC5QvDNX2hj9CE,2505
+horsephrase/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+horsephrase/words.txt,sha256=XHK-oICHbChmmkGEUzsZ8EmfyJSI0J60svt_SOgVvG0,202382
+horsephrase-2022.12.9.1.dist-info/LICENSE,sha256=V28AxlSHeFufyTBni1_XAfdnTYb5NAQ_8U0y4TE2n5o,1072
+horsephrase-2022.12.9.1.dist-info/METADATA,sha256=h6gqBPKDt3Jx3syYUNEawhVIf3434RG6vmZpDf7Ia3I,721
+horsephrase-2022.12.9.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+horsephrase-2022.12.9.1.dist-info/entry_points.txt,sha256=Vv1Kjyl2BhWHlolOVqYJDLchKPLD87KihG97rcZDAkE,58
+horsephrase-2022.12.9.1.dist-info/top_level.txt,sha256=EBqhKYyO0cSJI6p-63xDsX9wgXq73LszmXYEnZ2Iygg,12
+horsephrase-2022.12.9.1.dist-info/RECORD,,
