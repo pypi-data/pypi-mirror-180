@@ -1,0 +1,2 @@
+[console_scripts]
+ruben-snake-cmd = snake_cmd:main
