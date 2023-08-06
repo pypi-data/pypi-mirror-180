@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: DryhbSupport
+Version: 0.0.7
+Summary: Just stuff I recode all the time
+Home-page: https://github.com/Dryhb/DryhbSupport
+Author: Dryhb
+Author-email: dryhb.pseudotooshort@gmail.com
+License: MIT
+Keywords: timethat factorial combination
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt

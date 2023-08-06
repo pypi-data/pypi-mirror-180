@@ -1,0 +1,1 @@
+Library to help to not recode everything all the time
