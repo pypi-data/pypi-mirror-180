@@ -1,0 +1,8 @@
+{
+  "test_dual_number.py": true,
+  "test_evaluator.py": true,
+  "test_forward_mode.py": true,
+  "test_graph_function.py": true,
+  "test_graph_tree.py": true,
+  "test_reverse_mode.py": true
+}
