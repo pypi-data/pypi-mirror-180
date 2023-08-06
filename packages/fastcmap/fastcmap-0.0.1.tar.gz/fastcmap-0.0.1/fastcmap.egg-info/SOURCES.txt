@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+fastcmap/__init__.py
+fastcmap/base.py
+fastcmap/confusematrix.py
+fastcmap/map_linedata.py
+fastcmap.egg-info/PKG-INFO
+fastcmap.egg-info/SOURCES.txt
+fastcmap.egg-info/dependency_links.txt
+fastcmap.egg-info/requires.txt
+fastcmap.egg-info/top_level.txt
