@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: npycvx
+Version: 0.0.2
+Summary: Converter from numpy to cvxopt.
+Author: ourstudio
+Author-email: rikard@ourstudio.se
+Keywords: cvxopt,glpk,solver,ilp,integer linear programming
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Converter from numpy to cvxopt.
