@@ -1,0 +1,7 @@
+env/
+__pycache__/
+dist/
+
+data.txt
+
+_build
