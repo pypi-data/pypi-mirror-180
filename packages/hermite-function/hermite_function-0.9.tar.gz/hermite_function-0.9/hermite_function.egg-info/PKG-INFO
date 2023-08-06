@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: hermite-function
+Version: 0.9
+Summary: A Hermite function series module.
+Home-page: https://github.com/goessl/hermite_function
+Author: Sebastian Gössl
+Author-email: goessl@student.tugraz.at
+License: MIT
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+License-File: LICENSE
