@@ -1,0 +1,7 @@
+setup.py
+CS501A10Assignment/__init__.py
+CS501A10Assignment/analysis.py
+CS501A10Assignment.egg-info/PKG-INFO
+CS501A10Assignment.egg-info/SOURCES.txt
+CS501A10Assignment.egg-info/dependency_links.txt
+CS501A10Assignment.egg-info/top_level.txt
