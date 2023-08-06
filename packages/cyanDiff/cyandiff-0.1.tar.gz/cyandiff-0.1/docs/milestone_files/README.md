@@ -1,0 +1,10 @@
+### Docs
+
+Impact statement:
+
+The CyanDiff library is useful for automatic differentiation calculations, root finding and critical point finding. As the authors of this package, it is of paramount importance to us that this package is accessible to all groups who want to use it.
+We recognize that it would be more challenging for someone to use our project if they were less familiar with Python, programming, or differentiation. For this reason, we include links to tutorials on getting started with these topics. In addition, we believe in making our project open source so people from all backgrounds can access it.
+
+Contributions to our library would be solely checked for mathematical and coding accuracy and relevance to automatic differentiation broadly. Possible examples of contributions could include a Hessian matrix or symbolic differentiation. In particular, we would not reject a contribution for any discriminatory means. For example, we would welcome contributions where comments were written in a foreign language as they would broaden the number of people who could use our package. Obviously, we would never penalize a contributor for their race, ethnicity, gender identity, sexual orientation or disability status.
+
+This process would be fair and welcoming to people from all groups because we would never have a fixed set of items we want implemented, which would be very limiting. Rather, we believe that people from all different backgrounds may have ideas on extensions related to automatic differentiation that would be helpful to include. Overall, our goal is to have our package include more contributions from other people (rather than limit them) and as a core principle to achieving that mission we pledge to never discriminate on the basis of an immutable characteristic or someone's background/experiences.

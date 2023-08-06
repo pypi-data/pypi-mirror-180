@@ -1,0 +1,38 @@
+name: Sphinx docs
+
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: 
+      - main
+  pull_request:
+     branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    container: 
+      image: czhu1729/team40:latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Build HTML
+      uses: ammaraskar/sphinx-action@master
+
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: html-docs
+        path: docs/build/html/
+
+    - name: Deploy to github pages
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: docs/build/html

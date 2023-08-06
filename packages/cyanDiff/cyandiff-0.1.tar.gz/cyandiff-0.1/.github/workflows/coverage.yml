@@ -1,0 +1,27 @@
+name: Code coverage
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: 
+      - main
+  pull_request:
+     branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    container:
+      image: czhu1729/team40:latest
+
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Build and install CyanDiff in the container (using PEP517/518)
+        run: (python3 -m build --wheel && python3 -m pip install dist/*)
+
+      - name: Run coverage build and determine if coverage is above 90%
+        run: (cd tst && ./check_coverage.sh)
+
