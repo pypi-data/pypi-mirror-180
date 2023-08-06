@@ -1,0 +1,14 @@
+abandonCase/__init__.py,sha256=4PLDcKot7XPXcaQvp2MBToaG8hERiYmPeOLxoSFbkQ4,108
+abandonCase/bubbleWidget_case.py,sha256=OC5AjkZe8nU0sCrVuVpckTgafXVt5ON9-YYCej8dM1k,3603
+core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+core/bubbleWidget.py,sha256=Wp7qeneiyYYUx_n8hr7GdQhaFswGgglcOHSjDvifclw,7147
+header/__init__.py,sha256=1VKtmmxlt8O6PbOnb0ws6S4H6-O8sFmtpCZsWwTRd4g,130
+header/utility.py,sha256=LpWQy5xUanwKdWFrpUGhusjnW5Rz9wQL3ABhgX1OihQ,58
+header/versions.py,sha256=nk70fc-t60WMDIT7ebarMd_4dpFPMa6pNm9Qv-a5nfY,360
+tests/__init__.py,sha256=e2YuZ_8rv6LbNDDiDL2tRQ7mfK1xr_zcxS2Z2DuHnQA,107
+tests/test_BubbleWidget.py,sha256=BuccEsf_diVh9NKqn4KIKOclS-_06DvY-6j4k25wRfE,1973
+PyQtGuiLib-0.0.1.0.dist-info/LICENSE.txt,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+PyQtGuiLib-0.0.1.0.dist-info/METADATA,sha256=cW5trkGZjs_fJP4hEouJOAlIYjHdeMBnzoIPONyo7s8,387
+PyQtGuiLib-0.0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+PyQtGuiLib-0.0.1.0.dist-info/top_level.txt,sha256=hvcuWtrZzX_r4_JcFrqmPBcK-If3nrVinhNMJj8xpmY,30
+PyQtGuiLib-0.0.1.0.dist-info/RECORD,,
