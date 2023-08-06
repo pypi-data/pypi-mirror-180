@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+psychopy_mri_emulator/__init__.py
+psychopy_mri_emulator/emulator.py
+psychopy_mri_emulator.egg-info/PKG-INFO
+psychopy_mri_emulator.egg-info/SOURCES.txt
+psychopy_mri_emulator.egg-info/dependency_links.txt
+psychopy_mri_emulator.egg-info/top_level.txt
