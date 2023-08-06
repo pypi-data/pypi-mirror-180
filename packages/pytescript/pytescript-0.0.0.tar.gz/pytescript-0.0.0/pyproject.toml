@@ -1,0 +1,34 @@
+
+[build-system]
+requires = ["setuptools>=61.2.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = 'pytescript'
+version = '0.0.0'
+description = 'A library that converts between python and typescript interfaces'
+license = {text = "MIT"}
+authors = [
+  { name="Nguyen Thanh Nghi", email="thanhnghic4@gmail.com" },
+]
+requires-python = ">=3.7"
+readme = 'README.md'
+keywords = ['python', 'typescript', 'interfaces', 'yaml', 'dataclass', 'share']
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Typing :: Typed"
+]
+
+[project.urls]
+repository = 'https://github.com/thanhnghic4/Pypescript'
+homepage = 'https://github.com/thanhnghic4/Pypescript'
+documentation = 'https://github.com/thanhnghic4/Pypescript'
+
+
