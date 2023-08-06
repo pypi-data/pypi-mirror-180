@@ -1,0 +1,15 @@
+rdSaleOrder/EcsInterface.py,sha256=sBxRgjlj-no3B2oWAdyJXkM4UENF3jZk3Lhi9OaezHU,3707
+rdSaleOrder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rdSaleOrder/mainModel.py,sha256=hUJ0ikEDvFsRk3Z5dHxWHaVKmoqzlLFXdUGz0pWvVjQ,1122
+rdSaleOrder/metadata.py,sha256=l6xhwBy8zxaGaq2N7O42WetVIjMebYSzuLI5apSt0hY,9031
+rdSaleOrder/operation.py,sha256=37N1dey90L5kxP6X0cZtVmteSsAay3cz9YAOFU0X1RU,4234
+rdSaleOrder/utility.py,sha256=N1mtvfYDCmhQUbtniAD91NZ--MVWAYeV0whwOeXbf9I,1876
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=Mqs_jZcLVBPNBM9GXFEk0bfOEFfSnEYSXhfDQxzBfsY,1147
+tests/test_demo.py,sha256=atXaBdFGxpWHt2gi7UE1vCOgIp_Wwiym3tqpn_Aw7yE,754
+tests/test_dms_demo.py,sha256=eo8gnZVEHSgUBNnP-xynQg76QmOVbl1KtlESoPm25Qo,602
+tests/test_ecs.py,sha256=lNL_96GUlibBmQY8M1LTGnicdYWybK4pen1h39xU-QE,2245
+rdsaleorder-1.0.6.dist-info/METADATA,sha256=GdTnaJzVX61NMLvMUsSfES5tWI9PqPMu90az9Y7qgpM,301
+rdsaleorder-1.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+rdsaleorder-1.0.6.dist-info/top_level.txt,sha256=CE6bnPh2tTrDM3PfJqJmgtr4Kfz6c_0ChLYqh3XsxtA,18
+rdsaleorder-1.0.6.dist-info/RECORD,,
