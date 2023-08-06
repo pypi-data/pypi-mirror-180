@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: text2music
+Version: 0.0.1
+Summary: A package for text-to-music generation
+Home-page: https://github.com/NLP-Guild/text2music
+Author: NLP Guild
+Author-email: tao.xiang@tum.de
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+# text2music
