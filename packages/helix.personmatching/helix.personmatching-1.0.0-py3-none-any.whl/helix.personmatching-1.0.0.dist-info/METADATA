@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: helix.personmatching
+Version: 1.0.0
+Summary: helix.personmatching
+Home-page: https://github.com/icanbwell/helix.personmatching
+Author: Imran Qureshi
+Author-email: imran@icanbwell.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rapidfuzz
+Requires-Dist: fhir.resources
+Requires-Dist: usaddress
+Requires-Dist: phonenumbers
+Requires-Dist: phonetics
+Requires-Dist: usaddress-scourgify
+
+# helix.personmatching
