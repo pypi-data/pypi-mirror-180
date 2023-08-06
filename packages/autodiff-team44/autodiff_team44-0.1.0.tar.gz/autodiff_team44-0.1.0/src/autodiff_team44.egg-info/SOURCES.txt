@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/autodiff_team44/__init__.py
+src/autodiff_team44/ad.py
+src/autodiff_team44/functions.py
+src/autodiff_team44/rev_ad.py
+src/autodiff_team44/rev_variable.py
+src/autodiff_team44/variable.py
+src/autodiff_team44.egg-info/PKG-INFO
+src/autodiff_team44.egg-info/SOURCES.txt
+src/autodiff_team44.egg-info/dependency_links.txt
+src/autodiff_team44.egg-info/requires.txt
+src/autodiff_team44.egg-info/top_level.txt
