@@ -1,0 +1,7 @@
+README.md
+setup.py
+BeritaTerkini/__init__.py
+latest_news.egg-info/PKG-INFO
+latest_news.egg-info/SOURCES.txt
+latest_news.egg-info/dependency_links.txt
+latest_news.egg-info/top_level.txt
