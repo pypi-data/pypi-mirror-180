@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+src/__init__.py
+src/mytypo.py
+src/mytypo.egg-info/PKG-INFO
+src/mytypo.egg-info/SOURCES.txt
+src/mytypo.egg-info/dependency_links.txt
+src/mytypo.egg-info/entry_points.txt
+src/mytypo.egg-info/requires.txt
+src/mytypo.egg-info/top_level.txt
+tests/__init__.py
+tests/test_mytypo.py

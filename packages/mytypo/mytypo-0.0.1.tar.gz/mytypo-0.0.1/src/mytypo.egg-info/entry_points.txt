@@ -1,0 +1,3 @@
+[console_scripts]
+mytypo = mytypo:check_typo
+
