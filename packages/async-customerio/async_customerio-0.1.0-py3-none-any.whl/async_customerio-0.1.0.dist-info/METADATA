@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: async-customerio
+Version: 0.1.0
+Summary: Async CustomerIO Client - a Python client to interact with CustomerIO in an async fashion.
+Home-page: https://github.com/healthjoy/async-customerio
+License: MIT
+Keywords: async,asyncio,customerio,messaing,python3,data-driven-emails,push notifications,in-app messages,SMS
+Author: Aleksandr Omyshev
+Author-email: oomyshev@healthjoy.com
+Maintainer: Healthjoy Developers
+Maintainer-email: developers@healthjoy.com
+Requires-Python: >=3.7.15,<3.12
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: httpx (<1.0.0)
+Project-URL: Repository, https://github.com/healthjoy/async-customerio
+Description-Content-Type: text/markdown
+
+# async-customerio is a lightweight asynchronous client to interact with CustomerIO
+
+[![PyPI download total](https://img.shields.io/pypi/dt/async-customerio.svg)](https://pypi.python.org/pypi/async-customerio/)
+[![PyPI download month](https://img.shields.io/pypi/dm/async-customerio.svg)](https://pypi.python.org/pypi/async-customerio/)
+[![PyPI version fury.io](https://badge.fury.io/py/async-customerio.svg)](https://pypi.python.org/pypi/async-customerio/)
+[![PyPI license](https://img.shields.io/pypi/l/async-customerio.svg)](https://pypi.python.org/pypi/async-customerio/)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/async-customerio.svg)](https://pypi.python.org/pypi/async-customerio/)
+[![GitHub Workflow Status for CI](https://img.shields.io/github/workflow/status/healthjoy/async-customerio/CI?label=CI&logo=github)](https://github.com/healthjoy/async-customerio/actions?query=workflow%3ACI)
+[![Codacy coverage](https://img.shields.io/codacy/coverage/b6a59cdf5ca64eab9104928d4f9bbb97?logo=codacy)](https://app.codacy.com/gh/healthjoy/async-customerio/dashboard)
+
+
+  * Free software: MIT license
+  * Requires: Python 3.7+
+
+## Features
+
+  *
+
+## Installation
+```shell script
+$ pip install async-customerio
+```
+
+## Getting started
+TBD...
+
+## License
+
+``async-customerio`` is offered under the MIT license.
+
+## Source code
+
+The latest developer version is available in a GitHub repository:
+[https://github.com/healthjoy/async-customerio](https://github.com/healthjoy/async-customerio)
+
