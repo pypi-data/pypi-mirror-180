@@ -1,0 +1,8 @@
+setup.py
+zamfai/__init__.py
+zamfai/zamfai.py
+zamfai.egg-info/PKG-INFO
+zamfai.egg-info/SOURCES.txt
+zamfai.egg-info/dependency_links.txt
+zamfai.egg-info/not-zip-safe
+zamfai.egg-info/top_level.txt
