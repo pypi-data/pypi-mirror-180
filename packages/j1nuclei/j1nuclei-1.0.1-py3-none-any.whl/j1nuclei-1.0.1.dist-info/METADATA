@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: j1nuclei
+Version: 1.0.1
+Summary: J1Nuclei is a CLI tool demonstrating how JupiterOne platform can automate and learn from other tools. It automates everyday security tasks of scanning endpoints for vulnerabilities.
+Home-page: https://github.com/jupiterOne/j1nuclei
+Author: JupiterOne
+Author-email: sacha.faut@jupiterone.com
+License: MIT License
+License-File: LICENSE
+
