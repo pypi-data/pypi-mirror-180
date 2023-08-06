@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fileUploadS3_x21182787"
+version = "0.0.1"
+authors = [
+  { name="Abhishek Medhane", email="abhishekmedhane04@gmail.com" },
+]
+description = "Package to upload object to aws s3 and return s3 file url"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["boto3"]
+
+[project.urls]
+"Homepage" = "https://github.com/abhishekmedhane/S3-FileUpload-UrlGen"
+"repository" = "https://github.com/abhishekmedhane/S3-FileUpload-UrlGen"
