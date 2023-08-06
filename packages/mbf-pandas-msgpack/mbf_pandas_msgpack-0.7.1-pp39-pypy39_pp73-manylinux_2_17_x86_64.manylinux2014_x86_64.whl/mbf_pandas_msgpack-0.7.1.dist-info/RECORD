@@ -1,0 +1,13 @@
+mbf_pandas_msgpack/__init__.py,sha256=xyRnyPC8DXrZAsnbKx2Bc-rp0nFjYI8Rw6GNMbEylLg,716
+mbf_pandas_msgpack/packers.py,sha256=fJs1KHWn6d1-8MIHTpMb9SjnYz_DRrW1HUZSxmYZiIo,27189
+mbf_pandas_msgpack/_move.pypy39-pp73-x86_64-linux-gnu.so,sha256=83yuy00Z9PRGtWBoiUHW6Y6AXy6lpIh-IAKfICyG2-Y,18960
+mbf_pandas_msgpack/msgpack/__init__.py,sha256=V6sWhwHsUbQm0mYzivTBk1YWGgZyY3Y3sFo2Jb95mlc,1154
+mbf_pandas_msgpack/msgpack/_packer.pypy39-pp73-x86_64-linux-gnu.so,sha256=XmUVm8pLIIz244Fj03P6kFDRTtR5sfk7PcxqXXTKLBk,93712
+mbf_pandas_msgpack/msgpack/exceptions.py,sha256=dZWm1HSUintMEwZ89VgJPZjZGokzKvM0f9pdB44Jh68,505
+mbf_pandas_msgpack/msgpack/_version.py,sha256=QXoo6iFXPa7HetqR8eOrP1u3Z8qNt3S3zl_GyDwCT6Y,20
+mbf_pandas_msgpack/msgpack/_unpacker.pypy39-pp73-x86_64-linux-gnu.so,sha256=HxdgpDvxzwlLcf275IODUiA5Wl-YHhZXCvOVtNN4Mjo,107280
+mbf_pandas_msgpack-0.7.1.dist-info/METADATA,sha256=YQqK94SZo8LM1ulX2yq9UiAEcZasqsbjHyPq8cVrIKg,2189
+mbf_pandas_msgpack-0.7.1.dist-info/WHEEL,sha256=zevXRBFV3Viwx-zJ1CmfKrZ0bJyn-BZWNDYFs0Oq8Qs,162
+mbf_pandas_msgpack-0.7.1.dist-info/RECORD,,
+mbf_pandas_msgpack-0.7.1.dist-info/LICENSE.md,sha256=GdeiZYtWrq2E9HPFfv-q4V2flgVIxiaQgsYon7M2DUo,3777
+mbf_pandas_msgpack-0.7.1.dist-info/top_level.txt,sha256=2wOMmAEB9RB0c0dkXofOyHbJeixK-7SdovVqMzrLRKM,19
