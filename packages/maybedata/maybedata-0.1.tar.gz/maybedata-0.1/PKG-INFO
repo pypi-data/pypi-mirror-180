@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: maybedata
+Version: 0.1
+Summary: A Python implementation of a Maybe type that represents potentially missing values
+Author-email: Anselm Schüler <mail@anselmschueler.com>
+Classifier: License :: OSI Approved :: Apache Software License
+Project-URL: Home, https://github.com/schuelermine/maybedata
