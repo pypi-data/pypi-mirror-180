@@ -1,0 +1,3 @@
+[console_scripts]
+nodemon-py-simple = nodemon_py_simple.main:main
+
