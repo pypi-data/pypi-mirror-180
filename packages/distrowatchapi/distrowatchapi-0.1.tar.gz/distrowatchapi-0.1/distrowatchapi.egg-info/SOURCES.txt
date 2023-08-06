@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+distrowatchapi/__init__.py
+distrowatchapi/distrowatch.py
+distrowatchapi/periods.py
+distrowatchapi/requestable.py
+distrowatchapi.egg-info/PKG-INFO
+distrowatchapi.egg-info/SOURCES.txt
+distrowatchapi.egg-info/dependency_links.txt
+distrowatchapi.egg-info/not-zip-safe
+distrowatchapi.egg-info/top_level.txt
