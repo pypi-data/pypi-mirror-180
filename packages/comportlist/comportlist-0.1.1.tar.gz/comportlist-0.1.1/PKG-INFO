@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: comportlist
+Version: 0.1.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Summary: easy to show windows serialport,contant virtual port, written in Rust.
+Keywords: pyserial,portscan
+Requires-Python: >=3.6
+Project-URL: repository, https://gitee.com/w-8/comportlist
