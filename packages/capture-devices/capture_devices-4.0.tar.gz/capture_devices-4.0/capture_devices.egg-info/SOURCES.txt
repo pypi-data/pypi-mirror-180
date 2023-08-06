@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+capture_devices/__init__.py
+capture_devices/capture_devices.py
+capture_devices.egg-info/PKG-INFO
+capture_devices.egg-info/SOURCES.txt
+capture_devices.egg-info/dependency_links.txt
+capture_devices.egg-info/top_level.txt
+capture_devices/utils_capture/__init__.py
+capture_devices/utils_capture/utils.py
