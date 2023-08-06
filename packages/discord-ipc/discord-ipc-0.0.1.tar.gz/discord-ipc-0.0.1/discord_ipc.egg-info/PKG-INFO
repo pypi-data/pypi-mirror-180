@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: discord-ipc
+Version: 0.0.1
+Summary: An IPC extension allowing for the communication between a discord.py bot and an asynchronous web-framework.
+Home-page: https://github.com/ben-forster/discord-ipc
+Author: ben-forster
+License: MIT
+Requires-Python: >=3.6
+License-File: LICENSE
