@@ -1,0 +1,8 @@
+README.md
+setup.py
+libreriaCEIEC/CEIEC.py
+libreriaCEIEC/__init__.py
+libreriaCEIEC.egg-info/PKG-INFO
+libreriaCEIEC.egg-info/SOURCES.txt
+libreriaCEIEC.egg-info/dependency_links.txt
+libreriaCEIEC.egg-info/top_level.txt
