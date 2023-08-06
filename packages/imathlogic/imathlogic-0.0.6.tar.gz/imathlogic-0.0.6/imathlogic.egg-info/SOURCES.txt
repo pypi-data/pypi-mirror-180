@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+imathlogic/__init__.py
+imathlogic.egg-info/PKG-INFO
+imathlogic.egg-info/SOURCES.txt
+imathlogic.egg-info/dependency_links.txt
+imathlogic.egg-info/requires.txt
+imathlogic.egg-info/top_level.txt
+imathlogic/supervised/__init__.py
+imathlogic/supervised/classification.py
