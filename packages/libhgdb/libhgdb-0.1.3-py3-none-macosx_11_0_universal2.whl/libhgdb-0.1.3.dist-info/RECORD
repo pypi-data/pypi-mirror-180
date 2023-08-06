@@ -1,0 +1,17 @@
+hgdb-replay,sha256=uPHgKJ-w75s9CnYtWOiEolfsLi9_oQJP8SVFS0kHbYk,2764600
+hgdb-db,sha256=ehx-n31t7NNLv5NweQedN0fWIb2d-drVXhH4uTBQfyA,1540864
+hgdb-rewrite-vcd,sha256=g7CzSyR1KmGSJYPXjXlntJxU_SRwwvG9VbRijL0n_8Q,4903408
+libhgdb.dylib,sha256=xkky_Jd_5XygODVLJdioDlaePd8Nwh9X9TnWPWnrKCg,8700016
+libhgdb-0.1.3.dist-info/RECORD,,
+libhgdb-0.1.3.dist-info/LICENSE,sha256=aPlbtcF2kaiYaX3M_ESL6KrkZQ2TwYdBu7rP924Sf1w,1325
+libhgdb-0.1.3.dist-info/WHEEL,sha256=5PhOzR-3KEUcFrOolwGaJXUf9FcT_JRgKAguUXIMm-4,112
+libhgdb-0.1.3.dist-info/top_level.txt,sha256=KEAFsp_lf84ymd9L-YyJdwLZtPIB_KMjJKvrvObE_ZI,8
+libhgdb-0.1.3.dist-info/METADATA,sha256=PNCLFi5cJuR8FpvwFDooRNMiKyLpVVg-thLgqV3uLHE,9254
+libhgdb-0.1.3.data/scripts/hgdb-xrun,sha256=BQzwuXVTH6gP97K5vyvP-Y6AOnSGzF547fdkVdNLCC0,243
+libhgdb-0.1.3.data/scripts/hgdb-verilator,sha256=E3BwWQ2g2diVIdcCy-2iBuQfMT2aITCM8lQeFUE1lCc,218
+libhgdb-0.1.3.data/scripts/hgdb-vcs,sha256=hpiFax9ZU8L8OpmNKwLWvDg1mzrFpT5fXs-CStNT_1w,210
+libhgdb-0.1.3.data/scripts/hgdb-vsim,sha256=lCpl61HRsgjfMMO97d_cbOGiYkcZx5de9TmbNUjoGR4,192
+libhgdb-0.1.3.data/scripts/hgdb-replay,sha256=l5ecH8SvLXAu46Z_AbqOUZnxNvlTDwOu9s3JItyrbNw,271
+libhgdb-0.1.3.data/scripts/hgdb-db,sha256=1iiY8qyllmQiNkPQZ7czZ1HGa8p6VGnd01oe2m5H7oU,233
+libhgdb-0.1.3.data/scripts/hgdb-rewrite-vcd,sha256=gRbmC7yjr77b5O4GyvBydk-AfTt1C5FhT7_f5W905cA,242
+libhgdb-0.1.3.data/scripts/hgdb-vvp,sha256=iHIGi9mnzgndfOTggVpVy9IY_Cj4rcOdQbk2NvZbbLU,347
