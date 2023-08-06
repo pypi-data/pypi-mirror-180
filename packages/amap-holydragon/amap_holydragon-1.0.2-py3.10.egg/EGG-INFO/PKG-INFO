@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: amap-holydragon
+Version: 1.0.2
+Summary: A command line interface for scanning host
+Author: Zhang Jian
+Author-email: alexwayne.zj@gmail.com
+Project-URL: Homepage, https://github.com/holydragon57/amap
+Project-URL: Bug Tracker, https://github.com/holydragon57/amap/issues
+Platform: any
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+License-File: LICENSE
