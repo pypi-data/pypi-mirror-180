@@ -1,0 +1,28 @@
+[{
+    "model": "NarrativeType",
+    "pk": "s",
+    "fields": {
+      "name": "Subjective"
+    }
+  },
+  {
+    "model": "NarrativeType",
+    "pk": "o",
+    "fields": {
+      "name": "Objective"
+    }
+  },
+  {
+    "model": "NarrativeType",
+    "pk": "a",
+    "fields": {
+      "name": "Assessment"
+    }
+  },
+  {
+    "model": "NarrativeType",
+    "pk": "p",
+    "fields": {
+      "name": "Plan"
+    }
+  }]

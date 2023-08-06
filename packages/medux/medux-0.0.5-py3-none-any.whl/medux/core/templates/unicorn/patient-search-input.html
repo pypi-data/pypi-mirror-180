@@ -1,0 +1,25 @@
+{% load tz i18n unicorn %}
+<div>
+  <form>
+    <div class="input-group input-group-sm mb-3">
+      <span class="input-group-text" id="patient-search-label">{% trans 'Search Patients' %}</span>
+      <input
+          name="search_text"
+          type="text"
+          class="form-control"
+          placeholder="{% trans '&apos;Last name, First name&apos; or Birth date' %}"
+          aria-label="Patient"
+          aria-describedby="patient-search-pretext"
+          autofocus
+          required
+          u:model.defer="search_text"
+{#          {% on "keyup changed delay:300ms" "validate_search_text" %}#}
+{#          value="{{ search_text | default:'' }}"#}
+  >
+      <button
+          class="btn btn-primary"
+          id="patient-search-button"
+      ><i class="bi bi-search"></i></button>
+    </div>
+  </form>
+</div>

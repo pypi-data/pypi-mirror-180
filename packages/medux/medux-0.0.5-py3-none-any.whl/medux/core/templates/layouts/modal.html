@@ -1,0 +1,7 @@
+{# This template should be extended in a plugin that renders a modal dialog. #}
+{# use it by {% extends 'layouts/modal.html' %} #}
+{# and then place the dialog's content into the corresponding blocks #}
+<div class="modal header">{% block modal-header %}{% endblock %}</div>
+<div class="modal-body">{% block modal-body %}{% endblock %}</div>
+<div class="modal-footer">{% block modal-footer %}{% endblock %}</div>
+

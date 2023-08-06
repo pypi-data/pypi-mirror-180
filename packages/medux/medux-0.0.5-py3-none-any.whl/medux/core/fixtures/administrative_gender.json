@@ -1,0 +1,38 @@
+[
+  {
+    "model": "core.administrativegender",
+    "pk": "F",
+    "fields": {
+      "label": "Female",
+      "sort_weight": 0,
+      "comment": ""
+    }
+  },
+  {
+    "model": "core.administrativegender",
+    "pk": "M",
+    "fields": {
+      "label": "Male",
+      "sort_weight": 1,
+      "comment": ""
+    }
+  },
+  {
+    "model": "core.administrativegender",
+    "pk": "UN",
+    "fields": {
+      "label": "Other",
+      "sort_weight": 2,
+      "comment": ""
+    }
+  },
+  {
+    "model": "core.administrativegender",
+    "pk": "NA",
+    "fields": {
+      "label": "Unknown",
+      "sort_weight": 3,
+      "comment": ""
+    }
+  }
+]

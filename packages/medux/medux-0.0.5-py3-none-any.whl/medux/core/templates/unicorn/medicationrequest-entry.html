@@ -1,0 +1,40 @@
+<div>
+  <div class="input-group">
+    <span class="input-group-text" id="prio-{{ line_nr }}">
+      <span class="badge rounded-pill bg-primary">routine</span>
+    </span>
+    {% if is_editing %}
+    
+    <input type="text"
+           name="medication_name"
+           class="form-control"
+           placeholder="Medication"
+           aria-label="Medication"
+           aria-describedby="prio-{{ line_nr }}"
+           autofocus
+    >
+    {% else %}
+      <span
+          class="input-group-text form-control"
+      >{{ med_text | default_if_none:"" }}</span>
+    {% endif %}
+
+    <button class="btn btn-danger">X</button>
+  </div>
+{#  <div class="btn-group">#}
+{#  <input#}
+{#      type="text"#}
+{#      class="dropdown-toggle"#}
+{#      id="dropdownMenuButton"#}
+{#      data-bs-toggle="dropdown"#}
+{#      aria-expanded="false"#}
+{#      u:click.prevent="search"#}
+{#  />#}
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <li><a class="dropdown-item" href="#">Menu item</a></li>
+    <li><a class="dropdown-item" href="#">Menu item</a></li>
+    <li><a class="dropdown-item" href="#">Menu item</a></li>
+  </ul>
+</div>
+</div>

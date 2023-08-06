@@ -1,0 +1,112 @@
+{% extends 'layouts/html.html' %}
+{% load alerts static i18n %}
+
+{% block title %}MedUX{% endblock title %}
+
+{% block body %}
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light bg-medux"
+         aria-label="Main navigation">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="{% url 'home' %}">
+          <img src="{% static 'img/logo.png' %}" alt="Logo"
+               style="width:32px; height:32px;">
+          <span>MedUX</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarDropdown" aria-controls="navbarDropdown"
+                aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi-three-dots-vertical"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarDropdown">
+
+          <ul class="nav navbar-nav me-auto mb-1 mb-lg-0">
+            {% with menu=menus.main_menu %}
+              {% include "includes/top-navbar-menu.html" %}{% endwith %}
+          </ul>
+          <form class="d-flex">
+            {% block search_field %}
+              <div class="input-group input-group-sm">
+                <input class="form-control" type="search"
+                       placeholder="{% trans 'Search patients' %}"
+                       aria-label="{% trans 'Search' %}">
+                <button
+                    class="btn-secondary input-group-text"><i class="bi-search"></i></button>
+              </div>
+            {% endblock %}
+          </form>
+          <ul class="nav navbar-nav">
+            {% with menu=menus.top_navbar %}
+              {% include "includes/top-navbar-menu.html" %}{% endwith %}
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container-fluid ">
+    <div aria-live="polite" aria-atomic="true" class="position-relative">
+      <div class="toast-container position-absolute top-0 end-0 p-3">
+        {# TODO: toasts could be done here using a plugin hook #}
+        {# {% toast title="Neue Nachricht" message='{{ foo }}' icon="bi-user" tag="danger" %}#}
+        {# {% toast title="Bootstrap" badge="just now" message='See? Just like this.' icon="bi-user" %}#}
+      </div>
+    </div>
+
+    <div class="row">
+      {% include "includes/sidebar.html" %}
+      <div class="main col-lg-11">
+        <div class="nav-scroller bg--body shadow-sm">
+          <nav class="nav nav-underline" aria-label="Secondary navigation">
+
+            <div class="d-flex align-items-center  mb-3 border-bottom">
+              {# FIXME: flex layout does not work here. me-auto should pull to the right. #}
+              <div class="me-auto"><h2>{% block page_title %}{% endblock %}</h2></div>
+              <div class="btn-toolbar" role="toolbar">
+                {% block secondary_menu %}{% endblock %}
+              </div>
+            </div>
+            {#            <a class="nav-link active" aria-current="page" href="#">Dashboard</a>#}
+            {#            <a class="nav-link" href="#">File <span#}
+            {#                class="badge bg-warning text-dark rounded-pill align-text-bottom">27</span>#}
+            {#            </a>#}
+            {#            <a class="nav-link" href="#">Medication</a>#}
+          </nav>
+        </div>
+        {% block content %}
+        {% endblock content %}
+      </div>
+    </div>
+  </div>
+
+  <div class="messages position-fixed bottom-0 end-0 p-3">
+    {% block messages %}
+    {% endblock %}
+  </div>
+  {# The place where modal dialogs are rendered globally, fetched by HTMX. #}
+  <div id="modal" class="modal fade" tabindex="-1">
+    <div class="modal-dialog">
+      <div id="modal-content" class="modal-content">
+        {% include 'layouts/modal.html' %}
+      </div>
+    </div>
+  </div>
+{% endblock body %}
+
+{% block footer %}
+  <div class="row">{% block cli %}{% endblock %}</div>
+
+  <div class="row">
+    <div class="col-md-3">
+      left footer
+    </div>
+    <div class="col-md-6">
+      middle footer
+    </div>
+    <div class="col-md-3">
+      right footer
+    </div>
+  </div>
+{% endblock %}
+
