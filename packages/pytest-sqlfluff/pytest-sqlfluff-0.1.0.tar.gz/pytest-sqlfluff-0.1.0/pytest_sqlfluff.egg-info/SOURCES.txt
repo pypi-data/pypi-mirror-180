@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+pytest_sqlfluff.py
+setup.py
+pytest_sqlfluff.egg-info/PKG-INFO
+pytest_sqlfluff.egg-info/SOURCES.txt
+pytest_sqlfluff.egg-info/dependency_links.txt
+pytest_sqlfluff.egg-info/entry_points.txt
+pytest_sqlfluff.egg-info/requires.txt
+pytest_sqlfluff.egg-info/top_level.txt
