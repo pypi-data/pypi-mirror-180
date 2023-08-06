@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+psychopy_gammasci/__init__.py
+psychopy_gammasci/gammasci.py
+psychopy_gammasci.egg-info/PKG-INFO
+psychopy_gammasci.egg-info/SOURCES.txt
+psychopy_gammasci.egg-info/dependency_links.txt
+psychopy_gammasci.egg-info/requires.txt
+psychopy_gammasci.egg-info/top_level.txt
