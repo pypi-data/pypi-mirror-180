@@ -1,0 +1,4 @@
+httpx
+OpenAIAuth>=0.0.6
+reportlab
+svglib
