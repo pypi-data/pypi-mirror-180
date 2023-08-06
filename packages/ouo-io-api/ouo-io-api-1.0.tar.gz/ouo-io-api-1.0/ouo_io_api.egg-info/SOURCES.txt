@@ -1,0 +1,11 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+ouo/__init__.py
+ouo/api.py
+ouo_io_api.egg-info/PKG-INFO
+ouo_io_api.egg-info/SOURCES.txt
+ouo_io_api.egg-info/dependency_links.txt
+ouo_io_api.egg-info/requires.txt
+ouo_io_api.egg-info/top_level.txt

@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: ouo-io-api
+Version: 1.0
+Summary: an api for the ouo.io link shortener service
+Home-page: https://github.com/h-enes-simsek/ouo-io-api
+Author: Hasan Enes Şimşek
+Author-email: enes1406@gmail.com
+License: MIT
+Keywords: ouo,ouo-io,link-shortener
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+
+
+
+Ouo.io API 
+=====================
+An api for the ouo.io link shortener service that you can make money for each click on your shortened links.
+
+Installing
+==========
+
+.. code-block:: bash
+
+    # windows
+    pip install ouo-io-api
+    
+    # linux
+    pip3 install ouo-io-api
+
+Usage
+=====
+
+.. code-block:: python
+
+    from ouo.api import Ouo
+
+    # add your api key
+    ouo = Ouo("your_api_key")
+
+    # this is blocking call
+    link = ouo.short("https://hesimsek.com")
+
+    # result is either empty string '' or shortened URL string
+    if(link):
+        print("ouo link: " + link)
+    else:
+        print("failed")
+        
+Notes 
+=====
+
+1. Ouo.io generates different outputs for http:// and https:// URLs.
+
+2. Ouo.io assumes URLs with no scheme (http or https) as an http URL.
+
