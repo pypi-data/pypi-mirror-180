@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: dash_select
+Version: 1.0.1
+Summary: A Dash wrapper for <select> component
+Home-page: UNKNOWN
+Author: Ruslan Khairutdinov <ruslan.khairutdinov22@gmail.com>
+License: MIT
+Project-URL: Github, https://github.com/ruslankhayrut/DashSelect
+Description: # Description
+        
+        `dash_select` is a simple wrapper over `<select>` component that can be used in Dash.
+        Under the hood handles `onChange` event and returns a selected value (or list of them if used in `multiple` mode)
+        
+        
+        # Installation
+        
+        This module can only be installed from pip
+        
+        `pip install dash-select`
+        
+        # API
+        
+        ```
+        
+        Select(
+            id: str
+            options: List[str]
+            value: str | List[str]
+            class_name: str
+            size: int
+            disabled: bool
+            multiple: bool
+            style: dict
+        )
+        
+        ```
+        
+        # Usage
+        
+        See `usage.py` for a code example
+Platform: UNKNOWN
+Classifier: Framework :: Dash
+Description-Content-Type: text/markdown
