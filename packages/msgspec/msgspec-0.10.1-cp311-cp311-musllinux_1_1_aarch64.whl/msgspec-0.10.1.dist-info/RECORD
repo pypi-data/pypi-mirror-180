@@ -1,0 +1,15 @@
+msgspec/_core.cpython-311-aarch64-linux-musl.so,sha256=DfKFk-OPGHBXTwMh8wGQCZz12d_2qfhvZvWBF81Hj04,278248
+msgspec/json.py,sha256=ECWb_4efoLmhXyY_hYsdFa93I8aoeonWGr3WHFGecn8,206
+msgspec/_utils.py,sha256=XX2vDbfxiUAFuqqbxuR3FSpifQzx3d712o-mxEYFTeg,20930
+msgspec/__init__.py,sha256=xDux2-ywiimOdeE4QiTWij8Ypjggerr6BWrsXq44MMA,277
+msgspec/_version.py,sha256=agX6NZDeXGebxZZkDNBAtdjfZjTVe5fBkNOr1R1H9fs,498
+msgspec/msgpack.py,sha256=cpGA3q0SnzLO3UHwNpa56QPeub1ndlafbgoSLEspV7E,154
+msgspec/json.pyi,sha256=0NrPsOGZ5sajEqzoH82Kuqs7_nEQDlQdPc_K0k8WAI4,1973
+msgspec/__init__.pyi,sha256=2-VGCXkIAperrMQLJQ0dS6YHpJFtnKL2mdlLyE57qC4,4307
+msgspec/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+msgspec/msgpack.pyi,sha256=ypxSCjUj037S6r4CMh8T3uxKVJiObldimsIMO20SGMw,1991
+msgspec-0.10.1.dist-info/top_level.txt,sha256=8Ysnxa29QLhdPtjPGjyc1hmx3nOmKeu_OAk2682ZdvU,8
+msgspec-0.10.1.dist-info/METADATA,sha256=sNGnOHx2tGDhck60moE1hnLmsfmPywvkbXgT4M7ip9s,3562
+msgspec-0.10.1.dist-info/LICENSE,sha256=b96LZyOIXoUIgI9lrDcv65fT7uLqsrkdNNeWt1t6xzQ,1498
+msgspec-0.10.1.dist-info/RECORD,,
+msgspec-0.10.1.dist-info/WHEEL,sha256=myYIOhGB5wJzuOH-YvHWLvGsIE_ynLTQh0WN2-SI1qA,114
