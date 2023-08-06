@@ -1,0 +1,14 @@
+*.aof
+*.egg-info
+*.pyc
+.DS_Store
+.ipynb_checkpoints
+.cover
+.coverage
+.coverage.*
+build
+dist
+dump.rdb
+integrations/houdini/backup
+integrations/houdini/geo
+integrations/houdini/render

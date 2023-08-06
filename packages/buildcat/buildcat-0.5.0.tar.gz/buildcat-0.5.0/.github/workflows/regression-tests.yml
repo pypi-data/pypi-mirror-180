@@ -1,0 +1,37 @@
+name: Regression tests
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: [3.7]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install Dependencies
+      run: |
+        sudo apt-get install redis-server
+        python -m pip install --upgrade pip
+        pip install behave coverage coveralls
+        python setup.py develop
+    - name: Run tests
+      run: |
+        coverage run --parallel-mode --source buildcat -m behave
+        coverage combine
+        coverage report
+    - name: Upload coverage to Coveralls
+      run: coveralls --service=github
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
