@@ -1,0 +1,8 @@
+README.md
+setup.py
+firfol/__init__.py
+firfol/firstfollow.py
+firfol.egg-info/PKG-INFO
+firfol.egg-info/SOURCES.txt
+firfol.egg-info/dependency_links.txt
+firfol.egg-info/top_level.txt
