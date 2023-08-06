@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+speakleash/__init__.py
+speakleash/__init__.pyc
+speakleash/speakleash.egg-info/PKG-INFO
+speakleash/speakleash.egg-info/SOURCES.txt
+speakleash/speakleash.egg-info/dependency_links.txt
+speakleash/speakleash.egg-info/requires.txt
+speakleash/speakleash.egg-info/top_level.txt
