@@ -1,0 +1,9 @@
+Image
+ftfy
+matplotlib
+opencv-python-headless<4.3
+pandas
+pytorch-lightning
+regex
+timm
+tqdm
