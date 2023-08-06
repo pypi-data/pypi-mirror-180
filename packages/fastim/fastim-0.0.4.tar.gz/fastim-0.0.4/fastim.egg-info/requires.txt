@@ -1,0 +1,6 @@
+fastai
+timm
+fastbook
+kaggle
+transformers
+pytorch-lightning
