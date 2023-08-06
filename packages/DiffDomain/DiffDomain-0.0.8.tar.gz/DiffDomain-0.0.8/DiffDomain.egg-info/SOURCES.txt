@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+DiffDomain.egg-info/PKG-INFO
+DiffDomain.egg-info/SOURCES.txt
+DiffDomain.egg-info/dependency_links.txt
+DiffDomain.egg-info/requires.txt
+DiffDomain.egg-info/top_level.txt
+diffdomain/__init__.py
+diffdomain/classification.py
+diffdomain/diffdomains.py
+diffdomain/pydiff.py
+diffdomain/utils.py
