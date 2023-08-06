@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ming6131
+Version: 0.0.0.41
+Home-page: 
+Author: 
+Author-email: 
+Maintainer: 
+Maintainer-email: 
+License: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
