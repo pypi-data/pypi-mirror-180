@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mongo-taskqueue
+Version: 0.2.1
+Summary: Queueing data structure on top of a MongoDB collection
+Maintainer-email: Shayan Amani <me@shayanamani.com>
+License: MIT
+Project-URL: Homepage, https://github.com/mms-analytics/mongo-taskqueue
+Keywords: mongo,mongodb,queue,task,taskqueue
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Mongo TaskQueue
+Queueing data structure on top of a MongoDB collection
