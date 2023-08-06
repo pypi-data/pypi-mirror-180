@@ -1,0 +1,11 @@
+flake8_ets/__init__.py,sha256=-djUdWCMi5vmqX-41qjeh7IFTg9m_J839KVTdp7EHoY,489
+flake8_ets/copyright_header.py,sha256=dvjPg2dCWiOgq_TF-RndbsdgMGquXSnsUfoaIBIJ3p0,6292
+flake8_ets/version.py,sha256=N6kYjEplY4awZYEmbRBECFtxO3S3_dwZ8Ut6sWLgw3M,537
+flake8_ets/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flake8_ets/tests/test_copyright_header.py,sha256=aw5lCbnp-7fWM2O7daqYtLyFPynj1Dr5iUZg9FLJyuw,3198
+flake8_ets-1.0.1.dist-info/LICENSE.txt,sha256=l1LDREniaHtpQPYzepTRgMw7kDqAHOfQ4UJvR_JWGog,1621
+flake8_ets-1.0.1.dist-info/METADATA,sha256=2ge5STCWxlTf0LwazzpIV52hmuc3OetC1qic2TqMY6k,853
+flake8_ets-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+flake8_ets-1.0.1.dist-info/entry_points.txt,sha256=gEEiDleFVSfvibFA_lKA3bzgTrnpFrrW5w2_3sOL2Wg,76
+flake8_ets-1.0.1.dist-info/top_level.txt,sha256=DZ6LLyieUkHC0egHAnyWJyuqASsAfHHzWV3jT3Ud2WQ,11
+flake8_ets-1.0.1.dist-info/RECORD,,
