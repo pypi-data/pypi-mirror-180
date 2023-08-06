@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mkdocs-s7-tt
+Version: 1.5.0
+Summary: Um pacote python de geração de documentos automáticos
+Author: Bruno Ribeiro, Bruno Martins, Diógenes Dantas, Igor Penha, Lucas Gobbi e Rafael Nobre
+Author-email: rafaelmedeirosnobre2001@gmail.com
+License: MIT
+Keywords: mkdocs_s7_tt
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Um pacote pip do projeto de Métodos de Desenvolvimento de Software - Squad7
