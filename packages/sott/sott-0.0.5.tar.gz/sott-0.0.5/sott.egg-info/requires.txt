@@ -1,0 +1,7 @@
+numpy
+scipy
+
+[dev]
+pre-commit
+nbdev
+dvc

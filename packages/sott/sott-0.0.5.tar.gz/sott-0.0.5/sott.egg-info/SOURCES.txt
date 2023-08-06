@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+sott/__init__.py
+sott/_modidx.py
+sott/template.py
+sott.egg-info/PKG-INFO
+sott.egg-info/SOURCES.txt
+sott.egg-info/dependency_links.txt
+sott.egg-info/entry_points.txt
+sott.egg-info/not-zip-safe
+sott.egg-info/requires.txt
+sott.egg-info/top_level.txt

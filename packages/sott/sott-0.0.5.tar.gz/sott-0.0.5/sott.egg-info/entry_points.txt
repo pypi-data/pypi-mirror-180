@@ -1,0 +1,2 @@
+[nbdev]
+sott = sott._modidx:d
