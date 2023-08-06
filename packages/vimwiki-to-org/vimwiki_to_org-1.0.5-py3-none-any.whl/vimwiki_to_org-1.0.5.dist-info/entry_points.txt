@@ -1,0 +1,2 @@
+[console_scripts]
+vimwiki_to_org = vimwiki_to_org.__main__:main
