@@ -1,0 +1,12 @@
+__pycache__
+.vscode
+.idea
+graphs
+notes.txt
+reports
+build/
+dist/
+opschema.egg-info/
+opschema/version.py
+
+
