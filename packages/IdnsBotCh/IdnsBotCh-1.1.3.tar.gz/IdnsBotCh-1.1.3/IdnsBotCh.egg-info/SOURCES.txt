@@ -1,0 +1,9 @@
+LICENSE.txt
+README.rst
+pyproject.toml
+setup.py
+IdnsBotCh/__init__.py
+IdnsBotCh.egg-info/PKG-INFO
+IdnsBotCh.egg-info/SOURCES.txt
+IdnsBotCh.egg-info/dependency_links.txt
+IdnsBotCh.egg-info/top_level.txt
