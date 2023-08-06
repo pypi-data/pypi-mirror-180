@@ -1,0 +1,2 @@
+[console_scripts]
+weather = pypescript.cli:start
