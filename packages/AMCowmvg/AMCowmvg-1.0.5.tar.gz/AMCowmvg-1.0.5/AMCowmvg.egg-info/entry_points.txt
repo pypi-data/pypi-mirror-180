@@ -1,0 +1,2 @@
+[console_scripts]
+AMCowmvg = AMCowmvg.__main__:runApp
