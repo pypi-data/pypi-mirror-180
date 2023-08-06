@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dash-select
+Version: 0.0.1
+Summary: A Dash wrapper for <select> component
+Home-page: UNKNOWN
+Author: Ruslan Khairutdinov <ruslan.khairutdinov22@gmail.com>
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Classifier: Framework :: Dash
+
+UNKNOWN
+
+
