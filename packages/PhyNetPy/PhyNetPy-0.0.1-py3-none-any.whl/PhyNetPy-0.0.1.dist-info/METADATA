@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: PhyNetPy
+Version: 0.0.1
+Summary: PhyNetPy is a library to provide not only methods, but a framework for the analysis, inference, simulation, and visualization of phylogenetic networks and trees
+Home-page: https://github.com/NakhlehLab/PhyNetPy
+Author: Luay Nakhleh
+Author-email: nakhleh@rice.edu
+Project-URL: Bug Tracker, https://github.com/NakhlehLab/PhyNetPy/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.23.5)
+Requires-Dist: biopython (>=1.8)
+Requires-Dist: elfi (>=0.8.4)
+Requires-Dist: ete3 (>=3.1.2)
+Requires-Dist: matplotlib
+Requires-Dist: newick
+Requires-Dist: python-nexus (>=2.9.0)
+Requires-Dist: scipy (>=1.9.3)
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+
+# PhyNetPy
+
+PhyNetPy is a Python Library that implements all the capabilities of PhyloNet, but with higher performance algorithms that are built to be more efficient and scalable.
+An official stable release date cannot yet be provided, but any first release will include some basic network inference methods.
+
+To install PhyNetPy, simply open up a command line instance and execute the following:
+`pip install phynetpy`. 
+
+A tutorial and further instructions on how to use PhyNetPy will be made available on our website, https://phylogenomics.rice.edu
