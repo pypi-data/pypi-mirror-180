@@ -1,0 +1,12 @@
+README.md
+setup.py
+docdocdoc/__init__.py
+docdocdoc/build.py
+docdocdoc/parts.py
+docdocdoc/utils.py
+docdocdoc.egg-info/PKG-INFO
+docdocdoc.egg-info/SOURCES.txt
+docdocdoc.egg-info/dependency_links.txt
+docdocdoc.egg-info/requires.txt
+docdocdoc.egg-info/top_level.txt
+docdocdoc.egg-info/zip-safe
