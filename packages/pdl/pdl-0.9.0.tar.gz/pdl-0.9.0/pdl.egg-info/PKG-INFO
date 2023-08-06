@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pdl
+Version: 0.9.0
+Summary: Public Download Library
+Home-page: https://github.com/zerotosingularity/pdl
+Author: Jan Van de Poel
+Author-email: jan.vandepoel@seeme.ai
+License: MIT
+License-File: LICENSE
+
+Download public datasets & files in one line of code
