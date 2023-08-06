@@ -1,0 +1,2 @@
+[console_scripts]
+djsearch = dj_search.scripts.djsearch:image
