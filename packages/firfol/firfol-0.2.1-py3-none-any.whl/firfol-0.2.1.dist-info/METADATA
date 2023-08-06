@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: firfol
+Version: 0.2.1
+Summary: First and follow set finder in Compiler Construction
+Home-page: https://github.com/PSKPK/firfol
+Author: PSKPavanKalyan
+Author-email: poduripavankalyan@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+This library is used to find first and follow sets of non-terminals from grammar in compiler construction.
