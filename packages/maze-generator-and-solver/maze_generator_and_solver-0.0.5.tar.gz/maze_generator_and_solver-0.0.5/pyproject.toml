@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "maze_generator_and_solver"
+version = "0.0.5"
+authors = [
+  { name="Harshit", email="harshitw3b@gmail.com" },
+]
+description = "Generate maze using randomized DFS and Solve it using Path Finding algorithms"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Bug Tracker" = "https://github.com/0-harshit-0/maze/issues"
