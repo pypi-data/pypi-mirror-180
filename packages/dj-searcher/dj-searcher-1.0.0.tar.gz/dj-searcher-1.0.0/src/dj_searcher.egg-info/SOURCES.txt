@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/dj_searcher.egg-info/PKG-INFO
+src/dj_searcher.egg-info/SOURCES.txt
+src/dj_searcher.egg-info/dependency_links.txt
+src/dj_searcher.egg-info/entry_points.txt
+src/dj_searcher.egg-info/requires.txt
+src/dj_searcher.egg-info/top_level.txt
+src/search/__init__.py
+src/search/command_line.py

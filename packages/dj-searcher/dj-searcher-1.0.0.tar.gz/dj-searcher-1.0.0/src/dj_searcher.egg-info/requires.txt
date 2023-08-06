@@ -1,0 +1,10 @@
+google_search_results
+requests
+climage
+click
+
+[dev]
+check-manifest
+
+[test]
+coverage
