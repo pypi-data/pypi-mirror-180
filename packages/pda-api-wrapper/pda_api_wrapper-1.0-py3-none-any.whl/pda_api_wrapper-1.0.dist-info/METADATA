@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pda-api-wrapper
+Version: 1.0
+Summary: Python wrapper for the PowerDNS Administrator (PDA) API
+Home-page: UNKNOWN
+Author: Bernward Sanchez
+Author-email: contact@bern.codes
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
+
