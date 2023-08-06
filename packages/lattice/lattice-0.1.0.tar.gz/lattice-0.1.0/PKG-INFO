@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: lattice
+Version: 0.1.0
+Summary: 
+Author: Big Ladder Software
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: GitPython (==3.1.18)
+Requires-Dist: Jinja2
+Requires-Dist: cbor2
+Requires-Dist: jsonschema
+Requires-Dist: pyyaml
+Requires-Dist: stringcase (==1.2.0)
