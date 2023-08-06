@@ -1,0 +1,12 @@
+shipbob/__init__.py,sha256=Dpn-DzIkrbiLJ2PZ-AwmtsbFF8_-No1dVZpdmmnwyJQ,72
+shipbob/client.py,sha256=BxUB9W4WwLm0EluGN3rgdUuaI7_nGw8fqJNu3LqJ4Ow,5091
+shipbob/models/__init__.py,sha256=xSu6c7CDorLGKdiPvbX9JwBnivEZrTeij0oGEW7fgvo,155
+shipbob/models/base.py,sha256=xVX4OoNiwvjcqhVkLgy-7T2byOdVDubZv5bqcTKw3LE,747
+shipbob/models/inventory.py,sha256=9ufF5xjFuIpKUcOmVXiJ1GOr8FDIzNfuVHa9NzGmaGk,1631
+shipbob/models/orders.py,sha256=h181TCwJVbgkXLIgqQmZcyRGJKf7lgypetOamF9K_R0,1337
+shipbob/models/products.py,sha256=JLN8TLsbPDM9TQb6d5JP7c_tpgl7h54T1svyyVjJMsI,1100
+shipbob/models/shipping.py,sha256=-Mwz6J_P8vxnKjWQnxNpq8Qg2aCVBFzIPps10zzhk-U,4126
+shipbob-0.2.0.dist-info/LICENSE,sha256=1thARMVs_7hKF51fYB6rJOX-tuNUBNi2vlzRWeaPIDc,1079
+shipbob-0.2.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+shipbob-0.2.0.dist-info/METADATA,sha256=ZdSu3ya7rgwLBc3b06VKf834DB3YCAFCkoQTBzSvy9A,463
+shipbob-0.2.0.dist-info/RECORD,,
