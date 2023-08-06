@@ -1,0 +1,303 @@
+"AsmTests.fif" include
+"TonUtil.fif" include
+"Color.fif" include
+
+// Just helpers for output exit codes
+variable error-descriptions dictnew error-descriptions !
+
+{ <b swap $>B B, b> <s } : $>slice
+{ swap $>slice swap
+  error-descriptions @ 64 idict!+ not abort"cannot add item to dictionary"
+  error-descriptions !
+} : add-error-description
+
+{
+  error-descriptions @ 64 idict@ { dup sbits 8 / B@ B>$ } { "Smart contract error" } cond
+} : get-error-description
+
+"Standard successful execution exit code" 0 add-error-description
+"Alternative successful execution exit code" 1 add-error-description
+"Stack underflow. Last op-code consume more elements than there are on stacks. (most probably means a error in asm declarations)" 2 add-error-description
+"Stack overflow. More values have been stored on a stack than allowed by this version of TVM" 3 add-error-description
+"Integer overflow. Integer does not fit into −2^256 ≤ x < 2^256 or a division by zero has occurred" 4 add-error-description
+"Integer out of expected range" 5 add-error-description
+"Invalid opcode. Instruction in unknown to current TVM version" 6 add-error-description
+"Type check error. An argument to a primitive is of incorrect value type  (most probably means a error in asm declarations)" 7 add-error-description
+"Cell overflow. Writing to builder is not possible since after operation there would be more than 1023 bits or 4 references" 8 add-error-description
+"Cell underflow. Read from slice primitive tried to read more bits or references than there are" 9 add-error-description
+"Dictionary error. Error during manipulation with dictionary (hashmaps)" 10 add-error-description
+"Out of gas error. Thrown by TVM when the remaining gas becomes negative" 13 add-error-description
+"VM virtualization error" 14 add-error-description
+"Action list is invalid (OR) (Method id not found)" 32 add-error-description
+"Action is invalid or not supported. Set during action phase if current action can not be applied" 34 add-error-description
+"Not enough TONs. Message sends too much TON (or there is no enough TONs after deducting fees)" 37 add-error-description
+"Not enough extra-currencies" 38 add-error-description
+
+
+variable @count_success
+@count_success 0!
+
+variable @count_fail
+@count_fail 0!
+
+// TODO: just use Lists.fif
+variable @tests            // here we will store all test functions in a format [function_name, method_id]
+variable @prev_c4            // prev test c4
+variable @prev_c5            // prev test c5
+variable @init_c4 // Init value of c4
+null @prev_c4 !
+null @prev_c5 !
+
+{   depth 0 >
+    { 0 = not }
+    { drop depth }
+    while // clear stack
+} : clear-stack
+
+{% if contract_data|length %}
+  "{{ contract_data }}" include @init_c4 ! clear-stack
+  .s
+{% else %}
+  <b b>  @init_c4 !
+{% endif %}
+
+asm-no-remove-unused
+
+"{{ test_path }}" include     // it will return (@proclist, code cell)
+constant test_code         // save code cell as constant
+
+{{ verbose }} constant verbose
+{{ output_results }} constant output-results
+
+
+"EQB36_EfYjFYMV8p_cxSYX61bA0FZ4B65ZNN6L8INY-5gL6w" true parse-load-address drop 2constant address
+
+// this is c7 that will be passed to test code
+0x076ef1ea           // magic
+0                    // actions
+0                    // msgs_sent
+now                  // unixtime
+1                    // block_lt
+now                  // trans_lt (use now to work with random)
+239                  // randseed
+1000000000 null pair // balance_remaining
+<b address Addr, b> <s // myself
+null                 // global_config
+10 tuple 1 tuple constant c7 // save as c7 cell
+
+
+variable @cnt        // here we will store tests list length
+@cnt 0!              // set as 0 by default
+
+// Add element to tuple in Box B with length B'
+// (x, B, B' -> )
+{   =: list_cnt
+    =: list
+    @' list @ dup null? not { @' list_cnt @ untuple } { drop } cond       // decomposes list if it is not null
+    @' list_cnt @ 1 +                                                              // update count
+    tuple @' list !                                                       // create and update tuple
+} : append
+
+{ @cnt @ 1 + @cnt ! } : next-cnt // increase count in box by 1
+{ @cnt @ 1 - @cnt ! } : prev-cnt
+
+{% if tests %}
+  // Test names specified making use of fift dictionary
+  {% for test in tests %}
+  -1 constant {{test}}
+  {% endfor %}
+
+// Checking that function name is in fift word dict (Kinda hacky)
+// Somehow def? didn't work here instad of find
+{ find dup  { nip } if } : is-valid-test-name
+{% else %}
+// (test_name -> bool)
+{
+    // This is a hacky way to check if name starts with "__test".
+    // Hope nobody uses ascii codes bigger than '~' in function names.
+    dup "__test" $cmp 0>
+    swap "__test~" $cmp 0<
+    and
+} : is-valid-test-name
+{% endif %}
+
+{
+    dup null? not
+}                // check if @proclist is not empty
+{
+   unpair swap unpair            // get pair (function_name, method_id)
+
+  =: method_id
+  =: function_name
+
+  @' function_name is-valid-test-name {
+    @' function_name @' method_id 2 tuple
+    @tests @cnt append
+    next-cnt
+  } if
+} while // parse @proclist
+drop // remove null left from @proclist
+
+verbose 0>
+{
+    cr ."INFO: 🤳 Tests: " ^green @tests @ (dump) type ^reset cr cr
+} if
+
+
+// ( -> [test name, method_id] )
+{
+    @tests @ @cnt @ untuple
+    prev-cnt
+    @cnt @ tuple
+    @tests !
+} : get-test
+
+{
+    explode
+    dup 1 > {
+        1 -
+
+        swap (dump) swap // first item to string
+
+        { dup 0> }
+        {
+            =: count
+            swap (dump) " " $+ swap $+
+            @' count 1 -
+        }
+        while
+
+        drop // drop counter
+        "{{ output_path }}" file-exists?
+        { "{{ output_path }}" file>B B{0a} B+ B>$ }
+        { B{0a} B>$ } cond
+        swap $+
+        $>B "{{ output_path }}" B>file
+    } {
+        0 > {
+            (dump) $>B "{{ output_path }}" B>file
+        } if
+    } cond
+
+} : write-tuple-to-file
+
+// we put [c4, c5] as 10-th element of config stored in c7, so developers could use get_prev_c4() and get_prev_c5() functions
+// we put 0 as 11-th element of config stored in c7. So we can store gas-remaining there later.
+{
+    c7
+    1 untuple 10 untuple
+    @prev_c4 @
+    @prev_c5 @
+    2 tuple
+    0
+    12 tuple
+    1 tuple
+} : add-c4-c5-to-c7
+
+{
+    // copied from words.cpp (interpret_run_vm):
+    //
+    // +1 = same_c3 (set c3 to code)
+    // +2 = push_0 (push an implicit 0 before running the code)
+    // +4 = load c4 (persistent data) from stack and return its final value
+    // +8 = load gas limit from stack and return consumed gas
+    // +16 = load c7 (smart-contract context)
+    // +32 = return c5 (actions)
+    // +64 = log vm ops to stderr
+    // +128 = pop hard gas limit (enabled by ACCEPT) from stack as well
+    // +256 = enable stack trace
+    // +512 = enable debug instructions
+
+    0x3D // (1 + 4 + 8 + 16 + 32)
+
+    verbose dup 2 > {
+        3 > {
+            0x140 // (256 + 64)
+        } {
+            0x40  // 64
+        } cond
+    } { drop 0 } cond
+    or // combine with verbosity mode
+} : calc-vm-mode
+
+// ([function_name, method_id] -> [test-name, exit-code, gas-used])
+{
+    =: test_info
+
+    depth 0<> {
+        cr ^red ."!!!" cr
+        ."Before running tvm we expect the stack to be fully empty, so tvm can't mess up the test suite." cr
+        ."If you modified 'run_test.fif', please save things to variables before running vm." cr
+        ."!!!" cr ^reset
+        quit
+    } if
+
+    @' test_info first =: test_name
+    @' test_info second // get test function selector
+    test_code <s // load func code as slice
+
+    @init_c4 @           // starts  empty or pre-initialized c4, developers could get prev-c4 from c7
+    add-c4-c5-to-c7 // c7
+    1000000000      // gas max https://github.com/ton-blockchain/ton/blob/master/crypto/vm/vm.h#L38
+    calc-vm-mode
+    runvmx
+    // TODO: check what happens if it returns more elements
+    =: total_gas_used
+    =: next_c5
+    =: next_c4
+
+    // https://github.com/ton-blockchain/ton/blob/20758d6bdd0c1327091287e8a620f660d1a9f4da/crypto/vm/vm.cpp#L492
+    dup -14 = { drop 13 } if
+    =: exit_code
+
+    depth tuple =: test_result
+    // after that operation stack should be empty
+
+    ."INFO: Test [" ^green @' test_name type ^reset ."] status: ["
+
+    @' exit_code 1 >
+    {
+        ^red ."FAIL" ^reset ."], code: [" ^cyan @' exit_code dup (dump) type ^reset ."], error description [" ^cyan get-error-description type ^reset ."]"
+         @count_fail 1+!
+    }
+    {
+        ^green ."SUCCESS" ^reset ."] Test result: [" ^green @' test_result (dump)  type ^reset ."]"
+        @count_success 1+!
+    } cond
+
+    ." Total gas used (including testing code): [" ^green @' total_gas_used (dump) type ^reset ."]" cr
+
+    @' exit_code 1 <=
+    {
+        // only save c4 and c5 if run was finished successfully
+        @' next_c4 @prev_c4 !
+        @' next_c5 @prev_c5 !
+    } if
+
+    @' test_name
+    @' exit_code
+    @' total_gas_used
+    3 tuple
+} : run-test
+
+
+
+{ @cnt @ 0> }
+{
+    get-test run-test
+
+    output-results 1 =
+    { write-tuple-to-file } { drop } cond
+}
+while  // run all tests
+
+make-esc"[1m" ^bold
+
+cr
+."Final status: [" ^green ."SUCCESS" ^reset ."] - " @count_success @ (dump) ^bold type ." cases" ^reset cr
+@count_fail @ dup 0> {
+    ."Final status: [" ^red ."FAILED" ^reset ."] - " (dump) ^bold type ." cases" ^reset cr
+    .s // this trick is for correct error porinting
+} if
+
+@count_fail @ 0> { {{ silent }} 0 = { 2 halt } if } if
