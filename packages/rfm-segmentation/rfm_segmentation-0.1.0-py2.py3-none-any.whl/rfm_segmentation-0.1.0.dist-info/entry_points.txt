@@ -1,0 +1,3 @@
+[console_scripts]
+rfm_segmentation = rfm_segmentation.cli:main
+

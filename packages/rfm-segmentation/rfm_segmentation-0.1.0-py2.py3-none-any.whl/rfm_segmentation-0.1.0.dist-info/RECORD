@@ -1,0 +1,10 @@
+rfm_segmentation/__init__.py,sha256=gP-mGWQbJLiNjzO0rsZ1u0p_FPpl28iXZC_n84vIFug,285
+rfm_segmentation/cli.py,sha256=29vgM0unrUQsJ_cEtqLHhaKuPfnZl0DdM1wCnibKsKo,426
+rfm_segmentation/rfm_segmentation.py,sha256=iU3miBRCJ2TrIebOb33KkGg4KhUVX4dUgyp69BIbOEA,7253
+rfm_segmentation-0.1.0.dist-info/AUTHORS.rst,sha256=Qu60R80ikdecvjIGw6-SMzi8EOhR8aNTGi49CA7Jv9Q,167
+rfm_segmentation-0.1.0.dist-info/LICENSE,sha256=YRtvWEsucQgVixy4yvKbpVYaxBPTZQx-pe4fZ2vOo-M,1074
+rfm_segmentation-0.1.0.dist-info/METADATA,sha256=jedDF9ULZ9Bk6ZZlw-7wrCCjBMj9qwJYE3mcaIxS160,1745
+rfm_segmentation-0.1.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+rfm_segmentation-0.1.0.dist-info/entry_points.txt,sha256=TTOVOQzosG0BoyWCyZZ0HDVR9b9o7MZQZYvUSeKSIXE,64
+rfm_segmentation-0.1.0.dist-info/top_level.txt,sha256=3La-kSosjQhlqJFlkFazdAXI_uPhbsUJYfv6kEjYXSY,17
+rfm_segmentation-0.1.0.dist-info/RECORD,,
