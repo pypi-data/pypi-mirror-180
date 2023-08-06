@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pylithiumsso3
+Version: 0.1.1
+Summary: Python 3 port of lithium_sso.php
+Home-page: https://github.com/rzuckerm/pylithiumsso3
+License: LICENSE.txt
+Author: Ron Zuckerman
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pycryptodome (>=3.15.0,<4.0.0)
+Project-URL: Bug Tracker, https://github.com/rzuckerm/pylithiumsso3/issues
+Project-URL: Documentation, https://rzuckerm.github.io/pylithiumsso3/
+Description-Content-Type: text/markdown
+
+# pylithiumsso3
+
+Python 3 port of lithium_sso.php
+
+## Installation
+
+To install `pylithiumsso3` and its dependencies, run this:
+
+    pip install pylithiumsso3
+    
+This package requires python 3.8 or better.
+
+## API
+
+See [this page](https://rzuckerm.github.io/pylithiumsso3) for details.
+
