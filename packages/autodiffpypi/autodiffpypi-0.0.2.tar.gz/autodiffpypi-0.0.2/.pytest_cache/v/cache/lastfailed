@@ -1,0 +1,7 @@
+{
+  "tests/test_base_derivatives.py": true,
+  "tests/test_dual_number.py": true,
+  "tests/test_forward_mode.py": true,
+  "tests/test_newtons.py": true,
+  "tests/test_reverse_mode.py": true
+}
