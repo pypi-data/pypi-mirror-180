@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: opensamdpantsplugins
+Version: 0.1.0.dev0
+Summary: Pants plugins created within the OpenSaMD project
+Author-email: Simon Biggs <simon.biggs@radiotherapy.ai>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: Apache Software License
+Project-URL: Home, https://github.com/OpenSaMD/OpenSaMD
+
+# Custom plugins
+
+All code that is within this directory is licensed under the Apache-2.0 in
+order to be compatible with
+[the upstream pants repository](https://github.com/pantsbuild/pants).
+That way, any pants
+plugins created within this directory are able to be contributed upstream without
+any licensing conflicts.
+
