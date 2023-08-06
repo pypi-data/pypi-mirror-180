@@ -1,0 +1,21 @@
+include CHANGELOG.md
+include LICENSE.txt
+include Makefile
+include pyproject.toml
+include README.rst
+include simde-sse2.h
+
+graft assets
+graft ci
+graft doc
+graft licenses
+graft skbio
+
+prune doc/build
+prune doc/source/generated
+
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude *.so
+global-exclude .*.swp
+global-exclude .coverage
