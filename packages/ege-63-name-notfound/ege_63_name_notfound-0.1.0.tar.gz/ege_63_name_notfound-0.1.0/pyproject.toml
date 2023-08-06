@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ege-63-Name-NotFound"
+version = "0.1.0"
+description = ""
+authors = ["Name-NotFound <82286148+Name-NotFound@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "ege_63"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
