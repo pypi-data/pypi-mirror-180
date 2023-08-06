@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: terminal-copilot
+Version: 1.0.4
+Summary: A smart terminal assistant that helps you find the right command
+Home-page: https://github.com/Methexis-Inc/terminal-copilot
+Author: Methexis
+Author-email: joelkronander@gmail.com
+License: Apache License 2.0
+Keywords: terminal copilot openai gpt3
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+terminal-copilot
