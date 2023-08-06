@@ -1,0 +1,7 @@
+setup.py
+AWPfizerTweet/AWPfizerTweet.py
+AWPfizerTweet/__init__.py
+AWPfizerTweet12092022.egg-info/PKG-INFO
+AWPfizerTweet12092022.egg-info/SOURCES.txt
+AWPfizerTweet12092022.egg-info/dependency_links.txt
+AWPfizerTweet12092022.egg-info/top_level.txt
