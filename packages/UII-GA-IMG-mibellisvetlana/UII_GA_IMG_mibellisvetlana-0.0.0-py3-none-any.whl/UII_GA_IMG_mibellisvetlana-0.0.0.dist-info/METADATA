@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: UII-GA-IMG-mibellisvetlana
+Version: 0.0.0
+Summary: UII GA IMG ver. 08.12.2022
+Home-page: UNKNOWN
+Author: Svetlana Luneva
+Author-email: mibellisvetlana@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+This is a GA for images classification.
+
