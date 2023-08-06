@@ -1,0 +1,3 @@
+httpx
+nest-asyncio
+OpenAIAuth>=0.0.6
