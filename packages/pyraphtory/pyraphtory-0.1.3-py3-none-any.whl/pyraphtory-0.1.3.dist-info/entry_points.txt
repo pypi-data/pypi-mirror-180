@@ -1,0 +1,4 @@
+[console_scripts]
+jre_install=pyraphtory.jre:check_dl_java_ivy
+raphtory-standalone=pyraphtory.cli:standalone
+
