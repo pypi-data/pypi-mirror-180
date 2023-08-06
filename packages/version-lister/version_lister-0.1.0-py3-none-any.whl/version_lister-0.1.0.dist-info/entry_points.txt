@@ -1,0 +1,2 @@
+[console_scripts]
+add-version = version_lister.add_version:main
