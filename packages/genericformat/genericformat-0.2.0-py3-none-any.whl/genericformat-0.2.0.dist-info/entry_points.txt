@@ -1,0 +1,2 @@
+[console_scripts]
+genericformat = genericformat.__main__:main
