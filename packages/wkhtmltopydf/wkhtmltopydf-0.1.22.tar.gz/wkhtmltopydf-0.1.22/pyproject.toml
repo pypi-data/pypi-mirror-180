@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "wkhtmltopydf"
+version = "0.1.22"
+description = ""
+authors = ["abonur <sm7.abonur@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
