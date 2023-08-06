@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: Automatic-Differentiation-CS107-Team50
+Version: 0.0.1
+Summary: A Python Library for Forward-mode and Backward-mode Automatic Differentiation
+Author-email: Siqi Du <sdu1@fas.harvard.edu>, Yan Kaled <yan_barbosa@g.harvad.edu>, Holden Edmonds <holdenedmonds@college.harvard.edu>
+Project-URL: Homepage, https://code.harvard.edu/CS107/team50
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (==1.23.3)
+Requires-Dist: pytest (==7.2.0)
+
+## Automatic Differentiation 
+
+[![.github/workflows/test.yml](https://code.harvard.edu/CS107/team50/actions/workflows/test.yml/badge.svg)](https://code.harvard.edu/CS107/team50/actions/workflows/test.yml) [![.github/workflows/coverage.yml](https://code.harvard.edu/CS107/team50/actions/workflows/coverage.yml/badge.svg)](https://code.harvard.edu/CS107/team50/actions/workflows/coverage.yml)
+
+Python Library for Forward-Mode Automatic Differentiation
