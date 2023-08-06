@@ -1,0 +1,9 @@
+mechy/FEM.py,sha256=c3w8fCVnFqOqKqLCUcBDeGUOe4bQSDrtQOrXTeTyg1U,14340
+mechy/__init__.py,sha256=lyhMG_9cijQvFvUtkh8sI1q1i3z9iv7tKizj0D3eg7E,24
+mechy/fem.py,sha256=rx_SA9iilWxuDfNcmnpNSp4XqdK1W2H1AaEibt-nRqg,11736
+mechy/fem3d.py,sha256=VGSYyzOx4k1D3oYBidnG1ZOp86UQAKyOXpMpayCLhJc,11871
+mechy/untitled1.py,sha256=9asbvvlF3pbNIOMzZuHlRg5HCzTkvzfgqnFJrHEz_uo,111
+mechy-0.0.10.dist-info/METADATA,sha256=WHdGF11_iKmLUdl_4VHOEj_sR7fQeVx-0ufUOh0sOu0,1929
+mechy-0.0.10.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mechy-0.0.10.dist-info/top_level.txt,sha256=yuKbICkOhEsE9jw5YyUU2NFP71JPaFoVPVCsceotVfs,6
+mechy-0.0.10.dist-info/RECORD,,
