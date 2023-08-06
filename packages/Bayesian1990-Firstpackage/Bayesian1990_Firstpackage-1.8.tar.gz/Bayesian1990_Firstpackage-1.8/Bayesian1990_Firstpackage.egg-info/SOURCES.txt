@@ -1,0 +1,10 @@
+setup.py
+Bayesian1990_Firstpackage/Binomialdistribution.py
+Bayesian1990_Firstpackage/Gaussiandistribution.py
+Bayesian1990_Firstpackage/Generaldistribution.py
+Bayesian1990_Firstpackage/__init__.py
+Bayesian1990_Firstpackage.egg-info/PKG-INFO
+Bayesian1990_Firstpackage.egg-info/SOURCES.txt
+Bayesian1990_Firstpackage.egg-info/dependency_links.txt
+Bayesian1990_Firstpackage.egg-info/not-zip-safe
+Bayesian1990_Firstpackage.egg-info/top_level.txt
