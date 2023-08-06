@@ -1,0 +1,15 @@
+pixpy/__init__.py,sha256=hCfEDFc5aVyLjcXuL6RfAiIvNY7HLyPMfz1nm2fKmbw,147
+pixpy/__init__.pyi,sha256=DG_SnEYkXXcUv-ltXg1N3Qg6yQ2YSq9Tdhi6LjIZWyc,22163
+pixpy/__main__.py,sha256=8592z2Ur2-NtwniWW3_tQbGpCracRll1ChZNpb06DyY,64
+pixpy/_pixpy.cp311-win_amd64.pyd,sha256=kw8I5I_0C22QpE_lSUCgDlzeUgBMpJ0XZuKg6lg33Gg,1697280
+pixpy/editor.py,sha256=IGT_fNPew21sJ9vgs4lYjgED2NFWLWRxk8iJt-nO5Lc,5241
+pixpy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pixpy/repl.py,sha256=sHjRCYfhNseKGI7hoiX9jFArclvK4VoSNgUEC-lDLys,5208
+pixpy/color/__init__.pyi,sha256=G442StiJZlh0gtuEE9arlr8XBpimOUaDc0_5sB6adSU,696
+pixpy/event/__init__.pyi,sha256=mXn4syC0vs_7iHYLwdvGHG4Wq6g1EeZ7W2kAO2AjjOw,2012
+pixpy/key/__init__.pyi,sha256=2ePWzSUSpPc56IRX4-J1iLXJe9lh6zc8vNoxN6cWyMc,1309
+pixpy-0.1.6.dist-info/LICENSE.md,sha256=nUth7S1gDDw8NJAUSOS0x29h2E2X2OkVZVKGKxKxrkE,1059
+pixpy-0.1.6.dist-info/METADATA,sha256=Kh_mRYd7WHPDdsGEqMixiqxYa6kqD4Ng_IB-8gfdUbc,4974
+pixpy-0.1.6.dist-info/WHEEL,sha256=rONkF5NxLrx5NP6ult2ei49FHp4xMHoHZn9_wf7tw2M,96
+pixpy-0.1.6.dist-info/top_level.txt,sha256=SveNhvLGcEfnlVPRFn8hM5bctMIrMKuBi8RKfcl5QE8,6
+pixpy-0.1.6.dist-info/RECORD,,
