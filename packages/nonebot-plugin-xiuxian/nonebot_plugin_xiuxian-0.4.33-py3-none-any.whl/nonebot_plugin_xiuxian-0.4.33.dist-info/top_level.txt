@@ -1,0 +1,10 @@
+nonebot_plugin_xiuxian
+nonebot_plugin_xiuxian/xiuxian_back
+nonebot_plugin_xiuxian/xiuxian_bank
+nonebot_plugin_xiuxian/xiuxian_boss
+nonebot_plugin_xiuxian/xiuxian_buff
+nonebot_plugin_xiuxian/xiuxian_info
+nonebot_plugin_xiuxian/xiuxian_mixelixir
+nonebot_plugin_xiuxian/xiuxian_rift
+nonebot_plugin_xiuxian/xiuxian_sect
+nonebot_plugin_xiuxian/xiuxian_work
