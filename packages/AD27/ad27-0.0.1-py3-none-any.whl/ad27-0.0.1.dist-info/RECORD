@@ -1,0 +1,11 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+check_coverage.py,sha256=xijHfXB7ieSePVuJLHN1b4fREnfrk7SX4If4-dRK09w,311
+autodiff/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autodiff/autoDiff.py,sha256=qcXehtuzYC66mUDv0bz7PzFByVEksqQ17nq0o2aRrDc,2667
+autodiff/dual.py,sha256=7F5SYfzt_eq34J_4hxiOEn1I2OLN2tu0V7cX-fUT0rU,5542
+autodiff/reverse.py,sha256=j3u8SgEovFXd4UQSOn5zk7n-8kkjSQ683uSjTfYH7M8,10620
+autodiff/trig.py,sha256=byEQry6CzUuoqAgP_XcfYW7CmHeThrHMbV3O8Rv1Qdo,7369
+ad27-0.0.1.dist-info/METADATA,sha256=Hce9zIo65oMGxHvo6KRN4_4VbAOJcjnsI24qrNn5cyY,735
+ad27-0.0.1.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+ad27-0.0.1.dist-info/licenses/LICENSE,sha256=w58GXC06uMghHWnlwx_Jrx1rBQG9fkMDrYpuWFnpxVY,1103
+ad27-0.0.1.dist-info/RECORD,,
