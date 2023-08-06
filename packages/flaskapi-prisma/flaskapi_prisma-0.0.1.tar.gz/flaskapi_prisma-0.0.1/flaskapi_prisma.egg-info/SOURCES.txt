@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+flaskapi_prisma.egg-info/PKG-INFO
+flaskapi_prisma.egg-info/SOURCES.txt
+flaskapi_prisma.egg-info/dependency_links.txt
+flaskapi_prisma.egg-info/requires.txt
+flaskapi_prisma.egg-info/top_level.txt

@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "flaskapi_prisma"
+version = "0.0.1"
+description = "Flask Rest API Prisma Auto Schema"
+authors = ["Oscar Bahamonde <oscar.bahamonde@hatarini.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = {extras = ["async"], version = "^2.2.2"}
+prisma = "^0.7.1"
+orjson = "^3.8.3"
+Flask-SocketIO = "^5.3.2"
+requests = "^2.28.1"
+[tool.poetry.group.dev.dependencies]
+poetry = "^1.3.0"
+pytest = "^7.2.0"
+pylint = "^2.15.8"
+
+[project]
+name = "flaskapi_prisma"
+version = "0.0.1"
+authors = [
+  { name="Oscar Bahamonde", email="oscar.bahamonde@hatarini.com" },
+]
+description = "A self documented, schema driven Flask Rest Framework"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3.9",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/obahamonde/flaskapi"
+"Bug Tracker" = "https://github.com/obahamonde/flaskapi/issues"
