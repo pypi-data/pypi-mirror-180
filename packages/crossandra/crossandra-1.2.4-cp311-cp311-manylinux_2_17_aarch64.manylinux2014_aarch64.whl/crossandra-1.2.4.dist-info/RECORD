@@ -1,0 +1,14 @@
+3219a501864e4a26eb38__mypyc.cpython-311-aarch64-linux-gnu.so,sha256=roUzyYNq9lhE_9INm2ni1bKcvO39wtgtiC2jmYWs634,407248
+crossandra-1.2.4.dist-info/METADATA,sha256=STpsE2KCWhb76i6LBwmFBPWfUzCRiv3XZHgldpZzQNs,4768
+crossandra-1.2.4.dist-info/top_level.txt,sha256=liue53kF5Oo7WwiAjHGQmUXhFkM2oY8M05g_84_5GqM,54
+crossandra-1.2.4.dist-info/RECORD,,
+crossandra-1.2.4.dist-info/WHEEL,sha256=AZvMRZRhP9mpa2BxxKGFEJLXXIPmgMh0wi2b2p9oSdE,154
+crossandra-1.2.4.dist-info/LICENSE,sha256=bi13fHREi6xgw1JLPeyj6FVJaKBJ53T4U4Kch9UCpVU,1049
+crossandra/lib.cpython-311-aarch64-linux-gnu.so,sha256=pCsjAkFXVGGFaGh1kQA0_xhF9RnXzKygfrJHUG5PQbY,71240
+crossandra/rule.cpython-311-aarch64-linux-gnu.so,sha256=tvGHkq6z21qa2FerakvOOZF__aEjyYieb-2dhw3Y5OY,71248
+crossandra/common.cpython-311-aarch64-linux-gnu.so,sha256=dmOpdpFxg-omx9_JWu4QhdgG1QWi-voTaCPA-DzjGMU,71256
+crossandra/__init__.cpython-311-aarch64-linux-gnu.so,sha256=3_2sHqZNsP4mhjQtZKtQX2VYr8CnXZ81Ln4gPmycaVo,71256
+src/crossandra/lib.py,sha256=JaGFu87HSpfFS2gYxs6ao0YiPDNBRxaJ-ruueFZYSR0,4414
+src/crossandra/__init__.py,sha256=zop6sc3zwKwhyQuOPspl_PvMb4Z45vSojZZI7XQw19k,176
+src/crossandra/common.py,sha256=wzDNNScV4nVQSvbSSPyxRFCU9TSHu2vgLAgW-bRnxL4,955
+src/crossandra/rule.py,sha256=7k_1ZJaqbHAF3VfSrAjuXw7cHim8PRy-8UfTUajE3kQ,1682
