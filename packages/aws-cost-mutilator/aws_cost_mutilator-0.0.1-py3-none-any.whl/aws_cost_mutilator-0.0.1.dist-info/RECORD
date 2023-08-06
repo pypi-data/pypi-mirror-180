@@ -1,0 +1,9 @@
+aws_cost_mutilator/__init__.py,sha256=739OcUdGG8M-GCDKJlVBpBMpIkxWuNNmnBpy-g75S04,105
+aws_cost_mutilator/__main__.py,sha256=tCJGk2mKeN_fCRIwmYCOAVmRdIRjpEx8PkHUz4R1P4U,5310
+aws_cost_mutilator/lib.py,sha256=Rm22z2m4qO4mHab76PtAwHg0aYzQ1ltN33UVPrlHDVI,9927
+aws_cost_mutilator-0.0.1.dist-info/METADATA,sha256=08SD0fu91LjfS_55V3YclP8ZBOdrG0E5tYYJgyI9Zu0,778
+aws_cost_mutilator-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aws_cost_mutilator-0.0.1.dist-info/entry_points.txt,sha256=mt0kdgSo_aoepdTQ5Ex0mRWGcwmOud8UISbhQe_XxrE,56
+aws_cost_mutilator-0.0.1.dist-info/top_level.txt,sha256=XfWqZjIIpPkoKiKHF1j3bC9GvYvnoAXlEOcHkfB61KI,19
+aws_cost_mutilator-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cost_mutilator-0.0.1.dist-info/RECORD,,
