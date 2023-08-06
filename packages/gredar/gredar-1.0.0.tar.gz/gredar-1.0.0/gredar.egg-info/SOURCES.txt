@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+gredar/__init__.py
+gredar/gredar.py
+gredar.egg-info/PKG-INFO
+gredar.egg-info/SOURCES.txt
+gredar.egg-info/dependency_links.txt
+gredar.egg-info/requires.txt
+gredar.egg-info/top_level.txt

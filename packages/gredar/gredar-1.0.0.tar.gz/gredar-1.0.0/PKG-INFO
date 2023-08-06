@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: gredar
+Version: 1.0.0
+Summary: A package for allocating missing memory when using asyncio
+Home-page: UNKNOWN
+Author: Bernward Sanchez
+Author-email: contact@bern.codes
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
