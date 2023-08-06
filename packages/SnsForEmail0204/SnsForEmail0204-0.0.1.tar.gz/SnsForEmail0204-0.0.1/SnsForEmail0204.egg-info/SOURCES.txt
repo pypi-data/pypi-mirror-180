@@ -1,0 +1,6 @@
+setup.py
+SnsForEmail0204/__init__.py
+SnsForEmail0204.egg-info/PKG-INFO
+SnsForEmail0204.egg-info/SOURCES.txt
+SnsForEmail0204.egg-info/dependency_links.txt
+SnsForEmail0204.egg-info/top_level.txt
