@@ -1,0 +1,9 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genotations/__init__.py,sha256=OsmkGNO2mYfAns-hmIL_G2v6X-ujWRsYZIEnMtu-wCk,21
+genotations/genomes.py,sha256=imjb99a1cpkEkq_t6ODzARzinsNn4eHlHFACBNtSb54,21723
+genotations/intersections.py,sha256=ucZVsNSWfsU-shmNAWclMwLcL337YdSZUhWo88gBYQc,3601
+genotations/primers.py,sha256=7gH7et-DkJ5lEpbamd41ur6cKQ4ILBRTTCZHPe0WJog,11299
+genotations-0.0.8.dist-info/METADATA,sha256=PPu2HqodEwD1UHI9371UtG6oHjG-DfxrDF4hjJC3K5Q,1732
+genotations-0.0.8.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+genotations-0.0.8.dist-info/top_level.txt,sha256=XsYRkpKCaVCg5C2jPtaME37vFQkID2FjGF9J523zB7U,21
+genotations-0.0.8.dist-info/RECORD,,
