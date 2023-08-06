@@ -1,0 +1,14 @@
+unifi_protect_backup/__init__.py,sha256=jK2nyuCtZmcEhA2Te4-YEqBh2wJWxsoi3vwUDyegNZQ,398
+unifi_protect_backup/cli.py,sha256=fjUJQt6Do6fK6ETTlvNqC31KvwB0fQGOmpmFbrysZpA,4809
+unifi_protect_backup/downloader.py,sha256=VcZRJb9h8SeOuuvOb6kFi8llODqe5q_rTzzc12l_ers,6656
+unifi_protect_backup/event_listener.py,sha256=REFJzeT7Yt9_qNAz5qWHNMFs7hP9JMzskif4kf3qbBg,4916
+unifi_protect_backup/missing_event_checker.py,sha256=mZ5AU3F7iLYP_RuLesErbODeKC99Mt6SlT2QLKKr3mo,4643
+unifi_protect_backup/purge.py,sha256=pnoD64Pytra1Akq-N-v6qA9fBcYycNrKlmohN4JuefI,2922
+unifi_protect_backup/unifi_protect_backup.py,sha256=r-x1UOTL0Ejnu7eQcczBchwHEqyqfvFJn70945-KGW8,9956
+unifi_protect_backup/uploader.py,sha256=Shs4DPW1iYCvudSirSapSOCz5fkPc3fDVhkXPj7qt2w,5383
+unifi_protect_backup/utils.py,sha256=M50U8OlTJT4Di2DBR-PB4UgsNfC7PHRtJPVeaLWBGZg,13429
+unifi_protect_backup-0.8.3.dist-info/entry_points.txt,sha256=1gmX9GWdXsYMzVCRRQyictOVRLZdw5bh81JHYw2QQvY,70
+unifi_protect_backup-0.8.3.dist-info/LICENSE,sha256=a8AOr3KdJ8esX0m90Aa3InjfcJCsfj4xFCGEpOplIyU,1074
+unifi_protect_backup-0.8.3.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+unifi_protect_backup-0.8.3.dist-info/METADATA,sha256=kb-zaGhMl3eLqsxavO1GPiH6FwR2N8F33w5wpRcRb5c,14082
+unifi_protect_backup-0.8.3.dist-info/RECORD,,
