@@ -1,0 +1,10 @@
+MANIFEST.in
+readme.md
+setup.py
+large_language_model_cli.egg-info/PKG-INFO
+large_language_model_cli.egg-info/SOURCES.txt
+large_language_model_cli.egg-info/dependency_links.txt
+large_language_model_cli.egg-info/entry_points.txt
+large_language_model_cli.egg-info/requires.txt
+large_language_model_cli.egg-info/top_level.txt
+llmcli/__init__.py

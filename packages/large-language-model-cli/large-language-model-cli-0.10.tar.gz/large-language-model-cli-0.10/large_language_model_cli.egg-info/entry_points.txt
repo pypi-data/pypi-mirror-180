@@ -1,0 +1,4 @@
+[console_scripts]
+llmchat = llmcli:chatgpt_main
+llmcli = llmcli:main
+
