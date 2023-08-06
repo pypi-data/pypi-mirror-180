@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/SalamCrypt/__init__.py
+src/SalamCrypt/example.py
+src/SalamCrypt.egg-info/PKG-INFO
+src/SalamCrypt.egg-info/SOURCES.txt
+src/SalamCrypt.egg-info/dependency_links.txt
+src/SalamCrypt.egg-info/top_level.txt
