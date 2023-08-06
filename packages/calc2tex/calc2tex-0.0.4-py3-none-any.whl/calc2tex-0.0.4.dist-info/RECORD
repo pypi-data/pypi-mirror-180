@@ -1,0 +1,16 @@
+calc2tex/__init__.py,sha256=8CwzWDxO1D5R2WNPTeewTI5yx3Hgy6ev1Omrv18XnKk,458
+calc2tex/advanced_calc.py,sha256=b7QAPVCFdBLwxjAaduVqRROclLunqtmcieEaYoc22-M,8514
+calc2tex/calc2tex.py,sha256=eDM4nll28Q4ldQhixWmjsYlvh8dsngGPMi4vBYHA5Bw,19424
+calc2tex/calc_formula.py,sha256=S6cmmj3-KPYe1zcAkJaXdV0JE-d6K9Nl_ABLIUwTPG0,22281
+calc2tex/calc_unit.py,sha256=w2ZTHakSegYW9Xdn0Ys1MaMntugN5b8Yi77gNAdgA6Q,2559
+calc2tex/helpers.py,sha256=DD17kj6D-urkkgX6KdBRenDx9tcGZzpdjqswV-pGglg,4601
+calc2tex/parse_tex.py,sha256=y3Q2VaLVVAseuju4IEEyYz2Y9VWzaiaGV4GIvQm76DQ,3543
+calc2tex/parse_txt.py,sha256=Ovhoxi_R5ncRrusXpGuKDV88AHkH5xitDrryNNPmkgI,13057
+calc2tex/settings.py,sha256=-tz_V8GEFnygxUFFfv97j_dQIkFFP_y25aqOu-Mt6Pw,2355
+calc2tex/settings.txt,sha256=3R970psP6q1E-OhPRCK92U8cvfIg4r3Dl_nteB6ckeM,16
+calc2tex/trigo.py,sha256=p4g0mgNnmCPPupKTxjnTgEaKQkbuF6r0Aas8Kz8IPx8,943
+calc2tex-0.0.4.dist-info/LICENSE.txt,sha256=6OoqZ02RwnZQUwJLGvYWx7_eWJ8cAp2j04Ny90JtFOI,1113
+calc2tex-0.0.4.dist-info/METADATA,sha256=OYz4Dczm1QtwF7fLz7srADT6-fiyk12aDPnUqQYINzg,1649
+calc2tex-0.0.4.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+calc2tex-0.0.4.dist-info/top_level.txt,sha256=YOXno0NUUOmT6HE57d5UaYXuaca2hVZCEH8914ZBhuQ,9
+calc2tex-0.0.4.dist-info/RECORD,,
