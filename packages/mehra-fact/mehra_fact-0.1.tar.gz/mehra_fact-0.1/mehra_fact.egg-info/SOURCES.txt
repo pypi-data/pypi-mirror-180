@@ -1,0 +1,8 @@
+LICENCE.txt
+README.md
+setup.cfg
+setup.py
+mehra_fact.egg-info/PKG-INFO
+mehra_fact.egg-info/SOURCES.txt
+mehra_fact.egg-info/dependency_links.txt
+mehra_fact.egg-info/top_level.txt
