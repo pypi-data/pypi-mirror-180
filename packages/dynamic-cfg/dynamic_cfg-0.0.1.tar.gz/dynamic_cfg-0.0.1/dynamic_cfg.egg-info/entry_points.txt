@@ -1,0 +1,2 @@
+[nbdev]
+dynamic_cfg = dynamic_cfg._modidx:d
