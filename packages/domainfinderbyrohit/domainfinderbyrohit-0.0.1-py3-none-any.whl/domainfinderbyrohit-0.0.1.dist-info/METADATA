@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: domainfinderbyrohit
+Version: 0.0.1
+Author: Rohit
+Author-email: rk0901308@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bs4
+Requires-Dist: package2
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: requests
+Requires-Dist: urllib3
+
+Normal Webscrapping Tool
