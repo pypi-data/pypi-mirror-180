@@ -1,0 +1,6 @@
+requests
+sentry-sdk
+injector
+lxml
+matplotlib
+Pillow
