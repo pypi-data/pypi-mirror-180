@@ -1,0 +1,15 @@
+psychopy_qmix/__init__.py,sha256=6xsLPgJvX7yOpGIUiQKEfUtTJZo0fKHZaOjH7DG90q8,665
+psychopy_qmix/qmix.py,sha256=EJtM8c6sEQ4OO0wKETy0vj01Ol1MDCh-3Y8i0yhdaCU,12550
+psychopy_qmix/pump/__init__.py,sha256=dAQRVbkVwa57fgZbv7UJc2_pmxItC7tCtidU1-ldBxA,8211
+psychopy_qmix/pump/classic/pump.png,sha256=HPmjUL_YHb6K9rmxg3zC-_mR0neQLxUzZnbjcjjsqqg,7734
+psychopy_qmix/pump/classic/pump@2x.png,sha256=w58t6niB0_WHjv1qyLybklplCU9Mo_I8svIy7uLK4V4,7958
+psychopy_qmix/pump/dark/pump.png,sha256=AgUomV9hiITGWo2dLgc1qaiAuJoigcTKAPh_XBuR2AY,1031
+psychopy_qmix/pump/dark/pump@2x.png,sha256=xdb2gQrAXXK2XSYomcIhG9HP4Qn7JSXwV4R5B9uURQY,1915
+psychopy_qmix/pump/light/pump.png,sha256=lAi3qVB7Q_pQnK5iweRu6r7miajzx-FAoni64O7jQTE,1062
+psychopy_qmix/pump/light/pump@2x.png,sha256=LagFJCigxHuUt36ZqO33ZZq2Po-1SXkWDeAyWXVxbvk,1991
+psychopy_qmix-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+psychopy_qmix-0.0.1.dist-info/METADATA,sha256=96UusE1D7bz4M8xhkUPj1RYx93ZLOOrSbpl0deHRVBw,1862
+psychopy_qmix-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+psychopy_qmix-0.0.1.dist-info/entry_points.txt,sha256=tXqNp2X4e_Th0SeVwnW2y_hloWO_CSV89so3fH--WPY,85
+psychopy_qmix-0.0.1.dist-info/top_level.txt,sha256=ihGAXqTQ_Ua7kz6cMro7H2sTU4tZoXwup5F6jv5Envc,14
+psychopy_qmix-0.0.1.dist-info/RECORD,,
