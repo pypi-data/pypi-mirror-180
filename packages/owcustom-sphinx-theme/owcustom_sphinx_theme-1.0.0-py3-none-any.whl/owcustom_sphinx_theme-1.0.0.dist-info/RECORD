@@ -1,0 +1,12 @@
+owcustom/sphinx/theme/VERSION,sha256=QjM-vSJXNR3-PZB23yDRHJna4u-olxgOVpMYRR3uWJc,309
+owcustom/sphinx/theme/__init__.py,sha256=Sc8ZaQPNr4HYCITiwdwgXsUc9LYUGX_p57xLOErAmuQ,647
+owcustom/sphinx/theme/footer.html,sha256=50QSy-YmartHJ1eHu9EW-8xFrmkugEX1mtQBt2zyMcc,715
+owcustom/sphinx/theme/theme.conf,sha256=i0SU_9JgrLC5lXAcfP13oWrLicxOAxJNkyJQ4ZpBDqE,160
+owcustom/sphinx/theme/static/css/owcustom.css,sha256=cL46XYX_e2FBnOfOTvzNwQDRYUFvawuA32O9YViMEX0,4821
+owcustom/sphinx/theme/static/js/theme.js,sha256=Ne62Xu58iffRerqFNUBAEOzK6VVJu74Jl-st9qeHAcI,6646
+owcustom_sphinx_theme-1.0.0.dist-info/LICENSE,sha256=7nskjYWjV3xLInE-h2wFfTkIRsdNflT-OUgO3o0u8JQ,1064
+owcustom_sphinx_theme-1.0.0.dist-info/METADATA,sha256=r1hs31e9bryfXobMuMscGEP0bo3NIEiAk0tTiGOxsaU,2999
+owcustom_sphinx_theme-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+owcustom_sphinx_theme-1.0.0.dist-info/entry_points.txt,sha256=DqrUvj_XFVYbVX2UWQOoZRLDk7a-3A5SLUtGXCKWCUk,67
+owcustom_sphinx_theme-1.0.0.dist-info/top_level.txt,sha256=nbKUzk7P6QVLMPYBjCuIgpBXrNWVO3hebI7RxGO_0s8,9
+owcustom_sphinx_theme-1.0.0.dist-info/RECORD,,
