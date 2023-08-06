@@ -1,0 +1,52 @@
+[tool.poetry]
+name = "drive-screen"
+version = "0.2.1"
+description = "add install source"
+authors = ["shengqin ding <dshengq@163.com>"]
+readme = "README.md"
+packages = [{include = "drive_screen"}]
+
+
+[[tool.poetry.source]]
+name = "douban"
+url = "https://pypi.doubanio.com/simple/"
+default = true
+
+[[tool.poetry.source]]
+name = "aliyun"
+url = "https://mirrors.aliyun.com/pypi/simple/"
+secondary = true
+
+[[tool.poetry.source]]
+name = "163"
+url = "https://mirrors.163.com/pypi/simple/"
+secondary = true
+
+[[tool.poetry.source]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+secondary = true
+
+[[tool.poetry.source]]
+name = "pypi-2"
+url = "https://pypi.org/pypi/"
+
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+dash="^2.0.0"
+dash_bootstrap_components="^1.2.1"
+dash-core-components="^2.0.0"
+dash-html-components="^2.0.0"
+Flask="^2.0.1"
+pandas="^1.1.5"
+Pillow="^9.2.0"
+plotly="^5.2.1"
+PyMySQL="^1.0.2"
+requests="^2.27.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
