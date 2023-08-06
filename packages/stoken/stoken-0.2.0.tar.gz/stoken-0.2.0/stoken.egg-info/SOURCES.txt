@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+stoken.egg-info/PKG-INFO
+stoken.egg-info/SOURCES.txt
+stoken.egg-info/dependency_links.txt
+stoken.egg-info/entry_points.txt
+stoken.egg-info/requires.txt
+stoken.egg-info/top_level.txt
