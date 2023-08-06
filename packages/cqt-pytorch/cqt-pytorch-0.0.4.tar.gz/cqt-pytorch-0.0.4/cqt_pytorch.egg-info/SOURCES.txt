@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+cqt_pytorch/__init__.py
+cqt_pytorch/cqt.py
+cqt_pytorch.egg-info/PKG-INFO
+cqt_pytorch.egg-info/SOURCES.txt
+cqt_pytorch.egg-info/dependency_links.txt
+cqt_pytorch.egg-info/requires.txt
+cqt_pytorch.egg-info/top_level.txt
