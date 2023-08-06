@@ -1,0 +1,3 @@
+[console_scripts]
+tempo=tempo_random.main:app
+
