@@ -1,0 +1,16 @@
+my_recommending/__init__.py,sha256=DUZ6WpNglLweVGjkl8OPMDjhJy4N0q7btgU5a_6c0aY,150
+my_recommending/app.py,sha256=QN9l7EBvMzJL1fAcgN2Xuvi4pgicK-4-45-Lzd3UBcs,10611
+my_recommending/callbacks.py,sha256=qYASGLEwC5zy0dpN-3dE7pQOVEcfPC7J3QcuyXwl8Oc,21006
+my_recommending/data.py,sha256=fJdD3Ji5VHtMA3T6KnrAEqp_7hJVeCQoJXGGM-dasB0,6569
+my_recommending/entrypoint.py,sha256=nE6Sv_T9XNPpS4XMGSSbqn7UE95hMR7jFrSKIg2D70U,1679
+my_recommending/interface.py,sha256=crAdUriMupSlPDpFcUfZMGiv4Ar2-jiyyJLuMYAxC-w,10614
+my_recommending/lit.py,sha256=VzQIWwDExKMiWP8_NPlzLYfeKoEwxJK35ZtkE20mMtk,3749
+my_recommending/losses.py,sha256=iWvVeLkLFtQ65XoeQBkoOkhTlGPB-dBxlc5Z01scOyw,13056
+my_recommending/main.py,sha256=DjgigoRKb4ht_mCwc2fkdNdU5nMEnDr4DgKw_SyJ_8w,1238
+my_recommending/maths.py,sha256=ZciCwKH-Ry5H6n0K9rSoLFqY5wmUNrEnm1i2IN5YgB8,2270
+my_recommending/metrics.py,sha256=ankKIp6ZqxIpc2poUI5uLUr0LyHDsNaSC3wByiP5Oog,11492
+my_recommending/utils.py,sha256=UbQ3NXRji0hgcwL6iuO3y7HkuFOq1bGeHfmQnvnyxo4,18991
+my_recommending-0.1.4.dist-info/LICENSE,sha256=v8MmCiXdP_s8e9Bcck0Yqeu1xcRGdh92r4pjKAh-JSk,1074
+my_recommending-0.1.4.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+my_recommending-0.1.4.dist-info/METADATA,sha256=tRMXSxppz06VswZBhM4g4HkdccJQlkdPoZc9WnDxk4U,1179
+my_recommending-0.1.4.dist-info/RECORD,,
