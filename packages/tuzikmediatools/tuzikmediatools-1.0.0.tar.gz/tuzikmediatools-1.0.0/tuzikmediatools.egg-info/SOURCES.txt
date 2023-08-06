@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.cfg
+setup.py
+tuzikmediatools/README.md
+tuzikmediatools/__init__.py
+tuzikmediatools/generate.py
+tuzikmediatools.egg-info/PKG-INFO
+tuzikmediatools.egg-info/SOURCES.txt
+tuzikmediatools.egg-info/dependency_links.txt
+tuzikmediatools.egg-info/top_level.txt
