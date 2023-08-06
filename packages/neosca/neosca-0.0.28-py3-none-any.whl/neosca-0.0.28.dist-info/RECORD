@@ -1,0 +1,14 @@
+neosca/__init__.py,sha256=JV_q_uERxn1T6rCAK75lo9AIry0O_EK7__-UmAbqCzM,93
+neosca/__main__.py,sha256=Vdhw8YA1K3wPMlbJQYL5WqvRzAKVeZ16mZQFO9VRmCo,62
+neosca/main.py,sha256=g-neC0hNo-ga1uf44L-jXekgiWsB0cGlIDXqKltuzjE,9497
+neosca/neosca.py,sha256=16_A17u5IbNAIRW-49olSX1dOecOTnpetzvmpm3c9-0,3555
+neosca/parser.py,sha256=GdCsk714ztkAfT0NtdMlcDs2bRgN3DNe6D6JPM7PwpE,1420
+neosca/querier.py,sha256=ZNCUI_Mo0QwMhK1iFbKp5eZI1PjVV1iN8U0a6K1pLsQ,2650
+neosca/structures.py,sha256=_ND05hGyZtp7pki6eUmsR9qUIFDw5O5viqcNweIcLJk,6074
+neosca/writer.py,sha256=RRQqENehzG0qEpRkV4cBexAfhBu5gFG9E5dKPCazHyc,1343
+neosca-0.0.28.dist-info/LICENSE.txt,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+neosca-0.0.28.dist-info/METADATA,sha256=g7jHIi7uRH6L80zFoQIfSvQXNasLxoIDVL8aIgAOHCQ,7294
+neosca-0.0.28.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+neosca-0.0.28.dist-info/entry_points.txt,sha256=hIqwimmhMmmxJ7Q9kWg3-e_ksKKWA3YVVQZjBpFaHLQ,37
+neosca-0.0.28.dist-info/top_level.txt,sha256=pH2-LuzDpUxGUkc3BeXm5ktvytAfjPaK12AaPCSJyP4,7
+neosca-0.0.28.dist-info/RECORD,,
