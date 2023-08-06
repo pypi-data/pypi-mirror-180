@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: async-executor
+Version: 0.1.0
+Summary: Async execution pool
+Home-page: https://github.com/nvllsvm/python-async-executor
+Author: Andrew Rabert
+Author-email: ar@nullsum.net
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# async-executor
+[![PyPI - Version](https://img.shields.io/pypi/v/test.svg)](https://pypi.org/project/async-executor)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/async-executor.svg)](https://pypi.org/project/async-executor)
+
+Async execution pool
+
+## Installation
+
+```console
+pip install async-executor
+```
+
+## License
+
+`test` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
