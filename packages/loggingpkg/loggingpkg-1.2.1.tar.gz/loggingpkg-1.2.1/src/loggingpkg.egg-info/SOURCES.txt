@@ -1,0 +1,11 @@
+LICENSE.txt
+README.txt
+pyproject.toml
+setup.cfg
+src/loggingpkg/__init__.py
+src/loggingpkg/config.py
+src/loggingpkg/handlers.py
+src/loggingpkg.egg-info/PKG-INFO
+src/loggingpkg.egg-info/SOURCES.txt
+src/loggingpkg.egg-info/dependency_links.txt
+src/loggingpkg.egg-info/top_level.txt
