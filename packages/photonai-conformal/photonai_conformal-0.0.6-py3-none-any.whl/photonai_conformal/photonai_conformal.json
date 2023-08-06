@@ -1,0 +1,10 @@
+{
+  "ConformalRegressor": [
+    "photonai_conformal.mapie_wrapper.ConformalRegressor",
+    "Estimator"
+  ],
+  "ConformalClassifier": [
+    "photonai_conformal.mapie_wrapper.ConformalClassifier",
+    "Estimator"
+  ]
+}
