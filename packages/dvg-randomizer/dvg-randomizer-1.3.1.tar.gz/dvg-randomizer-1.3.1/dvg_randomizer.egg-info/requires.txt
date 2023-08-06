@@ -1,0 +1,10 @@
+appdirs
+colorlog
+csv
+fpdf
+logging
+pathlib
+tkinter
+tkinter.font
+tkinter.ttk
+yaml
