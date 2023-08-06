@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pyraphtory_jvm
+Version: 0.1.2
+Summary: Bootstrap JRE and IVY installer for Pyraphtory
+Home-page: https://github.com/raphtory/raphtory
+Author: Haaroon Yousaf
+Author-email: admin@pometry.com
+Maintainer: Pometry
+Maintainer-email: admin@pometry.com
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9.13,<3.11
+
+UNKNOWN
+
