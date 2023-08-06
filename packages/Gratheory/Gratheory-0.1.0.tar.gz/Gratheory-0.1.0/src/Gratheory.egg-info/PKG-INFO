@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: Gratheory
+Version: 0.1.0
+Summary: Create and use graphs theory for maths
+Author-email: Samuel Taylor <sam.w.taylor@hotmail.co.uk>
+Project-URL: Homepage, https://github.com/Samuelt797/Gratheory
+Project-URL: Bug Tracker, https://github.com/Samuelt797/Gratheory/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Graphly - A mathematical graphing module for python
+
+Create a graph - 
+
+from Graphly import graph
+
+g = graph(l, oneWayEdges = k)
+
+where l is a list of edges in the format of [A, B, C] is an edge from A to B with weighting of C and oneWayEdges is a boolean of whether edges go in both directions or not.
+
+To find the shortest path, use g.findShortestPath(start, end, searchType = A) where start is the start vertex, end is the end vertex and searchType is either 'Ford' or 'Djikstra' deciding which algorithm to implement, the default being 'Ford'.
+
+Depth first search and Breadth first search will return a list of reachable vertices from a given vertex. Callable with method, DFS and BFS.
