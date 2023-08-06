@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: fun2py
+Version: 0.0.2
+Summary: A package for functional programming in python
+Home-page: https://github.com/leoxiang66/functional-programming/tree/pyfp
+Author: Tao Xiang
+Author-email: tao.xiang@tum.de
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# functional-programming
