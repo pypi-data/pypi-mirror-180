@@ -1,0 +1,13 @@
+m3c2/__init__.py,sha256=ZvuKg2JRRd8MZg0iMUB_Tych1-sk6RklwG6z7Wi7Z7E,69
+m3c2/chain.py,sha256=ibrcIz7CBkMGyCt0WNwBdSl6ltw7NBOr7lnHr8O-Rk0,14804
+m3c2/proposal.py,sha256=rYmfUxCSLZdj3u3rzdjuN9LSA7l4z_B4LoSLUUOBdmM,12453
+m3c2/sampler.py,sha256=KFpVTbsiT8nCK4nVPXxu5OSlWDZDvJhtOcQcHw1Wd0g,23663
+m3c2/gb/__init__.py,sha256=OHeeo3vpR142kbr625WygMZ3IThCCKIQizdyocqYb-s,77
+m3c2/gb/fstatistics.py,sha256=19-y6BC4SW612YxxOVWsvjuDyfQLrmKD3Ik1lgXOBDw,5217
+m3c2/gb/likelihood.py,sha256=5_9E2ToolyW_XXAGH5WzruQSVZ46s-X5Nvtcu8alOJE,8062
+m3c2/gb/proposal.py,sha256=AkK0_JxZKe5TCPuuPcfvPLWqwRKGKjPdrrqgqj12FGM,1010
+m3c2-1.0.dist-info/LICENSE,sha256=45kbIcupi9nPJwUYlGyqKg-HEtc8iE_UV_U34nnUfgM,34446
+m3c2-1.0.dist-info/METADATA,sha256=DTvry1I98rPtsIDFs4d1ji5r6rMNbgCquXWg1LSbB6I,40414
+m3c2-1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+m3c2-1.0.dist-info/top_level.txt,sha256=TCoQom3FuJFKJXS2FqLSITc81L9lDA_nXfYegL7ep3k,5
+m3c2-1.0.dist-info/RECORD,,
