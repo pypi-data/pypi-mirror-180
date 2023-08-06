@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: library_muhammad_osama_khan_x21242887
+Version: 0.0.1
+Summary: Library for record viewers using mysql databases
+Project-URL: Homepage, https://github.com/osamakhanse/record-viewers-library-mysql.git
+Project-URL: Bug Tracker, https://github.com/osamakhanse/record-viewers-library-mysql.git
+Author-email: Muhammad Osama Khan <x21242887@student.ncirl.ie>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
