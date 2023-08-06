@@ -1,0 +1,9 @@
+colorama
+hmd
+
+[:"linux" in sys_platform or "darwin" in sys_platform]
+ptyprocess
+
+[:platform_system == "Windows"]
+pywin32
+pyreadline
