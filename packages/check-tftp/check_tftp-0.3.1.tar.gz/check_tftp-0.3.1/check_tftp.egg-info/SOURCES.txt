@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+./check_tftp/__init__.py
+./check_tftp/__main__.py
+./check_tftp.egg-info/PKG-INFO
+./check_tftp.egg-info/SOURCES.txt
+./check_tftp.egg-info/dependency_links.txt
+./check_tftp.egg-info/requires.txt
+./check_tftp.egg-info/top_level.txt
+bin/check_tftp
