@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: nemglo
+Version: 0.1.1
+Summary: Green-energy Load Optimisation tool for the NEM
+License: BSD-3-Clause license
+Author: dec-heim
+Author-email: 92137442+dec-heim@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: mip (>=1.13.0,<2.0.0)
+Requires-Dist: nemed
+Requires-Dist: nemosis (>=3.1.0,<4.0.0)
+Requires-Dist: numpy (>=1.23.1,<2.0.0)
+Requires-Dist: pandas (>=1.4.3,<2.0.0)
