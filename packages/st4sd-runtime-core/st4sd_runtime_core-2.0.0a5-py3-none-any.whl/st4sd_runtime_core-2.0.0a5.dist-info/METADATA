@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: st4sd-runtime-core
+Version: 2.0.0a5
+Summary: A tool for creating and deploying computational experiments
+Home-page: https://github.com/st4sd/st4sd-runtime-core
+Author: Michael A. Johnston
+Author-email: michaelj@ie.ibm.com
+License: Apache 2.0
+Keywords: hpc kubernetes openshift lsf workflows experiments computational-chemistry simulation science
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE.md
+Requires-Dist: reactivex (>=4.0.0)
+Requires-Dist: pyyaml
+Requires-Dist: pytest
+Requires-Dist: pytest-xdist
+Requires-Dist: pytest-timeout
+Requires-Dist: networkx
+Requires-Dist: matplotlib (<3.4.0)
+Requires-Dist: requests
+Requires-Dist: six
+Requires-Dist: kubernetes
+Requires-Dist: psutil
+Requires-Dist: boto3
+Requires-Dist: pyrsistent
+Requires-Dist: js2py
+Requires-Dist: pymongo (>=4.0)
+Requires-Dist: papermill
+Requires-Dist: pandas
+Requires-Dist: future
+Provides-Extra: deploy
+Requires-Dist: jupyter ; extra == 'deploy'
+Requires-Dist: paho-mqtt ; extra == 'deploy'
+
