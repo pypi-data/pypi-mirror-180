@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+mysql_on_sockets/__init__.py
+mysql_on_sockets/mysql_on_sockets.py
+mysql_on_sockets.egg-info/PKG-INFO
+mysql_on_sockets.egg-info/SOURCES.txt
+mysql_on_sockets.egg-info/dependency_links.txt
+mysql_on_sockets.egg-info/requires.txt
+mysql_on_sockets.egg-info/top_level.txt
