@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: mytypo
+Version: 0.0.1
+Summary: Checks typos in one lines comments
+Home-page: https://github.com/worthrd/mytypo
+Author: Recep Daban
+Author-email: recep.daban@gmail.com
+License: UNKNOWN
+Keywords: textblob,nlp,linguistics,nltk,pattern
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: regex (>=2022.10.31)
+Requires-Dist: textblob (>=0.17.1)
+Requires-Dist: colorama (>=0.4.6)
+Provides-Extra: dev
+Requires-Dist: pytest (>=7.2.0) ; extra == 'dev'
+
+# mytypo
+
+This is a project that finds miss spelled words in comments in a python file. It can be used single *.py file or director like:
+
+```mytypo foo.py```
+
+or
+
+```mytypo foo/bar/baz```
+
+
