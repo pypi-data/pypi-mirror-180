@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+fathah/TextClean.py
+fathah/__init__.py
+fathah/stopwords.py
+fathah.egg-info/PKG-INFO
+fathah.egg-info/SOURCES.txt
+fathah.egg-info/dependency_links.txt
+fathah.egg-info/top_level.txt
