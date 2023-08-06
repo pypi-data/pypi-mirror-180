@@ -1,0 +1,99 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pydatatask"
+dynamic = ["version"]
+authors = [
+    { name = "Audrey Dutcher", email = "audrey@rhelmot.io" },
+]
+description = "Library for constructing data-centric processing pipelines with few invariants"
+requires-python = ">=3.8"
+keywords = ["pipeline", "data", "task", "repository", "processing", "async", "kubernetes", "s3", "mongodb", "docker"]
+
+dependencies = [
+    "kubernetes",
+    "kubernetes_asyncio",
+    "docker-registry-client-async",
+    "python-dxf",
+    "jinja2",
+    "pyyaml",
+    "networkx",
+    "aiobotocore",
+    "types-aiobotocore[essential]",
+    "motor",
+    "ipython",
+    "aiofiles",
+    "aioshutil",
+]
+
+[project.optional-dependencies]
+dev = [
+    "tox>=4.0.0",
+    "black",
+    "isort",
+]
+type = [
+    "mypy",
+    "kubernetes-typed",
+    "types-pyyaml",
+    "networkx-stubs",
+    "types-aiofiles",
+]
+test = [
+    "pytest",
+    "pytest-cov",
+]
+
+[urls]
+repository = "https://github.com/rhelmot/pydatatask"
+
+[readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[license]
+file = "LICENSE"
+
+[dynamic]
+
+[tool.setuptools]
+zip-safe = false
+package-data = { pydatatask = ["py.typed"] }
+packages = ["pydatatask"]
+
+[tool.setuptools.dynamic]
+version = {attr = "pydatatask.__version__"}
+
+# https://github.com/tomplus/kubernetes_asyncio/issues/230
+[[tool.mypy.overrides]]
+module = "kubernetes_asyncio.*"
+ignore_missing_imports = true
+
+# https://jira.mongodb.org/projects/MOTOR/issues/MOTOR-331
+[[tool.mypy.overrides]]
+module = "motor.*"
+ignore_missing_imports = true
+
+# https://github.com/davedoesdev/dxf/pull/43
+[[tool.mypy.overrides]]
+module = "dxf.*"
+ignore_missing_imports = true
+
+# https://github.com/ipython/ipython/pull/13858
+[[tool.mypy.overrides]]
+module = "IPython.*"
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--cov=pydatatask --cov-report=xml"
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+force_to_top = ["typing"]
+from_first = true
