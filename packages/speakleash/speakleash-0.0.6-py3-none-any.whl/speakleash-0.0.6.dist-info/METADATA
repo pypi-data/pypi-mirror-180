@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: speakleash
+Version: 0.0.6
+Summary: SpeakLeash agnostic dataset for Polish
+Home-page: https://github.com/speakleash/speakleash
+Author: SpeakLeash Team
+Author-email: team@speakleash.org
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: tqdm
+Requires-Dist: lm-dataformat
+
+# SpeakLeash
+
+SpeakLeash agnostic dataset for Polish
+
+## Basic Usage
+
+```
+from speakleash import Speakleash
+import os
+
+base_dir = os.path.join(os.path.dirname(__file__))
+replicate_to = os.path.join(base_dir, "datasets")
+
+sl = Speakleash(replicate_to)
+
+for d in sl.datasets:
+    print(d.name)
+    for doc in d.data:
+        print(doc[:10])
+
+```
+
+or 
+
+```
+from speakleash import Speakleash
+import os
+
+base_dir = os.path.join(os.path.dirname(__file__))
+replicate_to = os.path.join(base_dir, "datasets")
+
+sl = Speakleash(replicate_to)
+
+wiki = sl.get("plwiki").data
+for doc in wiki:
+    print(doc[:40])
+
+```
+
+
