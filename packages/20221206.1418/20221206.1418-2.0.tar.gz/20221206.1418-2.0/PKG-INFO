@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: 20221206.1418
+Version: 2.0
+Summary: Mark the eyes of specific people
+Home-page: UNKNOWN
+Author: ShangCeXie
+Author-email: 807877537@qq.com
+Maintainer: ShangCeXie
+Maintainer-email: 807877537@qq.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+
+hello it is just a test
+

@@ -1,0 +1,8 @@
+README.md
+setup.py
+20221206.1418.egg-info/PKG-INFO
+20221206.1418.egg-info/SOURCES.txt
+20221206.1418.egg-info/dependency_links.txt
+20221206.1418.egg-info/top_level.txt
+eyes_recognition_module/__init__.py
+eyes_recognition_module/face_eyes_recognition_ops.py
