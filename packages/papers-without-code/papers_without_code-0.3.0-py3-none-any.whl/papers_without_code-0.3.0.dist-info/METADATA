@@ -1,0 +1,136 @@
+Metadata-Version: 2.1
+Name: papers-without-code
+Version: 0.3.0
+Summary: A package (and website) to automatically attempt to find the code associated with a paper.
+Author-email: Eva Maxfield Brown <evamaxfieldbrown@gmail.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/evamaxfield/papers-without-code
+Project-URL: Bug Tracker, https://github.com/evamaxfield/papers-without-code/issues
+Project-URL: Documentation, https://evamaxfield.github.io/papers-without-code
+Project-URL: User Support, https://github.com/evamaxfield/papers-without-code/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: backoff (~=2.2)
+Requires-Dist: beautifulsoup4 (~=4.11)
+Requires-Dist: dataclasses-json (~=0.5)
+Requires-Dist: flask (~=2.2)
+Requires-Dist: ghapi (~=1.0)
+Requires-Dist: keybert (~=0.7)
+Requires-Dist: python-dotenv (~=0.21.0)
+Requires-Dist: requests (~=2.28)
+Requires-Dist: semanticscholar (~=0.3)
+Requires-Dist: sentence-transformers (~=2.2)
+Provides-Extra: dev
+Requires-Dist: ipython (>=8.4.0) ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: m2r2 (>=0.2.7) ; extra == 'docs'
+Requires-Dist: Sphinx (>=4.0.0) ; extra == 'docs'
+Requires-Dist: furo (>=2022.4.7) ; extra == 'docs'
+Requires-Dist: numpydoc ; extra == 'docs'
+Requires-Dist: sphinx-copybutton ; extra == 'docs'
+Requires-Dist: docutils (<0.19,>=0.18) ; extra == 'docs'
+Requires-Dist: jupyterlab ; extra == 'docs'
+Requires-Dist: nbconvert ; extra == 'docs'
+Requires-Dist: seaborn ; extra == 'docs'
+Provides-Extra: grobid
+Requires-Dist: docker (~=6.0) ; extra == 'grobid'
+Requires-Dist: grobid-client-python (==0.0.4) ; extra == 'grobid'
+Requires-Dist: pandas (~=1.0) ; extra == 'grobid'
+Requires-Dist: xmltodict (~=0.13) ; extra == 'grobid'
+Provides-Extra: lint
+Requires-Dist: black (>=22.3.0) ; extra == 'lint'
+Requires-Dist: check-manifest (>=0.48) ; extra == 'lint'
+Requires-Dist: flake8 (>=5.0.4) ; extra == 'lint'
+Requires-Dist: flake8-debugger (>=3.2.1) ; extra == 'lint'
+Requires-Dist: Flake8-pyproject (>=1.1.0) ; extra == 'lint'
+Requires-Dist: flake8-typing-imports (>=1.9.0) ; extra == 'lint'
+Requires-Dist: isort (>=5.7.0) ; extra == 'lint'
+Requires-Dist: mypy (>=0.790) ; extra == 'lint'
+Requires-Dist: pre-commit (>=2.20.0) ; extra == 'lint'
+Requires-Dist: types-requests (~=2.28) ; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: coverage (>=5.1) ; extra == 'test'
+Requires-Dist: pytest (>=5.4.3) ; extra == 'test'
+Requires-Dist: pytest-cov (>=2.9.0) ; extra == 'test'
+Requires-Dist: pytest-raises (>=0.11) ; extra == 'test'
+
+# papers-without-code
+
+[![Build Status](https://github.com/evamaxfield/papers-without-code/workflows/CI/badge.svg)](https://github.com/evamaxfield/papers-without-code/actions)
+[![Python Package Documentation](https://github.com/evamaxfield/papers-without-code/workflows/Documentation/badge.svg)](https://evamaxfield.github.io/papers-without-code)
+
+A Python package ([and website](https://paperswithoutcode.org)) to automatically attempt to find GitHub
+repositories that are similar to academic papers.
+
+[![Image of the Papers without Code web application homepage](https://raw.githubusercontent.com/evamaxfield/papers-without-code/main/docs/_static/web-landing.png)](https://paperswithoutcode.org)
+
+---
+
+## Installation
+
+**Stable Release:** `pip install papers-without-code`<br>
+**Development Head:** `pip install git+https://github.com/evamaxfield/papers-without-code.git`
+
+## Usage
+
+Provide a DOI, SemanticScholarID, CorpusID, ArXivID, ACL,
+or URL from semanticscholar.org, arxiv.org, aclweb.org,
+acm.org, or biorxiv.org. DOIs can be provided as is.
+All other IDs should be given with their type, for example:
+`doi:10.18653/v1/2020.acl-main.447`
+or `CorpusID:202558505` or `url:https://arxiv.org/abs/2004.07180`.
+
+### CLI
+
+```bash
+pip install papers-without-code
+
+pwoc query
+# or pwoc path/to/file.pdf
+```
+
+### Python
+
+```python
+from papers_without_code import search_for_repos
+
+search_for_repos("query")
+# search_for_repos("path/to/file.pdf")
+```
+
+⚠️ Prior to using PWOC with a PDF you must be logged in to Docker CLI via `docker login`
+because we automatically fetch, spin up, and tear down containers for processing. ⚠️
+
+## How it Works
+
+In short, we pass the query on to the Semantic Scholar search service
+(wrapped by [danielnsilva/semanticscholar](https://github.com/danielnsilva/semanticscholar))
+which provides us basic details about the paper. We then use
+[KeyBERT](https://github.com/MaartenGr/KeyBERT) to extract keywords from the paper
+title and abstract. We then make multiple threaded requests to GitHub's API
+for repositories which match the keywords. Once we have all the possible repositories
+back, we rank them by similarity between the repository's README and the paper's
+abstract (or if not available, it's title).
+
+When using Papers without Code locally and providing a filepath, the only change to
+this workflow, is keyword extraction. When local and providing a filepath,
+we use [GROBID](https://github.com/kermitt2/grobid) to extract
+keywords from the full text of the paper in addition to the title and abstract.
+
+## Documentation
+
+For full package documentation please visit [evamaxfield.github.io/papers-without-code](https://evamaxfield.github.io/papers-without-code).
+
+[Exploratory data analysis of the dataset used for testing](https://evamaxfield.github.io/papers-without-code/eda.html)
+
+## Development
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for information related to developing the code.
+
+**MIT License**
