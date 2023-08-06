@@ -1,0 +1,5 @@
+setup.py
+Tes_Delete1992_Delete.egg-info/PKG-INFO
+Tes_Delete1992_Delete.egg-info/SOURCES.txt
+Tes_Delete1992_Delete.egg-info/dependency_links.txt
+Tes_Delete1992_Delete.egg-info/top_level.txt
