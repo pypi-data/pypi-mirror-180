@@ -1,0 +1,2 @@
+[console_scripts]
+j1nuclei = j1nuclei.cli:main
