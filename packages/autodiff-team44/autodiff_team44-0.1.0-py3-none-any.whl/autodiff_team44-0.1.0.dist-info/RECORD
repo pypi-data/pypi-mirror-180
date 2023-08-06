@@ -1,0 +1,11 @@
+autodiff_team44/__init__.py,sha256=rCHJqB2QuhS4GMVvHVOqSIzH7iDX_58zd4PRxkmSzVA,67
+autodiff_team44/ad.py,sha256=d7Ay_LrH6eBaVPJZxt5CBhauuK2JIhQJOhLv2e-nYYM,11819
+autodiff_team44/functions.py,sha256=mgoPeKg3YHyrLdT-zzfFrn32Qu9mGJ28ZGFkUvYBOe8,3189
+autodiff_team44/rev_ad.py,sha256=y3zMYWk2YC7AIle5XjyETUo5Quc_e68JnQHNVjt9Bso,3037
+autodiff_team44/rev_variable.py,sha256=RTOBSAUmJMnBMBfQnpmDh4dSzPswoSurXMtlOJx-LDE,3878
+autodiff_team44/variable.py,sha256=YJ5KFLKCkktafO0R9M_FhqMgLNYTpyCjhacJ2pBPXpE,7922
+autodiff_team44-0.1.0.dist-info/LICENSE,sha256=ygAjwVOQyEeNOD2f7GsepaBR3bSpxlk15QMYRt1CvdY,1134
+autodiff_team44-0.1.0.dist-info/METADATA,sha256=yf8tx8fr0xF9kMReku3_I9IHDDbWRlNRTFu1yqrrys8,1361
+autodiff_team44-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+autodiff_team44-0.1.0.dist-info/top_level.txt,sha256=rKmw9n-hz84EH0z6ljsDhUKGyACdqhEGfKrlVuG20Xw,16
+autodiff_team44-0.1.0.dist-info/RECORD,,
