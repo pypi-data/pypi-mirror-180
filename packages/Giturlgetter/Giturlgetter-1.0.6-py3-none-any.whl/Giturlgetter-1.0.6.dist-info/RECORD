@@ -1,0 +1,11 @@
+command_line/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+command_line/__main__.py,sha256=DRL8kfvaNV6OpHmlTIp5YjLFT8d3eF_lnIUuOAfruFc,44
+command_line/cli.py,sha256=ckMniGYQ2clq_neojZVkLlIYblJAnZoroSJnqkTWyss,7055
+command_line/config.py,sha256=JrB-q43wpYKa8aZSYu3mxqS4jrXX4ZJp96ks4fAXyps,556
+command_line/extractor.py,sha256=36CM-hms4xTh2k_WhmI82PeIC2iX2dfWtKCEMoJQ65Y,1647
+Giturlgetter-1.0.6.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+Giturlgetter-1.0.6.dist-info/METADATA,sha256=QAGQpJUkLyntv_xuzLqNYwe4BQxFAuVk57WFWdAYK0U,3509
+Giturlgetter-1.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+Giturlgetter-1.0.6.dist-info/entry_points.txt,sha256=xx1-WyGIWIiVmeKGmAdvXR0Z3PWSsCiZM-xu_jBlO6A,53
+Giturlgetter-1.0.6.dist-info/top_level.txt,sha256=VrW32RGIbSRsaBwTmFpLVkEvn_RghlkFLo5mraVIfug,13
+Giturlgetter-1.0.6.dist-info/RECORD,,
