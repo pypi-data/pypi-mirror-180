@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/TI_Lib.egg-info/PKG-INFO
+src/TI_Lib.egg-info/SOURCES.txt
+src/TI_Lib.egg-info/dependency_links.txt
+src/TI_Lib.egg-info/requires.txt
+src/TI_Lib.egg-info/top_level.txt
+src/tilib/__init__.py
+src/tilib/indicators.py
