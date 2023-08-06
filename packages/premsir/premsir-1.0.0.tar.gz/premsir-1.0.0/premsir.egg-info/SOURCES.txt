@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+premsir/__init__.py
+premsir/main.py
+premsir.egg-info/PKG-INFO
+premsir.egg-info/SOURCES.txt
+premsir.egg-info/dependency_links.txt
+premsir.egg-info/top_level.txt
