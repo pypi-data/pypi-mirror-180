@@ -1,0 +1,22 @@
+# The cloud cost estimator settings file allows for customization
+# of setting for the estimator.
+
+# clouds to include (currently supported are aws and google)
+clouds: [aws, google]
+
+# config editor
+config_editor: vim
+
+# Only use the cache
+cache_only: false
+
+# disable adding prices?
+# disabled for now because is a bit lengthy
+disable_prices: false
+
+# cloud specific settings
+google:
+  regions: ["us-east1", "us-west1", "us-central1"]
+
+aws:
+  regions: ["us-east-1"]
