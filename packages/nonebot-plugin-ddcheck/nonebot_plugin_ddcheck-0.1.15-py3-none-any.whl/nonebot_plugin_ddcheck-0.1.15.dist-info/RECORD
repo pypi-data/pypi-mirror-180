@@ -1,0 +1,8 @@
+nonebot_plugin_ddcheck/__init__.py,sha256=Y3Cy-4TvzuaOzbYml1tDw-EZ4hQvQDRWLtc1QJzXXss,1262
+nonebot_plugin_ddcheck/config.py,sha256=yD4pjmjw6KE6J5wNFEOdHEGSnmiEeXcwW8UmFyJzhFQ,115
+nonebot_plugin_ddcheck/data_source.py,sha256=CUkj5b8n5bxgUlfOCq5y5KgjPnvo814TmViC4SIP0pQ,6801
+nonebot_plugin_ddcheck/template/info.html,sha256=g8O0lwghQy6H_S0bq5o_1NOS5oyIk2_90Z_HajjKSEA,5049
+nonebot_plugin_ddcheck-0.1.15.dist-info/LICENSE,sha256=MB9kjv_MMzk3mfQT1djd80kgH9jSNxiT7KyaGXg2IY4,1063
+nonebot_plugin_ddcheck-0.1.15.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+nonebot_plugin_ddcheck-0.1.15.dist-info/METADATA,sha256=5iJKsEJQkP89InUW2M5yt2EfOgbfU2nLfs_YjeM09DA,2042
+nonebot_plugin_ddcheck-0.1.15.dist-info/RECORD,,
