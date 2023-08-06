@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "umlts_folioapi"
+version = "0.0.3"
+authors = [
+  { name="Joe Brown", email="jrb7f0@missouri.edu" },
+]
+description = "A package for consuming UMS's FOLIO Instance API"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
