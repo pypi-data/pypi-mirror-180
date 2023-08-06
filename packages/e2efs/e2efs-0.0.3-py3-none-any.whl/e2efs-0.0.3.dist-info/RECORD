@@ -1,0 +1,13 @@
+e2efs/.DS_Store,sha256=rVYHxHCzg3hFBlx64jYy6YsAxI-TjFx4y04qQVBfL5g,6148
+e2efs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+e2efs/callbacks.py,sha256=yrWgdXBgKB93e0JcwyQJ8ZdDq_sc8bbngZpFV9J_wtY,1311
+e2efs/e2efs_layers.py,sha256=0UnFVFWGac5usRv5YhwPm5KtI2p70ZCZxG9CT8d9tK4,13736
+e2efs/e2efs_layers_tf2.py,sha256=88enZ8Svd_IhGmUu1maUMXLxxkKlLPSx3w2Ex0YsdWE,13570
+e2efs/models.py,sha256=FF3UyFHTCHrxmpALnlyt2y7Z6_GS-SsVteTiMFypcuc,5772
+e2efs/optimizers.py,sha256=1WoFayRy2D9Ied6zG6zzb_17Srq_jXOXFTKkvVt975M,16561
+e2efs/optimizers_tf2.py,sha256=IxAMfup0byAQu0ksTpT1i0s0E1GThEfYdhU3lI_56ao,13066
+e2efs/optimizers_tf29.py,sha256=IxAMfup0byAQu0ksTpT1i0s0E1GThEfYdhU3lI_56ao,13066
+e2efs-0.0.3.dist-info/METADATA,sha256=AK8KWbYTEqJ6IxG-1DugUoIX2WMjzFfYTV_XfUgX4kM,44264
+e2efs-0.0.3.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+e2efs-0.0.3.dist-info/licenses/LICENSE,sha256=N0P3pKtRMvfb64jmgJdlerg3TnS0a2QC776AzPsbZIg,35128
+e2efs-0.0.3.dist-info/RECORD,,
