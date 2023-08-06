@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: simple-onvif
+Version: 0.0.1
+Summary: Simple ONVIF Library
+Home-page: https://github.com/osom8979/simple-onvif
+Author: zer0
+Author-email: osom8979@gmail.com
+Maintainer: zer0
+Maintainer-email: osom8979@gmail.com
+License: MIT License
+Project-URL: GitHub: issues, https://github.com/osom8979/simple-onvif/issues
+Project-URL: GitHub: repo, https://github.com/osom8979/simple-onvif
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: coloredlogs (>=15.0.1)
+
+# simple-onvif
+
+[![PyPI](https://img.shields.io/pypi/v/simple-onvif?style=flat-square)](https://pypi.org/project/simple-onvif/)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/simple-onvif?style=flat-square)
+[![GitHub](https://img.shields.io/github/license/osom8979/simple-onvif?style=flat-square)](https://github.com/osom8979/simple-onvif/)
+
+Simple ONVIF Library
+
+## License
+
+See the [LICENSE](./LICENSE) file for details. In summary,
+**simple-onvif** is licensed under the **MIT license**.
+
+

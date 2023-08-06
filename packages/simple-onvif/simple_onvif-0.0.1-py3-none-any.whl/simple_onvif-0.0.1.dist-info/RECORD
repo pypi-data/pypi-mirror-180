@@ -1,0 +1,14 @@
+simple_onvif/__init__.py,sha256=8yxB_B76eTf4fuNq7tzsT7uK60sPHcpeM9EyGjlqbMU,47
+simple_onvif/__main__.py,sha256=3E1gKP4wDLyhf-FfSckuRA4ypP67zdpeQVtH-aqs78o,111
+simple_onvif/arguments.py,sha256=JuSQQ1B1jp84e-c_8HXNUNk-ePhtXvNQ2cZwbRdZx0o,4017
+simple_onvif/entrypoint.py,sha256=eTAshvZ7-sF5Gvq7VZuw_HdUbjMZSgaSL4zQyByqZJI,2111
+simple_onvif/logging/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simple_onvif/logging/colored_formatter.py,sha256=fAedRmXIM6ttJyI8263O9uggHf8__a1SoS1lNj3I20g,1099
+simple_onvif/logging/logging.py,sha256=FhU9pRFPAAizuOwROMCSOwSlDhBprp3rulmQ3gT2z2Y,5489
+simple_onvif/www/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simple_onvif-0.0.1.dist-info/LICENSE,sha256=XK7AS45Xg5-MDCfPGLb0hQmtq_t_d34wWWnYvednPKA,1065
+simple_onvif-0.0.1.dist-info/METADATA,sha256=d0-flUMJtuWFr0MxJHRnqxJ8KORKVw5h00aWfboqXXo,1440
+simple_onvif-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+simple_onvif-0.0.1.dist-info/entry_points.txt,sha256=sE-cLBV6ZpISiJsIcboFKb2M5bnyKbduafdadKg898M,63
+simple_onvif-0.0.1.dist-info/top_level.txt,sha256=1wLW2Kb0S7R7eHAJ_xmjfC7RBrc_BD_EnGf0sWC5aJ0,13
+simple_onvif-0.0.1.dist-info/RECORD,,
