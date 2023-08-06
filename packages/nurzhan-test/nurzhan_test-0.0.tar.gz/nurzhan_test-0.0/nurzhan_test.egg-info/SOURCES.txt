@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+nurzhan_test/__init__.py
+nurzhan_test/nurzhan_test.py
+nurzhan_test.egg-info/PKG-INFO
+nurzhan_test.egg-info/SOURCES.txt
+nurzhan_test.egg-info/dependency_links.txt
+nurzhan_test.egg-info/not-zip-safe
+nurzhan_test.egg-info/top_level.txt

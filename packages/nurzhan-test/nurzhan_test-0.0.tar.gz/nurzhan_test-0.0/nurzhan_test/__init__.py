@@ -1,0 +1,1 @@
+from nurzhan_test import MatematikaN
