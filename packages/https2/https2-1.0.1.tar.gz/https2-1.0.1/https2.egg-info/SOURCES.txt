@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+https2.egg-info/PKG-INFO
+https2.egg-info/SOURCES.txt
+https2.egg-info/dependency_links.txt
+https2.egg-info/requires.txt
+https2.egg-info/top_level.txt

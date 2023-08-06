@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: https2
+Version: 1.0.1
+Summary: https2 lets you access Django shell from your Python modules
+Home-page: https://github.com/biwin/https2
+Download-URL: https://github.com/biwin/https2/
+Author: Kei Ma
+Author-email: keima@gmail.com
+License: Apache 2.0
+Keywords: django,https2,python
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
