@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+multiworkerqueue/__init__.py
+multiworkerqueue/multi_worker_queue.py
+multiworkerqueue.egg-info/PKG-INFO
+multiworkerqueue.egg-info/SOURCES.txt
+multiworkerqueue.egg-info/dependency_links.txt
+multiworkerqueue.egg-info/top_level.txt
