@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: fetch-content-providers-and-resolvers
+Version: 0.10
+Summary: Finds content providers/resolvers on Android devices 
+Home-page: https://github.com/hansalemaos/fetch_content_providers_and_resolvers
+Author: Johannes Fischer
+Author-email: <aulasparticularesdealemaosp@gmail.com>
+License: MIT
+Keywords: settings,adb,pandas,DataFrame,content,android,providers,resolvers
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Editors :: Text Processing
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+Requires-Dist: a-pandas-ex-adb-to-df
+Requires-Dist: a-pandas-ex-plode-tool
+Requires-Dist: cprinter
+Requires-Dist: flatten-everything
+Requires-Dist: list-all-files-recursively
+Requires-Dist: pandas
+Requires-Dist: PyRipGrep
+
+
+# Finds content providers/resolvers on Android devices 
+
+
+
+### Some things you have to know:
+
+
+
+- You might need root access 
+
+- I have only tested it against BlueStacks / Windows 10 / Python 3.9.
+
+
+
+
+
+```python
+
+
+
+$pip install fetch-content-providers-and-resolvers
+
+
+
+
+
+from fetch_content_providers_and_resolvers import ContentProviderResolverFetcher
+
+adb_path = "C:\\Users\\Gamer\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe"
+
+deviceserial = "localhost:5875"
+
+cpr = ContentProviderResolverFetcher(
+
+    adb_path=adb_path,
+
+    deviceserial=deviceserial,
+
+    folder="data/",  # As far as I know, this folder exists on any Android device, so you don't have to change anything
+
+    folder_for_temp_files=r"F:\ctestprov",  # Folder to store the temp dex files
+
+    ripgrep_path="rg.exe",  # Download RipGrep https://github.com/BurntSushi/ripgrep/releases/download/13.0.0/ripgrep-13.0.0-x86_64-pc-windows-gnu.zip
+
+)
+
+cpr.connect_to_adb()
+
+cpr.get_all_files()  # Find all dex files / If you want to limit the packages to scan, you can modify cpr.df
+
+cpr.pull_files()  # Copy the files to the hard drive
+
+cpr.extract_content_providers()
+
+cpr.check_results(
+
+    exit_keys="ctrl+x", print_output=True, timeout=None,
+
+)  # If you press ctrl+x you can kill a query which got stuck, you can also set a timeout for each query
+
+df = cpr.get_all_results_checked()  # returns checked results
+
+df1 = cpr.get_all_results()  # returns unchecked results
+
+
+
+
+
+
+
+```
+
