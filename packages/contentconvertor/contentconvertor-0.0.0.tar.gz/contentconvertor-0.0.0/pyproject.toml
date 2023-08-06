@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[tool.setuptools]
+
+[tool.wheel]
+
+[metadata]
+name = "contentconvertor"
+version = "0.1.0"
+author = "Léo Leducq"
+author-email = "iziatask@gmail.com"
+description = "Converts content from Twitter to a png image that can be uploaded to Instagram"
+long_description = "readme.md"
+keywords = ["twitter", "instagram", "content", "convertor"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Other Audience",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: French",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+source = "https://github.com/leoleducq/Content-Convertor"
+
+[options]
+packages = ["contentconvertor"]
+include_package_data = true
+install_requires = ["Pillow==9.3.0",
+    "tweepy==4.12.1",
+    "tweet_capture==0.1.7"]
