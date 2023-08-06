@@ -1,0 +1,186 @@
+name: Build (& Test)
+on:
+  workflow_dispatch:
+    inputs:
+      debug_enabled:
+        description: 'Run workflow with ssh debugging'
+        required: false
+        default: false
+  release:
+    types: [published]
+
+  schedule:
+    - cron: '0 0 * * 0'
+
+env:
+  PACKAGE_NAME: pymer4
+  DEPLOY_PY_VER: 3.8  # only this job deploys docs, anaconda.org, pypi
+  DEPLOY_OS: ubuntu-latest
+  CONDA_BLD_PATH: /tmp/ci_conda_bld
+
+defaults:
+  run:
+    # login shell to source the conda hook in .bash_profile
+    shell:
+      bash -l {0}
+
+jobs:
+  ci:
+    runs-on: ${{ matrix.os }}
+    continue-on-error: ${{ matrix.experimental }}
+    strategy:
+      fail-fast: false
+      matrix:
+        py_ver: [3.8, 3.9]
+        os: [ubuntu-latest, macos-latest]
+        experimental: [false]
+        include:
+          - py_ver: 3.7
+            os: macos-latest
+            experimental: true
+          - py_ver: 3.7
+            os: ubuntu-latest
+            experimental: false
+
+    outputs:
+      # tarballs are py3X job-specific
+      conda-tarball: ${{ steps.conda-bld.outputs.conda-tarball }}
+
+    steps:
+
+      # ------------------------------------------------------------
+      # 0. Print some basic github action info
+      - name: diagnostic info
+        run: |
+          echo "OS: ${{ matrix.os }}" 
+          echo "Python: ${{ matrix.py_ver }}" 
+          echo "Conda build path: $CONDA_BLD_PATH"
+          echo "Deploy OS: $DEPLOY_OS"
+          echo "Deploy Python: $DEPLOY_PY_VER"
+          echo "GA event name: ${{ github.event_name }}"
+          echo "GA ref: ${{ github.ref }}"
+
+      # ------------------------------------------------------------
+      # Step up miniconda
+      - name: Download Miniconda
+        uses: conda-incubator/setup-miniconda@059455a698430d8b68fa317268fa2e3da3492a98
+        with:
+          miniconda-version: "latest"
+          python-version: ${{ matrix.py_ver }}
+
+      # ------------------------------------------------------------
+      # Get code
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # ------------------------------------------------------------
+      # Setup conda build environment and build package
+      # env defined here are just for convenience when writing bash commands
+      - name: Setup and build package
+        env:
+          OS: ${{ runner.os }}   
+          PY_VER: ${{ matrix.py_ver }}
+        run: |
+          conda config --set always_yes yes --set changeps1 no
+          conda config --set bld_path $CONDA_BLD_PATH
+          conda install -n base -q conda-build
+          conda deactivate
+          echo "# ----------------BUILDING---------------------------------"
+          conda config --show | grep bld_path
+          conda info
+          conda-build ./conda/ --python=$PY_VER -c https://conda.anaconda.org/conda-forge/ --verify
+          tarball=$(conda build --python=$PY_VER conda --output | tail -1)
+          if [[ $OS == "Linux" ]]; then \
+              conda convert -p win-64 -o $CONDA_BLD_PATH $tarball; \
+          fi
+          echo "conda build tarball" $tarball
+          echo "::set-output name=conda-tarball::$tarball"
+          echo "{conda-tarball}={$tarball}" >> $GITHUB_OUTPUT
+
+      # ------------------------------------------------------------
+      # Create new conda env and install package locally
+      # Test installation worked
+      # Get black and pytest from pip because black version on conda lags behind
+      - name: Test installation 
+        env:
+          PY_VER: ${{ matrix.py_ver }}
+        run: |
+          conda create -n env_$PY_VER python=$PY_VER $PACKAGE_NAME -c $CONDA_BLD_PATH -c conda-forge -c defaults
+          conda activate env_$PY_VER
+          pip install -r requirements-dev.txt
+          python -c "from pymer4.test_install import test_install; test_install()"
+
+      # 4. Run code tests
+      - name: Run Test Suite
+        env:
+          PY_VER: ${{ matrix.py_ver }}
+        run: |
+          conda activate env_$PY_VER
+          black --check --verbose .
+          pytest pymer4/tests
+
+      # 5a. Build docs (only for 3.8 which handles deployment)
+      # Will also run on PRs which serves as another layer of testing
+      - name: Build docs
+        env:
+          PY_VER: ${{ matrix.py_ver }}
+        if: ${{ matrix.py_ver == env.DEPLOY_PY_VER && matrix.os == env.DEPLOY_OS }}
+        run: |
+          conda activate env_$PY_VER
+          conda install sphinx sphinx_bootstrap_theme sphinx-gallery -c conda-forge
+          cd docs && make clean && make html
+          touch _build/html/.nojekyll
+
+      # 5b. Deploy docs (only for 3.8 which handles deployment)
+      # Only runs when a PR is merged into master or there's a direct push to master
+      - name: Deploy docs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        if: ${{ (matrix.py_ver == env.DEPLOY_PY_VER && matrix.os == env.DEPLOY_OS) && ((github.event_name == 'push' && github.ref == 'refs/heads/master') || (github.event.pull_request.merged && github.base_ref == 'master' && github.head_ref == 'dev')) }}
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          target_branch: gh-pages
+          build_dir: docs/_build/html
+
+      # 6. Build package for PyPi (only for 3.8 linux which handles deployment)
+      - name: Build for Pypi
+        if: ${{ matrix.py_ver == env.DEPLOY_PY_VER && matrix.os == env.DEPLOY_OS }}
+        run: |
+          conda activate env_$PY_VER
+          pip install build
+          python -m build --sdist --wheel --outdir dist/
+      
+      # 7. Deploy package to Pypi 
+      # Only runs when a manual github release is created
+      - name: PyPi deploy
+        if: ${{ matrix.py_ver == env.DEPLOY_PY_VER && matrix.os == env.DEPLOY_OS && github.event_name == 'release'}}
+        uses: pypa/gh-action-pypi-publish@master
+        with:
+          password: ${{ secrets.PYPI_API_TOKEN }}
+
+      # 8a. Deploy package to main conda channel but each OS uploads their own and linux uploads for linux and windows
+      # Only runs when a manual github release is created
+      - name: Conda main deploy 
+        if: ${{ github.event_name == 'release' }}
+        env:
+          ANACONDA_TOKEN: ${{ secrets.ANACONDA_TOKEN }}
+        run: |
+          echo 'Conda release on main channel'
+          anaconda -t "$ANACONDA_TOKEN" upload $CONDA_BLD_PATH/**/${PACKAGE_NAME}*.tar.bz2 -l "main"
+
+      # OR -----
+
+      # 8b. Deploy package to pre-release conda channel (only for 3.8 which handles deployment) but each OS uploads their own and linux uploads for linux and windows
+      # Only runs when a PR is merged into master or there's a direct push to master
+      - name: Conda pre-release deploy
+        if: ${{ ((github.event_name == 'push' && github.ref == 'refs/heads/master') || (github.event.pull_request.merged && github.base_ref == 'master' && github.head_ref == 'dev')) }}
+        env:
+          ANACONDA_TOKEN: ${{ secrets.ANACONDA_TOKEN }}
+        run: |
+          echo 'Conda release on pre-release channel'
+          anaconda -t "$ANACONDA_TOKEN" upload $CONDA_BLD_PATH/**/${PACKAGE_NAME}*.tar.bz2 -l "pre-release"
+        
+      # N. Optionall debug via ssh if workflow is run manually with debug_enabled = true
+      - name: Setup SSH session
+        if: ${{ github.event_name == 'workflow_dispatch' && github.events.inputs.debug_enabled }}
+        uses: mxschmitt/action-tmate@v3
