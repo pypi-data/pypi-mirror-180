@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+test.py
+src/The_miserable_life_of_architectural_students.egg-info/PKG-INFO
+src/The_miserable_life_of_architectural_students.egg-info/SOURCES.txt
+src/The_miserable_life_of_architectural_students.egg-info/dependency_links.txt
+src/The_miserable_life_of_architectural_students.egg-info/requires.txt
+src/The_miserable_life_of_architectural_students.egg-info/top_level.txt
+src/pybeginner/chart_design/BAR.py
+src/pybeginner/chart_design/__init__.py
+src/pybeginner/pygame/The miserable life of architectural students.py
+src/pybeginner/pygame/__init__.py
