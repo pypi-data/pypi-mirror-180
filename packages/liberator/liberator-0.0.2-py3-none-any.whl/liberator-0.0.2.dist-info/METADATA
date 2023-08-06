@@ -1,0 +1,161 @@
+Metadata-Version: 2.1
+Name: liberator
+Version: 0.0.2
+Summary: static code extractor for Python
+Home-page: https://gitlab.kitware.com/python/liberator
+Author: Jon Crall
+Author-email: jon.crall@kitware.com
+License: Apache 2
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: astunparse
+Requires-Dist: six
+Requires-Dist: ubelt
+Requires-Dist: pyflakes
+Requires-Dist: pygtrie
+Provides-Extra: all
+Requires-Dist: astunparse ; extra == 'all'
+Requires-Dist: six ; extra == 'all'
+Requires-Dist: ubelt ; extra == 'all'
+Requires-Dist: pyflakes ; extra == 'all'
+Requires-Dist: pygtrie ; extra == 'all'
+Requires-Dist: xdoctest ; extra == 'all'
+Provides-Extra: all-strict
+Requires-Dist: astunparse (==1.6.3) ; extra == 'all-strict'
+Requires-Dist: six (==1.16.0) ; extra == 'all-strict'
+Requires-Dist: ubelt (==1.1.2) ; extra == 'all-strict'
+Requires-Dist: pyflakes (==2.2.0) ; extra == 'all-strict'
+Requires-Dist: pygtrie (==2.3.3) ; extra == 'all-strict'
+Requires-Dist: xdoctest (==0.14.0) ; extra == 'all-strict'
+Requires-Dist: coverage (==4.5) ; (python_version < "2.7" and python_version >= "2.6") and extra == 'all-strict'
+Requires-Dist: pytest (<=4.6.11,==4.6.0) ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'all-strict'
+Requires-Dist: pytest-cov (==2.8.1) ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'all-strict'
+Requires-Dist: coverage (==5.3.1) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all-strict'
+Requires-Dist: pytest (==4.6.0) ; (python_version < "3.10.0" and python_version >= "3.7.0") and extra == 'all-strict'
+Requires-Dist: coverage (==5.3.1) ; (python_version < "3.4" and python_version >= "2.7") and extra == 'all-strict'
+Requires-Dist: coverage (==4.3.4) ; (python_version < "3.5" and python_version >= "3.4") and extra == 'all-strict'
+Requires-Dist: pytest (<=4.6.11,==4.6.0) ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'all-strict'
+Requires-Dist: pytest-cov (==2.8.1) ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'all-strict'
+Requires-Dist: coverage (==5.3.1) ; (python_version < "3.6" and python_version >= "3.5") and extra == 'all-strict'
+Requires-Dist: pytest (<=6.1.2,==4.6.0) ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'all-strict'
+Requires-Dist: pytest-cov (==2.9.0) ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'all-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version < "3.7" and python_version >= "3.6") and extra == 'all-strict'
+Requires-Dist: pytest (==4.6.0) ; (python_version < "3.7.0" and python_version >= "3.6.0") and extra == 'all-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version < "3.8" and python_version >= "3.7") and extra == 'all-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'all-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: pytest (==6.2.5) ; (python_version >= "3.10.0") and extra == 'all-strict'
+Requires-Dist: pytest-cov (==3.0.0) ; (python_version >= "3.6.0") and extra == 'all-strict'
+Requires-Dist: coverage ; (python_version < "2.7" and python_version >= "2.6") and extra == 'all'
+Requires-Dist: pytest ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'all'
+Requires-Dist: pytest-cov ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'all'
+Requires-Dist: coverage ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all'
+Requires-Dist: pytest ; (python_version < "3.10.0" and python_version >= "3.7.0") and extra == 'all'
+Requires-Dist: coverage ; (python_version < "3.4" and python_version >= "2.7") and extra == 'all'
+Requires-Dist: coverage ; (python_version < "3.5" and python_version >= "3.4") and extra == 'all'
+Requires-Dist: pytest ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'all'
+Requires-Dist: pytest-cov ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'all'
+Requires-Dist: coverage ; (python_version < "3.6" and python_version >= "3.5") and extra == 'all'
+Requires-Dist: pytest ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'all'
+Requires-Dist: pytest-cov ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'all'
+Requires-Dist: coverage ; (python_version < "3.7" and python_version >= "3.6") and extra == 'all'
+Requires-Dist: pytest ; (python_version < "3.7.0" and python_version >= "3.6.0") and extra == 'all'
+Requires-Dist: coverage ; (python_version < "3.8" and python_version >= "3.7") and extra == 'all'
+Requires-Dist: coverage ; (python_version < "3.9" and python_version >= "3.8") and extra == 'all'
+Requires-Dist: coverage ; (python_version >= "3.10") and extra == 'all'
+Requires-Dist: pytest ; (python_version >= "3.10.0") and extra == 'all'
+Requires-Dist: pytest-cov ; (python_version >= "3.6.0") and extra == 'all'
+Provides-Extra: optional
+Provides-Extra: optional-strict
+Provides-Extra: runtime-strict
+Requires-Dist: astunparse (==1.6.3) ; extra == 'runtime-strict'
+Requires-Dist: six (==1.16.0) ; extra == 'runtime-strict'
+Requires-Dist: ubelt (==1.1.2) ; extra == 'runtime-strict'
+Requires-Dist: pyflakes (==2.2.0) ; extra == 'runtime-strict'
+Requires-Dist: pygtrie (==2.3.3) ; extra == 'runtime-strict'
+Provides-Extra: tests
+Requires-Dist: xdoctest ; extra == 'tests'
+Provides-Extra: tests-strict
+Requires-Dist: xdoctest (==0.14.0) ; extra == 'tests-strict'
+Requires-Dist: coverage (==4.5) ; (python_version < "2.7" and python_version >= "2.6") and extra == 'tests-strict'
+Requires-Dist: pytest (<=4.6.11,==4.6.0) ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'tests-strict'
+Requires-Dist: pytest-cov (==2.8.1) ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'tests-strict'
+Requires-Dist: coverage (==5.3.1) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'tests-strict'
+Requires-Dist: pytest (==4.6.0) ; (python_version < "3.10.0" and python_version >= "3.7.0") and extra == 'tests-strict'
+Requires-Dist: coverage (==5.3.1) ; (python_version < "3.4" and python_version >= "2.7") and extra == 'tests-strict'
+Requires-Dist: coverage (==4.3.4) ; (python_version < "3.5" and python_version >= "3.4") and extra == 'tests-strict'
+Requires-Dist: pytest (<=4.6.11,==4.6.0) ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'tests-strict'
+Requires-Dist: pytest-cov (==2.8.1) ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'tests-strict'
+Requires-Dist: coverage (==5.3.1) ; (python_version < "3.6" and python_version >= "3.5") and extra == 'tests-strict'
+Requires-Dist: pytest (<=6.1.2,==4.6.0) ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'tests-strict'
+Requires-Dist: pytest-cov (==2.9.0) ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'tests-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version < "3.7" and python_version >= "3.6") and extra == 'tests-strict'
+Requires-Dist: pytest (==4.6.0) ; (python_version < "3.7.0" and python_version >= "3.6.0") and extra == 'tests-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version < "3.8" and python_version >= "3.7") and extra == 'tests-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'tests-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version >= "3.10") and extra == 'tests-strict'
+Requires-Dist: pytest (==6.2.5) ; (python_version >= "3.10.0") and extra == 'tests-strict'
+Requires-Dist: pytest-cov (==3.0.0) ; (python_version >= "3.6.0") and extra == 'tests-strict'
+Requires-Dist: coverage ; (python_version < "2.7" and python_version >= "2.6") and extra == 'tests'
+Requires-Dist: pytest ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'tests'
+Requires-Dist: pytest-cov ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'tests'
+Requires-Dist: coverage ; (python_version < "3.10" and python_version >= "3.9") and extra == 'tests'
+Requires-Dist: pytest ; (python_version < "3.10.0" and python_version >= "3.7.0") and extra == 'tests'
+Requires-Dist: coverage ; (python_version < "3.4" and python_version >= "2.7") and extra == 'tests'
+Requires-Dist: coverage ; (python_version < "3.5" and python_version >= "3.4") and extra == 'tests'
+Requires-Dist: pytest ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'tests'
+Requires-Dist: pytest-cov ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'tests'
+Requires-Dist: coverage ; (python_version < "3.6" and python_version >= "3.5") and extra == 'tests'
+Requires-Dist: pytest ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'tests'
+Requires-Dist: pytest-cov ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'tests'
+Requires-Dist: coverage ; (python_version < "3.7" and python_version >= "3.6") and extra == 'tests'
+Requires-Dist: pytest ; (python_version < "3.7.0" and python_version >= "3.6.0") and extra == 'tests'
+Requires-Dist: coverage ; (python_version < "3.8" and python_version >= "3.7") and extra == 'tests'
+Requires-Dist: coverage ; (python_version < "3.9" and python_version >= "3.8") and extra == 'tests'
+Requires-Dist: coverage ; (python_version >= "3.10") and extra == 'tests'
+Requires-Dist: pytest ; (python_version >= "3.10.0") and extra == 'tests'
+Requires-Dist: pytest-cov ; (python_version >= "3.6.0") and extra == 'tests'
+
+Liberator - static code extractor for Python 
+--------------------------------------------
+
+|GitlabCIPipeline| |GitlabCICoverage| |Pypi| |Downloads| 
+
+Liberator is a Python library that "liberates" (i.e. statically extracts) class
+/ function source code from an existing python library into a single standalone
+module. 
+
+It works by statically parsing the code for the class / function definition and
+then recursively parsing and extracting all missing dependencies.
+
+
+..The main webpage for this project is: https://gitlab.kitware.com/python/liberator
+
+
+.. |Pypi| image:: https://img.shields.io/pypi/v/liberator.svg
+   :target: https://pypi.python.org/pypi/liberator
+
+.. |Downloads| image:: https://img.shields.io/pypi/dm/liberator.svg
+   :target: https://pypistats.org/packages/liberator
+
+.. |ReadTheDocs| image:: https://readthedocs.org/projects/liberator/badge/?version=latest
+    :target: http://liberator.readthedocs.io/en/latest/
+
+.. # See: https://ci.appveyor.com/project/jon.crall/liberator/settings/badges
+.. .. |Appveyor| image:: https://ci.appveyor.com/api/projects/status/py3s2d6tyfjc8lm3/branch/master?svg=true
+.. :target: https://ci.appveyor.com/project/jon.crall/liberator/branch/master
+
+.. |GitlabCIPipeline| image:: https://gitlab.kitware.com/python/liberator/badges/master/pipeline.svg
+   :target: https://gitlab.kitware.com/python/liberator/-/jobs
+
+.. |GitlabCICoverage| image:: https://gitlab.kitware.com/python/liberator/badges/master/coverage.svg?job=coverage
+    :target: https://gitlab.kitware.com/python/liberator/commits/master
+
+
