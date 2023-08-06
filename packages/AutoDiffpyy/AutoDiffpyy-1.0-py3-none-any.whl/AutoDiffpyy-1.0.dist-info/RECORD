@@ -1,0 +1,13 @@
+AutoDiffpy/AutoDiffpy.py,sha256=IZwzpRO7a5OJtgbpCT50_2z5lWJpB4TgbvV3rursX7Y,25547
+AutoDiffpy/ElementaryFunc.py,sha256=luoDd8-AiJfWJ9jDyK07_7lpZd7ZdXsJTWa7dcMF3CU,12604
+AutoDiffpy/Node.py,sha256=EvCSOnU66P5l98tcLiBcla4DmHPKV-g26jcAdZYuH-M,2581
+AutoDiffpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+AutoDiffpy/dual.py,sha256=R88vq-RakBqSVWBefhRuZQ3HyQao7Ug6AK2YZJTB0l0,11780
+AutoDiffpy/setup.py,sha256=1JuR-0Y_358fJTmy39-pP6gPWEhVUsgZilyVrCTrNWI,657
+Testpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Testpy/test.py,sha256=grTtj0Tkr4LQNI1-y7cLBEEQlL4rTd1x-9cbN5wP2vk,24420
+AutoDiffpyy-1.0.dist-info/LICENSE,sha256=ICCqut3xQZOgbvn2ocZi9ZRiXzslhneTdPx3kAK-Qko,1111
+AutoDiffpyy-1.0.dist-info/METADATA,sha256=xHjDstv-UaXF3emszRz6rpjzsLodHDfsb4w60wzYoq8,525
+AutoDiffpyy-1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+AutoDiffpyy-1.0.dist-info/top_level.txt,sha256=QqZ2YysP_N08rkBdcckEOZ2vMGqNiPk6ORYoNGS8yXY,18
+AutoDiffpyy-1.0.dist-info/RECORD,,

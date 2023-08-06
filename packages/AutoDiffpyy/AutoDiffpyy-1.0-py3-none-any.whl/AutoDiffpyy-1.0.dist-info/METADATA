@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: AutoDiffpyy
+Version: 1.0
+Summary: Package for fast automatic differentiation in Python
+Home-page: https://code.harvard.edu/CS107/team03
+Author: Jinglun Gao, Chuqing Zhao, Jiaping Lin, Chao Wang
+Author-email: jgao1@g.harvard.edu, chuqingzhao@g.harvard.edu, jiapinglin@g.harvard.edu, chaowang@g.harvard.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
