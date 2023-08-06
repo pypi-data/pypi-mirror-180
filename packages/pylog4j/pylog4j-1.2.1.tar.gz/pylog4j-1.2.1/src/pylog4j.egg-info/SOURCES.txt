@@ -1,0 +1,11 @@
+LICENSE.txt
+README.txt
+pyproject.toml
+setup.cfg
+src/pylog4j/__init__.py
+src/pylog4j/config.py
+src/pylog4j/handlers.py
+src/pylog4j.egg-info/PKG-INFO
+src/pylog4j.egg-info/SOURCES.txt
+src/pylog4j.egg-info/dependency_links.txt
+src/pylog4j.egg-info/top_level.txt
