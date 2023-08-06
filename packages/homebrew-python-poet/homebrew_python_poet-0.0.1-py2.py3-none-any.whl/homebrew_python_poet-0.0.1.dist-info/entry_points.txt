@@ -1,0 +1,3 @@
+[console_scripts]
+poet = poet:main
+poet_lint = poet.lint:main

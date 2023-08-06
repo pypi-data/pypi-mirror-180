@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: homebrew-python-poet
+Version: 0.0.1
+Summary: Writes Homebrew formulae for Python packages
+Home-page: https://github.com/tdsmith/homebrew-pypi-poet
+Author: Justin S. Rice
+Author-email: justin@cloudhippie.com
+License: MIT
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE
+Requires-Dist: jinja2
+Requires-Dist: setuptools
+
