@@ -1,0 +1,3 @@
+[console_scripts]
+crdt=crdt:main
+
