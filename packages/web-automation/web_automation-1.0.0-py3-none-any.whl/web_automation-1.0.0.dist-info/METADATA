@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: web-automation
+Version: 1.0.0
+Summary: Framework built on top of Selenium framework for easy setup and config
+Author-email: The Bored Genius <th3b0redgenius@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2022 The Bored Genius
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/theboredgenius/web-automation
+Keywords: automation,web,framework
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: selenium (==4.7.2)
+
+# Web Automation Framework
+
+This is a project designed to minimize the setup and config of selenium and actions performed on elements
+
+To use this library, create a snippet like below and populate the actions in the `run` method (remove the `pass` keyword)
+
+```python
+from web_automation.framework import Framework, Browser
+
+class CustomClass(Framework):
+    def run(self):
+        pass
+
+CustomClass(
+    browser=Browser.CHROME,  # Accepted browsers [CHROME|EDGE|FIREFOX]
+    wait=10,  # Implicit wait for an element to be present in the document, optional, default value is 30 secs
+    headless=False,  # Open the browser in headless mode, optional, default value is False
+    download_path=''  # Custom download path, optional, default value is system download folder
+)
+```
