@@ -1,0 +1,15 @@
+tdmat/__init__.py,sha256=My-pR70dtqk36HTzv0wLOB0gBAa8FnENjBkU3cSvMzM,105
+tdmat/_data/DHW_sizing/Peak power - 15 min.csv,sha256=Nid9lPbd3FcBaUH4di2ntRjR5Mi6gQ9PDFMUu4ckkxE,1477
+tdmat/_data/DHW_sizing/Peak power - 3 min.csv,sha256=1EPkTs180RTGzn27pvvxxcs-NRXV9Tul4hlCjTm_sEg,1458
+tdmat/_data/DHW_sizing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tdmat/_data/Tabula/Calc_Building_Set.csv,sha256=5MQIOsy_7vJWTBxpy3-moW9a6dIVgerggz6ESLH4-MQ,6042761
+tdmat/_data/Tabula/Tab_Building.csv,sha256=BgR9r07A3sKWC8eYcwc3gwnHEspLIsRuQ7nOwh3cRi4,2204362
+tdmat/_data/Tabula/Tabula.zip,sha256=YsGMSdnt9HfTfDtE8gNXjgUSkHGSjjj55yebyoCdFtk,525688
+tdmat/_data/Tabula/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tdmat/_data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tdmat/demand.py,sha256=svkueKoHNKM6BYbILjiZyt7bRPud3v7tsRP6Lqog_g4,16627
+tdmat/weather.py,sha256=B20cjVp7ONxXrQrfR_36CM2H_rIjKLz2g5FG7t_oZu8,14981
+tdmat-0.1.0.dist-info/LICENSE,sha256=IeV4H72lQWGqSDD9kbKZwOEmnsYYTU0AtSz0MkiJCQs,10751
+tdmat-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+tdmat-0.1.0.dist-info/METADATA,sha256=X9h858j8-qdbKa0vgWBJ5cZD9-C5HuMGOqZWbaJB-vU,2396
+tdmat-0.1.0.dist-info/RECORD,,
