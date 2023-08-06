@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tcod-camera
+Version: 0.0.1
+Summary: Camera helper tools for 2D tile-based projects.
+Author-email: Kyle Benesch <4b796c65+github@gmail.com>
+Requires-Python: >=3.8
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Project-URL: Home, https://github.com/HexDecimal
+Project-URL: Source, https://github.com/HexDecimal/python-tcod-camera
