@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: esetconnect
+Version: 0.1.0
+Summary: 
+Author: Donny Maasland
+Author-email: donny@unauthorizedaccess.nl
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: httpx (>=0.23.1,<0.24.0)
+Requires-Dist: pydantic (>=1.10.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+# ESET Connect
+
+## API Docs
+http://epcpublicapi-test.westeurope.cloudapp.azure.com/swagger/
+
+
