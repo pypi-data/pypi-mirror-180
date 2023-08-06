@@ -1,0 +1,12 @@
+Pillow
+numpy
+pyautogui
+
+[:platform_system == "Windows"]
+win32api
+
+[:platform_system == "darwin"]
+pyobjc
+pyobjc-core
+pasteboard
+get-pixel-color
