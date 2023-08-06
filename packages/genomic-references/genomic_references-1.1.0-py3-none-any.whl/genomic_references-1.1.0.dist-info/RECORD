@@ -1,0 +1,9 @@
+genomic_references/__init__.py,sha256=b6aPftdKDYH_iDL8OlAH0dswamSyEHm3eLwnDHua75c,48
+genomic_references/__version__.py,sha256=LGVQyDsWifdACo7qztwb8RWWHds1E7uQ-ZqD8SAjyw4,22
+genomic_references/annotation.py,sha256=6NfbbuBam6i9BWYMBSoBbV7260utcBl9_rTfiJaJ9Iw,783
+genomic_references/base_dir.py,sha256=4bA94ba-KZYTX5O-uuHMyLJil9_MSnakezKOyuSfygA,1180
+genomic_references/genomic_reference.py,sha256=IO4PHcFPFjcqQNPaVO1q4jCwpsa8SsDM3-T6JB2vlq0,3340
+genomic_references/helpers.py,sha256=GIwA8IotQgAOV7UkfP9vuuvg5-TaL5PK4LaRZMaoZsA,1050
+genomic_references-1.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+genomic_references-1.1.0.dist-info/METADATA,sha256=Ntx9AP0rR-pP2xRkti9QaPLgIAgTK8wjUHpLy83p2lE,605
+genomic_references-1.1.0.dist-info/RECORD,,
