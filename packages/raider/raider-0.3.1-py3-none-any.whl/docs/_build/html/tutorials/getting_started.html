@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Getting Started &mdash; raider 0.3.0 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/assets/jsonview.bundle.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sphinx-needs/libs/html/datatables.min.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sphinx-needs/common.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sphinx-needs/layouts.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sphinx-needs/styles.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sphinx-needs/modern.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+        <script src="../_static/assets/jsonview.bundle.js"></script>
+        <script src="../_static/assets/jsonview_loader.js"></script>
+        <script src="../_static/sphinx-needs/libs/html/datatables.min.js"></script>
+        <script src="../_static/sphinx-needs/libs/html/datatables_loader.js"></script>
+        <script src="../_static/sphinx-needs/libs/html/sphinx_needs_collapse.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Reddit authentication" href="reddit.html" />
+    <link rel="prev" title="Prerequisites" href="prerequisites.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> raider
+          </a>
+              <div class="version">
+                0.3.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Overview</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../overview/raider.html">What is Raider</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/install.html">Installing Raider</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/faq.html">Frequently asked questions</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="prerequisites.html">Prerequisites</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Getting Started</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#learn-python-basics">Learn Python basics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#learn-hylang-basics">Learn Hylang basics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#get-comfortable-with-a-web-proxy">Get comfortable with a web proxy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#learn-the-basics-of-authentication">Learn the basics of authentication</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#read-raider-documentation">Read Raider documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#configure-your-first-application">Configure your first application</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#write-attack-automation-scenarios">Write attack/automation scenarios</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#write-your-own-plugins-operations">Write your own Plugins/Operations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#help-others-in-the-community">Help others in the community</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#contribute-to-the-development">Contribute to the development</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="reddit.html">Reddit authentication</a></li>
+<li class="toctree-l1"><a class="reference internal" href="keycloak.html">KeyCloak OAuth setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="juiceshop.html">Juiceshop setup</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Examples</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../examples/writing_custom_operations.html">Writing Custom Operations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples/writing_custom_plugins.html">Writing Custom Plugins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples/writing_macros.html">Writing Macros</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case Studies</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../case_studies/architecture.html">Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../case_studies/lisp.html">Why LISP/Hylang?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../case_studies/macros.html">What are macros and how to use them?</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">API Reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../api/cli.html">CLI reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/user.html">User facing API reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/macros.html">Macros reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/internal.html">Internal API reference</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">raider</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a></li>
+      <li class="breadcrumb-item active">Getting Started</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/tutorials/getting_started.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="getting-started">
+<h1>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this heading"></a></h1>
+<section id="learn-python-basics">
+<h2>Learn Python basics<a class="headerlink" href="#learn-python-basics" title="Permalink to this heading"></a></h2>
+<p>You should know enough &lt;a href=&quot;<a class="reference external" href="https://www.python.org/">https://www.python.org/</a>&quot;&gt;Python&lt;/a&gt; to
+be able to write and debug short scripts. Get comfortable reading
+documentations for the things you don’t know. You need to have an
+understanding of Python concepts in order to learn Hylang, which is
+essential if you want to use Raider.</p>
+</section>
+<section id="learn-hylang-basics">
+<h2>Learn Hylang basics<a class="headerlink" href="#learn-hylang-basics" title="Permalink to this heading"></a></h2>
+<p>Raider’s configuration files are written in &lt;a
+href=&quot;<a class="reference external" href="https://docs.hylang.org/en/stable">https://docs.hylang.org/en/stable</a>&quot;&gt;Hylang&lt;/a&gt;, a Lisp dialect
+on top of Python. You can’t really use Raider if you skip this
+step. But you also don’t have to learn macros or other exotic features
+the language offers, you just have to learn to accept the Lisp
+paranthesis and write simple scripts like you should already be able
+to do with Python. If you’re already familiar with Lisp and Python,
+this step will be easy for you.</p>
+</section>
+<section id="get-comfortable-with-a-web-proxy">
+<h2>Get comfortable with a web proxy<a class="headerlink" href="#get-comfortable-with-a-web-proxy" title="Permalink to this heading"></a></h2>
+<p>Pick up a web proxy you like, and learn how to use it properly. We
+recommend &lt;a href=&quot;<a class="reference external" href="https://portswigger.net/burp">https://portswigger.net/burp</a>&quot;&gt;BurpSuite&lt;/a&gt;, &lt;a
+href=&quot;<a class="reference external" href="https://www.zaproxy.org/">https://www.zaproxy.org/</a>&quot;&gt;ZAProxy&lt;/a&gt; or &lt;a
+href=&quot;<a class="reference external" href="https://mitmproxy.org/">https://mitmproxy.org/</a>&quot;&gt;mitmproxy&lt;/a&gt;. You will need this to
+reverse engineer the authentication process of arbitrary web
+applications.</p>
+</section>
+<section id="learn-the-basics-of-authentication">
+<h2>Learn the basics of authentication<a class="headerlink" href="#learn-the-basics-of-authentication" title="Permalink to this heading"></a></h2>
+<p>Now that you already know how to use a web proxy, you should learn how
+the authentication works on web applications. Log into different
+websites while using the web proxy, and try to understand how it
+works, i.e. what information is being sent to the server, what does
+the server responds with, and where each piece of information comes
+from. Try first with simple websites, and gradually move to more
+complicated until you understand the process.</p>
+</section>
+<section id="read-raider-documentation">
+<h2>Read Raider documentation<a class="headerlink" href="#read-raider-documentation" title="Permalink to this heading"></a></h2>
+<p>Start by reading the &lt;a
+href=&quot;<a class="reference external" href="https://docs.raiderauth.com/en/latest/tutorials/getting_started.html">https://docs.raiderauth.com/en/latest/tutorials/getting_started.html</a>&quot;&gt;Getting
+Started&lt;/a&gt; part of the documentation.</p>
+<p>Explore &lt;a
+href=&quot;<a class="reference external" href="https://docs.raiderauth.com/en/latest/examples">https://docs.raiderauth.com/en/latest/examples</a>”&gt;examples&lt;/a&gt;
+and &lt;a
+href=&quot;<a class="reference external" href="https://docs.raiderauth.com/en/latest/tutorials">https://docs.raiderauth.com/en/latest/tutorials</a>”&gt;tutorials&lt;/a&gt;</p>
+<p>Read &lt;a
+href=&quot;<a class="reference external" href="https://docs.raiderauth.com/en/latest/overview/architecture.html">https://docs.raiderauth.com/en/latest/overview/architecture.html</a>&quot;&gt;Raider’s
+architecture&lt;/a&gt;.</p>
+</section>
+<section id="configure-your-first-application">
+<h2>Configure your first application<a class="headerlink" href="#configure-your-first-application" title="Permalink to this heading"></a></h2>
+<p>Pick up a web application with a simple authentication mechanism
+first. When you learn how to do it you can move to more complex
+ones. Use the web proxy to check the traffic generated by the
+application when you log in. Remove the HTTP requests that are
+irrelevant to the authentication process, like the static files. Now,
+the easiest way to proceed is by going backwards. Pick up one HTTP
+request that can be completed only with an authenticated user, and try
+to find out what piece of information in that request indicates the user
+is authenticated by removing piece by piece the irrelevant
+information. It’s usually a header, a cookie, or both. Identify where
+this piece of data comes from. Define it using Raider Plugins. When this
+is done, move on to the next request, until you reach a HTTP request
+that needs no inputs. At this point, the normal authentication flow is
+complete. Expand the configuration to cover other flows (Multi-factor
+authentication, bad credentials, etc…). When you’re satisfied with the
+current setup, move on by building attack scenarios.</p>
+</section>
+<section id="write-attack-automation-scenarios">
+<h2>Write attack/automation scenarios<a class="headerlink" href="#write-attack-automation-scenarios" title="Permalink to this heading"></a></h2>
+<p>At this point you have a configured application in Raider. Using
+Python, you can already successfully authenticate and do other cool
+stuff, like fuzzing inputs. By now you should already know what you
+want to achieve with raider, and you’ll only need to write the Python
+code to do that.</p>
+</section>
+<section id="write-your-own-plugins-operations">
+<h2>Write your own Plugins/Operations<a class="headerlink" href="#write-your-own-plugins-operations" title="Permalink to this heading"></a></h2>
+<p>If you feel like you need more from Raider than it currently supports,
+good news! Raider provides you with an API to easily extend it and write
+your own Plugins and Operations, so you don’t have to mess with the main
+code to do that. Expanding with new features only requires you to write
+a simple class in Hylang.</p>
+</section>
+<section id="help-others-in-the-community">
+<h2>Help others in the community<a class="headerlink" href="#help-others-in-the-community" title="Permalink to this heading"></a></h2>
+<p>With your current knowledge you can already help others learn Raider and
+you’re encouraged to do so in our &lt;a
+href=&quot;<a class="reference external" href="https://github.com/OWASP/raider/discussions">https://github.com/OWASP/raider/discussions</a>&quot;&gt;Github discussions&lt;/a&gt;. Join us
+there, write your own tutorials, engage in discussions, leave feedback,
+and help us make Raider even better.</p>
+</section>
+<section id="contribute-to-the-development">
+<h2>Contribute to the development<a class="headerlink" href="#contribute-to-the-development" title="Permalink to this heading"></a></h2>
+<p>If you’ve reached this far, you probably want to help us make Raider
+better, so the next logical step would be for you to read the source
+code and make improvements to the code. Start by writing new Plugins and
+Operations to extend Raider’s existing features. Open Github issues, fix
+bugs, and tell us what can be improved.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="prerequisites.html" class="btn btn-neutral float-left" title="Prerequisites" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="reddit.html" class="btn btn-neutral float-right" title="Reddit authentication" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, OWASP.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

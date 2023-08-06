@@ -1,0 +1,34 @@
+import argparse
+
+from raider import Raider
+from raider.search import Search
+from raider.utils import list_hyfiles, list_projects
+
+
+def add_new_parser(parser) -> None:
+    new_parser = parser.add_parser(
+        "new", help="Create new projects and hyfiles"
+    )
+
+    new_parser.add_argument(
+        "--projects", nargs="?", help="New projects", const=""
+    )
+    new_parser.add_argument(
+        "--hyfiles", nargs="?", help="New hyfiles", const=""
+    )
+
+
+def run_new_command(args):
+    raider = Raider(args.projects)
+    matches = Search(raider, args)
+    matches.search()
+    if matches.print_flows_enabled:
+        matches.print_flows()
+    elif matches.print_hyfiles_enabled:
+        matches.print_hyfiles()
+    elif matches.print_projects_enabled:
+        matches.print_projects()
+    else:
+        args.projects = ""
+        args.hyfiles = ""
+        matches.print_hyfiles()

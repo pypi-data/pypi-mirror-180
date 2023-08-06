@@ -1,0 +1,13 @@
+from raider import Raider
+import argparse
+
+def add_shell_parser(parser) -> None:
+    show_parser = subparsers.add_parser("Shell", help="Run a shell")
+
+def run_shell_command():
+    raider = Raider()
+    print("Configured projects:")
+    for item in list_projects():
+        print("  - " + item)
+        for hyfile in list_hyfiles(item):
+            print("    + " + hyfile)

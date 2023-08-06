@@ -1,0 +1,1525 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Index &mdash; raider 0.3.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/assets/jsonview.bundle.css" type="text/css" />
+      <link rel="stylesheet" href="_static/sphinx-needs/libs/html/datatables.min.css" type="text/css" />
+      <link rel="stylesheet" href="_static/sphinx-needs/common.css" type="text/css" />
+      <link rel="stylesheet" href="_static/sphinx-needs/layouts.css" type="text/css" />
+      <link rel="stylesheet" href="_static/sphinx-needs/styles.css" type="text/css" />
+      <link rel="stylesheet" href="_static/sphinx-needs/modern.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+        <script src="_static/assets/jsonview.bundle.js"></script>
+        <script src="_static/assets/jsonview_loader.js"></script>
+        <script src="_static/sphinx-needs/libs/html/datatables.min.js"></script>
+        <script src="_static/sphinx-needs/libs/html/datatables_loader.js"></script>
+        <script src="_static/sphinx-needs/libs/html/sphinx_needs_collapse.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="#" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> raider
+          </a>
+              <div class="version">
+                0.3.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Overview</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="overview/raider.html">What is Raider</a></li>
+<li class="toctree-l1"><a class="reference internal" href="overview/install.html">Installing Raider</a></li>
+<li class="toctree-l1"><a class="reference internal" href="overview/glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="overview/faq.html">Frequently asked questions</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="tutorials/prerequisites.html">Prerequisites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorials/getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorials/reddit.html">Reddit authentication</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorials/keycloak.html">KeyCloak OAuth setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorials/juiceshop.html">Juiceshop setup</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Examples</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="examples/writing_custom_operations.html">Writing Custom Operations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples/writing_custom_plugins.html">Writing Custom Plugins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples/writing_macros.html">Writing Macros</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case Studies</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="case_studies/architecture.html">Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="case_studies/lisp.html">Why LISP/Hylang?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="case_studies/macros.html">What are macros and how to use them?</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">API Reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="api/cli.html">CLI reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api/user.html">User facing API reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api/macros.html">Macros reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api/internal.html">Internal API reference</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">raider</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a></li>
+      <li class="breadcrumb-item active">Index</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+
+<h1 id="index">Index</h1>
+
+<div class="genindex-jumpbox">
+ <a href="#_"><strong>_</strong></a>
+ | <a href="#A"><strong>A</strong></a>
+ | <a href="#B"><strong>B</strong></a>
+ | <a href="#C"><strong>C</strong></a>
+ | <a href="#D"><strong>D</strong></a>
+ | <a href="#E"><strong>E</strong></a>
+ | <a href="#F"><strong>F</strong></a>
+ | <a href="#G"><strong>G</strong></a>
+ | <a href="#H"><strong>H</strong></a>
+ | <a href="#I"><strong>I</strong></a>
+ | <a href="#J"><strong>J</strong></a>
+ | <a href="#K"><strong>K</strong></a>
+ | <a href="#L"><strong>L</strong></a>
+ | <a href="#M"><strong>M</strong></a>
+ | <a href="#N"><strong>N</strong></a>
+ | <a href="#O"><strong>O</strong></a>
+ | <a href="#P"><strong>P</strong></a>
+ | <a href="#R"><strong>R</strong></a>
+ | <a href="#S"><strong>S</strong></a>
+ | <a href="#T"><strong>T</strong></a>
+ | <a href="#U"><strong>U</strong></a>
+ | <a href="#V"><strong>V</strong></a>
+ | <a href="#W"><strong>W</strong></a>
+ | <a href="#Y"><strong>Y</strong></a>
+ 
+</div>
+<h2 id="_">_</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/user/request.html#raider.request.Template.__call__">__call__() (Template method)</a>
+</li>
+      <li><a href="api/internal/structures.html#raider.structures.DataStore.__getitem__">__getitem__() (DataStore method)</a>
+
+      <ul>
+        <li><a href="api/internal/flowstore.html#raider.flowstore.FlowStore.__getitem__">(FlowStore method)</a>
+</li>
+      </ul></li>
+      <li><a href="api/user/plugin.html#raider.plugins.modifiers.Alter.__init__">__init__() (Alter method)</a>
+
+      <ul>
+        <li><a href="api/user/plugin.html#raider.plugins.processors.B64decode.__init__">(B64decode method)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.modifiers.Combine.__init__">(Combine method)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.Command.__init__">(Command method)</a>
+</li>
+        <li><a href="api/internal/config.html#raider.config.Config.__init__">(Config method)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.Cookie.__init__">(Cookie method)</a>
+</li>
+        <li><a href="api/internal/structures.html#raider.structures.CookieStore.__init__">(CookieStore method)</a>
+</li>
+        <li><a href="api/internal/structures.html#raider.structures.DataStore.__init__">(DataStore method)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Empty.__init__">(Empty method)</a>
+</li>
+        <li><a href="api/user/operation.html#raider.operations.Failure.__init__">(Failure method)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.File.__init__">(File method)</a>
+</li>
+        <li><a href="api/user/flow.html#raider.flow.Flow.__init__">(Flow method)</a>
+</li>
+        <li><a href="api/user/flowgraph.html#raider.FlowGraph.__init__">(FlowGraph method)</a>
+</li>
+        <li><a href="api/internal/flowstore.html#raider.flowstore.FlowStore.__init__">(FlowStore method)</a>
+</li>
+        <li><a href="api/user/attack.html#raider.fuzzing.Fuzz.__init__">(Fuzz method)</a>
+</li>
+        <li><a href="api/user/operation.html#raider.operations.Grep.__init__">(Grep method)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.Header.__init__">(Header method)</a>
+</li>
+        <li><a href="api/internal/structures.html#raider.structures.HeaderStore.__init__">(HeaderStore method)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.Html.__init__">(Html method)</a>
+</li>
+        <li><a href="api/user/operation.html#raider.operations.Http.__init__">(Http method)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.Json.__init__">(Json method)</a>
+</li>
+        <li><a href="api/internal/search.html#raider.search.Matches.__init__">(Matches method)</a>
+</li>
+        <li><a href="api/user/operation.html#raider.operations.Next.__init__">(Next method)</a>
+</li>
+        <li><a href="examples/writing_custom_operations.html#raider.operations.Operation.__init__">(Operation method)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Parser.__init__">(Parser method)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Plugin.__init__">(Plugin method)</a>
+</li>
+        <li><a href="api/user/operation.html#raider.operations.Print.__init__">(Print method)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Processor.__init__">(Processor method)</a>
+</li>
+        <li><a href="api/internal/project.html#raider.projects.Project.__init__">(Project method)</a>
+</li>
+        <li><a href="api/internal/project.html#raider.projects.ProjectConfig.__init__">(ProjectConfig method)</a>
+</li>
+        <li><a href="api/internal/project.html#raider.projects.Projects.__init__">(Projects method)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.Prompt.__init__">(Prompt method)</a>
+</li>
+        <li><a href="api/internal/raider.html#raider.Raider.__init__">(Raider method)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.Regex.__init__">(Regex method)</a>
+</li>
+        <li><a href="api/user/request.html#raider.request.Request.__init__">(Request method)</a>
+</li>
+        <li><a href="api/user/operation.html#raider.operations.Save.__init__">(Save method)</a>
+</li>
+        <li><a href="api/internal/search.html#raider.search.Search.__init__">(Search method)</a>
+</li>
+        <li><a href="api/user/operation.html#raider.operations.Success.__init__">(Success method)</a>
+</li>
+        <li><a href="api/user/request.html#raider.request.Template.__init__">(Template method)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.processors.Urldecode.__init__">(Urldecode method)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.processors.Urlencode.__init__">(Urlencode method)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.parsers.Urlparser.__init__">(Urlparser method)</a>
+</li>
+        <li><a href="api/user/user.html#raider.user.User.__init__">(User method)</a>
+</li>
+        <li><a href="api/user/user.html#raider.user.Users.__init__">(Users method)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.Variable.__init__">(Variable method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/internal/structures.html#raider.structures.DataStore.__iter__">__iter__() (DataStore method)</a>
+</li>
+      <li><a href="api/internal/structures.html#raider.structures.DataStore.__next__">__next__() (DataStore method)</a>
+</li>
+      <li><a href="api/internal/structures.html#raider.structures.DataStore.__setitem__">__setitem__() (DataStore method)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Cookie.__str__">__str__() (Cookie method)</a>
+
+      <ul>
+        <li><a href="api/user/operation.html#raider.operations.Failure.__str__">(Failure method)</a>
+</li>
+        <li><a href="api/user/operation.html#raider.operations.Grep.__str__">(Grep method)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.Header.__str__">(Header method)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.Html.__str__">(Html method)</a>
+</li>
+        <li><a href="api/user/operation.html#raider.operations.Http.__str__">(Http method)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.Json.__str__">(Json method)</a>
+</li>
+        <li><a href="api/user/operation.html#raider.operations.Next.__str__">(Next method)</a>
+</li>
+        <li><a href="api/user/operation.html#raider.operations.Print.__str__">(Print method)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.Regex.__str__">(Regex method)</a>
+</li>
+        <li><a href="api/user/operation.html#raider.operations.Success.__str__">(Success method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="A">A</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/user/operation.html#raider.operations.Grep.action">action (Grep attribute)</a>
+
+      <ul>
+        <li><a href="api/user/operation.html#raider.operations.Http.action">(Http attribute)</a>
+</li>
+        <li><a href="examples/writing_custom_operations.html#raider.operations.Operation.action">(Operation attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="api/user/user.html#raider.user.Users.active">active (Users property)</a>
+</li>
+      <li><a href="api/internal/config.html#raider.config.Config.active_project">active_project (Config attribute)</a>
+</li>
+      <li><a href="api/internal/project.html#raider.projects.Project.active_user">active_user (Project attribute)</a>
+
+      <ul>
+        <li><a href="api/internal/project.html#raider.projects.ProjectConfig.active_user">(ProjectConfig property)</a>
+</li>
+        <li><a href="api/user/user.html#raider.user.Users.active_user">(Users attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="api/internal/parsers.html#raider.parsers.config.add_config_parser">add_config_parser() (in module raider.parsers.config)</a>
+</li>
+      <li><a href="api/internal/parsers.html#raider.parsers.delete.add_delete_parser">add_delete_parser() (in module raider.parsers.delete)</a>
+</li>
+      <li><a href="api/internal/parsers.html#raider.parsers.edit.add_edit_parser">add_edit_parser() (in module raider.parsers.edit)</a>
+</li>
+      <li><a href="api/internal/flowstore.html#raider.flowstore.FlowStore.add_flow">add_flow() (FlowStore method)</a>
+</li>
+      <li><a href="api/internal/flowstore.html#raider.flowstore.FlowStore.add_flowgraph">add_flowgraph() (FlowStore method)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/internal/parsers.html#raider.parsers.inspect.add_inspect_parser">add_inspect_parser() (in module raider.parsers.inspect)</a>
+</li>
+      <li><a href="api/internal/parsers.html#raider.parsers.new.add_new_parser">add_new_parser() (in module raider.parsers.new)</a>
+</li>
+      <li><a href="api/internal/parsers.html#raider.parsers.run.add_run_parser">add_run_parser() (in module raider.parsers.run)</a>
+</li>
+      <li><a href="api/internal/parsers.html#raider.parsers.shell.add_shell_parser">add_shell_parser() (in module raider.parsers.shell)</a>
+</li>
+      <li><a href="api/internal/parsers.html#raider.parsers.show.add_show_parser">add_show_parser() (in module raider.parsers.show)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.modifiers.Alter">Alter (class in raider.plugins.modifiers)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.modifiers.Alter.alter_function">alter_function (Alter attribute)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.modifiers.Alter.append">append() (Alter class method)</a>
+
+      <ul>
+        <li><a href="api/user/operation.html#raider.operations.Save.append">(Save class method)</a>
+</li>
+      </ul></li>
+      <li><a href="api/user/attack.html#raider.fuzzing.Fuzz.attack_authentication">attack_authentication() (Fuzz method)</a>
+</li>
+      <li><a href="api/user/attack.html#raider.fuzzing.Fuzz.attack_function">attack_function() (Fuzz method)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Html.attributes">attributes (Html attribute)</a>
+</li>
+      <li><a href="overview/glossary.html#term-Authentication"><strong>Authentication</strong></a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="B">B</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/user/plugin.html#raider.plugins.processors.B64decode">B64decode (class in raider.plugins.processors)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.processors.B64decode.b64decode">b64decode() (B64decode method)</a>
+</li>
+      <li><a href="api/internal/project.html#raider.projects.Project.base_url">base_url (Project attribute)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Header.basicauth">basicauth() (Header class method)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Header.bearerauth">bearerauth() (Header class method)</a>
+</li>
+      <li><a href="api/user/operation.html#raider.operations.Print.body">body() (Print class method)</a>
+
+      <ul>
+        <li><a href="api/user/operation.html#raider.operations.Save.body">(Save class method)</a>
+</li>
+      </ul></li>
+      <li><a href="api/internal/logger.html#raider.logger.CustomFormatter.bold_red">bold_red (CustomFormatter attribute)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="C">C</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/internal/utils.html#raider.utils.colored_hyfile">colored_hyfile() (in module raider.utils)</a>
+</li>
+      <li><a href="api/internal/utils.html#raider.utils.colored_text">colored_text() (in module raider.utils)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.modifiers.Combine">Combine (class in raider.plugins.modifiers)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Command">Command (class in raider.plugins.basic)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.modifiers.Combine.concatenate_values">concatenate_values() (Combine method)</a>
+</li>
+      <li><a href="api/internal/config.html#raider.config.Config">Config (class in raider.config)</a>
+</li>
+      <li><a href="api/internal/project.html#raider.projects.Project.config">config (Project attribute)</a>
+
+      <ul>
+        <li><a href="api/internal/raider.html#raider.Raider.config">(Raider attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="api/user/request.html#raider.request.Request.connect">connect() (Request class method)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Cookie">Cookie (class in raider.plugins.basic)</a>
+</li>
+      <li><a href="api/user/request.html#raider.request.Request.cookies">cookies (Request attribute)</a>
+
+      <ul>
+        <li><a href="api/user/user.html#raider.user.User.cookies">(User attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="api/user/operation.html#raider.operations.Print.cookies">cookies() (Print class method)</a>
+</li>
+      <li><a href="api/internal/structures.html#raider.structures.CookieStore">CookieStore (class in raider.structures)</a>
+</li>
+      <li><a href="api/internal/utils.html#raider.utils.create_hy_expression">create_hy_expression() (in module raider.utils)</a>
+</li>
+      <li><a href="api/user/request.html#raider.request.Request.custom">custom() (Request class method)</a>
+</li>
+      <li><a href="api/internal/logger.html#raider.logger.CustomFormatter">CustomFormatter (class in raider.logger)</a>
+</li>
+      <li><a href="api/internal/logger.html#raider.logger.CustomFormatter.cyan">cyan (CustomFormatter attribute)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="D">D</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/user/request.html#raider.request.Request.data">data (Request attribute)</a>
+
+      <ul>
+        <li><a href="api/user/user.html#raider.user.User.data">(User attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="api/internal/structures.html#raider.structures.DataStore">DataStore (class in raider.structures)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/internal/utils.html#raider.utils.default_user_agent">default_user_agent() (in module raider.utils)</a>
+</li>
+      <li><a href="api/user/request.html#raider.request.Request.delete">delete() (Request class method)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.common.Plugin.depends_on_other_plugins">depends_on_other_plugins (Plugin property)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="E">E</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/user/plugin.html#raider.plugins.common.Empty">Empty (class in raider.plugins.common)</a>
+</li>
+      <li><a href="api/internal/utils.html#raider.utils.eval_file">eval_file() (in module raider.utils)</a>
+</li>
+      <li><a href="api/internal/utils.html#raider.utils.eval_project_file">eval_project_file() (in module raider.utils)</a>
+</li>
+      <li><a href="api/user/flow.html#raider.flow.Flow.execute">execute() (Flow method)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Html.extract">extract (Html attribute)</a>
+
+      <ul>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.Json.extract">(Json attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Cookie.extract_cookie_from_response">extract_cookie_from_response() (Cookie method)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Header.extract_header_from_response">extract_header_from_response() (Header method)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Html.extract_html_tag">extract_html_tag() (Html method)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Json.extract_json_field">extract_json_field() (Json method)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Json.extract_json_from_plugin">extract_json_from_plugin() (Json method)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Json.extract_json_from_response">extract_json_from_response() (Json method)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.common.Plugin.extract_name_from_response">extract_name_from_response() (Plugin method)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Regex.extract_regex">extract_regex() (Regex method)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Regex.extract_regex_from_plugin">extract_regex_from_plugin() (Regex method)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Regex.extract_regex_from_response">extract_regex_from_response() (Regex method)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.common.Plugin.extract_value_from_response">extract_value_from_response() (Plugin method)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.common.Plugin.extract_value_from_userdata">extract_value_from_userdata() (Plugin method)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="F">F</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="overview/glossary.html#term-Factor"><strong>Factor</strong></a>
+</li>
+      <li><a href="api/user/operation.html#raider.operations.Failure">Failure (class in raider.operations)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.File">File (class in raider.plugins.basic)</a>
+</li>
+      <li><a href="api/user/operation.html#raider.operations.Save.filename">filename (Save attribute)</a>
+</li>
+      <li><a href="overview/glossary.html#term-Finite-state-machine"><strong>Finite state machine</strong></a>
+</li>
+      <li><a href="api/internal/raider.html#raider.Raider.fix_function_plugins">fix_function_plugins() (Raider method)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Cookie.flags">flags (Cookie attribute)</a>
+
+      <ul>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Empty.flags">(Empty attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.File.flags">(File attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.Header.flags">(Header attribute)</a>
+</li>
+        <li><a href="examples/writing_custom_operations.html#raider.operations.Operation.flags">(Operation attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Parser.flags">(Parser attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Plugin.flags">(Plugin attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Processor.flags">(Processor attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="overview/glossary.html#term-Flow"><strong>Flow</strong></a>
+
+      <ul>
+        <li><a href="api/user/flow.html#raider.flow.Flow">(class in raider.flow)</a>
+</li>
+      </ul></li>
+      <li><a href="overview/glossary.html#term-FlowGraph"><strong>FlowGraph</strong></a>
+
+      <ul>
+        <li><a href="api/user/flowgraph.html#raider.FlowGraph">(class in raider)</a>
+</li>
+      </ul></li>
+      <li><a href="api/internal/flowstore.html#raider.flowstore.FlowStore">FlowStore (class in raider.flowstore)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/internal/raider.html#raider.Raider.flowstore">flowstore (Raider property)</a>
+</li>
+      <li><a href="api/internal/logger.html#raider.logger.CustomFormatter.format">format() (CustomFormatter method)</a>
+</li>
+      <li><a href="api/internal/logger.html#raider.logger.CustomFormatter.FORMATS">FORMATS (CustomFormatter attribute)</a>
+</li>
+      <li><a href="api/internal/structures.html#raider.structures.CookieStore.from_dict">from_dict() (CookieStore class method)</a>
+
+      <ul>
+        <li><a href="api/internal/structures.html#raider.structures.HeaderStore.from_dict">(HeaderStore class method)</a>
+</li>
+      </ul></li>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Cookie.from_plugin">from_plugin() (Cookie class method)</a>
+
+      <ul>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.Header.from_plugin">(Header class method)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.Json.from_plugin">(Json class method)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.Regex.from_plugin">(Regex class method)</a>
+</li>
+      </ul></li>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Cookie.function">function (Cookie attribute)</a>
+
+      <ul>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Empty.function">(Empty attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.File.function">(File attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.Header.function">(Header attribute)</a>
+</li>
+        <li><a href="examples/writing_custom_operations.html#raider.operations.Operation.function">(Operation attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Parser.function">(Parser attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Plugin.function">(Plugin attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Processor.function">(Processor attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="api/internal/raider.html#raider.Raider.functions">functions (Raider attribute)</a>
+</li>
+      <li><a href="api/user/attack.html#raider.fuzzing.Fuzz">Fuzz (class in raider.fuzzing)</a>
+</li>
+      <li><a href="api/internal/raider.html#raider.Raider.fuzz">fuzz() (Raider method)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="G">G</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/user/request.html#raider.request.Request.get">get() (Request class method)</a>
+</li>
+      <li><a href="api/internal/utils.html#raider.utils.get_config_dir">get_config_dir() (in module raider.utils)</a>
+</li>
+      <li><a href="api/internal/utils.html#raider.utils.get_config_file">get_config_file() (in module raider.utils)</a>
+</li>
+      <li><a href="api/user/request.html#raider.request.get_empty_plugin_name">get_empty_plugin_name() (in module raider.request)</a>
+</li>
+      <li><a href="api/user/request.html#raider.request.get_empty_plugin_value">get_empty_plugin_value() (in module raider.request)</a>
+</li>
+      <li><a href="api/internal/flowstore.html#raider.flowstore.FlowStore.get_flow_id_by_flow">get_flow_id_by_flow() (FlowStore method)</a>
+</li>
+      <li><a href="api/internal/flowstore.html#raider.flowstore.FlowStore.get_flow_id_by_name">get_flow_id_by_name() (FlowStore method)</a>
+</li>
+      <li><a href="api/internal/flowstore.html#raider.flowstore.FlowStore.get_flow_index">get_flow_index() (FlowStore method)</a>
+</li>
+      <li><a href="api/internal/flowstore.html#raider.flowstore.FlowStore.get_flow_name_by_flow">get_flow_name_by_flow() (FlowStore method)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/internal/flowstore.html#raider.flowstore.FlowStore.get_flow_name_by_id">get_flow_name_by_id() (FlowStore method)</a>
+</li>
+      <li><a href="api/user/attack.html#raider.fuzzing.Fuzz.get_fuzzing_input">get_fuzzing_input() (Fuzz method)</a>
+</li>
+      <li><a href="api/internal/logger.html#raider.logger.get_logger">get_logger() (in module raider.logger)</a>
+</li>
+      <li><a href="api/internal/utils.html#raider.utils.get_project_dir">get_project_dir() (in module raider.utils)</a>
+</li>
+      <li><a href="api/internal/utils.html#raider.utils.get_project_file">get_project_file() (in module raider.utils)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Prompt.get_user_prompt">get_user_prompt() (Prompt method)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.common.Plugin.get_value">get_value() (Plugin method)</a>
+</li>
+      <li><a href="api/user/operation.html#raider.operations.Grep">Grep (class in raider.operations)</a>
+</li>
+      <li><a href="api/internal/logger.html#raider.logger.CustomFormatter.grey">grey (CustomFormatter attribute)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="H">H</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/user/request.html#raider.request.Request.head">head() (Request class method)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Header">Header (class in raider.plugins.basic)</a>
+</li>
+      <li><a href="api/user/request.html#raider.request.Request.headers">headers (Request attribute)</a>
+
+      <ul>
+        <li><a href="api/user/user.html#raider.user.User.headers">(User attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="api/user/operation.html#raider.operations.Print.headers">headers() (Print class method)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/internal/structures.html#raider.structures.HeaderStore">HeaderStore (class in raider.structures)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Html">Html (class in raider.plugins.basic)</a>
+</li>
+      <li><a href="api/user/operation.html#raider.operations.Http">Http (class in raider.operations)</a>
+</li>
+      <li><a href="api/internal/utils.html#raider.utils.hy_dict_to_python">hy_dict_to_python() (in module raider.utils)</a>
+</li>
+      <li><a href="overview/glossary.html#term-hyfiles"><strong>hyfiles</strong></a>
+
+      <ul>
+        <li><a href="api/internal/project.html#raider.projects.Project.hyfiles">(Project property)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="I">I</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/internal/utils.html#raider.utils.import_raider_objects">import_raider_objects() (in module raider.utils)</a>
+</li>
+      <li><a href="api/user/attack.html#raider.fuzzing.Fuzz.IS_AUTHENTICATION">IS_AUTHENTICATION (Fuzz attribute)</a>
+</li>
+      <li><a href="api/user/attack.html#raider.fuzzing.Fuzz.is_authentication">is_authentication (Fuzz property)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="examples/writing_custom_operations.html#raider.operations.Operation.is_conditional">is_conditional (Operation property)</a>
+</li>
+      <li><a href="api/internal/flowstore.html#raider.flowstore.FlowStore.is_flow">is_flow() (FlowStore method)</a>
+</li>
+      <li><a href="api/internal/flowstore.html#raider.flowstore.FlowStore.is_flowgraph">is_flowgraph() (FlowStore method)</a>
+</li>
+      <li><a href="api/internal/structures.html#raider.structures.DataStore.items">items() (DataStore method)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="J">J</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Json">Json (class in raider.plugins.basic)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="K">K</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/internal/flowstore.html#raider.flowstore.FlowStore.keys">keys (FlowStore property)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/internal/structures.html#raider.structures.DataStore.keys">keys() (DataStore method)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="L">L</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/internal/utils.html#raider.utils.list_hyfiles">list_hyfiles() (in module raider.utils)</a>
+</li>
+      <li><a href="api/user/request.html#raider.request.Request.list_inputs">list_inputs() (Request method)</a>
+</li>
+      <li><a href="api/internal/utils.html#raider.utils.list_projects">list_projects() (in module raider.utils)</a>
+</li>
+      <li><a href="api/internal/project.html#raider.projects.Project.load">load() (Project method)</a>
+</li>
+      <li><a href="api/internal/raider.html#raider.Raider.load_session">load_session() (Raider method)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/internal/project.html#raider.projects.Project.load_session_file">load_session_file() (Project method)</a>
+</li>
+      <li><a href="api/internal/config.html#raider.config.Config.logger">logger (Config attribute)</a>
+
+      <ul>
+        <li><a href="api/user/flow.html#raider.flow.Flow.logger">(Flow property)</a>
+</li>
+      </ul></li>
+      <li><a href="api/internal/config.html#raider.config.Config.loglevel">loglevel (Config attribute)</a>
+
+      <ul>
+        <li><a href="api/internal/project.html#raider.projects.ProjectConfig.loglevel">(ProjectConfig property)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="M">M</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/cli.html#raider.cli.main">main() (in module raider.cli)</a>
+</li>
+      <li><a href="api/internal/search.html#raider.search.Matches.match_flows">match_flows() (Matches method)</a>
+</li>
+      <li><a href="api/internal/search.html#raider.search.Matches.match_hyfiles">match_hyfiles() (Matches method)</a>
+</li>
+      <li><a href="api/internal/search.html#raider.search.Matches.match_projects">match_projects() (Matches method)</a>
+</li>
+      <li><a href="api/user/operation.html#raider.operations.Grep.match_response">match_response() (Grep method)</a>
+</li>
+      <li><a href="api/user/operation.html#raider.operations.Http.match_status_code">match_status_code() (Http method)</a>
+</li>
+      <li><a href="api/internal/utils.html#raider.utils.match_tag">match_tag() (in module raider.utils)</a>
+</li>
+      <li><a href="api/internal/search.html#raider.search.Matches">Matches (class in raider.search)</a>
+</li>
+      <li><a href="api/internal/structures.html#raider.structures.CookieStore.merge">merge() (CookieStore method)</a>
+
+      <ul>
+        <li><a href="api/internal/structures.html#raider.structures.HeaderStore.merge">(HeaderStore method)</a>
+</li>
+      </ul></li>
+      <li><a href="api/user/operation.html#raider.operations.Failure.message">message (Failure attribute)</a>
+
+      <ul>
+        <li><a href="api/user/operation.html#raider.operations.Success.message">(Success attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="api/user/request.html#raider.request.Request.method">method (Request attribute)</a>
+</li>
+      <li>
+    module
+
+      <ul>
+        <li><a href="api/cli.html#module-raider.cli">raider.cli</a>
+</li>
+        <li><a href="api/internal/config.html#module-raider.config">raider.config</a>
+</li>
+        <li><a href="api/user/flow.html#module-raider.flow">raider.flow</a>
+</li>
+        <li><a href="api/internal/flowstore.html#module-raider.flowstore">raider.flowstore</a>
+</li>
+        <li><a href="api/user/attack.html#module-raider.fuzzing">raider.fuzzing</a>
+</li>
+        <li><a href="api/internal/logger.html#module-raider.logger">raider.logger</a>
+</li>
+        <li><a href="api/user/operation.html#module-raider.operations">raider.operations</a>, <a href="examples/writing_custom_operations.html#module-raider.operations">[1]</a>
+</li>
+        <li><a href="api/internal/parsers.html#module-raider.parsers.config">raider.parsers.config</a>
+</li>
+        <li><a href="api/internal/parsers.html#module-raider.parsers.delete">raider.parsers.delete</a>
+</li>
+        <li><a href="api/internal/parsers.html#module-raider.parsers.edit">raider.parsers.edit</a>
+</li>
+        <li><a href="api/internal/parsers.html#module-raider.parsers.inspect">raider.parsers.inspect</a>
+</li>
+        <li><a href="api/internal/parsers.html#module-raider.parsers.new">raider.parsers.new</a>
+</li>
+        <li><a href="api/internal/parsers.html#module-raider.parsers.run">raider.parsers.run</a>
+</li>
+        <li><a href="api/internal/parsers.html#module-raider.parsers.shell">raider.parsers.shell</a>
+</li>
+        <li><a href="api/internal/parsers.html#module-raider.parsers.show">raider.parsers.show</a>
+</li>
+        <li><a href="api/user/plugin.html#module-raider.plugins.basic">raider.plugins.basic</a>
+</li>
+        <li><a href="api/user/plugin.html#module-raider.plugins.common">raider.plugins.common</a>
+</li>
+        <li><a href="api/user/plugin.html#module-raider.plugins.modifiers">raider.plugins.modifiers</a>
+</li>
+        <li><a href="api/user/plugin.html#module-raider.plugins.parsers">raider.plugins.parsers</a>
+</li>
+        <li><a href="api/user/plugin.html#module-raider.plugins.processors">raider.plugins.processors</a>
+</li>
+        <li><a href="api/internal/project.html#module-raider.projects">raider.projects</a>
+</li>
+        <li><a href="api/user/request.html#module-raider.request">raider.request</a>
+</li>
+        <li><a href="api/internal/search.html#module-raider.search">raider.search</a>
+</li>
+        <li><a href="api/internal/structures.html#module-raider.structures">raider.structures</a>
+</li>
+        <li><a href="api/user/user.html#module-raider.user">raider.user</a>
+</li>
+        <li><a href="api/internal/utils.html#module-raider.utils">raider.utils</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="overview/glossary.html#term-Multi-factor-authentication-MFA"><strong>Multi-factor authentication (MFA)</strong></a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="N">N</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Cookie.name">name (Cookie attribute)</a>
+
+      <ul>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Empty.name">(Empty attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.File.name">(File attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.Header.name">(Header attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Parser.name">(Parser attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Plugin.name">(Plugin attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Processor.name">(Processor attribute)</a>
+</li>
+        <li><a href="api/internal/project.html#raider.projects.Project.name">(Project attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.Prompt.name">(Prompt attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.Regex.name">(Regex attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.Variable.name">(Variable attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Cookie.name_function">name_function (Cookie attribute)</a>
+
+      <ul>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Empty.name_function">(Empty attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.File.name_function">(File attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.Header.name_function">(Header attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Parser.name_function">(Parser attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Plugin.name_function">(Plugin attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Processor.name_function">(Processor attribute)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/user/plugin.html#raider.plugins.common.Plugin.name_not_known_in_advance">name_not_known_in_advance (Plugin property)</a>
+</li>
+      <li><a href="examples/writing_custom_operations.html#raider.operations.Operation.needs_response">needs_response (Operation property)</a>
+
+      <ul>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Plugin.needs_response">(Plugin property)</a>
+</li>
+      </ul></li>
+      <li><a href="examples/writing_custom_operations.html#raider.operations.Operation.needs_userdata">needs_userdata (Operation property)</a>
+
+      <ul>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Plugin.needs_userdata">(Plugin property)</a>
+</li>
+      </ul></li>
+      <li><a href="api/user/operation.html#raider.operations.Next">Next (class in raider.operations)</a>
+</li>
+      <li><a href="api/user/operation.html#raider.operations.Next.next_flow">next_flow (Next attribute)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="O">O</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="overview/glossary.html#term-Operation"><strong>Operation</strong></a>
+
+      <ul>
+        <li><a href="examples/writing_custom_operations.html#raider.operations.Operation">(class in raider.operations)</a>
+</li>
+      </ul></li>
+      <li><a href="api/user/flow.html#raider.flow.Flow.operations">operations (Flow attribute)</a>
+</li>
+      <li><a href="api/user/request.html#raider.request.Request.options">options() (Request class method)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/user/operation.html#raider.operations.Grep.otherwise">otherwise (Grep attribute)</a>
+
+      <ul>
+        <li><a href="api/user/operation.html#raider.operations.Http.otherwise">(Http attribute)</a>
+</li>
+        <li><a href="examples/writing_custom_operations.html#raider.operations.Operation.otherwise">(Operation attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="api/user/flow.html#raider.flow.Flow.outputs">outputs (Flow attribute)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="P">P</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/internal/utils.html#raider.utils.parse_json_filter">parse_json_filter() (in module raider.utils)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.parsers.Urlparser.parse_url">parse_url() (Urlparser method)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.common.Parser">Parser (class in raider.plugins.common)</a>
+</li>
+      <li><a href="api/user/user.html#raider.user.User.password">password (User attribute)</a>
+</li>
+      <li><a href="api/user/request.html#raider.request.Request.patch">patch() (Request class method)</a>
+</li>
+      <li><a href="api/internal/raider.html#raider.Raider.pconfig">pconfig (Raider property)</a>
+</li>
+      <li><a href="overview/glossary.html#term-Plugin"><strong>Plugin</strong></a>
+
+      <ul>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Plugin">(class in raider.plugins.common)</a>
+</li>
+      </ul></li>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Cookie.plugins">plugins (Cookie attribute)</a>
+
+      <ul>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Empty.plugins">(Empty attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.File.plugins">(File attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.Header.plugins">(Header attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Parser.plugins">(Parser attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Plugin.plugins">(Plugin attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Processor.plugins">(Processor attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="api/internal/structures.html#raider.structures.DataStore.pop">pop() (DataStore method)</a>
+</li>
+      <li><a href="api/user/request.html#raider.request.Request.post">post() (Request class method)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.modifiers.Alter.prepend">prepend() (Alter class method)</a>
+</li>
+      <li><a href="api/user/operation.html#raider.operations.Print">Print (class in raider.operations)</a>
+</li>
+      <li><a href="api/user/flow.html#raider.flow.Flow.print">print() (Flow method)</a>
+
+      <ul>
+        <li><a href="api/internal/project.html#raider.projects.Project.print">(Project method)</a>
+</li>
+        <li><a href="api/internal/search.html#raider.search.Search.print">(Search method)</a>
+</li>
+      </ul></li>
+      <li><a href="api/internal/config.html#raider.config.Config.print_config">print_config() (Config method)</a>
+</li>
+      <li><a href="api/internal/project.html#raider.projects.Project.print_flow">print_flow() (Project method)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/internal/project.html#raider.projects.Project.print_flowgraph">print_flowgraph() (Project method)</a>
+</li>
+      <li><a href="api/internal/search.html#raider.search.Search.print_flowgraphs_enabled">print_flowgraphs_enabled (Search property)</a>
+</li>
+      <li><a href="api/internal/search.html#raider.search.Search.print_flows_enabled">print_flows_enabled (Search property)</a>
+</li>
+      <li><a href="api/internal/project.html#raider.projects.Project.print_hyfile">print_hyfile() (Project method)</a>
+</li>
+      <li><a href="api/internal/search.html#raider.search.Search.print_hyfiles_enabled">print_hyfiles_enabled (Search property)</a>
+</li>
+      <li><a href="api/user/operation.html#raider.operations.Print.print_items">print_items() (Print method)</a>
+</li>
+      <li><a href="api/user/request.html#raider.request.process_cookies">process_cookies() (in module raider.request)</a>
+</li>
+      <li><a href="api/user/request.html#raider.request.process_data">process_data() (in module raider.request)</a>
+</li>
+      <li><a href="api/user/request.html#raider.request.process_headers">process_headers() (in module raider.request)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.modifiers.Alter.process_value">process_value() (Alter method)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.common.Processor">Processor (class in raider.plugins.common)</a>
+</li>
+      <li><a href="overview/glossary.html#term-Project"><strong>Project</strong></a>
+
+      <ul>
+        <li><a href="api/internal/project.html#raider.projects.Project">(class in raider.projects)</a>
+</li>
+      </ul></li>
+      <li><a href="api/internal/raider.html#raider.Raider.project">project (Raider attribute)</a>
+
+      <ul>
+        <li><a href="api/internal/raider.html#id0">(Raider property)</a>
+</li>
+      </ul></li>
+      <li><a href="api/internal/config.html#raider.config.Config.project_config">project_config (Config attribute)</a>
+</li>
+      <li><a href="api/internal/project.html#raider.projects.ProjectConfig">ProjectConfig (class in raider.projects)</a>
+</li>
+      <li><a href="api/internal/project.html#raider.projects.Projects">Projects (class in raider.projects)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Prompt">Prompt (class in raider.plugins.basic)</a>
+</li>
+      <li><a href="api/user/request.html#raider.request.prompt_empty_key">prompt_empty_key() (in module raider.request)</a>
+</li>
+      <li><a href="api/user/request.html#raider.request.prompt_empty_value">prompt_empty_value() (in module raider.request)</a>
+</li>
+      <li><a href="api/internal/config.html#raider.config.Config.proxy">proxy (Config attribute)</a>
+
+      <ul>
+        <li><a href="api/internal/project.html#raider.projects.ProjectConfig.proxy">(ProjectConfig property)</a>
+</li>
+      </ul></li>
+      <li><a href="api/user/request.html#raider.request.Request.put">put() (Request class method)</a>
+</li>
+      <li><a href="api/internal/utils.html#raider.utils.py_dict_to_hy_list">py_dict_to_hy_list() (in module raider.utils)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="R">R</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/internal/raider.html#raider.Raider">Raider (class in raider)</a>
+</li>
+      <li>
+    raider.cli
+
+      <ul>
+        <li><a href="api/cli.html#module-raider.cli">module</a>
+</li>
+      </ul></li>
+      <li>
+    raider.config
+
+      <ul>
+        <li><a href="api/internal/config.html#module-raider.config">module</a>
+</li>
+      </ul></li>
+      <li>
+    raider.flow
+
+      <ul>
+        <li><a href="api/user/flow.html#module-raider.flow">module</a>
+</li>
+      </ul></li>
+      <li>
+    raider.flowstore
+
+      <ul>
+        <li><a href="api/internal/flowstore.html#module-raider.flowstore">module</a>
+</li>
+      </ul></li>
+      <li>
+    raider.fuzzing
+
+      <ul>
+        <li><a href="api/user/attack.html#module-raider.fuzzing">module</a>
+</li>
+      </ul></li>
+      <li>
+    raider.logger
+
+      <ul>
+        <li><a href="api/internal/logger.html#module-raider.logger">module</a>
+</li>
+      </ul></li>
+      <li>
+    raider.operations
+
+      <ul>
+        <li><a href="api/user/operation.html#module-raider.operations">module</a>, <a href="examples/writing_custom_operations.html#module-raider.operations">[1]</a>
+</li>
+      </ul></li>
+      <li>
+    raider.parsers.config
+
+      <ul>
+        <li><a href="api/internal/parsers.html#module-raider.parsers.config">module</a>
+</li>
+      </ul></li>
+      <li>
+    raider.parsers.delete
+
+      <ul>
+        <li><a href="api/internal/parsers.html#module-raider.parsers.delete">module</a>
+</li>
+      </ul></li>
+      <li>
+    raider.parsers.edit
+
+      <ul>
+        <li><a href="api/internal/parsers.html#module-raider.parsers.edit">module</a>
+</li>
+      </ul></li>
+      <li>
+    raider.parsers.inspect
+
+      <ul>
+        <li><a href="api/internal/parsers.html#module-raider.parsers.inspect">module</a>
+</li>
+      </ul></li>
+      <li>
+    raider.parsers.new
+
+      <ul>
+        <li><a href="api/internal/parsers.html#module-raider.parsers.new">module</a>
+</li>
+      </ul></li>
+      <li>
+    raider.parsers.run
+
+      <ul>
+        <li><a href="api/internal/parsers.html#module-raider.parsers.run">module</a>
+</li>
+      </ul></li>
+      <li>
+    raider.parsers.shell
+
+      <ul>
+        <li><a href="api/internal/parsers.html#module-raider.parsers.shell">module</a>
+</li>
+      </ul></li>
+      <li>
+    raider.parsers.show
+
+      <ul>
+        <li><a href="api/internal/parsers.html#module-raider.parsers.show">module</a>
+</li>
+      </ul></li>
+      <li>
+    raider.plugins.basic
+
+      <ul>
+        <li><a href="api/user/plugin.html#module-raider.plugins.basic">module</a>
+</li>
+      </ul></li>
+      <li>
+    raider.plugins.common
+
+      <ul>
+        <li><a href="api/user/plugin.html#module-raider.plugins.common">module</a>
+</li>
+      </ul></li>
+      <li>
+    raider.plugins.modifiers
+
+      <ul>
+        <li><a href="api/user/plugin.html#module-raider.plugins.modifiers">module</a>
+</li>
+      </ul></li>
+      <li>
+    raider.plugins.parsers
+
+      <ul>
+        <li><a href="api/user/plugin.html#module-raider.plugins.parsers">module</a>
+</li>
+      </ul></li>
+      <li>
+    raider.plugins.processors
+
+      <ul>
+        <li><a href="api/user/plugin.html#module-raider.plugins.processors">module</a>
+</li>
+      </ul></li>
+      <li>
+    raider.projects
+
+      <ul>
+        <li><a href="api/internal/project.html#module-raider.projects">module</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li>
+    raider.request
+
+      <ul>
+        <li><a href="api/user/request.html#module-raider.request">module</a>
+</li>
+      </ul></li>
+      <li>
+    raider.search
+
+      <ul>
+        <li><a href="api/internal/search.html#module-raider.search">module</a>
+</li>
+      </ul></li>
+      <li>
+    raider.structures
+
+      <ul>
+        <li><a href="api/internal/structures.html#module-raider.structures">module</a>
+</li>
+      </ul></li>
+      <li>
+    raider.user
+
+      <ul>
+        <li><a href="api/user/user.html#module-raider.user">module</a>
+</li>
+      </ul></li>
+      <li>
+    raider.utils
+
+      <ul>
+        <li><a href="api/internal/utils.html#module-raider.utils">module</a>
+</li>
+      </ul></li>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.File.read_file">read_file() (File method)</a>
+</li>
+      <li><a href="api/internal/logger.html#raider.logger.CustomFormatter.red">red (CustomFormatter attribute)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Regex">Regex (class in raider.plugins.basic)</a>
+</li>
+      <li><a href="api/user/operation.html#raider.operations.Grep.regex">regex (Grep attribute)</a>
+
+      <ul>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.Regex.regex">(Regex attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Cookie.regex">regex() (Cookie class method)</a>
+
+      <ul>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.Header.regex">(Header class method)</a>
+</li>
+      </ul></li>
+      <li><a href="api/user/plugin.html#raider.plugins.modifiers.Alter.replace">replace() (Alter class method)</a>
+
+      <ul>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.File.replace">(File class method)</a>
+</li>
+      </ul></li>
+      <li><a href="overview/glossary.html#term-Request"><strong>Request</strong></a>
+
+      <ul>
+        <li><a href="api/user/request.html#raider.request.Request">(class in raider.request)</a>
+</li>
+      </ul></li>
+      <li><a href="api/user/flow.html#raider.flow.Flow.request">request (Flow attribute)</a>
+</li>
+      <li><a href="api/internal/logger.html#raider.logger.CustomFormatter.reset">reset (CustomFormatter attribute)</a>
+</li>
+      <li><a href="overview/glossary.html#term-Response"><strong>Response</strong></a>
+</li>
+      <li><a href="api/user/flow.html#raider.flow.Flow.response">response (Flow attribute)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.common.Plugin.return_value">return_value() (Plugin method)</a>
+</li>
+      <li><a href="api/user/attack.html#raider.fuzzing.Fuzz.run">run() (Fuzz method)</a>
+
+      <ul>
+        <li><a href="examples/writing_custom_operations.html#raider.operations.Operation.run">(Operation method)</a>
+</li>
+        <li><a href="api/internal/raider.html#raider.Raider.run">(Raider method)</a>
+</li>
+      </ul></li>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Command.run_command">run_command() (Command method)</a>
+</li>
+      <li><a href="examples/writing_custom_operations.html#raider.operations.Operation.run_conditional">run_conditional() (Operation method)</a>
+</li>
+      <li><a href="api/internal/parsers.html#raider.parsers.config.run_config_command">run_config_command() (in module raider.parsers.config)</a>
+</li>
+      <li><a href="api/internal/parsers.html#raider.parsers.delete.run_delete_command">run_delete_command() (in module raider.parsers.delete)</a>
+</li>
+      <li><a href="api/internal/parsers.html#raider.parsers.edit.run_edit_command">run_edit_command() (in module raider.parsers.edit)</a>
+</li>
+      <li><a href="api/internal/flowstore.html#raider.flowstore.FlowStore.run_flow">run_flow() (FlowStore method)</a>
+</li>
+      <li><a href="api/internal/flowstore.html#raider.flowstore.FlowStore.run_flowgraph">run_flowgraph() (FlowStore method)</a>
+</li>
+      <li><a href="api/internal/parsers.html#raider.parsers.inspect.run_inspect_command">run_inspect_command() (in module raider.parsers.inspect)</a>
+</li>
+      <li><a href="api/internal/parsers.html#raider.parsers.new.run_new_command">run_new_command() (in module raider.parsers.new)</a>
+</li>
+      <li><a href="api/user/flow.html#raider.flow.Flow.run_operations">run_operations() (Flow method)</a>
+</li>
+      <li><a href="api/internal/parsers.html#raider.parsers.run.run_run_command">run_run_command() (in module raider.parsers.run)</a>
+</li>
+      <li><a href="api/internal/parsers.html#raider.parsers.shell.run_shell_command">run_shell_command() (in module raider.parsers.shell)</a>
+</li>
+      <li><a href="api/internal/parsers.html#raider.parsers.show.run_show_command">run_show_command() (in module raider.parsers.show)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="S">S</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/user/operation.html#raider.operations.Save">Save (class in raider.operations)</a>
+</li>
+      <li><a href="api/internal/raider.html#raider.Raider.save_session">save_session() (Raider method)</a>
+</li>
+      <li><a href="api/user/operation.html#raider.operations.Save.save_to_file">save_to_file() (Save method)</a>
+</li>
+      <li><a href="api/internal/search.html#raider.search.Search">Search (class in raider.search)</a>
+</li>
+      <li><a href="api/internal/search.html#raider.search.Search.search">search() (Search method)</a>
+</li>
+      <li><a href="api/internal/project.html#raider.projects.Projects.search_flows">search_flows() (Projects method)</a>
+</li>
+      <li><a href="api/internal/project.html#raider.projects.Projects.search_hyfiles">search_hyfiles() (Projects method)</a>
+</li>
+      <li><a href="api/internal/project.html#raider.projects.Projects.search_projects">search_projects() (Projects method)</a>
+</li>
+      <li><a href="api/user/request.html#raider.request.Request.send">send() (Request method)</a>
+</li>
+      <li><a href="api/internal/utils.html#raider.utils.serialize_hy">serialize_hy() (in module raider.utils)</a>
+</li>
+      <li><a href="api/internal/raider.html#raider.Raider.SESSION_LOADED">SESSION_LOADED (Raider attribute)</a>
+</li>
+      <li><a href="api/internal/raider.html#raider.Raider.session_loaded">session_loaded (Raider property)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/internal/structures.html#raider.structures.CookieStore.set">set() (CookieStore method)</a>
+
+      <ul>
+        <li><a href="api/internal/structures.html#raider.structures.HeaderStore.set">(HeaderStore method)</a>
+</li>
+      </ul></li>
+      <li><a href="api/user/user.html#raider.user.User.set_cookie">set_cookie() (User method)</a>
+</li>
+      <li><a href="api/user/user.html#raider.user.User.set_cookies_from_dict">set_cookies_from_dict() (User method)</a>
+</li>
+      <li><a href="api/user/user.html#raider.user.User.set_data">set_data() (User method)</a>
+</li>
+      <li><a href="api/user/user.html#raider.user.User.set_data_from_dict">set_data_from_dict() (User method)</a>
+</li>
+      <li><a href="api/user/user.html#raider.user.User.set_header">set_header() (User method)</a>
+</li>
+      <li><a href="api/user/user.html#raider.user.User.set_headers_from_dict">set_headers_from_dict() (User method)</a>
+</li>
+      <li><a href="api/user/attack.html#raider.fuzzing.Fuzz.set_input_file">set_input_file() (Fuzz method)</a>
+</li>
+      <li><a href="overview/glossary.html#term-State-Stateful"><strong>State/Stateful</strong></a>
+</li>
+      <li><a href="api/user/operation.html#raider.operations.Http.status">status (Http attribute)</a>
+</li>
+      <li><a href="api/user/operation.html#raider.operations.Success">Success (class in raider.operations)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="T">T</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Html.tag">tag (Html attribute)</a>
+</li>
+      <li><a href="api/user/request.html#raider.request.Template">Template (class in raider.request)</a>
+</li>
+      <li><a href="api/internal/structures.html#raider.structures.DataStore.to_dict">to_dict() (DataStore method)</a>
+
+      <ul>
+        <li><a href="api/user/user.html#raider.user.User.to_dict">(User method)</a>
+</li>
+        <li><a href="api/user/user.html#raider.user.Users.to_dict">(Users method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/user/request.html#raider.request.Request.trace">trace() (Request class method)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="U">U</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/internal/structures.html#raider.structures.DataStore.update">update() (DataStore method)</a>
+</li>
+      <li><a href="api/user/request.html#raider.request.Request.url">url (Request attribute)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.processors.Urldecode">Urldecode (class in raider.plugins.processors)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.processors.Urldecode.urldecode">urldecode() (Urldecode method)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.processors.Urlencode">Urlencode (class in raider.plugins.processors)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.processors.Urlencode.urlencode">urlencode() (Urlencode method)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.parsers.Urlparser">Urlparser (class in raider.plugins.parsers)</a>
+</li>
+      <li><a href="api/internal/project.html#raider.projects.ProjectConfig.use_proxy">use_proxy (ProjectConfig property)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/user/user.html#raider.user.User">User (class in raider.user)</a>
+</li>
+      <li><a href="api/internal/raider.html#raider.Raider.user">user (Raider attribute)</a>
+
+      <ul>
+        <li><a href="api/internal/raider.html#id1">(Raider property)</a>
+</li>
+      </ul></li>
+      <li><a href="api/internal/config.html#raider.config.Config.user_agent">user_agent (Config attribute)</a>
+
+      <ul>
+        <li><a href="api/internal/project.html#raider.projects.ProjectConfig.user_agent">(ProjectConfig property)</a>
+</li>
+      </ul></li>
+      <li><a href="api/user/user.html#raider.user.User.username">username (User attribute)</a>
+</li>
+      <li><a href="api/user/user.html#raider.user.Users">Users (class in raider.user)</a>
+</li>
+      <li><a href="api/internal/project.html#raider.projects.Project.users">users (Project attribute)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="V">V</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Cookie.value">value (Cookie attribute)</a>
+
+      <ul>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Empty.value">(Empty attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.File.value">(File attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.basic.Header.value">(Header attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Parser.value">(Parser attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Plugin.value">(Plugin attribute)</a>
+</li>
+        <li><a href="api/user/plugin.html#raider.plugins.common.Processor.value">(Processor attribute)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/internal/flowstore.html#raider.flowstore.FlowStore.values">values (FlowStore property)</a>
+</li>
+      <li><a href="api/internal/structures.html#raider.structures.DataStore.values">values() (DataStore method)</a>
+</li>
+      <li><a href="api/user/plugin.html#raider.plugins.basic.Variable">Variable (class in raider.plugins.basic)</a>
+</li>
+      <li><a href="api/internal/config.html#raider.config.Config.verify">verify (Config attribute)</a>
+
+      <ul>
+        <li><a href="api/internal/project.html#raider.projects.ProjectConfig.verify">(ProjectConfig property)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="W">W</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="examples/writing_custom_operations.html#raider.operations.Operation.will_append">will_append (Operation property)</a>
+</li>
+      <li><a href="api/internal/config.html#raider.config.Config.write_config_file">write_config_file() (Config method)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/internal/project.html#raider.projects.Project.write_project_file">write_project_file() (Project method)</a>
+</li>
+      <li><a href="api/internal/project.html#raider.projects.Project.write_session_file">write_session_file() (Project method)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="Y">Y</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/internal/logger.html#raider.logger.CustomFormatter.yellow">yellow (CustomFormatter attribute)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, OWASP.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

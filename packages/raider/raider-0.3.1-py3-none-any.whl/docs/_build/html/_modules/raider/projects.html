@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>raider.projects &mdash; raider 0.3.0 documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/assets/jsonview.bundle.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/libs/html/datatables.min.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/common.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/layouts.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/styles.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/modern.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/sphinx_highlight.js"></script>
+        <script src="../../_static/assets/jsonview.bundle.js"></script>
+        <script src="../../_static/assets/jsonview_loader.js"></script>
+        <script src="../../_static/sphinx-needs/libs/html/datatables.min.js"></script>
+        <script src="../../_static/sphinx-needs/libs/html/datatables_loader.js"></script>
+        <script src="../../_static/sphinx-needs/libs/html/sphinx_needs_collapse.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> raider
+          </a>
+              <div class="version">
+                0.3.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Overview</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/raider.html">What is Raider</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/install.html">Installing Raider</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/faq.html">Frequently asked questions</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/prerequisites.html">Prerequisites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/reddit.html">Reddit authentication</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/keycloak.html">KeyCloak OAuth setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/juiceshop.html">Juiceshop setup</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Examples</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../examples/writing_custom_operations.html">Writing Custom Operations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../examples/writing_custom_plugins.html">Writing Custom Plugins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../examples/writing_macros.html">Writing Macros</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case Studies</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../case_studies/architecture.html">Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../case_studies/lisp.html">Why LISP/Hylang?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../case_studies/macros.html">What are macros and how to use them?</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">API Reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../api/cli.html">CLI reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../api/user.html">User facing API reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../api/macros.html">Macros reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../api/internal.html">Internal API reference</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">raider</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a></li>
+          <li class="breadcrumb-item"><a href="../index.html">Module code</a></li>
+      <li class="breadcrumb-item active">raider.projects</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for raider.projects</h1><div class="highlight"><pre>
+<span></span><span class="c1"># Copyright (C) 2020-2022 DigeeX</span>
+<span class="c1">#</span>
+<span class="c1"># This program is free software: you can redistribute it and/or modify</span>
+<span class="c1"># it under the terms of the GNU General Public License as published by</span>
+<span class="c1"># the Free Software Foundation, either version 3 of the License, or</span>
+<span class="c1"># (at your option) any later version.</span>
+<span class="c1">#</span>
+<span class="c1"># This program is distributed in the hope that it will be useful,</span>
+<span class="c1"># but WITHOUT ANY WARRANTY; without even the implied warranty of</span>
+<span class="c1"># MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span>
+<span class="c1"># GNU General Public License for more details.</span>
+<span class="c1">#</span>
+<span class="c1"># You should have received a copy of the GNU General Public License</span>
+<span class="c1"># along with this program.  If not, see &lt;https://www.gnu.org/licenses/&gt;.</span>
+
+<span class="sd">&quot;&quot;&quot;Project classes holding project configuration.</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">List</span><span class="p">,</span> <span class="n">Optional</span>
+
+<span class="kn">import</span> <span class="nn">igraph</span>
+
+<span class="kn">from</span> <span class="nn">raider.config</span> <span class="kn">import</span> <span class="n">Config</span>
+<span class="kn">from</span> <span class="nn">raider.flow</span> <span class="kn">import</span> <span class="n">Flow</span>
+<span class="kn">from</span> <span class="nn">raider.flowgraph</span> <span class="kn">import</span> <span class="n">FlowGraph</span>
+<span class="kn">from</span> <span class="nn">raider.flowstore</span> <span class="kn">import</span> <span class="n">FlowStore</span>
+<span class="kn">from</span> <span class="nn">raider.structures</span> <span class="kn">import</span> <span class="n">DataStore</span>
+<span class="kn">from</span> <span class="nn">raider.user</span> <span class="kn">import</span> <span class="n">Users</span>
+<span class="kn">from</span> <span class="nn">raider.utils</span> <span class="kn">import</span> <span class="p">(</span>
+    <span class="n">colored_hyfile</span><span class="p">,</span>
+    <span class="n">colored_text</span><span class="p">,</span>
+    <span class="n">create_hy_expression</span><span class="p">,</span>
+    <span class="n">eval_file</span><span class="p">,</span>
+    <span class="n">eval_project_file</span><span class="p">,</span>
+    <span class="n">get_project_file</span><span class="p">,</span>
+    <span class="n">list_hyfiles</span><span class="p">,</span>
+    <span class="n">list_projects</span><span class="p">,</span>
+<span class="p">)</span>
+
+
+<div class="viewcode-block" id="ProjectConfig"><a class="viewcode-back" href="../../api/internal/project.html#raider.projects.ProjectConfig">[docs]</a><span class="k">class</span> <span class="nc">ProjectConfig</span><span class="p">(</span><span class="n">Config</span><span class="p">):</span>
+<div class="viewcode-block" id="ProjectConfig.__init__"><a class="viewcode-back" href="../../api/internal/project.html#raider.projects.ProjectConfig.__init__">[docs]</a>    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">config</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">gconfig</span> <span class="o">=</span> <span class="n">config</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">logger</span> <span class="o">=</span> <span class="n">config</span><span class="o">.</span><span class="n">logger</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">users</span> <span class="o">=</span> <span class="kc">None</span></div>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">proxy</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">gconfig</span><span class="o">.</span><span class="n">proxy</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">use_proxy</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">gconfig</span><span class="o">.</span><span class="n">use_proxy</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">verify</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">gconfig</span><span class="o">.</span><span class="n">verify</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">user_agent</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">gconfig</span><span class="o">.</span><span class="n">user_agent</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">loglevel</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">gconfig</span><span class="o">.</span><span class="n">loglevel</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">active_user</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">users</span><span class="p">:</span>
+            <span class="n">username</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">users</span><span class="o">.</span><span class="n">active_user</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">users</span> <span class="o">=</span> <span class="n">Users</span><span class="p">()</span>
+            <span class="n">username</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">users</span><span class="o">.</span><span class="n">active_user</span>
+
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">users</span><span class="p">[</span><span class="n">username</span><span class="p">]</span></div>
+        
+
+<div class="viewcode-block" id="Project"><a class="viewcode-back" href="../../api/internal/project.html#raider.projects.Project">[docs]</a><span class="k">class</span> <span class="nc">Project</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;Class holding all the project related data.</span>
+
+<span class="sd">    This class isn&#39;t supposed to be used directly by the user, instead</span>
+<span class="sd">    the Raider class should be used, which will deal with the</span>
+<span class="sd">    Project class internally.</span>
+
+<span class="sd">    Attributes:</span>
+<span class="sd">      name:</span>
+<span class="sd">        A string with the name of the application.</span>
+<span class="sd">      base_url:</span>
+<span class="sd">        A string with the base URL of the application.</span>
+<span class="sd">      config:</span>
+<span class="sd">        A Config object with Raider global configuration plus the</span>
+<span class="sd">        variables defined in hy configuration files related to the</span>
+<span class="sd">        Project.</span>
+<span class="sd">      users:</span>
+<span class="sd">        A UserStore object generated from the &quot;_users&quot; variable set in</span>
+<span class="sd">        the hy configuration files for the project.</span>
+<span class="sd">      active_user:</span>
+<span class="sd">        A User object pointing to the active user inside the &quot;users&quot;</span>
+<span class="sd">        object.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="Project.__init__"><a class="viewcode-back" href="../../api/internal/project.html#raider.projects.Project.__init__">[docs]</a>    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">gconfig</span><span class="p">,</span> <span class="n">project</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Initializes the Project object.</span>
+
+<span class="sd">        Sets up the environment necessary to test the specified</span>
+<span class="sd">        application.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">          project:</span>
+<span class="sd">            A string with the name of the application to be</span>
+<span class="sd">            initialized. If not supplied, the last used application will</span>
+<span class="sd">            be selected</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">pconfig</span> <span class="o">=</span> <span class="n">ProjectConfig</span><span class="p">(</span><span class="n">gconfig</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">project</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">flowstore</span> <span class="o">=</span> <span class="n">FlowStore</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">pconfig</span><span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">flows</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">flowgraphs</span> <span class="o">=</span> <span class="p">{}</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">logger</span> <span class="o">=</span> <span class="n">gconfig</span><span class="o">.</span><span class="n">logger</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loaded</span> <span class="o">=</span> <span class="kc">False</span></div>
+
+<div class="viewcode-block" id="Project.load"><a class="viewcode-back" href="../../api/internal/project.html#raider.projects.Project.load">[docs]</a>    <span class="k">def</span> <span class="nf">load</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Loads project settings.</span>
+
+<span class="sd">        Goes through all the &quot;.hy&quot; files in the project directory,</span>
+<span class="sd">        evaluates them all, and returns the created locals, making them</span>
+<span class="sd">        available to the rest of Raider.</span>
+
+<span class="sd">        Files are loaded in alphabetical order, and objects created in</span>
+<span class="sd">        one of them will be available to the next one, eliminating the</span>
+<span class="sd">        need to use imports. This allows the user to split the</span>
+<span class="sd">        configuration files however it makes sense, and Raider doesn&#39;t</span>
+<span class="sd">        impose any restrictions on those files.</span>
+
+<span class="sd">        All &quot;.hy&quot; files in the project directory are evaluated, which</span>
+<span class="sd">        could be considered unsafe and could cause all kinds of security</span>
+<span class="sd">        issues, but Raider assumes the user knows what they&#39;re doing and</span>
+<span class="sd">        will not copy/paste hylang code from untrusted sources.</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">          A dictionary as returned by the locals() function. It contains</span>
+<span class="sd">          all of the locally defined objects in the &quot;.hy&quot; configuration</span>
+<span class="sd">          files.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">loaded</span><span class="p">:</span>
+            <span class="k">return</span>
+
+        <span class="n">shared_locals</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]</span>
+        <span class="n">shared_locals</span> <span class="o">=</span> <span class="p">{}</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span>
+            <span class="s2">&quot;Loading hyfiles for </span><span class="si">%s</span><span class="s2"> project&quot;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">name</span>
+        <span class="p">)</span>
+        <span class="k">for</span> <span class="n">hyfile</span> <span class="ow">in</span> <span class="n">list_hyfiles</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Loading data from </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">hyfile</span><span class="p">)</span>
+            <span class="n">env_old</span> <span class="o">=</span> <span class="n">shared_locals</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+            <span class="n">shared_locals</span><span class="o">.</span><span class="n">update</span><span class="p">(</span>
+                <span class="n">eval_project_file</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">hyfile</span><span class="p">,</span> <span class="n">shared_locals</span><span class="p">)</span>
+            <span class="p">)</span>
+            <span class="n">env_new</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">shared_locals</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span> <span class="o">-</span> <span class="nb">set</span><span class="p">(</span><span class="n">env_old</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
+            <span class="n">env_new</span> <span class="o">=</span> <span class="p">[</span><span class="n">item</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">shared_locals</span> <span class="k">if</span> <span class="n">item</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">env_old</span><span class="p">]</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">flows</span><span class="p">[</span><span class="n">hyfile</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">flowgraphs</span><span class="p">[</span><span class="n">hyfile</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">env_new</span><span class="p">:</span>
+                <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">shared_locals</span><span class="p">[</span><span class="n">key</span><span class="p">],</span> <span class="n">Flow</span><span class="p">):</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">flows</span><span class="p">[</span><span class="n">hyfile</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">key</span><span class="p">)</span>
+                <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">shared_locals</span><span class="p">[</span><span class="n">key</span><span class="p">],</span> <span class="n">FlowGraph</span><span class="p">):</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">flowgraphs</span><span class="p">[</span><span class="n">hyfile</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">key</span><span class="p">)</span>
+
+        <span class="k">for</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">shared_locals</span><span class="o">.</span><span class="n">values</span><span class="p">():</span>
+            <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="n">Users</span><span class="p">):</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">pconfig</span><span class="o">.</span><span class="n">users</span> <span class="o">=</span> <span class="n">value</span>
+
+        <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">shared_locals</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="n">Flow</span><span class="p">):</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">flowstore</span><span class="o">.</span><span class="n">add_flow</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span>
+            <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="n">FlowGraph</span><span class="p">):</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">flowstore</span><span class="o">.</span><span class="n">add_flowgraph</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span>
+
+        <span class="n">first_flow</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">flowstore</span><span class="o">.</span><span class="n">values</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">first_flow_name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">flowstore</span><span class="o">.</span><span class="n">get_flow_name_by_flow</span><span class="p">(</span><span class="n">first_flow</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">hyfile</span><span class="p">,</span> <span class="n">flows</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">flows</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="k">if</span> <span class="n">first_flow_name</span> <span class="ow">in</span> <span class="n">flows</span><span class="p">:</span>
+                <span class="n">first_flow_hyfile</span> <span class="o">=</span> <span class="n">hyfile</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">flowstore</span><span class="o">.</span><span class="n">add_flowgraph</span><span class="p">(</span><span class="s2">&quot;DEFAULT&quot;</span><span class="p">,</span> <span class="n">FlowGraph</span><span class="p">(</span><span class="n">first_flow</span><span class="p">))</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">flowgraphs</span><span class="p">[</span><span class="n">first_flow_hyfile</span><span class="p">]</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;DEFAULT&quot;</span><span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">loaded</span> <span class="o">=</span> <span class="kc">True</span>
+
+        <span class="k">return</span> <span class="n">shared_locals</span></div>
+
+<div class="viewcode-block" id="Project.write_session_file"><a class="viewcode-back" href="../../api/internal/project.html#raider.projects.Project.write_session_file">[docs]</a>    <span class="k">def</span> <span class="nf">write_session_file</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Saves session data.</span>
+
+<span class="sd">        Saves user related session data in a file for later use. This</span>
+<span class="sd">        includes cookies, headers, and other data extracted using</span>
+<span class="sd">        Plugins.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">filename</span> <span class="o">=</span> <span class="n">get_project_file</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="s2">&quot;_userdata.hy&quot;</span><span class="p">)</span>
+        <span class="n">value</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+        <span class="n">cookies</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="n">headers</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">sess_file</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">username</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">users</span><span class="p">:</span>
+                <span class="n">user</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">users</span><span class="p">[</span><span class="n">username</span><span class="p">]</span>
+                <span class="n">cookies</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="n">username</span><span class="p">:</span> <span class="n">user</span><span class="o">.</span><span class="n">cookies</span><span class="o">.</span><span class="n">to_dict</span><span class="p">()})</span>
+                <span class="n">headers</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="n">username</span><span class="p">:</span> <span class="n">user</span><span class="o">.</span><span class="n">headers</span><span class="o">.</span><span class="n">to_dict</span><span class="p">()})</span>
+                <span class="n">data</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="n">username</span><span class="p">:</span> <span class="n">user</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">to_dict</span><span class="p">()})</span>
+
+            <span class="n">value</span> <span class="o">+=</span> <span class="n">create_hy_expression</span><span class="p">(</span><span class="s2">&quot;_cookies&quot;</span><span class="p">,</span> <span class="n">cookies</span><span class="p">)</span>
+            <span class="n">value</span> <span class="o">+=</span> <span class="n">create_hy_expression</span><span class="p">(</span><span class="s2">&quot;_headers&quot;</span><span class="p">,</span> <span class="n">headers</span><span class="p">)</span>
+            <span class="n">value</span> <span class="o">+=</span> <span class="n">create_hy_expression</span><span class="p">(</span><span class="s2">&quot;_data&quot;</span><span class="p">,</span> <span class="n">data</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Writing to session file </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">filename</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;value = </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">value</span><span class="p">))</span>
+            <span class="n">sess_file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">value</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="Project.load_session_file"><a class="viewcode-back" href="../../api/internal/project.html#raider.projects.Project.load_session_file">[docs]</a>    <span class="k">def</span> <span class="nf">load_session_file</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Loads session data.</span>
+
+<span class="sd">        If session data was saved with write_session_file() this</span>
+<span class="sd">        function will load this data into existing :class:`User</span>
+<span class="sd">        &lt;raider.user.User&gt;` objects.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">filename</span> <span class="o">=</span> <span class="n">get_project_file</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="s2">&quot;_userdata.hy&quot;</span><span class="p">)</span>
+        <span class="n">output</span> <span class="o">=</span> <span class="n">eval_file</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+        <span class="n">cookies</span> <span class="o">=</span> <span class="n">output</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;_cookies&quot;</span><span class="p">)</span>
+        <span class="n">headers</span> <span class="o">=</span> <span class="n">output</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;_headers&quot;</span><span class="p">)</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="n">output</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;_data&quot;</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">cookies</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">username</span> <span class="ow">in</span> <span class="n">cookies</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">users</span><span class="p">[</span><span class="n">username</span><span class="p">]</span><span class="o">.</span><span class="n">set_cookies_from_dict</span><span class="p">(</span><span class="n">cookies</span><span class="p">[</span><span class="n">username</span><span class="p">])</span>
+
+        <span class="k">if</span> <span class="n">headers</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">username</span> <span class="ow">in</span> <span class="n">headers</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">users</span><span class="p">[</span><span class="n">username</span><span class="p">]</span><span class="o">.</span><span class="n">set_headers_from_dict</span><span class="p">(</span><span class="n">headers</span><span class="p">[</span><span class="n">username</span><span class="p">])</span>
+
+        <span class="k">if</span> <span class="n">data</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">username</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">users</span><span class="p">[</span><span class="n">username</span><span class="p">]</span><span class="o">.</span><span class="n">set_data_from_dict</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="n">username</span><span class="p">])</span></div>
+
+<div class="viewcode-block" id="Project.write_project_file"><a class="viewcode-back" href="../../api/internal/project.html#raider.projects.Project.write_project_file">[docs]</a>    <span class="k">def</span> <span class="nf">write_project_file</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Writes the project settings.</span>
+
+<span class="sd">        For now only the active user is saved, so that the next time the</span>
+<span class="sd">        project is used, there&#39;s no need to specify the user manually.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">filename</span> <span class="o">=</span> <span class="n">get_project_file</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="s2">&quot;_project.hy&quot;</span><span class="p">)</span>
+        <span class="n">value</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">proj_file</span><span class="p">:</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">pconfig</span><span class="o">.</span><span class="n">active_user</span><span class="p">:</span>
+                <span class="n">value</span> <span class="o">+=</span> <span class="n">create_hy_expression</span><span class="p">(</span>
+                    <span class="s2">&quot;_active_user&quot;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">pconfig</span><span class="o">.</span><span class="n">active_user</span><span class="o">.</span><span class="n">username</span>
+                <span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Writing to session file </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">filename</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;value = </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">value</span><span class="p">))</span>
+            <span class="n">proj_file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">value</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="Project.print"><a class="viewcode-back" href="../../api/internal/project.html#raider.projects.Project.print">[docs]</a>    <span class="k">def</span> <span class="nf">print</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">spacing</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span> <span class="o">*</span> <span class="n">spacing</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\x1b</span><span class="s2">[1;30;44m&quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\x1b</span><span class="s2">[0m&quot;</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="Project.print_hyfile"><a class="viewcode-back" href="../../api/internal/project.html#raider.projects.Project.print_hyfile">[docs]</a>    <span class="k">def</span> <span class="nf">print_hyfile</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">hyfile</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">spacing</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span> <span class="o">*</span> <span class="n">spacing</span> <span class="o">+</span> <span class="s2">&quot;- &quot;</span> <span class="o">+</span> <span class="n">colored_hyfile</span><span class="p">(</span><span class="n">hyfile</span><span class="p">))</span></div>
+
+<div class="viewcode-block" id="Project.print_flow"><a class="viewcode-back" href="../../api/internal/project.html#raider.projects.Project.print_flow">[docs]</a>    <span class="k">def</span> <span class="nf">print_flow</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">flow</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">spacing</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span> <span class="o">*</span> <span class="n">spacing</span> <span class="o">+</span> <span class="s2">&quot;• &quot;</span> <span class="o">+</span> <span class="p">(</span><span class="n">flow</span><span class="p">))</span></div>
+
+<div class="viewcode-block" id="Project.print_flowgraph"><a class="viewcode-back" href="../../api/internal/project.html#raider.projects.Project.print_flowgraph">[docs]</a>    <span class="k">def</span> <span class="nf">print_flowgraph</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">flowgraph</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">start</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">test</span><span class="p">:</span><span class="nb">str</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">spacing</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">test</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span> <span class="o">*</span> <span class="n">spacing</span> <span class="o">+</span> <span class="s2">&quot;+ &quot;</span> <span class="o">+</span> <span class="n">colored_text</span><span class="p">(</span><span class="n">flowgraph</span><span class="p">,</span> <span class="s2">&quot;RED-BLACK-B&quot;</span><span class="p">)</span>
+                  <span class="o">+</span> <span class="s2">&quot; -&gt; &quot;</span> <span class="o">+</span> <span class="n">colored_text</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="s2">&quot;RESET&quot;</span><span class="p">)</span>
+                  <span class="o">+</span> <span class="s2">&quot; (&quot;</span> <span class="o">+</span> <span class="n">colored_text</span><span class="p">(</span><span class="n">test</span><span class="p">,</span> <span class="s2">&quot;GREEN-BLACK&quot;</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;)&quot;</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span> <span class="o">*</span> <span class="n">spacing</span> <span class="o">+</span> <span class="s2">&quot;+ &quot;</span> <span class="o">+</span> <span class="n">colored_text</span><span class="p">(</span><span class="n">flowgraph</span><span class="p">,</span> <span class="s2">&quot;RED-BLACK-B&quot;</span><span class="p">)</span>
+                  <span class="o">+</span> <span class="s2">&quot; -&gt; &quot;</span> <span class="o">+</span> <span class="n">colored_text</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="s2">&quot;RESET&quot;</span><span class="p">))</span></div>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">hyfiles</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">list_hyfiles</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">))</span></div>
+
+
+<div class="viewcode-block" id="Projects"><a class="viewcode-back" href="../../api/internal/project.html#raider.projects.Projects">[docs]</a><span class="k">class</span> <span class="nc">Projects</span><span class="p">(</span><span class="n">DataStore</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Class storing Raider projects.</span>
+
+<span class="sd">    This class inherits from DataStore, and converts the values into</span>
+<span class="sd">    Project objects.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="Projects.__init__"><a class="viewcode-back" href="../../api/internal/project.html#raider.projects.Projects.__init__">[docs]</a>    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">config</span><span class="p">:</span> <span class="n">Config</span><span class="p">,</span> <span class="n">active_project</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Initializes a Projects object.</span>
+
+<span class="sd">        Given a list of Project objects, create the Projects DataStore</span>
+<span class="sd">        containing them.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">          projects:</span>
+<span class="sd">            A list of Project objects to be added to the Projects</span>
+<span class="sd">            DataStore.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">active_project</span><span class="p">:</span>
+            <span class="n">config</span><span class="o">.</span><span class="n">active_project</span> <span class="o">=</span> <span class="n">active_project</span>
+
+        <span class="n">values</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">if</span> <span class="n">list_projects</span><span class="p">():</span>
+            <span class="k">for</span> <span class="n">project</span> <span class="ow">in</span> <span class="n">list_projects</span><span class="p">():</span>
+                <span class="n">values</span><span class="p">[</span><span class="n">project</span><span class="p">]</span> <span class="o">=</span> <span class="n">Project</span><span class="p">(</span><span class="n">config</span><span class="p">,</span> <span class="n">project</span><span class="p">)</span>
+
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">values</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="Projects.search_projects"><a class="viewcode-back" href="../../api/internal/project.html#raider.projects.Projects.search_projects">[docs]</a>    <span class="k">def</span> <span class="nf">search_projects</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">search</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
+        <span class="n">matches</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">search</span><span class="p">:</span>
+            <span class="n">matches</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
+            <span class="k">return</span> <span class="n">matches</span>
+
+        <span class="k">for</span> <span class="n">project</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">values</span><span class="p">():</span>
+            <span class="k">if</span> <span class="n">search</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="ow">in</span> <span class="n">project</span><span class="o">.</span><span class="n">name</span><span class="o">.</span><span class="n">lower</span><span class="p">():</span>
+                <span class="n">matches</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">project</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+
+        <span class="n">matches</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">matches</span><span class="p">))</span>
+        <span class="k">return</span> <span class="p">{</span><span class="n">project</span><span class="p">:</span> <span class="p">{}</span> <span class="k">for</span> <span class="n">project</span> <span class="ow">in</span> <span class="n">matches</span><span class="p">}</span></div>
+
+<div class="viewcode-block" id="Projects.search_hyfiles"><a class="viewcode-back" href="../../api/internal/project.html#raider.projects.Projects.search_hyfiles">[docs]</a>    <span class="k">def</span> <span class="nf">search_hyfiles</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">results</span><span class="p">,</span> <span class="n">search</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
+        <span class="n">matches</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">for</span> <span class="n">project</span> <span class="ow">in</span> <span class="n">results</span><span class="p">:</span>
+            <span class="n">project_hyfiles</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">list_hyfiles</span><span class="p">(</span><span class="n">project</span><span class="p">))</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">search</span><span class="p">:</span>
+                <span class="n">matches</span><span class="o">.</span><span class="n">update</span><span class="p">(</span>
+                    <span class="p">{</span><span class="n">project</span><span class="p">:</span> <span class="p">{</span><span class="n">hyfile</span><span class="p">:</span> <span class="p">{}</span> <span class="k">for</span> <span class="n">hyfile</span> <span class="ow">in</span> <span class="n">project_hyfiles</span><span class="p">}}</span>
+                <span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">for</span> <span class="n">hyfile</span> <span class="ow">in</span> <span class="n">project_hyfiles</span><span class="p">:</span>
+                    <span class="k">if</span> <span class="n">search</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="ow">in</span> <span class="n">hyfile</span><span class="o">.</span><span class="n">lower</span><span class="p">():</span>
+                        <span class="k">if</span> <span class="ow">not</span> <span class="n">project</span> <span class="ow">in</span> <span class="n">matches</span><span class="p">:</span>
+                            <span class="n">matches</span><span class="p">[</span><span class="n">project</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
+                        <span class="n">matches</span><span class="p">[</span><span class="n">project</span><span class="p">][</span><span class="n">hyfile</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
+
+        <span class="k">return</span> <span class="n">matches</span></div>
+
+<div class="viewcode-block" id="Projects.search_flows"><a class="viewcode-back" href="../../api/internal/project.html#raider.projects.Projects.search_flows">[docs]</a>    <span class="k">def</span> <span class="nf">search_flows</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">results</span><span class="p">,</span>
+        <span class="n">search_flows</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">search_flowgraphs</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
+        <span class="n">matches</span> <span class="o">=</span> <span class="n">results</span>
+        <span class="k">for</span> <span class="n">project</span> <span class="ow">in</span> <span class="n">results</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+            <span class="n">hyfiles</span> <span class="o">=</span> <span class="n">results</span><span class="p">[</span><span class="n">project</span><span class="p">]</span>
+            <span class="k">for</span> <span class="n">hyfile</span> <span class="ow">in</span> <span class="n">hyfiles</span><span class="p">:</span>
+                <span class="n">flows</span> <span class="o">=</span> <span class="bp">self</span><span class="p">[</span><span class="n">project</span><span class="p">]</span><span class="o">.</span><span class="n">flows</span><span class="p">[</span><span class="n">hyfile</span><span class="p">]</span>
+                <span class="n">flowgraphs</span> <span class="o">=</span> <span class="bp">self</span><span class="p">[</span><span class="n">project</span><span class="p">]</span><span class="o">.</span><span class="n">flowgraphs</span><span class="p">[</span><span class="n">hyfile</span><span class="p">]</span>
+                <span class="n">hyfile_flows</span> <span class="o">=</span> <span class="p">[]</span>
+                <span class="n">hyfile_flowgraphs</span> <span class="o">=</span> <span class="p">[]</span>
+                <span class="k">if</span> <span class="ow">not</span> <span class="n">search_flows</span><span class="p">:</span>
+                    <span class="n">hyfile_flows</span> <span class="o">=</span> <span class="n">flows</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="k">for</span> <span class="n">flow</span> <span class="ow">in</span> <span class="n">flows</span><span class="p">:</span>
+                        <span class="k">if</span> <span class="n">search_flows</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="ow">in</span> <span class="n">flow</span><span class="o">.</span><span class="n">lower</span><span class="p">():</span>
+                            <span class="n">hyfile_flows</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">flow</span><span class="p">)</span>
+
+                <span class="k">if</span> <span class="ow">not</span> <span class="n">search_flowgraphs</span><span class="p">:</span>
+                    <span class="n">hyfile_flowgraphs</span> <span class="o">=</span> <span class="n">flowgraphs</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="k">for</span> <span class="n">flowgraph</span> <span class="ow">in</span> <span class="n">flowgraphs</span><span class="p">:</span>
+                        <span class="k">if</span> <span class="n">search_flowgraphs</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="ow">in</span> <span class="n">flowgraph</span><span class="o">.</span><span class="n">lower</span><span class="p">():</span>
+                            <span class="n">hyfile_flowgraphs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">flowgraph</span><span class="p">)</span>
+
+                <span class="n">matches</span><span class="p">[</span><span class="n">project</span><span class="p">][</span><span class="n">hyfile</span><span class="p">][</span><span class="s2">&quot;flows&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">hyfile_flows</span>
+                <span class="n">matches</span><span class="p">[</span><span class="n">project</span><span class="p">][</span><span class="n">hyfile</span><span class="p">][</span><span class="s2">&quot;flowgraphs&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">hyfile_flowgraphs</span>
+
+        <span class="k">return</span> <span class="n">matches</span></div></div>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, OWASP.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

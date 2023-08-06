@@ -1,0 +1,14 @@
+class Matches:
+    def __init__(self, raider, args):
+        self.raider = raider
+        self.args = args
+        self.matches = {}
+
+    @property
+    def print_projects_enabled(self):
+        if isinstance(self.args.get("projects"), str):
+            return True
+        return False
+
+    def search(self):
+        self.matches["projects"] = 0
