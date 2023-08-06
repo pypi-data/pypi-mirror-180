@@ -1,0 +1,10 @@
+README.md
+setup.py
+text2music/__init__.py
+text2music.egg-info/PKG-INFO
+text2music.egg-info/SOURCES.txt
+text2music.egg-info/dependency_links.txt
+text2music.egg-info/requires.txt
+text2music.egg-info/top_level.txt
+text2music/experimental/__init__.py
+text2music/experimental/mubert__.py
