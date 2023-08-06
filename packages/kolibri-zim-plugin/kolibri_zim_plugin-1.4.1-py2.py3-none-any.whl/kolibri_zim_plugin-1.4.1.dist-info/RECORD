@@ -1,0 +1,14 @@
+kolibri_zim_plugin/__init__.py,sha256=BqOI5y46o1G1RWC9bF1DPL-YM68lGYPmZt1pn6FZFZs,22
+kolibri_zim_plugin/kolibri_plugin.py,sha256=BpysqFNiJE0mrSCBx9l6uKdL8hvec35TO8Fgcqa0kgo,512
+kolibri_zim_plugin/root_urls.py,sha256=9iFvzuCnRJVTq7FIy3PjoW_wYI-Uo5mi2uXRndXyGLo,750
+kolibri_zim_plugin/views.py,sha256=_8h51yw-8u_RoB9iH5_gjwN0JkDzBtozhrxQvqCHCfo,12584
+kolibri_zim_plugin/build/kolibri_zim_plugin.main_stats.json,sha256=6WF-XwbQYlUL1MpdAJzeFBEle-V2PvoAPa_EntZUQKk,857
+kolibri_zim_plugin/static/kolibri_zim_plugin.main/kolibri_zim_plugin.main-1.4.1.js,sha256=68QYeFvsana8Sy2aNw31kUjnZzIaM4kgKRun6GzzXs0,86314
+kolibri_zim_plugin/static/kolibri_zim_plugin.main/kolibri_zim_plugin.main-1.4.1.js.map,sha256=U-1lgLqtR0lXle8gEidiFwXDfTKNySx31jlvp4x4vh0,260062
+kolibri_zim_plugin/static/kolibri_zim_plugin.main/kolibri_zim_plugin.main1.4.1.css,sha256=CnrtrX0Jn-rRMJSGK0emi2bWT2yMX8WAHx3CkP4WSqQ,7020
+kolibri_zim_plugin/static/kolibri_zim_plugin.main/kolibri_zim_plugin.main1.4.1.rtl.css,sha256=Spgz-cq5E5xnHw-V3g3ap9g3cmRkd1UOVC3-e9HafHM,7023
+kolibri_zim_plugin-1.4.1.dist-info/LICENSE,sha256=Pl0iKY2HSCsmI-3R7TcC_Z3GplguTEdS9LvEAyOe1pY,1078
+kolibri_zim_plugin-1.4.1.dist-info/METADATA,sha256=6XQEJojBCbiXGwKXjEEwYIAWD1jiQxb7qSPLwp97LxU,3177
+kolibri_zim_plugin-1.4.1.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+kolibri_zim_plugin-1.4.1.dist-info/top_level.txt,sha256=MYjEfhh2qYycCzHCTvdLgU37hbc87PbI8OhkOshgdt4,19
+kolibri_zim_plugin-1.4.1.dist-info/RECORD,,
