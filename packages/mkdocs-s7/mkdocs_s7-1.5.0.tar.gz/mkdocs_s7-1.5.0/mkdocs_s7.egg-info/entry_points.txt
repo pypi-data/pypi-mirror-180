@@ -1,0 +1,2 @@
+[console_scripts]
+mkdocs_s7 = mkdocs_s7.main:main
