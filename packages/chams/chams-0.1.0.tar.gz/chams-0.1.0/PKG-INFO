@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: chams
+Version: 0.1.0
+Summary: 
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: openai (>=0.25.0,<0.26.0)
+Requires-Dist: rich (>=12.6.0,<13.0.0)
+Requires-Dist: typer (>=0.7.0,<0.8.0)
+Description-Content-Type: text/markdown
+
+# My Project
+
+My Project is a tool that does multiple NLP using gpt3.
+- emails generation
+- paraphrasing
+
+## contact
+
+- email: [zfellah](mailto:zfellah@generixgroup.com)
