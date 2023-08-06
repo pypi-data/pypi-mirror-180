@@ -1,0 +1,4 @@
+include a_pandas_ex_melt_pivot_tools/requirements.txt
+include a_pandas_ex_melt_pivot_tools/thirdparty.json
+include a_pandas_ex_melt_pivot_tools/README.MD
+include a_pandas_ex_melt_pivot_tools/LICENSE
