@@ -1,0 +1,9 @@
+cloudeventful/__init__.py,sha256=s5Uxw0-rXT_I6sV4TIXDihjx5OPjPLUG6d7jbpi96xI,190
+cloudeventful/_cloud_event.py,sha256=gafgKc96DiWUcnZy3C4uskj2FSgVG2WECZ27Q-4Z240,489
+cloudeventful/_cloud_event_doc.py,sha256=JgPWzlCLbSTRqiUEllfPtdXe5dSYvoS2bSDfqi-uOKM,299
+cloudeventful/_cloud_eventful.py,sha256=uUNYlmbNT8l0VXTZ6eG7vZmBA553RcX8S-hkW1gccew,16183
+cloudeventful/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudeventful-2.1.2.dist-info/LICENSE,sha256=mGmwu1cxwuOIwLtRHO-hPnFlsDFAQ1VDBcjBbscqKew,1072
+cloudeventful-2.1.2.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+cloudeventful-2.1.2.dist-info/METADATA,sha256=Flc84IlDDazoUZZBsV2-Z7flFmXn8JDTlBA6tNnx61M,4541
+cloudeventful-2.1.2.dist-info/RECORD,,
