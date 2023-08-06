@@ -1,0 +1,17 @@
+.editorconfig
+.gitignore
+.gitlab-ci.env
+.gitlab-ci.yaml
+.yamllint.yaml
+README.md
+obj-url.sublime-project
+pyproject.toml
+test.py
+obj_url/__init__.py
+obj_url/py.typed
+obj_url/url.py
+obj_url.egg-info/PKG-INFO
+obj_url.egg-info/SOURCES.txt
+obj_url.egg-info/dependency_links.txt
+obj_url.egg-info/requires.txt
+obj_url.egg-info/top_level.txt

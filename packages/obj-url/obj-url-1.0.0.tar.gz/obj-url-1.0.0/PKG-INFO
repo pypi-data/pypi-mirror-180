@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: obj-url
+Version: 1.0.0
+Summary: URL utility class
+Author-email: Peter Linss <peter@linss.com>
+License: GNU Lesser General Public License v3
+Project-URL: homepage, https://gitlab.linss.com/open-source/python/obj-url
+Keywords: url
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+# obj-url
+
+Utility class to make working with URLs easier.
