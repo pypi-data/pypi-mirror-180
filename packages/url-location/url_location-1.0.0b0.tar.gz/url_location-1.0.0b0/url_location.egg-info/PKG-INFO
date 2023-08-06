@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: url-location
+Version: 1.0.0b0
+Summary: Package to retrieve the iso 3 short code of the country to which a URL belongs
+Home-page: https://github.com/....
+Author: Eduardo Tuteggito Rosero
+Author-email: zerhiphop@live.com
+License: MIT License
+Keywords: url,country,url_location
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# url_location
+
+This library can be used to retrieve the country a URL belongs to by processing its domain.
+
+## Usage
+
+```python
+from url_location import URLLocation
+
+url = "https://www.exampleurl.com.ec/something-else"
+ul = URLLocation()
+country = ul.processUrl(url)
+print(country)
+```
+
+Output
+```console
+ECU
+```
+
+When a URL can´t be processed the result will be <UNK> like bellow:
+
+```python
+url = "https://www.exampleurl.com/something-else"
+ul = URLLocation()
+country = ul.processUrl(url)
+print(country)
+```
+
+Output
+```console
+None
+```
+

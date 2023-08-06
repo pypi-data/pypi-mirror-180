@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+url_location/__init__.py
+url_location.egg-info/PKG-INFO
+url_location.egg-info/SOURCES.txt
+url_location.egg-info/dependency_links.txt
+url_location.egg-info/top_level.txt
+url_location/service/URLLocation.py
+url_location/service/__init__.py
+url_location/utils/Countries.py
+url_location/utils/Logger.py
+url_location/utils/__init__.py
