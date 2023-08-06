@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: https3
+Version: 1.0.7
+Summary: https3 lets you access Django shell from your Python modules
+Home-page: https://github.com/biwin/https3
+Download-URL: https://github.com/biwin/https3/
+Author: Biwin John
+Author-email: biwinjohn@gmail.com
+License: Apache 2.0
+Keywords: django,https3,python
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
