@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pyjsondatabase"
+version = "0.0.1"
+description = "Simple dictionary-based database"
+authors = ["Xenely"]
+license = "Reflect Solutions"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
