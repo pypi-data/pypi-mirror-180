@@ -1,0 +1,11 @@
+README.md
+setup.py
+stackexplain/__init__.py
+stackexplain/__main__.py
+stackexplain/stackexplain.py
+stackexplain.egg-info/PKG-INFO
+stackexplain.egg-info/SOURCES.txt
+stackexplain.egg-info/dependency_links.txt
+stackexplain.egg-info/entry_points.txt
+stackexplain.egg-info/requires.txt
+stackexplain.egg-info/top_level.txt
