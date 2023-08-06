@@ -1,0 +1,6 @@
+datasette
+cryptography
+
+[test]
+pytest
+pytest-asyncio

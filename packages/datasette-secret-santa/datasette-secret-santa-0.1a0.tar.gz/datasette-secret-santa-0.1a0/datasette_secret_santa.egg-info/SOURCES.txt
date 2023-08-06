@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+datasette_secret_santa/__init__.py
+datasette_secret_santa/words.txt
+datasette_secret_santa.egg-info/PKG-INFO
+datasette_secret_santa.egg-info/SOURCES.txt
+datasette_secret_santa.egg-info/dependency_links.txt
+datasette_secret_santa.egg-info/entry_points.txt
+datasette_secret_santa.egg-info/requires.txt
+datasette_secret_santa.egg-info/top_level.txt
+datasette_secret_santa/templates/_secret_santa_base.html
+datasette_secret_santa/templates/index.html
+datasette_secret_santa/templates/santa_reveal.html
+datasette_secret_santa/templates/santa_set_password.html
+datasette_secret_santa/templates/secret_santa.html
+datasette_secret_santa/templates/secret_santa_error.html
