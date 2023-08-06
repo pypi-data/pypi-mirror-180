@@ -1,0 +1,14 @@
+gb
+==
+
+.. automodule:: mc3.gb.likelihood
+   :members:
+   :undoc-members:
+
+.. automodule:: mc3.gb.proposal
+   :members:
+   :undoc-members:
+
+.. automodule:: mc3.gb.fstatistics
+   :members:
+   :undoc-members:

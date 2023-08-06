@@ -1,0 +1,8 @@
+*~
+*.pkl
+*.npy
+*_files
+*_checkpoints
+*build
+dist
+*egg*

@@ -1,0 +1,22 @@
+Welcome to m3c2's documentation!
+=======================================
+
+Contents:
+
+.. toctree::
+   :maxdepth: 1
+
+   The README <readme>
+   A multichain MCMC demo <demo>
+   A parallel tempering MCMC demo <demo-ptmcmc>
+   A galactic binary sampling demo <demo-gb>
+   API <api>
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+

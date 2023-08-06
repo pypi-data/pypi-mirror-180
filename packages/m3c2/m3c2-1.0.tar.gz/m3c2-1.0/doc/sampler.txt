@@ -1,0 +1,6 @@
+sampler
+=======
+
+.. automodule:: mc3.sampler
+   :members:
+   :undoc-members:

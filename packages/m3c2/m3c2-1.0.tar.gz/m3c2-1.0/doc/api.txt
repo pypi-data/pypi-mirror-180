@@ -1,0 +1,12 @@
+API
+===
+
+Contents:
+
+.. toctree::
+   :maxdepth: 2
+
+   sampler <sampler>
+   chain <chain>
+   proposal <proposal>
+   gb <gb>

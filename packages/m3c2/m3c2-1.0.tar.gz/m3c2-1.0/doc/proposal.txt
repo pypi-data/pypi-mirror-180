@@ -1,0 +1,5 @@
+proposal
+========
+
+.. automodule:: mc3.proposal
+   :members:
