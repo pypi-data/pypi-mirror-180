@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: simple-profile
+Version: 1.0.2
+Summary: Simple profile decorator to monitor execution time and memory usage.
+Home-page: https://github.com/JoaoBrlt/simple-profile
+License: GPL-3.0-only
+Author: João Brilhante
+Requires-Python: >=3.11,<4.0
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Project-URL: Repository, https://github.com/JoaoBrlt/simple-profile
+Description-Content-Type: text/markdown
+
+# simple-profile
+Simple profile decorator for Python
+
