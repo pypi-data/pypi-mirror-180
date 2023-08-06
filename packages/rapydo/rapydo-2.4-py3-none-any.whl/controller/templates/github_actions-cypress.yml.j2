@@ -1,0 +1,76 @@
+name: Cypress
+
+on:
+  # push:
+  # pull_request:
+  # schedule:
+  #   - cron: "0 5 * * *"
+  workflow_dispatch:
+env:
+  PROJECT: {{ project }}
+
+# Cancel previous running jobs on the same branch in case of new pushs
+concurrency:
+  group: cypress-{% raw %}${{ github.ref }}{% endraw %}
+  cancel-in-progress: true
+
+jobs:
+  Cypress:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - uses: rapydo/actions/install@v2
+        with:
+          project: ${PROJECT}
+          # swarm: 1
+
+      - uses: rapydo/actions/setup-cypress@v2
+        with:
+          id: {% raw -%}${{ secrets.CYPRESS_PROJECT_ID }}{% endraw %}
+          key: {% raw -%}${{ secrets.CYPRESS_RECORD_KEY }}{% endraw %}
+
+      - name: Run Cypress
+        run: |
+
+          rapydo pull --quiet;
+          rapydo -e API_AUTOSTART=1 start;
+
+          sleep 20
+          rapydo logs
+
+          rapydo shell frontend "yarn install"
+          rapydo shell frontend "yarn workspaces focus --all"
+          rapydo shell frontend "reload-types"
+
+          rapydo shell frontend "yarn run cypress:start:norecord"
+          # Cypress with record mode enabled
+          # rapydo shell frontend "yarn run cypress:start:full"
+
+          rapydo shell frontend "npx nyc --all report --reporter=lcov --report-dir /coverage"
+
+      - name: Coverage
+        uses: rapydo/actions/coverage@v2
+        with:
+          repository: projects/${PROJECT}
+          project: ${PROJECT}
+          step: frontend
+          codecov_token: {% raw -%}${{ secrets.CODECOV_TOKEN }}{% endraw %}
+
+      - name: Print docker logs on failure
+        if: failure()
+        run: |
+          rapydo logs
+
+      - name: Print backend logs on failure
+        if: failure()
+        run: cat data/logs/backend-server.log
+
+      - name: Print mocked email on failure
+        if: failure()
+        run: cat data/logs/mock.mail.*.body 2>/dev/null || true
