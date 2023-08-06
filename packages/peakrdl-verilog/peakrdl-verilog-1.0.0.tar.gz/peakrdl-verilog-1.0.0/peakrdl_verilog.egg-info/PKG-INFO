@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: peakrdl-verilog
+Version: 1.0.0
+Summary: Generate verilog register module from compiled SystemRDL input
+Home-page: https://github.com/bat52/PeakRDL-verilog
+Author: Hugh Jackson, Marco Merlin
+License: UNKNOWN
+Project-URL: Source, https://github.com/bat52/PeakRDL-verilog
+Project-URL: Tracker, https://github.com/bat52/PeakRDL-verilog/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+![build status](https://github.com/hughjackson/PeakRDL-verilog/actions/workflows/actions.yml/badge.svg)
+
+# PeakRDL-verilog
+Generate Verilog register model from compiled SystemRDL input
+
+## Installing
+Install from github only at the moment.
+
+--------------------------------------------------------------------------------
+
+## Exporter Usage
+Pass the elaborated output of the [SystemRDL Compiler](http://systemrdl-compiler.readthedocs.io)
+to the exporter.
+
+```python
+import sys
+from systemrdl import RDLCompiler, RDLCompileError
+from peakrdl.verilog import VerilogExporter
+
+rdlc = RDLCompiler()
+
+try:
+    rdlc.compile_file("path/to/my.rdl")
+    root = rdlc.elaborate()
+except RDLCompileError:
+    sys.exit(1)
+
+exporter = VerilogExporter()
+exporter.export(root, "test.sv")
+```
+
+## Verification
+The tool will generate a tb for your module in the same directory. This will test the HW interface
+
+--------------------------------------------------------------------------------
+
+## Reference
+
+### `VerilogExporter(**kwargs)`
+Constructor for the Verilog Exporter class
+
+**Optional Parameters**
+
+* `user_template_dir`
+    * Path to a directory where user-defined template overrides are stored.
+* `user_template_context`
+    * Additional context variables to load into the template namespace.
+
+### `VerilogExporter.export(node, path, **kwargs)`
+Perform the export!
+
+**Parameters**
+
+* `node`
+    * Top-level node to export. Can be the top-level `RootNode` or any internal `AddrmapNode`.
+* `path`
+    * Output file.
+
+**Optional Parameters**
+
+
+
