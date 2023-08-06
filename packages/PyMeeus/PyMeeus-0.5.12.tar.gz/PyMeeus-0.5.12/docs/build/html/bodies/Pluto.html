@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pluto &mdash; PyMeeus 0.5.12 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Saturn" href="Saturn.html" />
+    <link rel="prev" title="Neptune" href="Neptune.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> PyMeeus
+          </a>
+              <div class="version">
+                0.5.12
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../core/index.html">Core</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../core/base.html">Base</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../core/Angle.html">Angle</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../core/Coordinates.html">Coordinates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../core/CurveFitting.html">Curveffiting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../core/Epoch.html">Epoch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../core/Interpolation.html">Interpolation</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Bodies</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="Earth.html">Earth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="JupiterMoons.html">JupiterMoons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Jupiter.html">Jupiter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Mars.html">Mars</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Mercury.html">Mercury</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Minor.html">Minor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Moon.html">Moon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Neptune.html">Neptune</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Pluto</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Saturn.html">Saturn</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Sun.html">Sun</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Uranus.html">Uranus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Venus.html">Venus</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../examples/index.html">Usage Examples</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-General.html">Properly Using PyMeeus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Angle.html">Angle examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-base.html">Base examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Coordinates.html">Coordinates examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-CurveFitting.html">CurveFitting examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Earth.html">Earth examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Epoch.html">Epoch examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Interpolation.html">Interpolation examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Jupiter.html">Jupiter examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-JupiterMoons.html">JupiterMoons examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Mars.html">Mars examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Mercury.html">Mercury examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Minor.html">Minor examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Moon.html">Moon examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Neptune.html">Neptune examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Pluto.html">Pluto examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Saturn.html">Saturn examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Sun.html">Sun examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Uranus.html">Uranus examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Venus.html">Venus examples</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PyMeeus</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">Bodies</a> &raquo;</li>
+      <li>Pluto</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/bodies/Pluto.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-pymeeus">
+<span id="pluto"></span><h1>Pluto<a class="headerlink" href="#module-pymeeus" title="Permalink to this headline"></a></h1>
+<p>Class to model Pluto planet.</p>
+<span class="target" id="module-pymeeus.Pluto"></span><dl class="py data">
+<dt class="sig sig-object py" id="pymeeus.Pluto.PLUTO_ARGUMENT">
+<span class="sig-prename descclassname"><span class="pre">pymeeus.Pluto.</span></span><span class="sig-name descname"><span class="pre">PLUTO_ARGUMENT</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">[(0.0,</span> <span class="pre">0.0,</span> <span class="pre">1.0),</span> <span class="pre">(0.0,</span> <span class="pre">0.0,</span> <span class="pre">2.0),</span> <span class="pre">(0.0,</span> <span class="pre">0.0,</span> <span class="pre">3.0),</span> <span class="pre">(0.0,</span> <span class="pre">0.0,</span> <span class="pre">4.0),</span> <span class="pre">(0.0,</span> <span class="pre">0.0,</span> <span class="pre">5.0),</span> <span class="pre">(0.0,</span> <span class="pre">0.0,</span> <span class="pre">6.0),</span> <span class="pre">(0.0,</span> <span class="pre">1.0,</span> <span class="pre">-1.0),</span> <span class="pre">(0.0,</span> <span class="pre">1.0,</span> <span class="pre">0.0),</span> <span class="pre">(0.0,</span> <span class="pre">1.0,</span> <span class="pre">1.0),</span> <span class="pre">(0.0,</span> <span class="pre">1.0,</span> <span class="pre">2.0),</span> <span class="pre">(0.0,</span> <span class="pre">1.0,</span> <span class="pre">3.0),</span> <span class="pre">(0.0,</span> <span class="pre">2.0,</span> <span class="pre">-2.0),</span> <span class="pre">(0.0,</span> <span class="pre">2.0,</span> <span class="pre">-1.0),</span> <span class="pre">(0.0,</span> <span class="pre">2.0,</span> <span class="pre">0.0),</span> <span class="pre">(1.0,</span> <span class="pre">-1.0,</span> <span class="pre">0.0),</span> <span class="pre">(1.0,</span> <span class="pre">-1.0,</span> <span class="pre">1.0),</span> <span class="pre">(1.0,</span> <span class="pre">0.0,</span> <span class="pre">-3.0),</span> <span class="pre">(1.0,</span> <span class="pre">0.0,</span> <span class="pre">-2.0),</span> <span class="pre">(1.0,</span> <span class="pre">0.0,</span> <span class="pre">-1.0),</span> <span class="pre">(1.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0),</span> <span class="pre">(1.0,</span> <span class="pre">0.0,</span> <span class="pre">1.0),</span> <span class="pre">(1.0,</span> <span class="pre">0.0,</span> <span class="pre">2.0),</span> <span class="pre">(1.0,</span> <span class="pre">0.0,</span> <span class="pre">3.0),</span> <span class="pre">(1.0,</span> <span class="pre">0.0,</span> <span class="pre">4.0),</span> <span class="pre">(1.0,</span> <span class="pre">1.0,</span> <span class="pre">-3.0),</span> <span class="pre">(1.0,</span> <span class="pre">1.0,</span> <span class="pre">-2.0),</span> <span class="pre">(1.0,</span> <span class="pre">1.0,</span> <span class="pre">-1.0),</span> <span class="pre">(1.0,</span> <span class="pre">1.0,</span> <span class="pre">0.0),</span> <span class="pre">(1.0,</span> <span class="pre">1.0,</span> <span class="pre">1.0),</span> <span class="pre">(1.0,</span> <span class="pre">1.0,</span> <span class="pre">3.0),</span> <span class="pre">(2.0,</span> <span class="pre">0.0,</span> <span class="pre">-6.0),</span> <span class="pre">(2.0,</span> <span class="pre">0.0,</span> <span class="pre">-5.0),</span> <span class="pre">(2.0,</span> <span class="pre">0.0,</span> <span class="pre">-4.0),</span> <span class="pre">(2.0,</span> <span class="pre">0.0,</span> <span class="pre">-3.0),</span> <span class="pre">(2.0,</span> <span class="pre">0.0,</span> <span class="pre">-2.0),</span> <span class="pre">(2.0,</span> <span class="pre">0.0,</span> <span class="pre">-1.0),</span> <span class="pre">(2.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0),</span> <span class="pre">(2.0,</span> <span class="pre">0.0,</span> <span class="pre">1.0),</span> <span class="pre">(2.0,</span> <span class="pre">0.0,</span> <span class="pre">2.0),</span> <span class="pre">(2.0,</span> <span class="pre">0.0,</span> <span class="pre">3.0),</span> <span class="pre">(3.0,</span> <span class="pre">0.0,</span> <span class="pre">-2.0),</span> <span class="pre">(3.0,</span> <span class="pre">0.0,</span> <span class="pre">-1.0),</span> <span class="pre">(3.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0)]</span></em><a class="headerlink" href="#pymeeus.Pluto.PLUTO_ARGUMENT" title="Permalink to this definition"></a></dt>
+<dd><p>This table contains Pluto’s argument coefficients according to Table 37.A in
+Meeus’ book, page 265.</p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="pymeeus.Pluto.PLUTO_LATITUDE">
+<span class="sig-prename descclassname"><span class="pre">pymeeus.Pluto.</span></span><span class="sig-name descname"><span class="pre">PLUTO_LATITUDE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">[(-5452852.0,</span> <span class="pre">-14974862),</span> <span class="pre">(3527812.0,</span> <span class="pre">1672790.0),</span> <span class="pre">(-1050748.0,</span> <span class="pre">327647.0),</span> <span class="pre">(178690.0,</span> <span class="pre">-292153.0),</span> <span class="pre">(18650.0,</span> <span class="pre">100340.0),</span> <span class="pre">(-30697.0,</span> <span class="pre">-25823.0),</span> <span class="pre">(4878.0,</span> <span class="pre">11248.0),</span> <span class="pre">(226.0,</span> <span class="pre">-64.0),</span> <span class="pre">(2030.0,</span> <span class="pre">-836.0),</span> <span class="pre">(69.0,</span> <span class="pre">-604.0),</span> <span class="pre">(-247.0,</span> <span class="pre">-567.0),</span> <span class="pre">(-57.0,</span> <span class="pre">1.0),</span> <span class="pre">(-122.0,</span> <span class="pre">175.0),</span> <span class="pre">(-49.0,</span> <span class="pre">-164.0),</span> <span class="pre">(-197.0,</span> <span class="pre">199.0),</span> <span class="pre">(-25.0,</span> <span class="pre">217.0),</span> <span class="pre">(589.0,</span> <span class="pre">-248.0),</span> <span class="pre">(-269.0,</span> <span class="pre">711.0),</span> <span class="pre">(185.0,</span> <span class="pre">193.0),</span> <span class="pre">(315.0,</span> <span class="pre">807.0),</span> <span class="pre">(-130.0,</span> <span class="pre">-43.0),</span> <span class="pre">(5.0,</span> <span class="pre">3.0),</span> <span class="pre">(2.0,</span> <span class="pre">17.0),</span> <span class="pre">(2.0,</span> <span class="pre">5.0),</span> <span class="pre">(2.0,</span> <span class="pre">3.0),</span> <span class="pre">(3.0,</span> <span class="pre">1.0),</span> <span class="pre">(2.0,</span> <span class="pre">-1.0),</span> <span class="pre">(1.0,</span> <span class="pre">-1.0),</span> <span class="pre">(0.0,</span> <span class="pre">-1.0),</span> <span class="pre">(0.0,</span> <span class="pre">0.0),</span> <span class="pre">(0.0,</span> <span class="pre">-2.0),</span> <span class="pre">(2.0,</span> <span class="pre">2.0),</span> <span class="pre">(-7.0,</span> <span class="pre">0.0),</span> <span class="pre">(10.0,</span> <span class="pre">-8.0),</span> <span class="pre">(-3.0,</span> <span class="pre">20.0),</span> <span class="pre">(6.0,</span> <span class="pre">5.0),</span> <span class="pre">(14.0,</span> <span class="pre">17.0),</span> <span class="pre">(-2.0,</span> <span class="pre">0.0),</span> <span class="pre">(0.0,</span> <span class="pre">0.0),</span> <span class="pre">(0.0,</span> <span class="pre">0.0),</span> <span class="pre">(0.0,</span> <span class="pre">1.0),</span> <span class="pre">(0.0,</span> <span class="pre">0.0),</span> <span class="pre">(1.0,</span> <span class="pre">0.0)]</span></em><a class="headerlink" href="#pymeeus.Pluto.PLUTO_LATITUDE" title="Permalink to this definition"></a></dt>
+<dd><p>This table contains the periodic terms to compute Pluto’s heliocentric
+latitude according to Table 37.A in Meeus’ book, page 265</p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="pymeeus.Pluto.PLUTO_LONGITUDE">
+<span class="sig-prename descclassname"><span class="pre">pymeeus.Pluto.</span></span><span class="sig-name descname"><span class="pre">PLUTO_LONGITUDE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">[(-19799805.0,</span> <span class="pre">19850055.0),</span> <span class="pre">(897144.0,</span> <span class="pre">-4954829.0),</span> <span class="pre">(611149.0,</span> <span class="pre">1211027.0),</span> <span class="pre">(-341243.0,</span> <span class="pre">-189585.0),</span> <span class="pre">(129287.0,</span> <span class="pre">-34992.0),</span> <span class="pre">(-38164.0,</span> <span class="pre">30893.0),</span> <span class="pre">(20442.0,</span> <span class="pre">-9987.0),</span> <span class="pre">(-4063.0,</span> <span class="pre">-5071.0),</span> <span class="pre">(-6016.0,</span> <span class="pre">-3336.0),</span> <span class="pre">(-3956.0,</span> <span class="pre">3039.0),</span> <span class="pre">(-667.0,</span> <span class="pre">3572.0),</span> <span class="pre">(1276.0,</span> <span class="pre">501.0),</span> <span class="pre">(1152.0,</span> <span class="pre">-917.0),</span> <span class="pre">(630.0,</span> <span class="pre">-1277.0),</span> <span class="pre">(2571.0,</span> <span class="pre">-459.0),</span> <span class="pre">(899.0,</span> <span class="pre">-1449.0),</span> <span class="pre">(-1016.0,</span> <span class="pre">1043.0),</span> <span class="pre">(-2343.0,</span> <span class="pre">-1012.0),</span> <span class="pre">(7042.0,</span> <span class="pre">788.0),</span> <span class="pre">(1199.0,</span> <span class="pre">-338.0),</span> <span class="pre">(418.0,</span> <span class="pre">-67.0),</span> <span class="pre">(120.0,</span> <span class="pre">-274.0),</span> <span class="pre">(-60.0,</span> <span class="pre">-159.0),</span> <span class="pre">(-82.0,</span> <span class="pre">-29.0),</span> <span class="pre">(-36.0,</span> <span class="pre">-29.0),</span> <span class="pre">(-40.0,</span> <span class="pre">7.0),</span> <span class="pre">(-14.0,</span> <span class="pre">22.0),</span> <span class="pre">(4.0,</span> <span class="pre">13.0),</span> <span class="pre">(5.0,</span> <span class="pre">2.0),</span> <span class="pre">(-1.0,</span> <span class="pre">0.0),</span> <span class="pre">(2.0,</span> <span class="pre">0.0),</span> <span class="pre">(-4.0,</span> <span class="pre">5.0),</span> <span class="pre">(4.0,</span> <span class="pre">-7.0),</span> <span class="pre">(14.0,</span> <span class="pre">24.0),</span> <span class="pre">(-49.0,</span> <span class="pre">-34.0),</span> <span class="pre">(163.0,</span> <span class="pre">-48.0),</span> <span class="pre">(9.0,</span> <span class="pre">-24.0),</span> <span class="pre">(-4.0,</span> <span class="pre">1.0),</span> <span class="pre">(-3.0,</span> <span class="pre">1.0),</span> <span class="pre">(1.0,</span> <span class="pre">3.0),</span> <span class="pre">(-3.0,</span> <span class="pre">-1.0),</span> <span class="pre">(5.0,</span> <span class="pre">-3.0),</span> <span class="pre">(0.0,</span> <span class="pre">0.0)]</span></em><a class="headerlink" href="#pymeeus.Pluto.PLUTO_LONGITUDE" title="Permalink to this definition"></a></dt>
+<dd><p>This table contains the periodic terms to compute Pluto’s heliocentric
+longitude according to Table 37.A in Meeus’ book, page 265</p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="pymeeus.Pluto.PLUTO_RADIUS_VECTOR">
+<span class="sig-prename descclassname"><span class="pre">pymeeus.Pluto.</span></span><span class="sig-name descname"><span class="pre">PLUTO_RADIUS_VECTOR</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">[(66865439.0,</span> <span class="pre">68951812.0),</span> <span class="pre">(-11827535.0,</span> <span class="pre">-332538.0),</span> <span class="pre">(1593179.0,</span> <span class="pre">-1438890.0),</span> <span class="pre">(-18444.0,</span> <span class="pre">483220.0),</span> <span class="pre">(-65977.0,</span> <span class="pre">-85431.0),</span> <span class="pre">(31174.0,</span> <span class="pre">-6032.0),</span> <span class="pre">(-5794.0,</span> <span class="pre">22161.0),</span> <span class="pre">(4601.0,</span> <span class="pre">4032.0),</span> <span class="pre">(-1729.0,</span> <span class="pre">234.0),</span> <span class="pre">(-415.0,</span> <span class="pre">702.0),</span> <span class="pre">(239.0,</span> <span class="pre">723.0),</span> <span class="pre">(67.0,</span> <span class="pre">-67.0),</span> <span class="pre">(1034.0,</span> <span class="pre">-451.0),</span> <span class="pre">(-129.0,</span> <span class="pre">504.0),</span> <span class="pre">(480.0,</span> <span class="pre">-231.0),</span> <span class="pre">(2.0,</span> <span class="pre">-441.0),</span> <span class="pre">(-3359.0,</span> <span class="pre">265.0),</span> <span class="pre">(7856.0,</span> <span class="pre">-7832.0),</span> <span class="pre">(36.0,</span> <span class="pre">45763.0),</span> <span class="pre">(8663.0,</span> <span class="pre">8547.0),</span> <span class="pre">(-809.0,</span> <span class="pre">-769.0),</span> <span class="pre">(263.0,</span> <span class="pre">-144.0),</span> <span class="pre">(-126.0,</span> <span class="pre">32.0),</span> <span class="pre">(-35.0,</span> <span class="pre">-16.0),</span> <span class="pre">(-19.0,</span> <span class="pre">-4.0),</span> <span class="pre">(-15.0,</span> <span class="pre">8.0),</span> <span class="pre">(-4.0,</span> <span class="pre">12.0),</span> <span class="pre">(5.0,</span> <span class="pre">6.0),</span> <span class="pre">(3.0,</span> <span class="pre">1.0),</span> <span class="pre">(6.0,</span> <span class="pre">-2.0),</span> <span class="pre">(2.0,</span> <span class="pre">2.0),</span> <span class="pre">(-2.0,</span> <span class="pre">-2.0),</span> <span class="pre">(14.0,</span> <span class="pre">13.0),</span> <span class="pre">(-63.0,</span> <span class="pre">13.0),</span> <span class="pre">(136.0,</span> <span class="pre">-236.0),</span> <span class="pre">(273.0,</span> <span class="pre">1065.0),</span> <span class="pre">(251.0,</span> <span class="pre">149.0),</span> <span class="pre">(-25.0,</span> <span class="pre">-9.0),</span> <span class="pre">(9.0,</span> <span class="pre">-2.0),</span> <span class="pre">(-8.0,</span> <span class="pre">7.0),</span> <span class="pre">(2.0,</span> <span class="pre">-10.0),</span> <span class="pre">(19.0,</span> <span class="pre">35.0),</span> <span class="pre">(10.0,</span> <span class="pre">3.0)]</span></em><a class="headerlink" href="#pymeeus.Pluto.PLUTO_RADIUS_VECTOR" title="Permalink to this definition"></a></dt>
+<dd><p>This table contains the periodic terms to compute Pluto’s heliocentric
+radius vector according to Table 37.A in Meeus’ book, page 265</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pymeeus.Pluto.Pluto">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pymeeus.Pluto.</span></span><span class="sig-name descname"><span class="pre">Pluto</span></span><a class="reference internal" href="../_modules/pymeeus/Pluto.html#Pluto"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Pluto.Pluto" title="Permalink to this definition"></a></dt>
+<dd><p>Class Pluto models that minor planet.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="pymeeus.Pluto.Pluto.__weakref__">
+<span class="sig-name descname"><span class="pre">__weakref__</span></span><a class="headerlink" href="#pymeeus.Pluto.Pluto.__weakref__" title="Permalink to this definition"></a></dt>
+<dd><p>list of weak references to the object (if defined)</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Pluto.Pluto.geocentric_position">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">geocentric_position</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">epoch</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Pluto.html#Pluto.geocentric_position"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Pluto.Pluto.geocentric_position" title="Permalink to this definition"></a></dt>
+<dd><p>This method computes the geocentric position of Pluto (right
+ascension and declination) for the given epoch, for the standard
+equinox J2000.0.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>epoch</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Epoch</span></code>) – Epoch to compute geocentric position, as an Epoch object</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A tuple containing the right ascension and the declination as
+Angle objects</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.11)">tuple</a></p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError if input value is of wrong type.</p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p>ValueError if input epoch outside the 1885-2099 range.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">epoch</span> <span class="o">=</span> <span class="n">Epoch</span><span class="p">(</span><span class="mi">1992</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mf">13.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ra</span><span class="p">,</span> <span class="n">dec</span> <span class="o">=</span> <span class="n">Pluto</span><span class="o">.</span><span class="n">geocentric_position</span><span class="p">(</span><span class="n">epoch</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">ra</span><span class="o">.</span><span class="n">ra_str</span><span class="p">(</span><span class="n">n_dec</span><span class="o">=</span><span class="mi">1</span><span class="p">))</span>
+<span class="go">15h 31&#39; 43.7&#39;&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">dec</span><span class="o">.</span><span class="n">dms_str</span><span class="p">(</span><span class="n">n_dec</span><span class="o">=</span><span class="mi">0</span><span class="p">))</span>
+<span class="go">-4d 27&#39; 29.0&#39;&#39;</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Pluto.Pluto.geometric_heliocentric_position">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">geometric_heliocentric_position</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">epoch</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Pluto.html#Pluto.geometric_heliocentric_position"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Pluto.Pluto.geometric_heliocentric_position" title="Permalink to this definition"></a></dt>
+<dd><p>This method computes the geometric heliocentric position of planet
+Pluto for a given epoch.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>epoch</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Epoch</span></code>) – Epoch to compute Pluto position, as an Epoch object</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A tuple with the heliocentric longitude and latitude (as
+<code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code> objects), and the radius vector (as a float,
+in astronomical units), in that order</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.11)">tuple</a></p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError if input value is of wrong type.</p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p>ValueError if input epoch outside the 1885-2099 range.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">epoch</span> <span class="o">=</span> <span class="n">Epoch</span><span class="p">(</span><span class="mi">1992</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mf">13.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">l</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">r</span> <span class="o">=</span> <span class="n">Pluto</span><span class="o">.</span><span class="n">geometric_heliocentric_position</span><span class="p">(</span><span class="n">epoch</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">l</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
+<span class="go">232.74071</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">b</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
+<span class="go">14.58782</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+<span class="go">29.711111</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Neptune.html" class="btn btn-neutral float-left" title="Neptune" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Saturn.html" class="btn btn-neutral float-right" title="Saturn" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2018, Dagoberto Salazar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

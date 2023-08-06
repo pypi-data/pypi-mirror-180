@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Properly Using PyMeeus &mdash; PyMeeus 0.5.12 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Angle examples" href="ex-Angle.html" />
+    <link rel="prev" title="Usage Examples" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> PyMeeus
+          </a>
+              <div class="version">
+                0.5.12
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../core/index.html">Core</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../core/base.html">Base</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../core/Angle.html">Angle</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../core/Coordinates.html">Coordinates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../core/CurveFitting.html">Curveffiting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../core/Epoch.html">Epoch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../core/Interpolation.html">Interpolation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../bodies/index.html">Bodies</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../bodies/Earth.html">Earth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bodies/JupiterMoons.html">JupiterMoons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bodies/Jupiter.html">Jupiter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bodies/Mars.html">Mars</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bodies/Mercury.html">Mercury</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bodies/Minor.html">Minor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bodies/Moon.html">Moon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bodies/Neptune.html">Neptune</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bodies/Pluto.html">Pluto</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bodies/Saturn.html">Saturn</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bodies/Sun.html">Sun</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bodies/Uranus.html">Uranus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bodies/Venus.html">Venus</a></li>
+</ul>
+</li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Usage Examples</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Properly Using PyMeeus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ex-Angle.html">Angle examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ex-base.html">Base examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ex-Coordinates.html">Coordinates examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ex-CurveFitting.html">CurveFitting examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ex-Earth.html">Earth examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ex-Epoch.html">Epoch examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ex-Interpolation.html">Interpolation examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ex-Jupiter.html">Jupiter examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ex-JupiterMoons.html">JupiterMoons examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ex-Mars.html">Mars examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ex-Mercury.html">Mercury examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ex-Minor.html">Minor examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ex-Moon.html">Moon examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ex-Neptune.html">Neptune examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ex-Pluto.html">Pluto examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ex-Saturn.html">Saturn examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ex-Sun.html">Sun examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ex-Uranus.html">Uranus examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ex-Venus.html">Venus examples</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PyMeeus</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">Usage Examples</a> &raquo;</li>
+      <li>Properly Using PyMeeus</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/examples/ex-General.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="properly-using-pymeeus">
+<h1>Properly Using PyMeeus<a class="headerlink" href="#properly-using-pymeeus" title="Permalink to this headline"></a></h1>
+<p>It is very common to try to run PyMeeus like this:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>import pymeeus
+
+<span class="nv">mydate</span> <span class="o">=</span> pymeeus.Epoch<span class="o">(</span><span class="m">1992</span>, <span class="m">10</span>, <span class="m">13</span>.0<span class="o">)</span>
+</pre></div>
+</div>
+<p>But if you do that, you’ll get an error like this:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>Traceback <span class="o">(</span>most recent call last<span class="o">)</span>:
+  File <span class="s2">&quot;/home/user/test/test.py&quot;</span>, line <span class="m">3</span>, <span class="k">in</span> &lt;module&gt;
+    <span class="nv">epoch</span> <span class="o">=</span> pymeeus.Epoch<span class="o">(</span><span class="m">1992</span>, <span class="m">10</span>, <span class="m">13</span>.0<span class="o">)</span>
+AttributeError: module <span class="s1">&#39;pymeeus&#39;</span> has no attribute <span class="s1">&#39;Epoch&#39;</span>
+</pre></div>
+</div>
+<p>This issue points to a misunderstanding that is very common in the
+Python world. The keyword <code class="docutils literal notranslate"><span class="pre">import</span></code> is used to import <strong>MODULES</strong>…
+but PyMeeus is <strong>NOT</strong> a module: It is a <strong>LIBRARY</strong> composed of
+<strong>MULTIPLE</strong> modules (<code class="docutils literal notranslate"><span class="pre">Angle</span></code>, <code class="docutils literal notranslate"><span class="pre">Epoch</span></code>, <code class="docutils literal notranslate"><span class="pre">Coordinates</span></code>, etc). As of
+today, the library Pymeeus has 19 different modules (if you look into
+the directory where <code class="docutils literal notranslate"><span class="pre">pip</span></code> stores the library, you’ll find one “.py”
+file per module).</p>
+<p>Therefore if you want to use, for example, the module <code class="docutils literal notranslate"><span class="pre">Angle</span></code> you
+should use:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>import pymeeus.Angle
+</pre></div>
+</div>
+<p>I.e., your <em>module</em> is <code class="docutils literal notranslate"><span class="pre">pymeeus.Angle</span></code>, and not just <code class="docutils literal notranslate"><span class="pre">Angle</span></code>.</p>
+<p>But there is more! When you use <code class="docutils literal notranslate"><span class="pre">import</span></code> to fetch a module, you must
+then use the <em>dot</em> notation to access the components of the module
+(classes, functions, etc). For instance:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>import pymeeus.Angle
+
+<span class="nv">i</span> <span class="o">=</span> pymeeus.Angle.Angle<span class="o">(</span><span class="m">11</span>.94524<span class="o">)</span>
+</pre></div>
+</div>
+<p>In this case, you are telling the Python interpreter that you want to
+use the class <code class="docutils literal notranslate"><span class="pre">Angle</span></code> (with parameter ‘11.94524’) from the module
+<code class="docutils literal notranslate"><span class="pre">Angle</span></code> belonging to the library <code class="docutils literal notranslate"><span class="pre">pymeeus</span></code>.</p>
+<p>There is, however, a more practical (and common) way to handle modules
+using the statement <code class="docutils literal notranslate"><span class="pre">from</span> <span class="pre">&lt;MODULE&gt;</span> <span class="pre">import</span> <span class="pre">&lt;COMPONENT&gt;</span></code>. For instance:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>from pymeeus.Angle import Angle
+from pymeeus.Epoch import Epoch, JDE2000
+from math import sin, cos, tan, acos, atan2, sqrt, radians, log10
+</pre></div>
+</div>
+<p>This way is preferred because, among other reasons, only the required
+components are loaded into memory instead of the whole module. Also, now
+the component is directly added to your execution environment, which
+means that you no longer need to use the <em>dot</em> notation.</p>
+<p>Therefore, the script at the beginning would become:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>from pymeeus.Epoch import Epoch
+
+<span class="nv">mydate</span> <span class="o">=</span> Epoch<span class="o">(</span><span class="m">1992</span>, <span class="m">10</span>, <span class="m">13</span>.0<span class="o">)</span>
+</pre></div>
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Usage Examples" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="ex-Angle.html" class="btn btn-neutral float-right" title="Angle examples" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2018, Dagoberto Salazar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

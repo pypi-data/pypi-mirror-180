@@ -1,0 +1,1370 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Angle &mdash; PyMeeus 0.5.12 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Coordinates" href="Coordinates.html" />
+    <link rel="prev" title="Base" href="base.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> PyMeeus
+          </a>
+              <div class="version">
+                0.5.12
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Core</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="base.html">Base</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Angle</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Coordinates.html">Coordinates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="CurveFitting.html">Curveffiting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Epoch.html">Epoch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Interpolation.html">Interpolation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../bodies/index.html">Bodies</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../bodies/Earth.html">Earth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bodies/JupiterMoons.html">JupiterMoons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bodies/Jupiter.html">Jupiter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bodies/Mars.html">Mars</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bodies/Mercury.html">Mercury</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bodies/Minor.html">Minor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bodies/Moon.html">Moon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bodies/Neptune.html">Neptune</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bodies/Pluto.html">Pluto</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bodies/Saturn.html">Saturn</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bodies/Sun.html">Sun</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bodies/Uranus.html">Uranus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bodies/Venus.html">Venus</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../examples/index.html">Usage Examples</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-General.html">Properly Using PyMeeus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Angle.html">Angle examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-base.html">Base examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Coordinates.html">Coordinates examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-CurveFitting.html">CurveFitting examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Earth.html">Earth examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Epoch.html">Epoch examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Interpolation.html">Interpolation examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Jupiter.html">Jupiter examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-JupiterMoons.html">JupiterMoons examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Mars.html">Mars examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Mercury.html">Mercury examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Minor.html">Minor examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Moon.html">Moon examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Neptune.html">Neptune examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Pluto.html">Pluto examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Saturn.html">Saturn examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Sun.html">Sun examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Uranus.html">Uranus examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Venus.html">Venus examples</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PyMeeus</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">Core</a> &raquo;</li>
+      <li>Angle</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/core/Angle.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-pymeeus">
+<span id="angle"></span><h1>Angle<a class="headerlink" href="#module-pymeeus" title="Permalink to this headline"></a></h1>
+<p>Class to handle angles.</p>
+<span class="target" id="module-pymeeus.Angle"></span><dl class="py class">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pymeeus.Angle.</span></span><span class="sig-name descname"><span class="pre">Angle</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle" title="Permalink to this definition"></a></dt>
+<dd><p>Class Angle deals with angles in either decimal format (d.dd) or in
+sexagesimal format (d m’ s’’).</p>
+<p>It provides methods to handle an Angle object like it were a simple float,
+but adding the functionality associated with an angle.</p>
+<p>The constructor takes decimals and sexagesimal input. The sexagesimal
+angles can be given as separate degree, minutes, seconds values, or as
+tuples or lists. It is also possible to provide another Angle object as
+input.</p>
+<p>Also, if <strong>radians=True</strong> is passed to the constructor, then the input
+value is considered as in radians, and converted to degrees.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__abs__">
+<span class="sig-name descname"><span class="pre">__abs__</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__abs__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__abs__" title="Permalink to this definition"></a></dt>
+<dd><p>This method is used to obtain the absolute value of this Angle.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A new Angle object.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#pymeeus.Angle.Angle" title="pymeeus.Angle.Angle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></a></p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="o">-</span><span class="mf">303.67</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">abs</span><span class="p">(</span><span class="n">a</span><span class="p">))</span>
+<span class="go">303.67</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__add__">
+<span class="sig-name descname"><span class="pre">__add__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__add__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__add__" title="Permalink to this definition"></a></dt>
+<dd><p>This method defines the addition between Angles.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A new Angle object.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#pymeeus.Angle.Angle" title="pymeeus.Angle.Angle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></a></p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p>TypeError if input values are of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">83.1</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">18.4</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span>
+<span class="go">101.5</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__call__">
+<span class="sig-name descname"><span class="pre">__call__</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__call__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__call__" title="Permalink to this definition"></a></dt>
+<dd><p>Method used when object is called only with parenthesis.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>The internal value of the Angle object.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.11)">int</a>, <a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.11)">float</a></p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">54.6</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">())</span>
+<span class="go">54.6</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__div__">
+<span class="sig-name descname"><span class="pre">__div__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__div__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__div__" title="Permalink to this definition"></a></dt>
+<dd><p>This method defines the division between Angles.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A new Angle object.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#pymeeus.Angle.Angle" title="pymeeus.Angle.Angle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></a></p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p>ZeroDivisionError if divisor is zero.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError if input values are of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">172.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">86.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="o">/</span><span class="n">b</span><span class="p">)</span>
+<span class="go">2.0</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__eq__">
+<span class="sig-name descname"><span class="pre">__eq__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__eq__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__eq__" title="Permalink to this definition"></a></dt>
+<dd><p>This method defines the ‘is equal’ operator between Angles.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For the comparison, the internal tolerance value is used.</p>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A boolean.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.11)">bool</a></p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p>TypeError if input values are of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">172.01</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">172.009</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">==</span> <span class="n">b</span>
+<span class="go">False</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__float__">
+<span class="sig-name descname"><span class="pre">__float__</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__float__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__float__" title="Permalink to this definition"></a></dt>
+<dd><p>This method returns Angle value as a float.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Internal angle value as a float.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.11)">float</a></p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">213.8</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">float</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="go">213.8</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__ge__">
+<span class="sig-name descname"><span class="pre">__ge__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__ge__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__ge__" title="Permalink to this definition"></a></dt>
+<dd><p>This method defines ‘is equal or greater’ operator between Angles.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A boolean.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.11)">bool</a></p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p>TypeError if input values are of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">172.01</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">172.009</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">&gt;=</span> <span class="n">b</span>
+<span class="go">True</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__gt__">
+<span class="sig-name descname"><span class="pre">__gt__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__gt__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__gt__" title="Permalink to this definition"></a></dt>
+<dd><p>This method defines the ‘is greater than’ operator between Angles.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A boolean.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.11)">bool</a></p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p>TypeError if input values are of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">172.01</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">172.009</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">&gt;</span> <span class="n">b</span>
+<span class="go">True</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__hash__">
+<span class="sig-name descname"><span class="pre">__hash__</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pymeeus.Angle.Angle.__hash__" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__iadd__">
+<span class="sig-name descname"><span class="pre">__iadd__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__iadd__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__iadd__" title="Permalink to this definition"></a></dt>
+<dd><p>This method defines the accumulative addition to this Angle.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>This Angle.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#pymeeus.Angle.Angle" title="pymeeus.Angle.Angle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></a></p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">172.1</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">54.6</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">+=</span> <span class="n">b</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="go">226.7</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__idiv__">
+<span class="sig-name descname"><span class="pre">__idiv__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__idiv__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__idiv__" title="Permalink to this definition"></a></dt>
+<dd><p>This method defines the accumulative division to this Angle.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>This Angle.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#pymeeus.Angle.Angle" title="pymeeus.Angle.Angle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></a></p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p>ZeroDivisionError if divisor is zero.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError if input values are of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">330.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">30.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">/=</span> <span class="n">b</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="go">11.0</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__imod__">
+<span class="sig-name descname"><span class="pre">__imod__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__imod__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__imod__" title="Permalink to this definition"></a></dt>
+<dd><p>This method defines the accumulative module b of this Angle.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>This Angle.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#pymeeus.Angle.Angle" title="pymeeus.Angle.Angle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></a></p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">330.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">45.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">%=</span> <span class="n">b</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="go">15.0</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__imul__">
+<span class="sig-name descname"><span class="pre">__imul__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__imul__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__imul__" title="Permalink to this definition"></a></dt>
+<dd><p>This method defines the accumulative multiplication to this Angle.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>This Angle.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#pymeeus.Angle.Angle" title="pymeeus.Angle.Angle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></a></p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">30.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">55.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">*=</span> <span class="n">b</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="go">210.0</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__init__">
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__init__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__init__" title="Permalink to this definition"></a></dt>
+<dd><p>Angle constructor.</p>
+<p>It takes decimals and sexagesimal input. The sexagesimal angles can be
+given as separate degree, minutes, seconds values, or as tuples or
+lists. It is also possible to provide another Angle object as input.</p>
+<p>If <strong>radians=True</strong> is passed, then the input value is converted from
+radians to degrees.</p>
+<p>If <strong>ra=True</strong> is passed, then the input value is converted from Right
+Ascension to degrees</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>args</strong> (int, float, list, tuple, <a class="reference internal" href="#pymeeus.Angle.Angle" title="pymeeus.Angle.Angle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></a>) – Input angle, in decimal or sexagesimal format, or Angle</p></li>
+<li><p><strong>radians</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.11)"><em>bool</em></a>) – If True, input angle is in radians. False by default.</p></li>
+<li><p><strong>ra</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.11)"><em>bool</em></a>) – If True, input angle is in Right Ascension. False by default</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Angle object.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#pymeeus.Angle.Angle" title="pymeeus.Angle.Angle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></a></p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError if input values are of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="o">-</span><span class="mi">13</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="go">-13.5</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
+<span class="go">-13.5</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__int__">
+<span class="sig-name descname"><span class="pre">__int__</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__int__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__int__" title="Permalink to this definition"></a></dt>
+<dd><p>This method returns Angle value as an int.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Internal angle value as an int.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.11)">int</a></p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">213.8</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">int</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="go">213</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__ipow__">
+<span class="sig-name descname"><span class="pre">__ipow__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__ipow__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__ipow__" title="Permalink to this definition"></a></dt>
+<dd><p>This method defines the accumulative power to this Angle.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>This Angle.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#pymeeus.Angle.Angle" title="pymeeus.Angle.Angle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></a></p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">37.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">3.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">**=</span> <span class="n">b</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="go">253.0</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__isub__">
+<span class="sig-name descname"><span class="pre">__isub__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__isub__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__isub__" title="Permalink to this definition"></a></dt>
+<dd><p>This method defines the accumulative subtraction to this Angle.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>This Angle.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#pymeeus.Angle.Angle" title="pymeeus.Angle.Angle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></a></p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">97.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">39.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">-=</span> <span class="n">b</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="go">58.0</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__itruediv__">
+<span class="sig-name descname"><span class="pre">__itruediv__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__itruediv__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__itruediv__" title="Permalink to this definition"></a></dt>
+<dd><p>This method defines accumulative division to this Angle (Python3).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>This Angle.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#pymeeus.Angle.Angle" title="pymeeus.Angle.Angle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></a></p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p>ZeroDivisionError if divisor is zero.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError if input values are of wrong type.</p>
+</dd>
+<dt class="field-odd">See</dt>
+<dd class="field-odd"><p>__idiv__</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__le__">
+<span class="sig-name descname"><span class="pre">__le__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__le__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__le__" title="Permalink to this definition"></a></dt>
+<dd><p>This method defines ‘is equal or less’ operator between Angles.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A boolean.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.11)">bool</a></p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p>TypeError if input values are of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">72.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">72.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">&lt;=</span> <span class="n">b</span>
+<span class="go">True</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__lt__">
+<span class="sig-name descname"><span class="pre">__lt__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__lt__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__lt__" title="Permalink to this definition"></a></dt>
+<dd><p>This method defines the ‘is less than’ operator between Angles.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A boolean.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.11)">bool</a></p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p>TypeError if input values are of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">72.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">72.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">&lt;</span> <span class="n">b</span>
+<span class="go">False</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__mod__">
+<span class="sig-name descname"><span class="pre">__mod__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__mod__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__mod__" title="Permalink to this definition"></a></dt>
+<dd><p>This method is used to obtain the module b of this Angle.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A new Angle object.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#pymeeus.Angle.Angle" title="pymeeus.Angle.Angle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></a></p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p>TypeError if input values are of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">333.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">72.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">a</span> <span class="o">%</span> <span class="n">b</span><span class="p">)</span>
+<span class="go">45.0</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__mul__">
+<span class="sig-name descname"><span class="pre">__mul__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__mul__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__mul__" title="Permalink to this definition"></a></dt>
+<dd><p>This method defines the multiplication between Angles.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A new Angle object.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#pymeeus.Angle.Angle" title="pymeeus.Angle.Angle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></a></p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p>TypeError if input values are of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">33.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">72.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">a</span> <span class="o">*</span> <span class="n">b</span><span class="p">)</span>
+<span class="go">216.0</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__ne__">
+<span class="sig-name descname"><span class="pre">__ne__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__ne__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__ne__" title="Permalink to this definition"></a></dt>
+<dd><p>This method defines the ‘is not equal’ operator between Angles.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For the comparison, the internal tolerance value is used.</p>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A boolean.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.11)">bool</a></p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">11.200001</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">11.200000</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">!=</span> <span class="n">b</span>
+<span class="go">True</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__neg__">
+<span class="sig-name descname"><span class="pre">__neg__</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__neg__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__neg__" title="Permalink to this definition"></a></dt>
+<dd><p>This method is used to obtain the negative version of this Angle.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A new Angle object.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#pymeeus.Angle.Angle" title="pymeeus.Angle.Angle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></a></p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="o">-</span><span class="mf">11.2</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="o">-</span><span class="n">a</span><span class="p">)</span>
+<span class="go">11.2</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__pow__">
+<span class="sig-name descname"><span class="pre">__pow__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__pow__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__pow__" title="Permalink to this definition"></a></dt>
+<dd><p>This method defines the power operation for Angles.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A new Angle object.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#pymeeus.Angle.Angle" title="pymeeus.Angle.Angle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></a></p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p>TypeError if input values are of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">12.5</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">4.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">a</span> <span class="o">**</span> <span class="n">b</span><span class="p">)</span>
+<span class="go">294.0625</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__radd__">
+<span class="sig-name descname"><span class="pre">__radd__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__radd__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__radd__" title="Permalink to this definition"></a></dt>
+<dd><p>This method defines the addition between Angles by the right</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A new Angle object.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#pymeeus.Angle.Angle" title="pymeeus.Angle.Angle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></a></p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">83.1</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="mf">8.5</span> <span class="o">+</span> <span class="n">a</span><span class="p">)</span>
+<span class="go">91.6</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__rdiv__">
+<span class="sig-name descname"><span class="pre">__rdiv__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__rdiv__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__rdiv__" title="Permalink to this definition"></a></dt>
+<dd><p>This method defines division between Angles by the right.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A new Angle object.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#pymeeus.Angle.Angle" title="pymeeus.Angle.Angle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></a></p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p>ZeroDivisionError if divisor is zero.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError if input values are of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">80.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="mi">350</span> <span class="o">/</span> <span class="n">a</span><span class="p">)</span>
+<span class="go">4.375</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__repr__">
+<span class="sig-name descname"><span class="pre">__repr__</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__repr__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__repr__" title="Permalink to this definition"></a></dt>
+<dd><p>Method providing the ‘official’ string representation of the object.
+It provides a valid expression that could be used to recreate the
+object.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>As string with a valid expression to recreate the object</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>string</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">12.5</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">repr</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="go">&#39;Angle(12.5)&#39;</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__rmod__">
+<span class="sig-name descname"><span class="pre">__rmod__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__rmod__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__rmod__" title="Permalink to this definition"></a></dt>
+<dd><p>This method defines module operation between Angles by the right.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A new Angle object.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#pymeeus.Angle.Angle" title="pymeeus.Angle.Angle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></a></p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">80.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="mi">350</span> <span class="o">%</span> <span class="n">a</span><span class="p">)</span>
+<span class="go">30.0</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__rmul__">
+<span class="sig-name descname"><span class="pre">__rmul__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__rmul__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__rmul__" title="Permalink to this definition"></a></dt>
+<dd><p>This method defines multiplication between Angles by the right.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A new Angle object.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#pymeeus.Angle.Angle" title="pymeeus.Angle.Angle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></a></p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p>TypeError if input values are of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">11.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="mf">250.0</span> <span class="o">*</span> <span class="n">a</span><span class="p">)</span>
+<span class="go">230.0</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__round__">
+<span class="sig-name descname"><span class="pre">__round__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">n</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__round__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__round__" title="Permalink to this definition"></a></dt>
+<dd><p>This method returns an Angle with content rounded to ‘n’ decimal.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A new Angle object.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#pymeeus.Angle.Angle" title="pymeeus.Angle.Angle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></a></p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">11.4361</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span>
+<span class="go">11.44</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__rpow__">
+<span class="sig-name descname"><span class="pre">__rpow__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__rpow__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__rpow__" title="Permalink to this definition"></a></dt>
+<dd><p>This method defines the power operation for Angles by the right.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A new Angle object.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#pymeeus.Angle.Angle" title="pymeeus.Angle.Angle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></a></p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p>TypeError if input values are of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">5.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="mf">24.0</span> <span class="o">**</span> <span class="n">a</span><span class="p">)</span>
+<span class="go">144.0</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__rsub__">
+<span class="sig-name descname"><span class="pre">__rsub__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__rsub__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__rsub__" title="Permalink to this definition"></a></dt>
+<dd><p>This method defines the subtraction between Angles by the right.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A new Angle object.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#pymeeus.Angle.Angle" title="pymeeus.Angle.Angle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></a></p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p>TypeError if input values are of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">25.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="mf">24.0</span> <span class="o">-</span> <span class="n">a</span><span class="p">)</span>
+<span class="go">-1.0</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__rtruediv__">
+<span class="sig-name descname"><span class="pre">__rtruediv__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__rtruediv__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__rtruediv__" title="Permalink to this definition"></a></dt>
+<dd><p>This method defines division between Angle by the right (Python3).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A new Angle object.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#pymeeus.Angle.Angle" title="pymeeus.Angle.Angle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></a></p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p>ZeroDivisionError if divisor is zero.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError if input values are of wrong type.</p>
+</dd>
+<dt class="field-odd">See</dt>
+<dd class="field-odd"><p>__rdiv__</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__str__">
+<span class="sig-name descname"><span class="pre">__str__</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__str__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__str__" title="Permalink to this definition"></a></dt>
+<dd><p>Method used when trying to print the object.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Angle as string.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>string</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">12.5</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="go">12.5</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__sub__">
+<span class="sig-name descname"><span class="pre">__sub__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__sub__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__sub__" title="Permalink to this definition"></a></dt>
+<dd><p>This method defines the subtraction between Angles.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A new Angle object.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#pymeeus.Angle.Angle" title="pymeeus.Angle.Angle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></a></p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p>TypeError if input values are of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">25.4</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">10.2</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="p">)</span>
+<span class="go">15.2</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__truediv__">
+<span class="sig-name descname"><span class="pre">__truediv__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.__truediv__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.__truediv__" title="Permalink to this definition"></a></dt>
+<dd><p>This method defines the division between Angles (Python 3).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A new Angle object.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#pymeeus.Angle.Angle" title="pymeeus.Angle.Angle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></a></p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p>ZeroDivisionError if divisor is zero.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError if input values are of wrong type.</p>
+</dd>
+<dt class="field-odd">See</dt>
+<dd class="field-odd"><p>__div__</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.__weakref__">
+<span class="sig-name descname"><span class="pre">__weakref__</span></span><a class="headerlink" href="#pymeeus.Angle.Angle.__weakref__" title="Permalink to this definition"></a></dt>
+<dd><p>list of weak references to the object (if defined)</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.deg2dms">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">deg2dms</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">deg</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.deg2dms"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.deg2dms" title="Permalink to this definition"></a></dt>
+<dd><p>Converts input from decimal to sexagesimal angle format.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>deg</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.11)"><em>int</em></a><em>, </em><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.11)"><em>float</em></a>) – Degrees decimal format.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Angle in sexagesimal format, with ranges adjusted.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.11)">tuple</a></p>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The output format is (Degrees, Minutes, Seconds, sign)</p>
+</div>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">Angle</span><span class="o">.</span><span class="n">deg2dms</span><span class="p">(</span><span class="mf">23.44694444</span><span class="p">))</span>
+<span class="go">(23, 26, 48.999983999997596, 1.0)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.dms2deg">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">dms2deg</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">degrees</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">minutes</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">seconds</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.0</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.dms2deg"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.dms2deg" title="Permalink to this definition"></a></dt>
+<dd><p>Converts an angle from sexagesimal to decimal format.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>degrees</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.11)"><em>int</em></a><em>, </em><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.11)"><em>float</em></a>) – Degrees.</p></li>
+<li><p><strong>minutes</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.11)"><em>int</em></a><em>, </em><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.11)"><em>float</em></a>) – Minutes.</p></li>
+<li><p><strong>seconds</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.11)"><em>int</em></a><em>, </em><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.11)"><em>float</em></a>) – Seconds. 0.0 by default.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Angle in decimal format, within +/-[0:360) range.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.11)">float</a></p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">Angle</span><span class="o">.</span><span class="n">dms2deg</span><span class="p">(</span><span class="o">-</span><span class="mi">23</span><span class="p">,</span> <span class="mi">26</span><span class="p">,</span> <span class="mf">48.999983999997596</span><span class="p">))</span>
+<span class="go">-23.44694444</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.dms_str">
+<span class="sig-name descname"><span class="pre">dms_str</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">fancy</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">n_dec</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">-</span> <span class="pre">1</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.dms_str"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.dms_str" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the Angle value as a sexagesimal string.</p>
+<p>The parameter <strong>fancy</strong> allows to print in “Dd M’ S’’” format if True,
+and in “D:M:S” (easier to parse) if False. On the other hand, the
+<strong>n_dec</strong> parameter sets the number of decimals used to print the
+seconds. Set to a negative integer to disable (default).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>fancy</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.11)"><em>int</em></a>) – Format of output string. True by default.</p></li>
+<li><p><strong>n_dec</strong> – Number of decimals used to print the seconds</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Angle value as string in sexagesimal format.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>string</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError if input value is of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">42.75</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="o">.</span><span class="n">dms_str</span><span class="p">())</span>
+<span class="go">42d 45&#39; 0.0&#39;&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="o">.</span><span class="n">dms_str</span><span class="p">(</span><span class="n">fancy</span><span class="o">=</span><span class="kc">False</span><span class="p">))</span>
+<span class="go">42:45:0.0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mi">49</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mf">42.4817</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="o">.</span><span class="n">dms_str</span><span class="p">(</span><span class="n">n_dec</span><span class="o">=</span><span class="mi">2</span><span class="p">))</span>
+<span class="go">49d 13&#39; 42.48&#39;&#39;</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.dms_tuple">
+<span class="sig-name descname"><span class="pre">dms_tuple</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.dms_tuple"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.dms_tuple" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the Angle as a tuple containing (degrees, minutes, seconds,
+sign).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Angle value as (degrees, minutes, seconds, sign).</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.11)">tuple</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.get_ra">
+<span class="sig-name descname"><span class="pre">get_ra</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.get_ra"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.get_ra" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the Angle value as a Right Ascension in float format</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>The internal value of the Angle object as Right Ascension.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.11)">int</a>, <a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.11)">float</a></p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">138.75</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="o">.</span><span class="n">get_ra</span><span class="p">())</span>
+<span class="go">9.25</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.get_tolerance">
+<span class="sig-name descname"><span class="pre">get_tolerance</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.get_tolerance"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.get_tolerance" title="Permalink to this definition"></a></dt>
+<dd><p>Gets the internal tolerance value used to compare Angles.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The default tolerance value is <strong>base.TOL</strong>.</p>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Internal tolerance.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.11)">float</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.ra_str">
+<span class="sig-name descname"><span class="pre">ra_str</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">fancy</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">n_dec</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">-</span> <span class="pre">1</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.ra_str"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.ra_str" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the Angle value as a sexagesimal string in Right Ascension.</p>
+<p>The parameter <strong>fancy</strong> allows to print in “Hh M’ S’’” format if True,
+and in “H:M:S” (easier to parse) if False. On the other hand, the
+<strong>n_dec</strong> parameter sets the number of decimals used to print the
+seconds. Set to a negative integer to disable (default).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>fancy</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.11)"><em>int</em></a>) – Format of output string. True by default.</p></li>
+<li><p><strong>n_dec</strong> – Number of decimals used to print the seconds</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Angle value as Right Ascension in sexagesimal format.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>string</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError if input value is of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">138.75</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="o">.</span><span class="n">ra_str</span><span class="p">())</span>
+<span class="go">9h 15&#39; 0.0&#39;&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="o">.</span><span class="n">ra_str</span><span class="p">(</span><span class="n">fancy</span><span class="o">=</span><span class="kc">False</span><span class="p">))</span>
+<span class="go">9:15:0.0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">44</span><span class="p">,</span> <span class="mf">11.98581</span><span class="p">,</span> <span class="n">ra</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="o">.</span><span class="n">ra_str</span><span class="p">(</span><span class="n">n_dec</span><span class="o">=</span><span class="mi">3</span><span class="p">))</span>
+<span class="go">2h 44&#39; 11.986&#39;&#39;</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.ra_tuple">
+<span class="sig-name descname"><span class="pre">ra_tuple</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.ra_tuple"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.ra_tuple" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the Angle in Right Ascension format as a tuple containing
+(hours, minutes, seconds, sign).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Angle value as RA in (hours, minutes, seconds, sign) format.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.11)">tuple</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.rad">
+<span class="sig-name descname"><span class="pre">rad</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.rad"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.rad" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the Angle value in radians.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Angle value in radians.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.11)">float</a></p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="mf">47.762</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">a</span><span class="o">.</span><span class="n">rad</span><span class="p">(),</span> <span class="mi">8</span><span class="p">))</span>
+<span class="go">0.83360416</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.reduce_deg">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">reduce_deg</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">deg</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.reduce_deg"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.reduce_deg" title="Permalink to this definition"></a></dt>
+<dd><p>Takes a degree value in decimal format and converts it to a float
+value in the +/-[0:360) range.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>deg</strong> (int, float, <a class="reference internal" href="#pymeeus.Angle.Angle" title="pymeeus.Angle.Angle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></a>) – Input degree angle in decimal format.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Float value of the angle in the +/-[0:360) range.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.11)">float</a></p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="mf">386.3</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b</span> <span class="o">=</span> <span class="n">Angle</span><span class="o">.</span><span class="n">reduce_deg</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">b</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
+<span class="go">26.3</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.reduce_dms">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">reduce_dms</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">degrees</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">minutes</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">seconds</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.0</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.reduce_dms"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.reduce_dms" title="Permalink to this definition"></a></dt>
+<dd><p>Takes a degree value in sexagesimal format and converts it to a
+value in the +/-[0:360) range (degrees) and [0:60) range (minutes and
+seconds). It also takes care of fractional degrees and minutes.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>degrees</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.11)"><em>int</em></a><em>, </em><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.11)"><em>float</em></a>) – Degrees.</p></li>
+<li><p><strong>minutes</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.11)"><em>int</em></a><em>, </em><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.11)"><em>float</em></a>) – Minutes.</p></li>
+<li><p><strong>seconds</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.11)"><em>int</em></a><em>, </em><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.11)"><em>float</em></a>) – Seconds. 0.0 by default.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Angle in sexagesimal format, with ranges properly adjusted.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.11)">tuple</a></p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">Angle</span><span class="o">.</span><span class="n">reduce_dms</span><span class="p">(</span><span class="o">-</span><span class="mf">743.0</span><span class="p">,</span> <span class="mf">26.0</span><span class="p">,</span> <span class="mf">49.6</span><span class="p">))</span>
+<span class="go">(23, 26, 49.6, -1.0)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.set">
+<span class="sig-name descname"><span class="pre">set</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.set"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.set" title="Permalink to this definition"></a></dt>
+<dd><p>Method used to define the value of the Angle object.</p>
+<p>It takes decimals and sexagesimal input. The sexagesimal angles can be
+given as separate degree, minutes, seconds values, or as tuples or
+lists. It is also possible to provide another Angle object as input.</p>
+<p>If <strong>radians=True</strong> is passed, then the input value is converted from
+radians to degrees</p>
+<p>If <strong>ra=True</strong> is passed, then the input value is converted from Right
+Ascension to degrees</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>args</strong> (int, float, list, tuple, <a class="reference internal" href="#pymeeus.Angle.Angle" title="pymeeus.Angle.Angle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></a>) – Input angle, in decimal or sexagesimal format, or Angle</p></li>
+<li><p><strong>radians</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.11)"><em>bool</em></a>) – If True, input angle is in radians. False by default.</p></li>
+<li><p><strong>ra</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.11)"><em>bool</em></a>) – If True, input angle is in Right Ascension. False by default</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.11)">None</a></p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError if input values are of wrong type.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.set_ra">
+<span class="sig-name descname"><span class="pre">set_ra</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.set_ra"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.set_ra" title="Permalink to this definition"></a></dt>
+<dd><p>Define the value of the Angle object from a Right Ascension.</p>
+<p>It takes decimals and sexagesimal input. The sexagesimal Right
+Ascensions can be given as separate hours, minutes, seconds values, or
+as tuples or lists.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>args</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.11)"><em>int</em></a><em>, </em><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.11)"><em>float</em></a><em>, </em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.11)"><em>list</em></a><em>, </em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.11)"><em>tuple</em></a>) – Input Right Ascension, in decimal or sexagesimal format.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.11)">None</a></p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError if input values are of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span><span class="o">.</span><span class="n">set_ra</span><span class="p">(</span><span class="mi">9</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mf">55.8</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="go">138.7325</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.set_radians">
+<span class="sig-name descname"><span class="pre">set_radians</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">rads</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.set_radians"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.set_radians" title="Permalink to this definition"></a></dt>
+<dd><p>Method to define the value of the Angle object from radians.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>rads</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.11)"><em>int</em></a><em>, </em><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.11)"><em>float</em></a>) – Input angle, in radians.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.11)">None</a></p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError if input value is of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span><span class="o">.</span><span class="n">set_radians</span><span class="p">(</span><span class="n">pi</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="go">180.0</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.set_tolerance">
+<span class="sig-name descname"><span class="pre">set_tolerance</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tol</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.set_tolerance"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.set_tolerance" title="Permalink to this definition"></a></dt>
+<dd><p>Changes the internal tolerance value used to compare Angles.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>tol</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.11)"><em>int</em></a><em>, </em><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.11)"><em>float</em></a>) – New tolerance value.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.11)">None</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Angle.Angle.to_positive">
+<span class="sig-name descname"><span class="pre">to_positive</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Angle.html#Angle.to_positive"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Angle.Angle.to_positive" title="Permalink to this definition"></a></dt>
+<dd><p>Converts the internal angle value from negative to positive.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>This angle object.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#pymeeus.Angle.Angle" title="pymeeus.Angle.Angle"><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></a></p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Angle</span><span class="p">(</span><span class="o">-</span><span class="mf">87.32</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="o">.</span><span class="n">to_positive</span><span class="p">())</span>
+<span class="go">272.68</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="base.html" class="btn btn-neutral float-left" title="Base" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Coordinates.html" class="btn btn-neutral float-right" title="Coordinates" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2018, Dagoberto Salazar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

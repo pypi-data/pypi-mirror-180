@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moon &mdash; PyMeeus 0.5.12 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Neptune" href="Neptune.html" />
+    <link rel="prev" title="Minor" href="Minor.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> PyMeeus
+          </a>
+              <div class="version">
+                0.5.12
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../core/index.html">Core</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../core/base.html">Base</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../core/Angle.html">Angle</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../core/Coordinates.html">Coordinates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../core/CurveFitting.html">Curveffiting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../core/Epoch.html">Epoch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../core/Interpolation.html">Interpolation</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Bodies</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="Earth.html">Earth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="JupiterMoons.html">JupiterMoons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Jupiter.html">Jupiter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Mars.html">Mars</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Mercury.html">Mercury</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Minor.html">Minor</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Moon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Neptune.html">Neptune</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Pluto.html">Pluto</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Saturn.html">Saturn</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Sun.html">Sun</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Uranus.html">Uranus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Venus.html">Venus</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../examples/index.html">Usage Examples</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-General.html">Properly Using PyMeeus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Angle.html">Angle examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-base.html">Base examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Coordinates.html">Coordinates examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-CurveFitting.html">CurveFitting examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Earth.html">Earth examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Epoch.html">Epoch examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Interpolation.html">Interpolation examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Jupiter.html">Jupiter examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-JupiterMoons.html">JupiterMoons examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Mars.html">Mars examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Mercury.html">Mercury examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Minor.html">Minor examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Moon.html">Moon examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Neptune.html">Neptune examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Pluto.html">Pluto examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Saturn.html">Saturn examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Sun.html">Sun examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Uranus.html">Uranus examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/ex-Venus.html">Venus examples</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PyMeeus</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">Bodies</a> &raquo;</li>
+      <li>Moon</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/bodies/Moon.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-pymeeus">
+<span id="moon"></span><h1>Moon<a class="headerlink" href="#module-pymeeus" title="Permalink to this headline"></a></h1>
+<p>Module holding functions to handle coordinates.</p>
+<span class="target" id="module-pymeeus.Moon"></span><dl class="py class">
+<dt class="sig sig-object py" id="pymeeus.Moon.Moon">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pymeeus.Moon.</span></span><span class="sig-name descname"><span class="pre">Moon</span></span><a class="reference internal" href="../_modules/pymeeus/Moon.html#Moon"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Moon.Moon" title="Permalink to this definition"></a></dt>
+<dd><p>Class Moon models Earth’s satellite.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="pymeeus.Moon.Moon.__weakref__">
+<span class="sig-name descname"><span class="pre">__weakref__</span></span><a class="headerlink" href="#pymeeus.Moon.Moon.__weakref__" title="Permalink to this definition"></a></dt>
+<dd><p>list of weak references to the object (if defined)</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Moon.Moon.apparent_ecliptical_pos">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">apparent_ecliptical_pos</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">epoch</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Moon.html#Moon.apparent_ecliptical_pos"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Moon.Moon.apparent_ecliptical_pos" title="Permalink to this definition"></a></dt>
+<dd><p>This method computes the apparent geocentric ecliptical position
+(longitude, latitude) of the Moon for a given instant, referred to the
+mean equinox of the date, as well as the Moon-Earth distance in
+kilometers and the equatorial horizontal parallax.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>epoch</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Epoch</span></code>) – Instant to compute the Moon’s position, as an
+py:class:<cite>Epoch</cite> object.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><p>Tuple containing:</p>
+<ul class="simple">
+<li><p>Apparent geocentric longitude of the center of the Moon, as an
+py:class:<cite>Epoch</cite> object.</p></li>
+<li><p>Apparent geocentric latitude of the center of the Moon, as an
+py:class:<cite>Epoch</cite> object.</p></li>
+<li><p>Distance in kilometers between the centers of Earth and Moon, in
+kilometers (float)</p></li>
+<li><p>Equatorial horizontal parallax of the Moon, as an
+py:class:<cite>Epoch</cite> object.</p></li>
+</ul>
+</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.11)">tuple</a></p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError if input value is of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">epoch</span> <span class="o">=</span> <span class="n">Epoch</span><span class="p">(</span><span class="mi">1992</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mf">12.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">Lambda</span><span class="p">,</span> <span class="n">Beta</span><span class="p">,</span> <span class="n">Delta</span><span class="p">,</span> <span class="n">ppi</span> <span class="o">=</span> <span class="n">Moon</span><span class="o">.</span><span class="n">apparent_ecliptical_pos</span><span class="p">(</span><span class="n">epoch</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">Lambda</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
+<span class="go">133.16726</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">Beta</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+<span class="go">-3.229126</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">Delta</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
+<span class="go">368409.7</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">ppi</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
+<span class="go">0.99199</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Moon.Moon.apparent_equatorial_pos">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">apparent_equatorial_pos</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">epoch</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Moon.html#Moon.apparent_equatorial_pos"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Moon.Moon.apparent_equatorial_pos" title="Permalink to this definition"></a></dt>
+<dd><p>This method computes the apparent equatorial position (right
+ascension, declination) of the Moon for a given instant, referred to
+the mean equinox of the date, as well as the Moon-Earth distance in
+kilometers and the equatorial horizontal parallax.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>epoch</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Epoch</span></code>) – Instant to compute the Moon’s position, as an
+py:class:<cite>Epoch</cite> object.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><p>Tuple containing:</p>
+<ul class="simple">
+<li><p>Apparent right ascension of the center of the Moon, as an
+py:class:<cite>Epoch</cite> object.</p></li>
+<li><p>Apparent declination of the center of the Moon, as an
+py:class:<cite>Epoch</cite> object.</p></li>
+<li><p>Distance in kilometers between the centers of Earth and Moon, in
+kilometers (float)</p></li>
+<li><p>Equatorial horizontal parallax of the Moon, as an
+py:class:<cite>Epoch</cite> object.</p></li>
+</ul>
+</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.11)">tuple</a></p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError if input value is of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">epoch</span> <span class="o">=</span> <span class="n">Epoch</span><span class="p">(</span><span class="mi">1992</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mf">12.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ra</span><span class="p">,</span> <span class="n">dec</span><span class="p">,</span> <span class="n">Delta</span><span class="p">,</span> <span class="n">ppi</span> <span class="o">=</span> <span class="n">Moon</span><span class="o">.</span><span class="n">apparent_equatorial_pos</span><span class="p">(</span><span class="n">epoch</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">ra</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+<span class="go">134.688469</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">dec</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+<span class="go">13.768367</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">Delta</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
+<span class="go">368409.7</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">ppi</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
+<span class="go">0.99199</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Moon.Moon.geocentric_ecliptical_pos">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">geocentric_ecliptical_pos</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">epoch</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Moon.html#Moon.geocentric_ecliptical_pos"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Moon.Moon.geocentric_ecliptical_pos" title="Permalink to this definition"></a></dt>
+<dd><p>This method computes the geocentric ecliptical position (longitude,
+latitude) of the Moon for a given instant, referred to the mean equinox
+of the date, as well as the Moon-Earth distance in kilometers and the
+equatorial horizontal parallax.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>epoch</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Epoch</span></code>) – Instant to compute the Moon’s position, as an
+py:class:<cite>Epoch</cite> object.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><p>Tuple containing:</p>
+<ul class="simple">
+<li><p>Geocentric longitude of the center of the Moon, as an
+py:class:<cite>Epoch</cite> object.</p></li>
+<li><p>Geocentric latitude of the center of the Moon, as an
+py:class:<cite>Epoch</cite> object.</p></li>
+<li><p>Distance in kilometers between the centers of Earth and Moon, in
+kilometers (float)</p></li>
+<li><p>Equatorial horizontal parallax of the Moon, as an
+py:class:<cite>Epoch</cite> object.</p></li>
+</ul>
+</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.11)">tuple</a></p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError if input value is of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">epoch</span> <span class="o">=</span> <span class="n">Epoch</span><span class="p">(</span><span class="mi">1992</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mf">12.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">Lambda</span><span class="p">,</span> <span class="n">Beta</span><span class="p">,</span> <span class="n">Delta</span><span class="p">,</span> <span class="n">ppi</span> <span class="o">=</span> <span class="n">Moon</span><span class="o">.</span><span class="n">geocentric_ecliptical_pos</span><span class="p">(</span><span class="n">epoch</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">Lambda</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+<span class="go">133.162655</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">Beta</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+<span class="go">-3.229126</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">Delta</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
+<span class="go">368409.7</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">ppi</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
+<span class="go">0.99199</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Moon.Moon.illuminated_fraction_disk">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">illuminated_fraction_disk</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">epoch</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Moon.html#Moon.illuminated_fraction_disk"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Moon.Moon.illuminated_fraction_disk" title="Permalink to this definition"></a></dt>
+<dd><p>This method computes the approximate illuminated fraction ‘k’ of the
+disk of the Moon. The method used has a relatively low accuracy, but it
+is enough to the 2nd decimal place.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>epoch</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Epoch</span></code>) – Instant to compute the Moon’s illuminated fraction of the
+disk, as a py:class:<cite>Epoch</cite> object.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The approximate illuminated fraction of the Moon’s disk.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.11)">float</a></p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError if input value is of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">epoch</span> <span class="o">=</span> <span class="n">Epoch</span><span class="p">(</span><span class="mi">1992</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mf">12.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">k</span> <span class="o">=</span> <span class="n">Moon</span><span class="o">.</span><span class="n">illuminated_fraction_disk</span><span class="p">(</span><span class="n">epoch</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span>
+<span class="go">0.68</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Moon.Moon.longitude_mean_ascending_node">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">longitude_mean_ascending_node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">epoch</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Moon.html#Moon.longitude_mean_ascending_node"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Moon.Moon.longitude_mean_ascending_node" title="Permalink to this definition"></a></dt>
+<dd><p>This method computes the longitude of the mean ascending node of the
+Moon in degrees, for a given instant, measured from the mean equinox of
+the date.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>epoch</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Epoch</span></code>) – Instant to compute the Moon’s mean ascending node, as an
+py:class:<cite>Epoch</cite> object.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The longitude of the mean ascending node.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>py:class:<cite>Angle</cite></p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError if input value is of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">epoch</span> <span class="o">=</span> <span class="n">Epoch</span><span class="p">(</span><span class="mi">1913</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mf">27.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">Omega</span> <span class="o">=</span> <span class="n">Moon</span><span class="o">.</span><span class="n">longitude_mean_ascending_node</span><span class="p">(</span><span class="n">epoch</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">Omega</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
+<span class="go">0.0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">epoch</span> <span class="o">=</span> <span class="n">Epoch</span><span class="p">(</span><span class="mi">2043</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mf">10.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">Omega</span> <span class="o">=</span> <span class="n">Moon</span><span class="o">.</span><span class="n">longitude_mean_ascending_node</span><span class="p">(</span><span class="n">epoch</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">Omega</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
+<span class="go">0.0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">epoch</span> <span class="o">=</span> <span class="n">Epoch</span><span class="p">(</span><span class="mi">1959</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mf">7.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">Omega</span> <span class="o">=</span> <span class="n">Moon</span><span class="o">.</span><span class="n">longitude_mean_ascending_node</span><span class="p">(</span><span class="n">epoch</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">Omega</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
+<span class="go">180.0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">epoch</span> <span class="o">=</span> <span class="n">Epoch</span><span class="p">(</span><span class="mi">2108</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mf">3.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">Omega</span> <span class="o">=</span> <span class="n">Moon</span><span class="o">.</span><span class="n">longitude_mean_ascending_node</span><span class="p">(</span><span class="n">epoch</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">Omega</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
+<span class="go">180.0</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Moon.Moon.longitude_mean_perigee">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">longitude_mean_perigee</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">epoch</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Moon.html#Moon.longitude_mean_perigee"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Moon.Moon.longitude_mean_perigee" title="Permalink to this definition"></a></dt>
+<dd><p>This method computes the longitude of the mean perigee of the lunar
+orbitn in degrees, for a given instant, measured from the mean equinox
+of the date.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>epoch</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Epoch</span></code>) – Instant to compute the Moon’s mean perigee, as an
+py:class:<cite>Epoch</cite> object.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The longitude of the mean perigee.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>py:class:<cite>Angle</cite></p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError if input value is of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">epoch</span> <span class="o">=</span> <span class="n">Epoch</span><span class="p">(</span><span class="mi">2021</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mf">5.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">Pi</span> <span class="o">=</span> <span class="n">Moon</span><span class="o">.</span><span class="n">longitude_mean_perigee</span><span class="p">(</span><span class="n">epoch</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">Pi</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
+<span class="go">224.89194</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Moon.Moon.longitude_true_ascending_node">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">longitude_true_ascending_node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">epoch</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Moon.html#Moon.longitude_true_ascending_node"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Moon.Moon.longitude_true_ascending_node" title="Permalink to this definition"></a></dt>
+<dd><p>This method computes the longitude of the true ascending node of the
+Moon in degrees, for a given instant, measured from the mean equinox of
+the date.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>epoch</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Epoch</span></code>) – Instant to compute the Moon’s true ascending node, as an
+py:class:<cite>Epoch</cite> object.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The longitude of the true ascending node.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>py:class:<cite>Angle</cite></p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError if input value is of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">epoch</span> <span class="o">=</span> <span class="n">Epoch</span><span class="p">(</span><span class="mi">1913</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mf">27.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">Omega</span> <span class="o">=</span> <span class="n">Moon</span><span class="o">.</span><span class="n">longitude_true_ascending_node</span><span class="p">(</span><span class="n">epoch</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">Omega</span><span class="p">,</span> <span class="mi">4</span><span class="p">))</span>
+<span class="go">0.8763</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Moon.Moon.moon_librations">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">moon_librations</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">epoch</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Moon.html#Moon.moon_librations"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Moon.Moon.moon_librations" title="Permalink to this definition"></a></dt>
+<dd><p>This method computes the librations in longitude and latitude of the
+moon. There are several librations: The optical librations, that are
+the apparent oscillations in the hemisphere that the Moon turns towards
+the Earth, due to variations in the geometric position of the Earth
+relative to the lunar surface during the course of the orbital motion
+of the Moon. These variations allow to observe about 59% of the surface
+of the Moon from the Earth.</p>
+<p>There is also the physical libration of the Moon, i.e., the libration
+due to the actual rotational motion of the Moon about its mean
+rotation. The physical libration is much smaller than the optical
+libration, and can never be larger than 0.04 degree in both longitude
+and latitude.</p>
+<p>Finally, there is the total libration, which is the sum of the two
+librations mentioned above</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>epoch</strong> – Epoch we want to compute the Moon’s librations.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A tuple containing the optical libration in longitude and in
+latitude, the physical libration also in longitude and latitude,
+and the total librations which is the sum of the previouse ones,
+all of them as <code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code> objects.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.11)">tuple</a></p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError if input value is of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">epoch</span> <span class="o">=</span> <span class="n">Epoch</span><span class="p">(</span><span class="mi">1992</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mf">12.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lopt</span><span class="p">,</span> <span class="n">bopt</span><span class="p">,</span> <span class="n">lphys</span><span class="p">,</span> <span class="n">bphys</span><span class="p">,</span> <span class="n">ltot</span><span class="p">,</span> <span class="n">btot</span> <span class="o">=</span> <span class="n">Moon</span><span class="o">.</span><span class="n">moon_librations</span><span class="p">(</span><span class="n">epoch</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">lopt</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
+<span class="go">-1.206</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">bopt</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
+<span class="go">4.194</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">lphys</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
+<span class="go">-0.025</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">bphys</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
+<span class="go">0.006</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">ltot</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span>
+<span class="go">-1.23</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">btot</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
+<span class="go">4.2</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Moon.Moon.moon_maximum_declination">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">moon_maximum_declination</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">epoch</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">target</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'northern'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Moon.html#Moon.moon_maximum_declination"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Moon.Moon.moon_maximum_declination" title="Permalink to this definition"></a></dt>
+<dd><p>This method computes the approximate times when the Moon reaches
+its maximum declination (either ‘northern’ or ‘southern’), as well as
+the values of these extreme declinations. The resulting times will be
+expressed in the uniform time scale of Dynamical Time (TT).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>epoch</strong> – Approximate epoch we want to compute the Moon’s maximum
+declination.</p></li>
+<li><p><strong>target</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.11)"><em>str</em></a>) – Either ‘northern’ or ‘southern’, depending on the
+maximum declination being looked for. It is ‘northern’ by default.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A tuple containing the instant of time when the maximum
+declination happens, as a <code class="xref py py-class docutils literal notranslate"><span class="pre">Epoch</span></code> object, and the angle
+value of such declination, as a <code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code> object.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.11)">tuple</a></p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError if input value is of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">epoch</span> <span class="o">=</span> <span class="n">Epoch</span><span class="p">(</span><span class="mi">1988</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mf">15.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">epo</span><span class="p">,</span> <span class="n">dec</span> <span class="o">=</span> <span class="n">Moon</span><span class="o">.</span><span class="n">moon_maximum_declination</span><span class="p">(</span><span class="n">epoch</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">h</span><span class="p">,</span> <span class="n">mi</span><span class="p">,</span> <span class="n">s</span> <span class="o">=</span> <span class="n">epo</span><span class="o">.</span><span class="n">get_full_date</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">/</span><span class="si">{}</span><span class="s2">/</span><span class="si">{}</span><span class="s2"> </span><span class="si">{}</span><span class="s2">:0</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">h</span><span class="p">,</span> <span class="n">mi</span><span class="p">))</span>
+<span class="go">1988/12/22 20:01</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">dec</span><span class="o">.</span><span class="n">dms_str</span><span class="p">(</span><span class="n">n_dec</span><span class="o">=</span><span class="mi">0</span><span class="p">)))</span>
+<span class="go">28d 9&#39; 22.0&#39;&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">epoch</span> <span class="o">=</span> <span class="n">Epoch</span><span class="p">(</span><span class="mi">2049</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mf">15.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">epo</span><span class="p">,</span> <span class="n">dec</span> <span class="o">=</span> <span class="n">Moon</span><span class="o">.</span><span class="n">moon_maximum_declination</span><span class="p">(</span><span class="n">epoch</span><span class="p">,</span> <span class="n">target</span><span class="o">=</span><span class="s1">&#39;southern&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">h</span><span class="p">,</span> <span class="n">mi</span><span class="p">,</span> <span class="n">s</span> <span class="o">=</span> <span class="n">epo</span><span class="o">.</span><span class="n">get_full_date</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">/</span><span class="si">{}</span><span class="s2">/</span><span class="si">{}</span><span class="s2"> </span><span class="si">{}</span><span class="s2">:</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">h</span><span class="p">,</span> <span class="n">mi</span><span class="p">))</span>
+<span class="go">2049/4/21 14:0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">dec</span><span class="o">.</span><span class="n">dms_str</span><span class="p">(</span><span class="n">n_dec</span><span class="o">=</span><span class="mi">0</span><span class="p">)))</span>
+<span class="go">-22d 8&#39; 18.0&#39;&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">epoch</span> <span class="o">=</span> <span class="n">Epoch</span><span class="p">(</span><span class="o">-</span><span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mf">15.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">epo</span><span class="p">,</span> <span class="n">dec</span> <span class="o">=</span> <span class="n">Moon</span><span class="o">.</span><span class="n">moon_maximum_declination</span><span class="p">(</span><span class="n">epoch</span><span class="p">,</span> <span class="n">target</span><span class="o">=</span><span class="s1">&#39;northern&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">h</span><span class="p">,</span> <span class="n">mi</span><span class="p">,</span> <span class="n">s</span> <span class="o">=</span> <span class="n">epo</span><span class="o">.</span><span class="n">get_full_date</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">/</span><span class="si">{}</span><span class="s2">/</span><span class="si">{}</span><span class="s2"> </span><span class="si">{}</span><span class="s2">h&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">h</span><span class="p">))</span>
+<span class="go">-4/3/16 15h</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">dec</span><span class="o">.</span><span class="n">dms_str</span><span class="p">(</span><span class="n">n_dec</span><span class="o">=</span><span class="mi">0</span><span class="p">)))</span>
+<span class="go">28d 58&#39; 26.0&#39;&#39;</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Moon.Moon.moon_passage_nodes">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">moon_passage_nodes</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">epoch</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">target</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'ascending'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Moon.html#Moon.moon_passage_nodes"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Moon.Moon.moon_passage_nodes" title="Permalink to this definition"></a></dt>
+<dd><p>This method computes the approximate times when the center of the
+Moon passes through the ascending or descending node of its orbit. The
+resulting times will be expressed in the uniform time scale of
+Dynamical Time (TT).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>epoch</strong> – Approximate epoch we want to compute the Moon’s passage
+through the ascending or descending node.</p></li>
+<li><p><strong>target</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.11)"><em>str</em></a>) – Either ‘ascending’ or ‘descending’. It is ‘ascending’ by
+default.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The instant of time when the Moon passes thhrough the
+ascending or descending node.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">Epoch</span></code></p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError if input values are of wrong type.</p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p>ValueError if ‘target’ value is invalid.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">epoch</span> <span class="o">=</span> <span class="n">Epoch</span><span class="p">(</span><span class="mi">1987</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mf">15.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">passage</span> <span class="o">=</span> <span class="n">Moon</span><span class="o">.</span><span class="n">moon_passage_nodes</span><span class="p">(</span><span class="n">epoch</span><span class="p">,</span> <span class="n">target</span><span class="o">=</span><span class="s2">&quot;ascending&quot;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">h</span><span class="p">,</span> <span class="n">mi</span><span class="p">,</span> <span class="n">s</span> <span class="o">=</span> <span class="n">passage</span><span class="o">.</span><span class="n">get_full_date</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">mi</span> <span class="o">+=</span> <span class="n">s</span><span class="o">/</span><span class="mf">60.0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">/</span><span class="si">{}</span><span class="s2">/</span><span class="si">{}</span><span class="s2"> </span><span class="si">{}</span><span class="s2">:</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">h</span><span class="p">,</span> <span class="nb">round</span><span class="p">(</span><span class="n">mi</span><span class="p">)))</span>
+<span class="go">1987/5/23 6:26</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Moon.Moon.moon_perigee_apogee">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">moon_perigee_apogee</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">epoch</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">target</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'perigee'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Moon.html#Moon.moon_perigee_apogee"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Moon.Moon.moon_perigee_apogee" title="Permalink to this definition"></a></dt>
+<dd><p>This method computes the approximate times when the distance between
+the Earth and the Moon is a minimum (perigee) or a maximum (apogee).
+The resulting times will be expressed in the uniform time scale of
+Dynamical Time (TT).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>epoch</strong> – Approximate epoch we want to compute the Moon’s perigee
+or apogee for.</p></li>
+<li><p><strong>target</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.11)"><em>str</em></a>) – Either ‘perigee’ or ‘apogee’. It’s ‘perigee’ by default.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A tuple containing the instant of time when the perigee or
+apogee happens, as a <code class="xref py py-class docutils literal notranslate"><span class="pre">Epoch</span></code> object, and the Moon’s
+corresponding equatorial horizontal parallax, as a
+<code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code> object.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.11)">tuple</a></p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError if input values are of wrong type.</p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p>ValueError if ‘target’ value is invalid.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">epoch</span> <span class="o">=</span> <span class="n">Epoch</span><span class="p">(</span><span class="mi">1988</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">apogee</span><span class="p">,</span> <span class="n">parallax</span> <span class="o">=</span> <span class="n">Moon</span><span class="o">.</span><span class="n">moon_perigee_apogee</span><span class="p">(</span><span class="n">epoch</span><span class="p">,</span> <span class="n">target</span><span class="o">=</span><span class="s2">&quot;apogee&quot;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">h</span><span class="p">,</span> <span class="n">mi</span><span class="p">,</span> <span class="n">s</span> <span class="o">=</span> <span class="n">apogee</span><span class="o">.</span><span class="n">get_full_date</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">/</span><span class="si">{}</span><span class="s2">/</span><span class="si">{}</span><span class="s2"> </span><span class="si">{}</span><span class="s2">:</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">h</span><span class="p">,</span> <span class="n">mi</span><span class="p">))</span>
+<span class="go">1988/10/7 20:30</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">parallax</span><span class="o">.</span><span class="n">dms_str</span><span class="p">(</span><span class="n">n_dec</span><span class="o">=</span><span class="mi">3</span><span class="p">)))</span>
+<span class="go">54&#39; 0.679&#39;&#39;</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Moon.Moon.moon_phase">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">moon_phase</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">epoch</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">target</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'new'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Moon.html#Moon.moon_phase"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Moon.Moon.moon_phase" title="Permalink to this definition"></a></dt>
+<dd><p>This method computes the time of the phase of the moon closest to
+the provided epoch. The resulting time is expressed in the uniform time
+scale of Dynamical Time (TT).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>epoch</strong> – Approximate epoch we want to compute the Moon phase for.</p></li>
+<li><p><strong>target</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.11)"><em>str</em></a>) – Corresponding phase. It can be “new” (New Moon), “first”
+(First Quarter), “full” (Full Moon) and “last” (Last Quarter). It
+is ‘new’ by default.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The instant of time when the provided phase happens.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">Epoch</span></code></p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError if input values are of wrong type.</p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p>ValueError if ‘target’ value is invalid.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">epoch</span> <span class="o">=</span> <span class="n">Epoch</span><span class="p">(</span><span class="mi">1977</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mf">15.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">new_moon</span> <span class="o">=</span> <span class="n">Moon</span><span class="o">.</span><span class="n">moon_phase</span><span class="p">(</span><span class="n">epoch</span><span class="p">,</span> <span class="n">target</span><span class="o">=</span><span class="s2">&quot;new&quot;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">h</span><span class="p">,</span> <span class="n">mi</span><span class="p">,</span> <span class="n">s</span> <span class="o">=</span> <span class="n">new_moon</span><span class="o">.</span><span class="n">get_full_date</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">/</span><span class="si">{}</span><span class="s2">/</span><span class="si">{}</span><span class="s2"> </span><span class="si">{}</span><span class="s2">:</span><span class="si">{}</span><span class="s2">:</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">h</span><span class="p">,</span> <span class="n">mi</span><span class="p">,</span> <span class="nb">round</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="mi">0</span><span class="p">)))</span>
+<span class="go">1977/2/18 3:37:42.0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">epoch</span> <span class="o">=</span> <span class="n">Epoch</span><span class="p">(</span><span class="mi">2044</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">new_moon</span> <span class="o">=</span> <span class="n">Moon</span><span class="o">.</span><span class="n">moon_phase</span><span class="p">(</span><span class="n">epoch</span><span class="p">,</span> <span class="n">target</span><span class="o">=</span><span class="s2">&quot;last&quot;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">h</span><span class="p">,</span> <span class="n">mi</span><span class="p">,</span> <span class="n">s</span> <span class="o">=</span> <span class="n">new_moon</span><span class="o">.</span><span class="n">get_full_date</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">/</span><span class="si">{}</span><span class="s2">/</span><span class="si">{}</span><span class="s2"> </span><span class="si">{}</span><span class="s2">:</span><span class="si">{}</span><span class="s2">:</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">h</span><span class="p">,</span> <span class="n">mi</span><span class="p">,</span> <span class="nb">round</span><span class="p">(</span><span class="n">s</span><span class="p">)))</span>
+<span class="go">2044/1/21 23:48:17</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Moon.Moon.moon_position_angle_axis">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">moon_position_angle_axis</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">epoch</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Moon.html#Moon.moon_position_angle_axis"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Moon.Moon.moon_position_angle_axis" title="Permalink to this definition"></a></dt>
+<dd><p>This method computes the position angle of the Moon’s axis of
+rotation. The effect of the physical libration is taken into account.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>epoch</strong> – Epoch we want to compute the position angle of the Moon’s
+axis of rotation.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The position angle of the Moon’s axis of rotation, as a
+<code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code> object.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.11)">tuple</a></p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError if input value is of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">epoch</span> <span class="o">=</span> <span class="n">Epoch</span><span class="p">(</span><span class="mi">1992</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mf">12.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">p</span> <span class="o">=</span> <span class="n">Moon</span><span class="o">.</span><span class="n">moon_position_angle_axis</span><span class="p">(</span><span class="n">epoch</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span>
+<span class="go">15.08</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pymeeus.Moon.Moon.position_bright_limb">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">position_bright_limb</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">epoch</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pymeeus/Moon.html#Moon.position_bright_limb"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pymeeus.Moon.Moon.position_bright_limb" title="Permalink to this definition"></a></dt>
+<dd><p>This method computes the position angle of the Moon’s bright limb,
+i.e., the position angle of the midpoint of the illuminated limb,
+reckoned eastward from the North Point of the disk (not from the axis
+of rotation of the lunar globe).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>epoch</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Epoch</span></code>) – Instant to compute the position angle of the  Moon’s
+bright limb, as a py:class:<cite>Epoch</cite> object.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The position angle of the Moon’s bright limb.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">Angle</span></code></p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError if input value is of wrong type.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">epoch</span> <span class="o">=</span> <span class="n">Epoch</span><span class="p">(</span><span class="mi">1992</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mf">12.0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">xi</span> <span class="o">=</span> <span class="n">Moon</span><span class="o">.</span><span class="n">position_bright_limb</span><span class="p">(</span><span class="n">epoch</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">xi</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
+<span class="go">285.0</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="pymeeus.Moon.PERIODIC_TERMS_B_TABLE">
+<span class="sig-prename descclassname"><span class="pre">pymeeus.Moon.</span></span><span class="sig-name descname"><span class="pre">PERIODIC_TERMS_B_TABLE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">[[0,</span> <span class="pre">0,</span> <span class="pre">0,</span> <span class="pre">1,</span> <span class="pre">5128122.0],</span> <span class="pre">[0,</span> <span class="pre">0,</span> <span class="pre">1,</span> <span class="pre">1,</span> <span class="pre">280602.0],</span> <span class="pre">[0,</span> <span class="pre">0,</span> <span class="pre">1,</span> <span class="pre">-1,</span> <span class="pre">277693.0],</span> <span class="pre">[2,</span> <span class="pre">0,</span> <span class="pre">0,</span> <span class="pre">-1,</span> <span class="pre">173237.0],</span> <span class="pre">[2,</span> <span class="pre">0,</span> <span class="pre">-1,</span> <span class="pre">1,</span> <span class="pre">55413.0],</span> <span class="pre">[2,</span> <span class="pre">0,</span> <span class="pre">-1,</span> <span class="pre">-1,</span> <span class="pre">46271.0],</span> <span class="pre">[2,</span> <span class="pre">0,</span> <span class="pre">0,</span> <span class="pre">1,</span> <span class="pre">32573.0],</span> <span class="pre">[0,</span> <span class="pre">0,</span> <span class="pre">2,</span> <span class="pre">1,</span> <span class="pre">17198.0],</span> <span class="pre">[2,</span> <span class="pre">0,</span> <span class="pre">1,</span> <span class="pre">-1,</span> <span class="pre">9266.0],</span> <span class="pre">[0,</span> <span class="pre">0,</span> <span class="pre">2,</span> <span class="pre">-1,</span> <span class="pre">8822.0],</span> <span class="pre">[2,</span> <span class="pre">-1,</span> <span class="pre">0,</span> <span class="pre">-1,</span> <span class="pre">8216.0],</span> <span class="pre">[2,</span> <span class="pre">0,</span> <span class="pre">-2,</span> <span class="pre">-1,</span> <span class="pre">4324.0],</span> <span class="pre">[2,</span> <span class="pre">0,</span> <span class="pre">1,</span> <span class="pre">1,</span> <span class="pre">4200.0],</span> <span class="pre">[2,</span> <span class="pre">1,</span> <span class="pre">0,</span> <span class="pre">-1,</span> <span class="pre">-3359.0],</span> <span class="pre">[2,</span> <span class="pre">-1,</span> <span class="pre">-1,</span> <span class="pre">1,</span> <span class="pre">2463.0],</span> <span class="pre">[2,</span> <span class="pre">-1,</span> <span class="pre">0,</span> <span class="pre">1,</span> <span class="pre">2211.0],</span> <span class="pre">[2,</span> <span class="pre">-1,</span> <span class="pre">-1,</span> <span class="pre">-1,</span> <span class="pre">2065.0],</span> <span class="pre">[0,</span> <span class="pre">1,</span> <span class="pre">-1,</span> <span class="pre">-1,</span> <span class="pre">-1870.0],</span> <span class="pre">[4,</span> <span class="pre">0,</span> <span class="pre">-1,</span> <span class="pre">-1,</span> <span class="pre">1828.0],</span> <span class="pre">[0,</span> <span class="pre">1,</span> <span class="pre">0,</span> <span class="pre">1,</span> <span class="pre">-1794.0],</span> <span class="pre">[0,</span> <span class="pre">0,</span> <span class="pre">0,</span> <span class="pre">3,</span> <span class="pre">-1749.0],</span> <span class="pre">[0,</span> <span class="pre">1,</span> <span class="pre">-1,</span> <span class="pre">1,</span> <span class="pre">-1565.0],</span> <span class="pre">[1,</span> <span class="pre">0,</span> <span class="pre">0,</span> <span class="pre">1,</span> <span class="pre">-1491.0],</span> <span class="pre">[0,</span> <span class="pre">1,</span> <span class="pre">1,</span> <span class="pre">1,</span> <span class="pre">-1475.0],</span> <span class="pre">[0,</span> <span class="pre">1,</span> <span class="pre">1,</span> <span class="pre">-1,</span> <span class="pre">-1410.0],</span> <span class="pre">[0,</span> <span class="pre">1,</span> <span class="pre">0,</span> <span class="pre">-1,</span> <span class="pre">-1344.0],</span> <span class="pre">[1,</span> <span class="pre">0,</span> <span class="pre">0,</span> <span class="pre">-1,</span> <span class="pre">-1335.0],</span> <span class="pre">[0,</span> <span class="pre">0,</span> <span class="pre">3,</span> <span class="pre">1,</span> <span class="pre">1107.0],</span> <span class="pre">[4,</span> <span class="pre">0,</span> <span class="pre">0,</span> <span class="pre">-1,</span> <span class="pre">1021.0],</span> <span class="pre">[4,</span> <span class="pre">0,</span> <span class="pre">-1,</span> <span class="pre">1,</span> <span class="pre">833.0],</span> <span class="pre">[0,</span> <span class="pre">0,</span> <span class="pre">1,</span> <span class="pre">-3,</span> <span class="pre">777.0],</span> <span class="pre">[4,</span> <span class="pre">0,</span> <span class="pre">-2,</span> <span class="pre">1,</span> <span class="pre">671.0],</span> <span class="pre">[2,</span> <span class="pre">0,</span> <span class="pre">0,</span> <span class="pre">-3,</span> <span class="pre">607.0],</span> <span class="pre">[2,</span> <span class="pre">0,</span> <span class="pre">2,</span> <span class="pre">-1,</span> <span class="pre">596.0],</span> <span class="pre">[2,</span> <span class="pre">-1,</span> <span class="pre">1,</span> <span class="pre">-1,</span> <span class="pre">491.0],</span> <span class="pre">[2,</span> <span class="pre">0,</span> <span class="pre">-2,</span> <span class="pre">1,</span> <span class="pre">-451.0],</span> <span class="pre">[0,</span> <span class="pre">0,</span> <span class="pre">3,</span> <span class="pre">-1,</span> <span class="pre">439.0],</span> <span class="pre">[2,</span> <span class="pre">0,</span> <span class="pre">2,</span> <span class="pre">1,</span> <span class="pre">422.0],</span> <span class="pre">[2,</span> <span class="pre">0,</span> <span class="pre">-3,</span> <span class="pre">-1,</span> <span class="pre">421.0],</span> <span class="pre">[2,</span> <span class="pre">1,</span> <span class="pre">-1,</span> <span class="pre">1,</span> <span class="pre">-366.0],</span> <span class="pre">[2,</span> <span class="pre">1,</span> <span class="pre">0,</span> <span class="pre">1,</span> <span class="pre">-351.0],</span> <span class="pre">[4,</span> <span class="pre">0,</span> <span class="pre">0,</span> <span class="pre">1,</span> <span class="pre">331.0],</span> <span class="pre">[2,</span> <span class="pre">-1,</span> <span class="pre">1,</span> <span class="pre">1,</span> <span class="pre">315.0],</span> <span class="pre">[2,</span> <span class="pre">-2,</span> <span class="pre">0,</span> <span class="pre">-1,</span> <span class="pre">302.0],</span> <span class="pre">[0,</span> <span class="pre">0,</span> <span class="pre">1,</span> <span class="pre">3,</span> <span class="pre">-283.0],</span> <span class="pre">[2,</span> <span class="pre">1,</span> <span class="pre">1,</span> <span class="pre">-1,</span> <span class="pre">-229.0],</span> <span class="pre">[1,</span> <span class="pre">1,</span> <span class="pre">0,</span> <span class="pre">-1,</span> <span class="pre">223.0],</span> <span class="pre">[1,</span> <span class="pre">1,</span> <span class="pre">0,</span> <span class="pre">1,</span> <span class="pre">223.0],</span> <span class="pre">[0,</span> <span class="pre">1,</span> <span class="pre">-2,</span> <span class="pre">-1,</span> <span class="pre">-220.0],</span> <span class="pre">[2,</span> <span class="pre">1,</span> <span class="pre">-1,</span> <span class="pre">-1,</span> <span class="pre">-220.0],</span> <span class="pre">[1,</span> <span class="pre">0,</span> <span class="pre">1,</span> <span class="pre">1,</span> <span class="pre">-185.0],</span> <span class="pre">[2,</span> <span class="pre">-1,</span> <span class="pre">-2,</span> <span class="pre">-1,</span> <span class="pre">181.0],</span> <span class="pre">[0,</span> <span class="pre">1,</span> <span class="pre">2,</span> <span class="pre">1,</span> <span class="pre">-177.0],</span> <span class="pre">[4,</span> <span class="pre">0,</span> <span class="pre">-2,</span> <span class="pre">-1,</span> <span class="pre">176.0],</span> <span class="pre">[4,</span> <span class="pre">-1,</span> <span class="pre">-1,</span> <span class="pre">-1,</span> <span class="pre">166.0],</span> <span class="pre">[1,</span> <span class="pre">0,</span> <span class="pre">1,</span> <span class="pre">-1,</span> <span class="pre">-164.0],</span> <span class="pre">[4,</span> <span class="pre">0,</span> <span class="pre">1,</span> <span class="pre">-1,</span> <span class="pre">132.0],</span> <span class="pre">[1,</span> <span class="pre">0,</span> <span class="pre">-1,</span> <span class="pre">-1,</span> <span class="pre">-119.0],</span> <span class="pre">[4,</span> <span class="pre">-1,</span> <span class="pre">0,</span> <span class="pre">-1,</span> <span class="pre">115.0],</span> <span class="pre">[2,</span> <span class="pre">-2,</span> <span class="pre">0,</span> <span class="pre">1,</span> <span class="pre">107.0]]</span></em><a class="headerlink" href="#pymeeus.Moon.PERIODIC_TERMS_B_TABLE" title="Permalink to this definition"></a></dt>
+<dd><p>This table contains the periodic terms for the latitude of the Moon Sigmab.
+Units are 0.000001 degree. In Meeus’ book this is Table 47.B and can be found
+in page 341.</p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="pymeeus.Moon.PERIODIC_TERMS_LR_TABLE">
+<span class="sig-prename descclassname"><span class="pre">pymeeus.Moon.</span></span><span class="sig-name descname"><span class="pre">PERIODIC_TERMS_LR_TABLE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">[[0,</span> <span class="pre">0,</span> <span class="pre">1,</span> <span class="pre">0,</span> <span class="pre">6288774.0,</span> <span class="pre">-20905355.0],</span> <span class="pre">[2,</span> <span class="pre">0,</span> <span class="pre">-1,</span> <span class="pre">0,</span> <span class="pre">1274027.0,</span> <span class="pre">-3699111.0],</span> <span class="pre">[2,</span> <span class="pre">0,</span> <span class="pre">0,</span> <span class="pre">0,</span> <span class="pre">658314.0,</span> <span class="pre">-2955968.0],</span> <span class="pre">[0,</span> <span class="pre">0,</span> <span class="pre">2,</span> <span class="pre">0,</span> <span class="pre">213618.0,</span> <span class="pre">-569925.0],</span> <span class="pre">[0,</span> <span class="pre">1,</span> <span class="pre">0,</span> <span class="pre">0,</span> <span class="pre">-185116.0,</span> <span class="pre">48888.0],</span> <span class="pre">[0,</span> <span class="pre">0,</span> <span class="pre">0,</span> <span class="pre">2,</span> <span class="pre">-114332.0,</span> <span class="pre">-3149.0],</span> <span class="pre">[2,</span> <span class="pre">0,</span> <span class="pre">-2,</span> <span class="pre">0,</span> <span class="pre">58793.0,</span> <span class="pre">246158.0],</span> <span class="pre">[2,</span> <span class="pre">-1,</span> <span class="pre">-1,</span> <span class="pre">0,</span> <span class="pre">57066.0,</span> <span class="pre">-152138.0],</span> <span class="pre">[2,</span> <span class="pre">0,</span> <span class="pre">1,</span> <span class="pre">0,</span> <span class="pre">53322.0,</span> <span class="pre">-170733.0],</span> <span class="pre">[2,</span> <span class="pre">-1,</span> <span class="pre">0,</span> <span class="pre">0,</span> <span class="pre">45758.0,</span> <span class="pre">-204586.0],</span> <span class="pre">[0,</span> <span class="pre">1,</span> <span class="pre">-1,</span> <span class="pre">0,</span> <span class="pre">-40923.0,</span> <span class="pre">-129620.0],</span> <span class="pre">[1,</span> <span class="pre">0,</span> <span class="pre">0,</span> <span class="pre">0,</span> <span class="pre">-34720.0,</span> <span class="pre">108743.0],</span> <span class="pre">[0,</span> <span class="pre">1,</span> <span class="pre">1,</span> <span class="pre">0,</span> <span class="pre">-30383.0,</span> <span class="pre">104755.0],</span> <span class="pre">[2,</span> <span class="pre">0,</span> <span class="pre">0,</span> <span class="pre">-2,</span> <span class="pre">15327.0,</span> <span class="pre">10321.0],</span> <span class="pre">[0,</span> <span class="pre">0,</span> <span class="pre">1,</span> <span class="pre">2,</span> <span class="pre">-12528.0,</span> <span class="pre">0.0],</span> <span class="pre">[0,</span> <span class="pre">0,</span> <span class="pre">1,</span> <span class="pre">-2,</span> <span class="pre">10980.0,</span> <span class="pre">79661.0],</span> <span class="pre">[4,</span> <span class="pre">0,</span> <span class="pre">-1,</span> <span class="pre">0,</span> <span class="pre">10675.0,</span> <span class="pre">-34782.0],</span> <span class="pre">[0,</span> <span class="pre">0,</span> <span class="pre">3,</span> <span class="pre">0,</span> <span class="pre">10034.0,</span> <span class="pre">-23210.0],</span> <span class="pre">[4,</span> <span class="pre">0,</span> <span class="pre">-2,</span> <span class="pre">0,</span> <span class="pre">8548.0,</span> <span class="pre">-21636.0],</span> <span class="pre">[2,</span> <span class="pre">1,</span> <span class="pre">-1,</span> <span class="pre">0,</span> <span class="pre">-7888.0,</span> <span class="pre">24208.0],</span> <span class="pre">[2,</span> <span class="pre">1,</span> <span class="pre">0,</span> <span class="pre">0,</span> <span class="pre">-6766.0,</span> <span class="pre">30824.0],</span> <span class="pre">[1,</span> <span class="pre">0,</span> <span class="pre">-1,</span> <span class="pre">0,</span> <span class="pre">-5163.0,</span> <span class="pre">-8379.0],</span> <span class="pre">[1,</span> <span class="pre">1,</span> <span class="pre">0,</span> <span class="pre">0,</span> <span class="pre">4987.0,</span> <span class="pre">-16675.0],</span> <span class="pre">[2,</span> <span class="pre">-1,</span> <span class="pre">1,</span> <span class="pre">0,</span> <span class="pre">4036.0,</span> <span class="pre">-12831.0],</span> <span class="pre">[2,</span> <span class="pre">0,</span> <span class="pre">2,</span> <span class="pre">0,</span> <span class="pre">3994.0,</span> <span class="pre">-10445.0],</span> <span class="pre">[4,</span> <span class="pre">0,</span> <span class="pre">0,</span> <span class="pre">0,</span> <span class="pre">3861.0,</span> <span class="pre">-11650.0],</span> <span class="pre">[2,</span> <span class="pre">0,</span> <span class="pre">-3,</span> <span class="pre">0,</span> <span class="pre">3665.0,</span> <span class="pre">14403.0],</span> <span class="pre">[0,</span> <span class="pre">1,</span> <span class="pre">-2,</span> <span class="pre">0,</span> <span class="pre">-2689.0,</span> <span class="pre">-7003.0],</span> <span class="pre">[2,</span> <span class="pre">0,</span> <span class="pre">-1,</span> <span class="pre">2,</span> <span class="pre">-2602.0,</span> <span class="pre">0.0],</span> <span class="pre">[2,</span> <span class="pre">-1,</span> <span class="pre">-2,</span> <span class="pre">0,</span> <span class="pre">2390.0,</span> <span class="pre">10056.0],</span> <span class="pre">[1,</span> <span class="pre">0,</span> <span class="pre">1,</span> <span class="pre">0,</span> <span class="pre">-2348.0,</span> <span class="pre">6322.0],</span> <span class="pre">[2,</span> <span class="pre">-2,</span> <span class="pre">0,</span> <span class="pre">0,</span> <span class="pre">2236.0,</span> <span class="pre">-9884.0],</span> <span class="pre">[0,</span> <span class="pre">1,</span> <span class="pre">2,</span> <span class="pre">0,</span> <span class="pre">-2120.0,</span> <span class="pre">5751.0],</span> <span class="pre">[0,</span> <span class="pre">2,</span> <span class="pre">0,</span> <span class="pre">0,</span> <span class="pre">-2069.0,</span> <span class="pre">0.0],</span> <span class="pre">[2,</span> <span class="pre">-2,</span> <span class="pre">-1,</span> <span class="pre">0,</span> <span class="pre">2048.0,</span> <span class="pre">-4950.0],</span> <span class="pre">[2,</span> <span class="pre">0,</span> <span class="pre">1,</span> <span class="pre">-2,</span> <span class="pre">-1773.0,</span> <span class="pre">4130.0],</span> <span class="pre">[2,</span> <span class="pre">0,</span> <span class="pre">0,</span> <span class="pre">2,</span> <span class="pre">-1595.0,</span> <span class="pre">0.0],</span> <span class="pre">[4,</span> <span class="pre">-1,</span> <span class="pre">-1,</span> <span class="pre">0,</span> <span class="pre">1215.0,</span> <span class="pre">-3958.0],</span> <span class="pre">[0,</span> <span class="pre">0,</span> <span class="pre">2,</span> <span class="pre">2,</span> <span class="pre">-1110.0,</span> <span class="pre">0.0],</span> <span class="pre">[3,</span> <span class="pre">0,</span> <span class="pre">-1,</span> <span class="pre">0,</span> <span class="pre">-892.0,</span> <span class="pre">3258.0],</span> <span class="pre">[2,</span> <span class="pre">1,</span> <span class="pre">1,</span> <span class="pre">0,</span> <span class="pre">-810.0,</span> <span class="pre">2616.0],</span> <span class="pre">[4,</span> <span class="pre">-1,</span> <span class="pre">-2,</span> <span class="pre">0,</span> <span class="pre">759.0,</span> <span class="pre">-1897.0],</span> <span class="pre">[0,</span> <span class="pre">2,</span> <span class="pre">-1,</span> <span class="pre">0,</span> <span class="pre">-713.0,</span> <span class="pre">-2117.0],</span> <span class="pre">[2,</span> <span class="pre">2,</span> <span class="pre">-1,</span> <span class="pre">0,</span> <span class="pre">-700.0,</span> <span class="pre">2354.0],</span> <span class="pre">[2,</span> <span class="pre">1,</span> <span class="pre">-2,</span> <span class="pre">0,</span> <span class="pre">691.0,</span> <span class="pre">0.0],</span> <span class="pre">[2,</span> <span class="pre">-1,</span> <span class="pre">0,</span> <span class="pre">-2,</span> <span class="pre">596.0,</span> <span class="pre">0.0],</span> <span class="pre">[4,</span> <span class="pre">0,</span> <span class="pre">1,</span> <span class="pre">0,</span> <span class="pre">549.0,</span> <span class="pre">-1423.0],</span> <span class="pre">[0,</span> <span class="pre">0,</span> <span class="pre">4,</span> <span class="pre">0,</span> <span class="pre">537.0,</span> <span class="pre">-1117.0],</span> <span class="pre">[4,</span> <span class="pre">-1,</span> <span class="pre">0,</span> <span class="pre">0,</span> <span class="pre">520.0,</span> <span class="pre">-1571.0],</span> <span class="pre">[1,</span> <span class="pre">0,</span> <span class="pre">-2,</span> <span class="pre">0,</span> <span class="pre">-487.0,</span> <span class="pre">-1739.0],</span> <span class="pre">[2,</span> <span class="pre">1,</span> <span class="pre">0,</span> <span class="pre">-2,</span> <span class="pre">-399.0,</span> <span class="pre">0.0],</span> <span class="pre">[0,</span> <span class="pre">0,</span> <span class="pre">2,</span> <span class="pre">-2,</span> <span class="pre">-381.0,</span> <span class="pre">-4421.0],</span> <span class="pre">[1,</span> <span class="pre">1,</span> <span class="pre">1,</span> <span class="pre">0,</span> <span class="pre">351.0,</span> <span class="pre">0.0],</span> <span class="pre">[3,</span> <span class="pre">0,</span> <span class="pre">-2,</span> <span class="pre">0,</span> <span class="pre">-340.0,</span> <span class="pre">0.0],</span> <span class="pre">[4,</span> <span class="pre">0,</span> <span class="pre">-3,</span> <span class="pre">0,</span> <span class="pre">330.0,</span> <span class="pre">0.0],</span> <span class="pre">[2,</span> <span class="pre">-1,</span> <span class="pre">2,</span> <span class="pre">0,</span> <span class="pre">327.0,</span> <span class="pre">0.0],</span> <span class="pre">[0,</span> <span class="pre">2,</span> <span class="pre">1,</span> <span class="pre">0,</span> <span class="pre">-323.0,</span> <span class="pre">1165.0],</span> <span class="pre">[1,</span> <span class="pre">1,</span> <span class="pre">-1,</span> <span class="pre">0,</span> <span class="pre">299.0,</span> <span class="pre">0.0],</span> <span class="pre">[2,</span> <span class="pre">0,</span> <span class="pre">3,</span> <span class="pre">0,</span> <span class="pre">294.0,</span> <span class="pre">0.0],</span> <span class="pre">[2,</span> <span class="pre">0,</span> <span class="pre">-1,</span> <span class="pre">-2,</span> <span class="pre">0.0,</span> <span class="pre">8752.0]]</span></em><a class="headerlink" href="#pymeeus.Moon.PERIODIC_TERMS_LR_TABLE" title="Permalink to this definition"></a></dt>
+<dd><p>This table contains the periodic terms for the longitude (Sigmal) and
+distance (Sigmar) of the Moon. Units are 0.000001 degree for Sigmal, and 0.001
+kilometer for Sigmar. In Meeus’ book this is Table 47.A and can be found in
+pages 339-340.</p>
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Minor.html" class="btn btn-neutral float-left" title="Minor" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Neptune.html" class="btn btn-neutral float-right" title="Neptune" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2018, Dagoberto Salazar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
