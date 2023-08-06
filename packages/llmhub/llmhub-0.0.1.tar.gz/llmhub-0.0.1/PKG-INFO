@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: llmhub
+Version: 0.0.1
+Summary: UNKNOWN
+Author: LLMHub
+Author-email: vatsal@llmhub.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: prod
+Provides-Extra: dev
+
+# LLMHub Python Client
+
