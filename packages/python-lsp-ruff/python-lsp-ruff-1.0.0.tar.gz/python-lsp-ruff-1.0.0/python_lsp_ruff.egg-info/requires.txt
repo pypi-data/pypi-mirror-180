@@ -1,0 +1,9 @@
+ruff
+python-lsp-server
+
+[:python_version < "3.11"]
+tomli
+
+[dev]
+pytest
+pre-commit
