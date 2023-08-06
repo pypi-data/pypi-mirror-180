@@ -1,0 +1,8 @@
+zipy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zipy/cache.py,sha256=lGL19aY8AHI0cTxGuE1oEqyPXGW0-S58Z_voI23Jr8s,2272
+zipy/inspect.py,sha256=7eMFVI5lT60ebccIZotbC-r4nuTraBH55aosTK1Dlic,162
+zipy/retry.py,sha256=Hui6aJcONsrhttqoMGWKYd9WHQj4bJJch_3UA2dr9GQ,2432
+zipy/time.py,sha256=lTLwk9x0DfzzFuDkFhW28keGEPIM67fwAfq_JyzQq4w,2153
+zipy-0.3.1.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+zipy-0.3.1.dist-info/METADATA,sha256=hJUdgtw0pN1JougaBltBRjQYhRGc53k4oLiewoT5PGw,658
+zipy-0.3.1.dist-info/RECORD,,
