@@ -1,0 +1,7 @@
+nexcsi/__init__.py,sha256=QURtfPGWfOFfGA9l4LPdohY6WXPUW29bLv7l_mSag5w,1118
+nexcsi/_decoder.py,sha256=gph3OmAemG2avGi6MHZmcmm7vcqL1jO7vp52ZydLSe8,902
+nexcsi/floating.py,sha256=RwIXfsoX0yQY5-OlURG1aUAu8k6TfqDqQO9HPzgYXeI,8683
+nexcsi/interleaved.py,sha256=KtAjJjrZq3gWZtL02mfjD4YbtoOs3QwpEP01TBjHjbg,6923
+nexcsi-0.5.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+nexcsi-0.5.0.dist-info/METADATA,sha256=Ag7s2Q66lvQyS-q_0XGd2Vh3y15u9-BTB49VXreijxo,2353
+nexcsi-0.5.0.dist-info/RECORD,,
