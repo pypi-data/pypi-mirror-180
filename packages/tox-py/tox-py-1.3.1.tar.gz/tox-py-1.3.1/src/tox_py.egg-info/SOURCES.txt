@@ -1,0 +1,14 @@
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+src/tox_py.py
+src/tox_py.egg-info/PKG-INFO
+src/tox_py.egg-info/SOURCES.txt
+src/tox_py.egg-info/dependency_links.txt
+src/tox_py.egg-info/entry_points.txt
+src/tox_py.egg-info/not-zip-safe
+src/tox_py.egg-info/requires.txt
+src/tox_py.egg-info/top_level.txt
