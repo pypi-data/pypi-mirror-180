@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+psychopy_pyo/__init__.py
+psychopy_pyo/backend_pyo.py
+psychopy_pyo.egg-info/PKG-INFO
+psychopy_pyo.egg-info/SOURCES.txt
+psychopy_pyo.egg-info/dependency_links.txt
+psychopy_pyo.egg-info/requires.txt
+psychopy_pyo.egg-info/top_level.txt
