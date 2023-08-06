@@ -1,0 +1,7 @@
+setup.py
+src/win32mem/__init__.py
+src/win32mem.egg-info/PKG-INFO
+src/win32mem.egg-info/SOURCES.txt
+src/win32mem.egg-info/dependency_links.txt
+src/win32mem.egg-info/requires.txt
+src/win32mem.egg-info/top_level.txt
