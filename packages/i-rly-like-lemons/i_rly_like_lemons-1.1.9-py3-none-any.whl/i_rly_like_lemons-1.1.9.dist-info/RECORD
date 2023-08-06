@@ -1,0 +1,17 @@
+i_rly_like_lemons/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+i_rly_like_lemons/amplifiers.txt,sha256=x1MK5pRE5FsihZHkPOogVTz0KQZlbe3EJW9lKz4SSwE,12504
+i_rly_like_lemons/everything.txt,sha256=o6BGrSe9bWvqLVYI_fdn1JpB41Ijdy3VZ2aFHoYUsd8,85824
+i_rly_like_lemons/extras.py,sha256=kPgCkxUxuWnspDI5DNAQ0gioiTocQNCPhCMogwYAMnE,7764
+i_rly_like_lemons/filter.txt,sha256=HhMYdEvHRuJxSkZne9Gj6iwbh9BWiIvwLRai2qeJbR8,94
+i_rly_like_lemons/get_words.py,sha256=D4dIYu6Tk_skLsJQ_rw550XBBCt9WNlKmO3xPkhvNAk,142
+i_rly_like_lemons/inverters.txt,sha256=IeVn3ipXRv_ub0hsv-TzPJl34VWJd94iWRWg_s0-S3k,370
+i_rly_like_lemons/keywords.py,sha256=cgFB0v1O3-rjxtiS49X9SBKHjf_BZ99seTJm5JZXzZg,3373
+i_rly_like_lemons/negative.txt,sha256=sBEE4I4-ICnFtwqC80LVWVJLGaY9VMxiG-Jlg0OXvXA,49529
+i_rly_like_lemons/non_kwrds.txt,sha256=TJWFAMWKbeMxAhSvwokOy_dTEiINn8_l_zOKsBH-vKs,955
+i_rly_like_lemons/positive.txt,sha256=oPVDzv6ROlkQ2Ov8bBbewKACtESRkzaGVpTom10NaPU,21093
+i_rly_like_lemons/sentiment.py,sha256=sgIKS8A1YFAsni6Cjyzc3a5OERKvRJytqpZZJKrMi3U,7090
+i_rly_like_lemons-1.1.9.dist-info/LICENSE,sha256=xYoL-rUJdPIua8D6p_ljPaX0quwMnPIrF710WBp-1RU,675
+i_rly_like_lemons-1.1.9.dist-info/METADATA,sha256=TM7rKXjVIMWbn3M9sQgCbLQpU9OH92UllaLq7edfCYc,2444
+i_rly_like_lemons-1.1.9.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+i_rly_like_lemons-1.1.9.dist-info/top_level.txt,sha256=TaF5fZ3LSpBRI-5YY5xs_afUq0c1zflmdeEIqNsNqW8,18
+i_rly_like_lemons-1.1.9.dist-info/RECORD,,
