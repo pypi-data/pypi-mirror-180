@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Automatic_Differentiation_CS107_Team50"
+version = "0.0.1"
+authors = [
+  { name="Siqi Du", email="sdu1@fas.harvard.edu"},
+  { name = "Yan Kaled", email = "yan_barbosa@g.harvad.edu"},
+  { name = "Holden Edmonds", email = "holdenedmonds@college.harvard.edu"}
+]
+description = "A Python Library for Forward-mode and Backward-mode Automatic Differentiation"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = ["numpy==1.23.3", 
+	"pytest==7.2.0"
+	]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://code.harvard.edu/CS107/team50"
