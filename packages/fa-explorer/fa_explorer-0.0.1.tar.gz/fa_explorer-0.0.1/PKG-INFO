@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: fa-explorer
+Version: 0.0.1
+Summary: Package to retrieve icon ID from string query on fontawesome
+Project-URL: Homepage, https://github.com/ClementDecaux/FontAwesome_Explorer
+Project-URL: Bug Tracker, https://github.com/ClementDecaux/FontAwesome_Explorer/issues
+Author-email: Clément Decaux <decauxclement1@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: python-graphql-client
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# To install
+
+```console
+python -m pip install fa-explorer
+```

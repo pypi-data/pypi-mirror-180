@@ -1,0 +1,6 @@
+build
+twine
+
+requests
+python-graphql-client
+fontawesome
