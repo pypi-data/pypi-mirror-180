@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "Jumpstart-Projects"
+version = "0.1.0"
+description = "Project jumpstart utilities"
+authors = ["Aradhya <aradhyatripathi51@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.scripts]
+jumpstart = "jumpstart.__main__:cli"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
