@@ -1,0 +1,132 @@
+Metadata-Version: 2.1
+Name: aeda
+Version: 2022.12.17
+Summary: Aeda car API
+Project-URL: Homepage, https://github.com/pypa/aeda
+Project-URL: Bug Tracker, https://github.com/pypa/aeda/issues
+Author-email: Sven Haadem <sven@aeda.no>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+
+<img src="https://uploads-ssl.webflow.com/616e87dbb58bda5ac7435eb0/616ead050b8ac6154ca472a6_aeda-logo-web.svg" alt="mypic" style="width:1000px; height:400px"/>
+
+![PyPi](https://img.shields.io/pypi/v/aeda?label=pypi%20package)
+
+# Aeda API 
+An Aeda service for getting detailed info for cars using registration number.
+
+# Getting Started
+## Installation process
+
+### 1. Install from PyPi using:
+```console
+python -m pip install aeda
+```
+
+### 2. Add global variables
+
+```
+AEDA_API_CAR_USER
+AEDA_API_CAR_PASSWORD
+``` 
+
+#### 2.1  Ubuntu
+1. Add `~/.secrets/aeda.yaml`, a YAML file containing:
+```
+aeda:
+    api:
+        car:
+            user: XXXXXXXX
+            password: XXXXXXXXXXXXXX
+```
+2. Run in console or add to `~/.bashrc` or `~/.zshrc` or other system command config files:
+```console
+export AEDA_API_CAR_USER=$(yq -r '.aeda.api.car.user' ~/.secrets/aeda.yaml)
+export AEDA_API_CAR_PASSWORD=$(yq -r '.aeda.api.car.password' ~/.secrets/aeda.yaml)
+```
+3. Install yq with:
+```console
+apt install yq
+```
+4. Reload env with:
+```console
+. .~/.bashrc
+```
+#### 2.2 Windows
+
+
+## Usage
+Run either using command line or as a python library.
+
+### 1. Command line
+Run from command line using:
+```console
+python -m aeda.car.main --regnumber XXXXXXXXX
+``` 
+Get help and show all command options:
+```console
+python -m aeda.car.main --help
+``` 
+### 2. API
+Run in a python script using:
+```python
+import aeda.car
+aeda.car.get_car_from_reg_number("XXXXXXXXX")
+``` 
+
+
+## API references
+
+Endpoint:
+```
+https://aedacar.azurewebsites.net/api/car
+```
+Params:
+```
+    "code": "BzaCA1bdqU21cfZVn8r3KJwaoivzaOla7o6sLa-qD0elAzFulXlzyA=="
+    "username": username
+    "apiKey": api_key
+    "regNumber": reg_number
+
+``` 
+
+# Versions 
+Using Calender Versioning: `YYYY.MM.PATCH`
+- version "2022.12.17"
+  - December 2022
+  - Change request structure
+- version "2022.12.16"
+  - December 2022
+  - add help descriptions
+  - clean up code
+- version "2022.12.15"
+  - December 2022
+  - extend debug logging 
+- version "2022.12.14"
+  - December 2022
+  - add debug logging 
+- version "2022.12.13"
+  - December 2022
+  - add csv write and read 
+- version "2022.12.12"
+  - December 2022
+  - update README.md 
+- version "2022.12.11"
+  - December 2022
+  - update README.md 
+  - fix small bugs
+- version "2022.12.10"
+  - December 2022
+  - update README.md 
+  - fix samll bugs
+  - imporve structure
+- version "2022.12.1"
+  - December 2022
+  - first release 
+
+
