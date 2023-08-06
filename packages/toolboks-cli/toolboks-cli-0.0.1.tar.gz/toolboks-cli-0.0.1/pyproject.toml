@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "toolboks-cli"
+authors = [{name = "Mikael Tranbom"}, {email = "mikael@tranbom.io"}]
+description = "Command line interface for the toolboks library"
+requires-python = ">=3.9"
+license = {text = "GPLv3"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Topic :: Software Development",
+    "Topic :: System :: Shells",
+    "Topic :: Utilities",
+]
+keywords = [
+    "utility", "developer tools", "CLI tools"
+]
+dependencies = [
+    "toolboks == 0.0.1"
+]
+readme = "README.md"
+
+dynamic = ["version"]
+
+[project.scripts]
+tb-conf = "toolboks_cli:main.toolboks_config"
+
+[project.urls]
+"Homepage" = "https://gitlab.com/toolboks/toolboks-cli"
+"Repository" = "https://gitlab.com/toolboks/toolboks-cli"
+
+[tool.setuptools.dynamic]
+version = {attr = "toolboks_cli.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["toolboks_cli"]
+exclude = ["toolboks_cli.tests*", "tests*"]
