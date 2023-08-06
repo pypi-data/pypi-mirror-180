@@ -1,0 +1,13 @@
+ukv-0.3.0.1670597407310260243.dist-info/top_level.txt,sha256=-BRqZ_-HKjT6f33iDO2tOA8BNdZql_K0FnSY_3icg-4,4
+ukv-0.3.0.1670597407310260243.dist-info/METADATA,sha256=zLycpmAlE9U3_ChHHQdJTjNOo0A896tZTKkAmtQmPUM,21605
+ukv-0.3.0.1670597407310260243.dist-info/LICENSE,sha256=sy6CSHzTIU8brPze03piNfHjjkA1biCTppkNkqNCK54,1061
+ukv-0.3.0.1670597407310260243.dist-info/RECORD,,
+ukv-0.3.0.1670597407310260243.dist-info/WHEEL,sha256=5qaUL7R7UuAgTpV1hnYjoipMHezG5YJtRxtV3_rU2Ew,150
+ukv/libfmt.a,sha256=jEJVwzOqSHDnYq30Bl4ZEgicPHaIXN8qf7SbKm-WGHQ,293020
+ukv/libukv_umem.a,sha256=cJwXaVflco0aZUD8IkfpnnVs_vpyw-fpMrRivwIp71E,608062
+ukv/libyyjson.a,sha256=7N7dleZeH2uaUp7TG6PSQv3CYWecl7Yj4rlBHQFfEXE,174882
+ukv/libsimdjson.a,sha256=e4jFS2mJ08cJmg1vzmBXB3D8bcU06eaa8G4AuuMHa4c,325732
+ukv/umem.cpython-37m-x86_64-linux-gnu.so,sha256=g3MpA9FLuuWjn2BDwcYFCVE0votUnA8KuegkmyDMv9E,25676089
+ukv./libarrow-5509bf69.so.900,sha256=2Z2lZW4_kKpTDCh2BaqIO65EmSN7iLXheI7BBVV9NTM,65137921
+ukv./libparquet-ea1902a9.so.900,sha256=c2hh67k3RBGEcAvsZ1Z2gzbehn6XanHlGr-_VEEpSMc,11153633
+ukv./libarrow_python-d81ffe6c.so.900,sha256=6PNcDUKDspwrVI8VGsfn2Ezzogfjz1ucojLW4a6E7jk,3031113
