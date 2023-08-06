@@ -1,0 +1,33 @@
+#!/bin/sh
+
+PUID=${PUID:-911}
+PGID=${PGID:-911}
+
+groupmod -o -g "$PGID" everseed
+usermod -o -u "$PUID" -g everseed everseed
+
+echo "
+starting everseed with
+--------------------------
+uid: $(id -u everseed)
+gid: $(id -g everseed)
+--------------------------
+"
+
+chown -R everseed:everseed /usr/src/app
+
+my_cmd="python /usr/src/app/everseed.py \
+--torrent_input_dir ${EVERSEED_INPUT_DIR} \
+--torrent_output_dir ${EVERSEED_OUTPUT_DIR} \
+--downloads_dir ${EVERSEED_DOWNLOADS_DIR} \
+--processed_log_file ${EVERSEED_PROCESSED_FILE:=/usr/src/app/processed.tsv}"
+
+if ! [ -z ${EVERSEED_ARCHIVE_DIR+x} ]; then
+    my_cmd="$my_cmd --torrent_archive_dir ${EVERSEED_ARCHIVE_DIR}"
+fi
+
+if ! [ -z ${EVERSEED_OVERRIDES_FILE+x} ]; then
+    my_cmd="$my_cmd --overrides_file ${EVERSEED_OVERRIDES_FILE}"
+fi
+
+su everseed -c "$my_cmd"
