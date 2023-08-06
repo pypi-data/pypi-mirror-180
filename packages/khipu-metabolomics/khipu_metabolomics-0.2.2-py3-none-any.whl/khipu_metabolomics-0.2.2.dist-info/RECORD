@@ -1,0 +1,11 @@
+khipu/__init__.py,sha256=m6kyaNpwBcP1XYcqrelX2oS3PJuOnElOcRdBa9pEb8c,22
+khipu/command_line.py,sha256=KJTr5MUWokH1NQ_jOrwnZd4m-bkd3FPD5Kb1GDdJQDA,24
+khipu/main.py,sha256=VR3eK2itsjqaCrxEODqNiy4HLdKJ1WJkhaHayb3du2c,1190
+khipu/model.py,sha256=xDHzJVWuz2GqEyNE92NTrXB309YC_ghcVCA0unRftXo,20595
+khipu/test.py,sha256=XMI_d8DemJKJyI5s9QY5bjq6yiavUR1wU96rzjRlynA,9837
+khipu/utils.py,sha256=j-BdcrvLlAkbiHhynbQw1rk5dtKZYagQkR53r5uAsYM,15749
+khipu_metabolomics-0.2.2.dist-info/LICENSE,sha256=Y2-lQYG78b5KyU5XUMSdKCb_V06HpbBoy0lWf2F7mas,360
+khipu_metabolomics-0.2.2.dist-info/METADATA,sha256=4c1HH4Tl491kdnZsgSX9NULNWDGM7qHESjpfkrZsWCM,7528
+khipu_metabolomics-0.2.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+khipu_metabolomics-0.2.2.dist-info/top_level.txt,sha256=R2pfb2JOdFCPamO1UbpU-u-pWyNk9tk8wW9HXKr9wkE,6
+khipu_metabolomics-0.2.2.dist-info/RECORD,,
