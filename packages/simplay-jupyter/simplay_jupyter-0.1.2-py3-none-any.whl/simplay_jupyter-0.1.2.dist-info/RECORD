@@ -1,0 +1,15 @@
+simplay_jupyter/__init__.py,sha256=pv_LA0VTBEIqy84JP8Vm4u5aCDUp02WuX3MJA8rgzBM,158
+simplay_jupyter/_version.py,sha256=CFhEYTTYQ5BvXxTj-XP3Fa1akyGLCf8K68RQ4ap_DfU,195
+simplay_jupyter-0.1.2.data/data/share/jupyter/labextensions/simplay_jupyter/package.json,sha256=QC5soeAQaEsg2nNXX57W9GYF1-6x8NEOioSWJ7lgu_M,3683
+simplay_jupyter-0.1.2.data/data/share/jupyter/labextensions/simplay_jupyter/static/462.ea598902705345a2e154.js,sha256=6lmJAnBTRaLhVAkE5NZIv--ZfxhTEyWx6-HQv3X__NQ,5125
+simplay_jupyter-0.1.2.data/data/share/jupyter/labextensions/simplay_jupyter/static/747.e79d9badb7f785e64285.js,sha256=552brbf3heZChWhfs-aGIGMbJ3oe1fVpnH_8FT5AA64,3723
+simplay_jupyter-0.1.2.data/data/share/jupyter/labextensions/simplay_jupyter/static/999.b772501929573f486639.js,sha256=cAc-938WFH4nfNSTvTZOg7ExnD0_Ps5JqsOpSIW13os,384583
+simplay_jupyter-0.1.2.data/data/share/jupyter/labextensions/simplay_jupyter/static/999.b772501929573f486639.js.LICENSE.txt,sha256=ExyoHDx1A-C1hAQEckaDNx7arFOONG6Ew1CRjvlXJPA,296
+simplay_jupyter-0.1.2.data/data/share/jupyter/labextensions/simplay_jupyter/static/remoteEntry.79d927b5e3f412925f1b.js,sha256=edknteP0EpJfG0V0r603afHtS9AQkFYwcdy8cqgxxl8,6815
+simplay_jupyter-0.1.2.data/data/share/jupyter/labextensions/simplay_jupyter/static/style.js,sha256=WdGHRAcKERl038t8ooZabquUbZ2OX-Ynmg6trMa8Jvk,158
+simplay_jupyter-0.1.2.data/data/share/jupyter/labextensions/simplay_jupyter/static/third-party-licenses.json,sha256=Z5S5G1_KBD3kpM-_5dpdN_8_WJ4LudVBejytO5v8drc,55456
+simplay_jupyter-0.1.2.data/data/share/jupyter/labextensions/simplay_jupyter/install.json,sha256=q9vhjZgmm01lNI4UwNLULu_AGnrO6bTSXVSFHmhIItI,191
+simplay_jupyter-0.1.2.dist-info/METADATA,sha256=rI9X_IwZ4CZSZ234y6l2WW4mDoI4c5vbnPvgxX-5bt4,5970
+simplay_jupyter-0.1.2.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+simplay_jupyter-0.1.2.dist-info/licenses/LICENSE,sha256=FVoUUGHOJBn_x8khyvdsQ_81nxzB7xZXL9XOh4bkzNg,1542
+simplay_jupyter-0.1.2.dist-info/RECORD,,
