@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: retention_model
+Version: 0.0.2
+Summary: package for predicting pubnum of X or others
+Author: wufeipku
+Author-email: wufei.pku@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+鎻愪緵涓嶅悓cohort鐣欏瓨鐜囩殑棰勬祴銆佸彂鏂囬娴嬨90澶┿180澶╂祦閲忋佹敹鍏ラ娴嬬瓑
+
+浣跨敤鏂瑰紡濡備笅锛
+    
+    #鍙戞枃棰勬祴
+    df = pd.read_csv('D:/椤圭洰/X椤圭洰/X鍙戞枃棰勪及妯″瀷/鐣欏瓨妯″瀷/X寮曞叆鐣欏瓨(鏈).csv', encoding='utf-8')
+    df['cp'] = df['cp_num'] / df['pr']
+    total_cp = df.groupby('start_month')['cp'].max()
+    df = df[(df.start_month <= 202209) & (df.lag_month <= 202209)]
+    df['lag'] = df['lag_month'].apply(lambda x: int(str(x)[0:4]) * 12 + int(str(x)[4:])) - \
+                df['start_month'].apply(lambda x: int(str(x)[0:4]) * 12 + int(str(x)[4:]))
+    df1 = pd.pivot(df, index='lag', columns='start_month', values='pr')
+    df2 = pd.pivot(df, index='lag', columns='start_month', values='cp_num')
+    ra = MonthRetention(df)
+    print(ra.retention_predict_per_month(202210))
+    la = Pubnum(df)
+    print(la.avgpub_predict(202210))
+    total_cp_add = pd.Series(index=[202212,202301,202302,202303,202304,202305,202306,202307,202308,202309,202310,202311,202312])
+    total_cp = pd.concat([total_cp, total_cp_add], axis=0)
+    total_cp = total_cp.fillna(method='ffill')
+    # print(total_cp)
+    p = MonthPubCalc(df, total_cp)
+    print('鍙戞枃鏁帮細', p.calc_monthlist_pubnum(202301,202312))
+    
+    #娴侀噺棰勬祴
+    data = pd.read_csv('鍙戞枃90澶╁唴娴侀噺.csv', encoding='utf-8')
+    his = data[data.month1 != 202207]
+    pre = data[data.month1 == 202207]
+    cl = IncomePredict(his, pre, month='month1', delta_days='delta_days', vv_income='vv', n=15, m=90)
+    result = cl.calc_income_vv(method='frdist')
+    print(result)
+    print(pre.sum())
