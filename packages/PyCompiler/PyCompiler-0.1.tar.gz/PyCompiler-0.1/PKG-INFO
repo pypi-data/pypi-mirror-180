@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: PyCompiler
+Version: 0.1
+Summary: A little compiling lib based on PyInstaller to compile files through code
+Home-page: https://github.com/Adrik-LOL
+Download-URL: https://github.com/Adrik-LOL/PyCompiler/archive/refs/heads/main.zip
+Author: AdrianoTech
+Author-email: adrianopuglisi09@gmail.com
+License: Creative Commons
+Keywords: pycompiler
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE.txt

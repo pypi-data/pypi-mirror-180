@@ -1,0 +1,10 @@
+LICENSE.txt
+setup.cfg
+setup.py
+PYCOMPILER/PyCompiler.py
+PYCOMPILER/__init__.py
+PyCompiler.egg-info/PKG-INFO
+PyCompiler.egg-info/SOURCES.txt
+PyCompiler.egg-info/dependency_links.txt
+PyCompiler.egg-info/requires.txt
+PyCompiler.egg-info/top_level.txt
