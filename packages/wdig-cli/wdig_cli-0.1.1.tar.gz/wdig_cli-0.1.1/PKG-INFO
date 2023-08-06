@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: wdig-cli
+Version: 0.1.1
+Summary: Where Did It Go?
+Author: Casey Burns
+Author-email: CaseyBurns@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: boto3 (>=1.26.27,<2.0.0)
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: numpy (>=1.23.5,<2.0.0)
+Requires-Dist: pandas (>=1.5.2,<2.0.0)
+Requires-Dist: rich (>=12.6.0,<13.0.0)
+Requires-Dist: sqlalchemy (>=1.4.44,<2.0.0)
+Requires-Dist: tinydb (>=4.7.0,<5.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Description-Content-Type: text/markdown
+
+# wdig
+
+[![wdig](https://github.com/jebu4/wdig/actions/workflows/wdig.yml/badge.svg)](https://github.com/jebu4/wdig/actions/workflows/wdig.yml)
+
+where did it go?
+
+## tasks
+
+### dev ci
+
+```bash
+nox
+```
+
