@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: wsserver-malbizer
+Version: 1.0.0
+Summary: Websocket Server for python
+Home-page: UNKNOWN
+Author: Anderson Souza
+Author-email: anderson@malbizer.com.br
+License: UNKNOWN
+Description: Package for generate websocket server on python!
+Keywords: python,websocket,server
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
