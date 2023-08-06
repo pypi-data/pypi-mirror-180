@@ -1,0 +1,10 @@
+rpy2_r6/__init__.py,sha256=DsAHdxLC16H2VjdFOU5tBx2xT9VnNQ-XbTS24fRCa_w,22
+rpy2_r6/r6a.py,sha256=CLbG4c06ODfIpkruqSCipv852c9Zy5lT3B13IBpCJVA,3446
+rpy2_r6/r6b.py,sha256=hNkJ9ZSxZ0dtdmZKON0RRrrRaZJ0SRIZ9_xVKcvzpYo,9938
+rpy2_r6/tests.py,sha256=uxg-HsGtync7j95GKQIZr2FnbrSHL8yWUrqHHOOre3E,2691
+rpy2_r6/utils.py,sha256=caUOoDCjxULecsArtNFojqjJR3A5VeGWJJ1680wB54U,1108
+rpy2_r6-0.0.1.dist-info/LICENSE,sha256=FAI9U82j_1d59yCFe4RErVzGJgUw0xDVPHGXI2PZpKs,1061
+rpy2_r6-0.0.1.dist-info/METADATA,sha256=a2Fa-DwDSRDLgwhV32QV_w3fl2gBs3l0ys1M2k6PyMU,1619
+rpy2_r6-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+rpy2_r6-0.0.1.dist-info/top_level.txt,sha256=vQvOqivNjwHE26zW_19DIWaKElc0lzRlhu27sgl-qpo,8
+rpy2_r6-0.0.1.dist-info/RECORD,,

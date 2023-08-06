@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: rpy2-r6
+Version: 0.0.1
+Summary: Mapping the R package R6
+Author-email: Laurent Gautier <lgautier@gmail.com>
+License: MIT
+Project-URL: Homepage, https://rpy2.github.io/rpy2-r6/
+Project-URL: Documentation, https://rpy2.github.io/rpy2-r6/version/main/html/index.html
+Project-URL: Source, https://github.com/rpy2/rpy2-r6/
+Project-URL: Tracker, https://github.com/rpy2/rpy2-r6/issue
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rpy2 (>=3.5)
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+# rpy2-r6
+![Python package](https://github.com/rpy2/rpy2-R6/workflows/Python%20package/badge.svg)
+
+Extension package for [`rpy2`](https://github.com/rpy2/rpy2) to faciliate
+the handling of R6 objects ([R6 is an OOP system for R](https://r6.r-lib.org/)).
+
+(an earlier proof-of-concept was in @matthewwardrop's PR on bitbucket - https://bitbucket.org/rpy2/rpy2/pull-requests/73 - and this is a proposed-yet-currently incomplete evolution of it)
+
+An HTML build of the documention in is available from the rpy2 project pages: https://rpy2.github.io/r6_doc.html
