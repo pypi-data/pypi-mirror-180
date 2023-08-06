@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: keysight-systemvue
+Version: 2023.1
+Summary: Python package for SystemVue 2023
+Classifier: Programming Language :: Python :: 3
+Requires-Python: ==3.10.*
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: psutil
+Requires-Dist: matplotlib
+
