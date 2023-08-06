@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.py
+PyQtGuiLib.egg-info/PKG-INFO
+PyQtGuiLib.egg-info/SOURCES.txt
+PyQtGuiLib.egg-info/dependency_links.txt
+PyQtGuiLib.egg-info/top_level.txt
+abandonCase/__init__.py
+abandonCase/bubbleWidget_case.py
+core/__init__.py
+core/bubbleWidget.py
+header/__init__.py
+header/utility.py
+header/versions.py
+tests/__init__.py
+tests/test_BubbleWidget.py
