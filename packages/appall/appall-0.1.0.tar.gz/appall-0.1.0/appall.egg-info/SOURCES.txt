@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+appall/AppallingLogger.py
+appall/__init__.py
+appall.egg-info/PKG-INFO
+appall.egg-info/SOURCES.txt
+appall.egg-info/dependency_links.txt
+appall.egg-info/top_level.txt
+test/test_printing.py
