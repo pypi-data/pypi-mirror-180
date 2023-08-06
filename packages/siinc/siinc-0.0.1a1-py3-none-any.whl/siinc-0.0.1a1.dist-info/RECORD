@@ -1,0 +1,14 @@
+siinc/__init__.py,sha256=e5Mrn6KzMiuHVmvAb3YcL9vfGhGxDXzNzB1GZeZ9vQo,153
+siinc/__main__.py,sha256=EQmTye3BQZkhqz18ODLKmYQK7TTXxMDVnT8B9x3SPvw,12001
+siinc/__version__.py,sha256=qEdg2MhZc4iFQOS_8-O-er6N8n5kRoiTg9Mrx_ssBJ8,24
+siinc/exceptions.py,sha256=BBUuLrst5q42qsIzGMwwMRLh0bPyJZv6FzotLHjs57s,294
+siinc/models.py,sha256=Zi5ts24XU-wBgJmAoNq2HXhs2iUATWE7Cd3MGOxqUQY,5446
+siinc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+siinc/siinc.py,sha256=1UufH9x1BSW9C3GbLrLuTxb6tEZIRgnj_1lVI5WahP8,10290
+siinc/utils.py,sha256=YLyCFdVQtxZwjvg1PUVtZx8HFYYVRJMCmtDx-Xz-JSo,667
+siinc-0.0.1a1.dist-info/LICENSE,sha256=36KfFhIJf9DyQN0GdMYI41FH2qKIhqgbCMVxPjD1vco,1080
+siinc-0.0.1a1.dist-info/METADATA,sha256=HJ0j40dhKJcbuPvIvboqjoIsBsllgm1rE4uzMGs1D8U,2945
+siinc-0.0.1a1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+siinc-0.0.1a1.dist-info/entry_points.txt,sha256=bb4q2lc45LJhDGRPNCVh766TeKMkqjwymKfplHG_wQ0,46
+siinc-0.0.1a1.dist-info/top_level.txt,sha256=6AOI5jcDn4eTSJD_JCnaT3_tiKm3shtFtOnt9eC-42I,6
+siinc-0.0.1a1.dist-info/RECORD,,
