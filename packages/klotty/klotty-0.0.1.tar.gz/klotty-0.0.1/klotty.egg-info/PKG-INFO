@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: klotty
+Version: 0.0.1
+Summary: Klotty Python SDK
+Home-page: https://github.com/drish/klotty-py
+Author: Derich Pacheco
+Author-email: carlosderich@gmail.com
+Keywords: email,email platform
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >3.7.5
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# Klotty Python SDK
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+![Build](https://github.com/drish/klotty-py/actions/workflows/test.yaml/badge.svg)
+[![codecov](https://codecov.io/gh/drish/klotty-py/branch/main/graph/badge.svg?token=GGD39PPFM0)](https://codecov.io/gh/drish/klotty-py)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+---
+
+## Installation
+
+To install Klotty Python SDK, simply execute the following command in a terminal:
+
+```
+pip install klotty
+```
+
+## Example
+
+```py
+from klotty import Klotty
+
+client = Klotty(api_key=os.environ["KLOTTY_API_KEY"])
+
+client.send_email(
+    to="to@email.com",
+    sender="from@email.com",
+    subject="hi",
+    html="<strong>hello, world!</strong>"
+)
+```
+
+## Example sending email using React
+
+Coming soon.
