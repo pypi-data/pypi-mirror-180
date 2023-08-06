@@ -1,0 +1,6 @@
+setup.py
+SnsForEmail1188.egg-info/PKG-INFO
+SnsForEmail1188.egg-info/SOURCES.txt
+SnsForEmail1188.egg-info/dependency_links.txt
+SnsForEmail1188.egg-info/top_level.txt
+lib1188/__init__.py
