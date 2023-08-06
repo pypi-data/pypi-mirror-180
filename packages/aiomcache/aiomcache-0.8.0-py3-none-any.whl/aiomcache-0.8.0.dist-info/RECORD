@@ -1,0 +1,16 @@
+aiomcache/__init__.py,sha256=qnIJsJFmUt1gHDg_AQlOfHGz7-5CfGzzCH5HrnhmBkI,471
+aiomcache/client.py,sha256=nCEaiHzgrzjT32z9uaFxev49ONP7CrngNVTcFxeHmNo,19462
+aiomcache/constants.py,sha256=cUP5qBgc2vXzX0-fR25YY4ZwWfuUiVvGIoZvM3KfkZs,164
+aiomcache/exceptions.py,sha256=IngA_Um7PeaAeK0c0FZGbMb1y-Y-rMj6CywKQn8TObA,474
+aiomcache/pool.py,sha256=axwg0WJ8h8RjdjbeTDI-Cpc4pBLNZ22ZDL8NS6nDRjI,2475
+aiomcache/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/commands_test.py,sha256=2XfQeMlj45os5ZHei1FMX_5G9izgc32-lvJrwLYcVFw,12655
+tests/conftest.py,sha256=3PX5zREfFga84SC-NGYZByZOiZQMUacO4mSowPwHIfM,4134
+tests/flag_helper.py,sha256=2fSY8aKyvYv4QxqnVfTHlQcjwdJL3UfPhCPS2c4CLlo,1186
+tests/pool_test.py,sha256=GF4l1DVXO_3FzahD8MmSAiXpJ9lGCsyGIeTi6sOYwjE,5029
+aiomcache-0.8.0.dist-info/LICENSE,sha256=iTQ9ZPFRnxMmIoQjYVk7kM60vLLzC5p7NGPWczsCAAU,1305
+aiomcache-0.8.0.dist-info/METADATA,sha256=xYTexmOG3EfnG_YTcrm8_LnZIuZsSd0di4cxYZEE58Q,2904
+aiomcache-0.8.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aiomcache-0.8.0.dist-info/top_level.txt,sha256=J9NsS9R_-us7wOv74zctZM1QQDq4VekjojzzQmbp2hM,16
+aiomcache-0.8.0.dist-info/RECORD,,
