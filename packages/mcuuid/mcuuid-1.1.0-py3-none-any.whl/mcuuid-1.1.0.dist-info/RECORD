@@ -1,0 +1,9 @@
+mcuuid/__init__.py,sha256=hXZQ1IcpfrqTFK7fMTlsbaXcNbtGEpzeBP26RxmQBL8,44
+mcuuid/api.py,sha256=ldtEsI42c7M2MTnnFiS8lqUmgLQswEjHKFPmqpvNwtg,623
+mcuuid/mcuuid.py,sha256=3JKBPBLr0io-fqqO8oAqatM5R9boGIffhz7ClGAZ-58,1693
+mcuuid/tools.py,sha256=kHw8UpHcUHjUxgkMb6dVoiYICR5vYFdhXZnveCNPzCM,865
+mcuuid-1.1.0.dist-info/LICENSE,sha256=XDX60s2bxP9_AAOD-wUQ08kXSPgCdDPZqTE9qK8Ty_U,1108
+mcuuid-1.1.0.dist-info/METADATA,sha256=G1Yj2nTAWWfkm5Vr70S4hwdten9JGDpjj2n1MpnIUbQ,1461
+mcuuid-1.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mcuuid-1.1.0.dist-info/top_level.txt,sha256=jQ3DFEPi1_b1ATBAKJPKsqUJ71bbidkVBvPxdUypYko,7
+mcuuid-1.1.0.dist-info/RECORD,,
