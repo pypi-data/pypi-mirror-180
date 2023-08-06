@@ -1,0 +1,24 @@
+name: run_tests
+
+on: 
+  push:
+    branches:
+            - main
+      
+    
+jobs:
+  run_all_tests:
+    runs-on: ubuntu-latest
+  
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      
+      - name: setup python 
+        uses: actions/setup-python@v4
+        with:
+                python-version: '3.10'
+
+      - name: run pytest
+        run: ./run_tests.sh
+

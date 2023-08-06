@@ -1,0 +1,35 @@
+name: code-coverage
+permissions: 
+  contents: write
+on: [push]
+
+jobs:
+  
+  test_coverage:
+    runs-on: ubuntu-latest
+  
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      
+      - name: setup python 
+        uses: actions/setup-python@v4
+        with:
+                python-version: '3.10'
+
+      - name: install coverage
+        run: pip install coverage
+
+      - name: run tests and generate coverage html
+        run: |
+                coverage run -m pytest tests
+                coverage report
+                coverage json
+                coverage html
+                python3 check_coverage.py
+                rm htmlcov/.gitignore 
+
+      - name: deploy github page
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: htmlcov
