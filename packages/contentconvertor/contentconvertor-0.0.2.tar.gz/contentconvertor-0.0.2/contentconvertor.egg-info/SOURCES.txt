@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+contentconvertor/__init__.py
+contentconvertor/contentconvertor.py
+contentconvertor.egg-info/PKG-INFO
+contentconvertor.egg-info/SOURCES.txt
+contentconvertor.egg-info/dependency_links.txt
+contentconvertor.egg-info/top_level.txt
