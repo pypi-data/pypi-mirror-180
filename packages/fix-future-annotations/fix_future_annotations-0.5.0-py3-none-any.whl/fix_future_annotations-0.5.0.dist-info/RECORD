@@ -1,0 +1,10 @@
+fix_future_annotations/__init__.py,sha256=ZpEe0AJM0pXZUFpx6bPo7F1fc0lZYD4xA-qWtPLJLGk,75
+fix_future_annotations/_config.py,sha256=IGMkknWVkvdByAuNRxZpVkCK6j-wZYOWEsbfpkahaW4,1166
+fix_future_annotations/_main.py,sha256=U4OlRq_se_MWxCf61BFfILiaziL-e2OQgiUoNF1ZBmk,5262
+fix_future_annotations/_utils.py,sha256=AA0eKsl6lO858oyQw1mbkbhTtNi45a6BTigxxYZi0iM,2631
+fix_future_annotations/_visitor.py,sha256=aWOuTG6d_Rv9D98BEkVJdiEOx3SjXZ9MJkCTAsYQebc,13022
+fix_future_annotations-0.5.0.dist-info/entry_points.txt,sha256=-Bw2qu_262QRE3bR3xHdtntlkTHqwM_IFo3ky2blafE,76
+fix_future_annotations-0.5.0.dist-info/WHEEL,sha256=_LDBqpgIVFNHZvvFOGbg2pvJOENq6RHAyT5px-HeX0U,87
+fix_future_annotations-0.5.0.dist-info/METADATA,sha256=pvNkYZYa1R_1MiDBk3EnheCe5DP28fSDF2blwGyfn7k,3648
+fix_future_annotations-0.5.0.dist-info/licenses/LICENSE,sha256=ZfpC41Q0TE6uWT3m2I5jcRHEmFF3zbU2dJPi1LtEGgE,1067
+fix_future_annotations-0.5.0.dist-info/RECORD,,
