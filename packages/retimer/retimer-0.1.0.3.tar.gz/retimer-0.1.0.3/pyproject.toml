@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "retimer"
+version = "0.1.0.3"
+description = ""
+authors = ["henrique lino <henrique.lino97@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[scriv]
+format="md"
