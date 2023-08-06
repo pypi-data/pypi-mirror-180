@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: outliers-nerdward
+Version: 0.3
+Summary: A simple package to wrap some outlier detection functionality
+Author: Ohakim Nnaemeka
+License: MIT
+License-File: LICENSE
+
