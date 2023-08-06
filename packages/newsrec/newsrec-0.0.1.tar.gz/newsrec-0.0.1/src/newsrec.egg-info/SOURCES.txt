@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+src/newsrec.egg-info/PKG-INFO
+src/newsrec.egg-info/SOURCES.txt
+src/newsrec.egg-info/dependency_links.txt
+src/newsrec.egg-info/requires.txt
+src/newsrec.egg-info/top_level.txt
+src/package_name/__init__.py
