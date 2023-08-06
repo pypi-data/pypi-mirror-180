@@ -1,0 +1,10 @@
+mongotq/__init__.py,sha256=ZiZyPVsYf-wBBFWjDwswgZxtjDYPl2TuK_fi0fBjjaU,263
+mongotq/anomalies.py,sha256=s_sd4mALxrt5ZGXUP9VELDwGXwKHLq1QwuFtUj3E0XE,1038
+mongotq/interface.py,sha256=gghI_PkDK6VdqT7IlYqu6_UqrotAIidzQC04sPFZ3zE,939
+mongotq/task.py,sha256=s9nNNGn4PWGi5nFfgi5E8hPhZDrVTfD3zqTgONDbxyo,3472
+mongotq/task_queue.py,sha256=6D_FhMsChsMYTKkHTVVP_WqvRtqGN5CnjVAwzOpReeM,18266
+mongo_taskqueue-0.2.0.dist-info/LICENSE,sha256=RskMV7SgTtHH5oOfoxB7FKGXa8fd-qKrDIe065SittE,1061
+mongo_taskqueue-0.2.0.dist-info/METADATA,sha256=GExEzVonhBR8RhL1p4Y87Lz8QmApqVmm4iTISTefxKU,715
+mongo_taskqueue-0.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mongo_taskqueue-0.2.0.dist-info/top_level.txt,sha256=jpvQ_GZYVr-hCPNSuYxyU159U13Met4v-5Y3Tl5TMjo,8
+mongo_taskqueue-0.2.0.dist-info/RECORD,,
