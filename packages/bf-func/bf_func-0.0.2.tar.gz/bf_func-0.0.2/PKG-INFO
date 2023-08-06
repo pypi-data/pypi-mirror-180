@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: bf_func
+Version: 0.0.2
+Summary: 公共方法库
+Author: clark
+Author-email: clark1203@foxmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## 公共方法库
+- oss
+- 企业微信告警
+- 日志模块
+- retrying重试装饰器
+- cost耗时装饰器
+- generate_mongo_ts 大数据量的MongoDB调度
+- 各种数据清洗方法
