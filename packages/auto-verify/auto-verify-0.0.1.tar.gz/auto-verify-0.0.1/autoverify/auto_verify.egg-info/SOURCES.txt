@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+autoverify/TmpModule/__init__.py
+autoverify/TmpModule/temp.py
+autoverify/auto_verify.egg-info/PKG-INFO
+autoverify/auto_verify.egg-info/SOURCES.txt
+autoverify/auto_verify.egg-info/dependency_links.txt
+autoverify/auto_verify.egg-info/not-zip-safe
+autoverify/auto_verify.egg-info/requires.txt
+autoverify/auto_verify.egg-info/top_level.txt
