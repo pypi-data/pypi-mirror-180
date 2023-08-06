@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+jackals.egg-info/PKG-INFO
+jackals.egg-info/SOURCES.txt
+jackals.egg-info/dependency_links.txt
+jackals.egg-info/top_level.txt
+src/__init__.py
+test/test_functions.py
