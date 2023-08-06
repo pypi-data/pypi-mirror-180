@@ -1,0 +1,3 @@
+[console_scripts]
+arguebuf=makejinja.cli:app
+
