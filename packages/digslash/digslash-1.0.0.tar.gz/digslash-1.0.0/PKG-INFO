@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: digslash
+Version: 1.0.0
+Summary: A site mapping and enumeration tool for Web applications analysis
+Home-page: https://github.com/tasooshi/digslash
+Author: tasooshi
+Author-email: tasooshi@pm.me
+License: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE

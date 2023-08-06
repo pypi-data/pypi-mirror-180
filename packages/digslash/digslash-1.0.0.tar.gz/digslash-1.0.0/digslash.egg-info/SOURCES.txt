@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+digslash/__init__.py
+digslash/nodes.py
+digslash/sites.py
+digslash.egg-info/PKG-INFO
+digslash.egg-info/SOURCES.txt
+digslash.egg-info/dependency_links.txt
+digslash.egg-info/requires.txt
+digslash.egg-info/top_level.txt
