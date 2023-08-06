@@ -1,0 +1,11 @@
+README.md,sha256=ezOEvADaTsCHXY5vRgif9zJxU3-97t8_Bz7naN3JwQs,862
+cleanroom_schema/_version.py,sha256=JFaNlp2ZrNwZgHwds5m7YEKlfcpiPA7uLIEFMog7VmU,185
+cleanroom_schema/datamodel/__init__.py,sha256=YRs0e7IDkb0L3zl4ySbhpXPdtQmtjVawKTIo39v8DeI,32
+cleanroom_schema/datamodel/cleanroom_schema.py,sha256=ZMXM2JV00cjnIlBZUcL4hHoYinfUJZhqM90FnNk9L4Y,17394
+cleanroom_schema/schema/cleanroom_schema.yaml,sha256=fH2ORa_YjUzDXxEooInoZFXFwTPNFhq0TYsWpwcbfnQ,6370
+cleanroom_schema/test_publishability.py,sha256=SNUbg6n3aCgySulO9JzuQDjFLPhLl70uGYvTwhjB6Wg,550
+cleanroom_schema-0.1.2.dist-info/entry_points.txt,sha256=HkeXfYj1yS8S9RYwbhT73H5I5aUZmMX07isIGVdi_eg,85
+cleanroom_schema-0.1.2.dist-info/LICENSE,sha256=eJFXo2uUwQfNVOvDLKuEZOW4k811g12rOB9o0WsE5oQ,1086
+cleanroom_schema-0.1.2.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+cleanroom_schema-0.1.2.dist-info/METADATA,sha256=2eD6AkE9EF_YJtDEgLqpb4oX57V2zcwDMErjG0egFEA,1508
+cleanroom_schema-0.1.2.dist-info/RECORD,,
