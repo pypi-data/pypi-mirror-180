@@ -1,0 +1,11 @@
+checkers/__init__.py,sha256=hB_gb-txYQpq-Vje1vK2K_yZNB0ARGV2z8FfdZIBS2o,329
+checkers/board.py,sha256=rujTA0rUjw1gQwHZ9RlhYkPlszb7qo_ls9KY4HANmgM,4807
+checkers/game.py,sha256=B-CIe-kqle8NahRFyoaLmXlV2BYNbmGAdWDK0WN4us8,20504
+checkers/move.py,sha256=BzgoBSRaMLzHF_8j_7PT58vjARi-bZZ0RHMitmD-dp4,2429
+checkers/ai/__init__.py,sha256=9oqkMXsbMI-bBfRmQW-GzLPby7Ug6XcLIGisbXqkhmo,222
+checkers/ai/random_ai.py,sha256=tN2u-0-w3oVBjSOfo9N5vu1IE5a8IbTK_azJnu9iHsg,2725
+english_checkers-0.0.2.dist-info/LICENSE.txt,sha256=288MSVczYqLGSTcJbL1QzhD33Iij5alS5ZaLbJkncgM,1068
+english_checkers-0.0.2.dist-info/METADATA,sha256=xgPQo9QDBB8-vCvzUSXwz6vMVOE0tSA_XL47bAwnL14,3831
+english_checkers-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+english_checkers-0.0.2.dist-info/top_level.txt,sha256=8EKKMMP-hVkkipi6Ku3DgjhWAZA7KalJKTNc5BpZP1E,9
+english_checkers-0.0.2.dist-info/RECORD,,
