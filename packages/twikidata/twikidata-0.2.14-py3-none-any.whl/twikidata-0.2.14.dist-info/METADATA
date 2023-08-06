@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: twikidata
+Version: 0.2.14
+Summary: 
+Author: Lingxi Li
+Author-email: lilingxi01@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: ergodiff (>=0.2.0,<0.3.0)
+Requires-Dist: grimm (>=0.1.0,<0.2.0)
+Requires-Dist: xmltodict (>=0.13.0,<0.14.0)
+Description-Content-Type: text/markdown
+
+
