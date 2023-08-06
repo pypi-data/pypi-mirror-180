@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: jwt_token_x21124213
+Version: 0.0.1
+Summary: Json Web Token generator and authenticator library
+Project-URL: Homepage, https://github.com/rajendrachavan/jwt-token-python
+Project-URL: Bug Tracker, https://github.com/rajendrachavan/jwt-token-python/issues
+Author-email: Rajendra Chavan <rajendrachavan.jvm@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# JWT TOKEN AUTHENTICATION USING PYTHON
+
+This library is used for perform authentication using JWT Token in python
