@@ -1,0 +1,3 @@
+[console_scripts]
+fish-dbjob=fish_dbjob.cli:app
+
