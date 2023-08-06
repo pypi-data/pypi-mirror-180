@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shook>
+    <default_cc>
+        <compiler>/usr/bin/gcc</compiler>
+        <arch>CS_ARCH_X86</arch>
+        <mode>CS_MODE_64</mode>
+    </default_cc>
+    <lib_hook path="lib003Lib.so">
+        <include>
+            <func proto="int FUNC()" kind="local">alwaysOne</func>
+        </include>
+        <hook proto="int FUNC()" name="localFuncTest">
+			return alwaysOne()-1;
+        </hook>
+    </lib_hook>
+</shook>
