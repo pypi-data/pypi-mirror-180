@@ -1,0 +1,12 @@
+bodkin/__init__.py,sha256=mNoJqT9Z053nY53yB1bVqf_NNjknJqDVMGnDUfk3VfE,43
+bodkin/core.py,sha256=xGhYiJEoM6D788N9ObYkQWLxoMyUtv6wcC6xd-OZZ1I,5393
+bodkin/impl.py,sha256=XgNMFdidm-PsQ5JXTTyeT7jlosE6B9VzavRIpMdme4U,10877
+bodkin/viz.py,sha256=zPgXG20d05FWioaENYeExzRsIefI3sxKVs99A1ClNgs,4843
+bodkin/data/index.html.template,sha256=6Kl_lkOy_qQTGU1l9hwQ3bxfJMTK5On6n39ljevfFAk,185
+bodkin/data/script.js,sha256=9WiHxGUOpk-IBVF2bAbPkgatlYjN2SqVSZjkblg8qtQ,1799
+bodkin/data/style.css,sha256=x1v2sJ_WgHsnf5rwytcaiOlMiPLMPuvheKUZD_mH548,475
+bodkin-0.1.1.dist-info/LICENSE,sha256=Zun135xCE8j-E2KlwUqHL6f9nbkL9OoaoLCRJU5TvHs,1075
+bodkin-0.1.1.dist-info/METADATA,sha256=OVJZ-uyvcCd2jUAH4lwTc6tR5rivuRNAn60UU-iaq1s,1774
+bodkin-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+bodkin-0.1.1.dist-info/top_level.txt,sha256=rHg6lsyBr1ekYT_DcS5mw0q4bEeRkGLsHJinXB-S-L0,7
+bodkin-0.1.1.dist-info/RECORD,,
