@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pythonpipupdate/__init__.py
+pythonpipupdate/update.py
+pythonpipupdate.egg-info/PKG-INFO
+pythonpipupdate.egg-info/SOURCES.txt
+pythonpipupdate.egg-info/dependency_links.txt
+pythonpipupdate.egg-info/top_level.txt
