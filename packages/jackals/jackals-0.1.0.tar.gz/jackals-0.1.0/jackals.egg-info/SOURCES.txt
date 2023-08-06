@@ -1,0 +1,8 @@
+README.md
+setup.py
+jackals/__init__.py
+jackals/functions.py
+jackals.egg-info/PKG-INFO
+jackals.egg-info/SOURCES.txt
+jackals.egg-info/dependency_links.txt
+jackals.egg-info/top_level.txt
