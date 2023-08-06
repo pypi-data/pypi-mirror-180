@@ -1,0 +1,10 @@
+pyaspeller/__init__.py,sha256=1U3fmNozf4EEHqCrV1aim0Uqwyt_Rsv0SpoouYUIqIQ,4440
+pyaspeller/errors.py,sha256=rdVOFFqoZZy8szWiNDsMDmz2iKvpTd79obh9okSWQnE,207
+pyaspeller/speller.py,sha256=dFqcdNFNG--t6_buvc8PZOznKT_ko7DA070qqQEZLaw,3750
+pyaspeller/word.py,sha256=V_dqGIkc1pPiZi0uaKVcqVzzMwPWIeeSBXsnRadw8AU,1320
+pyaspeller/yandex_speller.py,sha256=oZLMyHMsvLbXuky6qmOqWUQORjcPzlnzyXctNbhCDBI,8205
+pyaspeller-1.0.0.dist-info/entry_points.txt,sha256=gUMdMMsyZmW4APOtgJQDr7t5ICdTkwqmgN6zFNvAS2U,59
+pyaspeller-1.0.0.dist-info/LICENSE,sha256=flHr7efYKJzrF9_aWEN1_XMC7EwP5dqb8Ait1EXwtBQ,11338
+pyaspeller-1.0.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+pyaspeller-1.0.0.dist-info/METADATA,sha256=_epIkuUhQWfDNykm2TV1OxewmDj0iyom69zdARkYC1M,2882
+pyaspeller-1.0.0.dist-info/RECORD,,
