@@ -1,0 +1,6 @@
+regex>=2022.10.31
+textblob>=0.17.1
+colorama>=0.4.6
+
+[dev]
+pytest>=7.2.0
