@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+orientation_observer/OrientationObserver.py
+orientation_observer/__init__.py
+orientation_observer/_imports_.py
+orientation_observer/metadata.json
+orientation_observer/orientation_observer.min.js
+orientation_observer/orientation_observer.min.js.map
+orientation_observer/package-info.json
+orientation_observer.egg-info/PKG-INFO
+orientation_observer.egg-info/SOURCES.txt
+orientation_observer.egg-info/dependency_links.txt
+orientation_observer.egg-info/top_level.txt
