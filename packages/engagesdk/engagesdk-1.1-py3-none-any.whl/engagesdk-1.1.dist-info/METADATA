@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: engagesdk
+Version: 1.1
+Summary: Engage python SDK
+Home-page: UNKNOWN
+Author: Francis Onyishi
+Author-email: francis@engage.so
+License: UNKNOWN
+Keywords: engagesdk,engage python
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: requests
+
+Engage SDK to capture and send user attributes and events to Engage
+
+
