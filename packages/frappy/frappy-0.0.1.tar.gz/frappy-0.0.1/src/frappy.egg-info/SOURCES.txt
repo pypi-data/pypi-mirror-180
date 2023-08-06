@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/frappy/__init__.py
+src/frappy/frappy.py
+src/frappy.egg-info/PKG-INFO
+src/frappy.egg-info/SOURCES.txt
+src/frappy.egg-info/dependency_links.txt
+src/frappy.egg-info/top_level.txt
