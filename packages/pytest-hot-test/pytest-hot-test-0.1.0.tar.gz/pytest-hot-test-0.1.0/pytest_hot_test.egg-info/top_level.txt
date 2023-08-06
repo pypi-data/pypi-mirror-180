@@ -1,0 +1,2 @@
+hot_test_plugin
+pytest_hot_test
