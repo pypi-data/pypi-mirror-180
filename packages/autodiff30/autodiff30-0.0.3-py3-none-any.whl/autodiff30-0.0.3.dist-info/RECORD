@@ -1,0 +1,13 @@
+autodiff30/__init__.py,sha256=T0FyuoS8qnKtqXee6-SZmbGOPi83Hx9oWhR-EFdR0-I,490
+autodiff30/ad.py,sha256=Jx-JdxmCaQHEqkfYyFKVcGrxlv3u2DqnXvCl1Sv1o3E,3423
+autodiff30/dual.py,sha256=pgX-sEMQj9aJ65AdRy34rfWzHaTZ1Nv7GSLZ9Lb0Tgg,10868
+autodiff30/functions.py,sha256=fC7ai9g1hNlTfXR2CCk2tiOy5UuH2V3GT2u7Mg9nf2U,6170
+autodiff30/optimize/optimization.py,sha256=pcy2Qa99QdmDOpmyeTIlfRQkLDAeS5yF7qxHhwPC4tA,2837
+examples/compute_gradient.py,sha256=L4VugV68-E2hcztq8KhuKetW1o4oLfTQ4iXpPCbMhKM,618
+examples/how_to_use.py,sha256=5J4NCboD7sjkBA03IRp0pe_Lq2TxbydysnrYgEnhXvE,1989
+examples/optimize.py,sha256=47X-ke_3VzfV1a89KandhIP4DeabqkCEOVwOE9GzcaU,1043
+autodiff30-0.0.3.dist-info/LICENCE,sha256=a8mg-HY6FQM0KWeICptBA-5DGRW7V043oU0FmkLuvo8,1533
+autodiff30-0.0.3.dist-info/METADATA,sha256=3Fju5dxRgxUJFnv-xOor-7K0jP9N9VFHdZ43KWiXV3k,886
+autodiff30-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+autodiff30-0.0.3.dist-info/top_level.txt,sha256=eZ37Qe_c0NifctPsKV0m340PCsqP-uJspyn71FFYXQQ,20
+autodiff30-0.0.3.dist-info/RECORD,,
