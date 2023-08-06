@@ -1,0 +1,23 @@
+# roi_tanh_warping_tensorflow
+
+
+This is a tensorflow re-impelementation of the [Face Parsing With RoI Tanh-Warping](https://openaccess.thecvf.com/content_CVPR_2019/papers/Lin_Face_Parsing_With_RoI_Tanh-Warping_CVPR_2019_paper.pdf) paper published at CVPR 2019. This is intended to be used for face-parsing training in tensorflow.
+
+## Install
+
+you can use `pip install roi-tanh-tensorflow`
+## How to use
+
+The main function to call from `src.tanh_warper` is `apply_roi_tanh_warping`. This function works as follows
+```python
+from roi_tanh.tanh_warper import apply_roi_tanh_warping
+
+apply_roi_tanh_warping(image: np.ndarray, label: np.ndarray, size:Tuple[int])
+```
+
+The expected input are a single image and its corresponding label.
+
+## run a unit test
+```
+python -m src.roi_tanh.tanh_warper --unit_test
+```
