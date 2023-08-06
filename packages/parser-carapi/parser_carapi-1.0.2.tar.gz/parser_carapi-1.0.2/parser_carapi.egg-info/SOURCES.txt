@@ -1,0 +1,8 @@
+README.md
+setup.py
+parser_carapi.egg-info/PKG-INFO
+parser_carapi.egg-info/SOURCES.txt
+parser_carapi.egg-info/dependency_links.txt
+parser_carapi.egg-info/not-zip-safe
+parser_carapi.egg-info/requires.txt
+parser_carapi.egg-info/top_level.txt
