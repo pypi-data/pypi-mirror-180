@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: anritsu-ms2090a-ams
+Version: 1.0.0
+Summary: ANRITSU MS2090A Automatic Measurement System
+Home-page: https://github.com/aruznieto/ANRITSU-MS2090A-AMS
+Author: Andres Ruz-Nieto
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pandas
+Requires-Dist: pyvisa
+Requires-Dist: pyvisa-py
+
+UNKNOWN
+
