@@ -1,0 +1,3 @@
+[console_scripts]
+rattlesume=rattlesume.__main__:app
+
