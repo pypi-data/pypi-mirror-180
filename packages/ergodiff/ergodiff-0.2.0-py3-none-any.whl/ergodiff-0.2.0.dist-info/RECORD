@@ -1,0 +1,8 @@
+ergodiff/__init__.py,sha256=c-Z0dfPhvkICnEPUi1yrLqtV-4WyrAfQHQcZX0e1dlg,729
+ergodiff/inner_diff.py,sha256=ujpmu9DeZ4vAxv_R9uuJ2Fi63_gYJkHsA-VTBqziK4A,1105
+ergodiff/outer_diff.py,sha256=N1JX4fbd5DFGwLCpAukgeRVXFly4exsjRbE5Yc_qH94,4362
+ergodiff/preprocess.py,sha256=RxlBmGOleU610-DoQTfRXQ8nMcn8gvEfESvjDJFTrFA,237
+ergodiff/reconstruct.py,sha256=_lW2tQl5-LSZFWPvbl2S4et9-XvBxRYpLXYfKHzIXhw,2964
+ergodiff-0.2.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+ergodiff-0.2.0.dist-info/METADATA,sha256=UJL5ZYm6OrvD6nwPsOlikUSSN7XrpVY9Lbj8CYpJjdA,432
+ergodiff-0.2.0.dist-info/RECORD,,
