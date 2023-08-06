@@ -1,0 +1,6 @@
+tweepy
+PyYAML
+termcolor
+progress
+prettytable
+textblob
