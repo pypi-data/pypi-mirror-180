@@ -1,0 +1,17 @@
+fuzzy_couscous/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fuzzy_couscous/commands/__init__.py,sha256=WPGnlkD38kjz3ggzLiISxaeuPhoCgLyC1D3ftovYDtc,210
+fuzzy_couscous/commands/make.py,sha256=wqjoNqeu1Kxi9oF0XELE-ZLdaG0E-X1qbjGp77vWAyM,4999
+fuzzy_couscous/commands/remove_poetry/__init__.py,sha256=I_jzt_6y8BT9hoLn6YSsAlWgMNEH8bDnKqyGKvRYIuE,5828
+fuzzy_couscous/commands/remove_poetry/config_converters.py,sha256=wMnMVjvhrm1WLyfdKFz0ipQSqNA7snaYPrhnZplmLx0,3079
+fuzzy_couscous/commands/remove_poetry/utils.py,sha256=wLwfzd4cI85Ihus-YkfXXevY015w-d0sWoRnFtrCGGQ,1349
+fuzzy_couscous/commands/remove_poetry/virtualenv_.py,sha256=ZqsnFqZT9onyFWw_VjTiIrgmX4uzSUHRJ3cS6wyWHxk,895
+fuzzy_couscous/commands/setup_pg.py,sha256=176cd_gYWOmNyinXf7dtooYosw6bW8bhh54WSVz6Y9o,806
+fuzzy_couscous/commands/work.py,sha256=B3gjr0zakDVms7G313XRm1xQ4chYIz2pWZGyKhJJmTw,2455
+fuzzy_couscous/commands/write_env.py,sha256=RYgh1kQcARYwBmwiHAj0Sdg5EXdLQwoHZMfK9zxetH4,2184
+fuzzy_couscous/main.py,sha256=tEYh00f1GHZ_FzF-NQ8GQKuQGm-7kar4oN2Fek9QI74,930
+fuzzy_couscous/utils.py,sha256=HSHi9INUzgresAzaWnsAgzR3Au-1XzUDQJBxtAZSBzE,1206
+fuzzy_couscous-2.4.7.dist-info/entry_points.txt,sha256=_LRyV1SFcDuqaC75N7_PYwWPGCCa2XrEbufqqzBLUiE,88
+fuzzy_couscous-2.4.7.dist-info/LICENSE,sha256=l1tIkt_VftfoOJlTn59wzpYc4YzQKTx3hgBGFQsE3j4,1068
+fuzzy_couscous-2.4.7.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+fuzzy_couscous-2.4.7.dist-info/METADATA,sha256=kTnjF1RXOi9YTT2Jg8P9BPIZcONdJ5qXUQZ0N8bkd5o,6415
+fuzzy_couscous-2.4.7.dist-info/RECORD,,
