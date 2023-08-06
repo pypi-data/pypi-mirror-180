@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/autoDiff_team15_2022/__init__.py
+src/autoDiff_team15_2022/differentiation.py
+src/autoDiff_team15_2022/driver.py
+src/autoDiff_team15_2022/dualNum.py
+src/autoDiff_team15_2022/elemFunctions.py
+src/autoDiff_team15_2022/node.py
+src/autoDiff_team15_2022.egg-info/PKG-INFO
+src/autoDiff_team15_2022.egg-info/SOURCES.txt
+src/autoDiff_team15_2022.egg-info/dependency_links.txt
+src/autoDiff_team15_2022.egg-info/requires.txt
+src/autoDiff_team15_2022.egg-info/top_level.txt
