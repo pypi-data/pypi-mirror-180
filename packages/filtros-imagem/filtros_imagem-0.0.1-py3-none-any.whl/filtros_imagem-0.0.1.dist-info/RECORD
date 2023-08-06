@@ -1,0 +1,10 @@
+filtros-imagem/__init__.py,sha256=Bd18jrWpq5Ic1s8s36MGvjRmaoggdUp1UqVJehpQF5c,61
+filtros-imagem/greyscale.py,sha256=Ey9wW07XBJ8hAm8sfC0_RDPunf8TlL-dS2Y1zxgNNVo,500
+filtros-imagem/negativo.py,sha256=u2wLbyXBIcsW-us1kI-67yHeiAFxf_3kEKUpjbulcKQ,559
+filtros-imagem/util/__init__.py,sha256=_ZL96GN-M7Lo4wlq1gGC8fqhZIUQBdkXDnrJ5rTlWH8,57
+filtros-imagem/util/in_file.py,sha256=3WO1_XbXgxyG6eEiQLoQYN7PbaeN6a4OnfkYrlXYXT0,340
+filtros-imagem/util/out_file.py,sha256=wPkV0FdCO_4n6VNiH5kp8CbGETBxaH9uRnqzHctgXiE,341
+filtros_imagem-0.0.1.dist-info/METADATA,sha256=bfpe1mDPAdqrjcmaex2rCvw82KAHHefr6PopRfvHB5Q,1187
+filtros_imagem-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+filtros_imagem-0.0.1.dist-info/top_level.txt,sha256=UW6rJ0jw13gmHz4S3wBXqEHt-vFFIY6kcbQMTxKz6mo,15
+filtros_imagem-0.0.1.dist-info/RECORD,,
