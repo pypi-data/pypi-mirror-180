@@ -1,0 +1,8 @@
+from dataclasses import dataclass
+
+@dataclass
+class {{ poco.name }}:
+{% for prop in poco.props %}
+	{{ prop.name }}: {{ prop.type }}
+{%- endfor %}
+

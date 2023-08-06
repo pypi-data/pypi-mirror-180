@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pocoglot
+Version: 0.9.0
+Home-page: https://github.com/reconmap/pocoglot
+Author: Santiago Lizardo
+Author-email: santiagolizardo@users.noreply.github.com
+License: MIT license
+Keywords: codegen model entity golang php csharp yaml
+License-File: LICENSE.md
+Requires-Dist: coloredlogs
+Requires-Dist: Jinja2
+Requires-Dist: click
+

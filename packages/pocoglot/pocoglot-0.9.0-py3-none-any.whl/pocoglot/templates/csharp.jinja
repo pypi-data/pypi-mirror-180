@@ -1,0 +1,7 @@
+
+public class {{ poco.name }} {
+{% for prop in poco.props %}
+	public {{ prop.type }} {{ prop.name }} { get; set; }
+{%- endfor %}
+}
+
