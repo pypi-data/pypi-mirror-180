@@ -1,0 +1,7 @@
+click
+
+[testing]
+pytest
+pytest-cov
+coveralls
+pytest-xdist

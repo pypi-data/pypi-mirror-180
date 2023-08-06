@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+MergeGI.egg-info/PKG-INFO
+MergeGI.egg-info/SOURCES.txt
+MergeGI.egg-info/dependency_links.txt
+MergeGI.egg-info/entry_points.txt
+MergeGI.egg-info/requires.txt
+MergeGI.egg-info/top_level.txt
+mergegi/__init__.py
+mergegi/cli.py
+mergegi/mergegi.py
