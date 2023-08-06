@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/tilepy_the_open_project/__init__.py
+src/tilepy_the_open_project/example.py
+src/tilepy_the_open_project.egg-info/PKG-INFO
+src/tilepy_the_open_project.egg-info/SOURCES.txt
+src/tilepy_the_open_project.egg-info/dependency_links.txt
+src/tilepy_the_open_project.egg-info/top_level.txt

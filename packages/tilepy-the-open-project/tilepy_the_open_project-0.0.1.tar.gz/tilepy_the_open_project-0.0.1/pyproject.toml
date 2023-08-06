@@ -1,0 +1,18 @@
+[project]
+name = "tilepy_the_open_project"
+version = "0.0.1"
+authors = [
+  { name="Dylan Rogers", email="theopenprojectcode@gmail.com" },
+]
+description = "A simple, extremely easy-to-use Python GUI library, so you never ever make a single console app."
+readme = "README.md"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/DylanRogers1/tilepy"
+"Bug Tracker" = "https://github.com/DylanRogers1/tilepy/issues"
