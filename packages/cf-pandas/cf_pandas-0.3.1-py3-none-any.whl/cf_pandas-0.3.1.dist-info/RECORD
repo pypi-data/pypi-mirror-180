@@ -1,0 +1,13 @@
+cf_pandas/__init__.py,sha256=h0-hmiKGc48W93C2fz-wG7m8GPgdJCAVWQKSVntShHw,544
+cf_pandas/_version.py,sha256=v-ExhFzOD_GemLcOptv2ZODgnklv9iqEEospk_bU1_w,21
+cf_pandas/accessor.py,sha256=AoYdM93GJBW7aOIZFsTMT-wsI1j_LIhhpysTkqoGULs,1256
+cf_pandas/options.py,sha256=iiytKb71_S3kNpm8zHkvczQaYWaVU30hUKpXi_xA7J8,2068
+cf_pandas/reg.py,sha256=1z_WX7KsZoKlcPWWwSkBLGuL2A_9mrICqoxKrdzBG64,8664
+cf_pandas/utils.py,sha256=vbpTTw3SXIi0MtAVpUyH5cFaRyw1HcRk3ol3A3KqOmU,4723
+cf_pandas/vocab.py,sha256=CblRleMRqncG6khwdF7sdjDqOKmCe_rXedx_Ev5jeLU,3839
+cf_pandas/widget.py,sha256=ROk20Cs12UfWSzrNt4KoZEdizr3Yy5SSDxKRMAF92kY,5912
+cf_pandas-0.3.1.dist-info/LICENSE.txt,sha256=bolgTtGf6rHq7Sx3-p5jshtO7uB4gCnv31hqFxsbBKw,1086
+cf_pandas-0.3.1.dist-info/METADATA,sha256=ZdYcJMES-lRT806Ho6UEozHZLLyCSvGfedrM4nt6Ky8,2637
+cf_pandas-0.3.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cf_pandas-0.3.1.dist-info/top_level.txt,sha256=rpxFC_Wx_rD5Q35dktF8-B_9AbkMRBOCzPmLfYgT-l4,10
+cf_pandas-0.3.1.dist-info/RECORD,,
