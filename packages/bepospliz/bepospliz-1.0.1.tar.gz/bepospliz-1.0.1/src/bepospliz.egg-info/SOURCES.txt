@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/bepospliz/__init__.py
+src/bepospliz/bepospliz.py
+src/bepospliz.egg-info/PKG-INFO
+src/bepospliz.egg-info/SOURCES.txt
+src/bepospliz.egg-info/dependency_links.txt
+src/bepospliz.egg-info/top_level.txt
