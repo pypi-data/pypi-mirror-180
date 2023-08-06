@@ -1,0 +1,16 @@
+PyYAML>=6.0
+lxml>=4.9.1
+orjson>=3.8.3
+psutil>=5.9.4
+py-cpuinfo>=9.0.0
+
+[dev]
+black
+coverage
+flake8
+hypothesis
+mypy
+pytest
+pytest-cov
+pytest-flake8
+types-jmespath
