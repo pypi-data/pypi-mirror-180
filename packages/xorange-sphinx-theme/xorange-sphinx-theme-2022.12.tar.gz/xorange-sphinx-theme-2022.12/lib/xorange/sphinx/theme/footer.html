@@ -1,0 +1,43 @@
+{% extends "sphinx_rtd_theme/footer.html" %}
+
+{#
+  The design of the rtd-theme footer template includes content which is
+  not inside a block (and thus not trivial to overwrite). By setting
+  the following variabels we essentially hide footer content which we want
+  to include ourselves. P.S. These variables are only used in the footer.
+#}
+{% set show_sphinx = false %}
+{% set show_copyright = false %}
+
+{#
+  Footer design largely replicates https://github.com/nextstrain/nextstrain.org/raw/0c3222d/static-site/src/components/Footer/index.jsx
+#}
+
+{#
+  The following could probably be written in a much nicer, less verbose style.
+  This is/was my first time using Jinja, so i'm falling back onto basic HTML.
+  If you can improve this, please do & show me the way!       james oct 2020
+#}
+{% block extrafooter %}
+
+  <div class="copyright">
+    &copy; {% trans %}Copyright{% endtrans %} {{ copyright }}
+  </div>
+
+  <div class="copyright">
+    {%- if build_id and build_url %}
+      Build <a href="{{ build_url }}">{{ build_id }}</a>.
+    {%- elif commit %}
+      Revision <code>{{ commit }}</code>.
+    {%- endif %}
+    {%- if last_updated %}
+      Last updated on {{ last_updated }}.
+    {%- endif %}
+    </p>
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a>
+    using <a href="#">our customised version</a> of a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">base theme</a> provided by
+    <a href="https://readthedocs.org">Read the Docs</a>.
+  </div>
+
+{% endblock %}
