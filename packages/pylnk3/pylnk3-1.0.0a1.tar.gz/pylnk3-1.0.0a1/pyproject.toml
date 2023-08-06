@@ -1,0 +1,103 @@
+[project]
+name = "pylnk3"
+description = "Windows LNK File Parser and Creator"
+keywords = [
+    "lnk",
+    "shortcut",
+    "windows",
+]
+readme = "README.md"
+authors = [
+    { name = "strayge", email = "strayge@gmail.com" },
+]
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+requires-python = ">=3.7"
+dynamic = []
+version = "1.0.0a1"
+
+[project.license]
+text = "GNU Library or Lesser General Public License (LGPL)"
+
+[project.urls]
+homepage = "https://github.com/strayge/pylnk"
+
+[project.scripts]
+pylnk3 = "pylnk3.__main__:main"
+
+[tool.pdm.version]
+source = "scm"
+
+[tool.flake8]
+exclude = [
+    ".git",
+    ".idea",
+    "__pycache__",
+    "venv*",
+]
+max-line-length = 130
+max-cognitive-complexity = 60
+ignore = [
+    "C819",
+    "W503",
+    "F841",
+]
+per-file-ignores = [
+    "*/__init__.py:F401",
+    "lnk.py:SIM115",
+]
+
+[tool.mypy]
+exclude = [
+    "venv",
+]
+namespace_packages = true
+ignore_missing_imports = true
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+warn_return_any = true
+warn_unreachable = true
+
+[tool.isort]
+line_length = 100
+multi_line_output = 6
+include_trailing_comma = true
+
+[tool.pytest.ini_options]
+testpaths = "tests"
+addopts = [
+    "-s",
+    "-l",
+    "--cov",
+    "--cov-branch",
+    "--cov-report=xml",
+]
+
+[tool.coverage.run]
+relative_files = true
+branch = true
+omit = [
+    "tests/*",
+]
+
+[tool.coverage.report]
+fail_under = 70
+precision = 2
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0.0",
+]
+build-backend = "pdm.pep517.api"
