@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: vinculum
+Version: 1.0.0a0
+Summary: Fractional calculations
+Home-page: https://github.com/cariad/vinculum
+Author: Cariad Eccleston
+Author-email: cariad@cariad.earth
+License: MIT
+Project-URL: Funding, https://github.com/sponsors/cariad
+Project-URL: Issues, https://github.com/cariad/vinculum/issues
+Project-URL: Source, https://github.com/cariad/vinculum
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# smoots
