@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: sevimon
+Version: 0.1.4
+Summary: Self Video Monitoring tool for facial muscles.
+Home-page: https://github.com/ioctl-user/sevimon
+License: LICENSE.txt
+Keywords: sevimon face emotion tension stress muscles wrinkles
+License-File: LICENSE
