@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+hokiri_fastapi_jwt.egg-info/PKG-INFO
+hokiri_fastapi_jwt.egg-info/SOURCES.txt
+hokiri_fastapi_jwt.egg-info/dependency_links.txt
+hokiri_fastapi_jwt.egg-info/requires.txt
+hokiri_fastapi_jwt.egg-info/top_level.txt

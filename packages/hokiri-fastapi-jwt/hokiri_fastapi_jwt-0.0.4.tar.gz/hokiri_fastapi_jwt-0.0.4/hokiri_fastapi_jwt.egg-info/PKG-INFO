@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: hokiri-fastapi-jwt
+Version: 0.0.4
+Summary: This package check jwt tokens in fast-api application about decorators method.
+Home-page: https://github.com/FastAPI-JWT/homepage/
+Author: White656
+Author-email: kirillnb72@icloud.com
+License: BSD 3-Clause License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# FastAPI-JWT
+this library is designed to solve the problems of integrating JWT into your fast-api application
