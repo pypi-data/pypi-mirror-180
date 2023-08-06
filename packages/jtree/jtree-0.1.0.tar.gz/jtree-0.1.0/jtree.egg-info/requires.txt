@@ -1,0 +1,8 @@
+textual>=0.5.0
+
+[dev]
+black
+bumpver
+isort
+pip-tools
+pytest
