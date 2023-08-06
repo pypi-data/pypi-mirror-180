@@ -1,0 +1,99 @@
+{% extends 'common/base.html' %}
+{% load i18n breadcrumbs %}
+{# template for pages, with a page header (page_pretitle, page_title, page_actions and content blocks). #}
+{# header_bg_color: e.g. #12345 to colorize the background of th header according to tenant's color scheme #}
+{# nav_buttons: buttons/links in top right corner (header) #}
+{# page_pretitle: pre title, rendered above the title, smaller #}
+{# page_title: the title of the page #}
+{# page_actions: block in right top corner ov page_header #}
+{# content: self-explanatory #}
+{# footer: footer content #}
+
+{% block canvas %}
+  <div class="page-wrapper">
+    <!-- Page header -->
+    {% block page_header %}
+      <div class="page-header d-print-none">
+        <div class="container-xl">
+          <div class="row g-2 align-items-center">
+            <div class="col d-flex justify-content-between">
+              <div>
+                <nav class="mb-1">
+                  <ol class="breadcrumb breadcrumb-arrows" aria-label="breadcrumbs">
+                    {% block breadcrumbs %}
+                      {#  as default, show the "home" link, but let pages override it. #}
+                      {% breadcrumb "Home" "index" %}
+                    {% endblock %}
+                  </ol>
+                </nav>
+                <div class="page-pretitle">
+                  {% block page_pretitle %}
+                    {{ page_pretitle }}
+                  {% endblock %}
+                </div>
+                <h2 class="page-title">
+                  {% block page_title %}
+                    {{ page_title }}
+                  {% endblock %}
+                </h2>
+              </div>
+              <div>
+                {% block page_actions %}
+                  <div class='btn-group me-1'>
+                    {% for item in menus.page_actions %}
+                      <a class="btn btn-outline-secondary btn-sm" href='{{ item.url }}' type='button' target="{{ item.target }}"{{ item.attrs }}>{{ item.title }}</a>
+                      {% if item.separator %}
+                        {# new button group #}
+                        </div><div class='btn-group'>
+                      {% endif %}
+                    {% endfor %}
+                    </div>
+                {% endblock %}
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    {% endblock %}
+    <!-- Page -->
+    <div class="page-body">
+      <div class="container-xl">
+        {% block content %}{% endblock %}
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer d-print-none p-0">
+      <div class="container-xl">
+        {% block footer %}
+          <div class="row text-center align-items-center flex-row-reverse">
+            <div class="col-lg-auto ms-lg-auto">
+              {% block footer_primary %}
+                <ul class="list-inline list-inline-dots mb-0">
+                  <li class="list-inline-item">
+                    <span class="text-muted">
+                      © {% now "Y" %}
+                      <a href="https://nerdocs.at" target="_blank" class="link-secondary" rel="noopener">
+                      nerdocs
+                    </a>
+                    </span>
+
+                  </li>
+                </ul>
+              {% endblock %}
+            </div>
+            <div class="col-12 col-lg-auto mt-0 mt-lg-0">
+              <ul class="list-inline list-inline-dots mb-0">
+                {% block footer_secondary %}
+                  <li class="list-inline-item">
+                  </li>
+                {% endblock %}
+              </ul>
+            </div>
+          </div>
+        {% endblock %}
+      </div>
+    </footer>
+  </div>
+{% endblock %}

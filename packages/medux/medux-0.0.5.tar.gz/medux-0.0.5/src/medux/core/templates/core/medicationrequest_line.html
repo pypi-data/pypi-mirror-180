@@ -1,0 +1,15 @@
+{% load i18n %}
+<div>
+  <div class="input-group">
+    <span class="input-group-text" id="prio-{{ line_nr }}">@</span>
+    <input type="text"
+           name="medication_name"
+           class="form-control"
+           placeholder="Medication"
+           aria-label="Medication"
+           aria-describedby="prio-{{ line_nr }}"
+{#           u:model="med_text"#}
+{#           autofocus#}
+    >
+  </div>
+</div>

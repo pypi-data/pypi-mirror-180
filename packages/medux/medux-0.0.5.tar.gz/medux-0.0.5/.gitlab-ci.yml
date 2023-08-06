@@ -1,0 +1,34 @@
+image: "python:3.10"
+
+before_script:
+  - python --version
+  - pip install --upgrade pip
+  - pip install -r requirements-dev.txt
+
+stages:          # List of stages for jobs, and their order of execution
+  - Static Analysis
+  - Test
+  - Deploy
+
+flake8:
+  stage: Static Analysis
+  script:
+  - make flake8
+
+pytest:
+  stage: Test
+  script:
+  - pwd
+  - ls -l
+  - export PYTHONPATH="$PYTHONPATH:."
+  #- python -c "import sys;print(sys.path)"
+  - make pytest 
+  artifacts:
+      reports:
+        cobertura: coverage.xml
+
+#deploy-job:      # This job runs in the deploy stage.
+#  stage: Deploy  # It only runs when *both* jobs in the test stage complete successfully.
+#  script:
+#    - echo "Deploying application..."
+#    - echo "Application successfully deployed."

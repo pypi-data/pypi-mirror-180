@@ -1,0 +1,6 @@
+[run]
+source = medux
+branch = 1
+
+[report]
+omit = *tests*

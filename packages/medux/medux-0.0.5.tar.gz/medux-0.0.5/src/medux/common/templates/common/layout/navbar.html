@@ -1,0 +1,29 @@
+{% load i18n %}
+<!-- navbar -->
+<header class="sticky-top navbar navbar-expand-md navbar-light d-none d-lg-flex d-print-none">
+  <div class="container-xl">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-nav flex-row order-md-last">
+      <div class="d-none d-md-flex">
+        {% include 'common/widgets/_theme_toggler.html' %}
+        {% include 'common/widgets/_notification_dropdown.html' %}
+      </div>
+      {% include 'common/layout/_user_menu.html' %}
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-menu">
+      <div>
+        <form action="./" method="get" autocomplete="off" novalidate="">
+          <div class="input-icon">
+                  <span class="input-icon-addon">
+                    <i class="bi bi-search"></i>
+                  </span>
+            <input type="text" value="" class="form-control" placeholder="Search…" aria-label="Search in website">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- end navbar -->

@@ -1,0 +1,60 @@
+{% load static i18n menu %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta
+      content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+      name='viewport'/>
+  {% block extra_head %}{% endblock extra_head %}
+
+  <title>{% block title %}MedUX{% endblock %}</title>
+
+
+  <link rel="icon" type="image/png" href="{% static 'img/favicon.ico' %}">
+  {#  <link rel="apple-touch-icon" sizes="76x76" href={% static "assets/img/apple-icon.png" %}>#}
+
+  {# Bootstrap #}
+  {# FIXME: include icons and fonts locally #}
+  {# FIXME: use minified version #}
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+        crossorigin="anonymous">
+
+  {#  <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">#}
+
+  {# FIXME: include locally #}
+  {# Bootstrap icons #}
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  {#    <link rel="stylesheet" href="{% static 'css/styles.css' %}" />#}
+  <link rel="stylesheet" href="{% static 'css/medux.css' %}"/>
+  {% block stylesheets %}{% endblock %}
+</head>
+<body class="bg-light d-flex flex-column min-vh-100">
+{% csrf_token %}
+{% generate_menu %}
+
+{% block body %}{% endblock %}
+
+<footer class="footer container-fluid bg-medux">
+  {# Here you can add a custom footer to your template #}
+  {# base.html contains the default footer#}
+  {% block footer %}{% endblock %}
+</footer>
+
+
+{# Javascripts #}
+
+{% include 'includes/scripts.html' %}
+{% block javascripts %}{% endblock %}
+
+</body>
+</html>

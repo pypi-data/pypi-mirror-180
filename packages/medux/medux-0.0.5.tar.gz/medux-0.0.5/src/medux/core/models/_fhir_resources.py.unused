@@ -1,0 +1,563 @@
+"""
+MedUX - A Free/OpenSource Electronic Medical Record
+Copyright (C) 2017 Christian González
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+"""
+__author__ = "Christian González <christian.gonzalez@nerdocs.at>"
+
+from django.db import models
+from polymorphic.models import PolymorphicModel
+
+from ._fhir_elements import Attachment
+from .fhir_elements import *
+
+# ===================== Resources =====================
+#  A resource is an entity that:
+#
+#   *  has a known identity (a URL) by which it can be addressed
+#   *  identifies itself as one of the types of resource defined in this
+#      specification
+#   *  contains a set of structured data items as described by the definition
+#      of the resource type
+#   *  has an identified version that changes if the contents of the resource
+#      change
+# =====================================================
+from ...common.fields import CodeField
+
+
+class Meta(models.Model):
+    """Abstract meta data model for Mixin
+
+    All resources use that meta data."""
+
+    versionId = IdField(primary_key=True)
+
+    # this one is not genuine from FHIR, but it may be usable sometimes
+    # for auditing.
+    created = models.DateTimeField(auto_created=True, editable=False)
+
+    lastUpdated = InstantField(auto_now=True)
+
+    profile = models.ManyToManyField("StructureDefinition", related_name="+")
+
+    # FIXME: use CodingField
+    security = models.ForeignKey("Coding", on_delete=models.PROTECT, blank=True)
+
+
+class Resource(PolymorphicModel):
+
+    # blank=True is not a DB constraint. This is only used when when a
+    # new resource is being sent to a server to assign an
+    # identity (= create interaction)
+    id = IdField(primary_key=True)
+
+    meta = models.OneToOneField(Meta, on_delete=models.CASCADE)
+
+    implicitRules = UriField(blank=True)
+
+    # the language of the resource, either "en" or "en-US"
+    language = CodeField("Common Languages", blank=True)
+
+    # TODO: language choices
+    # see http://build.fhir.org/valueset-languages.html
+    # or use the django internals?
+
+
+class DomainResource(Resource):
+    """A domain resource is an resource that:
+
+    has a human-readable XHTML representation of the content of the resource
+    can contain additional related resources inside the resource can have
+    additional extensions and modifierExtensions as well as the defined data.
+
+    As an abstract resource, this resource is never created directly;
+    instead, one of its descendent resources is created.
+    """
+
+    # a human-readable XHTML representation of the content of the resource
+    text = NarrativeField(null=True)
+
+    # additional related resources inside the resource
+    contained = models.ManyToManyField(Resource, related_name="parent_resource")
+
+    extension = models.ManyToManyField("Extension", related_name="+")
+
+    modifierExtension = models.ManyToManyField("Extension", related_name="+")
+
+
+# http://hl7.org/fhir/publication-status
+# FIXME: implement expansion automatically, in code
+PUBLICATION_STATUS = (
+    ("draft", "Draft"),
+    ("active", "Active"),
+    ("retired", "Retired"),
+    ("unknown", "Unknown"),
+)
+
+
+class StructureDefinition(DomainResource):
+    url = UriField()
+    identifier = models.ManyToManyField("Identifier")
+    version = models.CharField(max_length=255, blank=True)
+    name = models.CharField(max_length=255)
+    title = models.CharField(max_length=255, blank=True)
+
+    # http://hl7.org/fhir/ValueSet/publication-status
+    status = CodeField(choices=PUBLICATION_STATUS)
+
+    experimental = models.BooleanField()
+    date = models.DateTimeField(null=True)
+    publisher = models.CharField(blank=True, max_length=255)
+
+    contact = models.ManyToManyField("ContactDetail")
+    description = MarkdownField()
+    use_context = models.ManyToManyField("UsageContext")
+
+    mapping = models.ManyToManyField(Mapping)
+    snapshot = models.OneToOneField(Snapshot, null=True, on_delete=models.SET_NULL)
+    differential = models.OneToOneField(
+        Differential, null=True, on_delete=models.SET_NULL
+    )
+
+
+class Organization(DomainResource):
+    # The organization SHALL at least have a name or an id, and possibly
+    # more than one
+    identifier = models.ManyToManyField(Identifier)
+
+
+class ValueSet(DomainResource):
+    url = UriField()
+
+    # TODO: check if SET_NULL is appropriate here
+    identifier = models.ManyToManyField(Identifier)
+    version = models.CharField(max_length=255, blank=True)
+    name = models.CharField(max_length=255, blank=True)
+    title = models.CharField(max_length=255, blank=True)
+    status = CodeField("PublicationStatus")
+    experimental = models.BooleanField(default=False)
+    date = models.DateTimeField()
+    publisher = models.CharField(max_length=255, blank=True)
+    contact = models.ForeignKey(ContactDetail, null=True, on_delete=models.SET_NULL)
+    description = MarkdownField()
+    use_context = models.ManyToManyField(UsageContext)
+
+    # http://hl7.org/fhir/ValueSet/jurisdiction
+    # A legal/geographic region in which the value set is intended to be used.
+    jurisdiction = models.ManyToManyField(CodeableConcept)
+
+    # If this is set to 'true', then no new versions of the content logical
+    # definition can be created. Note: Other metadata might still change.
+    immutable = models.BooleanField(default=False)
+
+    # Explanation of why this value set is needed and why it has been designed
+    # as it has.
+    purpose = MarkdownField()
+
+    # A copyright statement relating to the value set and/or its contents.
+    # Copyright statements are generally legal restrictions on the use and
+    # publishing of the value set.
+    copyright = MarkdownField()
+
+    extensible = models.BooleanField(default=False)
+
+
+class ConceptProperty(models.Model):
+    code = CodeField()
+
+    # FIXME: don't know how to implement type[x]
+    value = models.CharField(max_length=255)
+
+
+class ConceptDefinition(models.Model):
+    code = CodeField()
+    display = models.CharField(max_length=255, blank=True)
+    definition = models.CharField(max_length=255, blank=True)
+
+    concept = models.ManyToManyField("ConceptDefinition")
+
+    property = models.ManyToManyField(ConceptProperty)
+
+
+class Property(models.Model):
+    code = CodeField()
+    uri = UriField(blank=True)
+    description = models.CharField(max_length=255, blank=True)
+    type = CodeField("PropertyType")
+
+
+class Filter(models.Model):
+    code = CodeField()
+    description = models.CharField(max_length=255, blank=True)
+    operator = CodeField("FilterOperator", multi=True)
+
+
+class CodeSystem(DomainResource):
+    uri = UriField()
+    identifier = models.ForeignKey(Identifier, null=True, on_delete=models.SET_NULL)
+    version = models.CharField(max_length=64, blank=True)
+    name = models.CharField(max_length=255, blank=True)
+    title = models.CharField(max_length=128, blank=True)
+    status = CodeField("PublicationStatus")
+    experimental = models.BooleanField(blank=True)
+    date = models.DateField(blank=True)
+    publisher = models.CharField(max_length=255)
+    contact = models.ManyToManyField(ContactDetail)
+    description = MarkdownField(blank=True)
+    useContext = models.ManyToManyField(UsageContext)
+
+    # Jurisdiction ValueSet
+    jurisdiction = models.ManyToManyField(CodeableConcept)
+
+    purpose = MarkdownField(blank=True)
+    copyright = MarkdownField(blank=True)
+    caseSensitive = models.NullBooleanField()
+    valueSet = CanonicalField(null=True)
+    hierarchyMeaning = CodeField("CodeSystemHierarchyMeaning", blank=True)
+    compositional = models.NullBooleanField()
+    versionNeeded = models.NullBooleanField()
+    content = CodeField("CodeSystemContendMode")
+    supplements = CanonicalField(blank=True)
+    count = UnsignedIntField(null=True)
+
+    concept = models.ManyToManyField(ConceptDefinition)
+
+    property = models.ManyToManyField(Property)
+
+    filter = models.ManyToManyField(Filter)
+
+
+class PersonLink(models.Model):
+    """Represents Person.link"""
+
+    target = ReferenceField(
+        "Patient|Practitioner|RelatedPerson|Person", on_delete=models.CASCADE
+    )
+
+    # http://hl7.org/fhir/ValueSet/identity-assuranceLevel
+    assurance = CodeField("IdentityAssuranceLevel")
+
+
+class Person(DomainResource):
+    identifier = models.ManyToManyField(Identifier)
+
+    name = models.ManyToManyField(HumanName)
+
+    telecom = models.ManyToManyField(ContactPoint)
+
+    # FIXME: make that point to
+    # https://www.hl7.org/fhir/valueset-administrative-gender.html
+    gender = CodeField("AdministrativeGender")
+
+    birthdate = models.DateField()
+
+    address = models.ManyToManyField(Address)
+
+    photo = models.ForeignKey(Attachment, blank=True, on_delete=models.SET(""))
+
+    managingOrganization = ReferenceField(
+        "Organization", blank=True, null=True, on_delete=models.SET_NULL
+    )
+
+    # false if person is e.g. not to be used because it was created in error
+    active = models.BooleanField(default=True)
+    link = models.ManyToManyField(PersonLink)
+
+
+class Communication(models.Model):
+    # FIXME: CodeableConcept is no field!
+    language = CodeableConcept("Common Languages")
+
+    preferred = models.BooleanField(blank=True)
+
+
+class PatientLink(models.Model):
+    """Represents Patient.link"""
+
+    other = ReferenceField("Patient|RelatedPerson", on_delete=models.CASCADE)
+    type = CodeField("LinkType")
+
+
+# helper class for Patient
+class Contact(models.Model):
+    relationship = CodeableConceptField("Contact Role")
+
+    name = models.ManyToManyField(HumanName)
+    telecom = models.ManyToManyField(ContactPoint)
+    address = models.ForeignKey(Address, null=True, on_delete=models.SET_NULL)
+    gender = CodeField("AdministrativeGender", blank=True)
+    organization = ReferenceField("Organization", null=True, on_delete=models.SET_NULL)
+    period = models.ForeignKey(Period, null=True, on_delete=models.SET_NULL)
+
+
+class Patient(DomainResource):
+    """Demographics and other administrative information about an individual
+    or animal receiving care or other health-related services.
+
+    For details see https://www.hl7.org/fhir/patient.html"""
+
+    identifier = models.ManyToManyField(Identifier)
+    active = models.BooleanField()
+    name = models.ManyToManyField(HumanName)
+    telecom = models.ManyToManyField(ContactPoint)
+    gender = CodeField("AdministrativeGender")
+    birthdate = models.DateField(blank=True)
+
+    # if this field is blank, the REST API should return boolean "False"
+    # https://www.hl7.org/fhir/patient-definitions.html#Patient.deceased_x_
+    deceased = models.DateTimeField(blank=True)
+
+    address = models.ManyToManyField(Address)
+
+    # FIXME! CodeableConcept is no field!
+    maritialStatus = CodeableConcept("MaritialStatus")
+
+    # Indicates whether the patient is part of a multiple (bool) or indicates
+    # the actual birth order (integer).
+    # FIXME we use 0 as bool/False here, because [x] is difficult to
+    # implement in Django
+    multipleBirth = models.IntegerField()
+
+    photo = models.ForeignKey(Attachment, on_delete=models.SET_NULL, null=True)
+
+    generalPractitioner = ReferenceField(
+        "Organization|Practitioner",
+        on_delete=models.SET_NULL,
+        null=True,
+        related_name="+",
+    )
+    managingOrganization = ReferenceField(
+        "Organization", on_delete=models.SET_NULL, null=True, related_name="+"
+    )
+
+    communication = models.ManyToManyField(Communication)
+    link = models.ManyToManyField(PatientLink)
+    contact = models.ManyToManyField(Contact)
+
+
+class ReferenceRange(models.Model):
+    pass
+
+
+class Component(models.Model):
+    code = CodeableConceptField("LOINC", related_name="+")
+    # value: Type [0..1]  "Quantity|CodeableConcept|string|boolean|integer|
+    #                       Range|Ratio|SampledData|time|dateTime|Period"
+    dataAbsentReason = CodeableConceptField(
+        "DataAbsentReason", null=True, related_name="+"
+    )
+    interpretation = CodeableConceptField(
+        "Observation Interpretation", null=True, related_name="+"
+    )
+
+    referenceRange = models.ManyToManyField(ReferenceRange)
+
+
+class Observation(DomainResource):
+    """Measurements and simple assertions made about a patient,
+    device or other subject."""
+
+    # A unique identifier assigned to this observation.
+    identifier = models.ManyToManyField("Identifier")
+
+    # A plan, proposal or order that is fulfilled in whole or in part
+    # by this event.
+    basedOn = ReferenceField(
+        "CarePlan|DeviceRequest|"
+        "ImmunizationRecommendation|"
+        "MedicationRequest|NutritionOrder|"
+        "ServiceRequest",
+        null=True,
+        on_delete=models.SET_NULL,
+        related_name="+",
+    )
+
+    # A larger event of which this particular Observation is a component or step.
+    # For example, an observation as part of a procedure
+    partOf = ReferenceField(
+        "MedicationAdministration|MedicationDispense|"
+        "MedicationStatement|Procedure|Immunization|"
+        "ImagingStudy",
+        null=True,
+        on_delete=models.SET_NULL,
+        related_name="+",
+    )
+
+    # The status of the result value
+    # http://hl7.org/fhir/ValueSet/observation-status
+    status = CodeField("ObservationStatus")
+
+    # The patient, or group of patients, location, or device whose characteristics (direct or indirect) are
+    # described by the observation and into whose record the observation is placed.
+    # Comments: Indirect characteristics may be those of a specimen, fetus, donor, other observer (for example a
+    # relative or EMT), or any observation made about the subject
+    subject = ReferenceField(
+        "Patient|Group|Device|Location", on_delete=models.CASCADE, related_name="+"
+    )
+
+    # The actual focus of an observation when it is not the patient of record. The focus is point of attention
+    # when the observation representing something or someone associated with the patient. It could be a spouse or
+    # parent, a fetus or donor. The focus of an observation could be an existing condition, an intervention,
+    # the subject's diet, another observation of the subject, or a body structure such as tumor or implanted device.
+    # An example use case would be using the Observation resource to capture whether the mother is trained to change
+    # her child's trachestomy tube. In this example, the child is the patient of record and the mother is the focus
+    focus = ReferenceField(
+        "Any", on_delete=models.SET_NULL, null=True, related_name="+"
+    )
+
+    context = ReferenceField(
+        "Encounter|EpisodeOfCare",
+        null=True,
+        on_delete=models.SET_NULL,
+        related_name="+",
+    )  # FIXME set null?
+
+    # The time or time-period the observed value is asserted as being true. For biological subjects -
+    # e.g. human patients - this is usually called the "physiologically relevant time".
+    # This is usually either the time of the procedure or of specimen collection, but very often the source
+    # of the date/time is not known, only the date/time itself
+    # Type: dateTime|Period|Timing
+    # FIXME: has to be implemented better
+    effective = models.CharField(max_length=255)
+
+    # The date and time this version of the observation was made available to
+    # providers, typically after the results have been reviewed and verified
+    issued = InstantField(blank=True)
+
+    # Who was responsible for asserting the observed value as "true"
+    # FIXME: This is a [0..*] relation.
+    # Which is difficult to implement in Django, WITH constraints to
+    # specific Resources like Practitioner|Organization|...
+    performer = ReferenceField(
+        "Practitioner|PractitionerRole|" "Organization|CareTeam|Patient|RelatedPerson",
+        null=True,
+        on_delete=models.SET_NULL,
+        related_name="+",
+    )
+
+    # The information determined as a result of making the observation,
+    # if the information has a simple value
+    # Type: Quantity|CodeableConcept|string|boolean|integer|Range|Ratio|
+    # SampledData|time|dateTime|Period
+    # FIXME: has to be implemented better
+    value = models.CharField(max_length=255)
+
+    # Provides a reason why the expected value in the element Observation.value[x] is missing
+    dataAbsentReason = CodeableConceptField(
+        "DataAbsentReason", null=True, related_name="+"
+    )
+
+    interpretation = CodeableConceptField(
+        "Observation Interpretation", null=True, related_name="+"
+    )
+
+    comment = models.CharField(max_length=255, blank=True)
+
+    # see http://hl7.org/fhir/ValueSet/body-site
+    bodySite = CodeableConceptField("SNOMED CT Body Structures??", null=True)
+    method = CodeableConceptField("Observation Methods", null=True, related_name="+")
+
+    specimen = ReferenceField(
+        "Specimen", null=True, on_delete=models.SET_NULL, related_name="+"
+    )
+
+    device = ReferenceField(
+        "Device|DeviceComponent|DeviceMetric",
+        null=True,
+        on_delete=models.SET_NULL,
+        related_name="observations",
+    )
+
+    # This observation is a group observation (e.g. a battery, a panel of
+    # tests, a set of vital sign measurements) that includes the target as a
+    # member of the group.
+    # When using this element, an observation will typically have either a
+    # value or a set of related resources, although both may be present in
+    # some cases. For a discussion on the ways Observations can assembled in
+    # groups together.
+    hasMember = ManyReferenceField(
+        "Observation|QuestionnaireResponse|" "Sequence", related_name="+"
+    )
+
+    derivedFrom = ManyReferenceField(
+        "DocumentReference|ImagingStudy|"
+        "Media|QuestionnaireResponse|"
+        "Observation|Sequence"
+    )
+
+    component = models.ManyToManyField(Component)
+
+    referenceRange = models.ManyToManyField(ReferenceRange)
+
+
+class Issue(models.Model):
+
+    # How the issue affects the success of the action
+    # http://hl7.org/fhir/issue-severity
+    severity = CodeField("IssueSeverity")
+
+    # A code that describes the type of issue.
+    # http://hl7.org/fhir/issue-type
+    code = CodeField("IssueType")
+
+    # A code that provides details as the exact issue.
+    # http://hl7.org/fhir/operation-outcome
+    details = CodeableConceptField("OperationOutcome", null=False)
+
+    diagnostics = models.CharField(max_length=255, blank=True)
+
+    location = StringListField()
+
+    expression = StringListField()
+
+
+class OperationOutcome(DomainResource):
+    """A collection of error, warning or information messages that result
+    from a system action."""
+
+    # Indicates whether the issue indicates a variation from
+    # successful processing.
+    issues = models.ManyToManyField(Issue)  # renamed from 'issue'
+
+
+class Qualification(models.Model):
+    identifier = models.ManyToManyField(Identifier)
+
+    # http://build.fhir.org/v2/0360/2.7/index.html
+    code = CodeableConceptField("http://hl7.org/fhir/ValueSet/v2-2.7-0360")
+
+    period = models.OneToOneField(Period, null=True, on_delete=models.SET_NULL)
+
+
+class Practitioner(DomainResource):
+    identifier = models.ManyToManyField(Identifier)
+
+    active = models.BooleanField(blank=True)
+
+    name = models.ManyToManyField(HumanName)
+
+    telecom = models.ManyToManyField(ContactPoint)
+
+    address = models.ManyToManyField(Address)
+
+    gender = CodeField("AdministrativeGender", blank=True)
+
+    birthdate = models.DateField(blank=True)
+
+    photo = models.ManyToManyField(Attachment)
+
+    communication = CodeableConceptField("Common Languages")
+
+    qualification = models.ManyToManyField(Qualification)

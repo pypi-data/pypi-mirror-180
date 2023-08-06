@@ -1,0 +1,83 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "medux"
+authors = [{name = "Christian González", email = "office@nerdocs.at"}]
+readme = "README.md"
+dynamic = ["version", "description"]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Environment :: Web Environment",
+    "Framework :: Django :: 4.1",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+]
+license = {file = "LICENSE.md"}
+requires-python = ">=3.10"
+dependencies = [
+    "django-enumfields",
+    "django[argon2]~=4.1",
+    "gdaps>=0.6.4",
+    "toml",
+    "django-enumfields",
+    "django-crispy-forms",
+    "crispy-bootstrap5",
+    "django-polymorphic",
+    "django-colorfield",
+    "django-sass",
+    "phonenumbers",
+    "django-extra-views",
+    "django-component-tags",
+    "django-htmx",
+    "django-environ",
+    "whitenoise",
+    "django-composite-field"
+]
+
+[project.urls]
+Home = "https://medux.readthedocs.org"
+Source = "https://gitlab.com/nerdocs/medux/medux"
+Documentation = "https://medux.readthedocs.org"
+Tracker = "https://gitlab.com/nerdocs/medux/medux/issues"
+
+
+[project.optional-dependencies]
+doc = [
+    "mkdocs",
+    "mkdocstrings[python]",
+]
+dev = [
+    "black",
+    "pytest~=6.2.5",
+    "pytest-django",
+    "pytest-cov",
+    "flake8",
+    "pre-commit",
+    "django-extensions",
+    "django-debug-toolbar"
+]
+prod = [
+    "uvicorn",
+    "gunicorn",
+]
+
+[tool.flit.sdist]
+include = ["docs/"]
+exclude = ["docs/*.html", "scripts/"]
+
+#[tool.pytest]
+#django_find_project = false
+#addopts = "--cov medux.common --cov-append --cov-report=xml --cov-report term-missing"
+#DJANGO_SETTINGS_MODULE = "tests.test_settings"
+
+#[tool.flake8]
+#max-line-length = 88
+#select = C,E,F,W,B,B950
+#extend-ignore = E203, E501
+#ignore = W504

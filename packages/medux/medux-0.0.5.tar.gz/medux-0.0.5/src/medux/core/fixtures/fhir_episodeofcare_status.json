@@ -1,0 +1,65 @@
+[
+  {
+    "model": "core.episodestatus",
+    "pk": 0,
+    "fields": {
+      "code": "planned",
+      "display": "Planned",
+      "definition": ""
+    }
+  },
+  {
+    "model": "core.episodestatus",
+    "pk": 1,
+    "fields": {
+      "code": "waitlist",
+      "display": "Waitlist",
+      "definition": "This episode has been placed on a waitlist, pending the episode being made active (or cancelled)."
+    }
+  },
+  {
+    "model": "core.episodestatus",
+    "pk": 2,
+    "fields": {
+      "code": "active",
+      "display": "Active",
+      "definition": "This episode of care is current."
+    }
+  },
+  {
+    "model": "core.episodestatus",
+    "pk": 3,
+    "fields": {
+      "code": "onhold",
+      "display": "On Hold",
+      "definition": "This episode of care is on hold; the organization has limited responsibility for the patient (such as while on respite)."
+    }
+  },
+  {
+    "model": "core.episodestatus",
+    "pk": 4,
+    "fields": {
+      "code": "finished",
+      "display": "Finished",
+      "definition": "This episode of care is finished and the organization is not expecting to be providing further care to the patient."
+    }
+  },
+  {
+    "model": "core.episodestatus",
+    "pk": 5,
+    "fields": {
+      "code": "cancelled",
+      "display": "Cancelled",
+      "definition": "The episode of care was cancelled, or withdrawn from service. It indicates that services terminated outside the planned/expected workflow."
+    }
+  },
+  {
+    "model": "core.episodestatus",
+    "pk": 6,
+    "fields": {
+      "code": "entered-in-error",
+      "display": "Entered in Error",
+      "definition": "This instance should not have been part of this patient's medical record."
+    }
+  }
+]

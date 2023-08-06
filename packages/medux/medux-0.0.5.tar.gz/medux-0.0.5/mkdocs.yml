@@ -1,0 +1,44 @@
+site_name: MedUX Documentation
+repo_url: https://gitlab.com/nerdocs/medux/medux
+site_description: "MedUX - Electronic Medical Record"
+
+nav:
+  - Overview:
+      - What is MedUX?: "overview/what-is-medux.md"
+      - Architecture: overview/architecture.md
+  - Plugins:
+      - General: 'plugins/general.md'
+#      - Shipped plugins: 'plugins/shipped-plugins.md'
+#      - Create a MedUX Plugin: 'plugins/create-a-plugin.md'
+#      - Plugin Development: 'plugins/plugin-development.md'
+#      - Plugins structure: 'plugins/plugin-structure.md'
+#  - Configuration:
+#      - Vendor configuration:
+#      - Admin configuration:
+#      - Plugin configuration:
+#      - User configuration:
+#  - FAQ: FAQ.md
+plugins:
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [ src ]
+  - search
+  - autorefs
+#  - multirepo:
+#      cleanup: false
+#      temp_dir: multirepo_imports
+#      repos:
+#        - section: 'MedUX common'
+#          import_url: 'https://gitlab.com/nerdocs/medux/medux-common?branch=development'
+
+theme:
+  name: material
+
+hooks:
+  - docs/hooks.py
+
+extra_css:
+  - css/medux.css
+
+
