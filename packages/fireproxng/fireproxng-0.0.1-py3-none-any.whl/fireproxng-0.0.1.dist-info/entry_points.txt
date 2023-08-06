@@ -1,0 +1,4 @@
+[console_scripts]
+fireproxng=fireproxng.__main__:main
+fpng=fireproxng.__main__:main
+
