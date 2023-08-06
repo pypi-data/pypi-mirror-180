@@ -1,0 +1,10 @@
+setup.py
+distib_hawa/Binomialdistribution.py
+distib_hawa/Gaussiandistribution.py
+distib_hawa/Generaldistribution.py
+distib_hawa/__init__.py
+distib_hawa.egg-info/PKG-INFO
+distib_hawa.egg-info/SOURCES.txt
+distib_hawa.egg-info/dependency_links.txt
+distib_hawa.egg-info/not-zip-safe
+distib_hawa.egg-info/top_level.txt
