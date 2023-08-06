@@ -1,0 +1,11 @@
+auto34diff/__init__.py,sha256=aMXGGMW0TmyjiBXT4MNfxRFG9XNqdchaYpp7f_tWxzE,196
+auto34diff/autodiff.py,sha256=4CdugWy2yQYa3BDvDSSj1QMa7C-syXxNwBu8KBegNvg,2264
+auto34diff/expr.py,sha256=6w2bMSkxss11PJPhkv-rKFsY3OPxnpQ5uvPdeZYhOz8,2753
+auto34diff/forward.py,sha256=ETIHArltAF15dWh2vQTk_e0l8v8msEKVSJO0lZ4C5QM,3363
+auto34diff/mixed.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auto34diff/reverse.py,sha256=3VQvbBb1LDmsgunWsNROvoNt2lU4blcBlttrOYJMZHM,3788
+auto34diff-0.0.1.dist-info/LICENSE,sha256=Unc3mUdW5Ty1rGpCn0cKrVHQwH86V_q7MlhVGfbML5U,1075
+auto34diff-0.0.1.dist-info/METADATA,sha256=1bCKExtDawy36MCLjsH9D1VrWhA3Esn2lTD-520wTIM,1752
+auto34diff-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+auto34diff-0.0.1.dist-info/top_level.txt,sha256=to4h351wToo9D-VkQPUv2Igi4PFVdWYhMKMSSrEmd-M,11
+auto34diff-0.0.1.dist-info/RECORD,,
