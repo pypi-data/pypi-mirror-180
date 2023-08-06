@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: ffpack
+Version: 0.1.0
+Summary: Fatigue and fracture package
+Home-page: https://pypi.org/project/ffpack
+Keywords: fatigue,fracture,counting
+Author: Dongping Zhu
+Maintainer: Dongping Zhu
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: numpy (>=1.21,<2.0)
+Project-URL: Documentation, https://ffpack.readthedocs.io/en/latest/
+Project-URL: Repository, https://github.com/dpzhuX/ffpack
+Description-Content-Type: text/markdown
+
+# Welcome to FFPACK
+
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/dpzhuX/ffpack/Python%20package/main)
+![GitHub](https://img.shields.io/github/license/dpzhuX/ffpack)
+
+## Purpose
+`FFPACK` ( Fatigue and Fracture PACKage ) is an open source Python library for fatigue and fracture evaluation. It supports the standard fatigue counting methods in ASTM E1049-85(2017). A lot of features are under active development.
+
+## Installation
+
+`FFPACK` can be installed via [PyPI](https://pypi.org/project/ffpack/):
+
+```
+pip install ffpack
+```
+
+## Status
+
+`FFPACK` is currently under active development. 
+
+## Contents
+
+* Load cycle counting methods
+    * ASTM level crossing counting
+    * ASTM peak counting
+    * ASTM simple range counting
+    * ASTM rainflow counting
+* Load spectra and matrices
+    * WIP
+
+## Document
+
+You can find a complete docummentation for setting up `FFPACK` at the [Read the Docs site](https://ffpack.readthedocs.io/en/latest/).
+
