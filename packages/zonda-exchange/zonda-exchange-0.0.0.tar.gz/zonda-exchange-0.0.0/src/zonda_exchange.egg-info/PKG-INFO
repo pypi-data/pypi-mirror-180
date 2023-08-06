@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: zonda-exchange
+Version: 0.0.0
+Summary: Zonda Exchange
+Author-email: Remigiusz Petrich <remigiusz.petrich@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Zonda Exchange
