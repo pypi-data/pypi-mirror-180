@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: apika
+Version: 0.1.2
+Summary: aio pika
+Home-page: https://github.com/JiehuiSun/apika
+Author: huihui
+Author-email: sunjiehuimail@foxmail.com
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Framework :: AsyncIO
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+aio pika
