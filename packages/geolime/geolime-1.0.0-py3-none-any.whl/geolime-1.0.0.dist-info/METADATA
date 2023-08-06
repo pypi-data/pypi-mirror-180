@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: geolime
+Version: 1.0.0
+Summary: Deeplime Python Library
+Home-page: https://github.com/deeplime-io/geolime
+Author: Deeplime
+Author-email: contact@deeplime.io
+License: LICENSE
+Requires-Python: >=3.7
+License-File: LICENSE
+
