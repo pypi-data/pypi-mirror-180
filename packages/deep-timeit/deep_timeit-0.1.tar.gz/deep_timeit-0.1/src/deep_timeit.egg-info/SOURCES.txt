@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+__init__.py
+pyproject.toml
+requirements.txt
+setup.py
+src/deep_timeit.py
+src/deep_timeit.egg-info/PKG-INFO
+src/deep_timeit.egg-info/SOURCES.txt
+src/deep_timeit.egg-info/dependency_links.txt
+src/deep_timeit.egg-info/top_level.txt
+tests/test.py
