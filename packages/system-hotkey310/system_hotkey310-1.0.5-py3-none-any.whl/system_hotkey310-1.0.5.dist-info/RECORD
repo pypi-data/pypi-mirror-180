@@ -1,0 +1,11 @@
+system_hotkey/__init__.py,sha256=cjRFn0GGCMTuIewQrJjM4dx1522vEjEGGHrkeGPAYZw,42
+system_hotkey/keysymdef.py,sha256=ynqOFtrJTJKeI6m6B8EWKDfbfG5M_XmLDLYw9K9ZGk8,57192
+system_hotkey/system_hotkey.py,sha256=i1hcO1xhkt2pT44_1fKcP6cr4z-86ZSWElC76EbgaWA,30386
+system_hotkey/util.py,sha256=f2EgspcjbncyVNICy3cgWOgVSCAfICYu1UzT2-1UeZE,3295
+system_hotkey/xpybutil_keybind.py,sha256=P6RMEf2_ouD8SS--UQzG_lEL1PsDECtgEJ-nZrDa6JE,15596
+system_hotkey310-1.0.5.dist-info/AUTHORS.rst,sha256=VvX0F87vBKMff3YdO2J4o2GA0IUnOPGAP6XogCfdEcI,128
+system_hotkey310-1.0.5.dist-info/LICENSE,sha256=iRd5ACeOhrES3YJqlqgRdMx-pcF9KtcAdNjcxlngPag,1481
+system_hotkey310-1.0.5.dist-info/METADATA,sha256=2zOAPFv5LPwXcNuH5Wa9fDd7yc8zycTIT2tADLyAc5g,3821
+system_hotkey310-1.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+system_hotkey310-1.0.5.dist-info/top_level.txt,sha256=-sgFh0zW4BuVMiol1_qB8QLDPZc9-brD78Ferfrw1l4,14
+system_hotkey310-1.0.5.dist-info/RECORD,,
