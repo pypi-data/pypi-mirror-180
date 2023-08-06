@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+pytest_slowest_first.py
+setup.py
+pytest_slowest_first.egg-info/PKG-INFO
+pytest_slowest_first.egg-info/SOURCES.txt
+pytest_slowest_first.egg-info/dependency_links.txt
+pytest_slowest_first.egg-info/entry_points.txt
+pytest_slowest_first.egg-info/requires.txt
+pytest_slowest_first.egg-info/top_level.txt

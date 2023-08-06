@@ -1,0 +1,3 @@
+[pytest11]
+slowest-first = pytest_slowest_first
+
