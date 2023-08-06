@@ -1,0 +1,9 @@
+nonebot_plugin_chatgpt/__init__.py,sha256=j60fyYTb6Ce0Fz01Y5lnIptbhRDVsm2qrrwgX9W3Pb8,5417
+nonebot_plugin_chatgpt/chatgpt.py,sha256=azF8oHXcK6f_kJTLsUk2xoQ-1ilJ_mU0thsy-ATdypc,5782
+nonebot_plugin_chatgpt/config.py,sha256=dKfxcTftiHoOmDGmc6xj4_jqX7mC7dRek70SMGdFWto,806
+nonebot_plugin_chatgpt/data.py,sha256=SW3CgKZLxHUs_h30TbOCdBz00tKbE8naplNDUWuVakA,783
+nonebot_plugin_chatgpt/utils.py,sha256=D2ZSFZWf1Kbyyy33sS3SpT5FlLwSxa4Nq2izy01GgGk,2975
+nonebot_plugin_chatgpt-0.6.0.dist-info/WHEEL,sha256=_LDBqpgIVFNHZvvFOGbg2pvJOENq6RHAyT5px-HeX0U,87
+nonebot_plugin_chatgpt-0.6.0.dist-info/METADATA,sha256=1qVmVLTSrNvQhihmwXs88Cfi8Rdjs2gNfudLT_cAH8M,5560
+nonebot_plugin_chatgpt-0.6.0.dist-info/licenses/LICENSE,sha256=zDJ2DIbFPNZ6r7WQk6yNdbonhAoYJhzAdC7crxsiO_I,1064
+nonebot_plugin_chatgpt-0.6.0.dist-info/RECORD,,
