@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: nsqdriver
+Version: 0.1.0
+Summary: Naishu Q series quantum measurement and control equipment driver interface
+Home-page: https://g2hoyqcmh4.feishu.cn/wiki/wikcnUBeWi666QnQ6Le6508XH2e
+Author: Naishu Technology
+Author-email: jilianyi@naishu.tech
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
