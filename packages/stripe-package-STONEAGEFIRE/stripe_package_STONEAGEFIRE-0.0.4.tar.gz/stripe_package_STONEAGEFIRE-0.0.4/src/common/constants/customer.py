@@ -1,0 +1,7 @@
+CITY = "city"
+COUNTRY = "country"
+LINE1 = "line1"
+LINE2 = "line2"
+POSTAL_CODE = "postal_code"
+STATE = "state"
+DEFAULT_PAYMENT_METHOD = "default_payment_method"
