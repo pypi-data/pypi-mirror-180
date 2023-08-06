@@ -1,0 +1,9 @@
+fastcmap/__init__.py,sha256=K4iIsEam901jzEGM9zD5GaajYjVKyfbsmF2_2XioN80,1524
+fastcmap/base.py,sha256=ecQu50mNFxbunLSRiA-V0SjyRFLulp5a2Jx_MnZthlw,4749
+fastcmap/confusematrix.py,sha256=errRnIwXrdTe1dyKYCAxEtlTq1IIezhK5K5PQJsl0IE,2537
+fastcmap/map_linedata.py,sha256=8kkQ1LfGQJ9ENmGc3mofa2hhLzVfPHBRtmfTyM6N8dM,35757
+fastcmap-0.0.2.dist-info/LICENSE,sha256=FxdLT7NQz27v9gKJsVf3xkSM1KZU_bMWi4IxLtROZJE,1066
+fastcmap-0.0.2.dist-info/METADATA,sha256=T-WnzVmEBPuzFk8UzUIZ9aJek943pt4tVLHMlmlBdc8,268
+fastcmap-0.0.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+fastcmap-0.0.2.dist-info/top_level.txt,sha256=jcyQr0feZ_1Rj2I3ahWo0lMy0I7gU4LzBmM21xok_g4,9
+fastcmap-0.0.2.dist-info/RECORD,,
