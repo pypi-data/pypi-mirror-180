@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: ApiCrudloggingMessage
+Version: 0.0.4
+Summary: Its the Api logging message for crud operations 
+Home-page: UNKNOWN
+Author: Vijayakumar Kanniah
+Author-email: x21188955@student.ncirl.ie
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: logging
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
