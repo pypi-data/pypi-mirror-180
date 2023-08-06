@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+compgraph_amsilevich.egg-info/PKG-INFO
+compgraph_amsilevich.egg-info/SOURCES.txt
+compgraph_amsilevich.egg-info/dependency_links.txt
+compgraph_amsilevich.egg-info/requires.txt
+compgraph_amsilevich.egg-info/top_level.txt
