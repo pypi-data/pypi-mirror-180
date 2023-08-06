@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+auto34diff/__init__.py
+auto34diff/autodiff.py
+auto34diff/forward.py
+auto34diff/functions.py
+auto34diff/reverse.py
+auto34diff.egg-info/PKG-INFO
+auto34diff.egg-info/SOURCES.txt
+auto34diff.egg-info/dependency_links.txt
+auto34diff.egg-info/not-zip-safe
+auto34diff.egg-info/requires.txt
+auto34diff.egg-info/top_level.txt
