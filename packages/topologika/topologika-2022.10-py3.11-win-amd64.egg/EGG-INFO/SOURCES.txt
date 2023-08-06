@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+topologikamodule.c
+topologika.egg-info/PKG-INFO
+topologika.egg-info/SOURCES.txt
+topologika.egg-info/dependency_links.txt
+topologika.egg-info/requires.txt
+topologika.egg-info/top_level.txt
