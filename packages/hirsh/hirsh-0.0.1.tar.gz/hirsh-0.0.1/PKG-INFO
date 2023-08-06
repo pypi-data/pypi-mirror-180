@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: hirsh
+Version: 0.0.1
+Summary: Resilient monitoring system that detects utility outages in unreliable environments (e.g. IoT, RaspberryPi, etc)
+Project-URL: Homepage, https://github.com/roma-glushko/hirsh
+Author-email: Roman Glushko <roman.glushko.m@gmail.com>
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development
+Classifier: Typing :: Typed
+Requires-Python: <4.0,>=3.9
+Requires-Dist: aiogram==2.23.1
+Requires-Dist: aiosqlite==0.17.0
+Requires-Dist: dependency-injector==4.40.0
+Requires-Dist: pydantic==1.10.2
+Requires-Dist: pyyaml==6.0
+Requires-Dist: sqlalchemy[asyncio,mypy]==1.4.44
+Requires-Dist: typer==0.7.0
+Requires-Dist: uvloop==0.17.0
+Provides-Extra: dev
+Requires-Dist: mypy==0.991; extra == 'dev'
+Requires-Dist: pytest-asyncio==0.20.2; extra == 'dev'
+Requires-Dist: pytest==7.2.0; extra == 'dev'
+Requires-Dist: ruff==0.0.155; extra == 'dev'
+Requires-Dist: sqlalchemy-stubs==0.4; extra == 'dev'
+Requires-Dist: types-pyyaml==6.0.12.2; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# Hirsh
+
+A RaspberryPI-based monitoring system that detects utility outages (ISP, electricity, etc).
+
+## How does it work?
+
+TBU
+
+## Notifications
+
+### Telegram
+
+The primary way to notify you about outages is via [Telegram bot](https://core.telegram.org/bots).
+You need to create [a new bot](https://t.me/BotFather) and add it to a group or a channel.
+
+## References
+
+### Similar Projects
+
+- https://github.com/fabytm/Outage-Detector
+- https://github.com/nestukh/rpi-powerfail
+- https://www.kc4rcr.com/power-outage-notification/
+- https://homediyelectronics.com/projects/raspberrypi/poweroffdelay/powerfail
+- https://projects-raspberry.com/power-outage-sensor/
+- https://raspberrypi.stackexchange.com/questions/13538/raspberry-pi-to-email-when-power-outage-occurs
+
+### Python + RPi
+
+- https://medium.com/geekculture/gpio-programming-on-the-raspberry-pi-python-libraries-e12af7e0a812
+
+### AsyncIO and RPi
+
+- https://github.com/PierreRust/apigpio
+- https://beenje.github.io/blog/posts/experimenting-with-asyncio-on-a-raspberry-pi/
+- https://www.digikey.bg/en/maker/projects/getting-started-with-asyncio-in-micropython-raspberry-pi-pico/110b4243a2f544b6af60411a85f0437c
+- https://docs.micropython.org/en/latest/library/uasyncio.html
+
+### Deployment
+
+- https://github.com/beenje/legomac
