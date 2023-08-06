@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+aws_cost_mutilator/__init__.py
+aws_cost_mutilator/__main__.py
+aws_cost_mutilator/lib.py
+aws_cost_mutilator/tests.py
+aws_cost_mutilator.egg-info/PKG-INFO
+aws_cost_mutilator.egg-info/SOURCES.txt
+aws_cost_mutilator.egg-info/dependency_links.txt
+aws_cost_mutilator.egg-info/entry_points.txt
+aws_cost_mutilator.egg-info/requires.txt
+aws_cost_mutilator.egg-info/top_level.txt
+aws_cost_mutilator.egg-info/zip-safe
