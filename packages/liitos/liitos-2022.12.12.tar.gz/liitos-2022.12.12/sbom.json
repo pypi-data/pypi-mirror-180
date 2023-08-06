@@ -1,0 +1,115 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:d046975b-babd-4bb6-8944-420445fc8995",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2022-12-11T22:24:05.182670+00:00",
+    "tools": [
+      {
+        "vendor": "CycloneDX",
+        "name": "cyclonedx-bom",
+        "version": "3.7.3"
+      },
+      {
+        "vendor": "CycloneDX",
+        "name": "cyclonedx-python-lib",
+        "version": "2.7.1",
+        "externalReferences": [
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/actions",
+            "type": "build-system"
+          },
+          {
+            "url": "https://pypi.org/project/cyclonedx-python-lib/",
+            "type": "distribution"
+          },
+          {
+            "url": "https://cyclonedx.github.io/cyclonedx-python-lib/",
+            "type": "documentation"
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/issues",
+            "type": "issue-tracker"
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/LICENSE",
+            "type": "license"
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/CHANGELOG.md",
+            "type": "release-notes"
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib",
+            "type": "vcs"
+          },
+          {
+            "url": "https://cyclonedx.org",
+            "type": "website"
+          }
+        ]
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "07269780-803e-4811-9932-dfcb1ec2dc0b",
+      "name": "PyYAML",
+      "version": "6.0",
+      "purl": "pkg:pypi/pyyaml@6.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "f748a576-cfed-499f-8160-cf9685ba6ae0",
+      "name": "foran",
+      "version": "2022.12.7",
+      "purl": "pkg:pypi/foran@2022.12.7"
+    },
+    {
+      "type": "library",
+      "bom-ref": "2f5a74e4-5783-4e6a-9025-f23a77fb800d",
+      "name": "taksonomia",
+      "version": "2022.12.7",
+      "purl": "pkg:pypi/taksonomia@2022.12.7"
+    },
+    {
+      "type": "library",
+      "bom-ref": "ffdac0a7-e6d3-4203-8a74-2a70fc0ae4d4",
+      "name": "treelib",
+      "version": "1.6.1",
+      "purl": "pkg:pypi/treelib@1.6.1"
+    },
+    {
+      "type": "library",
+      "bom-ref": "bf8c4f31-ba17-47cd-970f-3864a4baacae",
+      "name": "typer",
+      "version": "0.7.0",
+      "purl": "pkg:pypi/typer@0.7.0"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "07269780-803e-4811-9932-dfcb1ec2dc0b",
+      "dependsOn": []
+    },
+    {
+      "ref": "f748a576-cfed-499f-8160-cf9685ba6ae0",
+      "dependsOn": []
+    },
+    {
+      "ref": "2f5a74e4-5783-4e6a-9025-f23a77fb800d",
+      "dependsOn": []
+    },
+    {
+      "ref": "ffdac0a7-e6d3-4203-8a74-2a70fc0ae4d4",
+      "dependsOn": []
+    },
+    {
+      "ref": "bf8c4f31-ba17-47cd-970f-3864a4baacae",
+      "dependsOn": []
+    }
+  ]
+}
