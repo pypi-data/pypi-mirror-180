@@ -1,0 +1,12 @@
+youtube_history_analysis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+youtube_history_analysis/__main__.py,sha256=Bu0ok6xE3GQarzox7lDE0YnaVrl1mZVZ8fYaFWnsL2g,5326
+youtube_history_analysis/outputs/full_history.csv,sha256=3KHLD1q2oK-4q7bj9yKhrxyC5fVQXJ89gnPI0_cIYjQ,31135692
+youtube_history_analysis/outputs/numbers_per_month.png,sha256=6OmjXYwYL4lVzgdDTAFCv2GLhb7yi-RASck52ffbprY,319743
+youtube_history_analysis/outputs/percentages_per_month.png,sha256=aK2UTTxzvDJGtvOwqltafmiVty_jQ9mQM84n70KYmbc,213131
+youtube_history_analysis/outputs/snippets.csv,sha256=jy0-Zm69CDdl8lbIlu5zj--X5N-fP6pP_aDWHWURM9E,26177941
+youtube_history_analysis/outputs/watch_history.csv,sha256=jw8AxSOJzzMWK9tTsLYy0nVCfd3rd_Fqx7GJlZfgGM0,2744314
+youtube_history_analysis/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+youtube_history_analysis/watch-history.json,sha256=ObhRxMw4yR9Q2PKIzIkpJGvIvl2ZsymI1GBDBZPwvfc,3982468
+youtube_history_analysis-1.0.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+youtube_history_analysis-1.0.0.dist-info/METADATA,sha256=lMTQR8WhKw5ewwEWea9qarTl8arJotugvuPwcIShhrM,4576
+youtube_history_analysis-1.0.0.dist-info/RECORD,,
