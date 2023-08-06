@@ -1,0 +1,8 @@
+setup.py
+VerifySteream.egg-info/PKG-INFO
+VerifySteream.egg-info/SOURCES.txt
+VerifySteream.egg-info/dependency_links.txt
+VerifySteream.egg-info/requires.txt
+VerifySteream.egg-info/top_level.txt
+verifystream/__init__.py
+verifystream/verify.py
