@@ -1,0 +1,2 @@
+[console_scripts]
+dometl = dometl:run_dometl
