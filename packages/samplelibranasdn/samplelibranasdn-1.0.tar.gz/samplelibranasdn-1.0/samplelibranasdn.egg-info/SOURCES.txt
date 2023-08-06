@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+samplelib/__init__.py
+samplelib/file1.py
+samplelib/file2.py
+samplelibranasdn.egg-info/PKG-INFO
+samplelibranasdn.egg-info/SOURCES.txt
+samplelibranasdn.egg-info/dependency_links.txt
+samplelibranasdn.egg-info/top_level.txt
