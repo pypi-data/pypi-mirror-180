@@ -1,0 +1,11 @@
+asyncChatGPT/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asyncChatGPT/asyncChatGPT.py,sha256=lTtoen-Gy3T_Gmu3_X2dygJ7U1F5xd_4mEXnZNIXSr0,11493
+revChatGPT/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+revChatGPT/__main__.py,sha256=DBcM_DqhnVLno6LYDTrK1x5d9U1HuBHfNyCaQW1ccfM,4565
+revChatGPT/revChatGPT.py,sha256=mZmmX3owHI0oOJTDRRFIjs-rulxJ3MRQVMZ0z03SiLU,11205
+revChatGPT-0.0.33.2.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+revChatGPT-0.0.33.2.dist-info/METADATA,sha256=G_OgQHH8Bwdat5VTqQXFLpRGFhgIU340QbaBdX7VlJE,2233
+revChatGPT-0.0.33.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+revChatGPT-0.0.33.2.dist-info/entry_points.txt,sha256=XWRsRhbycEK0s0FlJsWUcWPSuZ5Gr0InFuJdEiKeUiE,56
+revChatGPT-0.0.33.2.dist-info/top_level.txt,sha256=tWcxc2GMpchRMBko6RFOcjt8Po_R1gggIKoDuwmGN5g,24
+revChatGPT-0.0.33.2.dist-info/RECORD,,
