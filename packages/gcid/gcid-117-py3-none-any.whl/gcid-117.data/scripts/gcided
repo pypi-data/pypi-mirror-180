@@ -1,0 +1,26 @@
+#!python
+# This file is placed in the Public Domain.
+# pylint: disable=C0116
+
+
+"@KarimKhanQC reconsider OTP-CR-117/19 - http://pypi.org/project/genocide"
+
+
+import os
+
+
+from gcid import Wd, wait
+from gcid import irc, model, rss
+
+
+Wd.workdir = "/var/lib/gcid/"
+
+
+def main():
+    irc.init()
+    model.init()
+    rss.init()
+    wait()
+
+
+main()
