@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+danil2/__init__.py
+danil2/danil_pow2.py
+danil2.egg-info/PKG-INFO
+danil2.egg-info/SOURCES.txt
+danil2.egg-info/dependency_links.txt
+danil2.egg-info/not-zip-safe
+danil2.egg-info/top_level.txt
