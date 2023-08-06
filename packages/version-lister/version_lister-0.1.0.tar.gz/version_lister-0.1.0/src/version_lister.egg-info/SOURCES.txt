@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/version_lister/__init__.py
+src/version_lister/add_version.py
+src/version_lister.egg-info/PKG-INFO
+src/version_lister.egg-info/SOURCES.txt
+src/version_lister.egg-info/dependency_links.txt
+src/version_lister.egg-info/entry_points.txt
+src/version_lister.egg-info/top_level.txt
