@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: react_seqlogo
+Version: 0.0.1
+Summary: Project Description
+Author: Will Beardall <wb815@ic.ac.uk>
+License: ISC
+Classifier: Framework :: Dash
+License-File: LICENSE

@@ -1,0 +1,11 @@
+include react_seqlogo/react_seqlogo.min.js
+include react_seqlogo/react_seqlogo.min.js.map
+include react_seqlogo/async-*.js
+include react_seqlogo/async-*.js.map
+include react_seqlogo/*-shared.js
+include react_seqlogo/*-shared.js.map
+include react_seqlogo/metadata.json
+include react_seqlogo/package-info.json
+include README.md
+include LICENSE
+include package.json

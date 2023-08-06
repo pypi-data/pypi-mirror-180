@@ -1,0 +1,206 @@
+{
+  "src/lib/components/SequenceLogo.react.js": {
+    "description": "",
+    "displayName": "SequenceLogo",
+    "methods": [
+      {
+        "name": "getLetterPath",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "i",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "intToLetter",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "i",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "stackHeight",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "obj",
+            "type": null
+          },
+          {
+            "name": "position",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "updateStackHeights",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "obj",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "updateLetterHeights",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "obj",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "calculatePathTransform",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "path",
+            "type": null
+          },
+          {
+            "name": "d",
+            "type": null
+          },
+          {
+            "name": "yScale",
+            "type": null
+          },
+          {
+            "name": "colWidth",
+            "type": null
+          },
+          {
+            "name": "type",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "getLetterBaseTransform",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "i",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "parseMEMEMotif",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "memeMotif",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "parseFASTA",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "fasta",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "objectOffsets",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "position",
+            "type": null
+          },
+          {
+            "name": "alphabet",
+            "type": null
+          },
+          {
+            "name": "letter_heights",
+            "type": null
+          },
+          {
+            "name": "stack_height",
+            "type": null
+          },
+          {
+            "name": "max_entropy",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "renderSequenceObject",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "obj",
+            "type": null
+          }
+        ],
+        "returns": null
+      }
+    ],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "label": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": "A label that will be printed when this component is rendered."
+      },
+      "value": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The value displayed in the input."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  }
+}
