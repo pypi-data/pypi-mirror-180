@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+IB/__init__.py
+ib_cp_gateway.egg-info/PKG-INFO
+ib_cp_gateway.egg-info/SOURCES.txt
+ib_cp_gateway.egg-info/dependency_links.txt
+ib_cp_gateway.egg-info/requires.txt
+ib_cp_gateway.egg-info/top_level.txt
