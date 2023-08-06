@@ -1,0 +1,11 @@
+README.md
+setup.py
+compromise_marian.egg-info/PKG-INFO
+compromise_marian.egg-info/SOURCES.txt
+compromise_marian.egg-info/dependency_links.txt
+compromise_marian.egg-info/top_level.txt
+marian/__init__.py
+marian/configuration.py
+marian/dataloader.py
+marian/model.py
+marian/pl_wrapper.py
