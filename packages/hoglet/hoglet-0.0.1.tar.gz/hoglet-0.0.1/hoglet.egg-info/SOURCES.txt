@@ -1,0 +1,15 @@
+.coveragerc
+.gitignore
+Makefile
+README.md
+pyproject.toml
+.github/workflows/github-actions.yml
+hoglet/__init__.py
+hoglet.egg-info/PKG-INFO
+hoglet.egg-info/SOURCES.txt
+hoglet.egg-info/dependency_links.txt
+hoglet.egg-info/requires.txt
+hoglet.egg-info/top_level.txt
+tests/__init__.py
+tests/test_integration/__init__.py
+tests/test_unit/__init__.py
