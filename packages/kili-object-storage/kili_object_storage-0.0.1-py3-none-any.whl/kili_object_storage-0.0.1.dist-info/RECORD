@@ -1,0 +1,10 @@
+kili_object_storage/__init__.py,sha256=oijDw8yECNPxP30aJST9atZjbkkyFuLBGigWMfjWlgo,28
+kili_object_storage/constants.py,sha256=OR3A8p9WVfRVbgB-Xc01cQExVjuDp6s_zjeTuW0vKPc,6852
+kili_object_storage/decorator.py,sha256=I8DFPpFW9_WJABOW0s0-gnJvfTSeta5q5icCMRc5sC8,1320
+kili_object_storage/exceptions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kili_object_storage/loggings.py,sha256=o7tR8raOXkDikx2YxiEgE-M3ApXW_nAHSqLcOpXk6k4,1273
+kili_object_storage/object_storage.py,sha256=mRtbubapUvrYABdrHyPPcVTapoImvo4pnhmErDpCYgo,14567
+kili_object_storage-0.0.1.dist-info/METADATA,sha256=vDDxRScIV26f3wsHHqj2ke5xwN1RprHqgOeAGOygCSo,531
+kili_object_storage-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kili_object_storage-0.0.1.dist-info/top_level.txt,sha256=SwzKvD-ngc8tnqqgwUgCAS6QG1BWiUBE9e9Hp1ERX8g,20
+kili_object_storage-0.0.1.dist-info/RECORD,,
