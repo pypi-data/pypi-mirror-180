@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: blackscholes
+Version: 0.0.1
+Home-page: https://github.com/CarloLepelaars/blackscholes
+Author: Carlo Lepelaars
+Maintainer: carlolepelaars
+License: MIT
+Keywords: finance options black scholes merton
+License-File: LICENSE
