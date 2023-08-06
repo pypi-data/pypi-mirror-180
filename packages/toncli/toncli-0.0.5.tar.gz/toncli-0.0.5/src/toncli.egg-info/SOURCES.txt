@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/toncli/__init__.py
+src/toncli/main.py
+src/toncli.egg-info/PKG-INFO
+src/toncli.egg-info/SOURCES.txt
+src/toncli.egg-info/dependency_links.txt
+src/toncli.egg-info/entry_points.txt
+src/toncli.egg-info/requires.txt
+src/toncli.egg-info/top_level.txt
