@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: bread-slice
+Version: 0.0.1b0
+Summary: A Discord bot
+Author: Mattimated
+Project-URL: Source Code, https://github.com/Mattimated/Bread-Slice
+Project-URL: Issue Tracker, https://github.com/Mattimated/Bread-Slice/issues
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
