@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: systemd-py
+Version: 0.1.0
+Summary: 
+Author: amiwrpremium
+Author-email: amiwrpremium@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: mkdocs (>=1.4.2,<2.0.0)
+Requires-Dist: mkdocs-gen-files (>=0.4.0,<0.5.0)
+Requires-Dist: mkdocs-git-committers-plugin-2 (>=1.1.1,<2.0.0)
+Requires-Dist: mkdocs-git-revision-date-localized-plugin (>=1.1.0,<2.0.0)
+Requires-Dist: mkdocs-literate-nav (>=0.5.0,<0.6.0)
+Requires-Dist: mkdocs-material (>=8.5.11,<9.0.0)
+Requires-Dist: mkdocs-section-index (>=0.3.4,<0.4.0)
+Requires-Dist: mkdocstrings[python] (>=0.19.0,<0.20.0)
+Requires-Dist: pydantic (>=1.10.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+
