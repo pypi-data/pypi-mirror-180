@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "edea"
+version = "0.1.0"
+description = "KiCAD file format parser and tools"
+authors = ["Elen Eisendle <ln@calcifer.ee>", "Zoé Bőle <zoe@astech.hu>", "Kaspar Emanuel <kaspar@kitspace.org>"]
+license = "EUPL-1.2"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = ">=1.21.4"
+Pillow = "^9.3.0"
+pyvips = "^2.2.1"
+pydantic = "^1.10.2"
+"svg.py" = "^1.4.1"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.15.8"
+pytest = "^7.2.0"
+bandit = "^1.7.4"
+pytest-cov = "^4.0.0"
+pyright = "^1.1.283"
+pytest-xdist = "^3.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
