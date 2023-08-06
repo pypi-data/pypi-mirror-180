@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: s2b-task
+Version: 0.0.4
+Summary: Python tasks manager for python3.11
+Author: nixissmtp
+Author-email: nixissmtp@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pydantic (>=1.10.2,<2.0.0)
+Requires-Dist: pytest (>=7.2.0,<8.0.0)

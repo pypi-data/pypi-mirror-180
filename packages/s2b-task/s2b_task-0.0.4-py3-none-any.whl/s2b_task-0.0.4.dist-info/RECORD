@@ -1,0 +1,11 @@
+s2b_task/__init__.py,sha256=EbUOuDzMbF6CH-w_DS_rD0v53XZVk3XueC2WbYFBE1g,93
+s2b_task/action.py,sha256=5pFVrC_VKp5YrFxsgimrIrjLZSq9zMIJ_g-1Rnl7IL4,588
+s2b_task/exc.py,sha256=TKc38kSLFyKvanQpOW0Psf126v1gfZrg7hgr45Kn71c,149
+s2b_task/schema.py,sha256=N1VucX6evbZpNSC7_ayPoHCQT1uAtUUGyDubP3OxWfA,55
+s2b_task/storage.py,sha256=iVgx4_Btk7FtsknoeNoLMWiE0k-lXwhVoM9dWdHJqhI,14
+s2b_task/task_executor.py,sha256=5stnyRN92X2JpKRYKsd5my5YQsrAiD5r7Dfd9V0LESA,990
+s2b_task-0.0.4.dist-info/entry_points.txt,sha256=ndR_FvmRxEixESPHDytst65MzTFiJzYten_3wrOCpak,58
+s2b_task-0.0.4.dist-info/LICENSE,sha256=s_Mln-I3DFrVwQj4WVdSHVefb_JZxamYHf0LpwMTWmA,1069
+s2b_task-0.0.4.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+s2b_task-0.0.4.dist-info/METADATA,sha256=BuS-hgopMQj0c7JUnzLUYUDibZ29k1svBJbNLG0Xo-Y,358
+s2b_task-0.0.4.dist-info/RECORD,,
