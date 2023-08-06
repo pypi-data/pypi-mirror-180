@@ -1,0 +1,2 @@
+[console_scripts]
+question_overview = question_overview:main
