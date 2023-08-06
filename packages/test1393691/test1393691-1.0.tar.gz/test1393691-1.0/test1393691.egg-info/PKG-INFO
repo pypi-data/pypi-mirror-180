@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: test1393691
+Version: 1.0
+Summary: test
+Author: test
+License: MIT
+Keywords: test
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
