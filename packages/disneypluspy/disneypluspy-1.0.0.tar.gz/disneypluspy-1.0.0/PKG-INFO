@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: disneypluspy
+Version: 1.0.0
+Summary: Checker.
+Author-email: Pandaxyz-xd <contact@tourble.org>
+Project-URL: Homepage, https://github.com/Pandaxyz-xd/disneypluspy
+Project-URL: Bug Tracker, https://github.com/Pandaxyz-xd/disneypluspy/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Disneypluspy account checker
+
+## Install
+It is necessary to depend on pypi, the official package manager in python [PyPi](https://pypi.org)
+
+`pip install disneypluspy`
+
+## Usage
+
+```py
+import disneypluspy
+disneypluspy.clear()
+path = input(f'{disneypluspy.color.cxt}Path: ')
+disneypluspy.checker(path)
+```
+
+## Source code
+See the source code of the package in [GitHub](https://github.com/Pandaxyz-xd/disneypluspy)
+
+## Home Page
+See all the documentation of the package in [GitHub](https://github.com/Pandaxyz-xd/disneypluspy)
+
+## Bug Tracker
+[Bug Tracker](https://Github.com/Pandaxyz-xd/disneypluspy/issues)
+
+## Python version
+`Python 3.10.9`
+
+## Credits
+
+[Pandaxyz-xd](https://Github.com/Pandaxyz-xd)
