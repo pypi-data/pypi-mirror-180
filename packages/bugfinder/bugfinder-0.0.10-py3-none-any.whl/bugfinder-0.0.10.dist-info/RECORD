@@ -1,0 +1,11 @@
+bugfinder/__init__.py,sha256=QL_bgNGpUw3-7jPwZBw0MhHJgH_h4n2zQQZkXBwW5IM,1482
+bugfinder/asrsummary.py,sha256=iqmBiLvhQkriqpe13uZqPj3FzzzwbBCOCGPmx3bpsCg,8005
+bugfinder/auth.py,sha256=IDCEoB-RI_Kf_xhkkBugQb082bhGciak5KeboXpePZs,1891
+bugfinder/sql.py,sha256=qz2g2IpHmaRkFsX6bd-IIAO4bJND7_OrU1kleDPGneI,2980
+bugfinder/utils.py,sha256=HsTFSisgdiLIToGYvSzaE7p53zUAm_QyfEKBAEmMHNg,213
+bugfinder/base/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bugfinder-0.0.10.dist-info/METADATA,sha256=eNPbjw6HWkeNj704iCvrT37uDDLZNYkcZmlFx9nRQH4,467
+bugfinder-0.0.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bugfinder-0.0.10.dist-info/entry_points.txt,sha256=jauqtPGMbF04h88msWEcgTtLbqG-Pw61knDDHqmmMx8,249
+bugfinder-0.0.10.dist-info/top_level.txt,sha256=rYaY5e2sOErUyQmLjPWjiVgH73oBpSb-4yFggHjKGZc,10
+bugfinder-0.0.10.dist-info/RECORD,,
