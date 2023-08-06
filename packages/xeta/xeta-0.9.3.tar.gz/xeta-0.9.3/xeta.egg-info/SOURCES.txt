@@ -1,0 +1,7 @@
+README.md
+setup.py
+xeta/__init__.py
+xeta.egg-info/PKG-INFO
+xeta.egg-info/SOURCES.txt
+xeta.egg-info/dependency_links.txt
+xeta.egg-info/top_level.txt
