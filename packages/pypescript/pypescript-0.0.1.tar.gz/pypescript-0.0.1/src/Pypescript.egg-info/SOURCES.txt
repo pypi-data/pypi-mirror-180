@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/Pypescript.egg-info/PKG-INFO
+src/Pypescript.egg-info/SOURCES.txt
+src/Pypescript.egg-info/dependency_links.txt
+src/Pypescript.egg-info/top_level.txt
+src/pypescript/__init__.py
+src/pypescript.egg-info/PKG-INFO
+src/pypescript.egg-info/SOURCES.txt
+src/pypescript.egg-info/dependency_links.txt
+src/pypescript.egg-info/top_level.txt
