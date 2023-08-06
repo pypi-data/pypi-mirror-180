@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+HashToDocx/Library.py
+HashToDocx/__init__.py
+HashToDocx.egg-info/PKG-INFO
+HashToDocx.egg-info/SOURCES.txt
+HashToDocx.egg-info/dependency_links.txt
+HashToDocx.egg-info/top_level.txt
