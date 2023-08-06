@@ -1,0 +1,11 @@
+shopping/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shopping/config.py,sha256=diMLHD8NU5gXDqVwsvpHkGzNW-8abdCv4xazf6yAuUg,920
+shopping/elk.py,sha256=vItZuIJ2HHD_xKvKlX3DkD2sgZyBPS8sL5ofEDIWSA4,7720
+shopping/get_tweepy.py,sha256=WE-lWLVwGjaNvgiumA_9b5dkfQ0Gulrjkys6u-BWumQ,2630
+shopping/preprocess.py,sha256=ZfGgY3KM8MtLsVTp_pcUUtSpMxpLu_W3LLBi6ZEbmec,16877
+shopping/scripts.py,sha256=S7Db1lJBzlDNBsAH2Q-T2wGXDWSxkjlvdey43eVo9CY,27643
+sysnet_shopping-1.0.3.dist-info/LICENSE.md,sha256=YFtyd777_YKGM3WflbnNBiV7do6wx92gDSShXhg7Ihs,12425
+sysnet_shopping-1.0.3.dist-info/METADATA,sha256=Nb_1gwcbI5z1B1WAkNIda1AwhJNn7rbxNaenXvq7IR8,15396
+sysnet_shopping-1.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sysnet_shopping-1.0.3.dist-info/top_level.txt,sha256=JxsnylQsBxM4g-iqFdKqRQITrXJY4YuUcu8-cOmxUCE,9
+sysnet_shopping-1.0.3.dist-info/RECORD,,
