@@ -1,0 +1,10 @@
+README.md
+licence.txt
+setup.py
+aplicacao_teste_para_treinamento/__init__.py
+aplicacao_teste_para_treinamento/ligar-camera-para-teste.py
+aplicacao_teste_para_treinamento/mudar-posicao-da-camera.py
+teste_de_funcionalidade_camera101.egg-info/PKG-INFO
+teste_de_funcionalidade_camera101.egg-info/SOURCES.txt
+teste_de_funcionalidade_camera101.egg-info/dependency_links.txt
+teste_de_funcionalidade_camera101.egg-info/top_level.txt
