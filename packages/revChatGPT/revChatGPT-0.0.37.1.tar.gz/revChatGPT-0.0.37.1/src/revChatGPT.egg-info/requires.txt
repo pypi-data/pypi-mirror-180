@@ -1,0 +1,4 @@
+requests
+httpx[http2]
+OpenAIAuth>=0.0.6
+svglib
