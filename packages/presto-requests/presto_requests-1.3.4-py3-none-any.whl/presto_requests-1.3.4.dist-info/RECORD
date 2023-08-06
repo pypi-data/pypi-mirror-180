@@ -1,0 +1,9 @@
+presto/__init__.py,sha256=OMCxAhuh_O8F5bxwd9V-iytCF82jOLT-CKQgs2VIUY4,43
+presto/adict.py,sha256=0w3ICyOOoWBoNiaXe8JyTm2wqavx8PwjqZ8Pf_aildA,1135
+presto/asynco.py,sha256=RPdg2tdua-eI3lbpYOGEzyKmUnY71Wf7AYLILUSQYRc,2005
+presto/handler.py,sha256=nmIj4WJsUMnnPL_xe1Fke_VH7bEIr0H_UVaCMl8S6rg,2083
+presto/presto.py,sha256=OsvPHRSfqMkVUKmfpH850a9SNr5Mmk52TCtHiOefP8Y,2903
+presto/request.py,sha256=Xw_fAA6SrPRP8NmN1p-9p2zQY5UDGeX1_Eh0_vBfyPo,6049
+presto_requests-1.3.4.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+presto_requests-1.3.4.dist-info/METADATA,sha256=O0rJZZqTY87WL_imEssicobG9ahBwNKrE7x6HXaFKvE,7974
+presto_requests-1.3.4.dist-info/RECORD,,
