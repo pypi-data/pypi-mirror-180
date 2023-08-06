@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+j1nuclei.egg-info/PKG-INFO
+j1nuclei.egg-info/SOURCES.txt
+j1nuclei.egg-info/dependency_links.txt
+j1nuclei.egg-info/entry_points.txt
+j1nuclei.egg-info/top_level.txt
