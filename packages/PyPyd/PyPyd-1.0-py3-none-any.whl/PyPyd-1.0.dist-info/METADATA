@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: PyPyd
+Version: 1.0
+Summary: Py to pyd
+Home-page: 
+Author: Lemon
+Author-email: 
+Requires: cython
+
