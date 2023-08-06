@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+rgbmatch.py
+rgbmatch.egg-info/PKG-INFO
+rgbmatch.egg-info/SOURCES.txt
+rgbmatch.egg-info/dependency_links.txt
+rgbmatch.egg-info/requires.txt
+rgbmatch.egg-info/top_level.txt
