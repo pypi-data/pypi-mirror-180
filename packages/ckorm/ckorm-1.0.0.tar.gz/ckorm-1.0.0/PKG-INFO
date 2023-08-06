@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ckorm
+Version: 1.0.0
+Summary: Clickhouse ORM
+Home-page: UNKNOWN
+Author: Lyle
+Author-email: lylemi@126.com
+License: GPLv3 Licence
+Description: # Clickhouse ORM
+        
+        
+Keywords: Clickhouse,ORM
+Platform: any
+Description-Content-Type: text/markdown
