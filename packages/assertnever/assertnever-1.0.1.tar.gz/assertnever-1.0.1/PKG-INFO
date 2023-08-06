@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: assertnever
+Version: 1.0.1
+Summary: Syntactical sugar for assert never.
+Author: ZeroIntensity
+License: MIT
+Project-URL: Source, https://github.com/ZeroIntensity/assertnever
+Keywords: assert,never
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Assert Never
+
+## Syntactical sugar for assert never
+
+### Example
+
+```py
+from an import never
+
+if 0:
+    assert never
+```
+
+### Installation
+
+#### Linux/macOS
+
+```
+python3 -m pip install -U assertnever
+```
+
+#### Windows
+
+```
+py -3 -m pip install -U assertnever
+```
