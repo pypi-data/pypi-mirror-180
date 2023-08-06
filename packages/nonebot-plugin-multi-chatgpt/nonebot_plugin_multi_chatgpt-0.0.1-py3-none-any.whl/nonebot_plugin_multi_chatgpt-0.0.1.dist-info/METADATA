@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-multi-chatgpt
+Version: 0.0.1
+Summary: My first Python package
+Home-page: UNKNOWN
+Author: Chrisyy
+Author-email: 1017975501@qq.com
+License: UNKNOWN
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: revChatGPT
+
+UNKNOWN
+
