@@ -1,0 +1,62 @@
+GmCapsule is an extensible Server for [Gemini](https://gemini.circumlunar.space/) and [Titan](gemini://transjovian.org/titan).
+
+See the [User manual](https://geminispace.org/gmcapsule/) for configuration and usage instructions.
+
+## Installation
+
+Install "gmcapsule" via `pip`:
+
+    pip install gmcapsule
+
+Then run the server daemon:
+
+    gmcapsuled
+
+## Running via systemd
+
+Create the following service file and save it as _~/.config/systemd/user/gmcapsule.service_:
+
+    [Unit]
+    Description=GmCapsule: extensible Gemini/Titan server
+    After=network.target
+
+    [Service]
+    Type=simple
+    ExecStart=<YOUR-INSTALL-PATH>/gmcapsuled
+    Restart=always
+    Environment="PYTHONUNBUFFERED=1"
+    StandardOutput=syslog
+    StandardError=syslog
+    SyslogIdentifier=gmcapsule
+
+    [Install]
+    WantedBy=default.target
+
+Replace `<YOUR-INSTALL-PATH>` with the actual path of `gmcapsuled`. `pip` will install it in a directory on your PATH.
+
+Then you can do the usual:
+
+    systemctl --user daemon-reload
+    systemctl --user enable gmcapsule.service
+    systemctl --user start gmcapsule
+
+The log can be viewed via journalctl (or syslog):
+
+    journalctl -xe --user-unit=gmcapsule
+
+## Change log
+
+### v0.2.2
+* Reduced required Python version to 3.6 (f-strings).
+* Added systemd instructions.
+
+### v0.2.1
+* Fixed error handling. Exceptions are now caught and the error message is printed.
+
+### v0.2
+* Added `[cgi] bin_root` configuration option for automatically and dynamically mapping all executables in a directory tree to URL entry points.
+* Minor documentation updates.
+* Published on PyPi as "gmcapsule".
+
+### v0.1
+* Initial public release.
