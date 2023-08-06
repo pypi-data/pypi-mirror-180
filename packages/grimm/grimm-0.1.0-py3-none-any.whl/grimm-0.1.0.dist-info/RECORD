@@ -1,0 +1,8 @@
+grimm/__init__.py,sha256=TDIrIXtJVzbdu7-2ut64ZMeLTQt2OBg9SINm1tfSbCM,39
+grimm/cleaner_core.py,sha256=lIeAgc5Go6cwGx_wXi1aS13VpMbHE1biP4wS22L6rpI,14971
+grimm/support/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+grimm/support/magicwords.py,sha256=v5ar8ZXyo27tc9fI8nZ16rc-fUoMUSQu3OdjG-Fdu5c,2878
+grimm/support/tags.py,sha256=yitx--TiO5LAKQ7QfthsxmQDM4RYSqhJtcXSUJH5nic,1263
+grimm-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+grimm-0.1.0.dist-info/METADATA,sha256=SmfxMrHLfkA2FrpbmEdjsaD2NEDiU5Zn7h29T-u-h3I,382
+grimm-0.1.0.dist-info/RECORD,,
