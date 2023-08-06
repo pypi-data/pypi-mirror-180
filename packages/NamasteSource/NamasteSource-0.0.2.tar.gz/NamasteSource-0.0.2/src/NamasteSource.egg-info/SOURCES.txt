@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/NamasteSource/__init__.py
+src/NamasteSource/example.py
+src/NamasteSource.egg-info/PKG-INFO
+src/NamasteSource.egg-info/SOURCES.txt
+src/NamasteSource.egg-info/dependency_links.txt
+src/NamasteSource.egg-info/top_level.txt
