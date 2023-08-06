@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: aiogram3-form
+Version: 0.0.1
+Summary: A library to create forms in aiogram3
+License: MIT
+Author: TrixiS
+Author-email: oficialmorozov@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# aiogram3-form
+A library to create forms in aiogram3
+
