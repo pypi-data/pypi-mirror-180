@@ -1,0 +1,7 @@
+discord.py>=2.1.0
+websockets>=10.4
+
+[docs]
+sphinx
+sphinxcontrib_trio
+sphinx-rtd-theme
