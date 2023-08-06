@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: zlogin
+Version: 0.0.8
+Summary: Zerodha Login Automation - Selenium Based
+Home-page: https://github.com/prabhatrastogik/zlogin
+License: MIT
+Keywords: Zerodha,Automated Login,Selenium Login
+Author: Prabhat Rastogi
+Author-email: prabhatrastogik@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: boto3
+Requires-Dist: kiteconnect
+Requires-Dist: pyotp
+Project-URL: Repository, https://github.com/prabhatrastogik/zlogin
+Description-Content-Type: text/markdown
+
+# Zerodha Login Automated; This package reads access token stored in dynamodb and provides KiteConnect / KiteTicker instances.
+# This package can only be used in conjunction with a dynamodb access_store that keeps access key stored 
+## Context
+This code is for a python package for automated login to Zerodha. The redirect URL is not handled here - Separate Repos with a container that runs as a lambda function saves the access token to dynamoDB
+
+Check out zlogin-puppeteer (headless chrome based login to zerodha) [can be hosted for free in Google cloud functions]
+and zerodha-dynamodb-save-accesstoken [AWS lambda container] to save access token to dynamodb from redirect url.
+
+## How to productionalize
+- Get Zerodha (kite.trade) account for API based access to the platform.
+- Save the API key as env variable ZAPI
+
+- Checkout zlogin-puppeteer repository that automates login process (using headless chrome)
+- Check out the zerodha-dynamodb-save-accesstoken repository to set up a lambda function to handle Zerodha redirect url (it saves the access token in the save_access table in dynamodb)
+- Install zlogin package from pypi, "pip install zlogin"
+
+```python
+import zlogin
+access_token = zlogin.fetch_access_token()
+```
+
+## This repo is a sister repo with zerodha-dynamodb-save-accesstoken & zlogin-puppeteer tools which have a container code for lambda function that handles storage of access token to dynamodb and puppeteer based Google Cloud Function code to handle login process which redirects to the lambda.
+
