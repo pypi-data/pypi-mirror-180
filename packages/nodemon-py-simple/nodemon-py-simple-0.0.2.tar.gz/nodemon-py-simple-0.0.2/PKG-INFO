@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: nodemon-py-simple
+Version: 0.0.2
+Summary: Nodemon like for python, very simple and without dependencies
+Home-page: https://github.com/thomasync/nodemon-py-simple
+Author: thomasync
+License: MIT
+Download-URL: https://github.com/thomasync/nodemon-py-simple/archive/refs/tags/0.0.2.tar.gz
+Keywords: python,nodemon,simple,watch,file,change,execute,command
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
