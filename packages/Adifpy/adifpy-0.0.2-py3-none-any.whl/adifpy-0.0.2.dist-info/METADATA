@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: Adifpy
+Version: 0.0.2
+Summary: Perform automatic differentiation
+Project-URL: Homepage, https://code.harvard.edu/CS107/team33
+Author-email: Aaron Berger <aaronberger@college.harvard.edu>, Alex Tonelli <atonelli@college.harvard.edu>, Eli Kirtley <elikirtley@college.harvard.edu>, Jack Tian <jtian@college.harvard.eduu>, Ream Gebrekidan <rgebrekidan@college.harvard.edu>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: matplotlib~=3.6.1
+Requires-Dist: numpy~=1.23.4
+Description-Content-Type: text/markdown
+
+<p align="center">
+  <a href="https://code.harvard.edu/pages/CS107/team33/">
+    <img src="https://code.harvard.edu/CS107/team33/actions/workflows/coverage.yaml/badge.svg" alt="Coverage badge">
+  </a>
+  <a href="https://code.harvard.edu/CS107/team33/actions/workflows/test.yaml">
+    <img src="https://code.harvard.edu/CS107/team33/actions/workflows/test.yaml/badge.svg" alt="Test bage"
+  </a>
+</p>
+
