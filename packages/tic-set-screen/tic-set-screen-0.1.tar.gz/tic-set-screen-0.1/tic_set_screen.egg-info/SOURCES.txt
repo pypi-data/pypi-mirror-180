@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+tic-set-screen
+tic_set_screen.egg-info/PKG-INFO
+tic_set_screen.egg-info/SOURCES.txt
+tic_set_screen.egg-info/dependency_links.txt
+tic_set_screen.egg-info/requires.txt
+tic_set_screen.egg-info/top_level.txt
+tic_set_screen.egg-info/zip-safe
