@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: umlts_folioapi
+Version: 0.0.5
+Summary: A package for consuming UMS's FOLIO Instance API
+Author-email: Joe Brown <jrb7f0@missouri.edu>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# UMLTS/UMS FOLIO API Package
+
+
+# Config
+
+To setup config you will need to create a file named config.ini inside the config/ directory.  See the config.example.ini.
