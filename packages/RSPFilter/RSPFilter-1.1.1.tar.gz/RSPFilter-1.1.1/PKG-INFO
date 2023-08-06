@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: RSPFilter
+Version: 1.1.1
+Summary: RSPFilter: Relion Star Particles file homogeneous filtering.
+Home-page: https://github.com/tubiana/RSPFilter
+Author: Thibault Tubiana
+Author-email: tubiana.thibault@gmail.com
+License: MIT
+Platform: Linux
+Platform: Solaris
+Platform: Mac OS-X
+Platform: darwin
+Platform: Unix
+Platform: win32
+License-File: LICENSE
+
+UNKNOWN
+

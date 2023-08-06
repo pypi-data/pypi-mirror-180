@@ -1,0 +1,6 @@
+numpy
+starfile
+plotly
+scipy
+panel
+pandas
