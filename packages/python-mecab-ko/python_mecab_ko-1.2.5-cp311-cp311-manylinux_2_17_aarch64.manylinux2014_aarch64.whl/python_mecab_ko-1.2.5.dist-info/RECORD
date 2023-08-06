@@ -1,0 +1,12 @@
+_mecab.cpython-311-aarch64-linux-gnu.so,sha256=qSUqBdCQkeLbxvdBsriaA6Tw4OsUZy3JgtOv1bZo4mo,750353
+python_mecab_ko-1.2.5.dist-info/top_level.txt,sha256=Lf8XT2zNJYT5il6pTUd9pbfHEiuUp-0mQUBnr3UIFec,13
+python_mecab_ko-1.2.5.dist-info/METADATA,sha256=R5hj_aIxb9byHuu-YlOq7ikQPdttmos9dR49pI-QFZU,3071
+python_mecab_ko-1.2.5.dist-info/LICENSE,sha256=2nSpg-6mORA7XxTcEp1DzHM4vtjYHfcDUHMCGQr8qlE,1476
+python_mecab_ko-1.2.5.dist-info/RECORD,,
+python_mecab_ko-1.2.5.dist-info/WHEEL,sha256=AZvMRZRhP9mpa2BxxKGFEJLXXIPmgMh0wi2b2p9oSdE,154
+mecab/__main__.py,sha256=j6K-Cf9_Vrlkq2M6aVLeMQJsrQAcAllZmwHARwgfnZQ,1352
+mecab/mecabrc,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mecab/__init__.py,sha256=mKQ9En6zCuL9RHyMH-49MTHwIMo4J7SNaqQJe9hEW-k,83
+mecab/mecab.py,sha256=D9iRd64RHiQVSfMHLBzGrNknBYGGT_-jtkOoTI3E8c8,2767
+mecab/pybind/_mecab/utils.h,sha256=q2mxAaWi5Xk6wlq5YRxRWwrMQ8hoCOtXhbRavPpBPKQ,230
+python_mecab_ko.libs/libmecab-9fdcf771.so.2.0.0,sha256=_NHSg29UbWrFosWY6xoZVsICIV-Q7kFVUjEyg9o3Nuc,1047233
