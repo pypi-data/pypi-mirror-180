@@ -1,0 +1,11 @@
+camml/__init__.py,sha256=1mptEzQihbdyqqzMgdns_j5ZGK9gz7hR2bsgA_TnjO4,22
+camml/clustering.py,sha256=eExWo_wRRZLQuFP2G-F6sYrzXYy15HcO5Ih_ZMNwUKE,91
+camml/coral.py,sha256=0VRSOkWg-1FSLP9xieYwYSrMPa0pzbbZNcPgRwgjMLs,7500
+camml/cv2dnn.py,sha256=__sj8DnK_kO8YZdC61ak6Ctesmcu1rduFY3bFVxVkyw,6857
+camml/draw.py,sha256=qd5VEktS79d09RKsiH8bfZfaRD54jjRqf39fqjaukKM,3644
+camml-0.0.4.dist-info/DESCRIPTION.rst,sha256=PHZXwwA7hjXu4ey8NYmRu9Uy498llh8F88nDDjxRy7Q,223
+camml-0.0.4.dist-info/METADATA,sha256=3we_1oOIrZMihg1RiTmOsXQMfumSuFMMMhLAFFu3JvQ,844
+camml-0.0.4.dist-info/RECORD,,
+camml-0.0.4.dist-info/WHEEL,sha256=hZvi-8L6mc2COqhOUWREM_h2lvnJbaHycZt8eohtmso,92
+camml-0.0.4.dist-info/metadata.json,sha256=bPR5t-2qkR762FJScMSWlqVtuAwD9eq4BguiOEe9zvg,764
+camml-0.0.4.dist-info/top_level.txt,sha256=YZK2Y7cHcKkIAP9YW6pqWZfhAybuOD351s8_bNRCAE8,6
