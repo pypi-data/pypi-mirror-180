@@ -1,0 +1,14 @@
+[
+  "tests/test_rename.py::test_default_tmpdir",
+  "tests/test_rename.py::test_help",
+  "tests/test_rename.py::test_invalid_regex_ref",
+  "tests/test_rename.py::test_regex_copy",
+  "tests/test_rename.py::test_simple",
+  "tests/test_rename.py::test_simple_copy",
+  "tests/test_rename.py::test_slash",
+  "tests/test_rename.py::test_tmp",
+  "tests/test_rename.py::test_with_fs[APFS]",
+  "tests/test_rename.py::test_with_fs[Case-sensitive HFS+]",
+  "tests/test_rename.py::test_with_fs[MS-DOS FAT16]",
+  "tests/test_rename.py::test_with_fs[MS-DOS FAT32]"
+]

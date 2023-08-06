@@ -1,0 +1,4 @@
+{
+  "tests/test_rename.py::test_with_fs[APFS]": true,
+  "tests/test_rename.py::test_with_fs[MS-DOS FAT32]": true
+}
