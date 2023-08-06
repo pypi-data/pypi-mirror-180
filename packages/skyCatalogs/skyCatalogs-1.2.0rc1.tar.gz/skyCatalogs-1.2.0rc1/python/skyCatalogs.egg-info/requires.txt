@@ -1,0 +1,7 @@
+numpy
+healpy
+astropy
+pyarrow
+pandas
+galsim
+dust_extinction
