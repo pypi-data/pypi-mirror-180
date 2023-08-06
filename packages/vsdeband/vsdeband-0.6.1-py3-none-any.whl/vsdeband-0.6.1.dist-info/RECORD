@@ -1,0 +1,17 @@
+vsdeband/__init__.py,sha256=KH9MMsYOE4GN30cnJh4NTVKSdz9nXQkFJAtQFxfzrZ4,378
+vsdeband/_metadata.py,sha256=_1SF7jGteTj1eGwzwBc4Ue4oeJO5XlbQJ2p0a5SjZ2I,389
+vsdeband/abstract.py,sha256=6ESmo5CynsknCLH-Obs1LznscJGaZZSvq5QGLXHJ5n4,1059
+vsdeband/f3kdb.py,sha256=o8D9xvqOrlCr1wZXLfnLDaa6MP6cHp-X-JJw6rzRm4w,9380
+vsdeband/filters.py,sha256=lcAd7ttUlf34slIvgFj9QKHetTkU3LPJTT444gu12p0,5604
+vsdeband/funcs.py,sha256=ljmbDGtDxG1bxsdBtIzsaiuqvMHhXUAElrNeSCxqRig,6944
+vsdeband/grainers.py,sha256=Q9Ta-Sy0mrlkPinBMWOhdOxy-963P80VO9clx8BviNY,4807
+vsdeband/mask.py,sha256=pqjBDCgFpXsA6BvFCdM0gGkVa_xaiAfOOmjWSJ5xH1E,2747
+vsdeband/noise.py,sha256=lpp6IMRH_UAAAt88q22xiMxsRUJ6QNAwzVaV3MzsDCw,5790
+vsdeband/placebo.py,sha256=jxVJpijHbuErz2qJm9amsdG_obwz3xvVnZdBDAoqnHU,6075
+vsdeband/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsdeband/types.py,sha256=niNMA1m_etZzQybwi-DC0WWxWX2gRTdpsylp1KoTMCQ,320
+vsdeband-0.6.1.dist-info/LICENSE,sha256=fhIdf28UjsBDyhLk37g_WjtwtJIGG_rhbCE3rPZVDn4,1071
+vsdeband-0.6.1.dist-info/METADATA,sha256=VmZq0AXe6ZPAdNeghovtzztFFxoA0q_-e9BEXe7nCNc,1358
+vsdeband-0.6.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+vsdeband-0.6.1.dist-info/top_level.txt,sha256=AKZD0lW7DPwmpuMC9-DlrEC6rqTluB3AXXbtbbdmW6I,9
+vsdeband-0.6.1.dist-info/RECORD,,
