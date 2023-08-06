@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: biquaternions
+Version: 0.0.2
+Summary: A package for works with biquaternions
+Home-page: https://github.com/QuaternionLab/biquaternions/
+Author: MiLis
+Author-email: quaternionlab@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ipython (>=6)
+Requires-Dist: nbformat (>=4)
+Requires-Dist: nbconvert (>=5)
+Requires-Dist: requests (>=2)
+
+# biquaternions
+Library for works with biquaternions//Р‘РёР±Р»РёРѕС‚РµРєР° РґР»СЏ СЂР°Р±РѕС‚С‹ СЃ Р±РёРєРІР°С‚РµСЂРЅРёРѕРЅР°РјРё
+
+
