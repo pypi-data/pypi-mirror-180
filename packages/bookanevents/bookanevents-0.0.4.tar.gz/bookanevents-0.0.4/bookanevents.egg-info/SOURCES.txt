@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+ScrapEvent/ScrapEvent.py
+ScrapEvent/__init__.py
+ScrapEvent/app.py
+bookanevents.egg-info/PKG-INFO
+bookanevents.egg-info/SOURCES.txt
+bookanevents.egg-info/dependency_links.txt
+bookanevents.egg-info/requires.txt
+bookanevents.egg-info/top_level.txt
