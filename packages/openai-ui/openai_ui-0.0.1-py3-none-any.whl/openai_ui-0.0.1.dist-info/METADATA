@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: openai-ui
+Version: 0.0.1
+Summary: UI for openai completions
+Home-page: https://github.com/skymoore/openai-ui
+Author: Sky Moore
+Author-email: i@msky.me
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openai (==0.25.0)
+Requires-Dist: PyQt5 (==5.15.7)
+
+# OpenAI UI
+
+### Install
+```bash
+pip install openai-ui
+```
+
+### Usage
+```bash
+openai-ui
+```
