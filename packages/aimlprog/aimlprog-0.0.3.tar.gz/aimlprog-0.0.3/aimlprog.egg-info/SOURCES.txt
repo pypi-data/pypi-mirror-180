@@ -1,0 +1,7 @@
+setup.py
+aimlprog/__init__.py
+aimlprog/aimlprog.py
+aimlprog.egg-info/PKG-INFO
+aimlprog.egg-info/SOURCES.txt
+aimlprog.egg-info/dependency_links.txt
+aimlprog.egg-info/top_level.txt
