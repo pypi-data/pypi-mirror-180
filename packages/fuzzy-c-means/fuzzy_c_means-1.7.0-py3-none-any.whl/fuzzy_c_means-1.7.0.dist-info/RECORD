@@ -1,0 +1,9 @@
+LICENSE,sha256=gjovZko76v2KWi7OIVtXP7MjclhwLZ4iRc22DlyoW1k,1077
+fcmeans/__init__.py,sha256=3FRMIe7-XKKb1vtIembbDZvlflosR__-XuzTwRGkgJ0,134
+fcmeans/cli.py,sha256=HKsr4OJkjSyQ8_9f2dqdRpuL0VkHd2uyxlEm_8HNCYA,6494
+fcmeans/main.py,sha256=PZGM67flNfIMfRaxV9VL9J0hRwLYrk-JAT3tQ20MI1M,6498
+fuzzy_c_means-1.7.0.dist-info/entry_points.txt,sha256=P3EO7b4XXuyUHaQRiyULKf5SCa_MSm13Y36Cgb8dZe8,39
+fuzzy_c_means-1.7.0.dist-info/LICENSE,sha256=gjovZko76v2KWi7OIVtXP7MjclhwLZ4iRc22DlyoW1k,1077
+fuzzy_c_means-1.7.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+fuzzy_c_means-1.7.0.dist-info/METADATA,sha256=eJpau28NU9Ik69blLZN-AtEGP4eLQotl7v9KOBJ0xF0,4656
+fuzzy_c_means-1.7.0.dist-info/RECORD,,
