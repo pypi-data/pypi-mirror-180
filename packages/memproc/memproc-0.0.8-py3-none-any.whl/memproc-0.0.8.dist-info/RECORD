@@ -1,0 +1,10 @@
+memproc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+memproc/main.py,sha256=MJbCsc48z-LegUUS4Xf-6MEjJKTce3e1Osod3Gk2ntQ,1847
+memproc/lib/process.py,sha256=glzCgF06SoK0TaYybMypsyWegQTUAKbgRp6g7n-Xa8A,1134
+memproc/lib/process_pool.py,sha256=FFh3fuBHrqeZoxeNcyL7AKx7sOgT7UesFLVsOnFUJH8,2446
+memproc/lib/utils.py,sha256=k8wBJSiXvKRwl08pMM-Pj1-PrFM-JEMrdBMMgGmzB4k,620
+memproc-0.0.8.dist-info/METADATA,sha256=_RBGWsOV8slvcr0GKNl9zRXXx43r4h1mteB6fbvBHho,1945
+memproc-0.0.8.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+memproc-0.0.8.dist-info/entry_points.txt,sha256=nwdauHzTmI9aLru3_L4SSQD2eJgG2md1jxUg8CS-e5M,45
+memproc-0.0.8.dist-info/licenses/LICENSE,sha256=dsRbPMeoqQ2yOXrV946Boa27jLvyTpio-h-79kBpotI,1080
+memproc-0.0.8.dist-info/RECORD,,
