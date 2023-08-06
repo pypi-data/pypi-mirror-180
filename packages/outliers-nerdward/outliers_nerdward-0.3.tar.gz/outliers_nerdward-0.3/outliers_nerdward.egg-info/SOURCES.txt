@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+outliers/__init__.py
+outliers/__main__.py
+outliers/definitions.py
+outliers_nerdward.egg-info/PKG-INFO
+outliers_nerdward.egg-info/SOURCES.txt
+outliers_nerdward.egg-info/dependency_links.txt
+outliers_nerdward.egg-info/not-zip-safe
+outliers_nerdward.egg-info/top_level.txt
