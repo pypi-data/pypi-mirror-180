@@ -1,0 +1,2 @@
+include *.txt *.py *.md *.rst
+recursive-include LeIA *.txt *.py
