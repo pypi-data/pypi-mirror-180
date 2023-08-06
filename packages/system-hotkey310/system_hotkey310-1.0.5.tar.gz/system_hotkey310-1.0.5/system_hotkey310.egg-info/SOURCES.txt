@@ -1,0 +1,16 @@
+AUTHORS.rst
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+system_hotkey/__init__.py
+system_hotkey/keysymdef.py
+system_hotkey/system_hotkey.py
+system_hotkey/util.py
+system_hotkey/xpybutil_keybind.py
+system_hotkey310.egg-info/PKG-INFO
+system_hotkey310.egg-info/SOURCES.txt
+system_hotkey310.egg-info/dependency_links.txt
+system_hotkey310.egg-info/top_level.txt
