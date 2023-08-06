@@ -1,0 +1,7 @@
+setup.py
+badlock/__init__.py
+badlock.egg-info/PKG-INFO
+badlock.egg-info/SOURCES.txt
+badlock.egg-info/dependency_links.txt
+badlock.egg-info/requires.txt
+badlock.egg-info/top_level.txt
