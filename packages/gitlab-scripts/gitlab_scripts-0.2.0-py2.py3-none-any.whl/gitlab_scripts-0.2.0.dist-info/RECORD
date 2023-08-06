@@ -1,0 +1,12 @@
+gitlab_scripts/__init__.py,sha256=da1PTClDMl-IBkrSvq6JC1lnS-K_BASzCvxVhNxN5Ls,13
+gitlab_scripts/__main__.py,sha256=umM5bOpvkXdADDQXAdGDLrjTkbwEu2S9U1P1csUjC1w,1279
+gitlab_scripts/gitlab.py,sha256=5N4acDsmlrP0k46T82G_lZxDfyt_KLO8X-bedZQfgmk,224
+gitlab_scripts/project_badge/__init__.py,sha256=JFgCZ_fYPxOsi0BMuWLvwzbzJrBEmSmtGTqbHBTTqAs,280
+gitlab_scripts/project_badge/duplicate.py,sha256=Pu2A0c4Yb7tazMilyob6E1HvxmkpLMqaB2biHf4fqM4,1983
+gitlab_scripts-0.2.0.dist-info/LICENSE,sha256=bKUdE7hriXIYAeOweWolI60mGonAk24oROq-4nw3lj8,1086
+gitlab_scripts-0.2.0.dist-info/METADATA,sha256=H-1bVMk3pl2nMZIsuN65K2L4G6x5qoM0wfQCOlC8cdg,2060
+gitlab_scripts-0.2.0.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+gitlab_scripts-0.2.0.dist-info/entry_points.txt,sha256=CqoIHy8zZglnzCXA4sEydgsNGk7CKno53oVfkma9MaY,64
+gitlab_scripts-0.2.0.dist-info/top_level.txt,sha256=mTZdl8LvdByTbR2zEhhqdTuZhnmN8r6kEMFpO5x4NyY,15
+gitlab_scripts-0.2.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+gitlab_scripts-0.2.0.dist-info/RECORD,,
