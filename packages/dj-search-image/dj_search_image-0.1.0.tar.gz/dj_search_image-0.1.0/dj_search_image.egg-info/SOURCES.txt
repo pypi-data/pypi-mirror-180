@@ -1,0 +1,9 @@
+setup.py
+dj_search_image.egg-info/PKG-INFO
+dj_search_image.egg-info/SOURCES.txt
+dj_search_image.egg-info/dependency_links.txt
+dj_search_image.egg-info/entry_points.txt
+dj_search_image.egg-info/requires.txt
+dj_search_image.egg-info/top_level.txt
+scripts/__init__.py
+scripts/djsearch.py
