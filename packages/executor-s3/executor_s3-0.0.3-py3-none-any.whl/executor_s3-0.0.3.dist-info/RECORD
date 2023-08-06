@@ -1,0 +1,8 @@
+executor_s3/__init__.py,sha256=4v1BhE6QVbNytsYPV-4Hyt2JedL08k_JvkVCztpOCrY,3608
+executor_s3/_config.py,sha256=tlS5VNgqKrWU1qc_QRBmHW3WZBe2snpwFXJY1yzrJd8,506
+executor_s3/install.py,sha256=iWEdyppJXrHaku1WrOGx7iV2LLBNyKGvqyeX0KtOysk,1248
+executor_s3-0.0.3.dist-info/METADATA,sha256=ljKJ87WwsuGSzTiREvvLYHLySKfNa9Ip6ovFATd98As,1006
+executor_s3-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+executor_s3-0.0.3.dist-info/entry_points.txt,sha256=4hiVGjT7rNUeHOTo1x5yiTRc9bKtqyREsPATUWkYq7U,59
+executor_s3-0.0.3.dist-info/top_level.txt,sha256=dGROYD8icAuXCfokSI4ZEHHsRLvRlA3eeEKuyXVxbXU,12
+executor_s3-0.0.3.dist-info/RECORD,,
