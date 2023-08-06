@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+InstagramAPI/InstagramBusinessAPI.py
+InstagramAPI/__init__.py
+python_InstagramBusinessAPI.egg-info/PKG-INFO
+python_InstagramBusinessAPI.egg-info/SOURCES.txt
+python_InstagramBusinessAPI.egg-info/dependency_links.txt
+python_InstagramBusinessAPI.egg-info/requires.txt
+python_InstagramBusinessAPI.egg-info/top_level.txt
