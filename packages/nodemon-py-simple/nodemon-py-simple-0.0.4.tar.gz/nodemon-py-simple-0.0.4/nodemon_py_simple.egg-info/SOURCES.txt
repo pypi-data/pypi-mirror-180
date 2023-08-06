@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nodemon_py_simple/__init__.py
+nodemon_py_simple/main.py
+nodemon_py_simple.egg-info/PKG-INFO
+nodemon_py_simple.egg-info/SOURCES.txt
+nodemon_py_simple.egg-info/dependency_links.txt
+nodemon_py_simple.egg-info/entry_points.txt
+nodemon_py_simple.egg-info/top_level.txt
