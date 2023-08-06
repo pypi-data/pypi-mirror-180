@@ -1,0 +1,6 @@
+PyQt5
+future
+numpy
+opencv-python
+python-math
+wheel
