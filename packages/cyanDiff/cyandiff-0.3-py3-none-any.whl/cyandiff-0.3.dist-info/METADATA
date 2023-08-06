@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cyanDiff
+Version: 0.3
+Summary: AD package for CS107 final project
+Author-email: Chris Zhu <chriszhu@college.harvard.edu>, Andrew Zhang <andrew_zhang1@college.harvard.edu>, Nithin Kavi <nithinkavi@college.harvard.edu>, Yingzhi He <yingzhi_he@gsd.harvard.edu>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# cyanDiff - a simple auto-differentiation library
+[![.github/workflows/coverage.yml](https://code.harvard.edu/CS107/team40/actions/workflows/coverage.yml/badge.svg)](https://code.harvard.edu/CS107/team40/actions/workflows/coverage.yml) [![.github/workflows/test.yml](https://code.harvard.edu/CS107/team40/actions/workflows/test.yml/badge.svg)](https://code.harvard.edu/CS107/team40/actions/workflows/test.yml)

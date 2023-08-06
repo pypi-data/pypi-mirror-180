@@ -1,0 +1,11 @@
+cyanDiff/__init__.py,sha256=Ce53yITk731JPUij8QDeYCqhuyJ-Tx64jDNFBdWoQKo,546
+cyanDiff/ad_helpers.py,sha256=tJZKrNel7P9glr3rzdy8jV5hX1X_x2iCVmN01-2SoRY,851
+cyanDiff/ad_overloads.py,sha256=IZVCkv1ibJjzIjCtzcm6woBtRwGhaFTj2UrySdoZtV8,21697
+cyanDiff/ad_types.py,sha256=_Do4bm1ljYsBZFVXP5e5DNaT0pfjbaNWgFZ8vngWoAw,26500
+cyanDiff/critical_points.py,sha256=NnWy77sKiM5t5d6IaP8qTXSoHT5cclhHzm0bR8FmaXc,2922
+cyanDiff/newton_raphson.py,sha256=_6pAybLxID2jqjRcxAPfYCCJxWAU2qon4VfS7j43I6I,3774
+cyanDiff/reverse_mode.py,sha256=AkIYGMeXV1a817Y5D5TUqzDiHCptzGzy2AaqddN3LVk,28656
+cyandiff-0.3.dist-info/METADATA,sha256=ovfPREwenGa3j5JdANDT-A7iKgybMEY9QbnYwvx55Xw,929
+cyandiff-0.3.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+cyandiff-0.3.dist-info/licenses/LICENSE,sha256=aLbXJVv3Q7xInSd0DsTV8HMbfFbS5zYRrfam8QB4n20,1066
+cyandiff-0.3.dist-info/RECORD,,
