@@ -1,0 +1,10 @@
+auto34diff/__init__.py,sha256=6FeMwDsOPei_LaKumKrZB7oUPNBWsseyZfgLGeQI_yw,300
+auto34diff/autodiff.py,sha256=hg7bGNh6GedeuHRDHby992NPeTwLj0dCrI30uslkmR0,3095
+auto34diff/forward.py,sha256=KvogWbirJBIkAufQsag2kCfLmw2Dv5Gm0ofmTw7pwEY,2763
+auto34diff/functions.py,sha256=HKF0RVYeJ-qsFn_w1EckTSjy5SeQ-0MXZGaah--_Gnk,8991
+auto34diff/reverse.py,sha256=v-46Y4VOU7Tc5lP7aaLTz4wuF0kEt8ReDiXrL3Rp15E,3261
+auto34diff-0.1.3.dist-info/LICENSE,sha256=Unc3mUdW5Ty1rGpCn0cKrVHQwH86V_q7MlhVGfbML5U,1075
+auto34diff-0.1.3.dist-info/METADATA,sha256=xGKB1EqdZrTMNhLZQGgw3ED_xUHOmeEBAnygmPqRCmw,171
+auto34diff-0.1.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+auto34diff-0.1.3.dist-info/top_level.txt,sha256=to4h351wToo9D-VkQPUv2Igi4PFVdWYhMKMSSrEmd-M,11
+auto34diff-0.1.3.dist-info/RECORD,,
