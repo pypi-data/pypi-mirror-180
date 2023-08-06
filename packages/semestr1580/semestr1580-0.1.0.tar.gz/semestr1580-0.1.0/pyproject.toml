@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "semestr1580"
+version = "0.1.0"
+description = "Sdo docks"
+authors = ["pavelglazunov <p6282813@yandex.ru>"]
+#readme = "Sdo docks"
+
+[tool.poetry.dependencies]
+python = "^3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
