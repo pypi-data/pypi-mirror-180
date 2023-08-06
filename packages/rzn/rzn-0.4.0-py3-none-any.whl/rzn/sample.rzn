@@ -1,0 +1,10 @@
+[main]
+remote = /home/meeuw/tmp/remote
+append = /current/
+sparsefilters =
+   /bluh
+args = -Pa
+  --backup
+  --backup-dir={target}../{datetimeisoformat}
+  --delete
+  --delete-excluded
