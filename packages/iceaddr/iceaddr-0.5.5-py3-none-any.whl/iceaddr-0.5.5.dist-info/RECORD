@@ -1,0 +1,14 @@
+.DS_Store,sha256=WGhf5dVY_iOxCLtgWPWXRjD2IyGvYKeN4VM3QMBgbYc,8196
+iceaddr/__init__.py,sha256=EHCHZhj7-5HqSk5FSXQ6DS_UNj31AN8R78KccBrvQtA,377
+iceaddr/addresses.py,sha256=a_T6xIZIP8BoHRXlm_5rkmALDCQdZ8cWRXH-hEQQz1k,6149
+iceaddr/db.py,sha256=vDnnSzNJaoVzjQWuf7YmFsTb3u21lRdmCJkN-220N_8,1094
+iceaddr/dist.py,sha256=aI8UoWEXCCpXmJhQMvMqME0EAFpAWsU61SdrMmQKuX8,1480
+iceaddr/placenames.py,sha256=1ikYFp2NqfqGS4VTscxfyNUFoY0AlSZSie2Q4fchurU,3289
+iceaddr/postcodes.py,sha256=lJVlRHS4eRz4hjhHCCJMMj_B3znQYn-TvSCbDEeTPy0,44617
+iceaddr/resources/iceaddr.db,sha256=z5FjkC9OQWqIZyJZviZmP3gl8hVYo1wX9lOzFhTMeVs,24072192
+iceaddr/resources/stadfangaskra.db,sha256=ru8e1V8cw21oDRupiw7UJj0aNaHKnFVlzcNOAeuC9fc,21745664
+iceaddr-0.5.5.dist-info/LICENSE.txt,sha256=0D89llkCrw7vvaliLx2jce5K4DivUxYABRrVbH3Vank,1526
+iceaddr-0.5.5.dist-info/METADATA,sha256=yF2yOO8C-aEvOLzhuGRfbfL11-ZMqtzPeVGqz9b5scg,11987
+iceaddr-0.5.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+iceaddr-0.5.5.dist-info/top_level.txt,sha256=u36x107yaNii-xtJWt35UBBgvPST_TbHrmhBDmlUlQg,8
+iceaddr-0.5.5.dist-info/RECORD,,
