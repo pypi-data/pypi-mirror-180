@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ky.scrouter"
+version = "1.0.post1"
+description = "A tool that looks for relations between users"
+authors = ["Leon \"Procybit\" Shepelev <kyleusnaff@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+keywords = ["scratch", "routing", "ky", "procybit"]
+packages = [
+    { include = "scrouter" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "~2.28"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

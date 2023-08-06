@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: ky.scrouter
+Version: 1.0.post1
+Summary: A tool that looks for relations between users
+License: MIT
+Keywords: scratch,routing,ky,procybit
+Author: Leon "Procybit" Shepelev
+Author-email: kyleusnaff@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.28,<2.29)
+Description-Content-Type: text/markdown
+
+# Scrouter
+
+A tool that looks for relations between users.
+
+## Installing
+
+Via pip:
+
+```
+pip install ky.scrouter
+```
+
+You can also update to the latest version:
+
+```
+pip install ky.scrouter --upgrade
+```
+
+**Make sure you have Python 3.8 or above installed!**
+
+## Program launch
+
+Via terminal:
+
+```
+python -m scrouter
+```
+
+After that, program will try to find the shortest follower of follower path:
+
+![](https://gyazo.com/c7525a054da578cfb09395093afb1e51.png)
+
+## Library
+
+```python
+>>> import scrouter
+>>> scrouter.route('user1', 'user2')
+...
+```
+
+## License
+This project follows MIT license (see [LICENSE](LICENSE)).
+
