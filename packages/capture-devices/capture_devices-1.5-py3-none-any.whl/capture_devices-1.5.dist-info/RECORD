@@ -1,0 +1,8 @@
+capture_devices/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+capture_devices/capture_devices.py,sha256=f6yE7nDYLWzZukCcZbSbAtPwf9uBcqpx7OSb4f0rxmA,5419
+capture_devices/utils_capture/__init__.py,sha256=fw9ALoFcEAcOFiZO5nQXNoAJ9va667kZqjRZ71q1uTA,33
+capture_devices/utils_capture/utils.py,sha256=I_bYy0Wpn8d5jXV2Ua9r13RPbm2uKYMbzoghcBOVqBA,864
+capture_devices-1.5.dist-info/METADATA,sha256=b8cAt1nHgPjyKACFIpEYG4Qrf33gE8R71b65tQ1nf2U,729
+capture_devices-1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+capture_devices-1.5.dist-info/top_level.txt,sha256=7_md7hvJk_7bbq4Vj7EJy2Fdc5Hnzwc7_G4EgmOsA1U,16
+capture_devices-1.5.dist-info/RECORD,,
