@@ -1,0 +1,15 @@
+h5py
+magicgui
+numpy
+pytorch-lightning
+qtpy
+scikit-image
+scipy
+
+[testing]
+napari
+pyqt5
+pytest
+pytest-cov
+pytest-qt
+tox
