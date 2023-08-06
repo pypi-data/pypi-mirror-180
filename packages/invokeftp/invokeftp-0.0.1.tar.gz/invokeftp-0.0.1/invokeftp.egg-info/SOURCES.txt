@@ -1,0 +1,9 @@
+README.md
+setup.py
+invokeftp/__init__.py
+invokeftp/invokeftp.py
+invokeftp.egg-info/PKG-INFO
+invokeftp.egg-info/SOURCES.txt
+invokeftp.egg-info/dependency_links.txt
+invokeftp.egg-info/requires.txt
+invokeftp.egg-info/top_level.txt
