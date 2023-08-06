@@ -1,0 +1,2 @@
+[console_scripts]
+nataili_blip = nataili_blip.cli:caption_image
