@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+AutoDiffpy/AutoDiffpy.py
+AutoDiffpy/ElementaryFunc.py
+AutoDiffpy/Node.py
+AutoDiffpy/__init__.py
+AutoDiffpy/dual.py
+AutoDiffpy/AutoDiffpyyy.egg-info/PKG-INFO
+AutoDiffpy/AutoDiffpyyy.egg-info/SOURCES.txt
+AutoDiffpy/AutoDiffpyyy.egg-info/dependency_links.txt
+AutoDiffpy/AutoDiffpyyy.egg-info/requires.txt
+AutoDiffpy/AutoDiffpyyy.egg-info/top_level.txt
