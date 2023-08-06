@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: xmindconvertestlink
+Version: 0.1.0
+Summary: 
+Author: qiangyanwen
+Author-email: 508737091@qq.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: xmindparser (==1.0.8)
