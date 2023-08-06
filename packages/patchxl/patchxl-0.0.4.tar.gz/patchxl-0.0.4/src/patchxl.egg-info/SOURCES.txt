@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/patchxl/__init__.py
+src/patchxl/patchxl.py
+src/patchxl/utils.py
+src/patchxl.egg-info/PKG-INFO
+src/patchxl.egg-info/SOURCES.txt
+src/patchxl.egg-info/dependency_links.txt
+src/patchxl.egg-info/requires.txt
+src/patchxl.egg-info/top_level.txt
