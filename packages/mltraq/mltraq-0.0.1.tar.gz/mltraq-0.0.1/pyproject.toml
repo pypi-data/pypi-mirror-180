@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "mltraq"
+version = "0.0.1"
+description = "TBD"
+authors = ["Michele Dallachiesa <michele.dallachiesa@sigforge.com>"]
+license = "BSD-3"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved",
+    "Intended Audience :: Science/Research",
+]
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+
+[tool.poetry.extras]
+
+[tool.poetry.group.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
