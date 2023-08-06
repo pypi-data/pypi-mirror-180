@@ -1,0 +1,8 @@
+openvk_api/__init__.py,sha256=LmaEfkCYx-AHSZcTAU39q3mVGOMtw9XTDfWraGJRKg4,141
+openvk_api/base_client.py,sha256=Fd9WA5op5362o50YogRGp2XEMgSXmBVkBE-psLA-KL0,3634
+openvk_api/consts.py,sha256=XXX4HirppEFLveeSe5echQYod2BLxFfyROdr_cNWeYQ,218
+openvk_api/exceptions.py,sha256=r2zjwGEk2_Q316siOugp-ZyG9OXyqMjVO--xfx0zVdo,859
+openvk_api-0.0.1.dist-info/LICENSE,sha256=WotEUB-N_Jww6IuS0QMtWYtsWCfG2ZiXh_gpS1e7VXA,1088
+openvk_api-0.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+openvk_api-0.0.1.dist-info/METADATA,sha256=XlYwyKR5ndu_g2N3MqteMJKVgvQ7W_SguRdFK_YiMiU,363
+openvk_api-0.0.1.dist-info/RECORD,,
