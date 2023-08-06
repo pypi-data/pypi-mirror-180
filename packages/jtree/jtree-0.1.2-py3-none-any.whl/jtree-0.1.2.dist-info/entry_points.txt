@@ -1,0 +1,2 @@
+[console_scripts]
+realpython = jtree.__main__:main
