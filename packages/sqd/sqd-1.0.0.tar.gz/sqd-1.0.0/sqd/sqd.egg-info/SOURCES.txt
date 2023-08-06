@@ -1,0 +1,6 @@
+README.md
+setup.py
+sqd/sqd.egg-info/PKG-INFO
+sqd/sqd.egg-info/SOURCES.txt
+sqd/sqd.egg-info/dependency_links.txt
+sqd/sqd.egg-info/top_level.txt
