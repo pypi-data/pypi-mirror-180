@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+jupyterhub_announcement/__init__.py
+jupyterhub_announcement/__main__.py
+jupyterhub_announcement/announcement.py
+jupyterhub_announcement/encoder.py
+jupyterhub_announcement/handlers.py
+jupyterhub_announcement/queue.py
+jupyterhub_announcement/ssl.py
+jupyterhub_announcement.egg-info/PKG-INFO
+jupyterhub_announcement.egg-info/SOURCES.txt
+jupyterhub_announcement.egg-info/dependency_links.txt
+jupyterhub_announcement.egg-info/requires.txt
+jupyterhub_announcement.egg-info/top_level.txt
+templates/index.html
