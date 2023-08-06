@@ -1,0 +1,2 @@
+[console_scripts]
+siinc = siinc.__main__:main

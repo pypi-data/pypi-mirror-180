@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: siinc
+Version: 0.0.1a1
+Home-page: https://codeberg.org/Fresh2dev/siinc
+Author: Donald Mellenbruch
+Author-email: hello@Fresh2.dev
+Project-URL: Repository, https://codeberg.org/Fresh2dev/siinc
+Project-URL: Issues, https://codeberg.org/Fresh2dev/siinc/issues
+Project-URL: Documentation, https://www.Fresh2.dev/code/r/siinc/i/docs
+Project-URL: Changelog, https://www.Fresh2.dev/code/r/siinc/i/docs/changelog
+Project-URL: Funding, https://www.Fresh2.dev/tip
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: build
+Provides-Extra: docs
+Provides-Extra: dev
+Provides-Extra: tests
+License-File: LICENSE
+
+# siinc
+
+|               |                                            |
+| ------------- | ------------------------------------------ |
+| Repo          | https://codeberg.org/Fresh2dev/siinc       |
+| Repo Mirror   | https://www.Fresh2.dev/code/r/siinc        |
+| Documentation | https://www.Fresh2.dev/code/r/siinc/i/docs |
+| Funding       | https://www.Fresh2.dev/tip                 |
+
+---
+
+## Dev Setup
+
+```sh
+myke py-init
+```
+
+## Build Docs
+
+```sh
+myke py-mkdocs
+```
+
+## Run
+
+```sh
+PYTHONPATH=src python -m siinc --help
+```
