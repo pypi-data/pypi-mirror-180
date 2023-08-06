@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+cricbuzz_stats.egg-info/PKG-INFO
+cricbuzz_stats.egg-info/SOURCES.txt
+cricbuzz_stats.egg-info/dependency_links.txt
+cricbuzz_stats.egg-info/top_level.txt
+cricbuzzpy/__init__.py
+cricbuzzpy/player.py
