@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+EdgeDetector.egg-info/PKG-INFO
+EdgeDetector.egg-info/SOURCES.txt
+EdgeDetector.egg-info/dependency_links.txt
+EdgeDetector.egg-info/requires.txt
+EdgeDetector.egg-info/top_level.txt
+src/AllEdgesDetection.py
+src/__init__.py

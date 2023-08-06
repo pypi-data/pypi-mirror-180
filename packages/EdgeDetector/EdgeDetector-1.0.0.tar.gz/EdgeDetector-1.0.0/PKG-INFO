@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: EdgeDetector
+Version: 1.0.0
+Summary: Most known edge detector in this package
+Home-page: https://github.com/momomuchu/EdgeDetector
+Author: Mohamed Maache
+Author-email: mohamedmaache68@gmail.com
+Keywords: edge,detection,detector,edgedetection,edgedetector
+License-File: LICENSE
