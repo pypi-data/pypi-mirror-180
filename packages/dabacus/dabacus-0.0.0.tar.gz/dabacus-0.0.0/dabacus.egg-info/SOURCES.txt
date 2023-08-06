@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+dabacus.egg-info/PKG-INFO
+dabacus.egg-info/SOURCES.txt
+dabacus.egg-info/dependency_links.txt
+dabacus.egg-info/top_level.txt
+data/dists.csv
+data/trig.json
