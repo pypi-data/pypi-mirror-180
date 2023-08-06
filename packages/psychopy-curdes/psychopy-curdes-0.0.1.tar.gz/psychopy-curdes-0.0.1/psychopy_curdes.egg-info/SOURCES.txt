@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+psychopy_curdes/__init__.py
+psychopy_curdes/forp.py
+psychopy_curdes.egg-info/PKG-INFO
+psychopy_curdes.egg-info/SOURCES.txt
+psychopy_curdes.egg-info/dependency_links.txt
+psychopy_curdes.egg-info/requires.txt
+psychopy_curdes.egg-info/top_level.txt
