@@ -1,0 +1,150 @@
+# ccmclient
+
+A command line client for cc mixter.
+
+> ccMixter is a produsage community music site that promotes remix culture and makes >samples, remixes, and a cappella
+> tracks licensed under Creative Commons available for >download and re-use in creative works.
+> Visitors are able to listen to, sample, mash-up, or >interact with music in a variety
+> of ways including the download and use of tracks and >samples in their own remixes.
+> [https://en.wikipedia.org/wiki/CcMixter](wikipedia)
+
+- Downloads Songs, Samples and similar from given [cc mixter](http://ccmixter.org/) artist name or based on selection
+  criterias.
+- Packaged uploads (for example .zip files) get extracted.
+- Already downloaded files will not get downloaded again.
+
+## Install
+
+### Python
+
+you need [python3](https://www.python.org/downloads/) and [pip](https://pip.pypa.io/en/stable/installing/) installed.
+
+then just clone or download this repository and install the needed python packages from
+requirements.txt `pip3 install -r requirements.txt`
+
+or simply use pip
+
+        python -m pip install pyccmc
+
+### Binaries
+
+Binary, executable files can be found at [tigabeatz.net](https://tigabeatz.net), if you do not like to use the pip
+install.
+
+## Use
+
+Depends on either Firefox, Chrome or Safari webbrowsers.
+
+After installation open a terminal and execute
+
+    ccmclient
+
+by default, the files are written to a directory structure
+from where you start the tool like `<request>\<artist>\<upload name>\<files>`
+
+
+### graph
+
+Type "graph" instead of a username
+
+
+Graph Data Structure
+----
+
+    for x in pregraphdat:
+        # print(x)
+        graphdat['nodes'].append(
+            {
+                'id': x['upload_id'],
+                'name': x['metadata'][0]['upload_name'],
+                'metadata': x['metadata'][0],
+                'labels': [x['metadata'][0]['upload_name'], x['metadata'][0]['user_name']]
+            }
+        )
+        for y in x['sources']:
+            graphdat['links'].append(
+                {
+                    'source': y,
+                    'target': x['upload_id'],
+                    'labels': ['source']
+                }
+            )
+        for z in x['remixes']:
+            graphdat['links'].append(
+                {
+                    'source': x['upload_id'],
+                    'target': z,
+                    'labels': ['remix']
+                }
+            )
+
+----
+
+### command line options
+
+| -h, --help | show help and exit                                                                                                           |
+|------------|------------------------------------------------------------------------------------------------------------------------------|
+| --artist   | An Ccmixter artists name                                                                                                     |
+| --limit    | Maximum number of allowed api results                                                                                        |
+| --dryrun   | Set to True if you do not want to download. prints out metadata of the query                                                 |
+| --itq      | Interactive Query Builder, download by manually search along the api parameters                                              |
+| --proxy    | http(s):\\\\url:port                                                                                                         |
+| --query    | Json with Ccmixter api parameters         {\\"user\\":\\"tigabeatz\\";\\"limit\\":\\"1\\"}      (you must escape " with \\") |
+| --folder   | Where to store your requests data, default to this scripts folder                                                            |
+| --logfile  | Logfile location, default to this scripts folder                                                                             |
+| --index    | File to store history of downloaded files, defaults to this scripts folder                                                   |
+| --test     | Check if this tool is working                                                                                                |
+
+Alternatively, execute the ccmclient.exe / binary with command line parameters like
+`ccmclient --artist tigabeatz --limit 0` or `ccmcclient.exe --help`
+
+Usage examples:
+
+- download everything uploaded by artist `ccmclient --artist tigabeatz --limit 0`
+- download based on a custom query `ccmclient --query "{\"user\":\"tigabeatz\"}"`
+
+## further reading
+
+- [ccmixter thread](http://ccmixter.org/thread/4155)
+
+## Build
+
+    git remote add dev.azure.com https://kreaterra@dev.azure.com/kreaterra/ccmclient/_git/ccmclient
+
+Please see .gitlab-ci.yml and azure-pipelines.yml
+
+    git push -u dev.azure.com master
+    git push -u git.cccwi.de master
+
+or
+
+    git push --all
+
+The Azure DevOps project uses build and release pipelines to create the executable files, while the gitlab project uses a pipeline to test a linux binary and publishes the pypi project. 
+
+This setup causes that a Azure Storage Account is created and the Service Principal for the Azure dev Ops Projects needs Blop Storage Dta Contributor Role assignment.
+
+----
+
+steps:
+- task: AzureFileCopy@5
+  displayName: 'AzureBlob File Copy Binaries'
+  inputs:
+    SourcePath: '$(System.DefaultWorkingDirectory)/_ccmclient'
+    azureSubscription: '...............'
+    Destination: AzureBlob
+    storage: tigabeatz
+    ContainerName: '$web'
+
+steps:
+- task: AzureFileCopy@5
+  displayName: 'AzureBlob File Copy Html'
+  inputs:
+    SourcePath: '$(System.DefaultWorkingDirectory)/_ccmclientweb/index.html'
+    azureSubscription: '............'
+    Destination: AzureBlob
+    storage: tigabeatz
+    ContainerName: '$web'
+    BlobPrefix: '_ccmclient/index.html'
+
+----
