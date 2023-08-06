@@ -1,0 +1,10 @@
+[project]
+name = "auto34diff"
+version = "0.0.1"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]

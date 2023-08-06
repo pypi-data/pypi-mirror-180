@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+auto34diff/__init__.py
+auto34diff/autodiff.py
+auto34diff/expr.py
+auto34diff/forward.py
+auto34diff/mixed.py
+auto34diff/reverse.py
+auto34diff.egg-info/PKG-INFO
+auto34diff.egg-info/SOURCES.txt
+auto34diff.egg-info/dependency_links.txt
+auto34diff.egg-info/top_level.txt
