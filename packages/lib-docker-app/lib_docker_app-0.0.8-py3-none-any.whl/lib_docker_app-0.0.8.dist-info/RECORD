@@ -1,0 +1,8 @@
+docker_app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docker_app/automatization.py,sha256=eqKrCvjQjDbuA18LJc_wtfWMdVBfALj3bXLO3xgMQ30,5895
+docker_app/nginx_automatization.py,sha256=jSe7-7K4s7vmxh6dpPbBNN4c1R2Wo81IwE_OTwjbids,1090
+docker_app/workspace.py,sha256=7iePJitdEV-B6VWGxseDLqgWUxTkcB9o8aYotxfxH7I,1853
+lib_docker_app-0.0.8.dist-info/METADATA,sha256=BDNTP4ck5xPP9DK2tMLhY9OeBZQF5Hk5Wnq3CsLTLqg,124
+lib_docker_app-0.0.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+lib_docker_app-0.0.8.dist-info/top_level.txt,sha256=g_lAr7lMdmIRuNhiHxXpVVWWnNxxfNQQDjIsdXs7SWI,11
+lib_docker_app-0.0.8.dist-info/RECORD,,
