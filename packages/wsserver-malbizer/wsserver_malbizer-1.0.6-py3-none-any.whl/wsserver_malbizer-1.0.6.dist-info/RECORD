@@ -1,0 +1,12 @@
+wsserver_malbizer-1.0.6.data/scripts/wsclient-malbizer.py,sha256=-0sH1Rfx2iERLQf2PimNiRW5kph1vBEcglNYCl282h4,125
+wsserver_malbizer-1.0.6.data/scripts/wssend-malbizer.py,sha256=pHxBwd0WVcYCoIUMXG5NA3O_AOQRZrRxVeLOG6SoREw,223
+wsserver_malbizer-1.0.6.data/scripts/wsserver-malbizer.py,sha256=mYcw106WrdtdR_2aJ4ZbUoa_HV7_DxueJanFsBBv3mI,150
+wsservermalbizer/__init__.py,sha256=ahOHk_sEcb_jgh7ZChBM5xCerfh2WIyy5Q-mQuq3j6o,95
+wsservermalbizer/logmessage.py,sha256=n0l5_hmqNYGp-C0BT7SneE79vsYjWDujipKtQTfM1CU,390
+wsservermalbizer/websocketclient.py,sha256=7iRKxNiPvG2SQOa__ThfOlvjtQSpq3abTb22T8S6HU4,3913
+wsservermalbizer/websocketmessage.py,sha256=A2gyvaO5Xjy7PZ70G3YzGqt0vm1QHliOiaN5eYURPgo,1108
+wsservermalbizer/websocketserver.py,sha256=5-3tfb2fZZzAEvNoeNXC526080GDVe4l-kNT_yPyO70,4612
+wsserver_malbizer-1.0.6.dist-info/METADATA,sha256=1Z_5yeMfmTyCYjfvYrFsnUjE2B5_vCYaxRv7n7g1DVU,2642
+wsserver_malbizer-1.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+wsserver_malbizer-1.0.6.dist-info/top_level.txt,sha256=bID-fTNb6XWt-sxSNkk6AAHVmPzkdpBDyAsQdirdFtU,17
+wsserver_malbizer-1.0.6.dist-info/RECORD,,
