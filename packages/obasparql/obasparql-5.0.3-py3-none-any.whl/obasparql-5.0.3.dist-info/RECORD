@@ -1,0 +1,12 @@
+obasparql/__init__.py,sha256=O7KOtAUY4zEY-EcYoNefoxxECedFwbOcnE1JmWO9s64,315
+obasparql/detector.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+obasparql/gquery.py,sha256=GVWgZc70w6lcEWbP1ut-Ib2oLYhFBPikMt23bk7sCDE,14676
+obasparql/query_manager.py,sha256=0d-J7fezIqiDp1pyZDn8vRLFAiG7_1Sm2Z3ihU3DeBs,29472
+obasparql/sparqlconnector.py,sha256=iXzVd79CN6-KX7p5M9TmEDwPfaWMoweRLz6UqDecwlc,6114
+obasparql/static.py,sha256=OQCD3fpxJ_eax1SJzYvNPJhEBO_nSvWRlcjxlPLNjPE,1768
+obasparql/utils.py,sha256=CQd5J99KCIkEWhMec6LzqZdfHqfGSgyBDJjNqPk2ilU,455
+obasparql-5.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+obasparql-5.0.3.dist-info/METADATA,sha256=qxoHtD9Zdvo-L-zJKY214FgyZMI0WdNgL4RglVecCgA,4428
+obasparql-5.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+obasparql-5.0.3.dist-info/top_level.txt,sha256=XaSacemYqTGVnxy301vAELnwwSOWa_DirE8yVjqKNe8,10
+obasparql-5.0.3.dist-info/RECORD,,
