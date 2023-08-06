@@ -1,0 +1,11 @@
+fish_dbjob/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fish_dbjob/cli.py,sha256=kmUwJ0zz651klIhwcYE4CKyzQWa5x2caeoZhHVbTRrw,718
+fish_dbjob/cofig.py,sha256=__S_dfa1bHDjQrFVQv4NDCEc_HdDx-8upc2bAfZv-uk,319
+fish_dbjob/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fish_dbjob/core/core.py,sha256=tZM-tkhfKYrv2O8B3TwjEUxAiC-U1yJihvRIF2Bjmzs,231
+fish_dbjob/core/job_list_service.py,sha256=Qxkx82R0MF9gVib6E3-E_qM2WKbmlsLDCaK-AH9xC8I,1201
+fish_dbjob/core/version.py,sha256=IqDtdUaYZrjBfNeIecthN_D4qPbwV-Lm0GTHykwpNeA,291
+fish_dbjob-0.2.2.dist-info/entry_points.txt,sha256=CIy9p3zjDPIoGKHAbFIbOr0euAGoVIG5gSMZ1DnqjSg,49
+fish_dbjob-0.2.2.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+fish_dbjob-0.2.2.dist-info/METADATA,sha256=YMySiyZ58WmblhY1pRBKAuOSP5T8eV4ikrfUiRm9pfE,634
+fish_dbjob-0.2.2.dist-info/RECORD,,
