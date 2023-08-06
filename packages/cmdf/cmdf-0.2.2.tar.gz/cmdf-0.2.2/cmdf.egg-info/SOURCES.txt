@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+cmdf/__init__.py
+cmdf/utils.py
+cmdf.egg-info/PKG-INFO
+cmdf.egg-info/SOURCES.txt
+cmdf.egg-info/dependency_links.txt
+cmdf.egg-info/top_level.txt
