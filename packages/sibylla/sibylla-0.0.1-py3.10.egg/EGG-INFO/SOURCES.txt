@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+sibylla/__init__.py
+sibylla.egg-info/PKG-INFO
+sibylla.egg-info/SOURCES.txt
+sibylla.egg-info/dependency_links.txt
+sibylla.egg-info/requires.txt
+sibylla.egg-info/top_level.txt
