@@ -1,0 +1,9 @@
+[console_scripts]
+reva = reva.cli:main
+
+[reva.cli]
+info = reva.info:show
+namespace = reva.namespaces:namespaces
+ready = reva.info:ready
+sitesettings = reva.site_settings:site_settings
+workflow = reva.workflow:workflow
