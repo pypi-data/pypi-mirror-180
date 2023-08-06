@@ -1,0 +1,3 @@
+[console_scripts]
+stackexplain = stackexplain.stackexplain:main
+
