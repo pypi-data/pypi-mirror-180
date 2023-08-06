@@ -1,0 +1,12 @@
+tmux_conf/__init__.py,sha256=1Kur-qB23Pv7UKuYv3MNi5y3bjfHXALNdnKJqJ1qTEo,202
+tmux_conf/constants.py,sha256=KJ_yktDxke82BbbwuBxrR_tsWuYzaAFZUrcNGXE2hH0,269
+tmux_conf/embedded_scripts.py,sha256=psZGif5-lBMrsUUspHpBo4V2Qa7Jw0gCBSkvvcf_iIE,5618
+tmux_conf/plugins.py,sha256=zaHYirwZuUo5x4qlgXgKEMM15XNHVA_nevrpthQk8jY,17132
+tmux_conf/tmux_conf.py,sha256=sk415gFePapyzoIEDpPDEiV7gr41F0Y85kB6_CVVj-M,23372
+tmux_conf/utils.py,sha256=JIwcJ5imkLrnnePGC4YUaaKQXWFu6f4oNLNRviNEqI8,4780
+tmux_conf/vers_check.py,sha256=-F56rJGbH6pmvPaLjoIAZVyO-jnfvZmN_j2wU4qN_YI,3398
+tmux_conf-0.15.8.dist-info/LICENSE,sha256=ldDSxFV5D4yL4OVwiM9SCHfui5t9Js_BCxf5JnwLwvk,1072
+tmux_conf-0.15.8.dist-info/METADATA,sha256=wchllywcpqdQte2sMQ623f2mXEqG-ekiVhN5MMxXlnw,7996
+tmux_conf-0.15.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tmux_conf-0.15.8.dist-info/top_level.txt,sha256=LuL64CpwN-7-OOqKhxC5cozfmoxlCtUZS7awewGz4w4,10
+tmux_conf-0.15.8.dist-info/RECORD,,
