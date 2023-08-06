@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: clickpaas-toolkit
+Version: 0.0.2
+Summary: Toolkit for clickpaas api test framework
+Author: qiangyanwen
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pycryptodomex (==3.12.0)
+Requires-Dist: pymongo (==3.6.1)
+Requires-Dist: pymysql (==0.9.1)
+Requires-Dist: python-json-logger (==0.1.9)
+Requires-Dist: redis (==2.10.6)
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: simplejson (==3.16.0)
