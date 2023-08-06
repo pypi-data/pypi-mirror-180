@@ -1,0 +1,7 @@
+database_setup_tools/__init__.py,sha256=BfmqYHsCKBP0rgIa0uT59Lsh13XhfIMCPMXKgj2Uit0,20
+database_setup_tools/session_manager.py,sha256=PtFbVZdlSWTtI-wzQO6O_Y_rzRCCvjqced_qUxxezgM,2023
+database_setup_tools/setup.py,sha256=0OP_spgJZ30b3-hIlzKKLWDZLpyFbn2fKRgy51trzlY,2023
+database_setup_tools-1.0.0.dist-info/LICENSE,sha256=yKQiA0Vj9X6j0P5mABgeNrmpS7SDqSXRdOBMss1kYcY,1072
+database_setup_tools-1.0.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+database_setup_tools-1.0.0.dist-info/METADATA,sha256=_EiAeeqkRkrzG77PIzdKFbo9C-PvW8UDk6MWSYibOLk,3008
+database_setup_tools-1.0.0.dist-info/RECORD,,
