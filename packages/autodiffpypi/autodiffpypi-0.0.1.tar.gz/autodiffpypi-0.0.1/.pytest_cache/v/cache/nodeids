@@ -1,0 +1,8 @@
+[
+  "tests/test_base_derivatives.py::test_base_derivatives",
+  "tests/test_dual_number.py::test_dual_number",
+  "tests/test_forward_mode.py::test_forward_mode",
+  "tests/test_graph.py::test_graph",
+  "tests/test_newtons.py::test_newton_full",
+  "tests/test_reverse_mode.py::test_reverse_mode"
+]
