@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+duprem/__init__.py
+duprem.egg-info/PKG-INFO
+duprem.egg-info/SOURCES.txt
+duprem.egg-info/dependency_links.txt
+duprem.egg-info/top_level.txt
