@@ -1,0 +1,13 @@
+README.md
+setup.py
+bin/wsserver-malbizer.py
+wsserver_malbizer.egg-info/PKG-INFO
+wsserver_malbizer.egg-info/SOURCES.txt
+wsserver_malbizer.egg-info/dependency_links.txt
+wsserver_malbizer.egg-info/not-zip-safe
+wsserver_malbizer.egg-info/requires.txt
+wsserver_malbizer.egg-info/top_level.txt
+wsservermalbizer/__init__.py
+wsservermalbizer/logmessage.py
+wsservermalbizer/websocketmessage.py
+wsservermalbizer/websocketserver.py
