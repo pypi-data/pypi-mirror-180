@@ -1,0 +1,124 @@
+Metadata-Version: 2.1
+Name: pardon
+Version: 2.0.5
+Summary: The Data Transformation and Machine Learning Accelerator
+Requires-Python: >=3.8.1, <3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: category-encoders (==2.3.0)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: cloudpickle (==2.0.0)
+Requires-Dist: colorama (==0.4.4)
+Requires-Dist: cycler (==0.11.0)
+Requires-Dist: dill (==0.3.4)
+Requires-Dist: Flask (==1.1.4)
+Requires-Dist: fonttools (==4.33.3)
+Requires-Dist: imbalanced-learn (==0.9.0)
+Requires-Dist: imblearn (==0.0)
+Requires-Dist: itsdangerous (==1.1.0)
+Requires-Dist: Jinja2 (==2.11.3)
+Requires-Dist: joblib (==1.1.0)
+Requires-Dist: kiwisolver (==1.4.2)
+Requires-Dist: llvmlite (==0.39.1)
+Requires-Dist: MarkupSafe (==2.0.1)
+Requires-Dist: matplotlib (==3.5.1)
+Requires-Dist: neattext (==0.1.3)
+Requires-Dist: nltk (==3.7)
+Requires-Dist: numba (==0.56.4)
+Requires-Dist: numpy (==1.23.4)
+Requires-Dist: openpyxl (==3.0.10)
+Requires-Dist: packaging (==21.3)
+Requires-Dist: pandas (==1.4.3)
+Requires-Dist: patsy (==0.5.2)
+Requires-Dist: Pillow (==9.1.0)
+Requires-Dist: plotly (==5.6.0)
+Requires-Dist: PyAutoGUI (==0.9.53)
+Requires-Dist: pyparsing (==3.0.9)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pytz (==2022.1)
+Requires-Dist: PyYAML (==6.0)
+Requires-Dist: regex (==2022.4.24)
+Requires-Dist: schemdraw (==0.14)
+Requires-Dist: scikit-learn (==1.0.2)
+Requires-Dist: scipy (==1.8.0)
+Requires-Dist: seaborn (==0.11.2)
+Requires-Dist: shap (==0.41.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: slicer (==0.0.7)
+Requires-Dist: statsmodels (==0.13.2)
+Requires-Dist: streamlit (==1.11.0)
+Requires-Dist: streamlit-aggrid (==0.2.3.post2)
+Requires-Dist: tenacity (==8.0.1)
+Requires-Dist: threadpoolctl (==3.1.0)
+Requires-Dist: tqdm (==4.64.0)
+Requires-Dist: varname (==0.10.0)
+Requires-Dist: Werkzeug (==1.0.1)
+Requires-Dist: xgboost (==1.5.2)
+
+# PARDON
+
+Pardon is a Python library developed as a machine learning (ML) and data transformation accelerator, to rapidly prepare data as well as test and deploy supervised ML models, by massively reducing the amount of code required during development.
+
+The library can be used to perform data cleansing and transformation, as well as model and feature selection, data visualisations, and prediction auditing. Data can be quickly prepared for use with ML algorithms, and all data transformations are recorded in a 'script'. This 'script' is then automatically applied to data prior to predictions, which ensures data consistency, transparency, and removes the need for multi-stage data engineering while reducing the chances of error.
+
+The intention of this library is not to replace or automate the work of a data scientist, but to enable integration work to begin early by rapidly deploying a working machine learning model. This then allows the data science work to be completed in parallel, with the final model being deployed on completion.
+
+The pardon library functionality includes:
+•	Data transformation
+•	Data cleansing
+•	Feature selection
+•	Feature engineering
+•	Model selection
+•	Class balancing
+•	Prediction auditing
+•	Principal Component Analysis
+•	Data scaling
+•	Data encoding
+•	Sentiment analysis
+•	Hyperparameter tuning
+•	Model “explainability”
+•	Model performance metrics
+•	Model training, testing and validation
+•	Identifying data outliers
+•	Testing model output in a REST API
+•	Data visualisation
+•	Use unsupervised learning to cluster data
+
+
+## Installation
+
+The easiest way to install and use pardon is to pip install using pip or the latest pardon package whl file.
+```bash
+pip install pardon
+```
+```bash
+pip install pardon-1.0.0-py3-none-any.whl
+```
+
+## Usage
+
+```python
+import pardon
+
+# create a new ML Data object. The minimum requirements are a data file or data stream, and the name of the column you're trying to predict.
+paml = pardon.Pardon(data='\\your\\specified\\directory\\data_file.csv', target='column_name_to_predict')
+
+# rapid ml will perform the following steps by default:
+# -> 1. Perform the minimum required data cleansing and transformation to prepare your data for model training.
+# -> 2. Trains multiple models using the data and selects the best performing model.
+# -> 3. Where applicable, display a summary of the model performance.
+# -> 4. Save the model as a .pkl file to the location specified. You must ensure the filename is a .pkl file.
+# -> 5. Display the output scores of all the models tested.
+paml.rapid_ml(model_fullpath='\\your\\specified\\directory\\your_model_name.pkl')
+
+# you can run a test on the localhost to see the API output
+pardon.TestAPI(model_fullpath='\\your\\specified\\directory\\your_model_name.pkl')
+```
+
+## Contributing
+For changes, please contact pardonaccelerator@gmail.com to discuss your amendments or requirements.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

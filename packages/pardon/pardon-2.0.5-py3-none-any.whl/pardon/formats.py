@@ -1,0 +1,1 @@
+VALID_FILE_FORMATS = ('.csv', '.json', '.parquet', '.xls', '.xlsx', '.xlsm', '.txt', '.xml')
