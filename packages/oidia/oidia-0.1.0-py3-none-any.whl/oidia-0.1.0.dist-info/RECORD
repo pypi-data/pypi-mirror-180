@@ -1,0 +1,16 @@
+oidia/__init__.py,sha256=lLoOcYe0LHsVCqmRyKIF62IFv0OMBURy5W8sWG8kO2I,403
+oidia/__main__.py,sha256=uWT9oeW5t-g0EzfL1_9Log0iO2NvCYqGKoWljiuq6Us,367
+oidia/app.py,sha256=zfPoVLgdZ-LIvLcPTjm703jLfk5cdbnVxr64DJVLH8U,1034
+oidia/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oidia/screens/__init__.py,sha256=fLRHLfIZRpYpAbZYHh5zOii9QMSOnG9AuFAROJeOjiA,322
+oidia/screens/main.py,sha256=RXijDHlgVmtg6EFMHi4tOqUI2pWd18xhKgQ3O17Z95k,8407
+oidia/widgets/__init__.py,sha256=17P5nr3pPr7C4CjkhgtdCNMj1Y-FkejjE-X1zDRMWiI,535
+oidia/widgets/streakline.py,sha256=5sc8JBtAV3u_8MLH80Iro65EfIB2LdtsIzyfGs-Hxqw,11750
+oidia/widgets/timeline.py,sha256=8VGwquIdaAywx-RzVr0IqldJ8LX3M_8mIev8S-8uiv8,6345
+oidia/widgets/title_input.py,sha256=4ZmNgCmcda2Di58vDy1ZQpxcrgUtocmhFalVJZow1PA,1433
+oidia-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+oidia-0.1.0.dist-info/METADATA,sha256=fm7D0m9KqBftD2Xj5exAC-Cwx7lp0wObvna5M7x2K1E,2248
+oidia-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+oidia-0.1.0.dist-info/entry_points.txt,sha256=Eiez-p_G_lDhGmLOVRCAxwbxiD3daPWMyxgy8ojxp0E,40
+oidia-0.1.0.dist-info/top_level.txt,sha256=fMFWcYoLrLKOpAtqlzcTcDanNsjL5v-LjP5ZkzXNvP8,6
+oidia-0.1.0.dist-info/RECORD,,
