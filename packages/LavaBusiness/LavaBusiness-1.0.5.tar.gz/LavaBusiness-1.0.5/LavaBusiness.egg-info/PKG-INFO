@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: LavaBusiness
+Version: 1.0.5
+Summary: Async client for lava.ru business-API
+Home-page: https://github.com/lztrox/LavaBusiness
+Author: lztrox
+Project-URL: Docs, https://lavabusiness.readthedocs.io/ru/latest/
+Project-URL: Source code, https://github.com/lztrox/LavaBusiness
+Project-URL: Author, https://hazedev.ru
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Framework :: AsyncIO
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# LavaBusiness
+[![PyPi Package Version](https://img.shields.io/pypi/v/lavabusiness?style=flat-square)](https://pypi.python.org/pypi/lavabusiness)
+[![PyPi status](https://img.shields.io/pypi/status/lavabusiness?style=flat-square)](https://pypi.python.org/pypi/lavabusiness)
+[![Supported python versions](https://img.shields.io/pypi/pyversions/lavabusiness)](https://pypi.python.org/pypi/lavabusiness)
+[![License](https://img.shields.io/github/license/lztrox/lavabusiness?style=flat-square)](https://opensource.org/licenses/MPL-2.0)
+[![Downloads](https://img.shields.io/github/downloads/lztrox/lavabusiness/total?style=flat-square)](https://pypi.org/project/lavabusiness/)
+[![Issues](https://img.shields.io/github/issues/lztrox/lavabusiness?style=flat-square)](https://github.com/lztrox/lavabusiness/issues)
+[![Documentation](https://img.shields.io/readthedocs/lavabusiness?style=flat-square)](https://lavabusiness.readthedocs.io/en/latest/)
+
+**LavaBusiness** is an asynchronous client for Lava.ru Business-API
+
+### Usage examples - https://github.com/lztrox/LavaBusiness/tree/master/examples
+
+### Detailed documentation - https://lavabusiness.readthedocs.io/en/latest/
