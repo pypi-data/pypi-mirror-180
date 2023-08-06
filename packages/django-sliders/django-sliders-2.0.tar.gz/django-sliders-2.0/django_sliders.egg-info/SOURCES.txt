@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+__init__.py
+setup.cfg
+setup.py
+django_sliders.egg-info/PKG-INFO
+django_sliders.egg-info/SOURCES.txt
+django_sliders.egg-info/dependency_links.txt
+django_sliders.egg-info/not-zip-safe
+django_sliders.egg-info/requires.txt
+django_sliders.egg-info/top_level.txt
