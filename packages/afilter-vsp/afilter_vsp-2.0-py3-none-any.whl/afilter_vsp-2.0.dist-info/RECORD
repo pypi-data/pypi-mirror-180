@@ -1,0 +1,15 @@
+afilter_vsp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+afilter_vsp/server.py,sha256=j_kY5RaOV_jBNP-mg8lQz1R0dKTHqppxx_hnzjZcOD8,7159
+afilter_vsp/version.py,sha256=TiPG4w8nN4AzPkhugwVvZkHmAgP955NltD4QRmBLhRU,19
+afilter_vsp/protos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+afilter_vsp/protos/afilter_vsp_pb2.py,sha256=at0YX_QQdUKayViNAc6wJqYOX1YLYg87ZuFu6wfrWYo,5841
+afilter_vsp/protos/afilter_vsp_pb2_grpc.py,sha256=7RMidY5tGvF9qO1sw_i1sMyGaSazR8rty6n0qHxnZiM,7140
+afilter_vsp/utils/Mask2polygon.py,sha256=yInpJIJpdm0HZS7l8gOJSnZ1ZCK4dMllr-jVDVOpJPU,4825
+afilter_vsp/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+afilter_vsp/utils/check_health.py,sha256=PpLpI8C4m0s_PqdYB-V8nsX7InqLc5bdXMItKPJZwJY,6233
+afilter_vsp/utils/slide_inference.py,sha256=pcvwwJtw5EV3a9BiXEZl4qCFQYzlumXV2GxWLh3QaIU,6841
+afilter_vsp/utils/transform.py,sha256=9osnl-5YVqg9vnrG7gdGIBHRRZMyOA3sjV3taWeB1ek,1937
+afilter_vsp-2.0.dist-info/METADATA,sha256=2SfgH05s9bXctmpUrA0zvNa1rTTZDpdeQzanbZWl_ks,411
+afilter_vsp-2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+afilter_vsp-2.0.dist-info/top_level.txt,sha256=Z7c6XZu1HDON2R0yAQSbn9i-A9h5IPYsuU6PgiH5oT8,12
+afilter_vsp-2.0.dist-info/RECORD,,
