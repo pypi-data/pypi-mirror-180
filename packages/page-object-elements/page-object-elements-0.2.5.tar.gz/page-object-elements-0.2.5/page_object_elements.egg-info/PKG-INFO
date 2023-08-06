@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: page-object-elements
+Version: 0.2.5
+Summary: Page Object Elements
+Home-page: https://pypi.org/project/page-object-elements/
+Author: Ranisavljevic Milan
+Author-email: ramdjaram@gmail.com
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+## Page Object Elements
+
+[pypy.org](https://pypi.org/project/page-object-elements/)
+
+If you want to customize behaviour of **poe** loger's behaviour put `poe.ini` in the root of your project. If you
+provide empty `logs_absolute_path`the Error will be thrown. Default **LOGS** location is working directory.
+
+```ini
+[LOGGER]
+level = DEBUG
+log_name = log
+stdout = True
+logs_absolute_path = C:\Users\<username>\workspace\<project>
+```
