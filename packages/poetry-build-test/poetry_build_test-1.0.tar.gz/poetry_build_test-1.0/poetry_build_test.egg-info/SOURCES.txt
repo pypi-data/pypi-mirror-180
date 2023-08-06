@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+poetry_build_test/__init__.py
+poetry_build_test.egg-info/PKG-INFO
+poetry_build_test.egg-info/SOURCES.txt
+poetry_build_test.egg-info/dependency_links.txt
+poetry_build_test.egg-info/top_level.txt
