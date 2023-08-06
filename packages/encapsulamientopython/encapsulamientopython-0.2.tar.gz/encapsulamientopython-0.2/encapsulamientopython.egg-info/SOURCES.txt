@@ -1,0 +1,6 @@
+encapsulamientopython.py
+setup.py
+encapsulamientopython.egg-info/PKG-INFO
+encapsulamientopython.egg-info/SOURCES.txt
+encapsulamientopython.egg-info/dependency_links.txt
+encapsulamientopython.egg-info/top_level.txt
