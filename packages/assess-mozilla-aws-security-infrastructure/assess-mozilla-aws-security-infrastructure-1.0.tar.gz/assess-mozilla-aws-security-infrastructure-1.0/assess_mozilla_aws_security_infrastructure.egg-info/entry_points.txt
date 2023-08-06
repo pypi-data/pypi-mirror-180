@@ -1,0 +1,2 @@
+[console_scripts]
+assess-mozilla-aws-security-infrastructure = assess_mozilla_aws_security_infrastructure:main
