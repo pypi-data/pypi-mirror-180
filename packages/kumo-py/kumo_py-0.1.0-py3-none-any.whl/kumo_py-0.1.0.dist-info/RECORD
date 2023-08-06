@@ -1,0 +1,14 @@
+LICENSE,sha256=bieI5km8-M2SsfTaLfXDvwOeC3SVcSxCmKR6LJpocGc,1071
+kumo/__init__.py,sha256=D7uqk3xbN_5e8twSk-Mt_J_nhn4gqDL-rMMxLQkgBas,56
+kumo/crawler.py,sha256=dAZYmp0CejofKFaxC4a1ovth6n1QD3k-CEOMPoSv27g,1698
+kumo/edge.py,sha256=oNztM6PzIUKAx49q8tA1Khp8c4VVX6y4GUdSbDxdBLM,641
+kumo/errors.py,sha256=l7Uu1dZsV8xeoMQ8aiRFQq0bmILhiKKHJ2KzsZ9pIJM,270
+kumo/storage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kumo/storage/funcs.py,sha256=4kF7ZWAYe1n67kl73XMfBmULRTWj2Jt6NyrEuLisxfY,307
+kumo/storage/memory.py,sha256=XF1Ufhu8Td6qaIQC2cFuLGZWbH_kMEVzEvrjkjbG4Qw,3822
+kumo/types.py,sha256=MHCZi1hqIKgqxecnNE5rRVO5n1NcCoDq-i01h_FzI4k,899
+kumo/utils.py,sha256=th5Le2-xxzcmuKk7ktuKnIZfGNv4A-XfWB9YBLW96pw,145
+kumo_py-0.1.0.dist-info/LICENSE,sha256=bieI5km8-M2SsfTaLfXDvwOeC3SVcSxCmKR6LJpocGc,1071
+kumo_py-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+kumo_py-0.1.0.dist-info/METADATA,sha256=1ldmGhRGx-4ExP3PyGY8lSlMg0PgdIIb5_GHXidqvAE,724
+kumo_py-0.1.0.dist-info/RECORD,,
