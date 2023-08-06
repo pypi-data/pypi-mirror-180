@@ -1,0 +1,8 @@
+LICENSE
+README.md
+an.c
+setup.py
+assertnever.egg-info/PKG-INFO
+assertnever.egg-info/SOURCES.txt
+assertnever.egg-info/dependency_links.txt
+assertnever.egg-info/top_level.txt

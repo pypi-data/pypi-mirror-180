@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: assertnever
+Version: 1.0.0
+Summary: Syntactical sugar for assert never.
+License: MIT
+Project-URL: Source, https://github.com/ZeroIntensity/assertnever
+License-File: LICENSE
