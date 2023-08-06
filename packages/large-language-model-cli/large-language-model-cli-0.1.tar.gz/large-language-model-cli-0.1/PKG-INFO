@@ -1,0 +1,17 @@
+Metadata-Version: 1.0
+Name: large-language-model-cli
+Version: 0.1
+Summary: Command-line for interacting with large language models. not TUI. chatgpt
+Home-page: UNKNOWN
+Author: Talwrii
+Author-email: Talwrii@googlemail.com
+License: mit
+Description: # llmcli
+        
+        A command line interface for using some large language models.
+        
+        # chatgpt
+        
+        llmcli chatgpt "prompt"
+        
+Platform: UNKNOWN
