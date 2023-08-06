@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.py
+jumpstart_projects/__init__.py
+jumpstart_projects/__main__.py
+jumpstart_projects/utils.py
+jumpstart_projects.egg-info/PKG-INFO
+jumpstart_projects.egg-info/SOURCES.txt
+jumpstart_projects.egg-info/dependency_links.txt
+jumpstart_projects.egg-info/entry_points.txt
+jumpstart_projects.egg-info/top_level.txt
+jumpstart_projects/src/__init__.py
+jumpstart_projects/src/git_init.py
+jumpstart_projects/src/project_init.py

@@ -1,0 +1,3 @@
+[console_scripts]
+jumpstart = jumpstart.__main__:cli
+
