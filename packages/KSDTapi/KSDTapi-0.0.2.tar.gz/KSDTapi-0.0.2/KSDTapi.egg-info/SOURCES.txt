@@ -1,0 +1,6 @@
+README.md
+setup.py
+KSDTapi.egg-info/PKG-INFO
+KSDTapi.egg-info/SOURCES.txt
+KSDTapi.egg-info/dependency_links.txt
+KSDTapi.egg-info/top_level.txt
