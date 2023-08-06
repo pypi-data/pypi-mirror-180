@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: async-scheduler-object
+Version: 1.0.2
+Summary: Object-like async scheduler
+Home-page: https://github.com/LEv145/async-scheduler-object
+License: MIT
+Author: LEv145
+Author-email: you@example.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/LEv145/async-scheduler-object
+Description-Content-Type: text/markdown
+
+# Async scheduler object
+Object-like async scheduler
+
+## Install
+
+https://pypi.org/project/async-scheduler-object/
+
+## Usage
+
+```py
+import asyncio
+from datetime import timedelta
+
+from async_scheduler_object import AsyncScheduler, PeriodicEvent
+
+
+class AgePeriodicEvent(PeriodicEvent):
+    def __init__(self, start: int) -> None:
+        self._age = start
+
+    async def run(self) -> None:
+        print("Age", self._age)
+        self._age += 1
+
+
+class CatsPeriodicEvent(PeriodicEvent):
+    def __init__(self, start: int) -> None:
+        self._cats_count = start
+
+    async def run(self) -> None:
+        print("Cats", self._cats_count)
+        self._cats_count *= 1
+
+
+async def main() -> None:
+    scheduler_1 = AsyncScheduler(
+        events=[AgePeriodicEvent(start=1)],
+        interval=timedelta(seconds=1),
+    )
+    scheduler_2 = AsyncScheduler(
+        events=[AgePeriodicEvent(start=10), CatsPeriodicEvent(start=20)],
+        interval=timedelta(seconds=0.5),
+    )
+    await scheduler_1.start()
+    await scheduler_2.start()
+
+    await asyncio.sleep(10)
+
+    await scheduler_1.stop()
+    await scheduler_2.stop()
+
+
+asyncio.run(main())
+```
+
