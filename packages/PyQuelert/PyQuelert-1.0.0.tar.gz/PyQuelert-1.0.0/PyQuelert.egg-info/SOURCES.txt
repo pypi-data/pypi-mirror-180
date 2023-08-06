@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.cfg
+setup.py
+PyQuelert.egg-info/PKG-INFO
+PyQuelert.egg-info/SOURCES.txt
+PyQuelert.egg-info/dependency_links.txt
+PyQuelert.egg-info/top_level.txt
+Quelert/__init__.py
+Quelert/pyquelert.py
