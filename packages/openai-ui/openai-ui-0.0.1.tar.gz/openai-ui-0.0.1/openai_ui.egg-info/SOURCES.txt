@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+openai_ui/__init__.py
+openai_ui/__main__.py
+openai_ui.egg-info/PKG-INFO
+openai_ui.egg-info/SOURCES.txt
+openai_ui.egg-info/dependency_links.txt
+openai_ui.egg-info/entry_points.txt
+openai_ui.egg-info/requires.txt
+openai_ui.egg-info/top_level.txt
+openai_ui.egg-info/zip-safe
