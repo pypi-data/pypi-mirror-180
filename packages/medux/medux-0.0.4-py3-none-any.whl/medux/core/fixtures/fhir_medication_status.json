@@ -1,0 +1,29 @@
+[
+  {
+    "model": "core.medicationstatus",
+    "pk": 0,
+    "fields": {
+      "code": "active",
+      "display": "Active",
+      "definition": "The medication is available for use"
+    }
+  },
+  {
+    "model": "core.medicationstatus",
+    "pk": 1,
+    "fields": {
+      "code": "inactive",
+      "display": "Inactive",
+      "definition": "The medication is not available for use"
+    }
+  },
+  {
+    "model": "core.medicationstatus",
+    "pk": 2,
+    "fields": {
+      "code": "entered-in-error",
+      "display": "Entered in Error",
+      "definition": "The medication was entered in error"
+    }
+  }
+]

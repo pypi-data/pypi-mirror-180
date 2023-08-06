@@ -1,0 +1,391 @@
+"""
+MedUX - A Free/OpenSource Electronic Medical Record
+Copyright (C) 2017 Christian González
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+"""
+__author__ = "Christian González <christian.gonzalez@nerdocs.at>"
+
+from django.db import models
+
+from medux.core.fields import CodeField, Base64TextField, UriField, IdField
+
+
+class Element(models.Model):
+    """The base definition for all elements contained inside a resource.
+
+    All elements, whether defined as a Data Type (including primitives) or as
+    part of a resource structure, have this base content:
+
+    * Extensions
+    * an internal id
+    """
+
+    # This field originally is named "extension". This causes some problems
+    # with name clashing. So, as it's a ManyToManyField anyway, we renamed
+    # it to "extensions"
+    extensions = models.ManyToManyField("Extension", related_name="+", blank=True)
+
+    class Meta:
+        abstract = True
+
+    def to_xml(self):
+        raise NotImplementedError
+
+    def to_json(self):
+        raise NotImplementedError
+
+
+class Extension(Element):
+    # SHALL be a URL, not a URN (e.g. not an OID or a UUID),
+    url = UriField()
+
+    # FIXME: this field in reality should be more flexible.
+    # see http://build.fhir.org/extensibility.html#Extension
+    # value = models.CharField(max_length=255, blank=True)
+
+
+#    class Meta:
+#        abstract = True
+
+
+# ========== General Purpose Data types / Complex types ============
+# In XML, these types are represented as XML Elements with child elements
+# with the name of the defined elements of the type.
+# The name of the element is defined where the type is used.
+# In JSON, the data type is represented by an object with properties named
+# the same as the XML elements. Since the JSON representation is almost
+# exactly the same, only the first example has an additional explicit
+# JSON representation.
+#
+# Complex data types may be "profiled".
+# A Structure Definition or type "constraint" makes a set of rules about
+# which elements SHALL have values and what the possible values are.
+# ==================================================================
+
+
+class Coding(Element):
+    """A reference to a code defined by a terminology system.
+
+    Definition: http://build.fhir.org/datatypes-definitions.html#Coding"""
+
+    # The identification of the code system that defines the meaning of the
+    # symbol in the code. The URI may be an OID (urn:oid:...) or a
+    # UUID (urn:uuid:...). OIDs and UUIDs SHALL be references to the HL7 OID
+    # registry. Otherwise, the URI should come from HL7's list of FHIR
+    # defined special URIs or it should reference to some definition
+    # that establishes the system clearly and unambiguously.
+    system = UriField(blank=True)
+
+    # The version of the code system which was used when choosing this code.
+    version = models.CharField(max_length=35, blank=True)
+
+    # A symbol in syntax defined by the system. The symbol may be a predefined
+    # code or an expression in a syntax defined by the coding system
+    # (e.g. post-coordination).
+    code = CodeField(null=True)
+
+    # A representation of the meaning of the code in the system,
+    # following the rules of the system.
+    display = models.CharField(max_length=255)
+
+    # Indicates that this coding was chosen by a user directly -
+    # i.e. off a pick list of available items (codes or displays).
+    userselected = models.BooleanField()
+
+    def __str__(self):
+        return self.display
+
+
+class Period(models.Model):
+    """A time period defined by a start and end date/time.
+
+    If the start element is missing, the start of the period is not known.
+    If the end element is missing, it means that the period is ongoing, or the
+    start may be in the past, and the end date in the future, which means that
+    period is expected/planned to end at the specified time.
+    """
+
+    start = models.DateTimeField(null=True)
+    end = models.DateTimeField(null=True)
+
+    def __str__(self):
+        # TODO: return date with local format
+        return super(Period, self).__str__()
+
+
+class ContactPoint(Element):
+    """Details for all kinds of technology-mediated contact points.
+
+    These can be for a person or organization, and includes telephone,
+    email, etc."""
+
+    # links to ContactPointSystem
+    # http://hl7.org/fhir/ValueSet/contact-point-system
+    system = CodeField("ContactPointSystem", blank=True)
+    value = models.CharField(max_length=255, blank=True)
+
+    # links to ContactPointUse
+    # http://hl7.org/fhir/ValueSet/contact-point-use
+    use = CodeField("ContactPointUse", blank=True)
+
+    # Todo: Any positive integer (e.g. >= 1) -> 0 is actually not allowed!
+    rank = models.PositiveIntegerField(blank=True)
+
+    period = models.ForeignKey(Period, on_delete=models.PROTECT, null=True)
+
+
+# http://hl7.org/fhir/identifier-use
+# FIXME: implement expansion automatically, as ValueSet
+IDENTIFIER_USE = (
+    ("usual", "Usual"),
+    ("official", "Official"),
+    ("temp", "Temp"),
+    ("secondary", "Secondary"),
+    ("old", "Old"),
+)
+
+
+# class Identifier(models.Model):
+#     """A numeric or alphanumeric string that is associated with a single
+#     object or entity within a given system.
+#
+#     Typically, identifiers are used to connect content in resources to
+#     external content available in other frameworks or protocols.
+#     Identifiers are associated with objects, and may be changed or retired
+#     due to human or system process and errors."""
+#
+#     use = CodeField(choices=IDENTIFIER_USE)
+#     type = models.ForeignKey("CodeableConcept", null=True, on_delete=models.SET_NULL)
+#
+#     # FIXME: this is an URI in FHIR
+#     # http://build.fhir.org/datatypes.html#Identifier
+#     #
+#     # * http://hl7.org/fhir/sid/us-ssn for United States Social Security
+#     #   Number (SSN) values
+#     # * http://ns.electronichealth.net.au/id/hi/ihi/1.0 for Australian
+#     #   Individual Healthcare Identifier (IHI) numbers
+#     # * urn:ietf:rfc:3986 for when the value of the identifier is itself a
+#     #   globally unique URI
+#     # This could link to the Austrian SVNR system as well.
+#
+#     system = UriField(null=False)
+#
+#     # http://build.fhir.org/datatypes-definitions.html#Identifier.value
+#     # The portion of the identifier typically relevant to the user and which
+#     # is unique within the context of the system.
+#     value = models.CharField(max_length=255, blank=True, unique=True)
+#
+#     period = models.ForeignKey(Period, null=True, on_delete=models.SET_NULL)
+#
+#     assigner = ReferenceField(
+#         "Organization", null=True, on_delete=models.SET_NULL, related_name="asignee"
+#     )
+
+
+class Mapping(Element):
+    identity = IdField()
+    uri = UriField(null=True)
+    name = models.CharField(max_length=255)
+    comment = models.TextField(null=True)
+
+
+class ElementDefinition(Element):
+    # FIXME: Implement
+    pass
+
+
+class Snapshot(Element):
+    element = models.ManyToManyField(
+        ElementDefinition, blank=False, related_query_name="+"
+    )
+
+
+class Differential(Element):
+    element = models.ManyToManyField(
+        ElementDefinition, blank=False, related_query_name="+"
+    )
+
+
+# class Reference(Element):
+#     # A reference to a location at which the other resource is found.
+#     references = models.CharField(max_length=255, blank=True)
+#     identifier = models.ForeignKey("Identifier", null=True, on_delete=models.CASCADE)
+#     display = models.CharField(max_length=255, blank=True)
+#
+#     # TODO: At least one of reference, identifier and display SHALL be present
+#     # (unless an extension is provided).
+#
+#     def validate_unique(self, exclude=None):
+#         pass
+
+
+class CodeableConcept(Element):
+    """A CodeableConcept represents a value that is usually supplied by
+    providing a reference to one or more terminologies or ontologies,
+    but may also be defined by the provision of text.
+
+    This data type can be bound to a value set."""
+
+    coding = models.ManyToManyField(Coding)
+    text = models.TextField(blank=True)
+
+
+class HumanName(Element):
+    # https://www.hl7.org/fhir/valueset-name-use.html
+    use = CodeField("NameUse", blank=True)
+
+    family = models.CharField(max_length=255, blank=True)
+
+    # space separated strings
+    # Initials may be used in place of the full name if that is all that is
+    # recorded
+    given = models.CharField(max_length=255, blank=True)  # Todo: 0..* strings
+
+    # Parts that come before the name
+    prefix = models.CharField(max_length=255, blank=True)  # Todo: 0..* strings
+
+    # Parts that come after the name
+    suffix = models.CharField(max_length=255, blank=True)  # Todo: 0..* strings
+
+    # Time period when name was/is in use
+    period = models.OneToOneField(
+        Period, null=True, blank=True, on_delete=models.CASCADE
+    )
+
+    # the entire name, as it should be represented
+    @property
+    def text(self):
+        # Todo: all those values are supposed to be arrays (or a FK to a
+        # CharField)
+        return "%s%s %s%s" % (
+            "%s " % self.prefix if self.prefix else "",
+            self.given,
+            self.family,
+            ", %s" % self.suffix if self.suffix else "",
+        )
+
+    def __str__(self):
+        return str(self.text)
+
+
+class Address(Element):
+    """An address expressed using postal conventions (as opposed to GPS or
+    other location definition formats). This data type may be used to convey
+    addresses for use in delivering mail as well as for visiting locations
+    which might not be valid for mail delivery. There are a variety of postal
+    address formats defined around the world."""
+
+    use = CodeField("AddressUse")
+    type = CodeField("AddressType")
+
+    # The *text* element specifies the entire address as it should be
+    # represented. This may be provided instead of or as well as the specific
+    # parts. Applications updating an address SHALL ensure either that the
+    # text and the parts are in agreement, or that only one of the two is
+    # present.
+    text = models.CharField(max_length=255, blank=True)
+
+    # This component contains the house number, apartment number, street name,
+    # street direction, P.O. Box number, delivery hints, and similar address
+    # information.
+
+    # 0..* lines where each line represents a line in an address label
+    # This can be saved as '\n' separated strings here.
+    # TODO: consider using a StringListField.
+    line = models.CharField(max_length=255)
+
+    # The name of the city, town, village or other community/delivery center
+    city = models.CharField(max_length=255, blank=True)
+
+    # The name of the administrative area (county).
+    # District is sometimes known as county, but in some regions 'county' is
+    # used in place of city (municipality), so county name should be conveyed
+    # in city instead.
+    district = models.CharField(max_length=255, blank=True)
+
+    state = models.CharField(max_length=255, blank=True)
+
+    # = zip
+    postalCode = models.CharField(max_length=10, blank=True)
+
+    # Country - a nation as commonly understood or generally accepted.
+    # ISO 3166 3 letter codes can be used in place of a full country name.
+    country = models.CharField(max_length=255, blank=True)
+
+    period = models.ForeignKey(Period, on_delete=models.SET_NULL, null=True)
+
+
+class Attachment(Element):
+    """For referring to data content defined in other formats."""
+
+    # Identifies the type of the data in the attachment and allows a method to
+    # be chosen to interpret or render the data. Includes mime type parameters
+    # such as charset where appropriate.
+    contentType = CodeField("MimeType", blank=True)
+
+    # The human language of the content. The value can be any valid value
+    # according to BCP 47.
+    # FIXME: this should point properly to the valueset
+    # https://www.hl7.org/fhir/valueset-languages.html
+    language = CodeField("Common Languages", blank=True)
+
+    # The actual data of the attachment - a sequence of bytes. In XML,
+    # represented using base64.
+    data = Base64TextField(blank=True)
+
+    # An alternative location where the data can be accessed.
+    url = UriField(blank=True)
+    # If both data and url are provided, the url SHALL point to the same
+    # content as the data contains.
+
+    # The number of bytes of data that make up this attachment (before base64
+    # encoding, if that is done).
+    size = models.PositiveIntegerField(blank=True)
+
+    # The calculated hash of the data using SHA-1. Represented using base64.
+    hash = Base64TextField(blank=True)
+
+    # A label or set of text to display in place of the data.
+    title = models.CharField(max_length=255, blank=True)
+
+    # The date that the attachment was first created.
+    creation = models.DateTimeField(auto_created=True, blank=True)
+
+    def __str__(self):
+        return self.title if self.title else self.data
+
+
+# =================================================
+# MetaData Types
+# see http://build.fhir.org/metadatatypes.html
+# =================================================
+
+
+class ContactDetail(Element):
+    """The ContactDetail structure defines general contact details."""
+
+    name = models.CharField(max_length=255, null=True)
+    telecom = models.ManyToManyField(ContactPoint, blank=True)
+
+
+class Contributor(Element):
+    type = CodeField("ContributorType", blank=False, null=False)
+    name = models.CharField(max_length=255)
+    contact = models.ManyToManyField("ContactDetail", blank=True)
+
+
+class UsageContext(Element):
+    code = CodeField("UsageContextType", null=False)
+    value = CodeField("CodeableConcept")

@@ -1,0 +1,726 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-18 23:35+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/medux/core/apps.py:9
+msgid "MedUX Core"
+msgstr "MedUX Core"
+
+#: src/medux/core/apps.py:13
+msgid "Medux Core Plugin"
+msgstr "Medux Core Plugin"
+
+#: src/medux/core/apps.py:14
+msgid "Core"
+msgstr ""
+
+#: src/medux/core/menus.py:12 src/medux/core/templates/layouts/base.html:32
+msgid "Search"
+msgstr "Suche"
+
+#: src/medux/core/menus.py:20
+msgid "New"
+msgstr "Neu"
+
+#: src/medux/core/menus.py:26
+msgid "Patient"
+msgstr "Patient"
+
+#: src/medux/core/menus.py:38
+msgid "Preferences"
+msgstr "Einstellungen"
+
+#: src/medux/core/menus.py:46
+msgid "Extras"
+msgstr "Extras"
+
+#: src/medux/core/menus.py:53
+msgid "Notifications"
+msgstr "Benachrichtigungen"
+
+#: src/medux/core/menus.py:83
+msgid "Logout"
+msgstr "Abmelden"
+
+#: src/medux/core/models/datapacks.py:23
+#, fuzzy
+#| msgid "Username"
+msgid "User"
+msgstr "Benutzername"
+
+#: src/medux/core/models/datapacks.py:24
+msgid "Admin"
+msgstr ""
+
+#: src/medux/core/models/datapacks.py:25 src/medux/core/models/settings.py:46
+msgid "Vendor"
+msgstr ""
+
+#: src/medux/core/models/datapacks.py:50
+msgid "Name for this data pack (computer friendly)"
+msgstr ""
+
+#: src/medux/core/models/datapacks.py:53
+msgid "Name for this data pack (human friendly)"
+msgstr ""
+
+#: src/medux/core/models/datapacks.py:56
+msgid "Natural description, in MarkDown"
+msgstr ""
+
+#: src/medux/core/models/devices.py:16 src/medux/core/models/medication.py:114
+#: src/medux/core/models/medication.py:221
+#: src/medux/core/models/medication.py:305
+msgid "active"
+msgstr ""
+
+#: src/medux/core/models/devices.py:17 src/medux/core/models/medication.py:115
+msgid "inactive"
+msgstr ""
+
+#: src/medux/core/models/devices.py:18 src/medux/core/models/medication.py:116
+#: src/medux/core/models/medication.py:225
+msgid "entered in error"
+msgstr ""
+
+#: src/medux/core/models/devices.py:19 src/medux/core/models/medication.py:228
+#: src/medux/core/models/medication.py:310
+msgid "unknown"
+msgstr ""
+
+#: src/medux/core/models/devices.py:22
+msgid "online"
+msgstr ""
+
+#: src/medux/core/models/devices.py:23
+msgid "paused"
+msgstr ""
+
+#: src/medux/core/models/devices.py:24
+msgid "standby"
+msgstr ""
+
+#: src/medux/core/models/devices.py:25
+msgid "offline"
+msgstr ""
+
+#: src/medux/core/models/devices.py:26
+msgid "not ready"
+msgstr ""
+
+#: src/medux/core/models/devices.py:27
+msgid "transduc disconnected"
+msgstr ""
+
+#: src/medux/core/models/devices.py:28
+msgid "hardware disconnected"
+msgstr ""
+
+#: src/medux/core/models/devices.py:29
+msgid "off"
+msgstr ""
+
+#: src/medux/core/models/devices.py:32
+msgid "Status of the device availability"
+msgstr ""
+
+#: src/medux/core/models/devices.py:36
+msgid "reason for the status of the device availability"
+msgstr ""
+
+#: src/medux/core/models/devices.py:39
+msgid "The distinct identification string"
+msgstr ""
+
+#: src/medux/core/models/devices.py:42
+msgid "Name of device manufacturer"
+msgstr ""
+
+#: src/medux/core/models/devices.py:45
+msgid "Date when the device was made"
+msgstr ""
+
+#: src/medux/core/models/devices.py:50
+msgid "Date and time of expiry of this device (if applicable)"
+msgstr ""
+
+#: src/medux/core/models/devices.py:55
+msgid "Lot number assigned by the manufacturer"
+msgstr ""
+
+#: src/medux/core/models/devices.py:60
+msgid "Serial number assigned by the manufacturer"
+msgstr ""
+
+#: src/medux/core/models/devices.py:65
+msgid "The name of the device as given by the manufacturer"
+msgstr ""
+
+#: src/medux/core/models/devices.py:70
+msgid "The model number for the device"
+msgstr ""
+
+#: src/medux/core/models/devices.py:75
+msgid "The part number for the device"
+msgstr ""
+
+#: src/medux/core/models/devices.py:82
+msgid "The kind or type of device"
+msgstr ""
+
+#: src/medux/core/models/devices.py:95
+msgid "Patient to whom Device is affixed"
+msgstr ""
+
+#: src/medux/core/models/devices.py:102
+msgid "Organization responsible for device"
+msgstr ""
+
+#: src/medux/core/models/fhir.py:87
+msgid "Phone"
+msgstr "Telefon"
+
+#: src/medux/core/models/fhir.py:88
+msgid "Fax"
+msgstr "Fax"
+
+#: src/medux/core/models/fhir.py:89
+msgid "Email"
+msgstr "Email"
+
+#: src/medux/core/models/fhir.py:90
+msgid "Pager"
+msgstr "Pager"
+
+#: src/medux/core/models/fhir.py:91
+msgid "URL"
+msgstr "URL"
+
+#: src/medux/core/models/fhir.py:92
+msgid "SMS"
+msgstr "SMS"
+
+#: src/medux/core/models/fhir.py:93
+msgid "Other"
+msgstr "Andere"
+
+#: src/medux/core/models/fhir.py:99
+msgctxt "at home"
+msgid "Home"
+msgstr "Privat"
+
+#: src/medux/core/models/fhir.py:101
+msgid "Work"
+msgstr "Geschäftlich"
+
+#: src/medux/core/models/fhir.py:102
+msgid "Temporary"
+msgstr "Termporär"
+
+#: src/medux/core/models/fhir.py:103
+msgid "Old"
+msgstr "Veraltet"
+
+#: src/medux/core/models/fhir.py:104
+msgid "Mobile"
+msgstr "Mobil"
+
+#: src/medux/core/models/fhir.py:181
+msgid "Episode Statuses"
+msgstr ""
+
+#: src/medux/core/models/fhir.py:195
+msgid "Episode Status Histories"
+msgstr ""
+
+#: src/medux/core/models/geo.py:24
+msgid "ISO 639-1 language code"
+msgstr "ISO 639-1 Sprachen-Code"
+
+#: src/medux/core/models/geo.py:27
+msgid "ISO 639-1 English language name"
+msgstr "ISO 639-1 Englisch language name"
+
+#: src/medux/core/models/geo.py:48
+msgid "Cities"
+msgstr "Städte"
+
+#: src/medux/core/models/geo.py:60
+msgid "Official English short name"
+msgstr ""
+
+#: src/medux/core/models/geo.py:69
+msgid "Countries"
+msgstr "Länder"
+
+#: src/medux/core/models/geo.py:93
+msgid "hints like postal box directions in CA, or c/o, etc."
+msgstr ""
+
+#: src/medux/core/models/geo.py:99
+msgid "Street number, evtl. with additions like stair number, etc."
+msgstr ""
+
+#: src/medux/core/models/geo.py:115
+msgid "Any additional information that did not fit anywhere else"
+msgstr ""
+
+#: src/medux/core/models/geo.py:121
+msgid "The exact location of this address in latitude-longitude"
+msgstr ""
+
+#: src/medux/core/models/geo.py:134
+msgid "Addresses"
+msgstr "Adressen"
+
+#: src/medux/core/models/medication.py:19
+msgid "Medication Statuses"
+msgstr ""
+
+#: src/medux/core/models/medication.py:33
+msgid "calculated"
+msgstr "berechnet"
+
+#: src/medux/core/models/medication.py:34
+msgid "ordered"
+msgstr "angeordnet"
+
+#: src/medux/core/models/medication.py:38
+msgid "Free text dosage instructions e.g. '1x/day'"
+msgstr ""
+
+#: src/medux/core/models/medication.py:43
+msgid ""
+"Supplemental instruction or warnings to the patient - e.g. 'with meals', "
+"'may cause drowsiness'"
+msgstr ""
+
+#: src/medux/core/models/medication.py:49
+msgid "Instructions in terms that are understood by the patient"
+msgstr ""
+
+#: src/medux/core/models/medication.py:66
+msgid "Technique for administering medication"
+msgstr ""
+
+#: src/medux/core/models/medication.py:120
+msgid "The defining coding system"
+msgstr ""
+
+#: src/medux/core/models/medication.py:125
+msgid "The medication code within this coding system"
+msgstr ""
+
+#: src/medux/core/models/medication.py:136
+msgid "Manufacturer of the medication product. (Not the distributor.)"
+msgstr ""
+
+#: src/medux/core/models/medication.py:147
+msgid "Amount of drug in package"
+msgstr ""
+
+#: src/medux/core/models/medication.py:149
+msgid "Unit representation"
+msgstr ""
+
+#: src/medux/core/models/medication.py:157
+msgid "Identifier assigned to batch"
+msgstr ""
+
+#: src/medux/core/models/medication.py:160
+msgid "When batch will expire"
+msgstr ""
+
+#: src/medux/core/models/medication.py:222
+#: src/medux/core/models/medication.py:306
+msgid "on-hold"
+msgstr ""
+
+#: src/medux/core/models/medication.py:223
+msgid "cancelled"
+msgstr ""
+
+#: src/medux/core/models/medication.py:224
+#: src/medux/core/models/medication.py:308
+msgid "completed"
+msgstr ""
+
+#: src/medux/core/models/medication.py:226
+msgid "stopped"
+msgstr ""
+
+#: src/medux/core/models/medication.py:227
+#: src/medux/core/models/medication.py:304
+msgid "draft"
+msgstr ""
+
+#: src/medux/core/models/medication.py:231
+msgid "routine"
+msgstr ""
+
+#: src/medux/core/models/medication.py:232
+msgid "urgent"
+msgstr ""
+
+#: src/medux/core/models/medication.py:233
+msgid "as soon as possible"
+msgstr ""
+
+#: src/medux/core/models/medication.py:234
+msgid "immediately"
+msgstr ""
+
+#: src/medux/core/models/medication.py:247
+msgid "True if request is prohibiting action"
+msgstr ""
+
+#: src/medux/core/models/medication.py:258
+msgid "Who medication request is for"
+msgstr ""
+
+#: src/medux/core/models/medication.py:271
+msgid "Who requested the request"
+msgstr ""
+
+#: src/medux/core/models/medication.py:285
+msgid "An order/prescription that is being replaced"
+msgstr ""
+
+#: src/medux/core/models/medication.py:294
+msgid "Information about the prescription"
+msgstr ""
+
+#: src/medux/core/models/medication.py:307
+msgid "revoked"
+msgstr ""
+
+#: src/medux/core/models/medication.py:309
+msgid "entered-in-error"
+msgstr ""
+
+#: src/medux/core/models/medication.py:313
+msgid "proposal"
+msgstr ""
+
+#: src/medux/core/models/medication.py:314
+msgid "plan"
+msgstr ""
+
+#: src/medux/core/models/medication.py:315
+msgid "order"
+msgstr ""
+
+#: src/medux/core/models/medication.py:316
+msgid "option"
+msgstr ""
+
+#: src/medux/core/models/medication.py:340
+msgid "CarePlan replaced by this CarePlan"
+msgstr ""
+
+#: src/medux/core/models/medication.py:351
+msgid "Human-friendly name for the care plan"
+msgstr ""
+
+#: src/medux/core/models/medication.py:356
+msgid "Summary of plan"
+msgstr ""
+
+#: src/medux/core/models/medication.py:367
+msgid "Comments about the plan"
+msgstr ""
+
+#: src/medux/core/models/observations.py:35
+msgid "registered"
+msgstr ""
+
+#: src/medux/core/models/observations.py:36
+msgid "preliminary"
+msgstr ""
+
+#: src/medux/core/models/observations.py:37
+msgid "final"
+msgstr ""
+
+#: src/medux/core/models/observations.py:38
+msgid "amended"
+msgstr ""
+
+#: src/medux/core/models/observations.py:53
+msgid "Clinically relevant time for observation"
+msgstr ""
+
+#: src/medux/core/models/organizations.py:50
+msgid "Companies"
+msgstr ""
+
+#: src/medux/core/models/organizations.py:80
+msgid "Medical field"
+msgstr ""
+
+#: src/medux/core/models/organizations.py:86
+msgid ""
+"if you know this physician personally, you can choose to customize his "
+"salutation, like 'Dear Thomas,'"
+msgstr ""
+
+#: src/medux/core/models/organizations.py:153
+msgid "preferred first name, the name a person is usually called (nickname)"
+msgstr ""
+
+#: src/medux/core/models/organizations.py:161
+msgid ""
+"a comment regarding this name, useful in things like 'name before marriage' "
+"etc."
+msgstr ""
+
+#: src/medux/core/models/organizations.py:196
+msgid "Academic title"
+msgstr ""
+
+#: src/medux/core/models/organizations.py:201
+msgid "Date/time of birth"
+msgstr ""
+
+#: src/medux/core/models/organizations.py:208
+msgid "ISO code of Country of Birth"
+msgstr ""
+
+#: src/medux/core/models/organizations.py:215
+msgid "Date/Time of death"
+msgstr ""
+
+#: src/medux/core/models/organizations.py:225
+msgid ""
+"A contact detail for the person, e.g. a telephone number or an email address"
+msgstr ""
+
+#: src/medux/core/models/organizations.py:230
+msgid "Whether this person's record is in active use."
+msgstr ""
+
+#: src/medux/core/models/patient.py:47
+msgid "Annulled"
+msgstr "Annulliert"
+
+#: src/medux/core/models/patient.py:48
+msgid "Divorced"
+msgstr "Geschieden"
+
+#: src/medux/core/models/patient.py:49
+msgid "Interlocutory"
+msgstr ""
+
+#: src/medux/core/models/patient.py:50
+msgid "Legally Separated"
+msgstr ""
+
+#: src/medux/core/models/patient.py:51
+msgid "Married"
+msgstr ""
+
+#: src/medux/core/models/patient.py:52
+msgid "Polygamous"
+msgstr ""
+
+#: src/medux/core/models/patient.py:53
+msgid "Never Married"
+msgstr ""
+
+#: src/medux/core/models/patient.py:54
+msgid "Domestic partner"
+msgstr ""
+
+#: src/medux/core/models/patient.py:55
+msgid "Unmarried"
+msgstr ""
+
+#: src/medux/core/models/patient.py:56
+msgid "Widowed"
+msgstr ""
+
+#: src/medux/core/models/patient.py:57
+msgid "Unknown"
+msgstr ""
+
+#: src/medux/core/models/patient.py:74
+msgid "The patient's general practitioner"
+msgstr ""
+
+#: src/medux/core/models/patient.py:80
+msgid "Physicians the patient consults regularly"
+msgstr ""
+
+#: src/medux/core/models/patient.py:91
+msgid "Persons who should be contacted in case of an emergency"
+msgstr ""
+
+#: src/medux/core/models/patient.py:103
+msgid "Generic comment for this patient"
+msgstr ""
+
+#: src/medux/core/models/settings.py:45
+msgid "Globally"
+msgstr ""
+
+#: src/medux/core/models/settings.py:47
+msgid "System"
+msgstr ""
+
+#: src/medux/core/models/settings.py:48
+msgid "Per machine"
+msgstr ""
+
+#: src/medux/core/models/settings.py:49
+msgid "Per user"
+msgstr ""
+
+#: src/medux/core/models/settings.py:60
+msgid "The user this setting is scoped to. Just applicable if scope == 'user'."
+msgstr ""
+
+#: src/medux/core/models/settings.py:73
+msgid "'User' must be given when scope == 'USER'."
+msgstr ""
+
+#: src/medux/core/models/settings.py:79
+msgid "'Key' must start with an app name (followed by a dot)"
+msgstr ""
+
+#: src/medux/core/models/settings.py:85
+msgid ""
+"Key must be dotted valid python identifiers, like 'medux.foo_setting.baz'."
+msgstr ""
+
+#: src/medux/core/models/tasks.py:14
+msgid "Task List"
+msgstr ""
+
+#: src/medux/core/models/tasks.py:15
+msgid "Task Lists"
+msgstr ""
+
+#: src/medux/core/models/tasks.py:42
+msgid "Task Item"
+msgstr ""
+
+#: src/medux/core/models/tasks.py:43
+msgid "Task Items"
+msgstr ""
+
+#: src/medux/core/models/user.py:10
+msgid "Can login"
+msgstr ""
+
+#: src/medux/core/templates/404.html:4
+msgid "Error"
+msgstr ""
+
+#: src/medux/core/templates/404.html:12
+msgid "This page could not be found."
+msgstr ""
+
+#: src/medux/core/templates/core/patient_form.html:5
+msgid "Add new patient"
+msgstr ""
+
+#: src/medux/core/templates/core/patient_form.html:9
+#: src/medux/core/templates/unicorn/patient-list.html:10
+msgid "First name"
+msgstr ""
+
+#: src/medux/core/templates/core/patient_form.html:14
+#: src/medux/core/templates/unicorn/patient-list.html:9
+msgid "Last name"
+msgstr ""
+
+#: src/medux/core/templates/core/patient_form.html:15
+#: src/medux/core/templates/core/patient_form.html:16
+msgid "Title"
+msgstr ""
+
+#: src/medux/core/templates/core/patient_form.html:22
+msgid "Comment"
+msgstr ""
+
+#: src/medux/core/templates/core/patient_form.html:24
+msgid "Ok"
+msgstr ""
+
+#: src/medux/core/templates/core/patient_form.html:25
+msgid "Clear"
+msgstr ""
+
+#: src/medux/core/templates/core/patient_list.html:4
+#: src/medux/core/templates/core/patient_list.html:6
+#, fuzzy
+#| msgid "Patient"
+msgid "Patient Search"
+msgstr "Patient"
+
+#: src/medux/core/templates/layouts/base.html:31
+#, fuzzy
+#| msgid "Patient"
+msgid "Search patients"
+msgstr "Patient"
+
+#: src/medux/core/templates/registration/login.html:4
+#: src/medux/core/templates/registration/login.html:54
+msgid "Login"
+msgstr "anmelden"
+
+#: src/medux/core/templates/registration/login.html:13
+msgid "Log in"
+msgstr "Anmelden"
+
+#: src/medux/core/templates/registration/login.html:15
+msgid "Username"
+msgstr "Benutzername"
+
+#: src/medux/core/templates/registration/login.html:20
+msgid "Password"
+msgstr "Passwort"
+
+#: src/medux/core/templates/registration/login.html:28
+msgid "Remember me"
+msgstr "Anmeldung merken"
+
+#: src/medux/core/templates/registration/login.html:60
+msgid "Forgot your password?"
+msgstr "Passwort vergessen?"
+
+#: src/medux/core/templates/unicorn/patient-list.html:11
+msgid "Birth date"
+msgstr ""
+
+#: src/medux/core/templates/unicorn/patient-search-input.html:5
+#, fuzzy
+#| msgid "Patient"
+msgid "Search Patients"
+msgstr "Patient"
+
+#: src/medux/core/templates/unicorn/patient-search-input.html:10
+msgid "&apos;Last name, First name&apos; or Birth date"
+msgstr ""
+
+#~ msgid "Base"
+#~ msgstr "Basis"
+
+#~ msgid "Laboratory"
+#~ msgstr "Labor"
