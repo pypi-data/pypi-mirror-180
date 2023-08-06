@@ -1,0 +1,12 @@
+emmnesia/EMM.py,sha256=cbk1IbKYCtv8LgQEyzKaYe3X3D4kMxpTmlqdNKi2vXs,2636
+emmnesia/__init__.py,sha256=AkYE28v3N4qBXTEm0-Oa5e2o-19KmBmjBSrTxuLZ4fo,68
+emmnesia/definitions.py,sha256=kqzbZ2TEixkW7ZrKAHJ8AZBoHjNEsXO_I-1oQTb-6V4,150
+emmnesia/pandas_utils.py,sha256=sCl0P0elGrb43huiaagI0Grdmc_4WMP0P981C7jjCt0,3666
+emmnesia/utils.py,sha256=RhY6-VSZtsTYaY7xSNYsNJ95ScyuO12vKDKjYKO457o,1661
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_queues.py,sha256=fd0F7DE7gkWucbyIJ8w65DnjhVS5Hlh-BuQFdzCrA7A,1326
+emmnesia-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+emmnesia-0.1.1.dist-info/METADATA,sha256=6KC1QQdI0iqGQeysA0xXoTbmHoVT3TEzJWWiDGFiktw,14168
+emmnesia-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+emmnesia-0.1.1.dist-info/top_level.txt,sha256=lSZZw3M47T1W7lDXKi87-jSrJEhF9d7qimGuMrFLFwg,15
+emmnesia-0.1.1.dist-info/RECORD,,
