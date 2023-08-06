@@ -1,0 +1,10 @@
+# images: []
+# annotations: []
+
+table-config: {}
+
+annotation-format: "csv"
+
+plugin-config: {}
+
+startup: {}

@@ -1,0 +1,9 @@
+fields:
+  className:
+    value: ''
+    type: list
+    limits: []
+  createdAt:
+    value: ''
+    readonly: True
+  probability: 100.0

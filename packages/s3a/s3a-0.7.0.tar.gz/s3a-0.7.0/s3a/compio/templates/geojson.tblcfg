@@ -1,0 +1,4 @@
+fields:
+  geometry:
+    type: 'complexxyvertices'
+    value: '{ "type": "Polygon", "coordinates": [] }'
