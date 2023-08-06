@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+awcon/__init__.py
+awcon.egg-info/PKG-INFO
+awcon.egg-info/SOURCES.txt
+awcon.egg-info/dependency_links.txt
+awcon.egg-info/top_level.txt
