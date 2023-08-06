@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+AMCowmvg/__init__.py
+AMCowmvg/antimonyTools.py
+AMCowmvg/forms.py
+AMCowmvg/routes.py
+AMCowmvg.egg-info/PKG-INFO
+AMCowmvg.egg-info/SOURCES.txt
+AMCowmvg.egg-info/dependency_links.txt
+AMCowmvg.egg-info/entry_points.txt
+AMCowmvg.egg-info/requires.txt
+AMCowmvg.egg-info/top_level.txt
