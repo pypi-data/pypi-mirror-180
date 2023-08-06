@@ -1,0 +1,9 @@
+LICENSES.txt
+README.md
+setup.py
+snapthon/__init__.py
+snapthon.egg-info/PKG-INFO
+snapthon.egg-info/SOURCES.txt
+snapthon.egg-info/dependency_links.txt
+snapthon.egg-info/requires.txt
+snapthon.egg-info/top_level.txt
