@@ -1,0 +1,13 @@
+pyparsing>=2.0
+numpy>=1.16
+astropy>=4.0
+
+[docs]
+matplotlib
+sphinx
+sphinx-astropy
+sphinx-rtd-theme
+
+[test]
+pytest
+pytest-astropy-header
