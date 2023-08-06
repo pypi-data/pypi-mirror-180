@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+api/application.py
+nlp_ood.egg-info/PKG-INFO
+nlp_ood.egg-info/SOURCES.txt
+nlp_ood.egg-info/dependency_links.txt
+nlp_ood.egg-info/requires.txt
+nlp_ood.egg-info/top_level.txt

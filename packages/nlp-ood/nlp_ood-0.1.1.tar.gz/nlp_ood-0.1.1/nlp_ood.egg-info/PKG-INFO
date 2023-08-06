@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: nlp-ood
+Version: 0.1.1
+Summary: domain classification
+Author: Developer
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+API
+==============================
+
+## Introduction
+We have researched and tested the studied solution. After testing, we built an api that quickly deploys the application on other environments.
+
+***
+
+# Dependencies
+
+We use anaconda to create python environment:
+
+`conda create --name ood_api python=3.8`
+
+Activate enviroment
+
+`conda activate ood_api`
+
+Install all required libraries:
+
+`pip install -r requirements.txt`
+
+# How to run
+```python application.py```
+
+## License
+For open source projects, say how it is licensed.
