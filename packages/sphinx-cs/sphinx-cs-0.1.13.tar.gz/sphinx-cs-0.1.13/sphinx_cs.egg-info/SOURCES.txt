@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+sphinx_cs/__init__.py
+sphinx_cs/cs.py
+sphinx_cs/debug.py
+sphinx_cs/extrefs.py
+sphinx_cs/extrefs_data.py
+sphinx_cs.egg-info/PKG-INFO
+sphinx_cs.egg-info/SOURCES.txt
+sphinx_cs.egg-info/dependency_links.txt
+sphinx_cs.egg-info/requires.txt
+sphinx_cs.egg-info/top_level.txt

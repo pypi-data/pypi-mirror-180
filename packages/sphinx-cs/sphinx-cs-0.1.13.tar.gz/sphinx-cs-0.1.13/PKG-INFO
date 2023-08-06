@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: sphinx-cs
+Version: 0.1.13
+Summary: C# domain for Sphinx
+Home-page: https://github.com/rogerbarton/sphinx-csharp
+Author: rogerbarton
+Author-email: rogerbarton@users.noreply.github.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Documentation :: Sphinx
