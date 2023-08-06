@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "wldhx.git-send-telegram"
+version = "0.1.1"
+description = "Your git send-email for 2023!"
+authors = ["wldhx <wldhx+pypi_python_org@wldhx.me>"]
+readme = "README.md"
+packages = [{include = "git_send_telegram"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyrogram = "^2.0.64"
+tgcrypto = "^1.2.5"
+gitpython = "^3.1.29"
+
+[tool.poetry.scripts]
+git-send-telegram = "git_send_telegram:main"
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
