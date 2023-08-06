@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: ilivalidator
+Version: 0.0.1
+Summary: Python package for ilivalidator.
+Home-page: https://github.com/pylitools/ilivalidator
+Author: Stefan Ziegler
+Author-email: edi.gonzales@gmail.com
+License: MIT license
+Keywords: ilivalidator,interlis
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: importlib-resources
+
+# ilivalidator
+Python package for [ilivalidator](https://github.com/claeis/ilivalidator).
+
+Ilivalidator is compiled to a [native shared library](https://www.graalvm.org/latest/reference-manual/native-image/guides/build-native-shared-library/) with [GraalVM](https://graalvm.org). This Python package calls the native shared library.
+
+The native shared libs are built with Github Actions and thus are available for macOS, Ubuntu and Windows (all x86_64 based OS).
+
+## Installation
+
+```
+pip install ilivalidator
+```
+
+## Run
+tbd
+
+## Develop
+tbd
+
+## Todo
+- Tests: Wie kann die shared lib getestet werden? 
