@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: brif
+Version: 1.2.0
+Summary: Build decision trees and random forests for classification and regression.
+Author: Yanchao Liu
+Author-email: yanchaoliu@wayne.edu
+License: GPL3
+Keywords: random forest,classification,regression,prediction
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+# Description
+
+Build random forests for classification and regression problems. 
+The same program is available on [CRAN](URL 'https://cran.r-project.org/web/packages/brif/index.html') for R users. 
+
+# Installation
+
+For Python:
+```bash
+python3 -m pip install brif
+```
+
+For R:
+```R
+install.packages('brif')
+```
+
+
+# Examples
+
+```python
+import brif
+import pandas as pd
+
+# Create a brif object with default settings
+bf = brif.brif()  
+
+# Display the current parameter values. Parameter meanings are documented in the 'brif' package in R. 
+bf.get_param()  
+
+# To change certain parameter values, e.g.:
+bf.set_param({'ntrees':100, 'nthreads':2})
+
+# Or simply:
+bf.ntrees = 200
+
+# Load input data frame. Data must be a pandas data frame with appropriate headers.
+# Header text and factor variable values must not contain any white space.
+df = pd.read_csv("auto.csv")
+
+# Train the model
+bf.fit(df, 'origin')  # specify the target column name
+
+# Or equivalently
+bf.fit(df, 7)  # specify the target column index
+
+# Make predictions 
+# The target variable column must be excluded, and all other columns should appear in the same order as in training
+# Here, predict the first 10 rows of df
+pred_labels = bf.predict(df.iloc[0:10, 0:7], type='class')  # return a list containing the predicted class labels
+pred_scores = bf.predict(df.iloc[0:10, 0:7], type='score')  # return a data frame containing predicted probabilities by class
+
+# Note: for a regression problem (i.e., when the response variable is numeric type), the predict function will always return a list containing the predicted values
+
+```
+
