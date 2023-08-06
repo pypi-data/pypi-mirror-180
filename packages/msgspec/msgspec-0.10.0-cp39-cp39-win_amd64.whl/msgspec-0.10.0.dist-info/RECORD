@@ -1,0 +1,15 @@
+msgspec/__init__.py,sha256=gSEZrdiqKWAPdPNXI3lYAUlqhy7BnefDuaAoSrcwb_g,294
+msgspec/__init__.pyi,sha256=isp7xRHFqNrT3GiELBMxRiAqStJK0PlVLHdVz0wKoV8,4445
+msgspec/_core.cp39-win_amd64.pyd,sha256=H6ywR7WqVehZvDq7b8HnLy16TKkQ7kfXuN2cLNz39Gw,233984
+msgspec/_utils.py,sha256=wUXcZ9W7d6t-ZjXNFUswuSHPmNYxVE-ZseHfEY2EVhE,21553
+msgspec/_version.py,sha256=AhiCPKCdpOxDlFLxfWESbG4os3tfnZD3HG2pRAAY9VU,519
+msgspec/json.py,sha256=0vL0betTo1NFjg7ZFTbVuVgZm3d_z7gvrZV_FPkv2Os,214
+msgspec/json.pyi,sha256=ffIGPTnTiPMWh-JMW1AMaEU50Si_Ab3-Y1ydVC-V82A,2061
+msgspec/msgpack.py,sha256=ZEFykdhYNkq_u5gODXG3MhBqwH6vgofQI8dv3CDIMw0,161
+msgspec/msgpack.pyi,sha256=nHqMZndS2ZZW_wB-KG-HIooP9eU3c2nsegTUwZl5-dc,2073
+msgspec/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+msgspec-0.10.0.dist-info/LICENSE,sha256=-vj2abHT0mcJoEeHmvMUl7_NeVOJFjZWIHRImQDCJUA,1525
+msgspec-0.10.0.dist-info/METADATA,sha256=jq-ntRCxzXuuRr567DcpStC1KRcgYtc2mQZS9S2I024,3562
+msgspec-0.10.0.dist-info/WHEEL,sha256=fVcVlLzi8CGi_Ul8vjMdn8gER25dn5GBg9E6k9z41-Y,100
+msgspec-0.10.0.dist-info/top_level.txt,sha256=8Ysnxa29QLhdPtjPGjyc1hmx3nOmKeu_OAk2682ZdvU,8
+msgspec-0.10.0.dist-info/RECORD,,
