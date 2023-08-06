@@ -1,0 +1,31 @@
+Metadata-Version: 1.1
+Name: pinyin-jyutping
+Version: 0.3
+Summary: Convert a Chinese sentence to Pinyin or Jyutping
+Home-page: https://github.com/Language-Tools/pinyin-jyutping
+Author: LucW
+Author-email: languagetools@mailc.net
+License: GPL
+Description: pinyin-jyutping
+        ===============
+        
+        Python module which converts a Chinese sentence from Simplified/Traditional to Mandarin/Pinyin and Traditional/Simplified to Cantonese/Jyutping, outputting diacritics (accented characters). I designed this library to create Mandarin and Cantonese flashcards.
+        
+        Want to support my work on this module ? Become a supporter: https://www.patreon.com/lucw
+        
+        Install
+        -------
+        
+        .. code:: bash
+        
+            $ pip install pinyin_jyutping
+        
+        Usage
+        -----
+        
+        To be documented later
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Text Processing :: Linguistic
