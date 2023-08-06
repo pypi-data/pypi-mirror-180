@@ -1,0 +1,14 @@
+ioutil/__init__.py,sha256=l4EAdUqOPcft4dI33uxSHslgNRWdafviOAyvH-9EvTY,801
+ioutil/__main__.py,sha256=pyde_2NhXvypRkRufHcbV97cXnKAtAze5q1puGf0rU0,3260
+ioutil/_csv.py,sha256=NkOVUGsb3wojbv9JcfTt2QyL5735vt7KsW9DmFzDNiI,1427
+ioutil/_file.py,sha256=G-0hRIEOC1gGBB0QFT9gybhCHqyfkamiyW1WxVQVUEU,692
+ioutil/_json.py,sha256=3BsaPUBP5YsMp5_RvE-r6L-YG52i8qObEcqYPfEq8dQ,737
+ioutil/_parquet.py,sha256=ZOsJFWW05hALUiE2fOwY_cc6OGUEdbzfeDSF2h-GwNQ,729
+ioutil/_text.py,sha256=oy9H3HBJzXbVy-snFLvTnJVLsWICge9F9jDQTduWtFQ,669
+ioutil/_toml.py,sha256=tu2ufeKpBgbDePVY0RxKxcdSPV1GfuuPbEndTNf9SOc,729
+ioutil-1.0.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+ioutil-1.0.1.dist-info/METADATA,sha256=p_LtQwBF0WOLpJhXymF3N4XqRH7DR35PT-ZfKnW5yIs,2407
+ioutil-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ioutil-1.0.1.dist-info/entry_points.txt,sha256=KiP5k0uj9nkic0K1_gn3hCJ_04teF03CQcP4LNou744,48
+ioutil-1.0.1.dist-info/top_level.txt,sha256=11XibSXt7UpspCsdd4bTmeDkFNqy-SKHYLhD5Ml_a7I,7
+ioutil-1.0.1.dist-info/RECORD,,
