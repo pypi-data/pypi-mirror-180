@@ -1,0 +1,14 @@
+pptoml/__about__.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+pptoml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pptoml/__main__.py,sha256=fMZfqjKizUjFwGiudfNZ3NCjmEDlvsigd1t2V-DMk0o,65
+pptoml/cli.py,sha256=ydh4J7OtYqRslDe-96ZIi0ay7Q8tpFGALzrgqyPxEZk,2350
+pptoml/fetch.py,sha256=xgMJQsIpGTXMytsPXXP8h1h-zxXLWh4Q11gM2RFG53U,3841
+pptoml/inout.py,sha256=955CdJnZWpFknZTCqrmkO9dtmg02zhqJNX3dwL_aIBc,557
+pptoml/mod.py,sha256=PEEEf4sXLUbfmkT2z_tOeOAaMIYvOvdJydHpW6oru3U,472
+pptoml/validate.py,sha256=DhqpbFGjJj9eTfVgBDv6jEVURQpExQXWw0AY-dJirIY,411
+pptoml-0.2.0.dist-info/METADATA,sha256=Kn_VVH0megxO26WIB1xVvI1_hyZX5CozmRM4vSx6yvI,4527
+pptoml-0.2.0.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+pptoml-0.2.0.dist-info/entry_points.txt,sha256=5dmIOUv8XbugULvRpvDQH_FSLe-2Ke_Jgb4JYwXZTr0,42
+pptoml-0.2.0.dist-info/licenses/LICENSE-APACHE,sha256=B05uMshqTA74s-0ltyHKI6yoPfJ3zYgQbvcXfDVGFf8,10280
+pptoml-0.2.0.dist-info/licenses/LICENSE-MIT,sha256=QP6S02x0E72FT9hFMxgp5HOKPMBYo7sjlOM4EjmaP7U,1114
+pptoml-0.2.0.dist-info/RECORD,,
