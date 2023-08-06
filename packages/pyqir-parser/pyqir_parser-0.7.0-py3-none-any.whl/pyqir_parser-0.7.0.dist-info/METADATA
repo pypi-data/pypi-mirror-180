@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pyqir-parser
+Version: 0.7.0
+Summary: This package has been replaced by pyqir.
+Description-Content-Type: text/markdown
+Requires-Dist: pyqir
+
+# `pyqir-parser` has been replaced by `pyqir`
+
+Please install the `pyqir` package instead, which provides the same functionality.
+Read the [upgrade guide](https://www.qir-alliance.org/pyqir/upgrade.html) for help with upgrading from `pyqir-parser` 0.6.
