@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mindflow
+Version: 0.1
+Requires-Dist: requests
+Requires-Dist: revChatGPT
+Requires-Dist: bs4
+Requires-Dist: chardet
+Requires-Dist: pyperclip
+Requires-Dist: gitpython
+
