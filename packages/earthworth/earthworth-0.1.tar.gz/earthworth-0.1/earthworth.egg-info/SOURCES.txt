@@ -1,0 +1,8 @@
+setup.py
+earthworth/__init__.py
+earthworth/earthworth.py
+earthworth.egg-info/PKG-INFO
+earthworth.egg-info/SOURCES.txt
+earthworth.egg-info/dependency_links.txt
+earthworth.egg-info/not-zip-safe
+earthworth.egg-info/top_level.txt
