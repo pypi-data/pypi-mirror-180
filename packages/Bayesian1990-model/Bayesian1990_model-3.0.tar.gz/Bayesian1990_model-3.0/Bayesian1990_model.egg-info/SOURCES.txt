@@ -1,0 +1,9 @@
+setup.py
+Bayesian1990_model/__init__.py
+Bayesian1990_model/linear_model_class.py
+Bayesian1990_model/model_class.py
+Bayesian1990_model.egg-info/PKG-INFO
+Bayesian1990_model.egg-info/SOURCES.txt
+Bayesian1990_model.egg-info/dependency_links.txt
+Bayesian1990_model.egg-info/not-zip-safe
+Bayesian1990_model.egg-info/top_level.txt
