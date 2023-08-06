@@ -1,0 +1,11 @@
+sqlalchemy
+pandas
+tqdm
+scikit-learn
+scikit-image
+torch
+torchvision
+mxnet
+deepface
+
+[dev]
