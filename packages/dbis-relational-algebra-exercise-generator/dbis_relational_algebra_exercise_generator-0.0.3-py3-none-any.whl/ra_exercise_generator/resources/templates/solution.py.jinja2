@@ -1,0 +1,32 @@
+# Autograder, bitte ignorieren
+### BEGIN HIDDEN TESTS
+
+correct_solution = {{ correct_solution }}
+correct_result = correct_solution.evaluate(sql_con=sql_con)
+assert isinstance(correct_result, Relation)
+correct_attributes = correct_result.get_minimal_attribute_names(correct_result.attributes)
+correct_rows = correct_result.rows
+
+submission = subtask.getSolution()
+assert isinstance(submission, Relation)
+submission_attributes = submission.get_minimal_attribute_names(submission.attributes)
+submission_rows = submission.rows
+
+score = 0
+max_score = subtask.points
+correct_attributes_score_perc = {{ correct_attributes_score_perc }}
+
+correct_len = len(correct_rows)
+
+if correct_attributes != submission_attributes:
+    subtask.setScore(0)
+else:
+    score = max_score * correct_attributes_score_perc
+    diff = set(correct_rows).symmetric_difference(set(submission_rows))
+    if len(diff) == 0:
+        score = max_score
+    else:
+        score += max_score * (1 - correct_attributes_score_perc) * (correct_len - len(diff)) / correct_len
+    subtask.setScore(score)
+
+### END HIDDEN TESTS
