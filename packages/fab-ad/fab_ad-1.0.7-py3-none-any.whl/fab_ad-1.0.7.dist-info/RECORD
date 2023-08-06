@@ -1,0 +1,10 @@
+fab_ad/constants.py,sha256=LKqXdpivpMnrMiNeucXqG5hYYrLtwH7gX8NeaaLeoLY,418
+fab_ad/fab_ad_diff.py,sha256=rJ9zNLqiBPzZYRPuC4zTv5Qx_6T5OCcUgfgXnZPUAW8,6648
+fab_ad/fab_ad_math.py,sha256=KVT2Zkr9OFpCb3VkPBkC0RorGRt6Kw5BYLLVMUqTgBU,14877
+fab_ad/fab_ad_session.py,sha256=MPyXaSriG12O_9ztw93SESG6avXA73N7f8nneXoozrI,2292
+fab_ad/fab_ad_tensor.py,sha256=lrX-vD0nmnmYa7zQMBrYqikqvhGckhfMWJ2WjGA5XFE,20055
+fab_ad-1.0.7.dist-info/LICENCE,sha256=3cJfTeDplF1l75RJITK8u9OIP6T1Jsy4dU_8qjdk1Zc,1085
+fab_ad-1.0.7.dist-info/METADATA,sha256=hxVhwb2TLyjf1aoBPcXFLOQTw34AEWTKIrAMgLlSfkA,15595
+fab_ad-1.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fab_ad-1.0.7.dist-info/top_level.txt,sha256=vHyalN25MkcfGBgexgnS0Q_kXc2mwqoD4TSvdqyr0jM,7
+fab_ad-1.0.7.dist-info/RECORD,,
