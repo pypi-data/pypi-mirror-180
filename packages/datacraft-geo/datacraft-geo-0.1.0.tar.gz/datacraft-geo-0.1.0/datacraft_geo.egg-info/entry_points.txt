@@ -1,0 +1,2 @@
+[datacraft.custom_type_loader]
+geo = datacraft_geo:load_custom

@@ -1,0 +1,14 @@
+datacraft>=0.7.1
+mgrs
+utm
+shapely
+
+[all]
+pytest>=6.2.2
+pycodestyle
+pytest-cov
+
+[test]
+pytest>=6.2.2
+pycodestyle
+pytest-cov
