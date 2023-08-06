@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pda_api_wrapper/__init__.py
+pda_api_wrapper/pda_api.py
+pda_api_wrapper.egg-info/PKG-INFO
+pda_api_wrapper.egg-info/SOURCES.txt
+pda_api_wrapper.egg-info/dependency_links.txt
+pda_api_wrapper.egg-info/requires.txt
+pda_api_wrapper.egg-info/top_level.txt
