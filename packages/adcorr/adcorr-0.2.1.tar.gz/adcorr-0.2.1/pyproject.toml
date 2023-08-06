@@ -1,0 +1,125 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools", "wheel", "setuptools_scm[toml]"]
+
+[project]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+dependencies = ["click", "numpy", "scipy"]
+description = "Area detector corrections as pure python functions."
+dynamic = ["version"]
+license = { file = "LICENCE" }
+name = "adcorr"
+readme = "README.rst"
+requires-python = ">=3.9"
+
+[project.urls]
+GitHub = "https://github.com/DiamondLightSource/adcorr"
+
+[project.scripts]
+adcorr = "adcorr.cli:main"
+
+[[project.authors]]
+email = "garry.o'donnell@diamond.ac.uk"
+name = "Garry O'Donnell"
+
+[[project.maintainers]]
+email = "garry.o'donnell@diamond.ac.uk"
+name = "Garry O'Donnell"
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "mypy",
+    "flake8-isort",
+    "Flake8-pyproject",
+    "pipdeptree",
+    "pre-commit",
+    "pytest-cov",
+    "pydocstyle[toml]",
+    "tox-direct",
+    "numcertain",
+    "pint",
+]
+docs = [
+    "pydata-sphinx-theme>=0.12",
+    "sphinx-autobuild",
+    "sphinx-copybutton",
+    "sphinx-design",
+    "nbsphinx",
+    "pandoc",
+    "ipykernel",
+    "h5py",
+    "matplotlib",
+]
+
+[tool.setuptools_scm]
+write_to = "src/adcorr/_version.py"
+
+[tool.mypy]
+ignore_missing_imports = true          # Ignore missing stubs in imported modules
+plugins = ["numpy.typing.mypy_plugin"]
+
+[tool.isort]
+float_to_top = true
+profile = "black"
+
+[tool.flake8]
+extend-ignore = [
+    "E203", # See https://github.com/PyCQA/pycodestyle/issues/373
+    "F811", # support typing.overload decorator
+]
+max-line-length = 88 # Respect black's line length (default 88),
+per-file-ignores = "*pyi:E302"
+
+[tool.pydocstyle]
+add-ignore = [
+    "D100", # Ignore missing docstrings in public modules
+    "D104", # Ignore missing docstrings in public packages
+    "D418", # Ignore missing docstrings in dunder methods; See: https://github.com/PyCQA/pydocstyle/issues/525
+]
+convention = "google"
+
+[tool.pytest.ini_options]
+addopts = """\
+    --tb=native -vv --doctest-modules --doctest-glob=\"*.rst\"
+    --cov=adcorr --cov-report term --cov-report xml:cov.xml\
+    """
+filterwarnings = "error"
+markers = ["core", "numcertain", "pint"]
+testpaths = "src tests"
+
+[tool.coverage.run]
+data_file = "/tmp/adcorr.coverage"
+
+[tool.coverage.paths]
+# Tests are run from installed location, map back to the src directory
+source = ["src", "**/site-packages/"]
+
+# tox must currently be configured via an embedded ini string
+# See: https://github.com/tox-dev/tox/issues/999
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+skipsdist=True
+
+[testenv:{pre-commit,mypy,pytest,docs}]
+# Don't create a virtualenv for the command, requires tox-direct plugin
+direct = True
+passenv = *
+allowlist_externals = 
+    pytest 
+    pre-commit
+    mypy
+    sphinx-build
+    sphinx-autobuild
+commands =
+    pytest: pytest {posargs}
+    mypy: mypy src tests {posargs}
+    pre-commit: pre-commit run --all-files {posargs}
+    docs: sphinx-{posargs:build -EW --keep-going} -T docs build/html
+"""

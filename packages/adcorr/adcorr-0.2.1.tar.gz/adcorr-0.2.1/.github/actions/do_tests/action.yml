@@ -1,0 +1,66 @@
+name: do_tests
+description: Setup python, install dependancies, run tests & upload to codecov
+
+inputs:
+  install_options:
+    required: false
+    description: Arguments to pass to pip install
+    default: "."
+
+  marker:
+    required: true
+    description: The pytest marker to test
+
+  python:
+    required: true
+    description: The python version to use
+
+runs:
+  using: composite
+  steps:
+    - name: Install python packages
+      uses: ./.github/actions/install_requirements
+      with:
+        python_version: ${{ inputs.python }}
+        requirements_file: requirements-test-${{ runner.os }}-${{ matrix.python }}.txt
+        install_options: ${{ inputs.install_options }}
+
+    - name: List dependency tree
+      shell: bash
+      run: pipdeptree
+
+    - name: Run tests
+      shell: bash
+      run: pytest -m ${{ inputs.marker }}
+
+    - name: Upload coverage to Codecov
+      if: always()
+      uses: codecov/codecov-action@v3
+      with:
+        name: ${{ runner.os }}/${{ inputs.python }}
+        flags: ${{ inputs.marker }}
+        files: cov.xml
+
+    - name: Generate badge
+      id: generate-badge
+      if: always()
+      uses: jaywcjlove/generated-badges@v1.0.9
+      with:
+        output: ${{ runner.os }}_${{ inputs.python }}_${{ inputs.deploy }}_${{ inputs.marker }}.svg
+        label: "tests"
+        labelColor: ${{ inputs.label_color }}
+        status: ${{ steps.tests.outcome == 'success' && 'passing' || 'failing' }}
+        color: ${{ steps.tests.outcome == 'success' && 'green' || 'red' }}
+
+    - name: Get branch name
+      if: always()
+      id: branch-name
+      uses: ./.github/actions/get_branch
+
+    - name: Upload badge
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: badges-${{ steps.branch-name.outputs.sanitized_name }}
+        path: ${{ runner.os }}_${{ inputs.python }}_${{ inputs.deploy }}_${{ inputs.marker }}.svg
+        retention-days: 1
