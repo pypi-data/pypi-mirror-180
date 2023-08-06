@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pytorch-to-tensorflow
+Version: 1.0.1
+Summary: Convert PyTorch models to TensorFlow models
+Home-page: https://github.com/dnyanshwalwadkar/pytorch_to_tensorflow
+Author: Dnyanesh Walwadkar
+Author-email: dnyanshwalwadkar10@gmail.com
+License: MIT
