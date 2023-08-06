@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: crdt
+Version: 0.0.1
+Summary: Conflict-free Replicated Data Type tools
+Home-page: https://ragt.ag/code/projects/python-crdt
+License: 0BSD
+Author: Angelo Gladding
+Author-email: angelo@ragt.ag
+Requires-Python: >=3.10,<3.11
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Project-URL: Documentation, https://ragt.ag/code/projects/python-crdt/api
+Project-URL: Repository, https://ragt.ag/code/projects/python-crdt.git

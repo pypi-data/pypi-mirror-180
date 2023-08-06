@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "crdt"
+version = "0.0.1"
+description = "Conflict-free Replicated Data Type tools"
+homepage = "https://ragt.ag/code/projects/python-crdt"
+repository = "https://ragt.ag/code/projects/python-crdt.git"
+documentation = "https://ragt.ag/code/projects/python-crdt/api"
+authors = ["Angelo Gladding <angelo@ragt.ag>"]
+license = "0BSD"
+packages = [{include="crdt.py"}]
+
+[tool.poetry.scripts]
+crdt = "crdt:main"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+
+[tool.poetry.group.dev.dependencies]
+gmpg = {path="../gmpg", develop=true}
+
+[[tool.poetry.source]]
+name = "main"
+url = "https://ragt.ag/code/pypi"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
