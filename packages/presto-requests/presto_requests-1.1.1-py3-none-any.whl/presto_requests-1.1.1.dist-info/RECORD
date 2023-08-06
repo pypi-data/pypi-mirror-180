@@ -1,0 +1,16 @@
+presto/__init__.py,sha256=GEKNGq6Ntw-NbBT87hMfmR4UcTBFmzEPKJ7H1RGxiuc,80
+presto/adict.py,sha256=AEdrAu52yPAiwn545jlTmCqeJlqK2iH3iR8b9l4K1HQ,1172
+presto/asynco/__init__.py,sha256=9tKxRAfpRXHXSXuxMrf4cJDV3QG1Q3FgKw_583CYvYk,90
+presto/asynco/client.py,sha256=fCO_ZodJUTUPZ9tP2AgwbRkptNxO0YsyAXGNW5toa6o,877
+presto/asynco/handler.py,sha256=3TGS0MuOcjJPa2te_-M9doiqdnQFPXquvKqiu8b1VMc,1056
+presto/asynco/presto.py,sha256=-0rX9Q9NC9ky3EZrT_jyIa4MNGmB23OTpDvQsNMc1sw,1432
+presto/asynco/request.py,sha256=bBkZ3AmO6jyYBQ81QZH9_qJUKWmw6bi_VaRTUfiVX_Y,803
+presto/asynco/response.py,sha256=R7zSneZgmDzvoGF_8B873nIHOXLUklkdL5UQp0cUNv0,327
+presto/client.py,sha256=vrMFnNKSme6VLIh9aLtyCOxYqJGVA-kEYQgKqZSUFwg,1144
+presto/handler.py,sha256=5uIJL_2FDu4hTxmsbzLEsAQljBwppV29W3OsVpluSr8,1790
+presto/presto.py,sha256=O7KMlObat5Pw_JUuNruY1Lh1FT1hBtzqP3ZemEnozz8,3293
+presto/request.py,sha256=2B9GKL_mTEEwcUZb_ryTZ_SgKOR_wCBDkl7LDXWFKe8,5089
+presto/response.py,sha256=EKeDwtwGF-ZAfKWpeX6bVBGiBTXG0bzmeFoVtjapBh0,1316
+presto_requests-1.1.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+presto_requests-1.1.1.dist-info/METADATA,sha256=bVb1TFnyq-Bmfpnox-k6cwfCkVGDZDhKDknTVlau_ak,7899
+presto_requests-1.1.1.dist-info/RECORD,,
