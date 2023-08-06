@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: datadog-serverless-utils
+Version: 1.0
+Summary: Utilities for integration between serverless execution environments and DataDog
+Home-page: UNKNOWN
+Author: NewtonX
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.4
+License-File: LICENSE
+
+UNKNOWN
+

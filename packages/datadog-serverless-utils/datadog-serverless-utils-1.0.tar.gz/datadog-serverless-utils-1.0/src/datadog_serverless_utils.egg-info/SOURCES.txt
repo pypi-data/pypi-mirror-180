@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/datadog_serverless_utils.egg-info/PKG-INFO
+src/datadog_serverless_utils.egg-info/SOURCES.txt
+src/datadog_serverless_utils.egg-info/dependency_links.txt
+src/datadog_serverless_utils.egg-info/requires.txt
+src/datadog_serverless_utils.egg-info/top_level.txt
