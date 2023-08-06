@@ -1,0 +1,2 @@
+[flake8_import_order.styles]
+pep8app = flake8_import_order_pep_8_app:PEP8App

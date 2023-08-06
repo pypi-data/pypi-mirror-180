@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: flake8-import-order-pep8app
+Version: 0.1.9
+Summary: Flake8 Import Order's PEP 8 style with application packages enabled.
+Home-page: https://bitbucket.org/JoeHitchen/flake8-import-order-pep-8-app/
+Author: Joe Hitchen
+Classifier: Framework :: Flake8
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Flake8 Import Order PEP 8 App
+
+A simple package that allows application packages to be separated from third-party packages when using [Flake8 Import Order](https://github.com/PyCQA/flake8-import-order)'s PEP 8 style.
+
