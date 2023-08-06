@@ -1,0 +1,8 @@
+setup.py
+df_data_validator/__init__.py
+df_data_validator/df_data_validator.py
+df_data_validator.egg-info/PKG-INFO
+df_data_validator.egg-info/SOURCES.txt
+df_data_validator.egg-info/dependency_links.txt
+df_data_validator.egg-info/requires.txt
+df_data_validator.egg-info/top_level.txt
