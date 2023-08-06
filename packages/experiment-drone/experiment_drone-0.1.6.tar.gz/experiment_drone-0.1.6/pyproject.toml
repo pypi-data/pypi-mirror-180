@@ -1,0 +1,81 @@
+[tool.poetry]
+name = "Experiment_drone"
+version = "0.1.6"
+description = "Python Boilerplate contains all the boilerplate you need to create a Python package."
+authors = ["bopo <ibopo@126.com>"]
+
+classifiers = [
+    'Development Status :: 2 - Pre-Alpha',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: MIT License',
+    'Natural Language :: English',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+]
+packages = [
+    { include = "experiment" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^7.1"
+
+[tool.poetry.dev-dependencies]
+#pip = "^19.2.3"
+#bump2version = "^0.5.11"
+#wheel = "^0.33.6"
+#watchdog = "^0.9.0"
+#flake8 = "^3.7.8"
+#tox = "^3.14.0"
+#coverage = "^4.5.4"
+#Sphinx = "^1.8.5"
+#twine = "^1.14.0"
+#furo = "^2022.9.29"
+#pytest = "^6.2.4"
+#pre-commit = "^2.17.0"
+
+
+[tool.poetry.scripts]
+experiment = "experiment.__main__:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "tuna"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+secondary = false
+
+[[tool.poetry.source]]
+name = "aliyun"
+url = "https://mirrors.aliyun.com/pypi/simple"
+default = false
+secondary = false
+
+[tool.isort]
+profile = "black"
+
+
+[tool.commitizen]
+#name = "cz_conventional_commits"
+version = "5.3.5+0.1.9"
+tag_format = "v$version"
+version_files = [
+    "experiment/__init__.py:__version__",
+    "setup.cfg:current_version = ",
+    "pyproject.toml:version",
+    "Makefile:VERSION := ",
+    "VERSION",
+]
+
+update_changelog_on_bump = true
+#major_version_zero = true
+
+annotated_tag = true
+changelog_file = "HISTORY.md"
