@@ -1,0 +1,14 @@
+datasette_secret_santa/__init__.py,sha256=aiNiLhXvTBvFmtLDr6B7RvY3O46EGXHDElHu6Cy_GjY,12625
+datasette_secret_santa/words.txt,sha256=NoD7hIPgPqswZ_IO-LiEighgBrJZgbDfbIvcYDxO1V4,7179
+datasette_secret_santa/templates/_secret_santa_base.html,sha256=JUSDrNclP_if7sTMZ01Y8qxEP90kWE6rHQPUcsm-McU,6080
+datasette_secret_santa/templates/index.html,sha256=M4bmhdFUt6M27bYd9z5tMs3KjQHsds1lBDLXMEHn8o0,313
+datasette_secret_santa/templates/santa_reveal.html,sha256=3tvMQ5-ccKA-BPNJDeg1w7uwS8h-R54eGgomzAhEnUI,724
+datasette_secret_santa/templates/santa_set_password.html,sha256=to3CFRu0hI_ey5mTy-TfFLQqzGtRUp_TYZfP9BrmSFM,824
+datasette_secret_santa/templates/secret_santa.html,sha256=_KD-ecSjT1LdL-AWF3kWV2WEcmtOS-zNywhEkAkSFgk,2004
+datasette_secret_santa/templates/secret_santa_error.html,sha256=2f1h794H3L4MMbxDtNKFmhHjdIeC8Ihhy_Nl6CSnvXw,212
+datasette_secret_santa-0.1a0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datasette_secret_santa-0.1a0.dist-info/METADATA,sha256=hKvYLWd7yw8GqRgQ1tqcAyNxCEMiMW3EqMC359hKhJU,2207
+datasette_secret_santa-0.1a0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+datasette_secret_santa-0.1a0.dist-info/entry_points.txt,sha256=VQyDnweWdJrtav4uZN0Vb_4EeXa4mP7qd5dwjkfP96M,50
+datasette_secret_santa-0.1a0.dist-info/top_level.txt,sha256=YGaSw2q1175m4iHukYGnNvasbBi_NUfIbJkHsNW3MZ0,23
+datasette_secret_santa-0.1a0.dist-info/RECORD,,
