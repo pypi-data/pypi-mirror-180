@@ -1,0 +1,2 @@
+[datasette]
+secret_santa = datasette_secret_santa
