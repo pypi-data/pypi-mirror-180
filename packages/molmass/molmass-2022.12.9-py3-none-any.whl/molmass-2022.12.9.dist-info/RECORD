@@ -1,0 +1,14 @@
+molmass/__init__.py,sha256=-RZ_rLkBbIzpjnwW-jgxC_YVTm8JRyMT2zKOH8ZULdU,206
+molmass/__main__.py,sha256=b2Go1QFl6bcy3YzvdnF-R8poT5U1ynEnpbojjWx2Udo,132
+molmass/elements.py,sha256=AYKF81w8j7FZm7DxQsrUrfRYMCbS6IGirItMwwqVXxA,81328
+molmass/elements_descriptions.py,sha256=pXsqTT6UKascdTmXXANcaRw3buaKPyTizyOE25GJs5k,44876
+molmass/elements_gui.py,sha256=daQ0BDZDd86nCmGNLYU61r7WP2M-58YZm6V0JFZ9pno,39072
+molmass/icon.png,sha256=_spNJBEfvuN6T_s10PG1YypKk14yFl7QnPVYAbpgNrU,355
+molmass/molmass.py,sha256=sguubwJGr_CUfPSsT5JcW5YHLLWuqIx-v2s9WSc0Wqk,72707
+molmass/web.py,sha256=BUM2785AksJet3GgvhA9njr-y0ehtPM6PabOFa_Xglw,19538
+molmass-2022.12.9.dist-info/LICENSE,sha256=bwzXvs18B3qWLtZFuaRTRxcjHqfIDtzPl9NnSYjVVDQ,1559
+molmass-2022.12.9.dist-info/METADATA,sha256=Jql3PHKnJIiOCteMR8l-_xaRzrtxQ_PDlNDVFDcYmhE,6522
+molmass-2022.12.9.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+molmass-2022.12.9.dist-info/entry_points.txt,sha256=hLAWPxEVzdR8yfo02rcMUb6k-zAkbrSpmh7wKb-q0eY,136
+molmass-2022.12.9.dist-info/top_level.txt,sha256=8M3VovJl14awWJImaCJmz0XANQAmpyKPmVagNDfub5Y,8
+molmass-2022.12.9.dist-info/RECORD,,
