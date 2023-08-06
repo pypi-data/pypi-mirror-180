@@ -1,0 +1,57 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+# pylint: disable=C0115,C0116
+
+
+"@KarimKhanQC reconsider OTP-CR-117/19 - http://pypi.org/project/gcid"
+
+
+import os
+import sys
+
+
+from gcid.handler import Handler, parse
+from gcid.object import Wd
+from gcid.handler import command, scan
+from gcid.run import Cfg
+
+
+from gcid import cmds, irc, model, rss
+
+
+Wd.workdir = "/var/lib/gcid/"
+
+
+scan(cmds)
+scan(irc)
+scan(model)
+scan(rss)
+
+
+class CLI(Handler):
+
+    @staticmethod
+    def announce(txt):
+        CLI.raw(txt)
+
+    @staticmethod
+    def raw(txt):
+        cprint(txt)
+
+    def say(self, channel, txt):
+        self.raw(txt)
+
+
+def cprint(txt):
+    print(txt)
+    sys.stdout.flush()
+
+
+def main():
+    parse(' '.join(sys.argv[1:]))
+    cli = CLI()
+    evt = command(cli, Cfg.otxt)
+    evt.wait()
+
+
+main()
