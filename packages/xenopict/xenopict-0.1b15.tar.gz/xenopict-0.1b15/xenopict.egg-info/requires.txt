@@ -1,0 +1,7 @@
+matplotlib>=3.5
+colorcet
+numpy
+simplejson
+decorator
+rdkit
+shapely
