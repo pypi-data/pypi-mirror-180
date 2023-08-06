@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Gratheory"
+version = "0.1.1"
+authors = [
+  { name="Samuel Taylor", email="sam.w.taylor@hotmail.co.uk" },
+]
+description = "Create and use graphs theory for maths"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Samuelt797/Gratheory"
+"Bug Tracker" = "https://github.com/Samuelt797/Gratheory/issues"
