@@ -1,0 +1,2 @@
+[console_scripts]
+roboform = roboform.__main__:main

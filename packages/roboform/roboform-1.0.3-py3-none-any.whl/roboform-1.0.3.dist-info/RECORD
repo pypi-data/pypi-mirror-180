@@ -1,0 +1,15 @@
+roboform/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+roboform/__main__.py,sha256=HH_s8-i0GXjGDFoqLiiSoywfHTKfy6ke0mBBR_v33VA,688
+roboform/bot.py,sha256=7sajYz9jwdhwvh7SAYpvBEoSmLOwNzPKhQdTiqRekUU,4603
+roboform/cli.py,sha256=ZESkqUm2IF8vswZSj11bZMNEt9H1hIaecxz9NqeZ0Lk,5124
+roboform/constants.py,sha256=OshtI-kmBBqqQBaWEJhbv3AMYQIdtszcpXk65Sc4R0I,226
+roboform/form_configs.py,sha256=VwGlxrI6FiuRdIX9dRFnf7-NwWnVqf-tCFCKA3OeUZY,2708
+roboform/form_logs.py,sha256=pgCeMDKSDlvP85kFpbHdCMtpbcWybara3IeWETeag50,1667
+roboform/global_configs.py,sha256=xTdJBk7pfBGLLHOj1Zjzo0RMocU5MpW6z8vco6CYFQk,1739
+roboform/utils.py,sha256=XQcBOzrYJUQi2-uK5MW2HDEi-tZhFpTBn7UmClIo-N8,297
+roboform-1.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+roboform-1.0.3.dist-info/METADATA,sha256=FLN390ux8Yr6kIl6bYoK2stVkFpmv9nuc2myg1O63Ho,711
+roboform-1.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+roboform-1.0.3.dist-info/entry_points.txt,sha256=ldX9hVgSPkET7rsiKm0fwPY5cKsz7URQnQOcAYetWhk,52
+roboform-1.0.3.dist-info/top_level.txt,sha256=ga4EbeawQv3zf_5hudZ2SqDN1NrtOxusUn6D8GgmCqE,9
+roboform-1.0.3.dist-info/RECORD,,

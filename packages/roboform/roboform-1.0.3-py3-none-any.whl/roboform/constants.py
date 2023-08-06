@@ -1,0 +1,10 @@
+from enum import Enum
+
+
+GLOBAL_CONFIGS_HEADER = "SETTINGS"
+GLOBAL_CONFIGS_FILENAME = "global_configs.cfg"
+
+FORM_CONFIGS_HEADER = "CONFIGS"
+FORM_CONFIGS_SUFFIX_FILENAME = "_configs.cfg"
+
+FORM_LOGS_SUFFIX_FILENAME = "_logs.txt"
