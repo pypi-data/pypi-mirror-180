@@ -1,0 +1,13 @@
+LICENCE
+README.md
+X引入留存(月).csv
+setup.py
+temp.xlsx
+留存数据情况.ipynb
+retention_model/__init__.py
+retention_model/x_retention_model.py
+retention_model.egg-info/PKG-INFO
+retention_model.egg-info/SOURCES.txt
+retention_model.egg-info/dependency_links.txt
+retention_model.egg-info/requires.txt
+retention_model.egg-info/top_level.txt
