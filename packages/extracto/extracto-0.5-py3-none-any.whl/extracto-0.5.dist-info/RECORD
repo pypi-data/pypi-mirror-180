@@ -1,0 +1,12 @@
+extracto/__init__.py,sha256=2CSQMD_JKIyZOHQnRTMDCOtcV_zAahI52KqLQQGPRgo,108
+extracto/annotate.py,sha256=EEPG0YiA-jb4HXonnwayzDVr76p6PzzMhAGCKInevEs,3261
+extracto/cache.py,sha256=qA7XjRRDBcVgVwLneEOqQ2tRgSU89bcv1UDBqQFe3c4,832
+extracto/equals.py,sha256=QIHyNEMaloqGgdhBnvom5A5MtMs2nsJ6-x9f_Hagz1w,2160
+extracto/extract.py,sha256=mCjWZ0esEHAz8gDQP-qUimzO0-yznyf3V2a_St53QwQ,3506
+extracto/infer.py,sha256=Uk8rAACDvRuavuNt7OQ6Vs9ssjyJPalrh_MM6LhzGZQ,19895
+extracto/selectors.py,sha256=HpZ87PL-WdImZRz3anQmiC7acigAGFos3CCiJnJkh-c,12050
+extracto-0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+extracto-0.5.dist-info/METADATA,sha256=yA3XNW6BKNpYQ113dZn6um148oo8uzVXyMtwXtRMAaU,3892
+extracto-0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+extracto-0.5.dist-info/top_level.txt,sha256=tdL9_mXrA0SumpajIh1bweYdn7bjrfOSQJZ6RIbozac,9
+extracto-0.5.dist-info/RECORD,,
