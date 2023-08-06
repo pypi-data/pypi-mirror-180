@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "presto-requests"
+version = "0.4.4"
+description = ""
+authors = ["Phillip Sitbon <phillip.sitbon@gmail.com>"]
+readme = "README.md"
+
+packages = [
+  { include = "presto" },
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.async.dependencies]
+httpx = "^0.23.1"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4"
+requests = "^2.28.1"
+attrdict3 = "^2.0.2"
