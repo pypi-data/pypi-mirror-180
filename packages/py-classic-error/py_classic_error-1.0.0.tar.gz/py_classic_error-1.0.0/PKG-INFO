@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: py_classic_error
+Version: 1.0.0
+Summary: py_classic_error is a classic way to show errors
+Author: suresh pandiyan
+Author-email: suresh.pandiyan1@outlook.com
+License: The Unlicense
+Keywords: python,error,classic error,errors,traceback,pythonusers,python3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE.txt
