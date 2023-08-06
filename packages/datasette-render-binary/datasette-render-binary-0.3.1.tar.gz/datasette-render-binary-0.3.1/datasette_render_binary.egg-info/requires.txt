@@ -1,0 +1,5 @@
+datasette
+filetype
+
+[test]
+pytest
