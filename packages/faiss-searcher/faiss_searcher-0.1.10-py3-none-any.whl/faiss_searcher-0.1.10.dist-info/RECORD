@@ -1,0 +1,16 @@
+faiss_searcher/__init__.py,sha256=VpwAt7WY2ewObn0gEVZVWp84Mh8Ynka1aSptpjNQzSg,106
+faiss_searcher/base_encoder.py,sha256=r1LeItO0OjwpGYtnPx5x7RVOFoGOC1eI4fFihgmELNg,232
+faiss_searcher/bert_encoder.py,sha256=27Kq_-iNd_z6l_IgJD0A3OL-cE6UnnVyveOlRreyOac,11049
+faiss_searcher/encoder_utils.py,sha256=_M29Mmpy8YhFug86u4bWOPJNzpdJtn2HKKsukSsxals,5984
+faiss_searcher/faiss_searcher.py,sha256=mdVWKzK-Y0oaenkHtbv2gcSmB_GjeM8b3KPOHgbGDa4,7415
+faiss_searcher/vecs_whitening.py,sha256=OBdZL-gx98gQP5UC89eNl8Z3nFLSmHAMLxxEGXR7bRw,2607
+faiss_searcher/backend/__init__.py,sha256=bEzj1VMp0i48GNwu6tS1oa8LWJrTbE7W4uNtcPYg7QA,162
+faiss_searcher/backend/base_encoder.py,sha256=A4BzJYDwzgXcgmlx9mLqhRC8KiaRzBWuEMy8PYLAUgQ,236
+faiss_searcher/backend/bert_encoder.py,sha256=zLqdUVc6CkBDToh2EUY0qZCWt-TirX9a-0SovzmU31w,10979
+faiss_searcher/backend/encoder_utils.py,sha256=ooP9gK9MFGX4ukb0ylWJGWFR76Rd6eb9cPwcz1vt59M,3218
+faiss_searcher/backend/faiss_searcher.py,sha256=M5sHXU1SZ054jVhN1qfTMhQIMp_KCzSVE0EhS0hyjIQ,9801
+faiss_searcher/backend/vecs_whitening.py,sha256=OBdZL-gx98gQP5UC89eNl8Z3nFLSmHAMLxxEGXR7bRw,2607
+faiss_searcher-0.1.10.dist-info/METADATA,sha256=kzQC04tcpmCpcA00WCcEzmYeJogz9eVplNNz4Ps2CHg,1032
+faiss_searcher-0.1.10.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+faiss_searcher-0.1.10.dist-info/top_level.txt,sha256=dbG5zuwq5v5Ekz7Ti5KVmibqEzfATzuDxJHYlLj2Lag,15
+faiss_searcher-0.1.10.dist-info/RECORD,,
