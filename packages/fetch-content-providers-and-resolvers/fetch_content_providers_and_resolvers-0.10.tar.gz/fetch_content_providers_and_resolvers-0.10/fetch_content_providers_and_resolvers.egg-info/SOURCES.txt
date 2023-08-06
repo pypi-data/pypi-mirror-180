@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+fetch_content_providers_and_resolvers/LICENSE
+fetch_content_providers_and_resolvers/README.MD
+fetch_content_providers_and_resolvers/__init__.py
+fetch_content_providers_and_resolvers/requirements.txt
+fetch_content_providers_and_resolvers/thirdparty.json
+fetch_content_providers_and_resolvers.egg-info/PKG-INFO
+fetch_content_providers_and_resolvers.egg-info/SOURCES.txt
+fetch_content_providers_and_resolvers.egg-info/dependency_links.txt
+fetch_content_providers_and_resolvers.egg-info/requires.txt
+fetch_content_providers_and_resolvers.egg-info/top_level.txt

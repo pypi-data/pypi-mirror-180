@@ -1,0 +1,4 @@
+include fetch_content_providers_and_resolvers/requirements.txt
+include fetch_content_providers_and_resolvers/thirdparty.json
+include fetch_content_providers_and_resolvers/README.MD
+include fetch_content_providers_and_resolvers/LICENSE
