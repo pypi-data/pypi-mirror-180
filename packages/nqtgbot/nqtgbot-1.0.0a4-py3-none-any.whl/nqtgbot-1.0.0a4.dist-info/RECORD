@@ -1,0 +1,9 @@
+nqtgbot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nqtgbot/message.py,sha256=-qKjIGy-AtovwgNGonunm20s9uMVpOIzEygAp6ta-3k,1174
+nqtgbot/provider.py,sha256=-pev7R65RPzIl3ZclUGpZptemHZiz_Xc1nyev713hN8,2253
+nqtgbot/quotas.py,sha256=MyB6YuUv-2lNimJu7cAoYjG-HsRptHJnpWOqWJMu9wU,1263
+nqtgbot/resources/config_schema.json,sha256=1X3jPsVQ2Al0eP8mLI7IhI8IKgO_fbYWqpDBM-chbTA,264
+nqtgbot-1.0.0a4.dist-info/METADATA,sha256=I0Wk84K0v04Xvx35lnrVI6PeRnkwAD0puMasvzTPyao,773
+nqtgbot-1.0.0a4.dist-info/LICENSE,sha256=BhzkGnUOrYkXkJfSbUBxPO-nGfaVAzLgMqs-sNzjRJM,556
+nqtgbot-1.0.0a4.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+nqtgbot-1.0.0a4.dist-info/RECORD,,
