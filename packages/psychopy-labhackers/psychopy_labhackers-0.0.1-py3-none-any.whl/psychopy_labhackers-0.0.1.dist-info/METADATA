@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: psychopy-labhackers
+Version: 0.0.1
+Summary: Extension package for adding support for devices by LabHackers Research Equipment to PsychoPy.
+Author-email: Sol Simpson <sol@labhackers.com>, Jon Peirce <jon@opensceincetools.org>, Matthew Cutone <mcutone@opensceincetools.org>
+License: GNU General Public License v3 (GPLv3)
+Project-URL: homepage, https://github.com/mdcutone/psychopy-labhackers
+Project-URL: changelog, https://github.com/mdcutone/psychopy-labhackers/blob/main/CHANGELOG.txt
+Project-URL: documentation, https://pages.github.com/psychopy/psychopy-labhackers
+Project-URL: repository, https://github.com/psychopy/psychopy-labhackers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyserial
+
+# psychopy-labhackers
+Extension package for adding support for devices by [LabHackers Research Equipment](http://labhackers.com/) to PsychoPy.
+
+## Supported Devices
+
+Installing this package alongside PsychoPy will enable support for the following devices:
+
+* [USB2TTL8](http://labhackers.com/usb2ttl8.html) USB TTL Interface
+    
+## Installing
+
+Install this package with the following shell command:: 
+
+    pip install psychopy-labhackers
+
+You may also use PsychoPy's builtin package manager to install this package.
+
+## Usage
+
+Once the package is installed, PsychoPy will automatically load it when started and make objects available within the
+`psychopy.hardware.labhackers` namespace.
+
