@@ -1,0 +1,22 @@
+[package]
+name = "rqrcode"
+version = "0.0.1"
+edition = "2021"
+summary="Python qrcode extension developed with rust"
+description = "Python qrcode extension developed with rust"
+authors = ["korykim@vip.qq.com"]
+license = "MIT"
+homepage="https://github.com/korykim"
+repository="https://github.com/korykim/rqrcode"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "rqrcode"
+crate-type = ["cdylib"]
+
+[dependencies]
+jmespath = { version = "0.3.0", features = ["sync", "specialized"] }
+pyo3 = { version = "0.17.3", features = ["abi3-py37","extension-module"] }
+fast_qr = { version = "0.6.1", features = ["image","svg"] }
+
