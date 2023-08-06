@@ -1,0 +1,11 @@
+pshmem/__init__.py,sha256=632s0He4F4EKdYM0vVQN3uah1aT0LHIYUI0yos51AF8,500
+pshmem/_version.py,sha256=O1M6BfGXQlkarhNiciTfuuA39h9XBXNuT7u_he7ZXO4,499
+pshmem/locking.py,sha256=o1cbQM9HIrjj-KvGPq0qpX9tQ1vv7gymXjNgZ8uLRYQ,11343
+pshmem/shmem.py,sha256=Ubd5Z9hKtAzdpqdC3tSC9JRXWbfxfiCErvnoNyduax4,21986
+pshmem/test.py,sha256=zH50sgQFHECtI4Yq3PUiFP_ISPhuTz3YrOkB4taIXRU,17866
+pshmem/utils.py,sha256=HMHCu04lAX6A8Igua7ofZxkAJZ1MamBZ2M59lEaINGI,1334
+pshmem-1.0.0a3.dist-info/LICENSE,sha256=8s2BDeSPdAe9ClIYvbjpX4PdSAtEn7JKFN037wSNTrE,1325
+pshmem-1.0.0a3.dist-info/METADATA,sha256=gNJ9cGe5RX-1F2CYC9S6B_4tMH6jHKUzdOcpLsbob5w,6905
+pshmem-1.0.0a3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pshmem-1.0.0a3.dist-info/top_level.txt,sha256=IqO98n5G8bsATm_A3kGJzY6ZSFDKtJ_NPUgJiW4tRAA,7
+pshmem-1.0.0a3.dist-info/RECORD,,
