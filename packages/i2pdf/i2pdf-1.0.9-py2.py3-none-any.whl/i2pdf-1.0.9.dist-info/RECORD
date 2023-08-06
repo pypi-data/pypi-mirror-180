@@ -1,0 +1,9 @@
+auxiliary/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auxiliary/file_explorer.py,sha256=n4EHrR-v0-fXPZ82xfHWirrQALDQDLWrpsrOSa9I3Cs,1673
+auxiliary/message_keys.py,sha256=Q1nP8yPYLMG4ONfC9aIqd_nKvNEs_GHCd6yRhSrLvSc,3251
+i2pdf-1.0.9.dist-info/LICENSE,sha256=fcwzKPwg3rQlXAV_ivRIN7vx5nHQSBey5vakALxcmtU,1106
+i2pdf-1.0.9.dist-info/METADATA,sha256=Tk6DB3DfpSM3uH7sFTLGmMfql5VpI656rAgoAREdcQE,7942
+i2pdf-1.0.9.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+i2pdf-1.0.9.dist-info/entry_points.txt,sha256=6qlgWCaZzTyzeMCtzRwgT22--GxCWjrfDqkKur2msXs,73
+i2pdf-1.0.9.dist-info/top_level.txt,sha256=HyiPmjdnkKZ6TvnEJxfVlWhgc_j_d3davKOUAIJmmBg,10
+i2pdf-1.0.9.dist-info/RECORD,,
