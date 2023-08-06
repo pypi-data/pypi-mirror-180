@@ -1,0 +1,3 @@
+[console_scripts]
+image-to-excel=image_to_excel:cli_main
+
