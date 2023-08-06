@@ -1,0 +1,9 @@
+__init__.py,sha256=GgAjq3_-a6oG_UQLwmNLedrB4GeNYuP3AEivurqz9Wo,41
+parserproxy.py,sha256=mMdSlvB2zAjwy4o0UiRktxhkDlZGkn0MYe4jvzweDPA,2047
+requestsgarant.py,sha256=iewT9qEAAKQcMg5aISMEKyMXZGhN8EqEnqpLlhIlcoE,5641
+test_parserproxy.py,sha256=n25E-nG1c9dOwCl_tHO6Ry6L6ZfwDNfpaU8OxrOmayA,2414
+requestsgarant-0.1.12.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+requestsgarant-0.1.12.dist-info/METADATA,sha256=gPIeDP5jz0BEwISwBGOamakRfec8Pia4B4gOo-pS8_A,6772
+requestsgarant-0.1.12.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+requestsgarant-0.1.12.dist-info/top_level.txt,sha256=pyHJWh3ydU790xCdmwr2YaX6Y-uKtFoH2T20ssgdLEs,53
+requestsgarant-0.1.12.dist-info/RECORD,,
