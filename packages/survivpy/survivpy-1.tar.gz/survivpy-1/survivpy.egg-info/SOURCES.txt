@@ -1,0 +1,5 @@
+pyproject.toml
+survivpy.egg-info/PKG-INFO
+survivpy.egg-info/SOURCES.txt
+survivpy.egg-info/dependency_links.txt
+survivpy.egg-info/top_level.txt
