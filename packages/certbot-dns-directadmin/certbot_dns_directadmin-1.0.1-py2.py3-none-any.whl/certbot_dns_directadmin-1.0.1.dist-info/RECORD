@@ -1,0 +1,9 @@
+certbot_dns_directadmin/__init__.py,sha256=YgpcOEr6fdb-NvaMNuZw8QpNE9fMxdTu9yCfAysbaOQ,3690
+certbot_dns_directadmin/directadmin.py,sha256=DzJX-u6fZ4OrhF0pXs0mZMqGbWbsdNZW0PSXcVIwjPE,5454
+certbot_dns_directadmin/dns_directadmin.py,sha256=sysdp8V9ylysBiqdxEt4CexjEVNbxiuQSxG-nUMzFgE,7153
+certbot_dns_directadmin-1.0.1.dist-info/LICENSE,sha256=yMhADtctR3m65lZ90t7ecHJGVnbZ7QFEI2_GZbwUwPw,9729
+certbot_dns_directadmin-1.0.1.dist-info/METADATA,sha256=OdVO-d2pavdQ1oBQcx4FtVD7DiA_v3uKwlur8A9AF1w,2075
+certbot_dns_directadmin-1.0.1.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+certbot_dns_directadmin-1.0.1.dist-info/entry_points.txt,sha256=2hvI1UJ9IspS2iaXlbqzbdKPpgwIkcEH5GI3QvtR-N0,86
+certbot_dns_directadmin-1.0.1.dist-info/top_level.txt,sha256=iW3zpqtUEitHPzF06g_41kTOkJrCl4dHD9by1Pd-voE,24
+certbot_dns_directadmin-1.0.1.dist-info/RECORD,,
