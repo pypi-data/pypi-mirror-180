@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: patek
+Version: 0.1
+Summary: A collection of utilities and tools for accelerating pyspark development and productivity.
+Home-page: https://github.com/kharigardner/Patek
+Author: Khari Gardner
+Author-email: khgardner@proton.me
+License-File: LICENSE
