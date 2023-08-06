@@ -1,0 +1,4 @@
+rpy2>=3.5
+
+[test]
+pytest

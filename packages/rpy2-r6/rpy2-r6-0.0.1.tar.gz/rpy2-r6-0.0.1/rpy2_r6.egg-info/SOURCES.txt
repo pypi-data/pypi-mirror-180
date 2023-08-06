@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+rpy2_r6/__init__.py
+rpy2_r6/r6a.py
+rpy2_r6/r6b.py
+rpy2_r6/tests.py
+rpy2_r6/utils.py
+rpy2_r6.egg-info/PKG-INFO
+rpy2_r6.egg-info/SOURCES.txt
+rpy2_r6.egg-info/dependency_links.txt
+rpy2_r6.egg-info/requires.txt
+rpy2_r6.egg-info/top_level.txt
