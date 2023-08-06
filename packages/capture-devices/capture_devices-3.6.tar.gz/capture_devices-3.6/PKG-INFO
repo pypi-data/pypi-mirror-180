@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: capture_devices
+Version: 3.6
+Summary: Get list of Capture Devices easily with Directshow and Python
+Author: Egemen Gulpinar
+Author-email: <egemengulpinar@gmail.com>
+License: MIT
+Keywords: DirectShow,Windows,Capture Device,Device List,FFmpeg
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Utilities
+License-File: LICENSE
+
+Simplest way to connect DirectShow Windows API with FFmpeg and list all capture devices with alternative names.    The user can save the results to a file or print either "video", "audio", or both "audio, video" devices. 
