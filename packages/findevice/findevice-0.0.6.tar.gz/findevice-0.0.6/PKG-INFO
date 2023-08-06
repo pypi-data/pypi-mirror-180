@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: findevice
+Version: 0.0.6
+Summary: Tracking can find your device position
+Home-page: https://gitlab.com/NotOnlyRaff/tracking.git
+Author: NotOnlyRaff
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: position,findevice,cli
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
