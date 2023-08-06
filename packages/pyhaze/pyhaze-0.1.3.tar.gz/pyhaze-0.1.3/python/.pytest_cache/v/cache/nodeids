@@ -1,0 +1,10 @@
+[
+  "tests/test_pyhaze.py::test_construct_cube",
+  "tests/test_pyhaze.py::test_extend_adj",
+  "tests/test_pyhaze.py::test_init_mesh_1d",
+  "tests/test_pyhaze.py::test_init_mesh_2d",
+  "tests/test_pyhaze.py::test_mesh_member_functions",
+  "tests/test_pyhaze.py::test_smooth_pvd",
+  "tests/test_pyhaze.py::test_smooth_pvd_adj",
+  "tests/test_pyhaze.py::test_smooth_pvd_adj_with_igl"
+]
