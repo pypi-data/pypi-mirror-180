@@ -1,0 +1,9 @@
+aiodatagram/__init__.py,sha256=rydvcU1jJLmnYXein-AA9Fhjz8ul_iXncL2lCcOWHts,128
+aiodatagram/broadcast.py,sha256=N2eu84V1BwQRIEGQfcJh2-Ad2DtoG5aRKrMgErnokbg,2385
+aiodatagram/client.py,sha256=I-S6YEFNJdLbrQyAoL1ns3-uK0p2-0MEPp7tFRlbU-w,2198
+aiodatagram/endpoint.py,sha256=7ZiA4FNjn4W1MPRKFXSGsBtZthpzxvPueEIH0R_4tUU,2458
+aiodatagram/types.py,sha256=F8YRCDhNg0dKP4fDAV5FU6CCJU6PynSTfPN6Z41GO8U,73
+aiodatagram-0.0.1.dist-info/METADATA,sha256=AfzCZJx0vATAMBz9JGGiIGwRz-wojL3CCx9lrZMO_NY,443
+aiodatagram-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aiodatagram-0.0.1.dist-info/top_level.txt,sha256=47CqvNzlWEcizV5heB9jr2vMlZqlLvBkta8jTXS8aFU,12
+aiodatagram-0.0.1.dist-info/RECORD,,
