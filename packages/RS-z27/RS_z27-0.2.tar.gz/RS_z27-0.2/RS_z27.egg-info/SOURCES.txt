@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+RS_z27/__init__.py
+RS_z27/algoritms.py
+RS_z27/mydata.py
+RS_z27.egg-info/PKG-INFO
+RS_z27.egg-info/SOURCES.txt
+RS_z27.egg-info/dependency_links.txt
+RS_z27.egg-info/not-zip-safe
+RS_z27.egg-info/top_level.txt
