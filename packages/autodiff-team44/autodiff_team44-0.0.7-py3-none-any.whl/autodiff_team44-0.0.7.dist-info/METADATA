@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: autodiff-team44
+Version: 0.0.7
+Summary: This package is an automatic differentiation package which will evaluate derivatives with machine-precision almost instantaneously. The speed and precision of autodifferentiation is paramount to applications such as deep learning models, and mitigates inefficiencies that compound with larger and more complex functions.
+Author-email: Ibraheem Khan <ikhan@college.harvard.edu>, Reem Ali <reemali@college.harvard.edu>, Leo Shao <leoshao@college.harvard.edu>, Yigit Sonmez <yigitsonmez@college.harvard.edu>, Chepchumba Choge <choge@college.harvard.edu>
+Project-URL: Homepage, https://code.harvard.edu/CS107/team44
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (~=1.20.3)
+Provides-Extra: tests
+Requires-Dist: coverage (~=6.5.0) ; extra == 'tests'
+Requires-Dist: pytest (~=7.2.0) ; extra == 'tests'
+
+# Team 44
+### ID: team44
+
+Team members: Leo Shao, Ibraheem Khan, Reem Ali, Yigit Sonmez, Chepchumba Choge
+
+![test.yml](https://code.harvard.edu/CS107/team44/actions/workflows/test.yml/badge.svg)
+![coverage.yml](https://code.harvard.edu/CS107/team44/actions/workflows/coverage.yml/badge.svg)
