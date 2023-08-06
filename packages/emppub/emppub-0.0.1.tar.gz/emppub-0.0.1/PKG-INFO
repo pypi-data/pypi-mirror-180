@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: emppub
+Version: 0.0.1
+Summary: Email notification service.
+Home-page: UNKNOWN
+Author: Sruthi Praveen
+Author-email: sruthigayu25@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: emppub
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
