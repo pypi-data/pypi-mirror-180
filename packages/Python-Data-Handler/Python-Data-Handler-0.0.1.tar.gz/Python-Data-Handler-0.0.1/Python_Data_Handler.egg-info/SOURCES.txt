@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+Python_Data_Handler.egg-info/PKG-INFO
+Python_Data_Handler.egg-info/SOURCES.txt
+Python_Data_Handler.egg-info/dependency_links.txt
+Python_Data_Handler.egg-info/top_level.txt

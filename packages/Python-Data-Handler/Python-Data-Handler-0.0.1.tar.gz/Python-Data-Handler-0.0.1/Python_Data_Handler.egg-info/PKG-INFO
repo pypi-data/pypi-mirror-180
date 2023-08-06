@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Python-Data-Handler
+Version: 0.0.1
+Summary: This repository is a Python built data handler that uses JSON, SQL, SQLite3.
+Home-page: https://github.com/Shikiso/Python-Data-Handler
+Author: Shikiso
+Author-email: author@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Python-Data-Handler
+This repository is a Python built data handler that
+uses JSON, SQL, SQLite3. This program makes it easy to save
+and write data by doing the dirty work for you.
+
+# How to use
+To use this repository simple download using the following pip command:
+> pip install python-data-handler
