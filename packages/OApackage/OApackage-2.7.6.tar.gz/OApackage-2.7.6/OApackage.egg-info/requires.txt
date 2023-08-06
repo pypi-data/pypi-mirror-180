@@ -1,0 +1,13 @@
+python-dateutil
+
+[:python_version <= "3.7"]
+numpy<1.23,>=1.21
+
+[GUI]
+matplotlib>=3.5
+
+[doc]
+sphinx
+sphinxcontrib.bibtex
+sphinxcontrib.napoleon
+breathe
