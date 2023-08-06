@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: sellpass
+Version: 1.0
+Summary: Python SDK for Sellpass.
+Home-page: UNKNOWN
+Author: Sellpass
+Author-email: <team@sellpass.io>
+License: UNKNOWN
+Requires-Dist: httpx
+
+
+# Sellapp Python SDK
+
