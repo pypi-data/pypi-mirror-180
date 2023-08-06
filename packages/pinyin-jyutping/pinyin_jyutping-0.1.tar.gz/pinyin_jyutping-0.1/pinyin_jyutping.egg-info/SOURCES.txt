@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+setup.py
+pinyin_jyutping/dict.txt.big
+pinyin_jyutping/pinyin_jyutping.pkl
+pinyin_jyutping.egg-info/PKG-INFO
+pinyin_jyutping.egg-info/SOURCES.txt
+pinyin_jyutping.egg-info/dependency_links.txt
+pinyin_jyutping.egg-info/not-zip-safe
+pinyin_jyutping.egg-info/requires.txt
+pinyin_jyutping.egg-info/top_level.txt
