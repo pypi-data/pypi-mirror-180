@@ -1,0 +1,4 @@
+[console_scripts]
+NengliangshideLiaoyuli = NengliangshideLiaoyuli.__main__:main
+nengliangshide-liaoyuli = NengliangshideLiaoyuli.__main__:main
+
