@@ -1,0 +1,11 @@
+python-javabridge>=4.0.0
+numpy
+packaging
+
+[graphs]
+pygraphviz
+pillow
+lxml
+
+[plots]
+matplotlib
