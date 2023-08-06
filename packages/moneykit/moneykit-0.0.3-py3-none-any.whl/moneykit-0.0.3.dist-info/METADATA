@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: moneykit
+Version: 0.0.3
+Summary: MoneyKit API
+Home-page: UNKNOWN
+Author: MoneyKit
+Author-email: 
+License: UNKNOWN
+Keywords: OpenAPI,MoneyKit API
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: urllib3 (>=1.25.3)
+Requires-Dist: python-dateutil
+
+UNKNOWN
+
