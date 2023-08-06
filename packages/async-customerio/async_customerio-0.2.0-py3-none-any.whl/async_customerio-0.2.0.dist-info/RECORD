@@ -1,0 +1,12 @@
+async_customerio/__init__.py,sha256=icDJDvAZYT_97De00HeaugiHmNCpH0TVeokZRQ15hUM,400
+async_customerio/api.py,sha256=fILF_HfaY5D6QbSgecnFsXRB491PZWgMM1AwWcR23i0,4604
+async_customerio/client_base.py,sha256=aM36uiFfvaJepvheSMW-dzLmJxDGRt_Y289ocOCSWhI,2485
+async_customerio/constants.py,sha256=gW138Xw8tfl0q782kMEs0uK-SS9MZ7fT6AosdTTtt1E,78
+async_customerio/errors.py,sha256=LycWtTy1JbkCxmQh3LeRBocbDxN6k0yOYoOHKawbtYM,184
+async_customerio/regions.py,sha256=HBAjlHZYkCCYDNYQTwPqeNCum9IRkHIWPYWc6RL1Mbk,405
+async_customerio/track.py,sha256=0T6U3QjGlcDLw0De582legzR_pA-WAfLtT9K_tlc3LQ,8772
+async_customerio/utils.py,sha256=2MdzSHqjA4l2CkpnR-MggWEze6RkpRPsQarLzsyWWr0,1894
+async_customerio-0.2.0.dist-info/LICENSE,sha256=38KZvYyq_nImKmVN-MWX4Uu-g35obVTRd1T8tKJbW9s,1066
+async_customerio-0.2.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+async_customerio-0.2.0.dist-info/METADATA,sha256=Syt2fQeT9t8198rf6FCGElQmb6WrcnSUJQ7RcfvdwVU,4341
+async_customerio-0.2.0.dist-info/RECORD,,
