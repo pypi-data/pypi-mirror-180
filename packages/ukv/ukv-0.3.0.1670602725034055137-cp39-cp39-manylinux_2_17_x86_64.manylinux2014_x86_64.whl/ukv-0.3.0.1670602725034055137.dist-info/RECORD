@@ -1,0 +1,13 @@
+ukv/umem.cpython-39-x86_64-linux-gnu.so,sha256=sy6jqncumctY-dXRJt1lWMjRcZ5NaBU82eU34zSfPfY,25635169
+ukv/libfmt.a,sha256=BOSDltFxtiDooHxZymq-yGzkLEdfIHvoIm5Dfm3rrJw,293020
+ukv/libukv_umem.a,sha256=h2i5ccOMn0hpUsPSqOico_P2gVpY3vgWzud5U8K0NzY,608062
+ukv/libyyjson.a,sha256=laBUN9Sa78YT8sHESv2XphQ4leZBvNyRxFSX8_jrhVg,174882
+ukv/libsimdjson.a,sha256=-jiZAR3AZlvkF3pOWDkxRcGeX8-9RM3R-3OPHtc9ZI8,325732
+ukv-0.3.0.1670602725034055137.dist-info/top_level.txt,sha256=-BRqZ_-HKjT6f33iDO2tOA8BNdZql_K0FnSY_3icg-4,4
+ukv-0.3.0.1670602725034055137.dist-info/METADATA,sha256=UZNtDnCo4s3e0VmER-vuSnCQPHCLnRKCcoTYS-cqYE4,21605
+ukv-0.3.0.1670602725034055137.dist-info/LICENSE,sha256=sy6CSHzTIU8brPze03piNfHjjkA1biCTppkNkqNCK54,1061
+ukv-0.3.0.1670602725034055137.dist-info/RECORD,,
+ukv-0.3.0.1670602725034055137.dist-info/WHEEL,sha256=D79CBkaJekx7HMK1NaBe_KU1GVla4HlolbFXT3at6fg,148
+ukv./libarrow_python-45e69cb7.so.900,sha256=AFFmRFNMBXn4dA9RBaUYOzH_tSlbyyVmn_-NTIGm4nE,3023385
+ukv./libparquet-ea1902a9.so.900,sha256=wZdy1fEvJUlNocrmpAvbuvJZ3y53kUtT-Ymc1bMc6gg,11153633
+ukv./libarrow-fae03c33.so.900,sha256=C-HoS03Th4qmzmt0PMWSEyjNLQiawdFQn5ZJZCI9aOA,65137921
