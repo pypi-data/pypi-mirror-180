@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: hashwrap
+Version: 0.0.3
+Summary: Wrapper for HASH v1.2 Hardebeck & Shearer Focal Mechanism Calculation Code
+Home-page: https://github.com/mikehagerty/hashwrap
+Author: Mike Hagerty
+Author-email: m.hagerty@isti.com
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Dist: obspy
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: toml
+
+Wrapper for HASH v1.2 Hardebeck & Shearer Focal Mechanism Calculation Code
