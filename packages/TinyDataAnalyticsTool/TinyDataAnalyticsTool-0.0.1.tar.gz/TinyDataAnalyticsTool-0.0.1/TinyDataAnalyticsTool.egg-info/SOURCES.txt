@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+TinyDataAnalyticsTool.egg-info/PKG-INFO
+TinyDataAnalyticsTool.egg-info/SOURCES.txt
+TinyDataAnalyticsTool.egg-info/dependency_links.txt
+TinyDataAnalyticsTool.egg-info/requires.txt
+TinyDataAnalyticsTool.egg-info/top_level.txt
+tiny_data_analytics_tool/Example.py
+tiny_data_analytics_tool/Settings.py
+tiny_data_analytics_tool/TinyDataAnalyticsTool.py
+tiny_data_analytics_tool/__init__.py
