@@ -1,0 +1,25 @@
+# AC207 Final Project - `AutoDiffpy`
+
+![coverage.yml](https://code.harvard.edu/CS107/team03/actions/workflows/coverage.yml/badge.svg)
+
+![test.yml](https://code.harvard.edu/CS107/team03/actions/workflows/test.yml/badge.svg)
+
+## Team03 Members
+|    Member   |         Email             | 
+|-------------|---------------------------|
+| Jinglun Gao | jgao1@g.harvard.edu       |
+| Chuqin Zhao | chuqingzhao@g.harvard.edu | 
+| Chao Wang   | chaowang@g.harvard.edu    | 
+| Jiaping Lin | jiapinglin@g.harvard.edu  |  
+
+
+## Introduction
+The `AutoDiffpy` Python package is the project topic of the Harvard AC207 Final Project in Fall 2022, which we writed a python automatic differentiation library. AD is a very broad area spanning computer science and mathematics with applications in fields across science and engineering. Thus, we have build this package to support getting derivatives of large scalar functions and vector functions. Particularly, `AutoDiffpy` could perform forward automatic differentiation that takes dual numbers to compute derivatives sequentially, and could also perform reverse automatic differentiation that computes accurate derivatives to solve problems.
+
+## Simple Install
+To install the `AutoDiffpy`, user could run the following command in the terminal.
+```
+!pip install AutoDiffpy
+```
+## Documentation
+The documentation for the `AutoDiffpy` package can be found [here](https://code.harvard.edu/CS107/team03/blob/jil3612/docs/documentation.md).

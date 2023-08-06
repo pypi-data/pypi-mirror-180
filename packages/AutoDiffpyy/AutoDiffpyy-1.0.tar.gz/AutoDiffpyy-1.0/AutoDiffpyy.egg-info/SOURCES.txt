@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+AutoDiffpy/AutoDiffpy.py
+AutoDiffpy/ElementaryFunc.py
+AutoDiffpy/Node.py
+AutoDiffpy/__init__.py
+AutoDiffpy/dual.py
+AutoDiffpy/setup.py
+AutoDiffpyy.egg-info/PKG-INFO
+AutoDiffpyy.egg-info/SOURCES.txt
+AutoDiffpyy.egg-info/dependency_links.txt
+AutoDiffpyy.egg-info/top_level.txt
+Testpy/__init__.py
+Testpy/test.py
