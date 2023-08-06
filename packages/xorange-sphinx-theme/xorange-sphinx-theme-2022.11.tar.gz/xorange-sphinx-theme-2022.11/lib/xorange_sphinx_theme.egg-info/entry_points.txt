@@ -1,0 +1,2 @@
+[sphinx.html_themes]
+xorange-sphinx-theme = xorange.sphinx.theme
