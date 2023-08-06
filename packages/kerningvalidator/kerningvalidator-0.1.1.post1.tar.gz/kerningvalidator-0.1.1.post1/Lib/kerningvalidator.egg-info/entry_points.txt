@@ -1,0 +1,3 @@
+[console_scripts]
+kerningvalidator = kerningvalidator.cli:main
+
