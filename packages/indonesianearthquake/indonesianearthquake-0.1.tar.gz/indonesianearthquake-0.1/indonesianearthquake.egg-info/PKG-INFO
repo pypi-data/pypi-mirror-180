@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: indonesianearthquake
+Version: 0.1
+Home-page: https://github.com/remotebandungid/BMKG_REPORT_EARTHQUAKE
+Author: Octavio
+Author-email: prayudhaocto@gmail.com
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Lattest indonesian earthquake 
+
+## HOW IT WORK?
+
+This package will scrape from [BMKG](https://bmkg.go.id) to get lattest report earthquake in indonesian
+
+This package use BeautifulSoup4 and Requests,  it can produce output in JSON that is ready to be used in web or mobile applications
