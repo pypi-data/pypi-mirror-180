@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+psychopy_labjack/__init__.py
+psychopy_labjack/labjacks.py
+psychopy_labjack.egg-info/PKG-INFO
+psychopy_labjack.egg-info/SOURCES.txt
+psychopy_labjack.egg-info/dependency_links.txt
+psychopy_labjack.egg-info/requires.txt
+psychopy_labjack.egg-info/top_level.txt
