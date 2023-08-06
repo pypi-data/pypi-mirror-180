@@ -1,0 +1,11 @@
+include orientation_observer/orientation_observer.min.js
+include orientation_observer/orientation_observer.min.js.map
+include orientation_observer/async-*.js
+include orientation_observer/async-*.js.map
+include orientation_observer/*-shared.js
+include orientation_observer/*-shared.js.map
+include orientation_observer/metadata.json
+include orientation_observer/package-info.json
+include README.md
+include LICENSE
+include package.json
