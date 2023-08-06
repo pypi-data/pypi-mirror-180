@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+package_name/__init__.py
+pywebcon.egg-info/PKG-INFO
+pywebcon.egg-info/SOURCES.txt
+pywebcon.egg-info/dependency_links.txt
+pywebcon.egg-info/top_level.txt
