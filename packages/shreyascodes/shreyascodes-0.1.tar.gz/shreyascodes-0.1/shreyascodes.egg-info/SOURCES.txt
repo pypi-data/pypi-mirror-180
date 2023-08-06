@@ -1,0 +1,7 @@
+License.txt
+setup.py
+shreyascodes/__init__.py
+shreyascodes.egg-info/PKG-INFO
+shreyascodes.egg-info/SOURCES.txt
+shreyascodes.egg-info/dependency_links.txt
+shreyascodes.egg-info/top_level.txt
