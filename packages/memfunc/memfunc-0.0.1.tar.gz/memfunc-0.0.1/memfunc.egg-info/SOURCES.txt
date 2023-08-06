@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+memfunc/__init__.py
+memfunc/linear.py
+memfunc/nonlinear.py
+memfunc.egg-info/PKG-INFO
+memfunc.egg-info/SOURCES.txt
+memfunc.egg-info/dependency_links.txt
+memfunc.egg-info/top_level.txt
