@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: tilepy
+Version: 0.0.1
+Summary: A simple, extremely easy-to-use Python GUI library, so you never ever make a single console app.
+Author-email: Dylan Rogers <theopenprojectcode@gmail.com>
+Project-URL: Homepage, https://github.com/DylanRogers1/tilepy
+Project-URL: Bug Tracker, https://github.com/DylanRogers1/tilepy/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# tilepy
+
+Welcome to tilepy - the extremely simple Python graphics library!
+
+With tilepy, you never need to make a single command-line app, so you can do the fun stuff - making graphical apps instead!
+
+[Source code](https://github.com/dylanrogers1/tilepy)
