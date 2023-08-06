@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/1000pipClimber.egg-info/PKG-INFO
+src/1000pipClimber.egg-info/SOURCES.txt
+src/1000pipClimber.egg-info/dependency_links.txt
+src/1000pipClimber.egg-info/requires.txt
+src/1000pipClimber.egg-info/top_level.txt
