@@ -1,0 +1,9 @@
+autodiffpypi/__init__.py,sha256=mBvQjwIfQM_LWjaBAtnwGQGpQyZMqmtFSCdEPsnWPww,294
+autodiffpypi/base_derivatives.py,sha256=R780bzoQ4-tbZL7nLw5w5B70syAVThcHkOB0Eakh3UM,14910
+autodiffpypi/dual_number.py,sha256=C2QlLQzkWP7blOBzoeiIYV7FC29W5N-RgmBa6g6ahKs,11910
+autodiffpypi/forward_mode.py,sha256=oZL1sc1Zzj2WnzI7DR7ybkMRyP3JLJkyobjSVio5XRs,3761
+autodiffpypi/reverse_mode.py,sha256=cJvJSvuu6st9ndh1pmNzSXsRjUMvICZCNErHFGu2y_0,3808
+autodiffpypi-0.0.1.dist-info/METADATA,sha256=LNcWhzuLh5Ifdaa0L9axbAbp-5vSWzgdw1spnXeM_Tc,3010
+autodiffpypi-0.0.1.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+autodiffpypi-0.0.1.dist-info/licenses/LICENSE,sha256=Unc3mUdW5Ty1rGpCn0cKrVHQwH86V_q7MlhVGfbML5U,1075
+autodiffpypi-0.0.1.dist-info/RECORD,,
