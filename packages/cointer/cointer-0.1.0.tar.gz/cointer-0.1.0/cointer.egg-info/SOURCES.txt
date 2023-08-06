@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+cointer/__init__.py
+cointer.egg-info/PKG-INFO
+cointer.egg-info/SOURCES.txt
+cointer.egg-info/dependency_links.txt
+cointer.egg-info/top_level.txt
