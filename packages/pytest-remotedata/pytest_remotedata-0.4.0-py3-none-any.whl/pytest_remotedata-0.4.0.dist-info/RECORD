@@ -1,0 +1,10 @@
+pytest_remotedata/__init__.py,sha256=ICVlMfJSyUfBfTrbT0iaRCQuzdTOdpNCGyxVOwgxXzQ,117
+pytest_remotedata/disable_internet.py,sha256=hhGoQeO6Cz9ss_kfZ0C5fRbzh8YY7YyQd5fOjkmcZV8,6252
+pytest_remotedata/plugin.py,sha256=fN5ul_R-L_LCgjwrXhVDz1N-Tz7ExUCZyZrm3a6aIw4,3677
+pytest_remotedata/version.py,sha256=6gh5R9Jc4rGxf1tf42ct0W9qxs-HqgWcKizLyHuBKS8,176
+pytest_remotedata-0.4.0.dist-info/LICENSE.rst,sha256=A3EvQ_7eUwFVty49RJe-3PasHE2Bufbk2V4Idv7JEto,1496
+pytest_remotedata-0.4.0.dist-info/METADATA,sha256=0-sTIcyPgbBmoJh1LRmrmTRdUU5Okp_veHfPkGc9cY0,5557
+pytest_remotedata-0.4.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pytest_remotedata-0.4.0.dist-info/entry_points.txt,sha256=Zm9t8LMLUQvS5JgW7MixKhEU8hyfADjbM0AHWlyAQW4,56
+pytest_remotedata-0.4.0.dist-info/top_level.txt,sha256=MS319pnB6QHQqpWbxTYHLVbaZfSvtXIS6ePirW8JnTw,18
+pytest_remotedata-0.4.0.dist-info/RECORD,,
