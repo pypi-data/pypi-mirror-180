@@ -1,0 +1,1 @@
+from ra_exercise_generator.Generator import generate_exercise

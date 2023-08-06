@@ -1,0 +1,19 @@
+from relational_algebra import *
+from IPython.display import display, Math, Markdown
+
+subtask = SubTask(task{{ subtask.task.task }}, "{{ subtask.subtask }}", points={{ subtask.points }})
+
+expression = None
+# IHR CODE HIER
+raise NotImplementedError()
+
+# DIESEN TEIL NICHT VERÄNDERN, SONST GIBT ES 0 Punkte
+result = expression.evaluate(sql_con=sql_con)
+subtask.setSolution(result)
+subtask.setData(expression)
+
+# display expression in math mode
+display(Math(str(result)))
+
+# display result table
+display(Markdown(result.tabulate()))
