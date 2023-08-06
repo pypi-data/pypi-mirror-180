@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+issuebook.py
+setup.py
+lib_LSM.egg-info/PKG-INFO
+lib_LSM.egg-info/SOURCES.txt
+lib_LSM.egg-info/dependency_links.txt
+lib_LSM.egg-info/top_level.txt
