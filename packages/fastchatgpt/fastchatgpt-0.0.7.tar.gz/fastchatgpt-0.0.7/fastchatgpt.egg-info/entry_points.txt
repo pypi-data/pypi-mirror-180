@@ -1,0 +1,2 @@
+[console_scripts]
+bot_play = fastchatgpt.__main__:bot_play
