@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+printandredirect/__init__.py
+printandredirect.egg-info/PKG-INFO
+printandredirect.egg-info/SOURCES.txt
+printandredirect.egg-info/dependency_links.txt
+printandredirect.egg-info/top_level.txt

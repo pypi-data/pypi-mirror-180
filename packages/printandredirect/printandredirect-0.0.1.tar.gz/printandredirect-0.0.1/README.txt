@@ -1,0 +1,1 @@
+once user calidation is done ,we are printing a greeting message to user and redirecting them to respective web pages

@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: printandredirect
+Version: 0.0.1
+Summary: simple pageredirect function
+Home-page: UNKNOWN
+Author: madhanreddy
+Author-email: srimadhanreddy.1995@gmail.com
+License: MIT
+Description: once user calidation is done ,we are printing a greeting message to user and redirecting them to respective web pages
+        
+        Change Log
+        ==========
+        
+        0.0.1 (05/12/2022)
+        -------------------
+        - First Release
+Keywords: validateandgreet
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
