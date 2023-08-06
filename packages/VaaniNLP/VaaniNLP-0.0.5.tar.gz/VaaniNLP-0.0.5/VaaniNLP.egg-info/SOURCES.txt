@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+VaaniNLP.egg-info/PKG-INFO
+VaaniNLP.egg-info/SOURCES.txt
+VaaniNLP.egg-info/dependency_links.txt
+VaaniNLP.egg-info/top_level.txt
+tamil/__init__.py
+tamil/stop_words.txt
+tamil/vaaninlp.py

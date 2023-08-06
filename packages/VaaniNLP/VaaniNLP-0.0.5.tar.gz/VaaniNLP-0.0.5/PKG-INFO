@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: VaaniNLP
+Version: 0.0.5
+Summary: Tamil Natural Language Processing
+Home-page: https://github.com/neechalkaran/VaaniNLP
+Author: Neechalkaran
+Author-email: neechalkaran@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/neechalkaran/VaaniNLP/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+#Vaani NLP
+Tamil NLP Library. More GUI tools of developer can be accessed at https://oss.neechalkaran.com/works
