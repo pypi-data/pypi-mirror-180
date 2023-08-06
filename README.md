@@ -3,36 +3,10 @@
 This repo contains 40000 packages uploaded to PyPI between 
 2022-12-06 03:37 and 2022-12-12 13:22.
 
-The repo is 44% (17929/40000) complete.
+The repo is 49% (19922/40000) complete.
 
-## Packages:
+Package contents can be found [in the code branch](https://github.com/pypi-data/pypi-mirror-180/tree/code/packages).
 
-| Name  | Count |
-| ----- | ----- |
-| rapidfuzz | 267 |
-| ruff | 224 |
-| dbus-fast | 196 |
-| aim | 171 |
-| aceye | 158 |
-| libstreamvbyte | 133 |
-| sktl | 120 |
-| composites | 116 |
-| python-mecab-ko | 114 |
-| probstructs | 110 |
-| expelliarmus | 110 |
-| tf-nightly | 108 |
-| feathrpiper | 104 |
-| revChatGPT | 102 |
-| bencoder.pyx | 102 |
-| spanishconjugator | 100 |
-| gmpy2 | 96 |
-| nucliadb-node-binding | 88 |
-| blackfire | 87 |
-| odl-cli | 86 |
-| tf-nightly-cpu | 81 |
-| lalsuite | 80 |
-| JoBase | 79 |
-| simplepyble | 76 |
-| shapely | 76 |
+A browsable package list for all repositories [all packages here](https://pypi-data.github.io/website/repositories/pypi-mirror-180).
 
 
