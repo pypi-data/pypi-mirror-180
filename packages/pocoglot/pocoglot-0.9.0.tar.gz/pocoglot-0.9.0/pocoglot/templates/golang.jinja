@@ -1,0 +1,10 @@
+{% if "namespace" in poco %}
+package {{ poco.namespace }}
+{%- endif %}
+
+type {{ poco.name }} struct {
+{% for prop in poco.props %}
+	{{ prop.name }} {{ prop.type }}
+{%- endfor %}
+}
+

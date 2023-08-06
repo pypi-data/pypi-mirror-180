@@ -1,0 +1,2 @@
+[console_scripts]
+pocoglot = pocoglot.cli:main
