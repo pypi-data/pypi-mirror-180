@@ -1,0 +1,53 @@
+### Installation
+```sh
+pip install element-manager
+```
+
+### Import
+```sh
+from element_manager import get_xpath
+```
+
+### [Selenium Auto Code Generator Chrome Extension](https://chrome.google.com/webstore/detail/selenium-auto-code-genera/ocimgcpcnobcnmclomhhmjidgoiekeaf)
+- Install the extension in your browser
+- Start Recording your actions like 
+  - Open Url
+  - Click
+  - Type
+  - Scrape (right click on element & use scrape option)
+  - etc.
+- Selenium code with Element Manager will be generated automatically
+- Copy it & run in your python shell
+
+
+### Example
+Below script searches given keyword on google & scrapes result count
+```sh
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from webdriver_manager.chrome import ChromeDriverManager
+from element_manager import *
+driver = webdriver.Chrome(ChromeDriverManager().install())
+
+# Open URL
+driver.get('https://www.google.com/')
+
+#Click on Search bar
+driver.find_element(By.XPATH,get_xpath(driver,'QYQyyPtidm5_xqG')).click()
+
+# Type in search bar
+driver.switch_to.active_element.send_keys('shoes\n')
+
+# Scrape result count
+result_count=driver.find_element(By.XPATH,get_xpath(driver,'z6XMV66vxokYpfn')).text
+
+print('result_count ',result_count)
+driver.quit()
+
+```
+
+
+
+
+### Contact Us
+* [Telegram](https://t.me/datakund)
