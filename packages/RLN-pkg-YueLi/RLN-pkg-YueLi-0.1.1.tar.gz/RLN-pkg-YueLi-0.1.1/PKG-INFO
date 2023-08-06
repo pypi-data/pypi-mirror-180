@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: RLN-pkg-YueLi
+Version: 0.1.1
+Summary: RLN package in Incorporating the image formation process into deep learning improves network performance
+Home-page: https://github.com/MeatyPlus/RLN-package
+Author: Yue Li
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This is a well-written RLN package for Incorporating the image formation process into deep learning improves network performance in deconvolution applications. Now only for single view! RLN is the companion code to our paper:
+
+Incorporating the image formation process into deep learning improves network performance in deconvolution applications.
+
+RLN is a 3D fully convolutional deep learning incorporating the Richardson-Lucy deconvolution formula to restore and enhance the resolution of fluorescence microscopy image.
+
+If using conda, conda install tifffile -c conda-forge. Otherwise, pip install tifffile. RLN itself does not require installation, please just download the code and only takes few seconds on a typical PC. Maybe you need to install numpy, tifffile, tqdm and other package.
+
+
+
