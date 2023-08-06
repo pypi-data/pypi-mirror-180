@@ -1,0 +1,6 @@
+setup.py
+snssubpub/__init__.py
+snssubpub.egg-info/PKG-INFO
+snssubpub.egg-info/SOURCES.txt
+snssubpub.egg-info/dependency_links.txt
+snssubpub.egg-info/top_level.txt
