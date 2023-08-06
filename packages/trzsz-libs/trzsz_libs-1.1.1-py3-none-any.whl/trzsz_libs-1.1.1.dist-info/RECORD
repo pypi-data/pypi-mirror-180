@@ -1,0 +1,10 @@
+trzsz_libs-1.1.1-py3.10-nspkg.pth,sha256=-Ed0yv8stW26kAHNs8c3TekzHluk3W7JWUknA9xSdT8,534
+trzsz/libs/__init__.py,sha256=dnKmvhYtG5EFJe5mwjZkqc8_DiPGJfCkmjzXMS1Xaio,1105
+trzsz/libs/__version__.py,sha256=FlJns5xTJvNebkXMA_Gt3vQNxAYCZrCJ_Cy8gzdL47w,1128
+trzsz/libs/utils.py,sha256=VraoYspZv_PlL1jNy0_FhgVDx40J1z_TTrkmTYvAhJ0,25558
+trzsz/libs/wins.py,sha256=YZhuWtHYMSgPUsEOZSAHXBTgC9hHjNcYRehy2rkXMus,4399
+trzsz_libs-1.1.1.dist-info/METADATA,sha256=06XkLlJNWnhQN3hvPzr4OwwHeKL5Pvb-eZL8ZM9WnnE,6994
+trzsz_libs-1.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+trzsz_libs-1.1.1.dist-info/namespace_packages.txt,sha256=eZyOH999egBiepc_0BcTbKJ0pDPrpEaNzB4Wr-pQnIY,6
+trzsz_libs-1.1.1.dist-info/top_level.txt,sha256=eZyOH999egBiepc_0BcTbKJ0pDPrpEaNzB4Wr-pQnIY,6
+trzsz_libs-1.1.1.dist-info/RECORD,,
