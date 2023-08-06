@@ -1,0 +1,7 @@
+setup.py
+annoying/__init__.py
+annoying/main.py
+annoying.egg-info/PKG-INFO
+annoying.egg-info/SOURCES.txt
+annoying.egg-info/dependency_links.txt
+annoying.egg-info/top_level.txt
