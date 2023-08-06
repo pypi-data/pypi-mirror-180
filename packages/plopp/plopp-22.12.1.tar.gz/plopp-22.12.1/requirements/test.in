@@ -1,0 +1,4 @@
+-r base.in
+ipympl
+pytest
+scipy
