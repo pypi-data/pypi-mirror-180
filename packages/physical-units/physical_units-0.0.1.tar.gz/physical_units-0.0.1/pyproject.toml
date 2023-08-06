@@ -1,0 +1,43 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.black]
+line-length = 80
+
+
+[tool.poetry]
+authors = ["konstantin-dudersky <konstantin.dudersky@gmail.com>"]
+description = "Представление физ. единиц как объектов в python"
+name = "physical-units"
+packages = [{ include = "physical_units" }]
+readme = "README.md"
+repository = "https://github.com/Konstantin-Dudersky/python-physical-units"
+version = "0.0.1"
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+pytest = "*"
+wemake-python-styleguide = "0.17.0"
+
+
+[tool.pyright]
+pythonPlatform = "Linux"
+pythonVersion = "3.11"
+reportUnnecessaryTypeIgnoreComment = true
+stubPath = '.venv/typings/'
+typeCheckingMode = "strict"
+venvPath = "."
+venv = ".venv"
+
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+log_format = "%(levelname)s: %(asctime)s.%(msecs)03d | %(name)s:%(lineno)d - %(funcName)s\n-> %(message)s"
+log_date_format = "%H:%M:%S"
