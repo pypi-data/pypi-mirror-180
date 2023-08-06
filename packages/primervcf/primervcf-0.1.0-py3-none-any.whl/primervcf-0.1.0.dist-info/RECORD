@@ -1,0 +1,16 @@
+main.py,sha256=vsawfI3E9cyppEtNHqAB60vcFBqPJYkpqBUZtgCQXqA,519
+primer_indel.py,sha256=RHifOKujT-tcVYXXIWlbMh-FTWvVg8IAk_hhPHFP-Qs,5107
+bin/fq2vcf.py,sha256=vdxCnrkmoeBTB8bM_b00eh6TtGqpO8kobxkw3U0G6jc,1432
+bin/primerdesign_vcf.py,sha256=8xq86f8uHIopE6ELhC3B-VFRkIDfM04G6jFp4Hkmznc,3065
+bin/vcf2del.py,sha256=ihiF81Du3lwsyHSI187luRxWvPQt4HdKBweJOIVkEqw,1052
+primervcf/__init__.py,sha256=J6hUfb_Fc60R6IU8WodNt7T6a3ILiYGkbZMn9diGegQ,145
+primervcf/map2vcf.py,sha256=fZBW4eu2LZGqPxskMl48Ai--4HEc13LluMx1OLffqX8,2867
+primervcf/primer_indel.py,sha256=M1I3Q7th473wj2Udjpf8tIEuQmKecSGVgC6aILJmRso,8620
+primervcf/utils.py,sha256=-pMtELpo5NE4pwbJwHtavOuvBN2Y1_xKhaTUFju8zj4,1795
+primervcf-0.1.0.data/scripts/fq2vcf.py,sha256=WvZz8BWVLtVvs3WRvqzwJ00knbrW0KJNbUguNHETatU,1419
+primervcf-0.1.0.data/scripts/primerdesign_vcf.py,sha256=bwMiGyb5fTqPVSv1rJX493VkbJBTcCcd-XvqapY9dlI,3052
+primervcf-0.1.0.data/scripts/vcf2del.py,sha256=tptcjApl9171WUEDnsABse_gDN9cVrA9dwSp9QrsR8o,1039
+primervcf-0.1.0.dist-info/METADATA,sha256=d3JKl3cB9yb7A-bD24G-W4IUz0jG19961hPsBMrqVTM,6171
+primervcf-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+primervcf-0.1.0.dist-info/top_level.txt,sha256=blIj4ylPX158RvqoDhQAdf--tR3HfLNsH6Mo5xMPJ7U,15
+primervcf-0.1.0.dist-info/RECORD,,
