@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="mzp-l-content" style="padding-top: 48px;min-height: 82vh;">
+    <div class="mzp-l-content" style="padding: 0px 80px 80px 80px;">
+        <form class="mzp-c-form" style="margin-bottom: 0;position: absolute;right: 0;" method="POST">
+            <input
+                type="search"
+                id="search"
+                name="search"
+                placeholder="DOI (e.g. 10.1002/pra2.601)"
+                value="{{ query }}"
+                style="margin-bottom: 0;"
+            />
+            <button class="mzp-c-button" type="submit">Submit</button>
+        </form>
+    </div>
+    
+    {% block search_results %}{% endblock %}
+</div>
+{% endblock %}
