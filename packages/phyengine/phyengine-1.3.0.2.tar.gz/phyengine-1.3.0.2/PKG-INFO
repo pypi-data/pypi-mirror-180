@@ -1,0 +1,178 @@
+Metadata-Version: 2.1
+Name: phyengine
+Version: 1.3.0.2
+Summary: Pyhton library for simple physics modelation
+Home-page: https://github.com/tacterex/PhyEngine
+Author: tacterex
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires: keyboard
+Description-Content-Type: text/markdown
+
+# **About**
+
+This library can help you program some simple kinematics processes and get some important (maybe) data from it
+
+# **Getting saterted**
+
+## **Installing**
+To install phyengine, run following command in command prompt:
+
+```
+pip install phyengine
+```
+
+## **Importing**
+
+You can use ususal import
+
+```
+import phyengine
+```
+
+# **phyengine.MathEngine**
+
+## **Vectors**
+
+Phyengine can work with 2d vectors. General syntax to create vector object is
+
+```
+phyengine.MathEngine.Vector(<coordx>, <coordy>)
+```
+
+For example:
+
+```
+first = phyengine.MathEngine.Vector(2, 3)
+```
+
+To get coord of vector, try this:
+
+```
+print(first.x)
+print(first.y)
+
+# Output:
+# 2
+# 3
+```
+
+Also, you can print vector:
+
+```
+print(first)
+
+# Output:
+# Vector object with coords (2, 3)
+```
+
+### **Operations with vectors**
+
+**Addition/Substracting**
+
+```
+a = phyengine.MathEngine.Vector(2, 3)
+b = phyengine.MathEngine.Vector(3, -7)
+
+res1 = a + b
+res2 = a - b
+print(res1)
+print(res2)
+
+# Output:
+# Vector object with coords (5, -4)
+# Vector object with coords (-1, 10)
+```
+
+**Multiplying/Dividing vector by int/float**
+
+```
+a = phyengine.MathEngine.Vector(5, 6)
+b = 1.2
+c = 2
+
+res1 = a * b
+res2 = a / c
+print(res1)
+print(res2)
+
+# Output:
+# Vector object with coords (6, 7.2)
+# Vector object with coords (2.5, 3)
+```
+
+**Iterating by vector**
+
+Iterating by vector is equal to iterating by tuple (vector.x, vector.y)
+
+```
+a = phyengine.MathEngine.Vector(5, 6)
+
+for i in a:
+    print(i)
+
+# Output:
+# 5
+# 6
+```
+
+**Getting absolute value of vector**
+
+Absolute value of vector is calculated as sqrt(vector.x^2 + vector.y^2)
+
+```
+a = phyengine.MathEngine.Vector(3, 4)
+
+print(abs(a))
+
+# Output:
+# 5
+```
+
+**Getting unit vector**
+
+Unit vector is a vector, which absolute value is 1 and has the same direction as given
+
+```
+a = phyengine.MathEngine.Vector(3, 4)
+
+e = a.unit
+print(e)
+
+# Output:
+# Vector object with coords (0.6, 0.8)
+```
+
+# **phyengine.InputManager**
+
+InputManager can help you get data from keyboard to control your simulation.
+To init Input, you need to run this:
+
+```
+phyengine.InputManager.init(*args)
+```
+
+where *args - list of buttons, that you want to record. For example:
+
+```
+input_ = phyengine.InputManager.init("space", "q", "w")
+``` 
+
+### **Operations with input**
+
+**Getting if button is held**
+
+```
+input_.held(key)
+```
+
+Will return true while buttons with name "key" is pressed
+
+**Getting if button was pressed**
+
+```
+input_.pressed(key)
+```
+
+Will return true only when button with name "key" was pressed first time
