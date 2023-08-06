@@ -1,0 +1,19 @@
+example:
+  echo:
+    cmd: echo Hello World!
+
+  print-and-echo:
+    cmd: echo Hello World!
+    print: 'True'
+
+  print-with-env-var:
+    cmd: echo Current user is $USER
+
+  print-with-input:
+    cmd: echo $text
+    args: 
+      - text
+
+git:
+  log:
+    cmd: git log --all --oneline --graph --decorate
