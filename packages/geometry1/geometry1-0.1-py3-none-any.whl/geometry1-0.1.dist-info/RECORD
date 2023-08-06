@@ -1,0 +1,9 @@
+geometry1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geometry1/point.py,sha256=pl2iAliDc41TwKWrMQ8hcQzVVZrmO_9OwxgiMCPESTs,519
+geometry1/figures/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geometry1/figures/line.py,sha256=DcQHC6GBAo_PhlpDj4iz3-_YxH2tTIvriER5zy92BSI,625
+geometry1/figures/triangle.py,sha256=45jfVLm9h66SSBiWyR79KO5kjlMEdgwZyjP8nA8g-qs,1776
+geometry1-0.1.dist-info/METADATA,sha256=t27Ol-zfVCOgZIPD0rmA2_ugp3Bmxi2CMH3XUESNDds,1075
+geometry1-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+geometry1-0.1.dist-info/top_level.txt,sha256=m_QNQjbo0OLlSjTNkLSkMSqKxf0hyWdjcjI8wUG3Ue8,10
+geometry1-0.1.dist-info/RECORD,,
