@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyzhttp
+Version: 1.0.1
+Summary: pyzhttp lets you access Django shell from your Python modules
+Home-page: https://github.com/biwin/pyzhttp
+Author: Biwin John
+Author-email: biwinjohn@gmail.com
+License: Apache 2.0
+Download-URL: https://github.com/biwin/pyzhttp/
+Keywords: django,pyzhttp,python
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+
+UNKNOWN
+

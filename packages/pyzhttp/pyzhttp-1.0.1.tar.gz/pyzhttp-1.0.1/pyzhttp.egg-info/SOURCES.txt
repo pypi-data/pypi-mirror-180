@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+pyzhttp.egg-info/PKG-INFO
+pyzhttp.egg-info/SOURCES.txt
+pyzhttp.egg-info/dependency_links.txt
+pyzhttp.egg-info/requires.txt
+pyzhttp.egg-info/top_level.txt
