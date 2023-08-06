@@ -1,0 +1,11 @@
+django_reactions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_reactions/apps.py,sha256=oF3qgNLWB6SqJ7BqBcP6vGuK3LSaLwExAJqNwzlbchI,106
+django_reactions/conf.py,sha256=HfIkKNiL5zkoo_VYDe33IdYBwhkOI-MzYztoe7vlk7Y,1320
+django_reactions/enums.py,sha256=abKScdVXfYK6cxOsLWuYRu31CDzzLDFgDp6b8H8m7no,829
+django_reactions/loaders.py,sha256=anll6B_oi2gNW9zOBE7OIyyJjia2U2V-A2pVAVSme7I,1718
+django_reactions/models.py,sha256=5fHWqP_jmx2p20F1qEXgjjJUS5XljCcQ__eflaJumMk,2446
+django_reactions/tests.py,sha256=-aaGALggROU8-jaZNY7HcGmTvZVA_YUBOD6v-MXWa0M,4024
+django_reactions-0.0.1.dist-info/METADATA,sha256=ox9VsjXOLgI4qjPeajyOrEvwYuzymIzxlf0J8bTV1qk,1497
+django_reactions-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+django_reactions-0.0.1.dist-info/top_level.txt,sha256=KsjTMMH6zzbQg8ctrAwuX06N23UevjR3iNVbaVGjNbM,17
+django_reactions-0.0.1.dist-info/RECORD,,
