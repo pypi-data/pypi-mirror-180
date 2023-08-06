@@ -1,0 +1,9 @@
+setup.py
+pytorch_to_tensorflow/__init__.py
+pytorch_to_tensorflow/pytorch_to_tensorflow.py
+pytorch_to_tensorflow.egg-info/PKG-INFO
+pytorch_to_tensorflow.egg-info/SOURCES.txt
+pytorch_to_tensorflow.egg-info/dependency_links.txt
+pytorch_to_tensorflow.egg-info/requires.txt
+pytorch_to_tensorflow.egg-info/top_level.txt
+pytorch_to_tensorflow.egg-info/zip-safe
