@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: filtros_imagem
+Version: 0.0.1
+Summary: Pequeno pacote com filtros simples.
+Home-page: https://github.com/mcaponera/filtros-imagem
+Author: m. caponera
+Author-email: m.caponera@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Filtro de Imagens 
+
+Pequeno pacote de manipulação de imagens feito em Python para fixar conteúdos estudados. Feito a partir da playlist [Processamento de Imagens](https://youtube.com/playlist?list=PL5TJqBvpXQv54i_HWjd7s70vbP4Is7sK_). Brigadão Hallison & Kizzy 😻
+
+O pacote filtros-imagem é usado para:
+- Remover a informação de cor de imagens;
+- Transformar a imagem em negativo
+
+## Instalação
+
+Use o gerenciador de pacotes [pip](https://pip.pypa.io/en/stable/) para instalar o filtros-imagens
+
+```bash
+pip install filtros-imagem
+```
+
+## Usage
+
+```python
+from filros-imagem import grayscale(), negativo()
+```
+
+Crie o diretório *imagens* contendos as pastas *input*, para as imagens a serem modificadas, e *output* para receber as imagens alteradas.
+
+## Author
+m. caponera
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

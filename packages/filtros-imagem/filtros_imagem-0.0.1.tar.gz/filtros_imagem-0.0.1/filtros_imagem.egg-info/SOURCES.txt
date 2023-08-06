@@ -1,0 +1,13 @@
+README.md
+setup.py
+filtros-imagem/__init__.py
+filtros-imagem/greyscale.py
+filtros-imagem/negativo.py
+filtros-imagem/util/__init__.py
+filtros-imagem/util/in_file.py
+filtros-imagem/util/out_file.py
+filtros_imagem.egg-info/PKG-INFO
+filtros_imagem.egg-info/SOURCES.txt
+filtros_imagem.egg-info/dependency_links.txt
+filtros_imagem.egg-info/requires.txt
+filtros_imagem.egg-info/top_level.txt
