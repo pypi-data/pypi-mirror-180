@@ -1,0 +1,5 @@
+include i_rly_like_lemons/get_words.py
+include i_rly_like_lemons/extras.py
+include i_rly_like_lemons/keywords.py
+include i_rly_like_lemons/meaning.py
+include i_rly_like_lemons/sentiment.py
