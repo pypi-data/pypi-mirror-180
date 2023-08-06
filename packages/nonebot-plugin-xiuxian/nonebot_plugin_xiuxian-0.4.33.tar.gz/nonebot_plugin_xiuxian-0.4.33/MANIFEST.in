@@ -1,0 +1,11 @@
+include README.md
+include LICENSE
+recursive-include nonebot_plugin_xiuxian/xiuxian_bank *
+recursive-include nonebot_plugin_xiuxian/xiuxian_boss *
+recursive-include nonebot_plugin_xiuxian/xiuxian_work *
+recursive-include nonebot_plugin_xiuxian/xiuxian_sect *
+recursive-include nonebot_plugin_xiuxian/xiuxian_info *
+recursive-include nonebot_plugin_xiuxian/xiuxian_buff *
+recursive-include nonebot_plugin_xiuxian/xiuxian_back *
+recursive-include nonebot_plugin_xiuxian/xiuxian_mixelixir *
+recursive-include nonebot_plugin_xiuxian/xiuxian_rift *
