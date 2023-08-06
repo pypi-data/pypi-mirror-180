@@ -1,0 +1,11 @@
+README.md
+setup.py
+scHash/__init__.py
+scHash/dataModule.py
+scHash/scHash.py
+scHash/util.py
+scHash.egg-info/PKG-INFO
+scHash.egg-info/SOURCES.txt
+scHash.egg-info/dependency_links.txt
+scHash.egg-info/requires.txt
+scHash.egg-info/top_level.txt
