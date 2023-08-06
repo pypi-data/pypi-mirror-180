@@ -1,0 +1,9 @@
+marian/__init__.py,sha256=kUQA0-Pc9K8crVa-LhQdLFFVqIFzpeb51LStTMFXsTc,148
+marian/configuration.py,sha256=ZImeGOD88Qi5akR0OVbui_Vxp8nayNr2OKO3n2Pn9e0,2579
+marian/dataloader.py,sha256=VT_if8lFSYOHTpe0iFJ79PnGEE9HBOpp8BTbU-5Gzc0,2731
+marian/model.py,sha256=fQgnazWNYmejNTlwbm4Ju-VipS9DXdcWTCBwMbkUgZk,19357
+marian/pl_wrapper.py,sha256=NE_2JnbjQo-qXjUVchpFQuYuSuvyuJpiuXIJu8qxeAU,3249
+compromise_marian-0.1.1.dist-info/METADATA,sha256=Qsk6GqJj16wlY0nzanY5wsZeHcYT9x_mpqRrbn9y2tA,919
+compromise_marian-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+compromise_marian-0.1.1.dist-info/top_level.txt,sha256=E09JGJZPUxJhe1rXOKiuf1lPDQsYd0WJaNHvo3M-XeI,25
+compromise_marian-0.1.1.dist-info/RECORD,,
