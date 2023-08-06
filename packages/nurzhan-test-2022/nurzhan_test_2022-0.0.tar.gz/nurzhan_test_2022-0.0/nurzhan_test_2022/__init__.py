@@ -1,0 +1,1 @@
+from .nurzhan_test_2022 import Nurzhan
