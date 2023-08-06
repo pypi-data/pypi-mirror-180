@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+dmpack/__init__.py
+dmpack.egg-info/PKG-INFO
+dmpack.egg-info/SOURCES.txt
+dmpack.egg-info/dependency_links.txt
+dmpack.egg-info/top_level.txt
