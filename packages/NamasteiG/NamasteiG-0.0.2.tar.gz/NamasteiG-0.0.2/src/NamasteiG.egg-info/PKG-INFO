@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: NamasteiG
+Version: 0.0.2
+Summary: I Create This Program To Login Instagram Using Python.
+Author-email: Abhinav Bhardwaj <abhinav.bhardwaj.56614@gmail.com>
+Project-URL: Homepage, https://t.me/namastelibrary
+Project-URL: Bug Tracker, https://t.me/namastehackers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+from NamasteiG import *
+UserName=""
+PassWord=""
+Data=Instagram.Login(UserName,PassWord)['Response'].text #PRINT DATA IN TEXT
+print(Data)
+
+Data=Instagram.Login(UserName,PassWord)['Response'].headers #PRINT DATA IN HEADERS
+print(Data)
+
+Data=Instagram.Login(UserName,PassWord) #PRINT ALL DATA
+print(Data)
