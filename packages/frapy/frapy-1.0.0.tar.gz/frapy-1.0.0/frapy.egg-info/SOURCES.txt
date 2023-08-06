@@ -1,0 +1,9 @@
+README.md
+setup.py
+frapy/Client.py
+frapy/__init__.py
+frapy/utils.py
+frapy.egg-info/PKG-INFO
+frapy.egg-info/SOURCES.txt
+frapy.egg-info/dependency_links.txt
+frapy.egg-info/top_level.txt
