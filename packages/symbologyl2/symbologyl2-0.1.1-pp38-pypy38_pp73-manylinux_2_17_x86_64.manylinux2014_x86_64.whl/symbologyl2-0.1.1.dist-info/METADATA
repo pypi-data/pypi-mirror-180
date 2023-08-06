@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: symbologyl2
+Version: 0.1.1
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+License-File: LICENSE.txt
+Requires-Python: >=3.8.1,<4.0
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+[![Build](https://github.com/onechronos/symbologyl2-py/actions/workflows/build.yml/badge.svg)](https://github.com/onechronos/symbologyl2-py/actions/workflows/build.yml)
+[![Coverage Status](https://coveralls.io/repos/github/onechronos/symbologyl2-py/badge.svg)](https://coveralls.io/github/onechronos/symbologyl2-py)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
+
+
+[![PyPI](https://img.shields.io/pypi/v/symbologyl2)](https://pypi.org/project/symbologyl2/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/symbologyl2)](https://pypi.org/project/symbologyl2/)
+[![PyPI - Format](https://img.shields.io/pypi/format/symbologyl2)](https://pypi.org/project/symbologyl2/)
+[![PyPI - License](https://img.shields.io/pypi/l/symbologyl2)](https://pypi.org/project/symbologyl2/)
+[![Documentation Status](https://readthedocs.org/projects/symbologyl2-py/badge/?version=latest)](https://symbologyl2-py.readthedocs.io/en/latest/?badge=latest)
+
+# Symbology Normalization (symbologyl2-py)
+
+## Introduction
+
+Utility functions for parsing, normalizing, and translating between various capital market symbology types. This
+library is a thin wrapper over the [symbologyl2](https://github.com/onechronos/symbologyl2) library, written in rust.
+
+## Current Support
+
+- [x] US equities
+  - [x] CMS Concatenated/Suffix
+  - [x] Nasdaq Integrated
+  - [x] CQS (NYSE/CTA plan)
+
+## Development
+
+```
+poetry shell
+maturin develop
+```
+
