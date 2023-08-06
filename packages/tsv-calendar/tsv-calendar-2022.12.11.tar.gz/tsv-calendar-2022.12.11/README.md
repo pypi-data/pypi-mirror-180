@@ -1,0 +1,22 @@
+Example.tsv
+-----------
+```
+- Day(0-6)	Name	Desc	Starts	Ends
+-
+0	Coding	Python Package	1520	1620
+1	Coding	Java	1400	1600
+- Dash will get ignored to allow comments in TSV File
+```
+
+
+Example.py
+----------
+```python
+import tsv_calendar
+
+tsv = tsv_calendar.TSV_Read("Example.tsv")
+
+if(tsv.current()): #If there is none, tsv.current() returns False
+	print(tsv.current(tsv_calendar.GET.NAME)) #Prints Name of current Event
+
+```

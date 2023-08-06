@@ -1,0 +1,93 @@
+import os
+import datetime
+import csv
+from enum import Enum
+
+class GET(Enum):
+    ALL = 0
+    NAME = 1
+    DESCRIPTION = 2
+    START_TIME = 3
+    END_TIME = 4
+
+class TSV_Read():
+    def __init__(self, file:str):
+        extension = os.path.splitext(file)[-1]
+        if not(os.path.exists(file)):
+            raise ImportError(f"File {file} does not exist!")
+        if(extension!=".tsv"):
+            raise ImportError("File has to be .tsv")
+        self.file = file
+
+    def _is_today(self, line:str):
+        if(line.startswith("-")): #Ignore if Line starts with -
+            return False
+        if(datetime.datetime.now().weekday()==int(line)):
+            return True
+        return False
+    def _get_info(self, value:GET, line:str):
+        match value:
+            case GET.ALL:
+                return(line)
+            case GET.NAME:
+                return(line[1])
+            case GET.DESCRIPTION:
+                return(line[2])
+            case GET.START_TIME:
+                return datetime.timedelta(hours=int(line[3][0:2]), minutes=int(line[3][2:4]))
+            case GET.END_TIME:
+                return datetime.timedelta(hours=int(line[4][0:2]), minutes=int(line[4][2:4]))
+
+    def all(self, value:GET=GET.ALL):
+        tsv_file = csv.reader(open(self.file), delimiter="\t")
+        info_return = []
+        currentline = 0
+        for line in tsv_file:
+            currentline = currentline+1
+            try: line[0] 
+            except:
+                raise ValueError(f"Cannot read Line {currentline} of {self.file}")
+            for line in tsv_file:
+                info_return.append(self._get_info(value, line))
+            return info_return
+    def today(self, value:GET=GET.ALL):
+        tsv_file = csv.reader(open(self.file), delimiter="\t")
+        info_return = []
+        currentline = 0
+        for line in tsv_file:
+            currentline = currentline+1
+            try: line[0] 
+            except:
+                raise ValueError(f"Cannot read Line {currentline} of {self.file}")
+            if(self._is_today(line[0])):
+                info_return.append(self._get_info(value, line))
+        return info_return
+    def next(self, value:GET=GET.ALL):
+        tsv_file = csv.reader(open(self.file), delimiter="\t")
+        currentline = 0
+        for line in tsv_file:
+            currentline = currentline+1
+            try: line[0] 
+            except:
+                raise ValueError(f"Cannot read Line {currentline} of {self.file}")
+        if(self._is_today(line[0])):
+            currenttime = datetime.datetime.now().strftime("%H%M")
+            if(currenttime < line[3]):
+                return self._get_info(value, line)
+        return False
+    def current(self, value:GET=GET.ALL):
+        if isinstance(value, GET):
+            tsv_file = csv.reader(open(self.file), delimiter="\t")
+            currentline = 0
+            for line in tsv_file:
+                currentline = currentline+1
+                try: line[0] 
+                except:
+                    raise ValueError(f"Cannot read Line {currentline} of {self.file}")
+                if(self._is_today(line[0])):
+                    currenttime = datetime.datetime.now().strftime("%H%M")
+                    if(line[3] < currenttime and currenttime < line[4]):
+                        return self._get_info(value, line)
+            return False
+        else:
+            raise TypeError("Argument must be of Type tsv_calendar.GET")
