@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+zs_face_detection/__init__.py
+zs_face_detection/inference_openvino_face_detection.py
+zs_face_detection.egg-info/PKG-INFO
+zs_face_detection.egg-info/SOURCES.txt
+zs_face_detection.egg-info/dependency_links.txt
+zs_face_detection.egg-info/top_level.txt
+zs_face_detection/checkpoints/openvino_fp16/scrfd_500m_kps.bin
+zs_face_detection/checkpoints/openvino_fp16/scrfd_500m_kps.mapping
+zs_face_detection/checkpoints/openvino_fp16/scrfd_500m_kps.xml

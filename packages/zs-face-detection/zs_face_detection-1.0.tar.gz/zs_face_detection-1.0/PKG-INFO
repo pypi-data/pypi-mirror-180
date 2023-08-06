@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: zs_face_detection
+Version: 1.0
+Summary: A demo for face detection
+Author: wang zs
+Author-email: scholar_zswang@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+
+from zs_face_detection import get_face_position
+
+face_position = get_face_position(image_bgr)
+
