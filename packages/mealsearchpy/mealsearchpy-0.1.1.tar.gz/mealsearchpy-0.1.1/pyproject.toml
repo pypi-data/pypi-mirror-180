@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "mealsearchpy"
+version = "0.1.1"
+description = "A Python package for people to find their favourite recipes."
+authors = ["Anni Dai"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/QMSS-G5072-2022/Dai_Anni/tree/main/Final_Project/mealsearchpy"
+repository = "https://github.com/QMSS-G5072-2022/Dai_Anni/tree/main/Final_Project/mealsearchpy"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.28.1"
+pandas = "^1.5.2"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+myst-nb = "^0.17.1"
+sphinx-autoapi = "^2.0.0"
+sphinx-rtd-theme = "^1.1.1"
+pytest = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
