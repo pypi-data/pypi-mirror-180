@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+utils/__init__.py
+utils/allsysinfo.py
+utils/config.py
+utils/library.py
+utils/toolbox.py
+validatortoolbox.egg-info/PKG-INFO
+validatortoolbox.egg-info/SOURCES.txt
+validatortoolbox.egg-info/dependency_links.txt
+validatortoolbox.egg-info/top_level.txt
