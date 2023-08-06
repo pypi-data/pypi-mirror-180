@@ -1,0 +1,2 @@
+[console_scripts]
+pcap_summary = pcap_summary.pcap_summary:main
