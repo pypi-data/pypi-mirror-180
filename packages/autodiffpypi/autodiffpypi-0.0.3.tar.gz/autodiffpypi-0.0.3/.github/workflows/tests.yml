@@ -1,0 +1,24 @@
+name: Project Correctness Tests
+on:
+  push:
+    branches:
+      - main
+jobs:
+  run_test_suite_and_flake8:
+    name: Run Test Suite
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      # Setup Python environment in the container
+      - uses: actions/setup-python@v3
+        with:
+          python-version: '3.10'
+      - name: Install Python dependencies
+        run: |
+          pip install virtualenv
+          python -m venv autodiff_venv
+          source autodiff_venv/bin/activate
+          echo "VIRTUAL ENV:" $VIRTUAL_ENV
+          pip install -r requirements.txt
+      - name: Run Test Suite
+        run: pytest tests
