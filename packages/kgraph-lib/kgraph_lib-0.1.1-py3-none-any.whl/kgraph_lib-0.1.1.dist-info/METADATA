@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: kgraph-lib
+Version: 0.1.1
+Summary: k-means reimagined for graphs
+Home-page: UNKNOWN
+Author: Visaj Nirav Shah
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: networkx
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: scipy (==1.8.1)
+
+UNKNOWN
+
