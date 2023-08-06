@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "zztoolbox"
+version = "0.0.3"
+authors = [
+  { name="Lingxiao Zhang", email="zhanglingxiao@ict.ac.cn" },
+]
+description = "base function"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jwzxgy2007/zztoolbox"
+"Bug Tracker" = "https://github.com/jwzxgy2007/zztoolbox/issues"
+
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+pythonpath = "src/zztoolbox"
