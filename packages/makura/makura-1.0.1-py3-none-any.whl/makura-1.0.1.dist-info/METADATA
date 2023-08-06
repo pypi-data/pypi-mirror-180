@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: makura
+Version: 1.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/hunglin59638/makura
+Author: Hung-Lin, Chen
+Author-email: hunglin59638@gmail.com
+Maintainer: Hung-Lin, Chen
+Maintainer-email: hunglin59638@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8,<4
+License-File: LICENSE
+Requires-Dist: ete3 (<4.0.0,>=3.1.2)
+Requires-Dist: pandas (<2.0.0,>=1.5.1)
+Requires-Dist: requests (<3.0.0,>=2.28.1)
+Requires-Dist: tqdm (<5.0.0,>=4.64.1)
+
+None
+
