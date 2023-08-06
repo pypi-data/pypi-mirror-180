@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: optipyzer
+Version: 0.4.1
+Summary: Codon optimize DNA and Protein sequences for multiple species.
+Home-page: https://github.com/NLeRoy917/optipyzer
+Author: Nathan LeRoy
+Author-email: NLeRoy917@gmail.com
+License: Apache 2.0
+Keywords: codon optimization dna protein biology bioinformatics
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pydantic
+
+# Optipyzer
+
+_optipyzer_ is a lightweight python package that interfaces the core opitpyzer server for use inside python programs. It lets you codon optimize any DNA or protein sequences inside python by providing a convenient API to construct and make requests to the optimization server. It returns the results as python objects for downstream use.
+
+## Installation
+
+```console
+pip install optipyzer
+```
+
+## Quick Start
+
+To get started, simply create an `API` instance, and start making requests:
+
+```python
+import optipyzer
+
+api = optipyzer.API()
+
+gblock = "ATGGCCCTTTAA"
+
+result = api.optimize(
+        seq=dna_seq,
+        seq_type="dna",
+        weights={"human": 2, "mouse": 1},
+    )
+
+print(result['optimized_sd'])
+```
+
+## More Information
+
+For a more detailed tutorial, please visit the [docs](https://optipyzer.readthedocs.org)
