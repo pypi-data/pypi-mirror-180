@@ -1,0 +1,3 @@
+[console_scripts]
+smg = simple_meta:main
+
