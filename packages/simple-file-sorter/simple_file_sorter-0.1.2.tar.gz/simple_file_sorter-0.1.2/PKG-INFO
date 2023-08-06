@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: simple-file-sorter
+Version: 0.1.2
+Summary: Simple File Sorter
+Home-page: https://github.com/moskrc/filesorter
+Keywords: sort,file_sorter,file,sorter
+Author: Vitalii Shishorin
+Author-email: moskrc@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/moskrc/filesorter
+Description-Content-Type: text/markdown
+
+# FileSorter - A simple file sorter
+
+## What is it?
+
+Sometimes you have a folder with a lot of files, and you want 
+to sort them into folders. This is where FileSorter comes in. 
+It will sort your files into folders based on the file extension.
+
+## How to install
+
+```bash
+$ pip install simple_file_sorter
+```
+
+## How to use
+```bash
+usage: simple_file_sorter [-h] [-s SRC] [-d DST]
+
+File sorter
+
+options:
+  -h, --help         show this help message and exit
+  -s SRC, --src SRC  Source dir
+  -d DST, --dst DST  Destination dir
+```
+
+## Example
+
+```bash
+$ simple_file_sorter -s ~/Downloads
+```
