@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: image-to-excel
+Version: 1.0.1
+Summary: A simple project to convert from an image to an excel file, because my brother wanted something that did this.
+License: MIT
+Author: alex.fayers
+Author-email: alex@fayers.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: dev
+Provides-Extra: devlint
+Provides-Extra: docs
+Provides-Extra: lint
+Provides-Extra: release
+Provides-Extra: test
+Provides-Extra: types
+Requires-Dist: numpy (>=1.23.5,<2.0.0)
+Requires-Dist: pillow (>=9.3.0,<10.0.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Requires-Dist: typeguard (>=2.13.3,<3.0.0)
+Requires-Dist: xlsxwriter (>=3.0.3,<4.0.0)
+Description-Content-Type: text/markdown
+
+# image-to-excel
+
+A simple project to convert from an image to an excel file, because my brother wanted something that did this.
+
+## Installation
+
+To install the project you only need to clone the repo and run pip install within the repo folder:
+
+```bash
+pip install .
+```
+
+If you like using virtual environments, you can easily install the project within one using [pipx](https://pypa.github.io/pipx/):
+
+```bash
+pipx install .
+```
+
+## Usage
+
+You can use image-to-excel as an importable module:
+
+```py
+from image_to_excel import BaseClass
+from pathlib import Path
+
+app = BaseClass("config.yml")
+
+app.image_to_excel(
+    Path("input.jpg"), 100, Path("output.xlsx")
+)
+```
+
+Or as a command line interface:
+
+```bash
+$ python3 -m image_to_excel
+# or
+$ image_to_excel -w 100 input.jpg output.xslx
+```
+
+## Documentation
+
+Documentation for image-to-excel can be found within the docs folder.
+
