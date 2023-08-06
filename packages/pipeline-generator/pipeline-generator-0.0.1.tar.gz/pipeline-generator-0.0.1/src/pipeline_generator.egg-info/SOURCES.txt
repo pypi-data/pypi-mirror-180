@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/pipeline/__init__.py
+src/pipeline/version.py
+src/pipeline_generator.egg-info/PKG-INFO
+src/pipeline_generator.egg-info/SOURCES.txt
+src/pipeline_generator.egg-info/dependency_links.txt
+src/pipeline_generator.egg-info/top_level.txt
