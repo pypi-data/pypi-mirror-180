@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: grepimports
+Version: 0.0.1
+Summary: Greps sources for imports and prints dependencies as list of package names
+Home-page: https://github.com/mugiseyebrows/grep-imports
+Author: Stanislav Doronin
+Author-email: mugisbrows@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: importlib-metadata
+
+# grep-imports
+
+Greps sources for imports and prints dependencies as list of package names
+
+# Install
+
+```
+pip install grepimports
+```
+
+# Use
+
+```
+grepimports /path/to/sources > requirements.txt
+```
+
+
