@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: unet_jlbaker
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/pyscaffold/pyscaffold/
+Author: Akeret, Joel
+Author-email: Author <jlbaker361@gmail.com>
+License: GPLv3
+Project-URL: Documentation, https://pyscaffold.org/
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+License-File: LICENSE.txt
+License-File: AUTHORS.rst
