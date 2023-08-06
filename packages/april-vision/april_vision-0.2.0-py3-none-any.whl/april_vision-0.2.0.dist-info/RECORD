@@ -1,0 +1,14 @@
+april_vision/__init__.py,sha256=8NUSz58vbKCysSxtfSnywx1sgs1vdG0GXzOQzlwAz-0,406
+april_vision/_version.py,sha256=diln-L6vS-HnAnl9N8-VYY3NwgodyNrCeC8U4tCF9QQ,176
+april_vision/detect_cameras.py,sha256=EO2f-1xMnGqliXDHdfFqTcucBPXqoiDO0mScf1IUix8,5739
+april_vision/marker.py,sha256=eANRoVyfd_No5jdDo-TcpxUMe-ilyrrgyq31SWfFaUU,14927
+april_vision/py.typed,sha256=cHQ507-UOaxWMmVJ-fIwE44pp2ruVRSVJajqfdlQsx8,98
+april_vision/vision.py,sha256=xYuHx1O5iBgGsEkin2dCAeFV_3CNKxfB9uGCwnU4IWg,10741
+april_vision/j5/__init__.py,sha256=zn0Wz-_yHPo3emNWPW8mBlsVbUjWIPvPd4yPaKzX6j8,138
+april_vision/j5/april_camera.py,sha256=V49HnHCjde-blxIhmcoyWkpvaZEOQC-u6mv00DUS9nQ,5866
+april_vision/j5/py.typed,sha256=h8LcHtPxmWFR5DN5bxUDMqObkO-nU-Htnm8TFwrO02I,101
+april_vision-0.2.0.dist-info/LICENSE,sha256=kKFZuCrXuW89sNzou5aGacFx5WHlSnrt7BX-iOJevRY,1068
+april_vision-0.2.0.dist-info/METADATA,sha256=kzh2uacwbNm9CDFsyzqEd0MFuFTTMLCW04YPeNjHJM4,797
+april_vision-0.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+april_vision-0.2.0.dist-info/top_level.txt,sha256=MfIG_dz54bz6HL2qzwJj-rk_6mqdQwxszi34DD5Ua_Q,13
+april_vision-0.2.0.dist-info/RECORD,,
