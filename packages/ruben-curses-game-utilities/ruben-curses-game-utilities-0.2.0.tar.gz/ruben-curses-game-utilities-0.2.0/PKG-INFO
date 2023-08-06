@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ruben-curses-game-utilities
+Version: 0.2.0
+Summary: Utility package for command-line games using the curses library.
+Home-page: https://github.com/Ruben9922/curses-game-utilities
+Author: Ruben Dougall
+Author-email: info.ruebz999@gmail.com
+Keywords: console command-line utilities game curses
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+Curses Game Utilities
+=====================
+
+Simple utility library for Curses-based command-line games.
