@@ -1,0 +1,20 @@
+[project]
+name = "roi_tanh_tensorflow"
+version = "0.0.1"
+description = "apply roi tanh warping in tensorflow for face parsing"
+authors = [
+    {name = "Edouard Yvinec", email="ey@datakalab.com"}
+]
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3"
+]
+
+[project.urls]
+documentation = "https://openaccess.thecvf.com/content_CVPR_2019/papers/Lin_Face_Parsing_With_RoI_Tanh-Warping_CVPR_2019_paper.pdf"
+
+[build-system]
+requires = ["setuptools>=42", "tensorflow >= 2.8.0", "scikit-image>=0.19.3", "opencv-python>=4.6.0"]
+build-backend = "setuptools.build_meta"
