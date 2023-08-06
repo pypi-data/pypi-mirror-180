@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+bodkin/__init__.py
+bodkin/core.py
+bodkin/impl.py
+bodkin/viz.py
+bodkin.egg-info/PKG-INFO
+bodkin.egg-info/SOURCES.txt
+bodkin.egg-info/dependency_links.txt
+bodkin.egg-info/top_level.txt
+bodkin/data/index.html.template
+bodkin/data/script.js
+bodkin/data/style.css

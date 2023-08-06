@@ -1,0 +1,3 @@
+include bodkin/data/style.css
+include bodkin/data/script.js
+include bodkin/data/index.html.template
