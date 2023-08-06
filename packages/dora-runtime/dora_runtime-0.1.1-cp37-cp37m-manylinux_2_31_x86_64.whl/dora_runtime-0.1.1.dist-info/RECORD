@@ -1,0 +1,7 @@
+dora_runtime-0.1.1.dist-info/METADATA,sha256=Z2KJTbCu1IgD851XE7pnaNjepfNBtJGMJEfPISXC8jo,76
+dora_runtime-0.1.1.dist-info/WHEEL,sha256=aH4gjwXFx3GIoY287l79RTJumyxyDVEBfTsLaD29b84,108
+dora_runtime-0.1.1.data/scripts/dora-runtime,sha256=KVEEV_fla77T-AQekQbSiX53pi9Rx4meVzT-Q-MxpqM,13350408
+dora-runtime.libs/libssl-578d2f9a.so.1.1,sha256=oo7ih-RiWX3mCdt5sue_RN77gV_CWawwzjaV9oM9EdY,645608
+dora-runtime.libs/libcrypto-d578cd7f.so.1.1,sha256=l7TmO6zPLiaZQ__rNW4AOJSZRcRUxZVdWGuD6mCi6Sc,3083720
+dora-runtime.libs/libacl-72e529a9.so.1,sha256=8h7vM9qU2vswoUazF_7nj-6rdszYHVQPnRC0S2GHsbA,42136
+dora_runtime-0.1.1.dist-info/RECORD,,
