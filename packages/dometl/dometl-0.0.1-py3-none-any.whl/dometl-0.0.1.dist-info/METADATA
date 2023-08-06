@@ -1,0 +1,153 @@
+Metadata-Version: 2.1
+Name: dometl
+Version: 0.0.1
+Summary: Simple python ETL tool.
+Author-email: Dominik Zulovec Sajovic <dominik.zsajovic@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2022 Dominik Zulovec Sajovic
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/orion512/dometl
+Keywords: etl,csv,postgres,python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: psycopg2 (==2.9.5)
+Requires-Dist: PyYAML (==6.0)
+
+# DOMETL (Python ETL Tool)
+Dometl is a Python ETL package.
+
+# Process
+
+1. Init - Initializes the database
+```
+dometl -t init
+```
+2. Stage - Moves files into staging tables
+```
+dometl -t stage
+```
+3. Live - Runs transformations to move data from staging to live tables
+```
+dometl -t live
+```
+4. Test - Runs very simple tests on the data
+```
+dometl -t test
+```
+
+# How to Install & Run the Package?
+
+Run the initialization step
+```
+dometl -t init -cp dometl_config
+# if you don't install the package
+# python -c "from dometl import run_dometl; run_dometl()" -t init -cp dometl_config
+```
+
+Run the staging step
+```
+dometl -t stage -ep datasets\\game_data\\daily\\20221105_g.csv -tb ST_GAME -cp dometl_config
+# if you don't install the package
+# python -c "from dometl import run_dometl; run_dometl()" -t stage -ep datasets\\game_data\\daily\\20221105_g.csv -tb st_game -cp dometl_config
+# python -c "from dometl import run_dometl; run_dometl()" -t stage -ep datasets\\game_data\\seasons -tb st_game -cp dometl_config
+```
+
+Run the live step
+```
+dometl -t live -tb game -cp dometl_config
+# if you don't install the package
+# python -c "from dometl import run_dometl; run_dometl()" -t live -tb game -cp dometl_config
+```
+
+Run the test step
+```
+dometl -t test -tb game -cp dometl_config
+# if you don't install the package
+# python -c "from dometl import run_dometl; run_dometl()" -t test -tb game -cp dometl_config
+```
+The simple testing is made up of testing queries which are placed into the
+config.yaml folder like below
+```
+tests:
+  table_name: ["some_test.sql", "other_test.sql"]
+```
+Each table can have a set of test queries.
+The queries need to be written in a way that they return 0 rows when the
+test passes. If the query returns more than 0 rows the test will fail.
+As a suggestion the rows that are returned should help find the root
+cause of the failure.
+
+
+## Configuration Folder
+
+```
+\folder
+    config.yaml     # structure defined below
+    db_create.sql   # custom file which creates and initializes the db
+    file1.sql       # custom SQL file
+    file2.sql       # custom SQL file
+    file3.sql       # custom SQL file
+    file4.sql       # custom SQL file
+    file5.sql       # custom SQL file
+```
+
+Structure for config.yaml
+```
+credentials_path: "path/to/creds.yaml"
+
+init_order: [
+  "db_create.sql",
+  "file1.sql",
+  "file2.sql",
+]
+
+etl:
+  table_name_1: "file3.sql"  
+  table_name_2: "file4.sql"  
+  table_name_3: "file5.sql"  
+```
+
+Structure for the creds.yaml
+```
+db_credentials:
+  username: ""
+  password: ""
+  hostname: ""
+  port: ""
+  db_name: ""
+```
+
+## Bonus
+
+Run a script with psql
+```
+psql -U postgres -h 127.0.0.1 -d DBNAME -f path\path\file_name.sql
+```
+
+Copy CSV into a table
+```
+psql -U postgres -h 127.0.0.1 -d DBNAME -c "COPY table_name FROM '/'some_name.csv' WITH (FORMAT csv)"
+```
