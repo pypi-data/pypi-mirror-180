@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: loglibrary_x2117158
+Version: 0.0.1
+Summary: Library for printing logs
+Author-email: Javed Shaikh <javed.shaikh4650@gmail.com>
+Requires-Python: >=3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Project-URL: Bug Tracker, https://github.com/javed97/loglibrary/issues
+Project-URL: Homepage, https://github.com/javed97/loglibrary
+Description-Content-Type: text/markdown
+
+# Loglibrary Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
