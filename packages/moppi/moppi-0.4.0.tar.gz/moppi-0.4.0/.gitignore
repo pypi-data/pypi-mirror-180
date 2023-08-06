@@ -1,0 +1,11 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Distribution / packaging
+.env*
+dist/
+moppi.yaml
+test.toml
+test1.toml
+a.py
+b.py

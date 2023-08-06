@@ -1,0 +1,47 @@
+[build-system]
+requires = [
+    "hatchling",
+]
+build-backend = "hatchling.build"
+
+[project]
+name = "moppi"
+version = "0.4.0"
+authors = [
+    { name = "Gennadii Egorov", email = "lemanyk@gmail.com" },
+]
+description = "Modern Python Package Installer"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "tomli-w==1.0.0",
+    "PyYAML==6.0",
+]
+
+[project.scripts]
+moppi = "moppi.installer:main"
+
+[project.urls]
+Homepage = "https://github.com/lemanyk/moppi"
+"Bug Tracker" = "https://github.com/lemanyk/moppi/issues"
+
+[project.optional-dependencies]
+dev = [
+    "build==0.9.0",
+    "twine==4.0.2",
+]
+
+[tool.black]
+line-length = 100
+
+[tool.moppi]
+indirect-dependencies = [
+    "packaging==22.0 :: build==0.9.0",
+    "pep517==0.13.0 :: build==0.9.0",
+]
