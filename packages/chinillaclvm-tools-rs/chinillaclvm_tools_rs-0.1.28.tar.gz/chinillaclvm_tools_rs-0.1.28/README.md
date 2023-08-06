@@ -1,0 +1,56 @@
+chinillaclvm_tools_rs
+=
+
+This is a second-hand port of chinilla's [chinillaclvm tools](https://github.com/Chinilla/chinillaclvm_tools/) to rust via the work of
+ChinillaMineJP porting to typescript.  This would have been a lot harder to
+get to where it is without prior work mapping out the types of various
+semi-dynamic things (thanks, ChinillaMineJP).
+
+Some reasons for doing this are:
+
+ - Chinilla switched the chinillaclvm implementation to rust: [chinillaclvm_rs](https://github.com/Chinilla/chinillaclvm_rs), and this code may both pick up speed and track chinillaclvm better being in the same language.
+ 
+ - I wrote a new compiler with a simpler, less intricate structure that should be easier to improve and verify in the future in ocaml: [ochinillalisp](https://github.com/prozacchiwawa/ochinillalisp).
+
+ - Also it's faster even in this unoptimized form.
+
+All acceptance tests i've brought over so far work, and more are being added.
+As of now, I'm not aware of anything that shouldn't be authentic when running
+these command line tools from chinillaclvm_tools in their equivalents in this repository
+
+ - opc
+ 
+ - opd
+ 
+ - run
+ 
+ - brun
+
+ - repl
+ 
+argparse was ported to javascript and I believe I have faithfully reproduced it
+as it is used in cmds, so command line parsing should work similarly in all three
+versions.
+
+The directory structure is expected to be:
+
+    src/classic  <-- any ported code with heritage pointing back to
+                     the original chinilla repo.
+                    
+    src/compiler <-- a newer compiler (ochinillalisp) with a simpler
+                     structure.  Select new style compilation by
+                     including a `(include *standard-cl-21*)`
+                     form in your toplevel `mod` form.
+
+Mac M1
+===
+
+Use ```cargo build --no-default-features``` due to differences in how mac m1 and
+other platforms handle python extensions.
+
+Use with chinilla-blockchain
+===
+
+    # Activate your venv, then
+    $ maturin develop --release
+
