@@ -1,0 +1,14 @@
+cairo_math_64x61/__init__.py,sha256=gM2IWLMU8mc8rpmUq9RQbUsNIzgxtoLo6yFzu2sjCl0,297
+cairo_math_64x61/hyp64x61.cairo,sha256=EJZQn8URGedU_O71jQKnLOVYoCCt5ZkNuTNHyKGIXDw,1810
+cairo_math_64x61/hyp64x61_mock.cairo,sha256=B4YWaEt-MhJAVELdlESCKJ5BQg6Nomtvtvk26jxiHXw,807
+cairo_math_64x61/math64x61.cairo,sha256=nIzYYNyncOQHOx1P2IGu_oCBTFJJsnjtQxQExn9n5X0,8832
+cairo_math_64x61/math64x61_mock.cairo,sha256=GRfnl2f4v_y94F8yhJtQbD0kzJ7iHWj4KYmVidaY6p8,2020
+cairo_math_64x61/trig64x61.cairo,sha256=B92QOrtYsUjEJEpCFbMzWEX60zYSpZXH36qqRceuTMU,4647
+cairo_math_64x61/trig64x61_mock.cairo,sha256=mPJj-9RpwgSRuGwA-J9hPdRYCv4kio4w_efswkSqquA,809
+cairo_math_64x61/vec64x61.cairo,sha256=9Fr5rdGolbRldzIrL7S4riTmOdhJ36gCkZenOIt0mtc,2343
+cairo_math_64x61/vec64x61_mock.cairo,sha256=tCJgM_XiCVt8atPTTU_ELtUa_QWvHWwkZV6zQR48y1Y,1260
+cairo_math_64x61-2.1.1.dist-info/LICENSE,sha256=NcYyqH32Ao5PFt5OCnvzQ4dWLD-TnEg7VRH7m0EadcY,1080
+cairo_math_64x61-2.1.1.dist-info/METADATA,sha256=_N-2UDpfD5-KsS-pQEpWgNMBykMChWchj6kelj7NvLY,3524
+cairo_math_64x61-2.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cairo_math_64x61-2.1.1.dist-info/top_level.txt,sha256=H_IRQRktAAn_bTAqEHr6qlO73pYGLxqCAEqKkGRZskA,17
+cairo_math_64x61-2.1.1.dist-info/RECORD,,
