@@ -1,0 +1,11 @@
+include i_rly_like_lemons/extras.py
+include i_rly_like_lemons/get_words.py
+include i_rly_like_lemons/keywords.py
+
+include i_rly_like_lemons/plug in words/amplifiers.txt
+include i_rly_like_lemons/plug in words/everything.txt
+include i_rly_like_lemons/plug in words/filter.txt
+include i_rly_like_lemons/plug in words/inverters.txt
+include i_rly_like_lemons/plug in words/negative.txt
+include i_rly_like_lemons/plug in words/non_kwrds.txt
+include i_rly_like_lemons/plug in words/positive.txt
