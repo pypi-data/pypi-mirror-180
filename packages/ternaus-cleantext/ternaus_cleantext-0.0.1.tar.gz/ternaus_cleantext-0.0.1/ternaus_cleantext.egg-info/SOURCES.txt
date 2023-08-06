@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ternaus_cleantext/__init__.py
+ternaus_cleantext/ternaus_cleantext.py
+ternaus_cleantext.egg-info/PKG-INFO
+ternaus_cleantext.egg-info/SOURCES.txt
+ternaus_cleantext.egg-info/dependency_links.txt
+ternaus_cleantext.egg-info/requires.txt
+ternaus_cleantext.egg-info/top_level.txt
