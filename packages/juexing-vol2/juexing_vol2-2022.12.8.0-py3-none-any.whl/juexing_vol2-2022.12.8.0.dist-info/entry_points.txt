@@ -1,0 +1,4 @@
+[console_scripts]
+JuexingVol2 = JuexingVol2.__main__:main
+juexing-vol2 = JuexingVol2.__main__:main
+
