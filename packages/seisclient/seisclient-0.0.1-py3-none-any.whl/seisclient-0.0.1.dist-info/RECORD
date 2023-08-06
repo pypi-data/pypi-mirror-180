@@ -1,0 +1,8 @@
+seisclient/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seisclient/db.py,sha256=Eef5k2ONPnhonExglmjpL3xclj-gjwL7wH8PHZx4VAo,784
+seisclient/seisclient.py,sha256=7opKBJQqV1KHZv9wTW4k6sxHtYr_GR-woHdpdajr63o,14320
+seisclient-0.0.1.dist-info/LICENSE,sha256=Ei3eSEFY7R_vC-D_MN5pa0v7kbHGuON07GTJrIxa2SE,1067
+seisclient-0.0.1.dist-info/METADATA,sha256=48zTgcTAWVfSTvqT_KHG19HJxq8S6Qv1cx8SZQNxR4s,878
+seisclient-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+seisclient-0.0.1.dist-info/top_level.txt,sha256=oHuAxnrHeZT-aJS8JzOg6aFcTkRCcXq6fG9Uu_7RSt0,11
+seisclient-0.0.1.dist-info/RECORD,,
