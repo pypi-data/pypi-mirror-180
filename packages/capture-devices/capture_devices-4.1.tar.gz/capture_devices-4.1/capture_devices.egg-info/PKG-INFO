@@ -1,0 +1,113 @@
+Metadata-Version: 2.1
+Name: capture-devices
+Version: 4.1
+Summary: Get list of Capture Devices easily with Directshow and Python
+Author: Egemen Gulpinar
+Author-email: <egemengulpinar@gmail.com>
+License: MIT
+Project-URL: Home Page, https://github.com/egemengulpinar/capture-device-list
+Project-URL: Documentation, https://github.com/egemengulpinar/capture-device-list/blob/main/README.md
+Keywords: DirectShow,Windows,Capture Device,Device List,FFmpeg
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# capture-device-list
+[![Build status](https://img.shields.io/travis/Pythonity/icon-font-to-png.svg)][egemen]
+[![Latest PyPI version](https://img.shields.io/pypi/v/django-icons.svg)](https://pypi.org/project/capture-devices/)
+
+
+Simplest way to connect DirectShow Windows API with FFmpeg and list all capture devices with alternative names. The user can save the results to a file or print either â€œvideoâ€, â€œaudioâ€, or both â€œaudio, videoâ€ devices.
+
+
+## Screenshots
+![ss2](https://github.com/egemengulpinar/capture-device-list/blob/main/pic2.jpg)
+
+
+## Setting Options
+
+| Parameter              | Values   | Description    | Type  
+| ----------------- | -------------- | ---------|--------
+| device_type | `'audio' , 'video', 'audio_video'` |  Device Type  |str
+| alt_name | `True , False` |  Show alternative name   | bool
+| result_ |    `True , False`                | Return result |bool 
+|  list_all |     `True , False`                  |Show all devices |bool
+| save       |    `True , False` |Save result to text |bool 
+
+
+
+## Setting Arguments
+
+| Description              | Values     
+| ----------------- | ---- |   
+| Only audio devices | `'-audio', '-a'` | 
+|  Only video devices | `'-video', '-v'` |  
+| Only audio and video devices |    `'-audio_video', '-av'`               
+|  Show alternative names |     `'-alternative', '-alt'`                 
+| Show all devices       |    `'-list_all', '-l'` |
+| Save to text       |    `'-save', '-s'` |
+
+## Build
+
+To build this project, follow these commands
+
+```bash
+  git clone https://github.com/egemengulpinar/capture-device-list.git
+  cd capture-device-list
+  python setup.py sdist bdist_wheel
+```
+
+  
+## Usage with Arguments 
+
+First clone the repo and go to directory. After, based on arguments table, follow the syntax below.
+
+```bash 
+  python capture_devices.py -list_all -save
+  # or
+  python capture_devices.py -audio -alternative -save
+  
+```
+
+
+## Usage with pip
+
+First install the packages using with pip
+
+```bash 
+  pip install capture-devices
+```
+After, you can import package similarly:
+```python
+from capture_devices import devices
+```
+For using this library, follow these structure:
+```python
+result = devices.run_with_param(device_type='audio', alt_name=True,result_= True)
+print(result)
+
+# or 
+
+devices.run_with_param(alt_name=True,list_all=True)
+```
+
+    
+## License
+
+[MIT](https://github.com/egemengulpinar/capture-device-list/blob/main/LICENSE)
+
+
+
+[pypi]: https://pypi.org/project/capture-devices/
+[egemen]: https://pypi.org/project/capture-devices/
+  
