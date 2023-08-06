@@ -1,0 +1,12 @@
+README.md
+setup.py
+SatiyaMingxiang/README.md
+SatiyaMingxiang/__init__.py
+SatiyaMingxiang/__main__.py
+SatiyaMingxiang/file.pdf
+SatiyaMingxiang/index.html
+satiya_mingxiang.egg-info/PKG-INFO
+satiya_mingxiang.egg-info/SOURCES.txt
+satiya_mingxiang.egg-info/dependency_links.txt
+satiya_mingxiang.egg-info/entry_points.txt
+satiya_mingxiang.egg-info/top_level.txt
