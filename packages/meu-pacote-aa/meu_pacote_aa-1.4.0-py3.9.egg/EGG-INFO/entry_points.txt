@@ -1,0 +1,2 @@
+[console_scripts]
+meu_pacote_aa = meu_pacote_aa.aa:main
