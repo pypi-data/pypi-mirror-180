@@ -1,0 +1,8 @@
+tamil/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tamil/stop_words.txt,sha256=HT5ogfvK8ESEgxFVgWdgc--V5PxsloromPzRQqOlbzk,12573
+tamil/vaaninlp.py,sha256=HpDhtRV6x6NlQ0RWWBQrS_3tTnwucRTmfXsRhXtB_oY,5715
+VaaniNLP-0.0.5.dist-info/LICENSE.txt,sha256=H9jlRBfQZ10R2ohy1CGU4lC1TiQ6ItHpvl4cuhXF_h4,1110
+VaaniNLP-0.0.5.dist-info/METADATA,sha256=zJMQz9pzYxHIPb9wcvqA3t5WymFxN3Dqal2ExFuJAUM,658
+VaaniNLP-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+VaaniNLP-0.0.5.dist-info/top_level.txt,sha256=oirOz4J_5qdyXADi0Bd-GQKG4SisZe40Un4cpGuPEQ0,6
+VaaniNLP-0.0.5.dist-info/RECORD,,
