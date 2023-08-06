@@ -1,0 +1,9 @@
+stenocaptioner/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stenocaptioner/core.py,sha256=IJTS4qMXvdCd4e3l-8P-GUaooWONgE4p77v-s8yWhEQ,5589
+stenocaptioner/move_funcs.py,sha256=K15e0Cmb5yDqaOkcg3NIaBuUmI0bZmtkXoO7ot0ZB50,204
+stenocaptioner/utils.py,sha256=FTmjfTv0SbPXkS0SJqiRh08DOJzdc64HKiILHIOrzeU,1699
+stenocaptioner-0.2.0.dist-info/entry_points.txt,sha256=L0PkXUcN1VcCQrF2ZdlWAfX668PcJdVHZANIVv9JBlY,58
+stenocaptioner-0.2.0.dist-info/LICENSE,sha256=UqzHq51Ybjc8KHILPx_v6YO54Z-RNAedFw2OQ7KF9dc,1066
+stenocaptioner-0.2.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+stenocaptioner-0.2.0.dist-info/METADATA,sha256=_UGPA2oZRNlYumIv3dyN0bqcwiotsYo3ZsQBY6X-odc,1667
+stenocaptioner-0.2.0.dist-info/RECORD,,
