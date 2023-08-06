@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+nofakes/src/nofakes.py
+nofakes/src/nofakes.egg-info/PKG-INFO
+nofakes/src/nofakes.egg-info/SOURCES.txt
+nofakes/src/nofakes.egg-info/dependency_links.txt
+nofakes/src/nofakes.egg-info/top_level.txt

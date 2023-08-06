@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: nofakes
+Version: 0.0.1
+Summary: Algorithms and Protocols for Object Authnetication
+Home-page: https://github.com/monicarenas4/nofakes_project
+Author: Mónica Arenas; Gabriele Lenzini
+Author-email: monicarenas4@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Variables and functions are defined for running both phases: enrollment and authentication. The code can be run in parallel by changing the number of cores (`N_CORES`).
+
+
