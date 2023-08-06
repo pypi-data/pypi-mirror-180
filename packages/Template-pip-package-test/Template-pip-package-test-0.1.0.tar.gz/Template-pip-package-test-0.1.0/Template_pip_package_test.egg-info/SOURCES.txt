@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+setup.py
+Template_pip_package_test.egg-info/PKG-INFO
+Template_pip_package_test.egg-info/SOURCES.txt
+Template_pip_package_test.egg-info/dependency_links.txt
+Template_pip_package_test.egg-info/requires.txt
+Template_pip_package_test.egg-info/top_level.txt
+app/__init__.py
+app/templates/module_one/hello.html
