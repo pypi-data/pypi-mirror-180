@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "repoutil"
+version = "0.1.0"
+description = "A simple command line utility to write gitignores, licenses and workflow files to a project."
+authors = ["Shravan Asati <dev.shravan@protonmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://bitbucket.org/shravannn/repoutil"
+repository = "https://bitbucket.org/shravannn/repoutil"
+documentation = "https://bitbucket.org/shravannn/repoutil"
+keywords = ["python", "cli", "license", "gitignore", "workflow", "repository", "write"]
+classifiers = [
+	"Development Status :: 4 - Beta",
+	"Environment :: Console",
+	"Intended Audience :: Developers",
+	"Intended Audience :: System Administrators",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent",
+	"Topic :: Software Development :: Build Tools",
+	"Topic :: Utilities"
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+repo = "repoutil.main:main"
