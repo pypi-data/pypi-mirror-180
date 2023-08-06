@@ -1,0 +1,14 @@
+LICENCE
+README.md
+pyproject.toml
+setup.py
+src/fab_ad/constants.py
+src/fab_ad/fab_ad_diff.py
+src/fab_ad/fab_ad_math.py
+src/fab_ad/fab_ad_session.py
+src/fab_ad/fab_ad_tensor.py
+src/fab_ad.egg-info/PKG-INFO
+src/fab_ad.egg-info/SOURCES.txt
+src/fab_ad.egg-info/dependency_links.txt
+src/fab_ad.egg-info/requires.txt
+src/fab_ad.egg-info/top_level.txt
