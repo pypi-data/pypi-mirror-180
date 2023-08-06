@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: autodiff30
+Version: 0.0.4
+Summary: Implementation of Auto-differentiation within the Harvard University AC207 Systems Development graduate course.
+Author-email: Amar Lea <lea_amar@g.harvard.edu>, Akoun Jason <jasonakoun@g.harvard.edu>, Attias Elie <elieattias@g.harvard.edu>, Collier Sam <scollier1@g.harvard.edu>, Rozenberg Raphael <raphaelrozenberg@g.harvard.edu>
+Project-URL: Homepage, https://code.harvard.edu/CS107/team30
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# team30
+![test](https://code.harvard.edu/CS107/team30/actions/workflows/test.yml/badge.svg)
+![coverage](https://code.harvard.edu/CS107/team30/actions/workflows/coverage.yml/badge.svg)
+
+Project repo

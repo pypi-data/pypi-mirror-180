@@ -1,0 +1,15 @@
+LICENCE
+README.md
+pyproject.toml
+src/autodiff30/__init__.py
+src/autodiff30/ad.py
+src/autodiff30/dual.py
+src/autodiff30/functions.py
+src/autodiff30.egg-info/PKG-INFO
+src/autodiff30.egg-info/SOURCES.txt
+src/autodiff30.egg-info/dependency_links.txt
+src/autodiff30.egg-info/top_level.txt
+src/autodiff30/optimize/optimization.py
+src/examples/compute_gradient.py
+src/examples/how_to_use.py
+src/examples/optimize.py
