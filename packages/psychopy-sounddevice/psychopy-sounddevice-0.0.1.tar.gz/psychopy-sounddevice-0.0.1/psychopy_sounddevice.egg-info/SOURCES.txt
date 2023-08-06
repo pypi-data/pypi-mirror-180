@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+psychopy_sounddevice/__init__.py
+psychopy_sounddevice/backend_sounddevice.py
+psychopy_sounddevice.egg-info/PKG-INFO
+psychopy_sounddevice.egg-info/SOURCES.txt
+psychopy_sounddevice.egg-info/dependency_links.txt
+psychopy_sounddevice.egg-info/requires.txt
+psychopy_sounddevice.egg-info/top_level.txt
