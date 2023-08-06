@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: neoteroi-web
+Version: 0.0.1
+Summary: Placeholder for neoteroi.web namespace.
+Project-URL: Homepage, https://github.com/Neoteroi/
+Project-URL: Bug Tracker, https://github.com/Neoteroi/
+Author-email: Roberto Prevato <roberto.prevato@gmail.com>
+License-File: LICENSE
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Neoteroi Auth
+Placeholder project to rename `guardpost` to `neoteroi-auth` and adopt PEP 420.
