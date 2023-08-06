@@ -1,0 +1,9 @@
+ukis_csmask/__init__.py,sha256=GhTYFGQ77wbJM35lScp2XZKYnkNHTrdYozPoCZiCVSM,23
+ukis_csmask/mask.py,sha256=dOpX64M99U8fek3MhkW7SATny_n850kO6U4fPxt2MEo,5689
+ukis_csmask/model.onnx,sha256=q9MwKOnpIYUid4u8vGJxd8ZFH3lZicgkFPN6229nOmY,31107029
+ukis_csmask/utils.py,sha256=0iLzhHRRCNzP0VrG62pbgsQTGHrPspUh3B9Dt9q7eG0,11603
+ukis_csmask-0.1.7.dist-info/LICENSE,sha256=JDcr69HbNEkUAY2V3kjtYH9yJfkn6vkjN-4r_6Tf1Eg,11438
+ukis_csmask-0.1.7.dist-info/METADATA,sha256=i6qSi8TsJlDOa3Ix1NKD7rnFAJNO7ZDkE-7emsK9Mfk,7889
+ukis_csmask-0.1.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ukis_csmask-0.1.7.dist-info/top_level.txt,sha256=trynehChG98ys9AJ1lbhbYADeA0hr3TIEcAYofzsGt4,12
+ukis_csmask-0.1.7.dist-info/RECORD,,
