@@ -1,0 +1,7 @@
+csms/__init__.py,sha256=yyk-sRuAR1l6axHPNt4e28i8Lhr3xDIcYKa0bRdeO2g,98
+csms/functions.py,sha256=O1YbOrWpbDruJEgQnO2OUWICEaP252pRiSzgbIkiT64,425
+csms/services.py,sha256=Fi8ozJG5w8n_3tG0QUA1qUF8zxQFGPLBrr5hQeEwH_o,1385
+huaweicloud_csms_environ-0.1.1.dist-info/LICENSE,sha256=ME7YHoo7QcJZPnggA2luIzlZ70IbPldKPFShZ53K6ug,1063
+huaweicloud_csms_environ-0.1.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+huaweicloud_csms_environ-0.1.1.dist-info/METADATA,sha256=ZOmfem46-MG_t8HaRGWO_kI9ov6_PSqLHumSmyWj1zI,2848
+huaweicloud_csms_environ-0.1.1.dist-info/RECORD,,
