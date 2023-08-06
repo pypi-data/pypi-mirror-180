@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+convert_api_Tigromag/__init__.py
+convert_api_Tigromag/convert_file.py
+convert_api_Tigromag.egg-info/PKG-INFO
+convert_api_Tigromag.egg-info/SOURCES.txt
+convert_api_Tigromag.egg-info/dependency_links.txt
+convert_api_Tigromag.egg-info/requires.txt
+convert_api_Tigromag.egg-info/top_level.txt
