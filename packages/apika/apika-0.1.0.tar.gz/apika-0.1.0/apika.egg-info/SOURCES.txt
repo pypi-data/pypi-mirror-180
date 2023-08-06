@@ -1,0 +1,7 @@
+setup.py
+apika/__init__.py
+apika/core.py
+apika.egg-info/PKG-INFO
+apika.egg-info/SOURCES.txt
+apika.egg-info/dependency_links.txt
+apika.egg-info/top_level.txt
