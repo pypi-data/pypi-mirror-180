@@ -1,0 +1,5 @@
+wkhtmltopydf/__init__.py,sha256=nYaTMdCEpG1TDEw6VYnqhov-fI-o6G2QQQhvVwykLZw,1533
+wkhtmltopydf/test.txt,sha256=n4bQgYhMfWWaL-qgxVrQFaO_TxsrC4Is0V1sFbDwCgg,4
+wkhtmltopydf-0.1.16.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+wkhtmltopydf-0.1.16.dist-info/METADATA,sha256=0Q8XKlYAITVgYEOVuvxI65FCS_wYt_PN7bm52SFJhmM,537
+wkhtmltopydf-0.1.16.dist-info/RECORD,,
