@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+plot.py
+setup.py
+scientific_data_plotter.egg-info/PKG-INFO
+scientific_data_plotter.egg-info/SOURCES.txt
+scientific_data_plotter.egg-info/dependency_links.txt
+scientific_data_plotter.egg-info/requires.txt
+scientific_data_plotter.egg-info/top_level.txt
