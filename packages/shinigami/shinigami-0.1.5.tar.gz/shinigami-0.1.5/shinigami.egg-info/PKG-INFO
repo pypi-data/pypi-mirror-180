@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: shinigami
+Version: 0.1.5
+Summary: Shinigami is an open source package allowing the user to generate and build Dockerfiles during runtime
+Home-page: https://github.com/stience/shinigami
+Author: Hifumi1337
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Shinigami
+
+Shinigami is an open source Python module allowing the user to generate and build a Dockerfile during runtime.
+
+## Usage
+
+You can install Shinigami via `pip`:
+```bash
+pip install shinigami
+```
+
+Shinigami was created to be simplistic and maintainable. This means we've created a simple class called `Shinigami`, which can be called anywhere in your application. From here, you can call the `generate_dockerfile()` function. This allows the flexibility to only require a single call in your application, but multiple file generations.
+
+### Quick Example
+```python
+from shinigami.shinigami import Shinigami
+
+def create_file():
+    Shinigami(lang_os="python", version="3.9", build=True).generate_dockerfile()
+
+if __name__ == '__main__':
+    create_file()
+```
+
+There are currently 3 seperate parameters you can choose from:
+
+- `lang_os` (`str`)   - The language or operating system you should like to pull from Docker Hub (Example: `ubuntu`)
+- `version` (`str`)   - The version of the language or operating system (Example: `22.04`)
+- `build`   (`bool`)  - This allows you to choose if you would like to build the Docker container or just pull the Dockerfile without building
