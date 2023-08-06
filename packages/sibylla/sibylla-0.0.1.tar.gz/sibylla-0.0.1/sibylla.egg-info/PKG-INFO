@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: sibylla
+Version: 0.0.1
+Summary: A Jax package for Gradient Descent Image Reconstruction
+Home-page: https://github.com/benjaminpope/sibylla
+Author: Benjamin Pope
+Author-email: b.pope@uq.edu.au
+Project-URL: Bug Tracker, https://github.com/benjaminpopepy/sibylla/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+A Jax package for Gradient Descent Image Reconstruction
