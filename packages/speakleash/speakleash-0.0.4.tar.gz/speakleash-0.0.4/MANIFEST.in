@@ -1,0 +1,2 @@
+include speakleash/*.py
+include speakleash/*.pyc
