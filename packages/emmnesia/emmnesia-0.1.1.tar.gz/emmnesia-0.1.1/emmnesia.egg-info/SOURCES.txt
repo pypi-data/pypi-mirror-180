@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+emmnesia/EMM.py
+emmnesia/__init__.py
+emmnesia/definitions.py
+emmnesia/pandas_utils.py
+emmnesia/utils.py
+emmnesia.egg-info/PKG-INFO
+emmnesia.egg-info/SOURCES.txt
+emmnesia.egg-info/dependency_links.txt
+emmnesia.egg-info/requires.txt
+emmnesia.egg-info/top_level.txt
+tests/__init__.py
+tests/test_queues.py
