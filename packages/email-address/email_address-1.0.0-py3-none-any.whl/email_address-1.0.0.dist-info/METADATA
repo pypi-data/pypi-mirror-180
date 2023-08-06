@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: email-address
+Version: 1.0.0
+Summary: Email address utility class
+Author-email: Peter Linss <peter@linss.com>
+License: GNU Lesser General Public License v3
+Project-URL: homepage, https://gitlab.linss.com/open-source/python/email-address
+Keywords: mail,email
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: idna (<4.0,>=3.2)
+Requires-Dist: netaddr (<2.0.0,>=0.8.0)
+Provides-Extra: dev
+Requires-Dist: types-PyYAML ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: flake8-annotations ; extra == 'dev'
+Requires-Dist: flake8-bandit ; extra == 'dev'
+Requires-Dist: flake8-bugbear ; extra == 'dev'
+Requires-Dist: flake8-commas ; extra == 'dev'
+Requires-Dist: flake8-comprehensions ; extra == 'dev'
+Requires-Dist: flake8-continuation ; extra == 'dev'
+Requires-Dist: flake8-datetimez ; extra == 'dev'
+Requires-Dist: flake8-docstrings ; extra == 'dev'
+Requires-Dist: flake8-import-order ; extra == 'dev'
+Requires-Dist: flake8-literal ; extra == 'dev'
+Requires-Dist: flake8-modern-annotations ; extra == 'dev'
+Requires-Dist: flake8-noqa ; extra == 'dev'
+Requires-Dist: flake8-pyproject ; extra == 'dev'
+Requires-Dist: flake8-requirements ; extra == 'dev'
+Requires-Dist: flake8-typechecking-import ; extra == 'dev'
+Requires-Dist: flake8-use-fstring ; extra == 'dev'
+Requires-Dist: pep8-naming ; extra == 'dev'
+
+# email-address
+
+Class for parsing and handling email addresses.
