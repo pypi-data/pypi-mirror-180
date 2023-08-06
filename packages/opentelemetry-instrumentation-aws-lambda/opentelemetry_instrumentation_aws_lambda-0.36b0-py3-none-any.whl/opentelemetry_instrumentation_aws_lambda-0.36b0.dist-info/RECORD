@@ -1,0 +1,7 @@
+opentelemetry/instrumentation/aws_lambda/__init__.py,sha256=cuU1k_Fr37UL_AQrzIWhSLCmvmF6fIC2qa8CHCFeQyk,15918
+opentelemetry/instrumentation/aws_lambda/package.py,sha256=6OiaAJOKS-XH9e-QAAkj7AyOTw-6bTetTuXhavCCkQ0,609
+opentelemetry/instrumentation/aws_lambda/version.py,sha256=L1GyyH9aX4auAX7oREcQi0ZYu_Pv_dkqR3WiACtblqQ,608
+opentelemetry_instrumentation_aws_lambda-0.36b0.dist-info/METADATA,sha256=O2OXIb7XSXrmcUm1g32V1AgwHd33g5Yp5fJuf-fIpU0,2256
+opentelemetry_instrumentation_aws_lambda-0.36b0.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+opentelemetry_instrumentation_aws_lambda-0.36b0.dist-info/licenses/LICENSE,sha256=h8jwqxShIeVkc8vOo9ynxGYW16f4fVPxLhZKZs0H5U8,11350
+opentelemetry_instrumentation_aws_lambda-0.36b0.dist-info/RECORD,,
