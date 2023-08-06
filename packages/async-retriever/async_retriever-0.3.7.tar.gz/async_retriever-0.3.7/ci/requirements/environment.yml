@@ -1,0 +1,17 @@
+name: async-retriever-tests
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - aiodns
+  - aiohttp >=3.8.1
+  - aiohttp-client-cache >=0.7.3
+  - aiosqlite
+  - brotli
+  - cytoolz
+  - nest-asyncio
+  - ujson
+
+  - pytest-cov
+  - pytest-xdist
+  - psutil
