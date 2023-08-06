@@ -1,0 +1,6 @@
+dicomdeidentifier/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dicomdeidentifier/deidentify_dicom.py,sha256=BIvkJiyBWLNhbs4PPMRSPO19QyfrEy83fkz6v-8w-jo,7401
+dicomdeidentifier/rule_sets.py,sha256=_2cP4UbiUO271bYA1fdr8Qo5wJM79_EV1yiZd5vPR8A,40169
+dicomdeidentifier-0.2.4.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+dicomdeidentifier-0.2.4.dist-info/METADATA,sha256=rW5gqie1xK6biV8ptjr1NwvmbjgiFiGiy1E1maMEa7s,564
+dicomdeidentifier-0.2.4.dist-info/RECORD,,
