@@ -1,0 +1,10 @@
+diffdomain/__init__.py,sha256=daEdpEyAJIa8b2VkCqSKcw8PaExcB6Qro80XNes_sHA,2
+diffdomain/classification.py,sha256=Yib22zHfvuvSG5JUKwVizuMPac9TUbzNs-SVOmq4sXo,12969
+diffdomain/diffdomains.py,sha256=cSllmGfLDXvpTX-qzUTDbwMRzXmp9PNsrUCgZRiNuc8,5584
+diffdomain/pydiff.py,sha256=sIAt4UNNsFX4i0Yws3BXUnFBrNOPNwiUEXhmYoNXM2w,19660
+diffdomain/utils.py,sha256=6hGgUHQ43GhpdVeCTxAYEXva2vF-QC5Zco1z_gjNpls,9687
+DiffDomain-0.0.8.dist-info/LICENSE,sha256=x5C_Lf1X8_GksNCTjnXbxdYkwKD5YfzDfRFaaWMzfX0,1068
+DiffDomain-0.0.8.dist-info/METADATA,sha256=R5l6NJSjiwBZgExUSsVJk2rLv9SBK8yUXkk8_Dv6m2E,9835
+DiffDomain-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+DiffDomain-0.0.8.dist-info/top_level.txt,sha256=1XOY0-lgNB6qObwNh3VbZtzvhh2dd_2nBBt4SjCWkmM,11
+DiffDomain-0.0.8.dist-info/RECORD,,
