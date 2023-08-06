@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ZefroinLibrary
+Version: 0.0.3
+Summary: Tools for Zefroin
+Home-page: UNKNOWN
+Author: AzureianGH
+Author-email: azureiangh@gmail.com
+License: UNKNOWN
+Keywords: python,Zefroin,zss,zefroin,zf,zef,azureian
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+Tools for Zefroin that are used throughout the project. CHANGELOG: Added new defs for ZefroinLib
+
+
