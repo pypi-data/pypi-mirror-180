@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: pyraphtory
+Version: 0.1.2
+Summary: Raphtory - Temporal Graph Analytics Platform. This is the Python version of the library.
+Home-page: https://raphtory.com/
+License: Apache-2.0
+Keywords: raphtory,pyraphtory,graph,analytics,temporal
+Author: Fabian Murariu
+Author-email: admin@pometry.com
+Maintainer: Pometry
+Maintainer-email: admin@pometry.com
+Requires-Python: >=3.9.13,<3.11
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Topic :: Utilities
+Requires-Dist: cloudpickle (>=0.4)
+Requires-Dist: jpype1 (>=1.4.1)
+Requires-Dist: pandas (>=1.4.3)
+Requires-Dist: parsy (>=2.0,<3)
+Requires-Dist: pemja (>=0.2.6)
+Requires-Dist: py4j (>=0.10,<0.11)
+Requires-Dist: pyraphtory_jvm (>=0.2.0a9)
+Requires-Dist: requests (>=2.28.1,<3.0.0)
+Project-URL: Documentation, https://docs.raphtory.com/
+Project-URL: Repository, https://github.com/rahptory/raphtory
+Description-Content-Type: text/markdown
+
+# Getting started with `pyraphtory`
+
+Build and install instructions can be found on the [docs](https://docs.raphtory.com/)
+
+## Links
+
+- PyPi https://pypi.org/project/pyraphtory/
+- Github https://github.com/Raphtory/Raphtory/
+- Website https://raphtory.github.io/
+- Slack https://raphtory.slack.com
+- Documentation https://raphtory.readthedocs.io/
+- Bug reports/Feature request https://github.com/raphtory/raphtory/issues
