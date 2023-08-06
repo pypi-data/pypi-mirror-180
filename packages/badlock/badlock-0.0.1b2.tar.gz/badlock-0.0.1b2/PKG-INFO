@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: badlock
+Version: 0.0.1b2
+Summary: Badlock
+Author: TheWever (Wever#3255)
+Author-email: <nonarrator@gmail.com>
+Keywords: mouse lock,hack,break pc,destroy pc,troll
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+This package will simply fuck with your pc...
