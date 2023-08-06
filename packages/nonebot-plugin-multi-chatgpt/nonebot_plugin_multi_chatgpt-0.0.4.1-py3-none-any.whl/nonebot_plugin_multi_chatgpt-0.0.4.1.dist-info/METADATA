@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-multi-chatgpt
+Version: 0.0.4.1
+Summary: nonebot_plugin_multi_chatgpt
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: nonebot-plugin-apscheduler
+Requires-Dist: revChatGPT
+
+UNKNOWN
+
