@@ -1,0 +1,15 @@
+fun2py/IO.py,sha256=Pmp0y8s3rWcqFwuoPKY03l32sANow5IpGfDFrkDLLwc,192
+fun2py/__init__.py,sha256=n0Y2E6M8Rt41mKPE4HPRh8LGKkfrQxCllEYMxAp9tmE,37
+fun2py/interface.py,sha256=_B0YBQMuvzRhjhOiVHt8lmbuSBr_Ug-t-aYX6gsuqDA,543
+fun2py/type.py,sha256=cNTqOTh984aLiqtCSkNw0ztyO98O-4CFqL3dQQkOBeg,3408
+fun2py/utils.py,sha256=lqWNfNy5UuLotFZQe5Jv2Bh0RIz5-2xlAaN-vPT1P_E,143
+pyfp/IO.py,sha256=Pmp0y8s3rWcqFwuoPKY03l32sANow5IpGfDFrkDLLwc,192
+pyfp/__init__.py,sha256=n0Y2E6M8Rt41mKPE4HPRh8LGKkfrQxCllEYMxAp9tmE,37
+pyfp/interface.py,sha256=_B0YBQMuvzRhjhOiVHt8lmbuSBr_Ug-t-aYX6gsuqDA,543
+pyfp/type.py,sha256=cNTqOTh984aLiqtCSkNw0ztyO98O-4CFqL3dQQkOBeg,3408
+pyfp/utils.py,sha256=lqWNfNy5UuLotFZQe5Jv2Bh0RIz5-2xlAaN-vPT1P_E,143
+fun2py-0.0.2.dist-info/LICENSE,sha256=PUwJjjIWkBYcj8ro77-XgS6lq1WLHtdQduwrh8SOqy0,1087
+fun2py-0.0.2.dist-info/METADATA,sha256=sGlc_ctW98V-ax8oF7tYrArsLySuJFj2kVvwvwsxz64,431
+fun2py-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+fun2py-0.0.2.dist-info/top_level.txt,sha256=El-gJDGtNs85zjmXytlRNk-YXCVOq6tFts7ThiP39Mw,7
+fun2py-0.0.2.dist-info/RECORD,,
