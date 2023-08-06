@@ -1,0 +1,10 @@
+ledgercli/__init__.py,sha256=Otis8GVYEPi5bPTY0KEEtkKGjbQYhaPxCtkBHXAy7Ok,18
+ledgercli/bankinterface.py,sha256=UFqPnVa-qihDHJ8M8Ji00WXttkI0xAEXIZuuy1f4hoY,4612
+ledgercli/cli.py,sha256=ILDHuSJeZUSF6YRevDpCSaz9edRdBF6A_fFlIKixB4Y,1471
+ledgercli/main.py,sha256=vzYUrGgcOpPXtIulOTRNguTksrYwE_9kqat5dn_Cd2E,9816
+ledgercli/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ledger_cli-0.1.1.dist-info/entry_points.txt,sha256=xeXLfHqOz4DVpyq9NydTsJLNUWxczxfiyLxVk3bbLYA,47
+ledger_cli-0.1.1.dist-info/LICENSE,sha256=XIMW4JWCjyaTuR2bSmxcNhWLui27uMimj8PCW609JcA,1071
+ledger_cli-0.1.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+ledger_cli-0.1.1.dist-info/METADATA,sha256=om0Xv3ac3ZNuLn3Am9ZrBWNflMa3xu2162Q1jjzz7Hg,3546
+ledger_cli-0.1.1.dist-info/RECORD,,
