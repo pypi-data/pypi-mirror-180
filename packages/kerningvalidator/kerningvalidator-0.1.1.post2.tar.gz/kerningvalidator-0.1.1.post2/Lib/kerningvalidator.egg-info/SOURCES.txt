@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+Lib/kerningvalidator/__init__.py
+Lib/kerningvalidator/cli.py
+Lib/kerningvalidator/source.py
+Lib/kerningvalidator.egg-info/PKG-INFO
+Lib/kerningvalidator.egg-info/SOURCES.txt
+Lib/kerningvalidator.egg-info/dependency_links.txt
+Lib/kerningvalidator.egg-info/entry_points.txt
+Lib/kerningvalidator.egg-info/requires.txt
+Lib/kerningvalidator.egg-info/top_level.txt
