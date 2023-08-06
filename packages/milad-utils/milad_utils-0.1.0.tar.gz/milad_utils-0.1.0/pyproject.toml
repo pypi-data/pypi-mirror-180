@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "milad-utils"
+version = "0.1.0"
+description = ""
+authors = ["Milad Alizadeh <milad@cohere.com>"]
+readme = "README.md"
+packages = [{include = "milad_utils"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
