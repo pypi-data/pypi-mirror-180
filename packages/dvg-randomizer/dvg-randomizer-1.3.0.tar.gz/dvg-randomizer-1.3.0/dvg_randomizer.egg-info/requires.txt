@@ -1,0 +1,17 @@
+appdirs
+cmd2
+colorlog
+contextlib
+csv
+datetime
+fpdf
+logging
+os.path
+pathlib
+random
+sys
+tkinter
+tkinter.font
+tkinter.ttk
+types
+yaml
