@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: qfly
+Version: 0.2
+Summary: Qualisys Drone SDK
+Home-page: https://github.com/qualisys/qualisys_drone_sdk
+Author: Mehmet Aydin Baytas c/o Qualisys AB
+Author-email: support@qualisys.com
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
+License-File: license
