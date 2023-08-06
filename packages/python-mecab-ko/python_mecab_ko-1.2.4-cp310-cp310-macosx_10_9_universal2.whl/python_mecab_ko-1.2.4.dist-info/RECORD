@@ -1,0 +1,11 @@
+_mecab.cpython-310-darwin.so,sha256=wIa8hMSA1N8aMjDjYbHHaoUu46QJ54eFhWeX1Kl9Nxg,1019072
+python_mecab_ko-1.2.4.data/data/scripts/install-mecab-ko.py,sha256=q7PXF85Gv-33HC3118wrLyXHgDKSN6ooixKtrysOj8s,3207
+python_mecab_ko-1.2.4.dist-info/RECORD,,
+python_mecab_ko-1.2.4.dist-info/LICENSE,sha256=2nSpg-6mORA7XxTcEp1DzHM4vtjYHfcDUHMCGQr8qlE,1476
+python_mecab_ko-1.2.4.dist-info/WHEEL,sha256=DyGia2S6qP_FD4mwU9COmmXmXHC-xHTstdLzZxR3BQs,115
+python_mecab_ko-1.2.4.dist-info/top_level.txt,sha256=Lf8XT2zNJYT5il6pTUd9pbfHEiuUp-0mQUBnr3UIFec,13
+python_mecab_ko-1.2.4.dist-info/METADATA,sha256=A7BCM7HkOs8RmFrAUImZvDuooF8DGyAAg34tp8I-Mh0,2747
+mecab/mecabrc,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mecab/mecab.py,sha256=eK15JrXzJDNIxUzXDwUI5tZAOMAeVx19cxWhAt4d3QQ,2917
+mecab/__init__.py,sha256=CFMBb98bRmy9aR_Zv1fI8TXi3HCL9J_HuJuWB3BJAlw,54
+mecab/.dylibs/libmecab.2.dylib,sha256=dBFZ9gE2nv7nUtNR11U2CThtEWa6iFmew1FjhpYOVk4,1173424
