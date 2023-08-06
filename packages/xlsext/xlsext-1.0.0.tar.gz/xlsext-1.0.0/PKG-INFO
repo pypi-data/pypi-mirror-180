@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: xlsext
+Version: 1.0.0
+Summary: Excel Extensions
+Home-page: https://github.com/Brightcells/xlsext
+Author: Hackathon
+Author-email: kimi.huang@brightcells.com
+Keywords: Excel Extensions
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.5
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+
+# xlsext
+Excel Extensions
+
+## Installation
+
+    pip install xlsext

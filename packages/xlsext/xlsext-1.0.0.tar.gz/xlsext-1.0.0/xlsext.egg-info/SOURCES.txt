@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+xlsext/__init__.py
+xlsext/extensions.py
+xlsext.egg-info/PKG-INFO
+xlsext.egg-info/SOURCES.txt
+xlsext.egg-info/dependency_links.txt
+xlsext.egg-info/requires.txt
+xlsext.egg-info/top_level.txt
