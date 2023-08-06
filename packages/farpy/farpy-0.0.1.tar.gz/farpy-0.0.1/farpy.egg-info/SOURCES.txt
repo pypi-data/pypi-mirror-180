@@ -1,0 +1,10 @@
+LICENSE
+pyproject.toml
+farpy/__init__.py
+farpy/app.py
+farpy.egg-info/PKG-INFO
+farpy.egg-info/SOURCES.txt
+farpy.egg-info/dependency_links.txt
+farpy.egg-info/entry_points.txt
+farpy.egg-info/requires.txt
+farpy.egg-info/top_level.txt
