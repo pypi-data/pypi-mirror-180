@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "Adifpy"
+version = "0.0.3"
+authors = [
+  { name="Aaron Berger", email="aaronberger@college.harvard.edu" },
+  { name="Alex Tonelli", email="atonelli@college.harvard.edu" },
+  { name="Eli Kirtley", email="elikirtley@college.harvard.edu" },
+  { name="Jack Tian", email="jtian@college.harvard.eduu" },
+  { name="Ream Gebrekidan", email="rgebrekidan@college.harvard.edu" },
+]
+dependencies = [
+  "matplotlib ~= 3.6.1",
+  "numpy ~= 1.23.4"
+]
+description = "Perform automatic differentiation"
+readme = "docs/documentation.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+[tool.pytest.ini_options]
+python_files = "test_*.py"
+testpaths = "Adifpy/test/"
+
+[project.urls]
+"Homepage" = "https://code.harvard.edu/CS107/team33"
