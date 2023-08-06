@@ -1,0 +1,12 @@
+esnpy/__init__.py,sha256=33fee7VJv5eWCgsIz4cvVEXHWV8jn2v6mEm0zNRLj8c,152
+esnpy/esn.py,sha256=08UfNcA3e4Aea0z7CutyjJpVeXdtHj7e05ROQgMRqfw,2680
+esnpy/init.py,sha256=cEj-LIGk9fcN3GTPBXcBflPZ8X1LLXUkFWGctUR-WNk,1963
+esnpy/reservoir.py,sha256=WtvEU3mwHZJkoD66WfrB5xIwUnNVOaeVPMJoVFWepq8,1751
+esnpy/train.py,sha256=l_Q3MBzKWoWRRijr94W39F071J-nwS7ZfnZBF9oDgSU,1265
+esnpy/tune.py,sha256=C0yvL0IM7tJPtm-RKp-sdmz9WvRHkkc4o8-xigjr7vQ,703
+esnpy/type.py,sha256=CeJwqR7MEdVulyN9tyvtCix-tBc4LThduhg_LYFwjiY,164
+esnpy-0.2.1.dist-info/LICENSE,sha256=KlDVuF33mgrYRGcLHJP7u_otJD4jEJqwTDsnOVDvoyk,1068
+esnpy-0.2.1.dist-info/METADATA,sha256=76o81UE-gfWTIa_03KxAroNeig4j9hRnDyj9RDn-dRU,7375
+esnpy-0.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+esnpy-0.2.1.dist-info/top_level.txt,sha256=y2q3zglrh5AXh0EBdSoakTLLCOK1Gu7_kjOXcF5gyOU,6
+esnpy-0.2.1.dist-info/RECORD,,
