@@ -1,0 +1,5 @@
+httpx
+loguru
+pydantic
+file-io
+backoff
