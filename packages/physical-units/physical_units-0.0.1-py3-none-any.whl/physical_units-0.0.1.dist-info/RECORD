@@ -1,0 +1,7 @@
+physical_units/__init__.py,sha256=c3QJ6thg7WoFH2Wn87L8979I_XVLWnQfUIOH3pOKBa0,50
+physical_units/base.py,sha256=Kw_fhs2-4fxpQ6uv1b2gRvEscTiWoOT7Juwv005i0Kw,304
+physical_units/const.py,sha256=XedX9R7aYR-wudh46ddOKcYPW-yA-Qx1sEhpLzjPruY,148
+physical_units/time.py,sha256=YrdBcLaTPwE3U97rhl0yTFapv-eCfNHY7k9zKJkVYKM,558
+physical_units-0.0.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+physical_units-0.0.1.dist-info/METADATA,sha256=pY-onO1e1CA24TUEc4bxcc3mLvbgaEnnHrVPs_CZvGo,549
+physical_units-0.0.1.dist-info/RECORD,,

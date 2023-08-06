@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: physical-units
+Version: 0.0.1
+Summary: Представление физ. единиц как объектов в python
+Home-page: https://github.com/Konstantin-Dudersky/python-physical-units
+Author: konstantin-dudersky
+Author-email: konstantin.dudersky@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/Konstantin-Dudersky/python-physical-units
+Description-Content-Type: text/markdown
+
+
