@@ -1,0 +1,2 @@
+[psychopy.experiment.components]
+QmixPumpComponent = psychopy_qmix:QmixPumpComponent
