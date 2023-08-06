@@ -1,0 +1,3 @@
+[console_scripts]
+clitools=clitools.cli:clitools
+
