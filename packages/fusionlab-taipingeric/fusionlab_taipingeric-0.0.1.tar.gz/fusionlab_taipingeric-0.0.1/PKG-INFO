@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fusionlab_taipingeric
+Version: 0.0.1
+Summary: A small example package
+Project-URL: Homepage, https://github.com/taipingeric/fusionlab
+Project-URL: Bug Tracker, https://github.com/taipingeric/fusionlab/issues
+Author-email: Chih-Yang Li <taipingeric@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# FusionLab
+useful library
