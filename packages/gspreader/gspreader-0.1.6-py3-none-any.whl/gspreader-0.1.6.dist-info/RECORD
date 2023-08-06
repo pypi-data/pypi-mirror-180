@@ -1,0 +1,7 @@
+gspreader/__init__.py,sha256=XCKo1dpUcvmR3M147pMjhVkg7vs_E4NLr04WibdyWGY,47
+gspreader/__main__.py,sha256=2RHHvjb-4PdIcLlPwtg0y3EcZN0SFaUfVkc1qiT2FsM,158
+gspreader/config.py,sha256=YafFv4qLLLGifoUZOGGSmPXHDmJDdLjUjMdzkyg_jQ0,163
+gspreader/gspreader.py,sha256=rxukZGwibaiVLVYhoRO44t4onAXiWEKJvCqjY3nOqv4,7266
+gspreader-0.1.6.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+gspreader-0.1.6.dist-info/METADATA,sha256=dacmFLQF5CcvZOYnj-u-CiqnA1jq3pW1UbabcW-qXR8,549
+gspreader-0.1.6.dist-info/RECORD,,
