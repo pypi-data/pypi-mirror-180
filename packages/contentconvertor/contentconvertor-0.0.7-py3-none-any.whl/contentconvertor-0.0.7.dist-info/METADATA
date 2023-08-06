@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: contentconvertor
+Version: 0.0.7
+Summary: Converts content from Twitter to a png image that can be uploaded to Instagram
+Author-email: Léo Leducq <iziatask@gmail.com>
+Project-URL: GitHub, https://github.com/leoleducq/Content-Convertor
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: French
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
