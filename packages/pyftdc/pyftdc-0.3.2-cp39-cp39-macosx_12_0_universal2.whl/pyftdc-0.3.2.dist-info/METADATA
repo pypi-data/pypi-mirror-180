@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyftdc
+Version: 0.3.2
+Summary: A parser for MongoDB FTDC files, with Python bindings.
+Home-page: UNKNOWN
+Author: Jorge Imperial
+Author-email: jorgeluis.imperial@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: pytest (>=6.0) ; extra == 'test'
+
+UNKNOWN
+
