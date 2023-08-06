@@ -1,0 +1,16 @@
+diplib/DIP.dll,sha256=Mzqx7z-lD6SxPqX3PmLzvp2BvXmplSLyh9QlOh0TsVI,10407424
+diplib/DIPjavaio.dll,sha256=0z28NVGfOAPe9vka6hSBh_1t9e_lKmq-dI7thYXGr7A,57856
+diplib/DIPjavaio.jar,sha256=qJAPNOBqM8c6yyGKfdQFNqZMhNp3mWja38Of8NFqqZo,5543
+diplib/DIPviewer.dll,sha256=tLZmaLtAe4HZOEbKFenEXc2X-ABgRhmM69eOyLCRtG0,473088
+diplib/PyDIP_bin.cp38-win_amd64.pyd,sha256=BqSAHNLhb6Kjqjx6QJnwRsXP2KSmx51d5GQPaFqOF7k,2621952
+diplib/PyDIP_py.py,sha256=Fs5wUNsBb-shp-bcr9tStyqeeq3wm4c2xHfgiPD1LMA,10348
+diplib/PyDIPjavaio.cp38-win_amd64.pyd,sha256=qTzAVnISrNfZs7H0riZ6N1tDCA8TTYQeJW6W2-z26SY,174080
+diplib/PyDIPviewer.cp38-win_amd64.pyd,sha256=gWtSDXU1kJg73v48a9IS_JoifD3ijorrODCrpEYgkyk,223232
+diplib/__init__.py,sha256=DQPzSTEfuDvdfwMQAA411o5BMo7BDwYm13YvjxNXPXw,7392
+diplib/__main__.py,sha256=ROhifNbga6cXaA4thYA2rMN4idYj5qRnLytrcCBpEXQ,1226
+diplib/loadjvm.py,sha256=F11y1vGYO5cDJnCC60Hps2Tgp4jc71boGdx-4XUtohU,5477
+diplib-3.4.0.dist-info/LICENSE.txt,sha256=Pd-b5cKP4n2tFDpdx27qJSIq0d1ok0oEcGTlbtL6QMU,11560
+diplib-3.4.0.dist-info/METADATA,sha256=tL2BifzPfE6IuQRIXFDTSPV673Pj5edSh5ueIDx9Q6Q,5720
+diplib-3.4.0.dist-info/WHEEL,sha256=b_PH-i_F2xFYDXcROE5vpDbWUcY020I0eLFvEIYA9Pc,100
+diplib-3.4.0.dist-info/top_level.txt,sha256=wRg2iwbFeXJeGBOVOOYBd4M8xTROslPmrDqoT25I57I,7
+diplib-3.4.0.dist-info/RECORD,,
