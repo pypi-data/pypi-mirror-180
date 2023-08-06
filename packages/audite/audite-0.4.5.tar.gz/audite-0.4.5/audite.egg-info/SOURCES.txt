@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+audite/__init__.py
+audite/__main__.py
+audite/auditor.py
+audite.egg-info/PKG-INFO
+audite.egg-info/SOURCES.txt
+audite.egg-info/dependency_links.txt
+audite.egg-info/entry_points.txt
+audite.egg-info/top_level.txt
