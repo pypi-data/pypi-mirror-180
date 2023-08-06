@@ -1,0 +1,2 @@
+[console_scripts]
+weather = src.cli:start
