@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: quayside
+Version: 0.1a1
+Home-page: https://github.com/weddige/quayside
+Author: Konstantin Weddige
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Topic :: Utilities
+License-File: LICENCE.md
+Requires-Dist: docker
+Requires-Dist: pyyaml
+

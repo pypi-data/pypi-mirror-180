@@ -1,0 +1,10 @@
+quayside/__init__.py,sha256=6dGYZpNijY9MACh-rQrFO3vSYDdFMEdOtyGWriE--BQ,379
+quayside/__main__.py,sha256=vbE-Jp3Rg-rd0uw7qgT_C3H63h69u_qYeA_41Txt7Xc,1285
+quayside/app.py,sha256=OWCmppQ6tJOtqYHj8tCOqkhru4ZMHjty7YE8clzRPIs,2025
+quayside/cli.py,sha256=L28uDZEyVxZGVs6lS5_66lfe5VWKQTNLvmjpIiGg0Ao,491
+quayside-0.1a1.dist-info/LICENCE.md,sha256=QuCA5qrlypacK5bExt6sAdyMG6pB0iffgPF71XMJc_U,1081
+quayside-0.1a1.dist-info/METADATA,sha256=5wqjwXWL8NHxRz4w0CmhW_9eVnUkdDg-TkWvVVO73to,378
+quayside-0.1a1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+quayside-0.1a1.dist-info/entry_points.txt,sha256=Z50Ju5GIOOU5Rg4KMTWOlXOiUeorTN6-K6mUWYjxJKQ,52
+quayside-0.1a1.dist-info/top_level.txt,sha256=QNhup7NEhmv5_PAlc_bKmcxOJ9VpdVoZp4hu0_I3Rmk,9
+quayside-0.1a1.dist-info/RECORD,,
