@@ -1,0 +1,8 @@
+LICENCE.txt
+README.txt
+setup.py
+list_functions/__init__.py
+listfunctions_1.egg-info/PKG-INFO
+listfunctions_1.egg-info/SOURCES.txt
+listfunctions_1.egg-info/dependency_links.txt
+listfunctions_1.egg-info/top_level.txt

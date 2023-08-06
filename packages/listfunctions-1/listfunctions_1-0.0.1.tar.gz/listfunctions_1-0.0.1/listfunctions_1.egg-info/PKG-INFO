@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: listfunctions-1
+Version: 0.0.1
+Summary: Functions to perform some basic list releated tasks
+Home-page: 
+Author: Siddhant Gupta
+Author-email: 
+License: MIT
+Keywords: list_functions
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+This pythonon programme was purely made buy the owner for the purpose of learning about the process of making a python package
+
+Change Log
+==========
+
+0.0.1 (10/12/2022)
+-------------------
+- First Release
