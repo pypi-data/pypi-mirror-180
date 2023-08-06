@@ -1,0 +1,13 @@
+tippisell_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tippisell_api/exceptions.py,sha256=RiXp50bzdZp7xZLBRKkSM3zBBQddDpC-zP4aMvvfTwk,106
+tippisell_api/methods.py,sha256=ZivsNLUB_TUZ179BTszvucPesnTEr2m4VsOixUszKAM,1636
+tippisell_api/models.py,sha256=KLCTyPWOBLbtR0cF-Y6eueMmE-pRa13COF_vfUn3byc,586
+tippisell_api/webhook.py,sha256=hEjQPD-HF38--5c9tj6I0tgS67MAWuTGvGShuzJr8qU,976
+tippisell_api/clients/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tippisell_api/clients/async_.py,sha256=gNuMKGXrZ3rCx9gByKWjbgJtUWOyi6EXyiRXfy0emW8,1275
+tippisell_api/clients/base.py,sha256=jq_sX5cKx-V8mEPn0TxBII3tqwbq4wbHJlIzkSvNjC4,1448
+tippisell_api/clients/sync.py,sha256=0_AXupxddKenyHaUlIAWlRYKcZ6sPC9XXVgx0eYUkdk,324
+tippisell_api-0.4.dist-info/METADATA,sha256=8HAwKEsMkSQdTYCofMJxX5bBoxCCmfOxBk4Br0LmFus,762
+tippisell_api-0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tippisell_api-0.4.dist-info/top_level.txt,sha256=HpVFmfMndi0SKp-x4N3hQQcR1BnuwhBkhMR8LMXQyV4,14
+tippisell_api-0.4.dist-info/RECORD,,
