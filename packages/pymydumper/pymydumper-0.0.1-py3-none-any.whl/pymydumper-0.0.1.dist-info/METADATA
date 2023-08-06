@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: pymydumper
+Version: 0.0.1
+Summary: A python-based tool to easily and quickly generate logical backups from MySQL-compatible databases
+Project-URL: Documentation, https://github.com/delissonsilva/pymydumper#readme
+Project-URL: Issues, https://github.com/delissonsilva/pymydumper/issues
+Project-URL: Source, https://github.com/delissonsilva/pymydumper
+Author-email: Delisson Silva <delisonjunio@gmail.com>
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# pymydumper
+
+[![PyPI - Version](https://img.shields.io/pypi/v/testhatch.svg)](https://pypi.org/project/pymydumper)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/testhatch.svg)](https://pypi.org/project/pymydumper)
+
+-----
+
+`pymydumper` is a Python-based tool inspired by [https://github.com/mydumper/mydumper](mydumper) to easily and quickly
+create logical backups of MySQL or MariaDB databases. It's been written from the ground up to guarantee consistency and
+speed, being tested in databases over 10's of TB in size.
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install testhatch
+```
+
+## License
+
+`pymydumper` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
