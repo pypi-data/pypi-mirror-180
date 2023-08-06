@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/compos/__init__.py
+src/compos/compos.py
+src/compos/utils.py
+src/compos.egg-info/PKG-INFO
+src/compos.egg-info/SOURCES.txt
+src/compos.egg-info/dependency_links.txt
+src/compos.egg-info/requires.txt
+src/compos.egg-info/top_level.txt
