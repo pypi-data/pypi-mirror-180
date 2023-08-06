@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "tempo-random"
+version = "0.1.0"
+description = ""
+authors = ["evan <evan@pop-os.localdomain>"]
+readme = "README.md"
+packages = [{include = "tempo_random", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typer = {extras = ["all"], version = "^0.7.0"}
+
+[tool.poetry.scripts]
+tempo = "tempo_random.main:app"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest-emoji = "^0.2.0"
+pytest-clarity = "^1.0.1"
+pytest = "^7.2.0"
+ipython = "^8.6.0"
+pre-commit = "^2.20.0"
+interrogate = "^1.5.0"
+
+[tool.pytest.ini_options]
+addopts = "-rssxX -l --tb=short --strict --emoji -vvv -p no:warnings"
+xfail_strict = "True"
+markers = [
+  "smoke",
+  "fire",
+  "verify"
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
