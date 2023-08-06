@@ -1,0 +1,5 @@
+ncbi_mesh_parser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ncbi_mesh_parser/desc_parser.py,sha256=3IHgqwRxg16w4PL1oawmQ_k7f2FgEKdadku0PR2m2gc,7141
+ncbi_mesh_parser-1.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+ncbi_mesh_parser-1.0.0.dist-info/METADATA,sha256=nU5zP4-lR6uOJ5pARZ-MCSeAbZgPmFItYD6SbfiFQuY,430
+ncbi_mesh_parser-1.0.0.dist-info/RECORD,,
