@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: microhook
+Version: 0.1.0
+Summary: Send yourself Discord alerts from Python
+Home-page: https://www.github.com/tkillestein/microhook
+Author: Tom Killestein
+Author-email: thomas.killestein@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires: discord
+Requires: aiohttp
+Requires: fire
+License-File: LICENSE
+
+UNKNOWN
+

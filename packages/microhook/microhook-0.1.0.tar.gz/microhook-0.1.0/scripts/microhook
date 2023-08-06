@@ -1,0 +1,7 @@
+#!python
+import fire
+
+from microhook.microhook import MicroHook
+
+if __name__ == "__main__":
+    fire.Fire(MicroHook)
