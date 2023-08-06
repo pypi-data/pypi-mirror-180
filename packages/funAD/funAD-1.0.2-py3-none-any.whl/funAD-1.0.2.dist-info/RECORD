@@ -1,0 +1,11 @@
+funAD/__init__.py,sha256=0M-1FuojrxkXWM6lu9zbNGdSQfrEKkVeFecjxQXLfP0,215
+funAD/__main__.py,sha256=m5ZQAicE-hmD21_ueknMVGiPlnUyIgjBn5foAX2WYEQ,87
+funAD/dual_number.py,sha256=6woE9xLzX90lK6s43IPDxV_Gpllr6g1DaT2zgDhfdK0,15750
+funAD/function.py,sha256=4RORGBoFRwt7ROggY4CQ-I6HzEsN9CNsdA7GUK8O5k8,5847
+funAD/operations.py,sha256=tEh4XWrhlqIcJKKkIJrhS2daTKjbWON3mSjFigdp-8g,5124
+funAD/optimizers.py,sha256=crFDu7rSMcXruh_0OF1_wGbl_wbwA3rrEHiS1lr9-gI,7825
+funAD-1.0.2.dist-info/LICENSE,sha256=k4Txu4_a4tlrDfvBpQ0SO5PMDmoPjvsF0kHNER48JXg,1542
+funAD-1.0.2.dist-info/METADATA,sha256=nQtMx0DNFvSGUP5Yk0f-KvxMNoK1V4CURm6Zaa0KZAs,4133
+funAD-1.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+funAD-1.0.2.dist-info/top_level.txt,sha256=xJP9kUoFMWNMDdod9tnqpwrmmst1Fhahwlnguz5abD8,6
+funAD-1.0.2.dist-info/RECORD,,
