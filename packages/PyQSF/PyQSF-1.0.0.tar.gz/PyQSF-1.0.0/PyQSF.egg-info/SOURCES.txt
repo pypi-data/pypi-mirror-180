@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.cfg
+setup.py
+PyQSF/PyQSF.py
+PyQSF/__init__.py
+PyQSF.egg-info/PKG-INFO
+PyQSF.egg-info/SOURCES.txt
+PyQSF.egg-info/dependency_links.txt
+PyQSF.egg-info/top_level.txt
