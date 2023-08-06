@@ -1,0 +1,4 @@
+[console_scripts]
+SatiyaMingxiang = SatiyaMingxiang.__main__:main
+satiya-mingxiang = SatiyaMingxiang.__main__:main
+
