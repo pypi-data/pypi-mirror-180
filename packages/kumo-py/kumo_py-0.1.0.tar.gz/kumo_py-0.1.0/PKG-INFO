@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: kumo-py
+Version: 0.1.0
+Summary: A small experimental framework for exploring graph-structured data.
+Home-page: https://github.com/marcinplatek/kumo
+License: MIT
+Author: marcinplatek
+Author-email: maruplat@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pydantic (>=1.10.2,<2.0.0)
+Project-URL: Repository, https://github.com/marcinplatek/kumo
+Description-Content-Type: text/markdown
+
+Small experimental library for exploring graph-structured data.
+
+TODO: Add a description of the project.
+
