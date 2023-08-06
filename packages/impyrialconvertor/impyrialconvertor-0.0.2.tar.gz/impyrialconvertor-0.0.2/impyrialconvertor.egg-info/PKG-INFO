@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: impyrialconvertor
+Version: 0.0.2
+Summary: Converts units from different systems
+Author: Ebru Cucen
+Requires-Python: >=3.0
+License-File: LICENSE
