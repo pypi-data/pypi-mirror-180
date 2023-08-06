@@ -1,0 +1,9 @@
+nonebot_plugin_gpt/__init__.py,sha256=1biWIjtQucmanSou0c9KB3GMXFYgZ0_iojhduTdLpXk,3439
+nonebot_plugin_gpt/chatbot.py,sha256=MGKaYABAgOD3V3zn8F2z4VElsWTiaTkrQMcq2OuFtF8,6874
+nonebot_plugin_gpt/config.py,sha256=3NaRUhnIi8NbTsS9NLTvw9v_47N4PBlWQnyx0Kh2OCw,670
+nonebot_plugin_gpt/font.otf,sha256=ork-bC2wXWu79vJ9QT7HMmlzW3tnkBnIpaqWcP8P-_I,8482020
+nonebot_plugin_gpt/image.py,sha256=-TP6r4hvlDLIy0W08RMmDKQVZgSheXt7VLMkU4xcOQA,1809
+nonebot_plugin_gpt-0.1.19.dist-info/LICENSE,sha256=Do9pJIkVOeMYAJu02mXHFCPDTG0awdV4TqPZ6kneWJ8,1082
+nonebot_plugin_gpt-0.1.19.dist-info/METADATA,sha256=csi5d5Jhca5sk7FuzIbfY-DLU6fXggW3R2yP5bUliSI,6956
+nonebot_plugin_gpt-0.1.19.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+nonebot_plugin_gpt-0.1.19.dist-info/RECORD,,
