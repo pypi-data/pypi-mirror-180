@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: bookanevents
+Version: 0.0.5
+Summary: scrape the event data and compare
+Author: Sanket Sultan
+Author-email: sanketsultan1997@gmail.com
+Keywords: python,scrapping,compare,event
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# x21172617-cpp-library
