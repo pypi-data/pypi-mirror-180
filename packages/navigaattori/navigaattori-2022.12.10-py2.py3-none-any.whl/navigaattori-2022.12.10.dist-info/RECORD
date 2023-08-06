@@ -1,0 +1,12 @@
+navigaattori/__init__.py,sha256=1eDAfrJu-m38USi3G6hE2INGRKAqZs-oaBhaQOxcCl4,2278
+navigaattori/__main__.py,sha256=5PhQdS66gh88X8mfxfMzUWPQIPzh9WKUduY37t7XwEU,137
+navigaattori/api.py,sha256=stcPFYDX9LUSbeDeVvVNHgsxMN-4KsLXoK6leiaxytk,5999
+navigaattori/cli.py,sha256=EimloMnY3JIhi7p77a5YwJ_uG_nw-Eau5zUQDnYjz1M,3513
+navigaattori/fs.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+navigaattori/vcs.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+navigaattori-2022.12.10.dist-info/LICENSE,sha256=7xgn1qW4kKTaB163LiE9nqy5u7ddEv-GDesuxK-SW58,1069
+navigaattori-2022.12.10.dist-info/METADATA,sha256=9ge5Z25kibffRAwrhmA-78jarh9dvi3Z909J3wNC_PI,3156
+navigaattori-2022.12.10.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+navigaattori-2022.12.10.dist-info/entry_points.txt,sha256=twFf6xyq0dl0U0jhS69qbYIX6nBLYfZiwBdUnKn1PvM,54
+navigaattori-2022.12.10.dist-info/top_level.txt,sha256=ezy6fXsupMVmb542QF6zuJKe8_cogSditV_GO7jbuE4,13
+navigaattori-2022.12.10.dist-info/RECORD,,
