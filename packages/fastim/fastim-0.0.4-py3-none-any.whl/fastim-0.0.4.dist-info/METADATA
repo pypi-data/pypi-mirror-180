@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: fastim
+Version: 0.0.4
+Summary: fastim helps you to import all the necessary ml and dl libraries by writing 1 line Code.
+Home-page: https://github.com/imbikramsaha/fastim
+Author: Bikram Saha
+Author-email: imbikramsaha@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastai
+Requires-Dist: timm
+Requires-Dist: fastbook
+Requires-Dist: kaggle
+Requires-Dist: transformers
+Requires-Dist: pytorch-lightning
+
+# fastim
+fastim helps you to import all the necessary Machine Learning and Deep Learning libraries by writing 1 line Code.
